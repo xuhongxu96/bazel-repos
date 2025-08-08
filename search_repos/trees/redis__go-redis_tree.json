@@ -1,0 +1,744 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec25867cb7d7dc3dee6cfae6357062445d387cc2",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/ec25867cb7d7dc3dee6cfae6357062445d387cc2"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d99709e3496ed25c06f3640baa38df7804cbee2",
+    "size": 107,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/0d99709e3496ed25c06f3640baa38df7804cbee2"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "872454ff7f11c2453a68be6f1f2ac33df6d1a724",
+    "size": 695,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/872454ff7f11c2453a68be6f1f2ac33df6d1a724"
+  },
+  {
+    "path": ".prettierrc.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b7f044ad1f56bf1646588b9bd3f9715426c2906",
+    "size": 64,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/8b7f044ad1f56bf1646588b9bd3f9715426c2906"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7228a4a060c80f96ca8972c50de765950db9bc5b",
+    "size": 4459,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/7228a4a060c80f96ca8972c50de765950db9bc5b"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4967dbc5c0b1b5ea16e05b0b58bd732ca120b02",
+    "size": 1318,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/f4967dbc5c0b1b5ea16e05b0b58bd732ca120b02"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "655f16f44ff7b0fc94c23dc165aa7a2714a6c2ac",
+    "size": 1896,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/655f16f44ff7b0fc94c23dc165aa7a2714a6c2ac"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "356870b17405e28a6d3bdbe8b248015c5067f377",
+    "size": 17144,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/356870b17405e28a6d3bdbe8b248015c5067f377"
+  },
+  {
+    "path": "RELEASE-NOTES.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "478fecb2ceb1d85d875067b502cc78c41b0db7f3",
+    "size": 24610,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/478fecb2ceb1d85d875067b502cc78c41b0db7f3"
+  },
+  {
+    "path": "RELEASING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1115db4e3e57c45499472abb4ff5a3219150226d",
+    "size": 333,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/1115db4e3e57c45499472abb4ff5a3219150226d"
+  },
+  {
+    "path": "acl_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cb800bb3b5bf940dcbd5226446b1e0394573e3a",
+    "size": 2393,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/9cb800bb3b5bf940dcbd5226446b1e0394573e3a"
+  },
+  {
+    "path": "acl_commands_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a96621dbcea483dbd2af5e6563e3981ff318755f",
+    "size": 13231,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/a96621dbcea483dbd2af5e6563e3981ff318755f"
+  },
+  {
+    "path": "auth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "faa662c9450f807b7dc1b259326ebd96c10db564",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/faa662c9450f807b7dc1b259326ebd96c10db564"
+  },
+  {
+    "path": "bench_decode_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d61a901a08bfd7a52f00c585edefd6a59f62a8f1",
+    "size": 7716,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/d61a901a08bfd7a52f00c585edefd6a59f62a8f1"
+  },
+  {
+    "path": "bench_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "263216c17bc1a9bcc2aa878ab9e874e1a4217910",
+    "size": 8809,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/263216c17bc1a9bcc2aa878ab9e874e1a4217910"
+  },
+  {
+    "path": "bitmap_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4dbc862a19677476c90c26883088a403f441290f",
+    "size": 7004,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/4dbc862a19677476c90c26883088a403f441290f"
+  },
+  {
+    "path": "bitmap_commands_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3cc3205f200ead668885ed2d551edbe7ae668f2",
+    "size": 2256,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/f3cc3205f200ead668885ed2d551edbe7ae668f2"
+  },
+  {
+    "path": "cluster_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4857b01eaa5f4e1eeb215d9cbfd1015563e09bc9",
+    "size": 5842,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/4857b01eaa5f4e1eeb215d9cbfd1015563e09bc9"
+  },
+  {
+    "path": "command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3fb231b5e3f5e8c9963828e638b1b476b7144dc",
+    "size": 119495,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/d3fb231b5e3f5e8c9963828e638b1b476b7144dc"
+  },
+  {
+    "path": "command_recorder_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2251df5ef68dcb01f6afb4a3412daef58d03adc2",
+    "size": 2036,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/2251df5ef68dcb01f6afb4a3412daef58d03adc2"
+  },
+  {
+    "path": "command_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9d558cf9d144b5641c7275d340d6eb710ef4156",
+    "size": 2320,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/b9d558cf9d144b5641c7275d340d6eb710ef4156"
+  },
+  {
+    "path": "commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0358001d1f5c27f3f3016572797e2cfd8eb45c2",
+    "size": 20062,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/c0358001d1f5c27f3f3016572797e2cfd8eb45c2"
+  },
+  {
+    "path": "commands_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e1300893a7c45ad30ec4f19172ea651b3743d90",
+    "size": 250018,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/9e1300893a7c45ad30ec4f19172ea651b3743d90"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55262533a63dcccc159250a57f31bd9c9d25bdf8",
+    "size": 61,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/55262533a63dcccc159250a57f31bd9c9d25bdf8"
+  },
+  {
+    "path": "docker-compose.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d4347bf210893a18fc948de6f8d463c2fa732e8",
+    "size": 2751,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/3d4347bf210893a18fc948de6f8d463c2fa732e8"
+  },
+  {
+    "path": "dockers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4e34c817ac80c4226dc2fe587991ef039b653ba2",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/4e34c817ac80c4226dc2fe587991ef039b653ba2"
+  },
+  {
+    "path": "doctests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "36dc9cec3b86806e7866543441228efa62d7e049",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/36dc9cec3b86806e7866543441228efa62d7e049"
+  },
+  {
+    "path": "error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8013de44a10b795f79a97972fb2267aeb3997c37",
+    "size": 4296,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/8013de44a10b795f79a97972fb2267aeb3997c37"
+  },
+  {
+    "path": "error_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da9a471a28d0ff4e290ada5abb99c149eb753f21",
+    "size": 1603,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/da9a471a28d0ff4e290ada5abb99c149eb753f21"
+  },
+  {
+    "path": "example",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1c488892e6ed10b6f43fba650c4a117daa7f7015",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/1c488892e6ed10b6f43fba650c4a117daa7f7015"
+  },
+  {
+    "path": "example_instrumentation_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36234ff09e3c9997b808f4d5b49ae3baa82ef665",
+    "size": 2780,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/36234ff09e3c9997b808f4d5b49ae3baa82ef665"
+  },
+  {
+    "path": "example_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c20e8390ad4efdd0a3537f5034692d2e26136f7b",
+    "size": 14648,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/c20e8390ad4efdd0a3537f5034692d2e26136f7b"
+  },
+  {
+    "path": "export_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1b77683f38ad12516767e77797af573e281640f",
+    "size": 2354,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/c1b77683f38ad12516767e77797af573e281640f"
+  },
+  {
+    "path": "extra",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1dbcd3c29d8848bb6196beca7e4a1aa9f9af479a",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/1dbcd3c29d8848bb6196beca7e4a1aa9f9af479a"
+  },
+  {
+    "path": "fuzz",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b89a9e5dcb7248c21099f192867caa414fe654c4",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/b89a9e5dcb7248c21099f192867caa414fe654c4"
+  },
+  {
+    "path": "generic_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7100222cd8d0a17b7b983d0ecc82f47f2db425c",
+    "size": 10944,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/c7100222cd8d0a17b7b983d0ecc82f47f2db425c"
+  },
+  {
+    "path": "geo_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f047b98aaf908fdc06f126a24bb74a7dddb2cd69",
+    "size": 5034,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/f047b98aaf908fdc06f126a24bb74a7dddb2cd69"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83e8fd3d6d14124d8c711f724fe18eb1878fd5ab",
+    "size": 498,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/83e8fd3d6d14124d8c711f724fe18eb1878fd5ab"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4db68f6d4f29671a2c1879ae1eb12aef34f4253c",
+    "size": 748,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/4db68f6d4f29671a2c1879ae1eb12aef34f4253c"
+  },
+  {
+    "path": "hash_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "335cb950d98838f9611b6f65ed1f45638f506acb",
+    "size": 23019,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/335cb950d98838f9611b6f65ed1f45638f506acb"
+  },
+  {
+    "path": "helper",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2a96993557deb05529bb17d476fd68028b520ffb",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/2a96993557deb05529bb17d476fd68028b520ffb"
+  },
+  {
+    "path": "hyperloglog_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a608fae26c90e62232adc408f082aa6bc6f6909",
+    "size": 1052,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/5a608fae26c90e62232adc408f082aa6bc6f6909"
+  },
+  {
+    "path": "internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dd2859cf161fb1c9b9438d2c35964ba79316acb0",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/dd2859cf161fb1c9b9438d2c35964ba79316acb0"
+  },
+  {
+    "path": "internal_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a655cff0ac0bbff29e96d43f653d877ded5bb7a",
+    "size": 8692,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/4a655cff0ac0bbff29e96d43f653d877ded5bb7a"
+  },
+  {
+    "path": "iterator.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd1a82851384d6f4060c41f1ca28c31936347c24",
+    "size": 1279,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/cd1a82851384d6f4060c41f1ca28c31936347c24"
+  },
+  {
+    "path": "iterator_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4f04647666dbc36156885228404f28bbb8387f0",
+    "size": 4015,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/c4f04647666dbc36156885228404f28bbb8387f0"
+  },
+  {
+    "path": "json.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3cadf4b7951a4c92c91f6c66f39ba2faa2cec32",
+    "size": 18550,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/b3cadf4b7951a4c92c91f6c66f39ba2faa2cec32"
+  },
+  {
+    "path": "json_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9139be3ac31bf288b6bcd9968ba297457d09cf36",
+    "size": 30769,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/9139be3ac31bf288b6bcd9968ba297457d09cf36"
+  },
+  {
+    "path": "list_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24a0de081000ecc5aa1f5afd55af2da440e88251",
+    "size": 8963,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/24a0de081000ecc5aa1f5afd55af2da440e88251"
+  },
+  {
+    "path": "main_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29e6014b9b32d6a2b068148627979e3d4bfb36ea",
+    "size": 9112,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/29e6014b9b32d6a2b068148627979e3d4bfb36ea"
+  },
+  {
+    "path": "monitor_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebb784853b41a4ece2b40dbd1e2b3e2c5a1a21e0",
+    "size": 3038,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/ebb784853b41a4ece2b40dbd1e2b3e2c5a1a21e0"
+  },
+  {
+    "path": "options.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ce807e4c660f20c69b88daa31b5c77b97b09275",
+    "size": 17705,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/2ce807e4c660f20c69b88daa31b5c77b97b09275"
+  },
+  {
+    "path": "options_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8de4986b3cb7beca0cc2453c38c95703a408c92c",
+    "size": 8352,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/8de4986b3cb7beca0cc2453c38c95703a408c92c"
+  },
+  {
+    "path": "osscluster.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83817ca374bcf2acc660510bb12d609eeb14a152",
+    "size": 47898,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/83817ca374bcf2acc660510bb12d609eeb14a152"
+  },
+  {
+    "path": "osscluster_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b13f8e7e9dfdf8deea93d65c85416b9618cee56b",
+    "size": 2357,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/b13f8e7e9dfdf8deea93d65c85416b9618cee56b"
+  },
+  {
+    "path": "osscluster_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c7f40a5f86d928817dd127ad3329457b01c4bc1",
+    "size": 46613,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/2c7f40a5f86d928817dd127ad3329457b01c4bc1"
+  },
+  {
+    "path": "pipeline.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c114205c05f316effee78339a0fbe2b788e2ed0",
+    "size": 3299,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/1c114205c05f316effee78339a0fbe2b788e2ed0"
+  },
+  {
+    "path": "pipeline_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f73447293d449616667a09f57f287b6829b2c60",
+    "size": 2560,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/7f73447293d449616667a09f57f287b6829b2c60"
+  },
+  {
+    "path": "pool_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1864e886a9f2e52501084028ec6d8806023dbd19",
+    "size": 3289,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/1864e886a9f2e52501084028ec6d8806023dbd19"
+  },
+  {
+    "path": "probabilistic.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c26e7cadbde520ea467cd59553a8f1688cc1582d",
+    "size": 47264,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/c26e7cadbde520ea467cd59553a8f1688cc1582d"
+  },
+  {
+    "path": "probabilistic_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a3f1a15c8445c2f847ad9bf7e9364fa89649293",
+    "size": 29261,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/0a3f1a15c8445c2f847ad9bf7e9364fa89649293"
+  },
+  {
+    "path": "pubsub.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a0e7a81e1d534ac6c1b1cd5f6866ecc106eca1d",
+    "size": 16810,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/2a0e7a81e1d534ac6c1b1cd5f6866ecc106eca1d"
+  },
+  {
+    "path": "pubsub_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28622aa6bc3d125651633f1019f7583033cf3978",
+    "size": 2247,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/28622aa6bc3d125651633f1019f7583033cf3978"
+  },
+  {
+    "path": "pubsub_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f3f460452bb57f0a611a19f561e2b64096435a3",
+    "size": 15507,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/2f3f460452bb57f0a611a19f561e2b64096435a3"
+  },
+  {
+    "path": "race_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c7bd763c622b5604b23157880e83e4f71794b5f",
+    "size": 7102,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/2c7bd763c622b5604b23157880e83e4f71794b5f"
+  },
+  {
+    "path": "redis.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43ab401f3d2372d4d9b0570b5e6dc7357b5f3082",
+    "size": 25361,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/43ab401f3d2372d4d9b0570b5e6dc7357b5f3082"
+  },
+  {
+    "path": "redis_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6aaa0a7547edd17ee8d04af56dc75b1acc8cd5c9",
+    "size": 24530,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/6aaa0a7547edd17ee8d04af56dc75b1acc8cd5c9"
+  },
+  {
+    "path": "result.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e0d0a13484ee1a71d2ad18536a82bc072a244e9",
+    "size": 5389,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/3e0d0a13484ee1a71d2ad18536a82bc072a244e9"
+  },
+  {
+    "path": "ring.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0859b6419548b98e0aea3ee757ad6ec8b1c4315",
+    "size": 22678,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/b0859b6419548b98e0aea3ee757ad6ec8b1c4315"
+  },
+  {
+    "path": "ring_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d35c0c5eabd53bbb9b1ec4aad17d2c016cc10db1",
+    "size": 24079,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/d35c0c5eabd53bbb9b1ec4aad17d2c016cc10db1"
+  },
+  {
+    "path": "script.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "626ab03bb56140cf639fab4423626cfafbf1eda5",
+    "size": 2428,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/626ab03bb56140cf639fab4423626cfafbf1eda5"
+  },
+  {
+    "path": "scripting_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af9c3397bfe55f2caca342e0288b4cae5d3dc739",
+    "size": 6872,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/af9c3397bfe55f2caca342e0288b4cae5d3dc739"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e10353c7106c7b2aac536299533c1ba3da7ddcaa",
+    "url": "https://api.github.com/repos/redis/go-redis/git/trees/e10353c7106c7b2aac536299533c1ba3da7ddcaa"
+  },
+  {
+    "path": "search_builders.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91f0634041e355b3ed1326ffd1d0379666499861",
+    "size": 24219,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/91f0634041e355b3ed1326ffd1d0379666499861"
+  },
+  {
+    "path": "search_builders_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd8b6ff7c483a1b822ea3ed3661639db008ad31c",
+    "size": 24670,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/bd8b6ff7c483a1b822ea3ed3661639db008ad31c"
+  },
+  {
+    "path": "search_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0ca1bfede31a5ee54245b75b6675c1eb3fdf691",
+    "size": 68091,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/f0ca1bfede31a5ee54245b75b6675c1eb3fdf691"
+  },
+  {
+    "path": "search_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9895a111c5c30caa2b9a26514be4b1748f323e3",
+    "size": 157601,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/f9895a111c5c30caa2b9a26514be4b1748f323e3"
+  },
+  {
+    "path": "sentinel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c90d5b7876389fb9ad9dfc0b01a1e51e9557785",
+    "size": 30848,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/9c90d5b7876389fb9ad9dfc0b01a1e51e9557785"
+  },
+  {
+    "path": "sentinel_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfeb28161fd2aab80371b8c8fafaff55b123015c",
+    "size": 21493,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/bfeb28161fd2aab80371b8c8fafaff55b123015c"
+  },
+  {
+    "path": "set_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79efa6e4052444bcc3d438ad8d01fcd818714577",
+    "size": 6684,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/79efa6e4052444bcc3d438ad8d01fcd818714577"
+  },
+  {
+    "path": "sortedset_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e48e736714c5badc95d91c14fab0031aaf87be44",
+    "size": 23139,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/e48e736714c5badc95d91c14fab0031aaf87be44"
+  },
+  {
+    "path": "stream_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b84e00fdd449264c7977ccd26991681f1e112c2",
+    "size": 15594,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/4b84e00fdd449264c7977ccd26991681f1e112c2"
+  },
+  {
+    "path": "string_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eff5880dcde6726e32d0fac32e04cff366998666",
+    "size": 9737,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/eff5880dcde6726e32d0fac32e04cff366998666"
+  },
+  {
+    "path": "timeseries_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82d8cdfcf576304c8fd96025ab8b8bdb1fb34618",
+    "size": 30565,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/82d8cdfcf576304c8fd96025ab8b8bdb1fb34618"
+  },
+  {
+    "path": "timeseries_commands_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdef3e6029e29c45b2d5dd4cdee74a09c4d53fdf",
+    "size": 62574,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/fdef3e6029e29c45b2d5dd4cdee74a09c4d53fdf"
+  },
+  {
+    "path": "tx.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0daa222e352a40bd5d8d65f4e70d17bb4019ec0b",
+    "size": 4049,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/0daa222e352a40bd5d8d65f4e70d17bb4019ec0b"
+  },
+  {
+    "path": "tx_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1146d46de9a801f6938018e7290b2845e831239c",
+    "size": 3443,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/1146d46de9a801f6938018e7290b2845e831239c"
+  },
+  {
+    "path": "unit_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3b4647934e810ce216da6a4f26be90d9fcf2107",
+    "size": 558,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/e3b4647934e810ce216da6a4f26be90d9fcf2107"
+  },
+  {
+    "path": "universal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d51b928e668f920901b99c81732912690aff1d2",
+    "size": 9702,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/9d51b928e668f920901b99c81732912690aff1d2"
+  },
+  {
+    "path": "universal_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f965253fc11ba8a54e8c3f9221b949f4ac7a85cc",
+    "size": 3427,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/f965253fc11ba8a54e8c3f9221b949f4ac7a85cc"
+  },
+  {
+    "path": "vectorset_commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96be1af1108517f06222da2783049aa1a14bab45",
+    "size": 10215,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/96be1af1108517f06222da2783049aa1a14bab45"
+  },
+  {
+    "path": "vectorset_commands_integration_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "147fb84c5e095dea56be84af786fdeb0482e8b29",
+    "size": 8870,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/147fb84c5e095dea56be84af786fdeb0482e8b29"
+  },
+  {
+    "path": "vectorset_commands_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dbc8a78f9c6e650ae99c46653d2733e4c476473",
+    "size": 14368,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/9dbc8a78f9c6e650ae99c46653d2733e4c476473"
+  },
+  {
+    "path": "version.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a528cad612dfe3036d785c15d9293b297876461",
+    "size": 101,
+    "url": "https://api.github.com/repos/redis/go-redis/git/blobs/4a528cad612dfe3036d785c15d9293b297876461"
+  }
+]

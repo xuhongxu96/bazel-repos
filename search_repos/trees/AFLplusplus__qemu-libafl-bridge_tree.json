@@ -1,0 +1,946 @@
+[
+  {
+    "path": ".b4-config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b9b2fe290f92f784cd3229616e2cbf0e8550e02",
+    "size": 615,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/4b9b2fe290f92f784cd3229616e2cbf0e8550e02"
+  },
+  {
+    "path": ".dir-locals.el",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ac0cfc6f0d60a95a5c3557497835c80e52a1696",
+    "size": 75,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/3ac0cfc6f0d60a95a5c3557497835c80e52a1696"
+  },
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a04cb9054cb0d91b8ba04e9a294b029faec41cb2",
+    "size": 1204,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/a04cb9054cb0d91b8ba04e9a294b029faec41cb2"
+  },
+  {
+    "path": ".exrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37755ede83a0d5b4fe22114f624a140d2bcaefff",
+    "size": 220,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/37755ede83a0d5b4fe22114f624a140d2bcaefff"
+  },
+  {
+    "path": ".gdbinit",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d322fca93d69db8aed473e5b286ed6372ad9b8b",
+    "size": 326,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/9d322fca93d69db8aed473e5b286ed6372ad9b8b"
+  },
+  {
+    "path": ".git-blame-ignore-revs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93718ef4255ac935f3e6b9cec37afb25f0e60572",
+    "size": 474,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/93718ef4255ac935f3e6b9cec37afb25f0e60572"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ce7a19581a9307ff6178f718eb5386a4470b518",
+    "size": 226,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/9ce7a19581a9307ff6178f718eb5386a4470b518"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5bf9342c5d58578535af522422ebd7b5d634a1d4",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/5bf9342c5d58578535af522422ebd7b5d634a1d4"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a737cf0db9b6694dffaa8b1bbb8799dddb1514c8",
+    "size": 279,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/a737cf0db9b6694dffaa8b1bbb8799dddb1514c8"
+  },
+  {
+    "path": ".gitlab-ci.d",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2dbf2d5d3d444977453e3045b068300e83e7cd9",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/a2dbf2d5d3d444977453e3045b068300e83e7cd9"
+  },
+  {
+    "path": ".gitlab-ci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9762dda2ee3a207eb7cc88c2415e4dfe21e1ab27",
+    "size": 884,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/9762dda2ee3a207eb7cc88c2415e4dfe21e1ab27"
+  },
+  {
+    "path": ".gitlab",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e51883252a552954916f0c9214451a905b13c7df",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/e51883252a552954916f0c9214451a905b13c7df"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73cae4cd4da004a029d13302e424799b97b4cedc",
+    "size": 1554,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/73cae4cd4da004a029d13302e424799b97b4cedc"
+  },
+  {
+    "path": ".gitpublish",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a13f8c7c0ecd94969ff76bad4d2534981689aa8f",
+    "size": 1650,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/a13f8c7c0ecd94969ff76bad4d2534981689aa8f"
+  },
+  {
+    "path": ".mailmap",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33fe75400fe34dde2a13811216aecb147814f2ff",
+    "size": 11605,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/33fe75400fe34dde2a13811216aecb147814f2ff"
+  },
+  {
+    "path": ".patchew.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b78262ce58dcd1f660bb68dd394b9e3072206a8",
+    "size": 8458,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/1b78262ce58dcd1f660bb68dd394b9e3072206a8"
+  },
+  {
+    "path": ".readthedocs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b262469ce6931e177fd203579d14a2c091253e1",
+    "size": 621,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/0b262469ce6931e177fd203579d14a2c091253e1"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fc1ae0cf22d3f91e5ddcd6bf321ec739631aa30",
+    "size": 7798,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/8fc1ae0cf22d3f91e5ddcd6bf321ec739631aa30"
+  },
+  {
+    "path": "COPYING",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00ccfbb62888382f5a4ce201a9d5e4bf85bbc373",
+    "size": 17992,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/00ccfbb62888382f5a4ce201a9d5e4bf85bbc373"
+  },
+  {
+    "path": "COPYING.LIB",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4362b49151d7b34ef83b3067a8f9c9f877d72a0e",
+    "size": 26530,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/4362b49151d7b34ef83b3067a8f9c9f877d72a0e"
+  },
+  {
+    "path": "Kconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63ca7f46df788144864b26ef5a64b29ad6547435",
+    "size": 152,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/63ca7f46df788144864b26ef5a64b29ad6547435"
+  },
+  {
+    "path": "Kconfig.host",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "933425c74b473df0cd424eb49e1ca7cf78afdda6",
+    "size": 775,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/933425c74b473df0cd424eb49e1ca7cf78afdda6"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f19b018486a61aedb113b79f47d04845249666ae",
+    "size": 1177,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/f19b018486a61aedb113b79f47d04845249666ae"
+  },
+  {
+    "path": "MAINTAINERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d54b5578f88392667fd9713fc0eb6a7406d445fa",
+    "size": 104322,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/d54b5578f88392667fd9713fc0eb6a7406d445fa"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c92a3cf7857a51dbda71bf6b4bbe35564e8fc67f",
+    "size": 11648,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/c92a3cf7857a51dbda71bf6b4bbe35564e8fc67f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f0c45d13584e3ae1f664b01ff69c472354d1777",
+    "size": 800,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/2f0c45d13584e3ae1f664b01ff69c472354d1777"
+  },
+  {
+    "path": "README.qemu.rst",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b120a1f69e93f62ceeee86aceef617ad58e7aad1",
+    "size": 5579,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/b120a1f69e93f62ceeee86aceef617ad58e7aad1"
+  },
+  {
+    "path": "VERSION",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a13e7b9c87e49f1dfb6e21b7aba96d80d1b6ed82",
+    "size": 7,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/a13e7b9c87e49f1dfb6e21b7aba96d80d1b6ed82"
+  },
+  {
+    "path": "accel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b6010bd5613e20885598545d9bc75aadbcf493b6",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/b6010bd5613e20885598545d9bc75aadbcf493b6"
+  },
+  {
+    "path": "audio",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff278042d803d260659846dad2fa8296b301214e",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/ff278042d803d260659846dad2fa8296b301214e"
+  },
+  {
+    "path": "authz",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3e55fbfaed5d7c9f6380417f66572775cfe7cbac",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/3e55fbfaed5d7c9f6380417f66572775cfe7cbac"
+  },
+  {
+    "path": "backends",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8cf20ab4b31f1b31c95016416ed503316c4ecf60",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/8cf20ab4b31f1b31c95016416ed503316c4ecf60"
+  },
+  {
+    "path": "block.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ece805e41498c0383d0a4542cf143cba274a92a",
+    "size": 254630,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/0ece805e41498c0383d0a4542cf143cba274a92a"
+  },
+  {
+    "path": "block",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "22771d6559448f47c1645140649b58feec813c4e",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/22771d6559448f47c1645140649b58feec813c4e"
+  },
+  {
+    "path": "blockdev-nbd.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e3e634b87d1bac4125aa012146201ffd7478f5d",
+    "size": 9618,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/1e3e634b87d1bac4125aa012146201ffd7478f5d"
+  },
+  {
+    "path": "blockdev.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d1f27cfff6d52e64e76b83b20e00f11f6272215",
+    "size": 112691,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/1d1f27cfff6d52e64e76b83b20e00f11f6272215"
+  },
+  {
+    "path": "blockjob.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32007f31a9d924d2b208d8154a218ba60e232118",
+    "size": 17839,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/32007f31a9d924d2b208d8154a218ba60e232118"
+  },
+  {
+    "path": "bsd-user",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7662b6b2af2361bd5c9b173539ebd6666c771ffb",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/7662b6b2af2361bd5c9b173539ebd6666c771ffb"
+  },
+  {
+    "path": "chardev",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "24ff6ef57a0a4e7fcde06215d3ffacacd10405c3",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/24ff6ef57a0a4e7fcde06215d3ffacacd10405c3"
+  },
+  {
+    "path": "common-user",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac42f7885ec9bf06ee1f9a38f6f8747d34248d0a",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/ac42f7885ec9bf06ee1f9a38f6f8747d34248d0a"
+  },
+  {
+    "path": "configs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0d685357c74f7290bfb8b193cdf26c0f3f3e4052",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/0d685357c74f7290bfb8b193cdf26c0f3f3e4052"
+  },
+  {
+    "path": "configure",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "446bd383159502a4c0cb5d83619b8141b7330163",
+    "size": 61335,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/446bd383159502a4c0cb5d83619b8141b7330163"
+  },
+  {
+    "path": "contrib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "be82e94410af863e7ccfd0e91b8d91cb905d1535",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/be82e94410af863e7ccfd0e91b8d91cb905d1535"
+  },
+  {
+    "path": "cpu-common.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef5757d23bf6874d935a6c275abdc1a03aabfa15",
+    "size": 12761,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/ef5757d23bf6874d935a6c275abdc1a03aabfa15"
+  },
+  {
+    "path": "cpu-target.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cae77374b3849f7ba7f55a24943c4e5dfbbc453e",
+    "size": 4339,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/cae77374b3849f7ba7f55a24943c4e5dfbbc453e"
+  },
+  {
+    "path": "crypto",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "134b4d9ed246b3273e9a3ed1d6e4220bc84c4b9b",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/134b4d9ed246b3273e9a3ed1d6e4220bc84c4b9b"
+  },
+  {
+    "path": "disas",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4fe8bc8be7026bb1b20a3230b65c79a36d5785a5",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/4fe8bc8be7026bb1b20a3230b65c79a36d5785a5"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70d67ba40635fd956ea7e277e6a3ec7d50e6d935",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/70d67ba40635fd956ea7e277e6a3ec7d50e6d935"
+  },
+  {
+    "path": "dtc",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b6910bec11614980a21e46fbccc35934b671bd81"
+  },
+  {
+    "path": "dump",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ed2e4a12b069a2e8b5e2368888ff78f394914d9e",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/ed2e4a12b069a2e8b5e2368888ff78f394914d9e"
+  },
+  {
+    "path": "ebpf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b66192fbdac44fb4b57c03285ef5ed83ff726cff",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/b66192fbdac44fb4b57c03285ef5ed83ff726cff"
+  },
+  {
+    "path": "event-loop-base.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cfb1c94962a5397893fb42f83f84a5c6b5fd190",
+    "size": 4137,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/0cfb1c94962a5397893fb42f83f84a5c6b5fd190"
+  },
+  {
+    "path": "fpu",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bd933ed7d3e20d025d0a3052518f0ccb5042321",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/1bd933ed7d3e20d025d0a3052518f0ccb5042321"
+  },
+  {
+    "path": "fsdev",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "633d924a96637064869ec5ce15c54afd39cf4fe1",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/633d924a96637064869ec5ce15c54afd39cf4fe1"
+  },
+  {
+    "path": "gdb-xml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "145f2ae941bb73bce325af4909baeacb29a83a0d",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/145f2ae941bb73bce325af4909baeacb29a83a0d"
+  },
+  {
+    "path": "gdbstub",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca124cdca31c49ad8a3c282d4baba8c22fccd3cd",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/ca124cdca31c49ad8a3c282d4baba8c22fccd3cd"
+  },
+  {
+    "path": "gitdm.config",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9db43ca1422b7247116b4356370f22c6cce5d7a7",
+    "size": 1976,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/9db43ca1422b7247116b4356370f22c6cce5d7a7"
+  },
+  {
+    "path": "hmp-commands-info.hx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c59cd6637b97e6b0333386ee6ac7b7b47ab1af02",
+    "size": 22076,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/c59cd6637b97e6b0333386ee6ac7b7b47ab1af02"
+  },
+  {
+    "path": "hmp-commands.hx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06746f0afc3761a2744ce1bd729ab33554382d8c",
+    "size": 55526,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/06746f0afc3761a2744ce1bd729ab33554382d8c"
+  },
+  {
+    "path": "host",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d3928938d1534fceb76cca4f012ef1877984d4c3",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/d3928938d1534fceb76cca4f012ef1877984d4c3"
+  },
+  {
+    "path": "hw",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d2dea65759afa90172a82c85413ca9f7201520a6",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/d2dea65759afa90172a82c85413ca9f7201520a6"
+  },
+  {
+    "path": "include",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3955b9ba4d5a799a95c9466129729ef1ee07eb79",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/3955b9ba4d5a799a95c9466129729ef1ee07eb79"
+  },
+  {
+    "path": "io",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "29049b472845525a4a62324e8ce419a8fa9ec0b8",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/29049b472845525a4a62324e8ce419a8fa9ec0b8"
+  },
+  {
+    "path": "iothread.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "589bcd35523f89423f1ad3d3e7ce6398762a8c22",
+    "size": 11851,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/589bcd35523f89423f1ad3d3e7ce6398762a8c22"
+  },
+  {
+    "path": "job-qmp.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e26fa899f6b64fd20cd6486571cd0650d243c81",
+    "size": 4357,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/9e26fa899f6b64fd20cd6486571cd0650d243c81"
+  },
+  {
+    "path": "job.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0653bc2ba699302f0fa680dd9fb543dbd33ed528",
+    "size": 32467,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/0653bc2ba699302f0fa680dd9fb543dbd33ed528"
+  },
+  {
+    "path": "libafl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80c4c34650ba2639b8f4c24ebf2eadc11e9db237",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/80c4c34650ba2639b8f4c24ebf2eadc11e9db237"
+  },
+  {
+    "path": "libdecnumber",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d380bcffba7a18dd8d180ece3b89469580837ab3",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/d380bcffba7a18dd8d180ece3b89469580837ab3"
+  },
+  {
+    "path": "linker_interceptor++.py",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "7ca4cd2569bff9337a111570aa13756dbb8ae932",
+    "size": 21,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/7ca4cd2569bff9337a111570aa13756dbb8ae932"
+  },
+  {
+    "path": "linker_interceptor.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0dc593cc5c595cfed7ed1ae2eb28ea2c7f928fb2",
+    "size": 3093,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/0dc593cc5c595cfed7ed1ae2eb28ea2c7f928fb2"
+  },
+  {
+    "path": "linux-headers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d95bb31641e3130916edc647ea4eeb3470852b76",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/d95bb31641e3130916edc647ea4eeb3470852b76"
+  },
+  {
+    "path": "linux-user",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a04181dbcba4ad1beeb36cc0e6aa65d93c94a3b",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/3a04181dbcba4ad1beeb36cc0e6aa65d93c94a3b"
+  },
+  {
+    "path": "meson",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3a9b285a55b91b53b2acda987192274352ecb5be"
+  },
+  {
+    "path": "meson.build",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fcd97b9374c72fe9c74b0356571aa5f79daf508",
+    "size": 181384,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/1fcd97b9374c72fe9c74b0356571aa5f79daf508"
+  },
+  {
+    "path": "meson_options.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39cb8458118a85200920b17376ca0e3a8fa792c4",
+    "size": 19877,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/39cb8458118a85200920b17376ca0e3a8fa792c4"
+  },
+  {
+    "path": "migration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3e34bec87b2f68807d158b05c2f84155becba625",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/3e34bec87b2f68807d158b05c2f84155becba625"
+  },
+  {
+    "path": "module-common.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a3cb8aeab35b78e7d2874a06ad54c7cd6395707",
+    "size": 113,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/0a3cb8aeab35b78e7d2874a06ad54c7cd6395707"
+  },
+  {
+    "path": "monitor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6a0eeb38d9faaa0690bfda9ef4b28329f0fb6ea",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/d6a0eeb38d9faaa0690bfda9ef4b28329f0fb6ea"
+  },
+  {
+    "path": "nbd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "93ee1f7e7878d2ff92fc47616d650c27b80228bb",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/93ee1f7e7878d2ff92fc47616d650c27b80228bb"
+  },
+  {
+    "path": "net",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0fe2849f2a82004273703551f7a0ff347808543",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/b0fe2849f2a82004273703551f7a0ff347808543"
+  },
+  {
+    "path": "os-posix.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52925c23d3d9160ff6680421f90b299195d0dc38",
+    "size": 8614,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/52925c23d3d9160ff6680421f90b299195d0dc38"
+  },
+  {
+    "path": "os-win32.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1bff808b4bc6b65683f3511753515f22ff9a147",
+    "size": 2057,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/c1bff808b4bc6b65683f3511753515f22ff9a147"
+  },
+  {
+    "path": "page-target.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "321e43d06f4887dd2a535fc56bc1d3090dc0e942",
+    "size": 551,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/321e43d06f4887dd2a535fc56bc1d3090dc0e942"
+  },
+  {
+    "path": "page-vary-common.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab77672dd41294f246133c67d222367bf22bffb8",
+    "size": 1643,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/ab77672dd41294f246133c67d222367bf22bffb8"
+  },
+  {
+    "path": "page-vary-target.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f81144cda8afffb24a88727d7bcf5279f430e6c",
+    "size": 1190,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/3f81144cda8afffb24a88727d7bcf5279f430e6c"
+  },
+  {
+    "path": "pc-bios",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "981d3c515eb56c4338456487d4c9c0e06eeaba0a",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/981d3c515eb56c4338456487d4c9c0e06eeaba0a"
+  },
+  {
+    "path": "plugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7cae68a2cfc412649c0c19a1e13f39be4459693b",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/7cae68a2cfc412649c0c19a1e13f39be4459693b"
+  },
+  {
+    "path": "po",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8102d68f774938d1181715d113d50ad58f3e7c84",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/8102d68f774938d1181715d113d50ad58f3e7c84"
+  },
+  {
+    "path": "python",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7931993e4fb6efac39060f07ba1f1f313ec2dfb7",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/7931993e4fb6efac39060f07ba1f1f313ec2dfb7"
+  },
+  {
+    "path": "pythondeps.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c03c9df81b5c31a8eaf8e85a72953a7d6dd8c3cf",
+    "size": 1700,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/c03c9df81b5c31a8eaf8e85a72953a7d6dd8c3cf"
+  },
+  {
+    "path": "qapi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67e99ad62a5efcfa91d26f4a14ee2e68093ac523",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/67e99ad62a5efcfa91d26f4a14ee2e68093ac523"
+  },
+  {
+    "path": "qemu-bridge-helper.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a26e1663f02de3c99198df6e2080d52c051f1ac1",
+    "size": 12152,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/a26e1663f02de3c99198df6e2080d52c051f1ac1"
+  },
+  {
+    "path": "qemu-edid.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92e1a660a76bae7cccb60811bbdd9a1c95918222",
+    "size": 3813,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/92e1a660a76bae7cccb60811bbdd9a1c95918222"
+  },
+  {
+    "path": "qemu-img-cmds.hx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9dd70a89209ad270aad6659877688d6c5966cdd",
+    "size": 5731,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/c9dd70a89209ad270aad6659877688d6c5966cdd"
+  },
+  {
+    "path": "qemu-img.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2044c22a4c7d30b69fcb8e6346c176f8fe787550",
+    "size": 169886,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/2044c22a4c7d30b69fcb8e6346c176f8fe787550"
+  },
+  {
+    "path": "qemu-io-cmds.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13e03301624bc1dc11c6d8cc4fbaf664f37b8ec1",
+    "size": 75171,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/13e03301624bc1dc11c6d8cc4fbaf664f37b8ec1"
+  },
+  {
+    "path": "qemu-io.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f2de83f3c802333381853755b6bc79cf6a9c719",
+    "size": 18125,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/8f2de83f3c802333381853755b6bc79cf6a9c719"
+  },
+  {
+    "path": "qemu-keymap.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6707067fea0427eacfeffc284fcf8659773f35a9",
+    "size": 7778,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/6707067fea0427eacfeffc284fcf8659773f35a9"
+  },
+  {
+    "path": "qemu-nbd.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed5895861bb075bdf1d66c7488c83c48a1425bec",
+    "size": 41607,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/ed5895861bb075bdf1d66c7488c83c48a1425bec"
+  },
+  {
+    "path": "qemu-options.hx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc694a99a30a7d1ef1567005f59ece88d13f3455",
+    "size": 271219,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/dc694a99a30a7d1ef1567005f59ece88d13f3455"
+  },
+  {
+    "path": "qemu.nsi",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b186f223e14078e8600b20732c0e082fb77badc6",
+    "size": 6939,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/b186f223e14078e8600b20732c0e082fb77badc6"
+  },
+  {
+    "path": "qemu.sasl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "851acc7e8f255bc55ea539ba9582dec960021a1f",
+    "size": 1694,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/851acc7e8f255bc55ea539ba9582dec960021a1f"
+  },
+  {
+    "path": "qga",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4b53781ae13fd2d8708ddc9572fda67d10176e36",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/4b53781ae13fd2d8708ddc9572fda67d10176e36"
+  },
+  {
+    "path": "qobject",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "403e7b88622552ab1cf26b2f37bbb15ab7aeb9b5",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/403e7b88622552ab1cf26b2f37bbb15ab7aeb9b5"
+  },
+  {
+    "path": "qom",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "74e972f445744a79d958649311ce64400752bfe1",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/74e972f445744a79d958649311ce64400752bfe1"
+  },
+  {
+    "path": "replay",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ef763ee186b32fb327c9c9ea03c504af1d15c790",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/ef763ee186b32fb327c9c9ea03c504af1d15c790"
+  },
+  {
+    "path": "replication.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4acd3f8004cbbee3b38f6bc3f09b86bf6d2126e0",
+    "size": 2530,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/4acd3f8004cbbee3b38f6bc3f09b86bf6d2126e0"
+  },
+  {
+    "path": "roms",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b7bce20d6887d18d6da34a5d869c31930bec716d",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/b7bce20d6887d18d6da34a5d869c31930bec716d"
+  },
+  {
+    "path": "rust",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "476f892df8f5312e8b3f4fca9627b491ee83c8c6",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/476f892df8f5312e8b3f4fca9627b491ee83c8c6"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "402951dc00cc038e569fa69e9e0db9378e2d1b82",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/402951dc00cc038e569fa69e9e0db9378e2d1b82"
+  },
+  {
+    "path": "scsi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00e11a2a2008128189fdd58a4d35df9aa9e5c60e",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/00e11a2a2008128189fdd58a4d35df9aa9e5c60e"
+  },
+  {
+    "path": "semihosting",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f37c5212e3e77b51fac9e85eddb467f720d7c871",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/f37c5212e3e77b51fac9e85eddb467f720d7c871"
+  },
+  {
+    "path": "stats",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cb9047455a78c7ffdb31f6f076c7d8608b9884d7",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/cb9047455a78c7ffdb31f6f076c7d8608b9884d7"
+  },
+  {
+    "path": "storage-daemon",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b49da075521b0c26043e22a4b2e5d2ce936f0e11",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/b49da075521b0c26043e22a4b2e5d2ce936f0e11"
+  },
+  {
+    "path": "stubs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eda0150401b9c3dcfc5f771f11636f1f80aef6b4",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/eda0150401b9c3dcfc5f771f11636f1f80aef6b4"
+  },
+  {
+    "path": "subprojects",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b42b137e4f61c8657ac321541f472998234f6e82",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/b42b137e4f61c8657ac321541f472998234f6e82"
+  },
+  {
+    "path": "system",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c1e4e0e7f0e6dae593b5491decc7572446fac79d",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/c1e4e0e7f0e6dae593b5491decc7572446fac79d"
+  },
+  {
+    "path": "target",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f032293d087c7e8d767ff879ac07145c9b584e36",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/f032293d087c7e8d767ff879ac07145c9b584e36"
+  },
+  {
+    "path": "tcg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8b56a38a8d22c978e35f69c45b1e2aa38b3524b3",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/8b56a38a8d22c978e35f69c45b1e2aa38b3524b3"
+  },
+  {
+    "path": "tests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a4da924ad29f9f41890106de12cdf0d1b9ba186",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/1a4da924ad29f9f41890106de12cdf0d1b9ba186"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b90a64dcd77a0fa6a69a5c4fe2062b8ac65b17d1",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/b90a64dcd77a0fa6a69a5c4fe2062b8ac65b17d1"
+  },
+  {
+    "path": "trace-events",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ec8a6c7202296d093eddc948860ba6f1bd522fe",
+    "size": 1694,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/3ec8a6c7202296d093eddc948860ba6f1bd522fe"
+  },
+  {
+    "path": "trace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "189e3c8a8ab910cf3fcde4973484d9ef75c45118",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/189e3c8a8ab910cf3fcde4973484d9ef75c45118"
+  },
+  {
+    "path": "ui",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f2ccbba58f0a55870a1faaf37d93f33a7a0f732",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/8f2ccbba58f0a55870a1faaf37d93f33a7a0f732"
+  },
+  {
+    "path": "util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9140e07c56d1d531a6413c3e8f3eb13117f1bdb9",
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/trees/9140e07c56d1d531a6413c3e8f3eb13117f1bdb9"
+  },
+  {
+    "path": "version.rc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0daadbf9812e35cb3d94a6c556ceff7d55b567a2",
+    "size": 867,
+    "url": "https://api.github.com/repos/AFLplusplus/qemu-libafl-bridge/git/blobs/0daadbf9812e35cb3d94a6c556ceff7d55b567a2"
+  }
+]

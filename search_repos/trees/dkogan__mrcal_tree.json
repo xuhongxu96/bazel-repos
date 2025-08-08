@@ -1,0 +1,908 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "676c4f92893aec54e6718eea80c65006b0bcc816",
+    "size": 356,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/676c4f92893aec54e6718eea80c65006b0bcc816"
+  },
+  {
+    "path": "CHOLMOD_factorization.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1f78fb06eb9fda1eeece90814903b5ccaceed04",
+    "size": 2820,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/d1f78fb06eb9fda1eeece90814903b5ccaceed04"
+  },
+  {
+    "path": "CHOLMOD_factorization_rcond.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "644e4d634ae4382fe4a025e8739991626faf99a6",
+    "size": 838,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/644e4d634ae4382fe4a025e8739991626faf99a6"
+  },
+  {
+    "path": "CHOLMOD_factorization_solve_xt_JtJ_bt.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25f7c861edf7d5485687858cb104e0e322c42bfb",
+    "size": 3121,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/25f7c861edf7d5485687858cb104e0e322c42bfb"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1cdf9ff5ffdfc4c5aab3c5da8a9eda5fc707c45e",
+    "size": 11452,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/1cdf9ff5ffdfc4c5aab3c5da8a9eda5fc707c45e"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da37a64f332002ad8f711b7000d41817b3a59d58",
+    "size": 4716,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/da37a64f332002ad8f711b7000d41817b3a59d58"
+  },
+  {
+    "path": "Makefile.doc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82f7caab32ef641a4c409383b10018449553bead",
+    "size": 5606,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/82f7caab32ef641a4c409383b10018449553bead"
+  },
+  {
+    "path": "Makefile.tests",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6143256c36c9e2935b30055149baf95a412c7ec",
+    "size": 6717,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/b6143256c36c9e2935b30055149baf95a412c7ec"
+  },
+  {
+    "path": "README.org",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b9bb4d96e6753940ec805cd68d9784b4c4c1d63",
+    "size": 1202,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/9b9bb4d96e6753940ec805cd68d9784b4c4c1d63"
+  },
+  {
+    "path": "_rectification_maps.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc0795d61c09e19f09b214f41eabbf2e1eaa06e1",
+    "size": 182,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/cc0795d61c09e19f09b214f41eabbf2e1eaa06e1"
+  },
+  {
+    "path": "_rectified_resolution.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb005330eb864a5fc0e28ef500398e9357a05002",
+    "size": 182,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/eb005330eb864a5fc0e28ef500398e9357a05002"
+  },
+  {
+    "path": "_rectified_system.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05358a002cce28ef30f92e7fb12c23f4114041b1",
+    "size": 167,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/05358a002cce28ef30f92e7fb12c23f4114041b1"
+  },
+  {
+    "path": "analyses",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2aad18218f709aef67ee02c79401091117d74729",
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/trees/2aad18218f709aef67ee02c79401091117d74729"
+  },
+  {
+    "path": "autodiff.hh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6f217354c9de45493d50f776082fe2151330a1d",
+    "size": 16556,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/b6f217354c9de45493d50f776082fe2151330a1d"
+  },
+  {
+    "path": "basic-geometry.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0983a19a75fdf7b0505bc6511af872eb8d2bf99",
+    "size": 4213,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/d0983a19a75fdf7b0505bc6511af872eb8d2bf99"
+  },
+  {
+    "path": "cahvore.cc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4ba29b1022253e7fdb647989bba431fe7bf7d82",
+    "size": 11731,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/c4ba29b1022253e7fdb647989bba431fe7bf7d82"
+  },
+  {
+    "path": "cahvore.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b6d3ddaddd868c98c943a585dcfe353dd8bfff8",
+    "size": 905,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/4b6d3ddaddd868c98c943a585dcfe353dd8bfff8"
+  },
+  {
+    "path": "cameramodel-parser.re",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37b8d1cf0d4f6a4f7b74d5ffa0e2bd3093941f32",
+    "size": 18392,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/37b8d1cf0d4f6a4f7b74d5ffa0e2bd3093941f32"
+  },
+  {
+    "path": "choose_mrbuild.mk",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baf68b2a801beeeb5cee2932c226526ad5d25aa1",
+    "size": 821,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/baf68b2a801beeeb5cee2932c226526ad5d25aa1"
+  },
+  {
+    "path": "corresponding_icam_extrinsics.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1844d6654ece7b19d4f54d16eb1310d3a13349d9",
+    "size": 3267,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/1844d6654ece7b19d4f54d16eb1310d3a13349d9"
+  },
+  {
+    "path": "decode_observation_indices_points_triangulated.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c6f33c3ac5c7be188a4e0d2800914db1d1ef006",
+    "size": 27,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/2c6f33c3ac5c7be188a4e0d2800914db1d1ef006"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea268e7c023cdc635cb689bf93757ee663b6c75e",
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/trees/ea268e7c023cdc635cb689bf93757ee663b6c75e"
+  },
+  {
+    "path": "drt_ref_refperturbed__dbpacked.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fcb802f44719a94e15a3fb0735f8fb09c3ce1bb3",
+    "size": 11,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/fcb802f44719a94e15a3fb0735f8fb09c3ce1bb3"
+  },
+  {
+    "path": "elas-genpywrap.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a446d6f1fddd9ee02565bc9918b90c08c5d98a04",
+    "size": 8344,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/a446d6f1fddd9ee02565bc9918b90c08c5d98a04"
+  },
+  {
+    "path": "footer.pod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd7995d9533f8117730a3baf8202f82a96e15ef2",
+    "size": 435,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/cd7995d9533f8117730a3baf8202f82a96e15ef2"
+  },
+  {
+    "path": "heap.cc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e2113506d494f879af4db2632b385bf7601f8b3",
+    "size": 1246,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/0e2113506d494f879af4db2632b385bf7601f8b3"
+  },
+  {
+    "path": "heap.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e00c0702661f78fc912ec2495cf787827794c801",
+    "size": 1121,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/e00c0702661f78fc912ec2495cf787827794c801"
+  },
+  {
+    "path": "image.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be2f9318f7bc8b0fbaaa7cdfecdebf05798a4087",
+    "size": 11778,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/be2f9318f7bc8b0fbaaa7cdfecdebf05798a4087"
+  },
+  {
+    "path": "knots_for_splined_models.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "540c3ea5b5dc6a0d2c2dc539c0da8622fd185708",
+    "size": 1480,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/540c3ea5b5dc6a0d2c2dc539c0da8622fd185708"
+  },
+  {
+    "path": "lensmodel_metadata_and_config.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "544cb13dcd5f92f34a466a26db9b75531c2a78af",
+    "size": 962,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/544cb13dcd5f92f34a466a26db9b75531c2a78af"
+  },
+  {
+    "path": "lensmodel_num_params.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec59e3f266fe0d3431393dc2846a5647bbfb617b",
+    "size": 1432,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/ec59e3f266fe0d3431393dc2846a5647bbfb617b"
+  },
+  {
+    "path": "load_image.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1a12c7a0eec38fb87d7cc4d657b858d35633284",
+    "size": 1637,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/b1a12c7a0eec38fb87d7cc4d657b858d35633284"
+  },
+  {
+    "path": "measurement_index_boards.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab10d4c23e1c521430a22211e7818da0ca2c92b3",
+    "size": 2884,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/ab10d4c23e1c521430a22211e7818da0ca2c92b3"
+  },
+  {
+    "path": "measurement_index_points.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f7b5e374cbaa4e01ddc886b69a3738b47e913d1",
+    "size": 2894,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/4f7b5e374cbaa4e01ddc886b69a3738b47e913d1"
+  },
+  {
+    "path": "measurement_index_points_triangulated.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c6f33c3ac5c7be188a4e0d2800914db1d1ef006",
+    "size": 27,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/2c6f33c3ac5c7be188a4e0d2800914db1d1ef006"
+  },
+  {
+    "path": "measurement_index_regularization.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a1a300163ff90f2e57a7e2b328bb6fac1fffb0f",
+    "size": 2797,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/5a1a300163ff90f2e57a7e2b328bb6fac1fffb0f"
+  },
+  {
+    "path": "minimath",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41044554f7b46d10ecb66e767838b5f947b48f77",
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/trees/41044554f7b46d10ecb66e767838b5f947b48f77"
+  },
+  {
+    "path": "mrcal-calibrate-cameras",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7980a89109cbeba3dfc4f5afa4684dff21528dc9",
+    "size": 44535,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/7980a89109cbeba3dfc4f5afa4684dff21528dc9"
+  },
+  {
+    "path": "mrcal-convert-lensmodel",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "879ecef438f4d6d02a7543c7b56feb7c936a381c",
+    "size": 39384,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/879ecef438f4d6d02a7543c7b56feb7c936a381c"
+  },
+  {
+    "path": "mrcal-cull-corners",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2894a7fa15bffe437e443a9cdf488a16a12bf4ee",
+    "size": 11552,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/2894a7fa15bffe437e443a9cdf488a16a12bf4ee"
+  },
+  {
+    "path": "mrcal-from-cahvor",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ddf36757091d54eda7e047b96d2ac454c2ca3e17",
+    "size": 3722,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/ddf36757091d54eda7e047b96d2ac454c2ca3e17"
+  },
+  {
+    "path": "mrcal-from-kalibr",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "00f68d418c9755d6e608cd6b814516f4f248fc66",
+    "size": 14176,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/00f68d418c9755d6e608cd6b814516f4f248fc66"
+  },
+  {
+    "path": "mrcal-from-ros",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e256fb35fbf930f06d502fd1799eaf88630a897f",
+    "size": 4181,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/e256fb35fbf930f06d502fd1799eaf88630a897f"
+  },
+  {
+    "path": "mrcal-genpywrap.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d69e4f56bff00fdba93beedac17009e14a40e29c",
+    "size": 44462,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/d69e4f56bff00fdba93beedac17009e14a40e29c"
+  },
+  {
+    "path": "mrcal-graft-models",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "aac40c97b0d1c46a17f295be9ece4929eedd5da2",
+    "size": 9611,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/aac40c97b0d1c46a17f295be9ece4929eedd5da2"
+  },
+  {
+    "path": "mrcal-image.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "310720a74b63b92c98fc60765024a0b1a091b4ff",
+    "size": 6160,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/310720a74b63b92c98fc60765024a0b1a091b4ff"
+  },
+  {
+    "path": "mrcal-internal.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ec6acadb5fc92ec264fb460e1fcc882dd3face3",
+    "size": 5062,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/4ec6acadb5fc92ec264fb460e1fcc882dd3face3"
+  },
+  {
+    "path": "mrcal-is-within-valid-intrinsics-region",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1325cb44ad60912981511e336fb572eeb1781bfb",
+    "size": 4758,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/1325cb44ad60912981511e336fb572eeb1781bfb"
+  },
+  {
+    "path": "mrcal-pick-features",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "dcb7eb4c81941102f9c18005d591d8699e0b7e79",
+    "size": 53333,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/dcb7eb4c81941102f9c18005d591d8699e0b7e79"
+  },
+  {
+    "path": "mrcal-pywrap.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba685fad9c7dd4e6782c489c1e8e8fbb610f23a5",
+    "size": 190617,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/ba685fad9c7dd4e6782c489c1e8e8fbb610f23a5"
+  },
+  {
+    "path": "mrcal-reproject-image",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8daf2512d508283dc26b69282560f997130a2d90",
+    "size": 26020,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/8daf2512d508283dc26b69282560f997130a2d90"
+  },
+  {
+    "path": "mrcal-reproject-points",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "727e69484c0889c524ca6344f6a3b4f25e424377",
+    "size": 3441,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/727e69484c0889c524ca6344f6a3b4f25e424377"
+  },
+  {
+    "path": "mrcal-show-distortion-off-pinhole",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c789206500385843511e221dfe487ba114f24409",
+    "size": 6560,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/c789206500385843511e221dfe487ba114f24409"
+  },
+  {
+    "path": "mrcal-show-geometry",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "17b8d255b4a90a9d7370a849d0ca00ccf2ba0caf",
+    "size": 7632,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/17b8d255b4a90a9d7370a849d0ca00ccf2ba0caf"
+  },
+  {
+    "path": "mrcal-show-projection-diff",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "280e72a0e6d809b005602b1caa082494d13a49b1",
+    "size": 22600,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/280e72a0e6d809b005602b1caa082494d13a49b1"
+  },
+  {
+    "path": "mrcal-show-projection-uncertainty",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c2200c177d87872de93d535484ae05f15e88a35a",
+    "size": 9969,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/c2200c177d87872de93d535484ae05f15e88a35a"
+  },
+  {
+    "path": "mrcal-show-residuals",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ead36971716737e6f1ff061465b47f77cf4826b0",
+    "size": 11573,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/ead36971716737e6f1ff061465b47f77cf4826b0"
+  },
+  {
+    "path": "mrcal-show-residuals-board-observation",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7db25716521e2ba698b47578cb6dbddee64e5156",
+    "size": 14717,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/7db25716521e2ba698b47578cb6dbddee64e5156"
+  },
+  {
+    "path": "mrcal-show-splined-model-correction",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8391575e9b67d716fcbd999fc9ed472562e49efc",
+    "size": 11107,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/8391575e9b67d716fcbd999fc9ed472562e49efc"
+  },
+  {
+    "path": "mrcal-show-stereo-pair-diff",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d379338fdcd25e3654dcc4a7d69646592cdad86b",
+    "size": 9025,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/d379338fdcd25e3654dcc4a7d69646592cdad86b"
+  },
+  {
+    "path": "mrcal-show-valid-intrinsics-region",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7ee4aada6441510c075877aee3409d78f61a7458",
+    "size": 6959,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/7ee4aada6441510c075877aee3409d78f61a7458"
+  },
+  {
+    "path": "mrcal-stereo",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "07c2c08669880de565d715c76fc895071ffb6b30",
+    "size": 58275,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/07c2c08669880de565d715c76fc895071ffb6b30"
+  },
+  {
+    "path": "mrcal-to-cahvor",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "46fe5d87d55e34d4d628a681956ac6c0030c398d",
+    "size": 3592,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/46fe5d87d55e34d4d628a681956ac6c0030c398d"
+  },
+  {
+    "path": "mrcal-to-kalibr",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7f7a6fa98429cc6dc0a1e374c653ffc189e23b85",
+    "size": 7617,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/7f7a6fa98429cc6dc0a1e374c653ffc189e23b85"
+  },
+  {
+    "path": "mrcal-triangulate",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "38ceeae778ed4974fe9747830f7804e8d06b322c",
+    "size": 37971,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/38ceeae778ed4974fe9747830f7804e8d06b322c"
+  },
+  {
+    "path": "mrcal-types.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "890f89c01f7f77b18ba57d9f91bc13b5811643d7",
+    "size": 18798,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/890f89c01f7f77b18ba57d9f91bc13b5811643d7"
+  },
+  {
+    "path": "mrcal.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d0f43f4d0345bbeb0a071690b4f30bc6ef11328",
+    "size": 303479,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/0d0f43f4d0345bbeb0a071690b4f30bc6ef11328"
+  },
+  {
+    "path": "mrcal.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1eef334a79597cfae61f8111ab97ca04f02b83b2",
+    "size": 45683,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/1eef334a79597cfae61f8111ab97ca04f02b83b2"
+  },
+  {
+    "path": "mrcal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cda24fc99456df60759d935e29492a0bcb3a4f38",
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/trees/cda24fc99456df60759d935e29492a0bcb3a4f38"
+  },
+  {
+    "path": "num_intrinsics_optimization_params.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09f82ce1e345c680f5f0c5a8cae496764f3fb542",
+    "size": 2529,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/09f82ce1e345c680f5f0c5a8cae496764f3fb542"
+  },
+  {
+    "path": "num_measurements.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8eae9a3c990d7a1d879be650db6c70a59751d70e",
+    "size": 2624,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/8eae9a3c990d7a1d879be650db6c70a59751d70e"
+  },
+  {
+    "path": "num_measurements_boards.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54fca042b2a98695c37a73b00617be712b109af2",
+    "size": 2768,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/54fca042b2a98695c37a73b00617be712b109af2"
+  },
+  {
+    "path": "num_measurements_points.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6cedecd2c99261f70a128e175b16a72d46204ee",
+    "size": 2754,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/f6cedecd2c99261f70a128e175b16a72d46204ee"
+  },
+  {
+    "path": "num_measurements_points_triangulated.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c6f33c3ac5c7be188a4e0d2800914db1d1ef006",
+    "size": 27,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/2c6f33c3ac5c7be188a4e0d2800914db1d1ef006"
+  },
+  {
+    "path": "num_measurements_regularization.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ca4c7b818dc422d8037165d2313947a0dd44577",
+    "size": 2814,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/4ca4c7b818dc422d8037165d2313947a0dd44577"
+  },
+  {
+    "path": "num_states.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "397b65c90a470d66f806b51d4367384c08d44a0b",
+    "size": 2325,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/397b65c90a470d66f806b51d4367384c08d44a0b"
+  },
+  {
+    "path": "num_states_calobject_warp.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "599845ccccc33adc67dd57dd61edd1d582e5f9c2",
+    "size": 2858,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/599845ccccc33adc67dd57dd61edd1d582e5f9c2"
+  },
+  {
+    "path": "num_states_extrinsics.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3c17ee47a1f2b7172f1720b7288040ec2d2cb38",
+    "size": 3090,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/d3c17ee47a1f2b7172f1720b7288040ec2d2cb38"
+  },
+  {
+    "path": "num_states_frames.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d1c23b0108da412f968d80980b5468b3099801f",
+    "size": 2908,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/7d1c23b0108da412f968d80980b5468b3099801f"
+  },
+  {
+    "path": "num_states_intrinsics.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcd57b7a7a3239f42d54c0223d97749bebf4cf52",
+    "size": 3383,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/bcd57b7a7a3239f42d54c0223d97749bebf4cf52"
+  },
+  {
+    "path": "num_states_points.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62986a4175c37235f8e35f4c6585f1c0c18a3449",
+    "size": 2608,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/62986a4175c37235f8e35f4c6585f1c0c18a3449"
+  },
+  {
+    "path": "opencv.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e751f611b13da2158e0c1b2bde66f9afc6fb9d9",
+    "size": 7719,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/3e751f611b13da2158e0c1b2bde66f9afc6fb9d9"
+  },
+  {
+    "path": "optimize.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ab253ae47f04e656427f79df89f4c18f697e446",
+    "size": 10431,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/4ab253ae47f04e656427f79df89f4c18f697e446"
+  },
+  {
+    "path": "optimizer_callback.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd9053ec6c9253d27216050af3bd55828771bf50",
+    "size": 3998,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/cd9053ec6c9253d27216050af3bd55828771bf50"
+  },
+  {
+    "path": "pack_state.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f4d448ab3874e10724bcaff7a0f5a1557622005",
+    "size": 2906,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/7f4d448ab3874e10724bcaff7a0f5a1557622005"
+  },
+  {
+    "path": "packaging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56f44ea100fbfce907c9444290284913ace78048",
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/trees/56f44ea100fbfce907c9444290284913ace78048"
+  },
+  {
+    "path": "poseutils-genpywrap.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "71c6abf43d54e47df7226b542df68edd80a7f808",
+    "size": 41962,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/71c6abf43d54e47df7226b542df68edd80a7f808"
+  },
+  {
+    "path": "poseutils-opencv.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0df80b52a7342aee3a63bbd8a5423d230115b92",
+    "size": 6838,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/a0df80b52a7342aee3a63bbd8a5423d230115b92"
+  },
+  {
+    "path": "poseutils-uses-autodiff.cc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2510dd26e06faa2c9e8c02d51103bbd398aff9fe",
+    "size": 30380,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/2510dd26e06faa2c9e8c02d51103bbd398aff9fe"
+  },
+  {
+    "path": "poseutils.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "deb3503e7cf42afeb53f4a9ce8e3396b1261d3b6",
+    "size": 63507,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/deb3503e7cf42afeb53f4a9ce8e3396b1261d3b6"
+  },
+  {
+    "path": "poseutils.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d633731941948809a8056c41702bc418716aaa0",
+    "size": 32078,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/4d633731941948809a8056c41702bc418716aaa0"
+  },
+  {
+    "path": "save_image.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "511d9897d7036437eecbcf46ecdbfb07bf47162b",
+    "size": 1042,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/511d9897d7036437eecbcf46ecdbfb07bf47162b"
+  },
+  {
+    "path": "scales.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14ed88ab382b0e66c669d5bfd0f0afb370f154ab",
+    "size": 2032,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/14ed88ab382b0e66c669d5bfd0f0afb370f154ab"
+  },
+  {
+    "path": "state_index_calobject_warp.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d0c62a2f95d9203f6958cde517b664e925217f5",
+    "size": 2866,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/3d0c62a2f95d9203f6958cde517b664e925217f5"
+  },
+  {
+    "path": "state_index_extrinsics.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95cbdd72119eb2d483d3cfc06d83c3f5fbb45753",
+    "size": 3295,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/95cbdd72119eb2d483d3cfc06d83c3f5fbb45753"
+  },
+  {
+    "path": "state_index_frames.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7a17c2fa8370aacc9f1c8ab402d5276f2f04b14",
+    "size": 3052,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/f7a17c2fa8370aacc9f1c8ab402d5276f2f04b14"
+  },
+  {
+    "path": "state_index_intrinsics.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9037377bb3f82b9fdb6a3deec311ac6c557a962b",
+    "size": 3379,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/9037377bb3f82b9fdb6a3deec311ac6c557a962b"
+  },
+  {
+    "path": "state_index_points.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b21d864e450479e7ccbc41ba9b2e7250e8013dd",
+    "size": 2767,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/0b21d864e450479e7ccbc41ba9b2e7250e8013dd"
+  },
+  {
+    "path": "stereo-matching-libelas.cc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cbccd74f7423d81958b9cb63f30140ada24ff19",
+    "size": 3903,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/3cbccd74f7423d81958b9cb63f30140ada24ff19"
+  },
+  {
+    "path": "stereo-matching-libelas.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "411ced024690e08faebccfc8a3f6e8cbbaa18b2a",
+    "size": 2321,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/411ced024690e08faebccfc8a3f6e8cbbaa18b2a"
+  },
+  {
+    "path": "stereo.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ec8e354799313f579dc0d899d18e7ab85587640",
+    "size": 42564,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/3ec8e354799313f579dc0d899d18e7ab85587640"
+  },
+  {
+    "path": "stereo.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "793523ab9854ae882d81f34091f53c7b9b2b6bd8",
+    "size": 6050,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/793523ab9854ae882d81f34091f53c7b9b2b6bd8"
+  },
+  {
+    "path": "strides.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c8ebf27f29be0c71a42a1780e7d4a7913b08a40",
+    "size": 1865,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/2c8ebf27f29be0c71a42a1780e7d4a7913b08a40"
+  },
+  {
+    "path": "supported_lensmodels.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ee426f71f2b051214e1a99c2ea9f1694cda5400",
+    "size": 900,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/2ee426f71f2b051214e1a99c2ea9f1694cda5400"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2dab04ee6b47021547e3136d8278abbbf4afbdb9",
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/trees/2dab04ee6b47021547e3136d8278abbbf4afbdb9"
+  },
+  {
+    "path": "traverse-sensor-links.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43fa2dbecc6de4ee66137a95c9a3da8f7f78a894",
+    "size": 4939,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/43fa2dbecc6de4ee66137a95c9a3da8f7f78a894"
+  },
+  {
+    "path": "traverse_sensor_links.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ddd8524ae86cbaebb9b56ea7ddd86ce3cd17de86",
+    "size": 2437,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/ddd8524ae86cbaebb9b56ea7ddd86ce3cd17de86"
+  },
+  {
+    "path": "triangulation-genpywrap.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f60dcf6cbc6f0a32398ed05ec93832646c06f862",
+    "size": 10810,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/f60dcf6cbc6f0a32398ed05ec93832646c06f862"
+  },
+  {
+    "path": "triangulation.cc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a1bcccadf595d76f8e791e2231fd2a6aea6aa37",
+    "size": 37070,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/0a1bcccadf595d76f8e791e2231fd2a6aea6aa37"
+  },
+  {
+    "path": "triangulation.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb685f9500060ce414d0a27d990be7018b39666e",
+    "size": 6916,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/cb685f9500060ce414d0a27d990be7018b39666e"
+  },
+  {
+    "path": "uncertainty.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f93ff36f697ce2d209d5d0d3b1086d083c932cf8",
+    "size": 49343,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/f93ff36f697ce2d209d5d0d3b1086d083c932cf8"
+  },
+  {
+    "path": "unpack_state.docstring",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71f1122731d84ae690a83221ecd0d5e0e6f4a66e",
+    "size": 2882,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/71f1122731d84ae690a83221ecd0d5e0e6f4a66e"
+  },
+  {
+    "path": "util.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd151891efbad96425da11cb90eadef27df79f5c",
+    "size": 436,
+    "url": "https://api.github.com/repos/dkogan/mrcal/git/blobs/bd151891efbad96425da11cb90eadef27df79f5c"
+  }
+]

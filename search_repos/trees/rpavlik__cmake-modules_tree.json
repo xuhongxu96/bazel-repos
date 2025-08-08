@@ -1,0 +1,1586 @@
+[
+  {
+    "path": ".cmake-format.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a9db45570a437059f0512104135c3e31bde199e",
+    "size": 238,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/1a9db45570a437059f0512104135c3e31bde199e"
+  },
+  {
+    "path": ".cmake-format.json.license",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b86a25f7096ffa88d29af7ce12b24b61ecde0a41",
+    "size": 70,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b86a25f7096ffa88d29af7ce12b24b61ecde0a41"
+  },
+  {
+    "path": ".git-blame-ignore-revs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38b477caaef5aa6c4c084069cc1d93d674186c05",
+    "size": 515,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/38b477caaef5aa6c4c084069cc1d93d674186c05"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ad0c49ed88afd9231a465962bad9e5911696c6a",
+    "size": 441,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/6ad0c49ed88afd9231a465962bad9e5911696c6a"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2ec81613ee77229a842dee5f123cb9a45bc36db",
+    "size": 105,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/c2ec81613ee77229a842dee5f123cb9a45bc36db"
+  },
+  {
+    "path": ".mailmap",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "563aa8396bcfa95a5f6f9eae75b7684ffd36c1e5",
+    "size": 486,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/563aa8396bcfa95a5f6f9eae75b7684ffd36c1e5"
+  },
+  {
+    "path": ".reuse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "12d75cff4dcb28a6cab4249e968e3f23282dd209",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/12d75cff4dcb28a6cab4249e968e3f23282dd209"
+  },
+  {
+    "path": "AboutTheseModules.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f9b4f0893e42388a27d126111ba9929887a60f9",
+    "size": 1734,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/9f9b4f0893e42388a27d126111ba9929887a60f9"
+  },
+  {
+    "path": "BoostTestTargets.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "583af374468443e8176e1dbed96cfa7a4fab817f",
+    "size": 7790,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/583af374468443e8176e1dbed96cfa7a4fab817f"
+  },
+  {
+    "path": "BoostTestTargetsDynamic.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8d3152ab829c86effe2ea09bf1b02a9ca67a8cf",
+    "size": 511,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/c8d3152ab829c86effe2ea09bf1b02a9ca67a8cf"
+  },
+  {
+    "path": "BoostTestTargetsIncluded.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3fc1f8057b87ddf40ed4ee50afd2684e3d38aa7",
+    "size": 494,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/a3fc1f8057b87ddf40ed4ee50afd2684e3d38aa7"
+  },
+  {
+    "path": "BoostTestTargetsStatic.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4be7332c22bc6dba013ba28f2d11758e045bcda5",
+    "size": 481,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4be7332c22bc6dba013ba28f2d11758e045bcda5"
+  },
+  {
+    "path": "BundleOSGPlugins.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abea18c0e99edc986f1a127abaff9ce1610d2c1e",
+    "size": 3020,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/abea18c0e99edc986f1a127abaff9ce1610d2c1e"
+  },
+  {
+    "path": "BundleOSGRuntime.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13e459b4d3f960e025a645f26ccfa3e82ce224bc",
+    "size": 3372,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/13e459b4d3f960e025a645f26ccfa3e82ce224bc"
+  },
+  {
+    "path": "BundleVRJ22Runtime.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "877ba208a8616fa33fa626334e8339ccdec59280",
+    "size": 2849,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/877ba208a8616fa33fa626334e8339ccdec59280"
+  },
+  {
+    "path": "BundleVRJ30Runtime.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c83cbaf6bcf196e29cd206cfdfce7b892372707",
+    "size": 2986,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4c83cbaf6bcf196e29cd206cfdfce7b892372707"
+  },
+  {
+    "path": "CheckMacHIDAPI.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1612e89d2c749199cf2e5e3c952fe896825786c",
+    "size": 2286,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b1612e89d2c749199cf2e5e3c952fe896825786c"
+  },
+  {
+    "path": "CheckMacHIDAPI.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d72dbbbdcdb363b4b7eeca9fbfc65b926d9ea43e",
+    "size": 1221,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/d72dbbbdcdb363b4b7eeca9fbfc65b926d9ea43e"
+  },
+  {
+    "path": "CheckVersion.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe605815ffbc0e8c04b28e7a9cff2964e3f08c5e",
+    "size": 1348,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/fe605815ffbc0e8c04b28e7a9cff2964e3f08c5e"
+  },
+  {
+    "path": "CleanDirectoryList.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d123b81d46ae02d497e5ab54604c5866b6cea8c8",
+    "size": 1292,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/d123b81d46ae02d497e5ab54604c5866b6cea8c8"
+  },
+  {
+    "path": "CleanLibraryList.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8247ca58fa3058dc5de76d5e845f71f2eceb4d21",
+    "size": 2689,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/8247ca58fa3058dc5de76d5e845f71f2eceb4d21"
+  },
+  {
+    "path": "CompatibilityVersionFile-BASIC.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12d82902e839f0f69ef28903169df7858115ca97",
+    "size": 2743,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/12d82902e839f0f69ef28903169df7858115ca97"
+  },
+  {
+    "path": "CompatibilityVersionFile-CXX_ABI.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f09043d6a77251de65460a60196a2ec50f719b82",
+    "size": 1014,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/f09043d6a77251de65460a60196a2ec50f719b82"
+  },
+  {
+    "path": "CompatibilityVersionFile-CXX_ABI.cmake.in.license",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8072bd9e48466da6ba768f8b15170af8f09c4c6b",
+    "size": 2181,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/8072bd9e48466da6ba768f8b15170af8f09c4c6b"
+  },
+  {
+    "path": "CompatibilityVersionFile-CXX_LAYOUT.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f98a084c2ed0a1d88ecfb4eaa1ec6b02eeb30a2",
+    "size": 394,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/8f98a084c2ed0a1d88ecfb4eaa1ec6b02eeb30a2"
+  },
+  {
+    "path": "CompatibilityVersionFile-CXX_LAYOUT.cmake.in.license",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8072bd9e48466da6ba768f8b15170af8f09c4c6b",
+    "size": 2181,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/8072bd9e48466da6ba768f8b15170af8f09c4c6b"
+  },
+  {
+    "path": "CompatibilityVersionFile-C_ABI.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "656e90ffad6876de461df8afc2177d9bad7ca75c",
+    "size": 599,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/656e90ffad6876de461df8afc2177d9bad7ca75c"
+  },
+  {
+    "path": "CompatibilityVersionFile-C_ABI.cmake.in.license",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8072bd9e48466da6ba768f8b15170af8f09c4c6b",
+    "size": 2181,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/8072bd9e48466da6ba768f8b15170af8f09c4c6b"
+  },
+  {
+    "path": "CopyImportedTarget.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "517ab9f867f466c59b59b573575c31f7b27f3f0a",
+    "size": 1140,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/517ab9f867f466c59b59b573575c31f7b27f3f0a"
+  },
+  {
+    "path": "CopyResourcesToBuildTree.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e83c87076fdaffdaa5c1ba030704c9c36f12be0",
+    "size": 2494,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/9e83c87076fdaffdaa5c1ba030704c9c36f12be0"
+  },
+  {
+    "path": "CppcheckTargets.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96f57b7bb0281174efd538d93f5f0c957acc8250",
+    "size": 7184,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/96f57b7bb0281174efd538d93f5f0c957acc8250"
+  },
+  {
+    "path": "CreateDashboardScripts.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b26cda52d54c87537214eb50a2f5ba2f97db2148",
+    "size": 6440,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b26cda52d54c87537214eb50a2f5ba2f97db2148"
+  },
+  {
+    "path": "CreateImportedTarget.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ab974454e907bc1afcbe66730758b7f4e73dd7e",
+    "size": 1943,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/6ab974454e907bc1afcbe66730758b7f4e73dd7e"
+  },
+  {
+    "path": "CreateLaunchers.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b29b165d578fd641ecf1b740891b18fd68dacb9d",
+    "size": 14395,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b29b165d578fd641ecf1b740891b18fd68dacb9d"
+  },
+  {
+    "path": "DashboardScript.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52e6b22ba0a396dfeb514fedd27f2d59e0fef670",
+    "size": 4614,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/52e6b22ba0a396dfeb514fedd27f2d59e0fef670"
+  },
+  {
+    "path": "DoxygenTargets.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a22e2794d554055a4a17cd89c87d3219fd5427bf",
+    "size": 9097,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/a22e2794d554055a4a17cd89c87d3219fd5427bf"
+  },
+  {
+    "path": "DoxygenTargets.doxyfile.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20d17bbb5efe1dc7038561f21a8e2da4826db0b5",
+    "size": 838,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/20d17bbb5efe1dc7038561f21a8e2da4826db0b5"
+  },
+  {
+    "path": "EnableExtraCompilerWarnings.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "589406239546cbddbc3381cf031efee14fe3e871",
+    "size": 4471,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/589406239546cbddbc3381cf031efee14fe3e871"
+  },
+  {
+    "path": "EnableProfiling.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "077031178c24ad19f1bf29980ae4e27c1a7834ba",
+    "size": 1466,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/077031178c24ad19f1bf29980ae4e27c1a7834ba"
+  },
+  {
+    "path": "FileCopyTargets.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f89c6eef55b511e3cc859260ecd63ea4872cde6a",
+    "size": 3055,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/f89c6eef55b511e3cc859260ecd63ea4872cde6a"
+  },
+  {
+    "path": "FindALUT.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a23395518b1b96ad19a48e829f8869f4528941f",
+    "size": 3439,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/3a23395518b1b96ad19a48e829f8869f4528941f"
+  },
+  {
+    "path": "FindAdrienne.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68dbbdc67ab42029b3633458364c6280c24cfbc6",
+    "size": 5749,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/68dbbdc67ab42029b3633458364c6280c24cfbc6"
+  },
+  {
+    "path": "FindBluez.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9defaf82b25737015a2d4f9a41039a34c8765ab5",
+    "size": 1794,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/9defaf82b25737015a2d4f9a41039a34c8765ab5"
+  },
+  {
+    "path": "FindCPPDOM.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c022c0cbf512da10e1b2ac74772b97ccf8446e64",
+    "size": 5753,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/c022c0cbf512da10e1b2ac74772b97ccf8446e64"
+  },
+  {
+    "path": "FindCXXGSL.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13c1857e96f3667ebc5d763eeae1516e15f8cf98",
+    "size": 2082,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/13c1857e96f3667ebc5d763eeae1516e15f8cf98"
+  },
+  {
+    "path": "FindColibriApi.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1452eb95ab17612340d8ef072f7d89c8a4736a5",
+    "size": 3112,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/a1452eb95ab17612340d8ef072f7d89c8a4736a5"
+  },
+  {
+    "path": "FindDCubed.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b8fd52d8bbe2e715a0a39a971aaf16d42ef503d",
+    "size": 4892,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/0b8fd52d8bbe2e715a0a39a971aaf16d42ef503d"
+  },
+  {
+    "path": "FindDirectShow.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5882e074314be86399dfa1ae53418fee269a8d7a",
+    "size": 5676,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/5882e074314be86399dfa1ae53418fee269a8d7a"
+  },
+  {
+    "path": "FindDirectX.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e98278c23066066bd00940df59f1ac74800a81b2",
+    "size": 7680,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/e98278c23066066bd00940df59f1ac74800a81b2"
+  },
+  {
+    "path": "FindEGL.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bc836ff821a4706c07a0681f2bac162eda21397",
+    "size": 6386,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/7bc836ff821a4706c07a0681f2bac162eda21397"
+  },
+  {
+    "path": "FindFlagpoll.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d60fc1f096c019d9107aa83d967ddcda2a1f6a9b",
+    "size": 4463,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/d60fc1f096c019d9107aa83d967ddcda2a1f6a9b"
+  },
+  {
+    "path": "FindGDB.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47693febfe1dfe8a49b7b663609f0beaf4c337a3",
+    "size": 1609,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/47693febfe1dfe8a49b7b663609f0beaf4c337a3"
+  },
+  {
+    "path": "FindGHOST.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea2247d9b9c31cbedbfad134fadbd91f301bc479",
+    "size": 2137,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/ea2247d9b9c31cbedbfad134fadbd91f301bc479"
+  },
+  {
+    "path": "FindGLEW.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67e24f7769fb23766700fb4f387fcb74b56d4f7c",
+    "size": 4906,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/67e24f7769fb23766700fb4f387fcb74b56d4f7c"
+  },
+  {
+    "path": "FindGLM.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "479df403a6ad70c48a4a8ccfcbb2d328b7ee9501",
+    "size": 3592,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/479df403a6ad70c48a4a8ccfcbb2d328b7ee9501"
+  },
+  {
+    "path": "FindGLUI.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73ec19228a124427127265ba969a51865b91c95a",
+    "size": 3213,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/73ec19228a124427127265ba969a51865b91c95a"
+  },
+  {
+    "path": "FindGLUT.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ff947bd0bd0c479e8e56fa532e1e50f00da0f94",
+    "size": 4473,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/0ff947bd0bd0c479e8e56fa532e1e50f00da0f94"
+  },
+  {
+    "path": "FindGMTL.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15cdb76e0e87ab76819b335238caa12b2b872b3b",
+    "size": 3031,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/15cdb76e0e87ab76819b335238caa12b2b872b3b"
+  },
+  {
+    "path": "FindGPM.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "804fcc9ae2f3f0641ae657fc9d19288eb6447cd5",
+    "size": 1083,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/804fcc9ae2f3f0641ae657fc9d19288eb6447cd5"
+  },
+  {
+    "path": "FindGadgeteer12.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a51289bb6c3fea9938deba2bae531a815b13b3c8",
+    "size": 5087,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/a51289bb6c3fea9938deba2bae531a815b13b3c8"
+  },
+  {
+    "path": "FindGadgeteer20.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0cd5edc7907157de782e4871976abcd7aee1d08",
+    "size": 5304,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/c0cd5edc7907157de782e4871976abcd7aee1d08"
+  },
+  {
+    "path": "FindGlove5DT.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e1aee29f9b354574b949fa0f341091895c076ac",
+    "size": 4439,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/1e1aee29f9b354574b949fa0f341091895c076ac"
+  },
+  {
+    "path": "FindHIDAPI.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84281d9f15723074aa074f661aabc849026682ed",
+    "size": 7255,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/84281d9f15723074aa074f661aabc849026682ed"
+  },
+  {
+    "path": "FindIDLJ.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f86ad37b6b9126af9732108081ebbd337ac989cf",
+    "size": 3326,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/f86ad37b6b9126af9732108081ebbd337ac989cf"
+  },
+  {
+    "path": "FindInterSense.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f75bb54636480bdc6b497bddab74aaf73445bf05",
+    "size": 3491,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/f75bb54636480bdc6b497bddab74aaf73445bf05"
+  },
+  {
+    "path": "FindJCCL12.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b24edbfa37486792696006cade196bc4ac9f314",
+    "size": 4070,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/7b24edbfa37486792696006cade196bc4ac9f314"
+  },
+  {
+    "path": "FindJCCL14.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3dd8e53a2acaef9491378baef193aa76b565f55a",
+    "size": 4313,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/3dd8e53a2acaef9491378baef193aa76b565f55a"
+  },
+  {
+    "path": "FindJsonCpp.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "daf9a55a75052bba812695b270c13a910f34ee8e",
+    "size": 16415,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/daf9a55a75052bba812695b270c13a910f34ee8e"
+  },
+  {
+    "path": "FindJtTk.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5cf576c70fbe5fae7275e7061f8d63c80816f7ad",
+    "size": 10990,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/5cf576c70fbe5fae7275e7061f8d63c80816f7ad"
+  },
+  {
+    "path": "FindJtTk.stampkey.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "062877994913e52993c1c529b0afb7f5ffe33128",
+    "size": 1581,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/062877994913e52993c1c529b0afb7f5ffe33128"
+  },
+  {
+    "path": "FindLAPACKLibs.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cba998c0d03ae27b0e34e3326e16bd30db723df1",
+    "size": 2509,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/cba998c0d03ae27b0e34e3326e16bd30db723df1"
+  },
+  {
+    "path": "FindLeapV2.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa070eaf37e0d6e95b1c492d7f901375b8e7ac45",
+    "size": 1774,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/aa070eaf37e0d6e95b1c492d7f901375b8e7ac45"
+  },
+  {
+    "path": "FindLib3ds.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d76df2aef4f61d0d3e7aee9d617a2178ddbc65d1",
+    "size": 1407,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/d76df2aef4f61d0d3e7aee9d617a2178ddbc65d1"
+  },
+  {
+    "path": "FindLibFreespace.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ddd84111250559999a5d5fe9fe4d8635f8bf695e",
+    "size": 1866,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/ddd84111250559999a5d5fe9fe4d8635f8bf695e"
+  },
+  {
+    "path": "FindLibcheck.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4eaefb8cf4f833177ab507d5aca24f0d5aead064",
+    "size": 3553,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4eaefb8cf4f833177ab507d5aca24f0d5aead064"
+  },
+  {
+    "path": "FindLibevent.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb120c104941a1042760c3915bed9cff6c0e6b0d",
+    "size": 4290,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/eb120c104941a1042760c3915bed9cff6c0e6b0d"
+  },
+  {
+    "path": "FindLibusb1.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "295245a54634f261501049a5fd8569f3dfc75f67",
+    "size": 2171,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/295245a54634f261501049a5fd8569f3dfc75f67"
+  },
+  {
+    "path": "FindLuabind.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdf2408c8e118b368eb2f6616e2b4f34862fb729",
+    "size": 1720,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/cdf2408c8e118b368eb2f6616e2b4f34862fb729"
+  },
+  {
+    "path": "FindLyX.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af4b4c5091678cfe000463673c04db9cc621c344",
+    "size": 4078,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/af4b4c5091678cfe000463673c04db9cc621c344"
+  },
+  {
+    "path": "FindMacHID.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd77781f4c0327c9651b03bbff96ba12b1f3d607",
+    "size": 1923,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/cd77781f4c0327c9651b03bbff96ba12b1f3d607"
+  },
+  {
+    "path": "FindMarkdown.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5daef6ac9669ffe4ba53d7d72eb93abe22d3ec46",
+    "size": 1392,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/5daef6ac9669ffe4ba53d7d72eb93abe22d3ec46"
+  },
+  {
+    "path": "FindONNXRuntime.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "613878c4a1e8638a10eaf49c908dd6d5efe5507e",
+    "size": 2382,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/613878c4a1e8638a10eaf49c908dd6d5efe5507e"
+  },
+  {
+    "path": "FindOVR.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d92bc235016c37a8ccc0b50068a71659c9d02e48",
+    "size": 5596,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/d92bc235016c37a8ccc0b50068a71659c9d02e48"
+  },
+  {
+    "path": "FindOpenCTM.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "279f0445122cb1df337e021f35ae5a5831ab9907",
+    "size": 1453,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/279f0445122cb1df337e021f35ae5a5831ab9907"
+  },
+  {
+    "path": "FindOpenGLES.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e909e3529b1fcf1c37fd31fbe58469051a7ee697",
+    "size": 8557,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/e909e3529b1fcf1c37fd31fbe58469051a7ee697"
+  },
+  {
+    "path": "FindOpenHMD.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ec7e1a8c62bfe71fb1a8da04b71babe87206036",
+    "size": 4377,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/0ec7e1a8c62bfe71fb1a8da04b71babe87206036"
+  },
+  {
+    "path": "FindOpenHaptics.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88943269be1766c67e13988d234220bca4f361e3",
+    "size": 9974,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/88943269be1766c67e13988d234220bca4f361e3"
+  },
+  {
+    "path": "FindOpenXR.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9f18362c5ec8dd0cc13358fa61f55636c1eb7a3",
+    "size": 13589,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/c9f18362c5ec8dd0cc13358fa61f55636c1eb7a3"
+  },
+  {
+    "path": "FindOpus.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f23eb012cf51e65622380ca478a726fec14c157",
+    "size": 2764,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/5f23eb012cf51e65622380ca478a726fec14c157"
+  },
+  {
+    "path": "FindParasolid.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e56accf1ad0f9ffb85e7e884f8b8342783d22ff3",
+    "size": 7074,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/e56accf1ad0f9ffb85e7e884f8b8342783d22ff3"
+  },
+  {
+    "path": "FindPercetto.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72652809766241135bea477b4af6b244c8ed3bd8",
+    "size": 3819,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/72652809766241135bea477b4af6b244c8ed3bd8"
+  },
+  {
+    "path": "FindPerformer.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c87b44f1cd4a26a67ec5c8f648c296e766a3a7f",
+    "size": 3408,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4c87b44f1cd4a26a67ec5c8f648c296e766a3a7f"
+  },
+  {
+    "path": "FindPerlModules.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cde314de0ad9e538034a94ddfceb5bf977ce7e56",
+    "size": 2269,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/cde314de0ad9e538034a94ddfceb5bf977ce7e56"
+  },
+  {
+    "path": "FindQVRPN.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56b177eaa3c0d857ba1d824978b3a75023f7ce6b",
+    "size": 1847,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/56b177eaa3c0d857ba1d824978b3a75023f7ce6b"
+  },
+  {
+    "path": "FindQhull.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e360423ac17634f522d0170ddaca30a0ba76064b",
+    "size": 5948,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/e360423ac17634f522d0170ddaca30a0ba76064b"
+  },
+  {
+    "path": "FindRangeV3.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7ce979541d55c8adfe9083b506b8aeacd09d4ba",
+    "size": 1169,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b7ce979541d55c8adfe9083b506b8aeacd09d4ba"
+  },
+  {
+    "path": "FindSDL2.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76f59a831d09ebdadca2609aeeb7307089f3538d",
+    "size": 7726,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/76f59a831d09ebdadca2609aeeb7307089f3538d"
+  },
+  {
+    "path": "FindSonix12.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ed0e2d1e93806f67768a3a88f322c0b9abb9014",
+    "size": 4266,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/6ed0e2d1e93806f67768a3a88f322c0b9abb9014"
+  },
+  {
+    "path": "FindSonix14.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da736397fd903fc7b0e4029cb849349b1778a7a1",
+    "size": 4505,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/da736397fd903fc7b0e4029cb849349b1778a7a1"
+  },
+  {
+    "path": "FindSystemd.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f95eb83512d74529edeed8ee30d01748483eff1",
+    "size": 3388,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/1f95eb83512d74529edeed8ee30d01748483eff1"
+  },
+  {
+    "path": "FindTR1.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6658b1307beca4f411be57f15f6da854b87578b",
+    "size": 2289,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/e6658b1307beca4f411be57f15f6da854b87578b"
+  },
+  {
+    "path": "FindTooN.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de6dff0945e406bdf863539a18c2a9957b58309d",
+    "size": 1583,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/de6dff0945e406bdf863539a18c2a9957b58309d"
+  },
+  {
+    "path": "FindTooNtag.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7e93d90eebca286f0bf1ca8ed8c1f5dd720aba0",
+    "size": 1893,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/c7e93d90eebca286f0bf1ca8ed8c1f5dd720aba0"
+  },
+  {
+    "path": "FindTweek12.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0db16f70084012295a7a00e62702dd130433fde9",
+    "size": 4118,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/0db16f70084012295a7a00e62702dd130433fde9"
+  },
+  {
+    "path": "FindTweek14.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76e0750a8b75634ffca2af8c5fce96d344e04fcd",
+    "size": 4357,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/76e0750a8b75634ffca2af8c5fce96d344e04fcd"
+  },
+  {
+    "path": "FindVPR20.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "975d0e11ca527d065e8ec837bf076275c3f1f907",
+    "size": 6976,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/975d0e11ca527d065e8ec837bf076275c3f1f907"
+  },
+  {
+    "path": "FindVPR22.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "064fc8e9a96f0d4373572d63152deec3e0719932",
+    "size": 6230,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/064fc8e9a96f0d4373572d63152deec3e0719932"
+  },
+  {
+    "path": "FindVPS.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "950218d0b97b921749f28e429e8b301430197b37",
+    "size": 6605,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/950218d0b97b921749f28e429e8b301430197b37"
+  },
+  {
+    "path": "FindVRJ22.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7cca2062219767caefe677923cb682a75bd6bea9",
+    "size": 5386,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/7cca2062219767caefe677923cb682a75bd6bea9"
+  },
+  {
+    "path": "FindVRJ30.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38f04d508c7bf3cc0fb378d5f6c244eca2660174",
+    "size": 5607,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/38f04d508c7bf3cc0fb378d5f6c244eca2660174"
+  },
+  {
+    "path": "FindVRJOGL22.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8702c1c91c50875d70eaa45e48c0c3ab75fd58f6",
+    "size": 4389,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/8702c1c91c50875d70eaa45e48c0c3ab75fd58f6"
+  },
+  {
+    "path": "FindVRJOGL30.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5186f5cf8014f77ef9662d97a0074336c0e7da84",
+    "size": 4604,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/5186f5cf8014f77ef9662d97a0074336c0e7da84"
+  },
+  {
+    "path": "FindVRJuggler.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a435fcd2b55bdc65e43fa65588ef81b244f0a0a3",
+    "size": 6594,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/a435fcd2b55bdc65e43fa65588ef81b244f0a0a3"
+  },
+  {
+    "path": "FindVRJuggler22.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b02759b4b8d1df42915c7a07a16fa246b1bdf0e2",
+    "size": 15180,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b02759b4b8d1df42915c7a07a16fa246b1bdf0e2"
+  },
+  {
+    "path": "FindVRJuggler30.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "140ce68f973b9a834dcc6eef3501a143d3b1196a",
+    "size": 16431,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/140ce68f973b9a834dcc6eef3501a143d3b1196a"
+  },
+  {
+    "path": "FindVRPN.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55b82c8a0900e45c7e53b304ad0bd00eddb86099",
+    "size": 3556,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/55b82c8a0900e45c7e53b304ad0bd00eddb86099"
+  },
+  {
+    "path": "FindViewPoint.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9924b5f2b7c5fcf515285785604b74dc4df7c7cf",
+    "size": 2301,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/9924b5f2b7c5fcf515285785604b74dc4df7c7cf"
+  },
+  {
+    "path": "FindVirtuoseAPI.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82c599ee173cdf04cf8c2c6669576e61935f072e",
+    "size": 2401,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/82c599ee173cdf04cf8c2c6669576e61935f072e"
+  },
+  {
+    "path": "FindVirtuoseVPP.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b500ed7ecc92214cbd933eea6220c4318b2f34ef",
+    "size": 1679,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b500ed7ecc92214cbd933eea6220c4318b2f34ef"
+  },
+  {
+    "path": "FindWayland.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6885efc86be35a61a43a044bc63dd8e0394e1ae8",
+    "size": 1657,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/6885efc86be35a61a43a044bc63dd8e0394e1ae8"
+  },
+  {
+    "path": "FindWiiSCAAT.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1dc30a97fcc00b0b01d5d79359adf9ae9c08bd80",
+    "size": 1893,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/1dc30a97fcc00b0b01d5d79359adf9ae9c08bd80"
+  },
+  {
+    "path": "FindWiiUse.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98fba482efa52b4de266921e5465a335f8f8b5ae",
+    "size": 2270,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/98fba482efa52b4de266921e5465a335f8f8b5ae"
+  },
+  {
+    "path": "FindWinHID.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "40855270cb3d39c2faac3ad21870fe2c1f0619da",
+    "size": 7557,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/40855270cb3d39c2faac3ad21870fe2c1f0619da"
+  },
+  {
+    "path": "FindWindowsSDK.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb2ae7bc8099088bb2e0cfa1f9e772a7ceeee56a",
+    "size": 24657,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/bb2ae7bc8099088bb2e0cfa1f9e772a7ceeee56a"
+  },
+  {
+    "path": "FindXrandr.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02d672f96134f541f4cab51dc6830cef2268f95d",
+    "size": 1670,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/02d672f96134f541f4cab51dc6830cef2268f95d"
+  },
+  {
+    "path": "Findargp.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdb89c14ff77afa4811f9ea353c58b23dacb1680",
+    "size": 1848,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/cdb89c14ff77afa4811f9ea353c58b23dacb1680"
+  },
+  {
+    "path": "FindcJSON.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "965c277912d5d9205a4bddf6c6dc7373b53476ca",
+    "size": 2325,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/965c277912d5d9205a4bddf6c6dc7373b53476ca"
+  },
+  {
+    "path": "Findcppcheck.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a46205856226b4b4e4903f3a117a41a202bcfe50",
+    "size": 5380,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/a46205856226b4b4e4903f3a117a41a202bcfe50"
+  },
+  {
+    "path": "Findcppcheck.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "167a7a4080d056e716136add4e2f54536c2466da",
+    "size": 493,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/167a7a4080d056e716136add4e2f54536c2466da"
+  },
+  {
+    "path": "Findcppunit.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a8d443cfe1e24d54119721fc2cc961a33cae384",
+    "size": 1812,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4a8d443cfe1e24d54119721fc2cc961a33cae384"
+  },
+  {
+    "path": "Findcutil.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "beca612b673a5d2075663b4eb26cf8ba364b8e13",
+    "size": 1590,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/beca612b673a5d2075663b4eb26cf8ba364b8e13"
+  },
+  {
+    "path": "Finddb2pdf.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47c7f4fa79467f50c1ce7c87e562f2b19ded4f75",
+    "size": 1848,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/47c7f4fa79467f50c1ce7c87e562f2b19ded4f75"
+  },
+  {
+    "path": "Findmuparser.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a284f57567a7e8b085087daad36febe76194ad3f",
+    "size": 1631,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/a284f57567a7e8b085087daad36febe76194ad3f"
+  },
+  {
+    "path": "FindosgLua.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdda756f570414d1f7acd4e1de43ad325376070a",
+    "size": 1616,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/cdda756f570414d1f7acd4e1de43ad325376070a"
+  },
+  {
+    "path": "Findquatlib.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d87096b1f04850547c96f2e8c5042ceda7ef0ee",
+    "size": 2536,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/0d87096b1f04850547c96f2e8c5042ceda7ef0ee"
+  },
+  {
+    "path": "Findudev.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c2f97f7261e9e625ec754fbec8a3248387efae6",
+    "size": 1740,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/8c2f97f7261e9e625ec754fbec8a3248387efae6"
+  },
+  {
+    "path": "GenerateCompatibilityVersionFile.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa51894fd52801d3e2891b0ca4b5e8dd0c6054a9",
+    "size": 4545,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/fa51894fd52801d3e2891b0ca4b5e8dd0c6054a9"
+  },
+  {
+    "path": "GenerateKhrManifest.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b184418c5512e43428e47d26628c6ada4a597548",
+    "size": 5977,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b184418c5512e43428e47d26628c6ada4a597548"
+  },
+  {
+    "path": "GenerateKhrManifestInternals.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe90f99bd80e1e989b155987442ca4da4d99be54",
+    "size": 2495,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/fe90f99bd80e1e989b155987442ca4da4d99be54"
+  },
+  {
+    "path": "GenerateOpenXRRuntimeManifest.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9029511d0504eb237c3df292a43b479bcaeb6324",
+    "size": 5333,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/9029511d0504eb237c3df292a43b479bcaeb6324"
+  },
+  {
+    "path": "GenerateVulkanApiLayerManifest.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7de41258389d318cefcf1dad0c3f410a671dcd95",
+    "size": 5128,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/7de41258389d318cefcf1dad0c3f410a671dcd95"
+  },
+  {
+    "path": "GetCPUDetails.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ddd8cb524c08202eb1414dd1586a9b021d6e334",
+    "size": 4493,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/1ddd8cb524c08202eb1414dd1586a9b021d6e334"
+  },
+  {
+    "path": "GetCompilerInfoString.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b3b10db8753510ef3110c081ae958a0a95d2712",
+    "size": 6055,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/1b3b10db8753510ef3110c081ae958a0a95d2712"
+  },
+  {
+    "path": "GetDefineString.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71378020a58313a4fafd4fd84fafc060df3fee0c",
+    "size": 2447,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/71378020a58313a4fafd4fd84fafc060df3fee0c"
+  },
+  {
+    "path": "GetDefineString.cpp.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21e0bcba6bfcc36bd7bf74357c698d2a2f13a2c5",
+    "size": 451,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/21e0bcba6bfcc36bd7bf74357c698d2a2f13a2c5"
+  },
+  {
+    "path": "GetDirectoryList.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b55f30dccafd74daa188d94fa4bc5917825a536",
+    "size": 1327,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/0b55f30dccafd74daa188d94fa4bc5917825a536"
+  },
+  {
+    "path": "GetFileList.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "715f11ac72cc815bc1b828074840474761bb18f2",
+    "size": 1164,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/715f11ac72cc815bc1b828074840474761bb18f2"
+  },
+  {
+    "path": "GetForceIncludeDefinitions.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "967778b60084e72ac99c8f18cdf7623b9a1f5505",
+    "size": 1490,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/967778b60084e72ac99c8f18cdf7623b9a1f5505"
+  },
+  {
+    "path": "GetGitRevisionDescription.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f54191298b092c6da5e205a418c8d6eb146ca2c",
+    "size": 9505,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/9f54191298b092c6da5e205a418c8d6eb146ca2c"
+  },
+  {
+    "path": "GetGitRevisionDescription.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b8d20763759b3ac6d67be997aedd6c6f08214ac",
+    "size": 1502,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/9b8d20763759b3ac6d67be997aedd6c6f08214ac"
+  },
+  {
+    "path": "GetMSVCVersion.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19c5cb09a19fa24293403a7092e6931d858b0445",
+    "size": 4912,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/19c5cb09a19fa24293403a7092e6931d858b0445"
+  },
+  {
+    "path": "GetSubprojectStatus.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9844e070d829dd97325965332d7ddcfddc05812",
+    "size": 1081,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/c9844e070d829dd97325965332d7ddcfddc05812"
+  },
+  {
+    "path": "InstallDebugSymbols.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7210fec1e18cbe362998a0e627c157fc25abb727",
+    "size": 3821,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/7210fec1e18cbe362998a0e627c157fc25abb727"
+  },
+  {
+    "path": "LICENSES",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "be3120e3154606630cc035b7010898ca7ac14497",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/be3120e3154606630cc035b7010898ca7ac14497"
+  },
+  {
+    "path": "LICENSE_1_0.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36b7cd93cdfbac762f5be4c6ce276df2ea6305c2",
+    "size": 1338,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/36b7cd93cdfbac762f5be4c6ce276df2ea6305c2"
+  },
+  {
+    "path": "ListCombinations.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "406bf599fe42ebdd3231f6da64d5c2e772e9ee48",
+    "size": 1564,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/406bf599fe42ebdd3231f6da64d5c2e772e9ee48"
+  },
+  {
+    "path": "ListFilter.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b42f43237b157693ebc8c17e61d1d22705ec98a3",
+    "size": 1481,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b42f43237b157693ebc8c17e61d1d22705ec98a3"
+  },
+  {
+    "path": "LuaTargets.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0e8c7d9a70567ad321b93faf968b46f167115a5",
+    "size": 3010,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/c0e8c7d9a70567ad321b93faf968b46f167115a5"
+  },
+  {
+    "path": "MSVCMultipleProcessCompile.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f71748cbd48fcd1268d5b27794a52452a18bb32",
+    "size": 892,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4f71748cbd48fcd1268d5b27794a52452a18bb32"
+  },
+  {
+    "path": "MSVCStaticRuntime.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3c46557305cf5bfbf9c4c5e22fe16563ded8182",
+    "size": 927,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/e3c46557305cf5bfbf9c4c5e22fe16563ded8182"
+  },
+  {
+    "path": "MSVCVerboseLinking.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4db0362dd90e3f27cad86bec23516a55d252455c",
+    "size": 1397,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4db0362dd90e3f27cad86bec23516a55d252455c"
+  },
+  {
+    "path": "MapImportedReleaseVariants.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ed9bf797a4ea2729777b0c0879fb03d7ce6091f",
+    "size": 960,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4ed9bf797a4ea2729777b0c0879fb03d7ce6091f"
+  },
+  {
+    "path": "MinGWSearchPathExtras.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "782757e7e77ad0dbb097bc2c56eda470b9aceb81",
+    "size": 4471,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/782757e7e77ad0dbb097bc2c56eda470b9aceb81"
+  },
+  {
+    "path": "OptionRequires.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1d2a8c91351017e5c555f6e88632b4164a7f635",
+    "size": 1246,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b1d2a8c91351017e5c555f6e88632b4164a7f635"
+  },
+  {
+    "path": "OptionWithDeps.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48e59ba94e09691d9ebe0ee13700484ae3d74949",
+    "size": 6169,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/48e59ba94e09691d9ebe0ee13700484ae3d74949"
+  },
+  {
+    "path": "PlatformDefinitions.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e48895090285d50decbb99949e1e4b8d4c1fbe7",
+    "size": 2000,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/5e48895090285d50decbb99949e1e4b8d4c1fbe7"
+  },
+  {
+    "path": "PrefixListGlob.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9837ec28439bec59e3681cc79539cb3b7d8328ee",
+    "size": 956,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/9837ec28439bec59e3681cc79539cb3b7d8328ee"
+  },
+  {
+    "path": "ProgramFilesGlob.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4870c61f2ad8481b31d3252362d1901d965e0f40",
+    "size": 2741,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/4870c61f2ad8481b31d3252362d1901d965e0f40"
+  },
+  {
+    "path": "README.markdown",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99b1dd930e7d2535e1fa76eba34a3e6ceed33988",
+    "size": 5280,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/99b1dd930e7d2535e1fa76eba34a3e6ceed33988"
+  },
+  {
+    "path": "ResetConfigurations.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e6f8f34e8c7534ae1c7281eb571b62044a918c2",
+    "size": 848,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/3e6f8f34e8c7534ae1c7281eb571b62044a918c2"
+  },
+  {
+    "path": "SearchProgramFilesForOpenSceneGraph.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "560d7d46beeb152ed8f727d1a45290242ab554c0",
+    "size": 1697,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/560d7d46beeb152ed8f727d1a45290242ab554c0"
+  },
+  {
+    "path": "SetDefaultBuildType.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f518fd1a06d7f0d9ff2b8f224a5aeb5c31f264da",
+    "size": 928,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/f518fd1a06d7f0d9ff2b8f224a5aeb5c31f264da"
+  },
+  {
+    "path": "SplitLibraryList.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a89fd99b8dbb382549cb44a2947b6929d393d3c9",
+    "size": 1192,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/a89fd99b8dbb382549cb44a2947b6929d393d3c9"
+  },
+  {
+    "path": "StampSourcesWithVersion.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b04d4946fa0e72eee4783ddfe5978fa11904957",
+    "size": 5590,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/0b04d4946fa0e72eee4783ddfe5978fa11904957"
+  },
+  {
+    "path": "StampSourcesWithVersion.sed.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eefbf6a21d4db79322710f94b22c8641ca1c1744",
+    "size": 554,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/eefbf6a21d4db79322710f94b22c8641ca1c1744"
+  },
+  {
+    "path": "StashMapConfig.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b111506d1b7417eb1246313a2b7ec8a7f0aa0900",
+    "size": 3646,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/b111506d1b7417eb1246313a2b7ec8a7f0aa0900"
+  },
+  {
+    "path": "TCHARWorkaround.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bdad3443255b9f4cd24939b9fab5e09766d49d7",
+    "size": 1170,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/6bdad3443255b9f4cd24939b9fab5e09766d49d7"
+  },
+  {
+    "path": "UseBackportedModules.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "813ff98c40be460ebe67c875b590d720722fe945",
+    "size": 3346,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/813ff98c40be460ebe67c875b590d720722fe945"
+  },
+  {
+    "path": "UseFolders.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27fd36fdf1f07f48591c38a1fc2d40c74d3927b1",
+    "size": 1537,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/27fd36fdf1f07f48591c38a1fc2d40c74d3927b1"
+  },
+  {
+    "path": "UseMarkdown.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79f37dffffc8fc68322f9f1e51f13805c6e23377",
+    "size": 3312,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/79f37dffffc8fc68322f9f1e51f13805c6e23377"
+  },
+  {
+    "path": "UseTR1.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abb845d9c42dcf296f9499e2b22f32634172d18e",
+    "size": 716,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/abb845d9c42dcf296f9499e2b22f32634172d18e"
+  },
+  {
+    "path": "WarningDev.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7114d2d4799b22a92b0ce6673c55af1b872ef3b2",
+    "size": 803,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/7114d2d4799b22a92b0ce6673c55af1b872ef3b2"
+  },
+  {
+    "path": "cmake-2.8.0-modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b6d44bd5bc6b6aabc6dadfb44720a6a7ddfd6eb",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/3b6d44bd5bc6b6aabc6dadfb44720a6a7ddfd6eb"
+  },
+  {
+    "path": "cmake-2.8.1-modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c856032f947ec37e278a75a0eb48dffd16ad7aca",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/c856032f947ec37e278a75a0eb48dffd16ad7aca"
+  },
+  {
+    "path": "cmake-2.8.12-modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d09825a270040d85536ef8d6beca60021ac00dc6",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/d09825a270040d85536ef8d6beca60021ac00dc6"
+  },
+  {
+    "path": "cmake-2.8.3-modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "48c4eab0da1f58be2e47fd2bfbfef8b941d3a611",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/48c4eab0da1f58be2e47fd2bfbfef8b941d3a611"
+  },
+  {
+    "path": "cmake-2.8.4-modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03b96b5ca7df7e07b1c03f227a765eba495bdf92",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/03b96b5ca7df7e07b1c03f227a765eba495bdf92"
+  },
+  {
+    "path": "cmake-3.2.0-modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eaaf4627710d5866f5094cec35715ad314a202bc",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/eaaf4627710d5866f5094cec35715ad314a202bc"
+  },
+  {
+    "path": "cmake-3.3.0-modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4b042cf085b5620ad15dfa9301c4ceb84e617a30",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/4b042cf085b5620ad15dfa9301c4ceb84e617a30"
+  },
+  {
+    "path": "cmake-4.0.0-modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4b438c47598deee2e243de5c6d12ec5041726605",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/4b438c47598deee2e243de5c6d12ec5041726605"
+  },
+  {
+    "path": "export-to-directory.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1736e5c02f6565347ea62c1987d6ed0ae33d50da",
+    "size": 300,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/1736e5c02f6565347ea62c1987d6ed0ae33d50da"
+  },
+  {
+    "path": "ghost-fake-stl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9092b1c26e86422a0a82454f4fe324dd1705d136",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/9092b1c26e86422a0a82454f4fe324dd1705d136"
+  },
+  {
+    "path": "launcher-templates",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82987123bb2a61bf4a917017be30b48f35275a3f",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/82987123bb2a61bf4a917017be30b48f35275a3f"
+  },
+  {
+    "path": "module-docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c9e4443b2d7c7a5f0ed6dd2db919e70ed3f3f9c",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/6c9e4443b2d7c7a5f0ed6dd2db919e70ed3f3f9c"
+  },
+  {
+    "path": "nested_targets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de9062d87936d80019c053d3e228bd481002ec78",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/de9062d87936d80019c053d3e228bd481002ec78"
+  },
+  {
+    "path": "openxr_manifest.in.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c1f8743a67a541f28181e3647c60e9297ce50e5",
+    "size": 129,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/1c1f8743a67a541f28181e3647c60e9297ce50e5"
+  },
+  {
+    "path": "openxr_manifest.in.json.license",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "237108040cce02fcbe278303a8db6800778d2770",
+    "size": 71,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/237108040cce02fcbe278303a8db6800778d2770"
+  },
+  {
+    "path": "package",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "55f7024854c70ff6194cb74c33e9d418b89c4dce",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/55f7024854c70ff6194cb74c33e9d418b89c4dce"
+  },
+  {
+    "path": "update-modules.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7f5371f10e89921fe2127603210b0895ab0af41b",
+    "size": 853,
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/blobs/7f5371f10e89921fe2127603210b0895ab0af41b"
+  },
+  {
+    "path": "workarounds",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f8b6eb1aa968fc93769a5514417e785b9fa56571",
+    "url": "https://api.github.com/repos/rpavlik/cmake-modules/git/trees/f8b6eb1aa968fc93769a5514417e785b9fa56571"
+  }
+]

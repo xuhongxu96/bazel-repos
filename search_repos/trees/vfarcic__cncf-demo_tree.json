@@ -1,0 +1,504 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b90f593faef7a428be6ce4d4d96aae8d0a56ece",
+    "size": 307,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/1b90f593faef7a428be6ce4d4d96aae8d0a56ece"
+  },
+  {
+    "path": ".teller.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e7e802f89f338b45ef380625895cdb532fb2c7a",
+    "size": 372,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/3e7e802f89f338b45ef380625895cdb532fb2c7a"
+  },
+  {
+    "path": "Dockerfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc49e454d2bbb08d8abf7ea11354d90cbce222dd",
+    "size": 394,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/cc49e454d2bbb08d8abf7ea11354d90cbce222dd"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "803048a205dca348ed8abac1425738d8f3029e24",
+    "size": 56708,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/803048a205dca348ed8abac1425738d8f3029e24"
+  },
+  {
+    "path": "apps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "417c01c8795a35b8e835113a85a5c0c1c77f67fb",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/417c01c8795a35b8e835113a85a5c0c1c77f67fb"
+  },
+  {
+    "path": "argo-rollouts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3d53a4def7a25b4dfbe0cd14ca3883d3dfe4a7b",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/f3d53a4def7a25b4dfbe0cd14ca3883d3dfe4a7b"
+  },
+  {
+    "path": "argocd-apps.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "345629cdec9e69d680d00d9c8f8dbf9fde88b582",
+    "size": 390,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/345629cdec9e69d680d00d9c8f8dbf9fde88b582"
+  },
+  {
+    "path": "argocd-values.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "398718645d2242db6f6980ee3755c69f79d08dfe",
+    "size": 430,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/398718645d2242db6f6980ee3755c69f79d08dfe"
+  },
+  {
+    "path": "argocd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7370034bdd4ec3057df255725a1b1e133c61d837",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/7370034bdd4ec3057df255725a1b1e133c61d837"
+  },
+  {
+    "path": "capi-config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "24d3c89603ceb70547952ad0a2bb06ee5c9eb123",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/24d3c89603ceb70547952ad0a2bb06ee5c9eb123"
+  },
+  {
+    "path": "capi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "13f8f358c8ff555c867bddfc72174b051578a614",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/13f8f358c8ff555c867bddfc72174b051578a614"
+  },
+  {
+    "path": "cdk8s",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c7c4264566a0f7571b5bbf5f660defe11b3fec21",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/c7c4264566a0f7571b5bbf5f660defe11b3fec21"
+  },
+  {
+    "path": "cert-manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ef8e01a0b85c794c78cc9693f5c9320152a8c1a",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/0ef8e01a0b85c794c78cc9693f5c9320152a8c1a"
+  },
+  {
+    "path": "cilium",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4b92ace2dc3e478efcbee87671675c7e87b5797b",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/4b92ace2dc3e478efcbee87671675c7e87b5797b"
+  },
+  {
+    "path": "containerssh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b860ee16780b37607cbd11c54611b2435e96e32b",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/b860ee16780b37607cbd11c54611b2435e96e32b"
+  },
+  {
+    "path": "crossplane-config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "443e49e5ed73edf5c4093df465068ed115eff779",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/443e49e5ed73edf5c4093df465068ed115eff779"
+  },
+  {
+    "path": "crossplane",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de7360554e5e394555c7d6a6d0cac5c82a5ba930",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/de7360554e5e394555c7d6a6d0cac5c82a5ba930"
+  },
+  {
+    "path": "devbox.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "666c0773f64f4bc9d85ae06e0a410b24cf6e3dcd",
+    "size": 1148,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/666c0773f64f4bc9d85ae06e0a410b24cf6e3dcd"
+  },
+  {
+    "path": "devfile.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8aa89409137a2ac219ebd88f4669f425c3706c1",
+    "size": 1341,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/c8aa89409137a2ac219ebd88f4669f425c3706c1"
+  },
+  {
+    "path": "devspace.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eae2f56fb39eac76a5e6f0d3f778aeedc76e059c",
+    "size": 569,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/eae2f56fb39eac76a5e6f0d3f778aeedc76e059c"
+  },
+  {
+    "path": "devspace_start.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cebf9e346e285b73d0c328e9514cc2216955069e",
+    "size": 1240,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/cebf9e346e285b73d0c328e9514cc2216955069e"
+  },
+  {
+    "path": "dot.nu",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d1cd9a388c17d5e51c4573df74914698370a927f",
+    "size": 6199,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/d1cd9a388c17d5e51c4573df74914698370a927f"
+  },
+  {
+    "path": "eksctl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0760c6ecc3afd9396eda808f43f4e6bf4a7171a3",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/0760c6ecc3afd9396eda808f43f4e6bf4a7171a3"
+  },
+  {
+    "path": "empty",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "eso",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "32f323a37941d0e57ba6ba66412197e0fae6e754",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/32f323a37941d0e57ba6ba66412197e0fae6e754"
+  },
+  {
+    "path": "fibonacci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1134ab4810081fc37dfd46f283b129c848e96ce6",
+    "size": 864,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/1134ab4810081fc37dfd46f283b129c848e96ce6"
+  },
+  {
+    "path": "flux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3aae35a33091acf804780c377dbf4423a9815954",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/3aae35a33091acf804780c377dbf4423a9815954"
+  },
+  {
+    "path": "gcloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "777ba37a100a8632d5234124c9d72c77e9a2f487",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/777ba37a100a8632d5234124c9d72c77e9a2f487"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9de75afefd43a337daadd5015d8321f6197ef1b",
+    "size": 2074,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/a9de75afefd43a337daadd5015d8321f6197ef1b"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00fd00898280753af672713b990f877cee7d3c78",
+    "size": 23800,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/00fd00898280753af672713b990f877cee7d3c78"
+  },
+  {
+    "path": "harbor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e48bece1d572c0d20a34d78199825cd19cf81c74",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/e48bece1d572c0d20a34d78199825cd19cf81c74"
+  },
+  {
+    "path": "headlamp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "01b97e2ca3188e913f599b6c8ff928c397f97eb2",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/01b97e2ca3188e913f599b6c8ff928c397f97eb2"
+  },
+  {
+    "path": "helm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17a0539bdea9246bbaaa8289715b5e5a26bb0cb9",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/17a0539bdea9246bbaaa8289715b5e5a26bb0cb9"
+  },
+  {
+    "path": "infra",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "417c01c8795a35b8e835113a85a5c0c1c77f67fb",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/417c01c8795a35b8e835113a85a5c0c1c77f67fb"
+  },
+  {
+    "path": "istio",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "11d3ec27883c0bfb816fb06f3dd7b26b710ede9d",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/11d3ec27883c0bfb816fb06f3dd7b26b710ede9d"
+  },
+  {
+    "path": "kapp-controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfbeaeae03793d24e8f986f7a35ebac193f84e28",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/cfbeaeae03793d24e8f986f7a35ebac193f84e28"
+  },
+  {
+    "path": "kbld",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d58d99efa7dc2e9efc5041a3084e07d233cf1698",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/d58d99efa7dc2e9efc5041a3084e07d233cf1698"
+  },
+  {
+    "path": "keycloak",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "05a997b6df8ef15c9ce977558e18bb4f3fd59451",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/05a997b6df8ef15c9ce977558e18bb4f3fd59451"
+  },
+  {
+    "path": "kubernetes-dashboard",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b1795054ac8e954e82a59ed2ad8bcc74bdb2f84f",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/b1795054ac8e954e82a59ed2ad8bcc74bdb2f84f"
+  },
+  {
+    "path": "kubevela",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aa46abc78ee49a4d3b805d9b0478c9f9fa8890af",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/aa46abc78ee49a4d3b805d9b0478c9f9fa8890af"
+  },
+  {
+    "path": "kustomize",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "150013a00e908dc27f97fe7a38ff8a386b0b6381",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/150013a00e908dc27f97fe7a38ff8a386b0b6381"
+  },
+  {
+    "path": "letter-to-guests.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ca580fa65f1796837bdf566cd0e9db2937c6d80",
+    "size": 2476,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/1ca580fa65f1796837bdf566cd0e9db2937c6d80"
+  },
+  {
+    "path": "linkerd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c65c023f78bba784d2c788274da167b975b32d4a",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/c65c023f78bba784d2c788274da167b975b32d4a"
+  },
+  {
+    "path": "logging-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "90d90a8024be83370cf694b5dc72f14da089dd14",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/90d90a8024be83370cf694b5dc72f14da089dd14"
+  },
+  {
+    "path": "main.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c0a22078734c853d3e4611b87e984c409f81d76",
+    "size": 1984,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/4c0a22078734c853d3e4611b87e984c409f81d76"
+  },
+  {
+    "path": "manuscript",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc6b22d4180991e50b0d362687447371ef008844",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/cc6b22d4180991e50b0d362687447371ef008844"
+  },
+  {
+    "path": "openfga.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4b5525f4dac4eb92f615b6914e2f902e8c3a939",
+    "size": 1126,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/d4b5525f4dac4eb92f615b6914e2f902e8c3a939"
+  },
+  {
+    "path": "openfga",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e23eaa7b7e080ad18fb6880655db85f63e1694a8",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/e23eaa7b7e080ad18fb6880655db85f63e1694a8"
+  },
+  {
+    "path": "opentelemetry.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ef3b65afb25685e7bb60c9c36a958235573e8c5",
+    "size": 1367,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/6ef3b65afb25685e7bb60c9c36a958235573e8c5"
+  },
+  {
+    "path": "ping.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aad920ef0a22b6e6ff754fd8ca0a953cbc97641d",
+    "size": 889,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/aad920ef0a22b6e6ff754fd8ca0a953cbc97641d"
+  },
+  {
+    "path": "policies",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ad137e1cbc13b89d91a2e5a0033cde4a5891dac",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/0ad137e1cbc13b89d91a2e5a0033cde4a5891dac"
+  },
+  {
+    "path": "prometheus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d8980b992182132ca33fa37d63c491dc0cebb7f8",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/d8980b992182132ca33fa37d63c491dc0cebb7f8"
+  },
+  {
+    "path": "renovate.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a52f5e6dfff3add36359f0a425e823f3ea55436",
+    "size": 295,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/6a52f5e6dfff3add36359f0a425e823f3ea55436"
+  },
+  {
+    "path": "root.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe489a8505d11b483c32da72ed0193f6cba45959",
+    "size": 678,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/fe489a8505d11b483c32da72ed0193f6cba45959"
+  },
+  {
+    "path": "schema-hero",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3028e79e298455d796c106add3c9398ad93f3db5",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/3028e79e298455d796c106add3c9398ad93f3db5"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c60183e7e629ae0f72d66ea45cf19ac724ed618",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/9c60183e7e629ae0f72d66ea45cf19ac724ed618"
+  },
+  {
+    "path": "settings.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b66f7112896dd2cd4516e7a154638518ea91ef0",
+    "size": 342,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/6b66f7112896dd2cd4516e7a154638518ea91ef0"
+  },
+  {
+    "path": "signing",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a2b369e33e46b69b60b0a5b9917e5480ac45feb",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/5a2b369e33e46b69b60b0a5b9917e5480ac45feb"
+  },
+  {
+    "path": "skooner",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d39302bb7a4de3cec2908ccd0c0e7864ea2a6809",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/d39302bb7a4de3cec2908ccd0c0e7864ea2a6809"
+  },
+  {
+    "path": "solution.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58372beb1e207d570ed5a5a1492467a4b1626e8d",
+    "size": 61638,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/58372beb1e207d570ed5a5a1492467a4b1626e8d"
+  },
+  {
+    "path": "sops",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2921f0feb06c16ee6d9f962930b49a1f93878119",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/2921f0feb06c16ee6d9f962930b49a1f93878119"
+  },
+  {
+    "path": "teller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fc23e43fb85158abd65cbc105ff7c22693f90cb0",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/fc23e43fb85158abd65cbc105ff7c22693f90cb0"
+  },
+  {
+    "path": "tmp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "417c01c8795a35b8e835113a85a5c0c1c77f67fb",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/417c01c8795a35b8e835113a85a5c0c1c77f67fb"
+  },
+  {
+    "path": "video.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "589ad53a8da45bf2101062b13d7f6cb369a60c06",
+    "size": 3572,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/589ad53a8da45bf2101062b13d7f6cb369a60c06"
+  },
+  {
+    "path": "workflows",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1b1cb76fe83b8f31e8089ce85248f1f441b8ac8",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/d1b1cb76fe83b8f31e8089ce85248f1f441b8ac8"
+  },
+  {
+    "path": "yaml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "01d61d8124a561c1842c5fca6a05ce5336d28143",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/01d61d8124a561c1842c5fca6a05ce5336d28143"
+  },
+  {
+    "path": "ytt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9f8942074e343147680eab86ccdf25ea534a98de",
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/trees/9f8942074e343147680eab86ccdf25ea534a98de"
+  },
+  {
+    "path": "zellij-layout.kdl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af9ed395ab0403c07575173c88224c703947cb57",
+    "size": 255,
+    "url": "https://api.github.com/repos/vfarcic/cncf-demo/git/blobs/af9ed395ab0403c07575173c88224c703947cb57"
+  }
+]

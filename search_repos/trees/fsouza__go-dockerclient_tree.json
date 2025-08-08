@@ -1,0 +1,927 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+    "size": 19,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9992520712d9771c05c5a8c38d26b422440d9628",
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/trees/9992520712d9771c05c5a8c38d26b422440d9628"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f6b48eae0d63654c7b1bb7c24531d24ca7fe0d0",
+    "size": 53,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/5f6b48eae0d63654c7b1bb7c24531d24ca7fe0d0"
+  },
+  {
+    "path": ".golangci.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6e588a65a95b76163de038b7ba38870f1634aee",
+    "size": 393,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/f6e588a65a95b76163de038b7ba38870f1634aee"
+  },
+  {
+    "path": "DOCKER-LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db092935f50185309e3a484d5b2dafa235969910",
+    "size": 274,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/db092935f50185309e3a484d5b2dafa235969910"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20837167a9ac4297863d14ed396511aa6a22c8bc",
+    "size": 1300,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/20837167a9ac4297863d14ed396511aa6a22c8bc"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f5d9fcc6a90c05e6d4b313e84fa21c2be4a8b50",
+    "size": 572,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/2f5d9fcc6a90c05e6d4b313e84fa21c2be4a8b50"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2323d89b1d6128453f34337fbd11c6bf5233de87",
+    "size": 3229,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/2323d89b1d6128453f34337fbd11c6bf5233de87"
+  },
+  {
+    "path": "auth.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37c1cbe2bca7cebdc098e39072631dfc2e652243",
+    "size": 11043,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/37c1cbe2bca7cebdc098e39072631dfc2e652243"
+  },
+  {
+    "path": "auth_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d14c19ce68e34e1ee8ac53662011a13e922a6853",
+    "size": 14403,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/d14c19ce68e34e1ee8ac53662011a13e922a6853"
+  },
+  {
+    "path": "build_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f674e44d7b9cf90140b1e439471c8a1d61f18793",
+    "size": 4020,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/f674e44d7b9cf90140b1e439471c8a1d61f18793"
+  },
+  {
+    "path": "change.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f936b2233033185a9351aebf073e30dba1354f3",
+    "size": 944,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/3f936b2233033185a9351aebf073e30dba1354f3"
+  },
+  {
+    "path": "change_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "484f51456f99a63b59b4c77c5f08c4980c0b4f8e",
+    "size": 781,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/484f51456f99a63b59b4c77c5f08c4980c0b4f8e"
+  },
+  {
+    "path": "client.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1a420017716682b69d038c874121a4a2027c795",
+    "size": 32539,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/e1a420017716682b69d038c874121a4a2027c795"
+  },
+  {
+    "path": "client_stress_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "128afa5b09903e96f0d0fd43260886d056a43b2b",
+    "size": 3805,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/128afa5b09903e96f0d0fd43260886d056a43b2b"
+  },
+  {
+    "path": "client_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "395a06e12895d83528a8e44d502cf5409564cb0f",
+    "size": 30885,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/395a06e12895d83528a8e44d502cf5409564cb0f"
+  },
+  {
+    "path": "client_unix.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee4dba2a61be78b38df38f6fc11836a46a7b084f",
+    "size": 767,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/ee4dba2a61be78b38df38f6fc11836a46a7b084f"
+  },
+  {
+    "path": "client_unix_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71cfdaa3f17332e03cdcc98ea572c6402330ed6a",
+    "size": 1667,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/71cfdaa3f17332e03cdcc98ea572c6402330ed6a"
+  },
+  {
+    "path": "client_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d35f401a44d878b3e8a5c1aa5ed9f1c843b395ed",
+    "size": 1193,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/d35f401a44d878b3e8a5c1aa5ed9f1c843b395ed"
+  },
+  {
+    "path": "client_windows_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2880e63788a106136fed30afc95d24ee75dab5c1",
+    "size": 1125,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/2880e63788a106136fed30afc95d24ee75dab5c1"
+  },
+  {
+    "path": "container.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5dafe0faa7f495b017a7bf853b7c6960318f404",
+    "size": 39502,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/e5dafe0faa7f495b017a7bf853b7c6960318f404"
+  },
+  {
+    "path": "container_archive.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c7e61c793b81f67c5586d4b6434cf099884b5ad",
+    "size": 1793,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/6c7e61c793b81f67c5586d4b6434cf099884b5ad"
+  },
+  {
+    "path": "container_archive_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be40228cb273515dfd74f332bd15b6f57cc6cdb6",
+    "size": 1452,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/be40228cb273515dfd74f332bd15b6f57cc6cdb6"
+  },
+  {
+    "path": "container_attach.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6742d007eddfd32d58bcb92cfba021757445960",
+    "size": 2032,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/e6742d007eddfd32d58bcb92cfba021757445960"
+  },
+  {
+    "path": "container_attach_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "001ab6d060eb90e345f32d6b2bc711d85ba45d0f",
+    "size": 7876,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/001ab6d060eb90e345f32d6b2bc711d85ba45d0f"
+  },
+  {
+    "path": "container_changes.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48835e2315294cb4cac76f9fabf60444158041e2",
+    "size": 674,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/48835e2315294cb4cac76f9fabf60444158041e2"
+  },
+  {
+    "path": "container_changes_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9fba6b1d2004e57aad0fdcd5658b4b7860cb40bc",
+    "size": 1961,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/9fba6b1d2004e57aad0fdcd5658b4b7860cb40bc"
+  },
+  {
+    "path": "container_commit.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "902ba6455387b5aad3fa6c6cf9f8bbe8c702ffd5",
+    "size": 1125,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/902ba6455387b5aad3fa6c6cf9f8bbe8c702ffd5"
+  },
+  {
+    "path": "container_commit_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4bc126604cdb4210e0c5a5d8be09970573e57e4",
+    "size": 2909,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/d4bc126604cdb4210e0c5a5d8be09970573e57e4"
+  },
+  {
+    "path": "container_copy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8ffb85c3050685e9bdd1a4f087188f6aafe721b",
+    "size": 1403,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/c8ffb85c3050685e9bdd1a4f087188f6aafe721b"
+  },
+  {
+    "path": "container_copy_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c68b9214fc029b4c42d39ed2e97591c0212e5318",
+    "size": 1563,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/c68b9214fc029b4c42d39ed2e97591c0212e5318"
+  },
+  {
+    "path": "container_create.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36bcbfc0dd7a14a3212fd6d80395bbfbfb05884b",
+    "size": 2303,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/36bcbfc0dd7a14a3212fd6d80395bbfbfb05884b"
+  },
+  {
+    "path": "container_create_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7486bf505870f4704a1874eabf9789b842499de0",
+    "size": 5372,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/7486bf505870f4704a1874eabf9789b842499de0"
+  },
+  {
+    "path": "container_export.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "312f8cf1053a4c09cff2325373ab950674ecf298",
+    "size": 938,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/312f8cf1053a4c09cff2325373ab950674ecf298"
+  },
+  {
+    "path": "container_export_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4eda2a562d62a7ae51a9549bddc5cbd882245a25",
+    "size": 1041,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/4eda2a562d62a7ae51a9549bddc5cbd882245a25"
+  },
+  {
+    "path": "container_inspect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48c1e8ea7b96831c509596691fd105cdb756bf79",
+    "size": 1678,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/48c1e8ea7b96831c509596691fd105cdb756bf79"
+  },
+  {
+    "path": "container_inspect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92a80f944b6a6ba4d9f1aee462fdc461179b6304",
+    "size": 27415,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/92a80f944b6a6ba4d9f1aee462fdc461179b6304"
+  },
+  {
+    "path": "container_kill.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "600c58f1292ca674ec33a51a06338bd66b4d97b5",
+    "size": 1090,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/600c58f1292ca674ec33a51a06338bd66b4d97b5"
+  },
+  {
+    "path": "container_kill_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d32c93e8844e35396f3cf74d942f5998b54ccaf9",
+    "size": 2266,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/d32c93e8844e35396f3cf74d942f5998b54ccaf9"
+  },
+  {
+    "path": "container_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1dec0e915a01e56eae4d4e99901c7d259e1fe915",
+    "size": 912,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/1dec0e915a01e56eae4d4e99901c7d259e1fe915"
+  },
+  {
+    "path": "container_list_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a05d0e5beba57fa59d94703cebbc8f970ddd06c0",
+    "size": 4259,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/a05d0e5beba57fa59d94703cebbc8f970ddd06c0"
+  },
+  {
+    "path": "container_logs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e3f1199cc55fe9214fc1a601780b938ed3c1f25",
+    "size": 1649,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/0e3f1199cc55fe9214fc1a601780b938ed3c1f25"
+  },
+  {
+    "path": "container_logs_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8aafb7ad51f46e2595acf34c3bddf1606720ccb",
+    "size": 4900,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/e8aafb7ad51f46e2595acf34c3bddf1606720ccb"
+  },
+  {
+    "path": "container_pause.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d18b32f9b4ead35f121a56be50af9a9118b8ec1",
+    "size": 489,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/7d18b32f9b4ead35f121a56be50af9a9118b8ec1"
+  },
+  {
+    "path": "container_pause_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "702110f0d9193e7904523e700f72ba3f8eef4298",
+    "size": 1025,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/702110f0d9193e7904523e700f72ba3f8eef4298"
+  },
+  {
+    "path": "container_prune.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f2bdc6a29a691cddc82cd24e4a373d166928543",
+    "size": 1053,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/3f2bdc6a29a691cddc82cd24e4a373d166928543"
+  },
+  {
+    "path": "container_prune_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5428b4f253a2647811feb950d9f9a23e818ee36",
+    "size": 645,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/a5428b4f253a2647811feb950d9f9a23e818ee36"
+  },
+  {
+    "path": "container_remove.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbe0907f0b56633602529e5149b26b157e03dc20",
+    "size": 1069,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/dbe0907f0b56633602529e5149b26b157e03dc20"
+  },
+  {
+    "path": "container_remove_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d92a19fc4cb88150cbd6f1d406d91ac42cee5e2",
+    "size": 1734,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/1d92a19fc4cb88150cbd6f1d406d91ac42cee5e2"
+  },
+  {
+    "path": "container_rename.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "893c423bdf32399f9abbdaf5fb80c4237af48f75",
+    "size": 764,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/893c423bdf32399f9abbdaf5fb80c4237af48f75"
+  },
+  {
+    "path": "container_rename_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54443544dafda3ecc2667e424e4cfce7fcdce66d",
+    "size": 1049,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/54443544dafda3ecc2667e424e4cfce7fcdce66d"
+  },
+  {
+    "path": "container_resize.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3445be6b5770e5385f027c870a9273e6394c5ff9",
+    "size": 526,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/3445be6b5770e5385f027c870a9273e6394c5ff9"
+  },
+  {
+    "path": "container_resize_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be97425400b40db3729bb35dc35efce3fbbc3afd",
+    "size": 1032,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/be97425400b40db3729bb35dc35efce3fbbc3afd"
+  },
+  {
+    "path": "container_restart.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64bb1a0923eab811b3fa4f702963126cd4ca1aa2",
+    "size": 2257,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/64bb1a0923eab811b3fa4f702963126cd4ca1aa2"
+  },
+  {
+    "path": "container_restart_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d39c180ef3a40e4bef8c72678086eefcc574ead",
+    "size": 2527,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/8d39c180ef3a40e4bef8c72678086eefcc574ead"
+  },
+  {
+    "path": "container_start.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0911eaab415318669bcddd5efcd8e0f2f339465b",
+    "size": 1905,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/0911eaab415318669bcddd5efcd8e0f2f339465b"
+  },
+  {
+    "path": "container_start_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f84cb848b0b35818232210bd79b28a72bbc230c1",
+    "size": 5839,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/f84cb848b0b35818232210bd79b28a72bbc230c1"
+  },
+  {
+    "path": "container_stats.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99d9faa3d077e3c0000e668bec04c1a784c309fb",
+    "size": 16112,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/99d9faa3d077e3c0000e668bec04c1a784c309fb"
+  },
+  {
+    "path": "container_stats_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf088425fb5dea4d3469245fe3930fdfe13f19f2",
+    "size": 17038,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/bf088425fb5dea4d3469245fe3930fdfe13f19f2"
+  },
+  {
+    "path": "container_stop.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43d989874132a9145a13660fa246f7cb5c1c209c",
+    "size": 1164,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/43d989874132a9145a13660fa246f7cb5c1c209c"
+  },
+  {
+    "path": "container_stop_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69826266ff25318f16182720aa7ed56b2c96ac52",
+    "size": 3001,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/69826266ff25318f16182720aa7ed56b2c96ac52"
+  },
+  {
+    "path": "container_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1441ca76a740d69fa342e208b9da7ef5f0bf0685",
+    "size": 2881,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/1441ca76a740d69fa342e208b9da7ef5f0bf0685"
+  },
+  {
+    "path": "container_top.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0aec655fb4dfb5c45fd8d7b5fcf5087caeb5ba4c",
+    "size": 966,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/0aec655fb4dfb5c45fd8d7b5fcf5087caeb5ba4c"
+  },
+  {
+    "path": "container_top_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7fd427b31ea31ee2f5f56031663d8733232ba95",
+    "size": 2158,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/d7fd427b31ea31ee2f5f56031663d8733232ba95"
+  },
+  {
+    "path": "container_unix_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c77ae39c08dd456435fc1ae48f14e9c97c1069b",
+    "size": 3797,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/9c77ae39c08dd456435fc1ae48f14e9c97c1069b"
+  },
+  {
+    "path": "container_unpause.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f3adc34b8f3c3c3a7bd6c44b2b4923ffbe2b45f",
+    "size": 497,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/8f3adc34b8f3c3c3a7bd6c44b2b4923ffbe2b45f"
+  },
+  {
+    "path": "container_unpause_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f59600902b89644673e50e16d4c986e30067bec9",
+    "size": 1035,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/f59600902b89644673e50e16d4c986e30067bec9"
+  },
+  {
+    "path": "container_update.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8de21365b9c508b665e864427578cc8ec8d50a9",
+    "size": 1419,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/e8de21365b9c508b665e864427578cc8ec8d50a9"
+  },
+  {
+    "path": "container_update_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db19ef1f3dff46b7f5ee80dae03c639b94a83e2a",
+    "size": 1341,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/db19ef1f3dff46b7f5ee80dae03c639b94a83e2a"
+  },
+  {
+    "path": "container_wait.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96f0c25f430040b42faf3b5d845489c4bada896a",
+    "size": 1175,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/96f0c25f430040b42faf3b5d845489c4bada896a"
+  },
+  {
+    "path": "container_wait_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bcefcffa89469538c2990fdf6571d6d1558ef05",
+    "size": 2853,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/0bcefcffa89469538c2990fdf6571d6d1558ef05"
+  },
+  {
+    "path": "distribution.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e5e12f7dd3f7f33eef7f91d060bc7bd3477801c",
+    "size": 813,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/6e5e12f7dd3f7f33eef7f91d060bc7bd3477801c"
+  },
+  {
+    "path": "distribution_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccd1e3b1ed7e6a3b7b4b7b979f6442998be82fb7",
+    "size": 1423,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/ccd1e3b1ed7e6a3b7b4b7b979f6442998be82fb7"
+  },
+  {
+    "path": "env.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67bb99f5d0afb9eeedebb487c12119608029cd2e",
+    "size": 4545,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/67bb99f5d0afb9eeedebb487c12119608029cd2e"
+  },
+  {
+    "path": "env_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c01ef6bb2bb41fb15fd1358dd56086abf607710f",
+    "size": 9975,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/c01ef6bb2bb41fb15fd1358dd56086abf607710f"
+  },
+  {
+    "path": "event.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce1fb5021b28b4199e2485790a6253cd7209bad9",
+    "size": 13316,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/ce1fb5021b28b4199e2485790a6253cd7209bad9"
+  },
+  {
+    "path": "event_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "689476034c434f3c3d3af45bcb0f1ad723a03025",
+    "size": 8518,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/689476034c434f3c3d3af45bcb0f1ad723a03025"
+  },
+  {
+    "path": "example_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59b35a969fed9fb16ce97e229d03344a146a8e57",
+    "size": 2731,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/59b35a969fed9fb16ce97e229d03344a146a8e57"
+  },
+  {
+    "path": "exec.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8399b0b0c0966d91f2bb0d0965642d758ee7d8d",
+    "size": 8715,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/c8399b0b0c0966d91f2bb0d0965642d758ee7d8d"
+  },
+  {
+    "path": "exec_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "822968e5d648182f733b7cd2087a8864625b236b",
+    "size": 9445,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/822968e5d648182f733b7cd2087a8864625b236b"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "458f29e551b0178eab5ec27a8247dc8e1d25b225",
+    "size": 1225,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/458f29e551b0178eab5ec27a8247dc8e1d25b225"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f6f177863855d60c61c1bf5d9d88439982dde78",
+    "size": 9762,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/0f6f177863855d60c61c1bf5d9d88439982dde78"
+  },
+  {
+    "path": "helpers_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5465ad7bcbe61f12425e1784dc88f09332d2042b",
+    "size": 1587,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/5465ad7bcbe61f12425e1784dc88f09332d2042b"
+  },
+  {
+    "path": "image.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "614908c6606062e692cbefa17b99c051624a8de4",
+    "size": 25064,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/614908c6606062e692cbefa17b99c051624a8de4"
+  },
+  {
+    "path": "image_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cb310450971ffaa7cf6566c0b52397c4a827064",
+    "size": 35481,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/8cb310450971ffaa7cf6566c0b52397c4a827064"
+  },
+  {
+    "path": "integration_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cbc4d97d1470df7cadc07dfc2158d1570efb4d6",
+    "size": 2214,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/9cbc4d97d1470df7cadc07dfc2158d1570efb4d6"
+  },
+  {
+    "path": "integration_unix_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5916f131c0503479c10fde809925e1478bccfa43",
+    "size": 541,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/5916f131c0503479c10fde809925e1478bccfa43"
+  },
+  {
+    "path": "integration_windows_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "634a2bffd8a2490af3d2326cb1b12c0a600f49af",
+    "size": 566,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/634a2bffd8a2490af3d2326cb1b12c0a600f49af"
+  },
+  {
+    "path": "internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1347cada5e16b20c1c90c68ef3ad3a9185464ef0",
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/trees/1347cada5e16b20c1c90c68ef3ad3a9185464ef0"
+  },
+  {
+    "path": "misc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2fa19c67f4a418fc11e2ac1af766ba656cff0161",
+    "size": 5445,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/2fa19c67f4a418fc11e2ac1af766ba656cff0161"
+  },
+  {
+    "path": "misc_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7273212f30679e1edffc03b9dc88b8f2ef3148e3",
+    "size": 5763,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/7273212f30679e1edffc03b9dc88b8f2ef3148e3"
+  },
+  {
+    "path": "network.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6932c8d872167ccbadb0e747011bfcb7fcfc49ba",
+    "size": 11440,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/6932c8d872167ccbadb0e747011bfcb7fcfc49ba"
+  },
+  {
+    "path": "network_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a86a59723e4a42c764a55f418ea090c06ee3d472",
+    "size": 8629,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/a86a59723e4a42c764a55f418ea090c06ee3d472"
+  },
+  {
+    "path": "plugin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7951e3627528bbd64c10232110e84554d27ac835",
+    "size": 14978,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/7951e3627528bbd64c10232110e84554d27ac835"
+  },
+  {
+    "path": "plugin_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef54768595fbd92244fe8624f750b99a6ef5773e",
+    "size": 9847,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/ef54768595fbd92244fe8624f750b99a6ef5773e"
+  },
+  {
+    "path": "registry_auth.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f60d1e8f3b3b66daccf0e515f42b380aa1f927a",
+    "size": 253,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/1f60d1e8f3b3b66daccf0e515f42b380aa1f927a"
+  },
+  {
+    "path": "signal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16aa00388fdd5530d92e4d1ee32a024e20b0ce44",
+    "size": 1291,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/16aa00388fdd5530d92e4d1ee32a024e20b0ce44"
+  },
+  {
+    "path": "swarm.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae37cd1e8c3263720ae14ed7fded0c2bc965b21e",
+    "size": 4656,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/ae37cd1e8c3263720ae14ed7fded0c2bc965b21e"
+  },
+  {
+    "path": "swarm_configs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "055e99544aae6233f63c0e28e1b5c0a831cda985",
+    "size": 4590,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/055e99544aae6233f63c0e28e1b5c0a831cda985"
+  },
+  {
+    "path": "swarm_configs_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2583ca527b65f7413f7231f564b6422ae82f9e61",
+    "size": 7745,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/2583ca527b65f7413f7231f564b6422ae82f9e61"
+  },
+  {
+    "path": "swarm_node.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8538a167b96dd3f6b8f002cfd950272855a72c6d",
+    "size": 3356,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/8538a167b96dd3f6b8f002cfd950272855a72c6d"
+  },
+  {
+    "path": "swarm_node_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa3994ac61b42549a1300e58f81e7a38f80cf0d9",
+    "size": 6565,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/fa3994ac61b42549a1300e58f81e7a38f80cf0d9"
+  },
+  {
+    "path": "swarm_secrets.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "375e6e5ba377eee0235dbc0cb9f8cf09a32f313e",
+    "size": 4594,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/375e6e5ba377eee0235dbc0cb9f8cf09a32f313e"
+  },
+  {
+    "path": "swarm_secrets_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29cb98c82828c69b8d0a3c006b64ea0a776eebfd",
+    "size": 8475,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/29cb98c82828c69b8d0a3c006b64ea0a776eebfd"
+  },
+  {
+    "path": "swarm_service.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d0f007b722ae749cfb969a76815a20f8a51c031",
+    "size": 6040,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/0d0f007b722ae749cfb969a76815a20f8a51c031"
+  },
+  {
+    "path": "swarm_service_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4be45c05287a7fcf9b070df6f24dfd4ae54b638d",
+    "size": 18063,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/4be45c05287a7fcf9b070df6f24dfd4ae54b638d"
+  },
+  {
+    "path": "swarm_task.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9321368d3f3d10d8e1e4303f7d37376f1594937d",
+    "size": 1783,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/9321368d3f3d10d8e1e4303f7d37376f1594937d"
+  },
+  {
+    "path": "swarm_task_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "148b850d3748e1bea09ebeed098e23a7c332137f",
+    "size": 9167,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/148b850d3748e1bea09ebeed098e23a7c332137f"
+  },
+  {
+    "path": "swarm_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d49f69f31ce7ecef941af04ce17e586e673f1f98",
+    "size": 7314,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/d49f69f31ce7ecef941af04ce17e586e673f1f98"
+  },
+  {
+    "path": "system.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1791f6cea5baf9f582f9282d7d1ed5071fa242d",
+    "size": 2168,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/f1791f6cea5baf9f582f9282d7d1ed5071fa242d"
+  },
+  {
+    "path": "system_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41277f32e587c390aa3a4713a0e84ba88a1f9e94",
+    "size": 2867,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/41277f32e587c390aa3a4713a0e84ba88a1f9e94"
+  },
+  {
+    "path": "tar.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d40c644abd7f8079bb459d241747d16dc823700",
+    "size": 3388,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/0d40c644abd7f8079bb459d241747d16dc823700"
+  },
+  {
+    "path": "testing",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ed22d4e1226d91be64cc5505fdff2c4f453fb469",
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/trees/ed22d4e1226d91be64cc5505fdff2c4f453fb469"
+  },
+  {
+    "path": "tls.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15d5e26673a7a6ea0ede178720adda0d29141dcc",
+    "size": 2919,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/15d5e26673a7a6ea0ede178720adda0d29141dcc"
+  },
+  {
+    "path": "volume.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92dcb71b4742d22c1544da833189bd0c62145c35",
+    "size": 5530,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/92dcb71b4742d22c1544da833189bd0c62145c35"
+  },
+  {
+    "path": "volume_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c88b1f1e43b1c121e0762ff2dd35e19b28c60b03",
+    "size": 6048,
+    "url": "https://api.github.com/repos/fsouza/go-dockerclient/git/blobs/c88b1f1e43b1c121e0762ff2dd35e19b28c60b03"
+  }
+]

@@ -1,0 +1,715 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac089567dfdbde30aecf162018f1da915bc0bf96",
+    "size": 169,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/ac089567dfdbde30aecf162018f1da915bc0bf96"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a35a67ae9c53018ca3aa1dcc575290bb09037b2d",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/a35a67ae9c53018ca3aa1dcc575290bb09037b2d"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "233659f11ffa7779675f174d0d31f69aac642a0b",
+    "size": 646,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/233659f11ffa7779675f174d0d31f69aac642a0b"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3eca1734e34f8509b693c24f36f564c904b9399f",
+    "size": 179,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/3eca1734e34f8509b693c24f36f564c904b9399f"
+  },
+  {
+    "path": ".graphqlrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f174f1922b2fa5d00a23ceba418f2a8628699194",
+    "size": 78,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/f174f1922b2fa5d00a23ceba418f2a8628699194"
+  },
+  {
+    "path": ".markdownlint.jsonc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb59c2d46fcc49dd498f287836f02e35cad3ed3d",
+    "size": 627,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/eb59c2d46fcc49dd498f287836f02e35cad3ed3d"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba5ca89ab32d56641c4ec471d0339d00ad8ee4db",
+    "size": 808,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/ba5ca89ab32d56641c4ec471d0339d00ad8ee4db"
+  },
+  {
+    "path": "Dockerfile-seeded-mongo",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a90acd6ac42bbb7d5069243d37e169935c5bea8",
+    "size": 713,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/6a90acd6ac42bbb7d5069243d37e169935c5bea8"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de719553abbdaa3e1ad0257d0c2e173c1bb83764",
+    "size": 554,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/de719553abbdaa3e1ad0257d0c2e173c1bb83764"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3762c68ee525d5e3296ac751e5c404be10965cf",
+    "size": 2053,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/f3762c68ee525d5e3296ac751e5c404be10965cf"
+  },
+  {
+    "path": "agent",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82070b270f37e771a54d97eb8c2b6917788b8e8c",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/82070b270f37e771a54d97eb8c2b6917788b8e8c"
+  },
+  {
+    "path": "api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "977a2192691f798bb7f1d6750a4f70bd8cd4818c",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/977a2192691f798bb7f1d6750a4f70bd8cd4818c"
+  },
+  {
+    "path": "apimodels",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bdb4b343e174a9f7f2d3ad96ab5ea22448855ba5",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/bdb4b343e174a9f7f2d3ad96ab5ea22448855ba5"
+  },
+  {
+    "path": "auth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "07ccf2baad38ba2617cc64e6b5a0d6c973fdf879",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/07ccf2baad38ba2617cc64e6b5a0d6c973fdf879"
+  },
+  {
+    "path": "catalog-info.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82128c4224dde75395fecbaf8571b9956c41bc33",
+    "size": 1687,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/82128c4224dde75395fecbaf8571b9956c41bc33"
+  },
+  {
+    "path": "cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7572b155f8f5d1e4ff447a9449d107b9699e4b64",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/7572b155f8f5d1e4ff447a9449d107b9699e4b64"
+  },
+  {
+    "path": "cmd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82e2dd94c4e6aa075b76cef3473c81db34422bcb",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/82e2dd94c4e6aa075b76cef3473c81db34422bcb"
+  },
+  {
+    "path": "config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13d5d8cb6b6e3589186dc58eb537c1577aa40b15",
+    "size": 31713,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/13d5d8cb6b6e3589186dc58eb537c1577aa40b15"
+  },
+  {
+    "path": "config_amboy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fcf1c3ab5d3dfdc38bebeb2a7661d3c9a36c6d61",
+    "size": 9070,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/fcf1c3ab5d3dfdc38bebeb2a7661d3c9a36c6d61"
+  },
+  {
+    "path": "config_amboy_db.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0320f9021ea2873f9a98412b67c064ab8ec586a",
+    "size": 1048,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/a0320f9021ea2873f9a98412b67c064ab8ec586a"
+  },
+  {
+    "path": "config_api.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "492389a8f227075d376bfd7022ed2492ebbeb8a9",
+    "size": 3601,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/492389a8f227075d376bfd7022ed2492ebbeb8a9"
+  },
+  {
+    "path": "config_auth.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f84637ce8e9d3dd1555959b6d21fe19b5d4d1ef",
+    "size": 7775,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/9f84637ce8e9d3dd1555959b6d21fe19b5d4d1ef"
+  },
+  {
+    "path": "config_bucket.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c540669d6b8d076730f46a5d6368c88bd76e512c",
+    "size": 3807,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/c540669d6b8d076730f46a5d6368c88bd76e512c"
+  },
+  {
+    "path": "config_cedar.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "907aa035083f5528e3470cf959bf62bbb58386b0",
+    "size": 897,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/907aa035083f5528e3470cf959bf62bbb58386b0"
+  },
+  {
+    "path": "config_cloud.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21688ff2cbba4f6b70ceb475676fea53749b1c9d",
+    "size": 14185,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/21688ff2cbba4f6b70ceb475676fea53749b1c9d"
+  },
+  {
+    "path": "config_containerpools.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c258cdb274205ab8fe217b6001c34cd6e5b05c9",
+    "size": 1763,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/7c258cdb274205ab8fe217b6001c34cd6e5b05c9"
+  },
+  {
+    "path": "config_db.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1f7472fc33051149753a47b58917e298c0d6d1c",
+    "size": 15160,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/e1f7472fc33051149753a47b58917e298c0d6d1c"
+  },
+  {
+    "path": "config_db_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "778ddd80ac669d8d1a99fa4bf10cba00f371245d",
+    "size": 7827,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/778ddd80ac669d8d1a99fa4bf10cba00f371245d"
+  },
+  {
+    "path": "config_dev",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9aaa4836a10e524a6cb7c210c19e56728ffd883",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/c9aaa4836a10e524a6cb7c210c19e56728ffd883"
+  },
+  {
+    "path": "config_fws.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41a956c2d4a50707e11c2cb4e602b809f6a631b3",
+    "size": 782,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/41a956c2d4a50707e11c2cb4e602b809f6a631b3"
+  },
+  {
+    "path": "config_github_check_run.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bee79fc474779448817a1914bc1e05fe57545aad",
+    "size": 1270,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/bee79fc474779448817a1914bc1e05fe57545aad"
+  },
+  {
+    "path": "config_hostinit.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed544afddc132dcbfa7ff28c682d4a34f6480d30",
+    "size": 2033,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/ed544afddc132dcbfa7ff28c682d4a34f6480d30"
+  },
+  {
+    "path": "config_jasper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfbf4691e6fcb1484fafda081fa023097801a494",
+    "size": 1912,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/bfbf4691e6fcb1484fafda081fa023097801a494"
+  },
+  {
+    "path": "config_jira.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd8a1044fef4b4e0416b0482c5caadbb915042cf",
+    "size": 1591,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/bd8a1044fef4b4e0416b0482c5caadbb915042cf"
+  },
+  {
+    "path": "config_jira_notifications.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dda7e31f199b2495b207746c8b2e25ddc24460c6",
+    "size": 1831,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/dda7e31f199b2495b207746c8b2e25ddc24460c6"
+  },
+  {
+    "path": "config_logger.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c6a124cf9623d6d522381d895fce806bd9f5b7b",
+    "size": 3256,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/8c6a124cf9623d6d522381d895fce806bd9f5b7b"
+  },
+  {
+    "path": "config_notify.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb6d347008a12106ba5996452e36f24a17ef8c7d",
+    "size": 1824,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/cb6d347008a12106ba5996452e36f24a17ef8c7d"
+  },
+  {
+    "path": "config_overrides.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25a76ac5722f844a4dee072c40ad7c1b2e799c19",
+    "size": 3820,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/25a76ac5722f844a4dee072c40ad7c1b2e799c19"
+  },
+  {
+    "path": "config_parameter_store.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ef5d6971b8c9b992a2c8d0acb0ef65faa560441",
+    "size": 952,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/5ef5d6971b8c9b992a2c8d0acb0ef65faa560441"
+  },
+  {
+    "path": "config_pod_lifecycle.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b27c1eb524b5e442aaf5303990ff48e1ddba58eb",
+    "size": 1436,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/b27c1eb524b5e442aaf5303990ff48e1ddba58eb"
+  },
+  {
+    "path": "config_prod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "760c4dd4a51e5d99b0d8079885bbb0b892f2cbd0",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/760c4dd4a51e5d99b0d8079885bbb0b892f2cbd0"
+  },
+  {
+    "path": "config_project_creation.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8bbba912a63b30b3a1c1e451828d9aa61ee9b2ce",
+    "size": 2373,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/8bbba912a63b30b3a1c1e451828d9aa61ee9b2ce"
+  },
+  {
+    "path": "config_release_mode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6b0e5f0364648048b7f2300b56c22ecd1996050",
+    "size": 1636,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/f6b0e5f0364648048b7f2300b56c22ecd1996050"
+  },
+  {
+    "path": "config_repotracker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e75b2e6e4f6e552023c05d95c7717f22e2552f56",
+    "size": 1134,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/e75b2e6e4f6e552023c05d95c7717f22e2552f56"
+  },
+  {
+    "path": "config_runtime_environments.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47b61cae3b2775e223b9faca5b63225f0f06ea9c",
+    "size": 1096,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/47b61cae3b2775e223b9faca5b63225f0f06ea9c"
+  },
+  {
+    "path": "config_scheduler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6435121f7dc03c0b6040c539b31a5c8fc8f104f0",
+    "size": 7597,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/6435121f7dc03c0b6040c539b31a5c8fc8f104f0"
+  },
+  {
+    "path": "config_sections.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b34c71fc608db7d1f20f70c983a850fd4fa7e99",
+    "size": 2592,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/2b34c71fc608db7d1f20f70c983a850fd4fa7e99"
+  },
+  {
+    "path": "config_serviceflags.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e414d7e23d76dd05398c739d98f801f5a933a01d",
+    "size": 7105,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/e414d7e23d76dd05398c739d98f801f5a933a01d"
+  },
+  {
+    "path": "config_single_task_distro.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82c010b7f452145125a8c5f87d53a4004d286170",
+    "size": 1196,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/82c010b7f452145125a8c5f87d53a4004d286170"
+  },
+  {
+    "path": "config_slack.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a90f62f45e75500475716eb9553a60150d1418b5",
+    "size": 1513,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/a90f62f45e75500475716eb9553a60150d1418b5"
+  },
+  {
+    "path": "config_sleep_schedule.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "802415c5565126726b707b189c502d21edf5e99c",
+    "size": 1012,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/802415c5565126726b707b189c502d21edf5e99c"
+  },
+  {
+    "path": "config_spawnhost.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93110ed4412cf81686cdd17b0700982bff47ea4c",
+    "size": 1433,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/93110ed4412cf81686cdd17b0700982bff47ea4c"
+  },
+  {
+    "path": "config_splunk.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae0a6f21100a72324cb0402c2f0d2d958cd0734a",
+    "size": 849,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/ae0a6f21100a72324cb0402c2f0d2d958cd0734a"
+  },
+  {
+    "path": "config_ssh.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc5d908972ec72d46e3f4a9c1dfe80bc9fb50d25",
+    "size": 2111,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/fc5d908972ec72d46e3f4a9c1dfe80bc9fb50d25"
+  },
+  {
+    "path": "config_task_limits.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "894f8cd341510b39f028e85511f0b02bb11f6b19",
+    "size": 6311,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/894f8cd341510b39f028e85511f0b02bb11f6b19"
+  },
+  {
+    "path": "config_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09d82c1431800c5ef9d2a60f1c4e496c710a2f43",
+    "size": 21626,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/09d82c1431800c5ef9d2a60f1c4e496c710a2f43"
+  },
+  {
+    "path": "config_test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e4a3d7a56f18bb6111c48c1693e29fd9d71a4c3e",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/e4a3d7a56f18bb6111c48c1693e29fd9d71a4c3e"
+  },
+  {
+    "path": "config_test_selection.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1f4e7c717a6651b599c9079bcc55fd7e6503613",
+    "size": 882,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/a1f4e7c717a6651b599c9079bcc55fd7e6503613"
+  },
+  {
+    "path": "config_tracer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77e1f1211e6b6ce44cef4056c86cd9f7eceb2307",
+    "size": 1700,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/77e1f1211e6b6ce44cef4056c86cd9f7eceb2307"
+  },
+  {
+    "path": "config_triggers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f653d97a39ec395d4760bf2ce25bf2abf4148fd8",
+    "size": 704,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/f653d97a39ec395d4760bf2ce25bf2abf4148fd8"
+  },
+  {
+    "path": "config_ui.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5313917f8369eda06018a9cf042e4fc7b6c2b4fb",
+    "size": 4393,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/5313917f8369eda06018a9cf042e4fc7b6c2b4fb"
+  },
+  {
+    "path": "db",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a3ad709d6138ed7fa1125768e33786ad327030ec",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/a3ad709d6138ed7fa1125768e33786ad327030ec"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4bc2b6ea0f776a132308e7c67d51b6de37a3abcd",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/4bc2b6ea0f776a132308e7c67d51b6de37a3abcd"
+  },
+  {
+    "path": "environment.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1220d785525da7c786e86bf5ab45f63f91eaee42",
+    "size": 45143,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/1220d785525da7c786e86bf5ab45f63f91eaee42"
+  },
+  {
+    "path": "environment_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2203071f3971f570d017b6287a2492cccb5216b1",
+    "size": 3501,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/2203071f3971f570d017b6287a2492cccb5216b1"
+  },
+  {
+    "path": "globals.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8054b475bd9b1939633ce741f32d6d73a64ee8d6",
+    "size": 47825,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/8054b475bd9b1939633ce741f32d6d73a64ee8d6"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82b37271eb05310aac1c07a143155c3cde82cca0",
+    "size": 12136,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/82b37271eb05310aac1c07a143155c3cde82cca0"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b98a8274c6326f8ef3ddcbb057cd972728bb48f",
+    "size": 102729,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/0b98a8274c6326f8ef3ddcbb057cd972728bb48f"
+  },
+  {
+    "path": "gqlgen.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28a4ee3f893cc58be3550f4850fbbb9650384bdf",
+    "size": 43194,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/28a4ee3f893cc58be3550f4850fbbb9650384bdf"
+  },
+  {
+    "path": "graphql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87788bc6e9d202ec8feeff648d051704b6625356",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/87788bc6e9d202ec8feeff648d051704b6625356"
+  },
+  {
+    "path": "loggers_linux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd0b59efc182dd0596d955113c4dea49a05a6549",
+    "size": 224,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/cd0b59efc182dd0596d955113c4dea49a05a6549"
+  },
+  {
+    "path": "loggers_other.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6b22a33385fe0b84d6ea5b1dd74907a17c7b0ab",
+    "size": 141,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/b6b22a33385fe0b84d6ea5b1dd74907a17c7b0ab"
+  },
+  {
+    "path": "makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c382eac37b121f0eb265bf39f12b727951d80923",
+    "size": 18991,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/c382eac37b121f0eb265bf39f12b727951d80923"
+  },
+  {
+    "path": "mkdocs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23748e70b7ab3add2c6611ed938a8e4a1585960b",
+    "size": 61,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/23748e70b7ab3add2c6611ed938a8e4a1585960b"
+  },
+  {
+    "path": "mock",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2eb38035a6a142401e02ec0aa229d8ff18bc9fc",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/a2eb38035a6a142401e02ec0aa229d8ff18bc9fc"
+  },
+  {
+    "path": "model",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c01ba4a067f614bc25ac5c5536acf9d90e0ee2e5",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/c01ba4a067f614bc25ac5c5536acf9d90e0ee2e5"
+  },
+  {
+    "path": "operations",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "93a7ee934d3c36d1aab20b45ec393947e04a2d91",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/93a7ee934d3c36d1aab20b45ec393947e04a2d91"
+  },
+  {
+    "path": "plugin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0114c80598e85c0980605148f6cd8d61e4f678b",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/a0114c80598e85c0980605148f6cd8d61e4f678b"
+  },
+  {
+    "path": "public",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "12fb95da31c5b42409094bc4fb2c94ba7a2ead78",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/12fb95da31c5b42409094bc4fb2c94ba7a2ead78"
+  },
+  {
+    "path": "repotracker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "05272a4498ce731bbac5c5e9e4d82bc12142f92e",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/05272a4498ce731bbac5c5e9e4d82bc12142f92e"
+  },
+  {
+    "path": "rest",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d5e916d05166c5adf8b01eb22ab4aa76823fecc8",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/d5e916d05166c5adf8b01eb22ab4aa76823fecc8"
+  },
+  {
+    "path": "scheduler",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "310cbd74f9328463e54909c565ef08ab8b740bfd",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/310cbd74f9328463e54909c565ef08ab8b740bfd"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "525ab5683bf3b71ff12a86b2819cb29446f2cf83",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/525ab5683bf3b71ff12a86b2819cb29446f2cf83"
+  },
+  {
+    "path": "self-tests.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1150e13dd9d78fbb48ca1461f9c455eb7825faa",
+    "size": 30025,
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/blobs/e1150e13dd9d78fbb48ca1461f9c455eb7825faa"
+  },
+  {
+    "path": "service",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03192d0db28216fe98b29d1255e31dfe906ea850",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/03192d0db28216fe98b29d1255e31dfe906ea850"
+  },
+  {
+    "path": "smoke",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "52cc2ae8ca67c8e372c556a2ee4f0359c96f56f1",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/52cc2ae8ca67c8e372c556a2ee4f0359c96f56f1"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "df71b7ba7ebd19090864e38cdfc745f32153e8a8",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/df71b7ba7ebd19090864e38cdfc745f32153e8a8"
+  },
+  {
+    "path": "testutil",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4335029a1c7d3921e4e27940763626da43ac8490",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/4335029a1c7d3921e4e27940763626da43ac8490"
+  },
+  {
+    "path": "thirdparty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "85e93aad28f5c776b8a1c5b9f3b8f89d27e864f4",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/85e93aad28f5c776b8a1c5b9f3b8f89d27e864f4"
+  },
+  {
+    "path": "trigger",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8cda74396ed6aafb78156f9885b12c66fbf8c97f",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/8cda74396ed6aafb78156f9885b12c66fbf8c97f"
+  },
+  {
+    "path": "units",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f417cb05e82eb32cc58ad1a378979928c9be5019",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/f417cb05e82eb32cc58ad1a378979928c9be5019"
+  },
+  {
+    "path": "util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c18f308082cc217ede29c6e4708dbeda63cb8297",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/c18f308082cc217ede29c6e4708dbeda63cb8297"
+  },
+  {
+    "path": "validator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5203214f06851b96e123f2ae29128f71877d77a3",
+    "url": "https://api.github.com/repos/evergreen-ci/evergreen/git/trees/5203214f06851b96e123f2ae29128f71877d77a3"
+  }
+]

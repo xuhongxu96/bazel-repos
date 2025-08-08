@@ -1,0 +1,1822 @@
+[
+  {
+    "path": ".clang-format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7002fe9ee8b3e3e2168112ee6d6dc37ab6559489",
+    "size": 4634,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7002fe9ee8b3e3e2168112ee6d6dc37ab6559489"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "796b96d1c402326528b4ba3c12ee9d92d0e212e9",
+    "size": 7,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/796b96d1c402326528b4ba3c12ee9d92d0e212e9"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8906f85c829b2161f54a1c6ec7ce36be57d451fa",
+    "size": 2412,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/8906f85c829b2161f54a1c6ec7ce36be57d451fa"
+  },
+  {
+    "path": "LICENCE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab8f2034262a0777dd1f018a287fcb5268e589be",
+    "size": 841,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/ab8f2034262a0777dd1f018a287fcb5268e589be"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e2afa90324644f520ab6ba1e554394411f3888b",
+    "size": 52592,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/4e2afa90324644f520ab6ba1e554394411f3888b"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72915835daa16aed51f833f1930bfad0a149fe05",
+    "size": 2840,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/72915835daa16aed51f833f1930bfad0a149fe05"
+  },
+  {
+    "path": "_crypto-test_dh_x25519.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47da46d15c2b319f8a20e97a6443a833e54f2933",
+    "size": 13167,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/47da46d15c2b319f8a20e97a6443a833e54f2933"
+  },
+  {
+    "path": "_crypto-test_hash_sha256.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80625b767de3e9c0bcf4f031b53db77e880aa151",
+    "size": 4356,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/80625b767de3e9c0bcf4f031b53db77e880aa151"
+  },
+  {
+    "path": "_crypto-test_hash_sha512.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23de9a99d698452fa38ee7858027ebfb4b250e8b",
+    "size": 4356,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/23de9a99d698452fa38ee7858027ebfb4b250e8b"
+  },
+  {
+    "path": "_crypto-test_kem_sntrup761.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfd67c3b55e6e176d7ee8e00073c992f8624f693",
+    "size": 9602,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/bfd67c3b55e6e176d7ee8e00073c992f8624f693"
+  },
+  {
+    "path": "_crypto-test_onetimeauth_poly1305.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba9af155f8518d1906fabbf3c7261c6fc9c78349",
+    "size": 358796,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/ba9af155f8518d1906fabbf3c7261c6fc9c78349"
+  },
+  {
+    "path": "_crypto-test_sign_ed25519.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26f4830befa09b63be050b54c0c41aec71d400ba",
+    "size": 14164,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/26f4830befa09b63be050b54c0c41aec71d400ba"
+  },
+  {
+    "path": "_crypto-test_sort_uint32.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b672f415af3747d88c73455a6271584d4d34d695",
+    "size": 3341,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b672f415af3747d88c73455a6271584d4d34d695"
+  },
+  {
+    "path": "_crypto-test_verify_16.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "436792d577b2076817238bca79413057b4e029b8",
+    "size": 2055,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/436792d577b2076817238bca79413057b4e029b8"
+  },
+  {
+    "path": "_crypto-test_verify_32.inc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22197f411f547bdffc91d1b8293710d130abfade",
+    "size": 2055,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/22197f411f547bdffc91d1b8293710d130abfade"
+  },
+  {
+    "path": "_tinysshd-printkex.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2df10a08ca6ffabc0ac5ac632471f9ce5f566ec",
+    "size": 4616,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a2df10a08ca6ffabc0ac5ac632471f9ce5f566ec"
+  },
+  {
+    "path": "_tinysshd-speed.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "763a4eacebc8c87709bcc1f7796aed606f5dd59b",
+    "size": 7202,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/763a4eacebc8c87709bcc1f7796aed606f5dd59b"
+  },
+  {
+    "path": "_tinysshd-test-hello1.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "435d5f377a8c49147ba3f4b0a79b70470942f5a9",
+    "size": 968,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/435d5f377a8c49147ba3f4b0a79b70470942f5a9"
+  },
+  {
+    "path": "_tinysshd-test-hello2.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "038a577d31a41e6d84a1caf56da8bf3f83e3b67b",
+    "size": 1912,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/038a577d31a41e6d84a1caf56da8bf3f83e3b67b"
+  },
+  {
+    "path": "_tinysshd-test-kex1.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "208341148d4ec2f1712e29132f2e60907044f270",
+    "size": 1706,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/208341148d4ec2f1712e29132f2e60907044f270"
+  },
+  {
+    "path": "_tinysshd-test-kex2.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82fb103e0fada0a18a0d567a59198801f2d4b085",
+    "size": 5686,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/82fb103e0fada0a18a0d567a59198801f2d4b085"
+  },
+  {
+    "path": "_tinysshd-unauthenticated.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80bd1855858f9afe957460e4d2b5c866c689f3a4",
+    "size": 2648,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/80bd1855858f9afe957460e4d2b5c866c689f3a4"
+  },
+  {
+    "path": "blocking.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5cbc409ca47956eaa89a6b2b648797922a9b6b5",
+    "size": 325,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/d5cbc409ca47956eaa89a6b2b648797922a9b6b5"
+  },
+  {
+    "path": "blocking.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "532335a1b69beda04d16fbf868f1893c1a12379c",
+    "size": 124,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/532335a1b69beda04d16fbf868f1893c1a12379c"
+  },
+  {
+    "path": "buf.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7cd5edff970d9b930b59457d2e1dacca308d8150",
+    "size": 6094,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7cd5edff970d9b930b59457d2e1dacca308d8150"
+  },
+  {
+    "path": "buf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5cf9f2f66d3be2ecbefd8b1de5e3524809451673",
+    "size": 3156,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/5cf9f2f66d3be2ecbefd8b1de5e3524809451673"
+  },
+  {
+    "path": "bug.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bf171db3e5dc16d9e5e7bd0521bdd803b1754a6",
+    "size": 2539,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/1bf171db3e5dc16d9e5e7bd0521bdd803b1754a6"
+  },
+  {
+    "path": "byte.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85edcd2d5ebc9a6f252585156661376f39462f0d",
+    "size": 710,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/85edcd2d5ebc9a6f252585156661376f39462f0d"
+  },
+  {
+    "path": "byte.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96de077be3a0c7d3f4c1d8b8c4c7ee3dfdc6fa3f",
+    "size": 209,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/96de077be3a0c7d3f4c1d8b8c4c7ee3dfdc6fa3f"
+  },
+  {
+    "path": "channel.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1c860797f79a0882b26084fe0654ed39260c496",
+    "size": 12174,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a1c860797f79a0882b26084fe0654ed39260c496"
+  },
+  {
+    "path": "channel.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee6c2a564566370bf839fbe55a941dc257438514",
+    "size": 2760,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/ee6c2a564566370bf839fbe55a941dc257438514"
+  },
+  {
+    "path": "channel_drop.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b332165999b48d2c2e92901499b29134320914e",
+    "size": 1024,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/2b332165999b48d2c2e92901499b29134320914e"
+  },
+  {
+    "path": "channel_fork.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0fb3dc0901ecab5a55485429ef4a6bc126b7de8",
+    "size": 1190,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/d0fb3dc0901ecab5a55485429ef4a6bc126b7de8"
+  },
+  {
+    "path": "channel_forkpty.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0ccf2b7a3f0c8f64a765165e5092f91c5d1fa11",
+    "size": 4075,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e0ccf2b7a3f0c8f64a765165e5092f91c5d1fa11"
+  },
+  {
+    "path": "channel_subsystem.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ad2ee1f3c4bd336cb01f7bfc7938ccbb5be07b6",
+    "size": 1083,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/3ad2ee1f3c4bd336cb01f7bfc7938ccbb5be07b6"
+  },
+  {
+    "path": "cleanup.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e998f82cc87b32b54accd2babe19c671e758662",
+    "size": 250,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/2e998f82cc87b32b54accd2babe19c671e758662"
+  },
+  {
+    "path": "cleanup.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "155802f059d2e89b63b44ea45f51302e6fa34a0a",
+    "size": 138,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/155802f059d2e89b63b44ea45f51302e6fa34a0a"
+  },
+  {
+    "path": "coe.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "727300e11a9ea4109c6d92192018797d3a7b2979",
+    "size": 347,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/727300e11a9ea4109c6d92192018797d3a7b2979"
+  },
+  {
+    "path": "coe.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cd3567a8c3a875a9d207c9c080934e9899f1e85",
+    "size": 104,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/8cd3567a8c3a875a9d207c9c080934e9899f1e85"
+  },
+  {
+    "path": "connectioninfo.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bea2618df6a1422af8adbbc059702fec4053dee2",
+    "size": 3997,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/bea2618df6a1422af8adbbc059702fec4053dee2"
+  },
+  {
+    "path": "connectioninfo.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "975fcf79421414daae9f62fe7663f07c51994e21",
+    "size": 127,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/975fcf79421414daae9f62fe7663f07c51994e21"
+  },
+  {
+    "path": "crypto.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b83e6f3c37bd5f4ab312e5c67496f4c12f889e9b",
+    "size": 837,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b83e6f3c37bd5f4ab312e5c67496f4c12f889e9b"
+  },
+  {
+    "path": "crypto_declassify.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8c3b2f8fbb30769446ded1a3e5ba952eb83036a",
+    "size": 436,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/f8c3b2f8fbb30769446ded1a3e5ba952eb83036a"
+  },
+  {
+    "path": "crypto_dh_x25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a5e230925ddc8e97b40c01a051a40008e32b37d",
+    "size": 878,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/8a5e230925ddc8e97b40c01a051a40008e32b37d"
+  },
+  {
+    "path": "crypto_dh_x25519.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c7d65c2de239d8dc3cf56bd12fb74319ff764e9",
+    "size": 1897,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/4c7d65c2de239d8dc3cf56bd12fb74319ff764e9"
+  },
+  {
+    "path": "crypto_hash_sha256.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c485eabfe815baabdbf0ac5d008c672767726ea",
+    "size": 2962,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/5c485eabfe815baabdbf0ac5d008c672767726ea"
+  },
+  {
+    "path": "crypto_hash_sha256.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75ac757f78532fabc191a6fad7d9f1a9799df7af",
+    "size": 460,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/75ac757f78532fabc191a6fad7d9f1a9799df7af"
+  },
+  {
+    "path": "crypto_hash_sha512.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6de5cf49b460708728e8d37ee8e7e7becae1835",
+    "size": 980,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e6de5cf49b460708728e8d37ee8e7e7becae1835"
+  },
+  {
+    "path": "crypto_hash_sha512_lib25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee0923dc2433c4b036c02ca30439fd2c34b52e59",
+    "size": 289,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/ee0923dc2433c4b036c02ca30439fd2c34b52e59"
+  },
+  {
+    "path": "crypto_hash_sha512_tinyssh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aebdc2c8a025aa2f6fb4c36f0e21130579ae9625",
+    "size": 4337,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/aebdc2c8a025aa2f6fb4c36f0e21130579ae9625"
+  },
+  {
+    "path": "crypto_kem_sntrup761.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd4a8d2013a665ef4733541106080a32c15cb4a6",
+    "size": 3367,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/bd4a8d2013a665ef4733541106080a32c15cb4a6"
+  },
+  {
+    "path": "crypto_kem_sntrup761_libntruprime.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f6b100aae0065b62612b2707d5948bdd87732f0",
+    "size": 732,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/4f6b100aae0065b62612b2707d5948bdd87732f0"
+  },
+  {
+    "path": "crypto_kem_sntrup761_tinyssh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "889c7afeb768ad9b4286f04a95b282a61f4fe6bc",
+    "size": 28827,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/889c7afeb768ad9b4286f04a95b282a61f4fe6bc"
+  },
+  {
+    "path": "crypto_kem_sntrup761x25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0d6dc3aa0b6bf0dbbffc1334af39475ead3f762",
+    "size": 2131,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a0d6dc3aa0b6bf0dbbffc1334af39475ead3f762"
+  },
+  {
+    "path": "crypto_kem_sntrup761x25519.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2ea3f3ea18518f3fc6114a2d7402c11ec95cf4b",
+    "size": 1814,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/c2ea3f3ea18518f3fc6114a2d7402c11ec95cf4b"
+  },
+  {
+    "path": "crypto_onetimeauth_poly1305.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5834f06e6dedcc6867b192b96ff19c73b072bfa",
+    "size": 2702,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/c5834f06e6dedcc6867b192b96ff19c73b072bfa"
+  },
+  {
+    "path": "crypto_onetimeauth_poly1305_lib1305.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8b5f0b98bdc08e4593dff9e3005a768008831a2",
+    "size": 775,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a8b5f0b98bdc08e4593dff9e3005a768008831a2"
+  },
+  {
+    "path": "crypto_onetimeauth_poly1305_tinyssh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5295392cd25c74c03dd984ddd47da35be07ef2a",
+    "size": 5718,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/c5295392cd25c74c03dd984ddd47da35be07ef2a"
+  },
+  {
+    "path": "crypto_scalarmult_curve25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3ec1b58bcde1c82894cc31ccf6c8754d92677e9",
+    "size": 1988,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a3ec1b58bcde1c82894cc31ccf6c8754d92677e9"
+  },
+  {
+    "path": "crypto_scalarmult_curve25519.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a18d44bedc41d5f71339aa3971928eedb10350ec",
+    "size": 1131,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a18d44bedc41d5f71339aa3971928eedb10350ec"
+  },
+  {
+    "path": "crypto_sign_ed25519.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e2d40839e0ed87a63577f42a8f013b1fc06e604",
+    "size": 3311,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/5e2d40839e0ed87a63577f42a8f013b1fc06e604"
+  },
+  {
+    "path": "crypto_sign_ed25519_lib25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "898c9e2694a7ab4ca772109ec352b9ce714f14eb",
+    "size": 1073,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/898c9e2694a7ab4ca772109ec352b9ce714f14eb"
+  },
+  {
+    "path": "crypto_sign_ed25519_tinyssh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba9c29ad931d1201b9e49453611881e3d2234373",
+    "size": 3657,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/ba9c29ad931d1201b9e49453611881e3d2234373"
+  },
+  {
+    "path": "crypto_sort_uint32.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cde13bf6bf21e110ac70e74e54f9489284e104c1",
+    "size": 820,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/cde13bf6bf21e110ac70e74e54f9489284e104c1"
+  },
+  {
+    "path": "crypto_sort_uint32.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68e2c1deddcf7327d0db93a9624649311cc1f403",
+    "size": 381,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/68e2c1deddcf7327d0db93a9624649311cc1f403"
+  },
+  {
+    "path": "crypto_stream_chacha20.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e32851d728e8a04860aedf94832697650af1123a",
+    "size": 7338,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e32851d728e8a04860aedf94832697650af1123a"
+  },
+  {
+    "path": "crypto_stream_chacha20.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76b3246f388a9bd6807e3f1543964f1c0e137c75",
+    "size": 1164,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/76b3246f388a9bd6807e3f1543964f1c0e137c75"
+  },
+  {
+    "path": "crypto_verify_16.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8daf00e5a8e28e0bd5925ae0516550cd4a6ecfb",
+    "size": 294,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a8daf00e5a8e28e0bd5925ae0516550cd4a6ecfb"
+  },
+  {
+    "path": "crypto_verify_16.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d9819615321d0d10ce3d0b385454fadf0b8d9914",
+    "size": 424,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/d9819615321d0d10ce3d0b385454fadf0b8d9914"
+  },
+  {
+    "path": "crypto_verify_32.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "556a6c48928ba128d6098c85c149d1779becf8a7",
+    "size": 294,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/556a6c48928ba128d6098c85c149d1779becf8a7"
+  },
+  {
+    "path": "crypto_verify_32.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3c46238102ea5c4ded0d17ff8d33fea5c5aba9d",
+    "size": 424,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/c3c46238102ea5c4ded0d17ff8d33fea5c5aba9d"
+  },
+  {
+    "path": "cryptoint",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b2993e8766251bf138ddb2fb21686c11ac2fe809",
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/trees/b2993e8766251bf138ddb2fb21686c11ac2fe809"
+  },
+  {
+    "path": "die.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e4e40f02e1f511c8a03d0b01a26e8323be43be5",
+    "size": 538,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/1e4e40f02e1f511c8a03d0b01a26e8323be43be5"
+  },
+  {
+    "path": "die.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b9dc0a409d986c6ebd5741815cf1badc0106778",
+    "size": 280,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/4b9dc0a409d986c6ebd5741815cf1badc0106778"
+  },
+  {
+    "path": "dropuidgid.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0aebeb2716f5a44e63b9c482dcc0687bde18b7d",
+    "size": 940,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e0aebeb2716f5a44e63b9c482dcc0687bde18b7d"
+  },
+  {
+    "path": "dropuidgid.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0d5233432ae3c64a8ac3ee318136e6a3663a478",
+    "size": 133,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/c0d5233432ae3c64a8ac3ee318136e6a3663a478"
+  },
+  {
+    "path": "e.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9b95003493be30063f2c724386dacafc083a6bf",
+    "size": 4005,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e9b95003493be30063f2c724386dacafc083a6bf"
+  },
+  {
+    "path": "e.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "add0768b97aa1d56a0fcdc2a37eef6142221ee70",
+    "size": 6982,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/add0768b97aa1d56a0fcdc2a37eef6142221ee70"
+  },
+  {
+    "path": "env.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9450bff09dc6ee0e001295603ee0c2417e53680",
+    "size": 446,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/f9450bff09dc6ee0e001295603ee0c2417e53680"
+  },
+  {
+    "path": "env.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36f5a96da77d6d961ea4d5b367912fded375b729",
+    "size": 270,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/36f5a96da77d6d961ea4d5b367912fded375b729"
+  },
+  {
+    "path": "fe.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "688486bbbf0e435170e3c4894b9b3a3f22ecab23",
+    "size": 4130,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/688486bbbf0e435170e3c4894b9b3a3f22ecab23"
+  },
+  {
+    "path": "fe.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2f6022ee89681e03513b377f803f96f36bb3c46",
+    "size": 479,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a2f6022ee89681e03513b377f803f96f36bb3c46"
+  },
+  {
+    "path": "fe25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b9bffad437379f4f9c2dbb2465f2afbcb750d37",
+    "size": 6256,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/9b9bffad437379f4f9c2dbb2465f2afbcb750d37"
+  },
+  {
+    "path": "fe25519.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9073699755d036f8b96e553be8f1ba26c8b261f9",
+    "size": 619,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/9073699755d036f8b96e553be8f1ba26c8b261f9"
+  },
+  {
+    "path": "ge25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24f882d83cea4835dbc2628c40274c6b2bdccd08",
+    "size": 5823,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/24f882d83cea4835dbc2628c40274c6b2bdccd08"
+  },
+  {
+    "path": "ge25519.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d91badf94df9d2b3ce160c54224341820a11372e",
+    "size": 437,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/d91badf94df9d2b3ce160c54224341820a11372e"
+  },
+  {
+    "path": "getln.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7672b35766b1535c9594048897c669aca275e5c3",
+    "size": 1261,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7672b35766b1535c9594048897c669aca275e5c3"
+  },
+  {
+    "path": "getln.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfbf4c89cfcbaa57601e0bf1f64f2aff317091aa",
+    "size": 91,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/dfbf4c89cfcbaa57601e0bf1f64f2aff317091aa"
+  },
+  {
+    "path": "global.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6a6d8b1d4c5b766cdd668876ebd934edf928a75",
+    "size": 1442,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/f6a6d8b1d4c5b766cdd668876ebd934edf928a75"
+  },
+  {
+    "path": "global.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae6626d8fab5d0f73fa97044ccabe280d5ca34cf",
+    "size": 273,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/ae6626d8fab5d0f73fa97044ccabe280d5ca34cf"
+  },
+  {
+    "path": "haslib1305.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "719b7fb21858a1aa9d7c28cdb5e6607365c37baf",
+    "size": 565,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/719b7fb21858a1aa9d7c28cdb5e6607365c37baf"
+  },
+  {
+    "path": "haslib25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b207d949f6d2e3ff7b6c220063e15b8fb9402a22",
+    "size": 2136,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b207d949f6d2e3ff7b6c220063e15b8fb9402a22"
+  },
+  {
+    "path": "haslibntruprime.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b82650f5276f338a8b786aa8449c426db74979f5",
+    "size": 928,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b82650f5276f338a8b786aa8449c426db74979f5"
+  },
+  {
+    "path": "haslibrandombytes.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bbf8be3c5815c973b19e1036ec266d697c5b2cb",
+    "size": 729,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/0bbf8be3c5815c973b19e1036ec266d697c5b2cb"
+  },
+  {
+    "path": "haslibutilh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7edb8e04634855d6003ccfa5de39aae1ec35e86",
+    "size": 72,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a7edb8e04634855d6003ccfa5de39aae1ec35e86"
+  },
+  {
+    "path": "haslimits.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1326334eb6c48aab6bf21dd050412d10fbabbefb",
+    "size": 71,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/1326334eb6c48aab6bf21dd050412d10fbabbefb"
+  },
+  {
+    "path": "haslogintty.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c4cce40a8b5f852ee0dcb3f0016f14d54f0b9c0",
+    "size": 162,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/3c4cce40a8b5f852ee0dcb3f0016f14d54f0b9c0"
+  },
+  {
+    "path": "hasmlock.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c62d1666f6fc0aac70ff8ce2cdbd3309395e541",
+    "size": 149,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/3c62d1666f6fc0aac70ff8ce2cdbd3309395e541"
+  },
+  {
+    "path": "hasopenpty.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9fcdc6443c12876b05600f24948b42b412521fea",
+    "size": 329,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/9fcdc6443c12876b05600f24948b42b412521fea"
+  },
+  {
+    "path": "hasutilh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa8052ddcf80c8c146fefdcedba1bd1d991cc0c6",
+    "size": 69,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/fa8052ddcf80c8c146fefdcedba1bd1d991cc0c6"
+  },
+  {
+    "path": "hasutmp.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb2420a57d4da04e5b674f421d42bb1fa3dbe9f9",
+    "size": 140,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/fb2420a57d4da04e5b674f421d42bb1fa3dbe9f9"
+  },
+  {
+    "path": "hasutmpaddrv6.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e4df9387d16346e76e243ec1e4e0416c88410a6",
+    "size": 191,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/0e4df9387d16346e76e243ec1e4e0416c88410a6"
+  },
+  {
+    "path": "hasutmphost.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f4d91a814251f67efc2cd83fb63942c9fe79f16",
+    "size": 177,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/1f4d91a814251f67efc2cd83fb63942c9fe79f16"
+  },
+  {
+    "path": "hasutmploginlogout.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1704640c9d6d9439af9900c09f40336feb61daa6",
+    "size": 319,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/1704640c9d6d9439af9900c09f40336feb61daa6"
+  },
+  {
+    "path": "hasutmplogwtmp.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb5648b13876317babf54d53019e1194f0dffcba",
+    "size": 206,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/eb5648b13876317babf54d53019e1194f0dffcba"
+  },
+  {
+    "path": "hasutmpname.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1764ce04677183598d0584245bf09b29855aaf3",
+    "size": 177,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a1764ce04677183598d0584245bf09b29855aaf3"
+  },
+  {
+    "path": "hasutmppid.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b80927df2a51cedbb34afafbe4b774f0b4ecf77",
+    "size": 148,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/9b80927df2a51cedbb34afafbe4b774f0b4ecf77"
+  },
+  {
+    "path": "hasutmptime.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e900f5edad36e95876b81859c4d931c76731ffce",
+    "size": 148,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e900f5edad36e95876b81859c4d931c76731ffce"
+  },
+  {
+    "path": "hasutmptv.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95b53a538801f86cb0c74d83dc26f36da04b9af1",
+    "size": 173,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/95b53a538801f86cb0c74d83dc26f36da04b9af1"
+  },
+  {
+    "path": "hasutmptype.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c8d2926328d722f0b6e02e707f79eddc727c14c",
+    "size": 180,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/8c8d2926328d722f0b6e02e707f79eddc727c14c"
+  },
+  {
+    "path": "hasutmpuser.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d96460968f3322afadf3e7813c9fb3ac6a29191",
+    "size": 177,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7d96460968f3322afadf3e7813c9fb3ac6a29191"
+  },
+  {
+    "path": "hasutmpx.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc4ddaa2477578a6f38a057476e1162c243d1056",
+    "size": 301,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/dc4ddaa2477578a6f38a057476e1162c243d1056"
+  },
+  {
+    "path": "hasutmpxaddrv6.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04011c3db18703371e2ffaf41747fa2ec75481e5",
+    "size": 195,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/04011c3db18703371e2ffaf41747fa2ec75481e5"
+  },
+  {
+    "path": "hasutmpxsyslen.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "492a69a1376f49295d05825ab1a409a73bdde075",
+    "size": 113,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/492a69a1376f49295d05825ab1a409a73bdde075"
+  },
+  {
+    "path": "hasutmpxupdwtmpx.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffcb004e73bd4948f8a43332e192fdf4c1a65b1d",
+    "size": 219,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/ffcb004e73bd4948f8a43332e192fdf4c1a65b1d"
+  },
+  {
+    "path": "hasvalgrind.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52c10dc99052bb1dccffb6072cd0d18e5b506904",
+    "size": 892,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/52c10dc99052bb1dccffb6072cd0d18e5b506904"
+  },
+  {
+    "path": "int16_optblocker.c",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "a5a50dcbc57b1fb18f28a31ac152ff19743515da",
+    "size": 28,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a5a50dcbc57b1fb18f28a31ac152ff19743515da"
+  },
+  {
+    "path": "int32_optblocker.c",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "f1b61ccdfb8a8e4c9374465a9b26719d749d68aa",
+    "size": 28,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/f1b61ccdfb8a8e4c9374465a9b26719d749d68aa"
+  },
+  {
+    "path": "int64_optblocker.c",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "29c7fec3398204107f1a3bb7b53cd9c531a639be",
+    "size": 28,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/29c7fec3398204107f1a3bb7b53cd9c531a639be"
+  },
+  {
+    "path": "int8_optblocker.c",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "4ff4a9bf932c0a0f8ce8fddec6befc828acecc84",
+    "size": 27,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/4ff4a9bf932c0a0f8ce8fddec6befc828acecc84"
+  },
+  {
+    "path": "iptostr.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ce1a970f6977703b24debcc2ec5a3ccb7db1872",
+    "size": 3035,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/5ce1a970f6977703b24debcc2ec5a3ccb7db1872"
+  },
+  {
+    "path": "iptostr.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e28b1c1c1cc2f2d46cd936192eeb2db446930ade",
+    "size": 130,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e28b1c1c1cc2f2d46cd936192eeb2db446930ade"
+  },
+  {
+    "path": "limit.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb0dc58c19ea58f901942acaf433f5edf04d7c2f",
+    "size": 273,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/eb0dc58c19ea58f901942acaf433f5edf04d7c2f"
+  },
+  {
+    "path": "load.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32bfa6beb6e8f911dfaaa4b79fd22126ca26cee0",
+    "size": 366,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/32bfa6beb6e8f911dfaaa4b79fd22126ca26cee0"
+  },
+  {
+    "path": "load.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "902fb52d21cf2e72b5b62fe6107669225b80afa0",
+    "size": 97,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/902fb52d21cf2e72b5b62fe6107669225b80afa0"
+  },
+  {
+    "path": "log.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1f470b6688fcc38a1616fda7145423dcb72b13f",
+    "size": 4359,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/d1f470b6688fcc38a1616fda7145423dcb72b13f"
+  },
+  {
+    "path": "log.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e22e0d8e28b1935a91647a1807302bf34e613c52",
+    "size": 5823,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e22e0d8e28b1935a91647a1807302bf34e613c52"
+  },
+  {
+    "path": "loginshell.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "440983d290229b0e258abeaf221cf2ef9a71e18b",
+    "size": 731,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/440983d290229b0e258abeaf221cf2ef9a71e18b"
+  },
+  {
+    "path": "loginshell.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2357441018770bdc92a2c3ccf5a30986d9a843d",
+    "size": 115,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a2357441018770bdc92a2c3ccf5a30986d9a843d"
+  },
+  {
+    "path": "logsys.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c91d27f8e185384c816af491abd41f806ea3d5a9",
+    "size": 4677,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/c91d27f8e185384c816af491abd41f806ea3d5a9"
+  },
+  {
+    "path": "logsys.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90cac8962ca2af6ad1e1af5d83a9f952546ec22a",
+    "size": 218,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/90cac8962ca2af6ad1e1af5d83a9f952546ec22a"
+  },
+  {
+    "path": "main.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5721c69c1632d208ddd13ee62afb9c920c91b5c0",
+    "size": 198,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/5721c69c1632d208ddd13ee62afb9c920c91b5c0"
+  },
+  {
+    "path": "main_tinysshd.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33e4f25704a75b2f6ccae7cc3b4db0ade3e6d2dc",
+    "size": 13257,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/33e4f25704a75b2f6ccae7cc3b4db0ade3e6d2dc"
+  },
+  {
+    "path": "main_tinysshd_makekey.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e933665298a8b7ceb142f51b27ace1db17745a79",
+    "size": 2085,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e933665298a8b7ceb142f51b27ace1db17745a79"
+  },
+  {
+    "path": "main_tinysshd_printkey.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2cfaa5d35b7c0d65ee64ede4c09b55cf1f789807",
+    "size": 2087,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/2cfaa5d35b7c0d65ee64ede4c09b55cf1f789807"
+  },
+  {
+    "path": "makefilegen.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a546869b688f920dbf110b7a04b3b8606d712d69",
+    "size": 5541,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a546869b688f920dbf110b7a04b3b8606d712d69"
+  },
+  {
+    "path": "man",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d2989f4e5b5035446392906dd6020f0c29cb9314",
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/trees/d2989f4e5b5035446392906dd6020f0c29cb9314"
+  },
+  {
+    "path": "newenv.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28a5c54756992afd56fb2f95b816135ac8a98b47",
+    "size": 2411,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/28a5c54756992afd56fb2f95b816135ac8a98b47"
+  },
+  {
+    "path": "newenv.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61d611e6be9f7754a51cee21d4c27f9fa023756d",
+    "size": 358,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/61d611e6be9f7754a51cee21d4c27f9fa023756d"
+  },
+  {
+    "path": "numtostr.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6223b68f9e40fb351040549292737e008361dc32",
+    "size": 961,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/6223b68f9e40fb351040549292737e008361dc32"
+  },
+  {
+    "path": "numtostr.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b70b663e30e7c468fddc78347eb1476f8c920257",
+    "size": 122,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b70b663e30e7c468fddc78347eb1476f8c920257"
+  },
+  {
+    "path": "old",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb5208321e47eb20df525a6712072b9080ed0966",
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/trees/eb5208321e47eb20df525a6712072b9080ed0966"
+  },
+  {
+    "path": "open.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2cadb641e45fb655d93c712036ba278524953718",
+    "size": 1021,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/2cadb641e45fb655d93c712036ba278524953718"
+  },
+  {
+    "path": "open.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2bcee592b8623206efce5beec588a65c9eb4282",
+    "size": 212,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b2bcee592b8623206efce5beec588a65c9eb4282"
+  },
+  {
+    "path": "packet.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15176fb338a2c34724689789f17583e2ac1e17ff",
+    "size": 1261,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/15176fb338a2c34724689789f17583e2ac1e17ff"
+  },
+  {
+    "path": "packet.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a19f4364487c3051e3c48eb74a2f076cdb96925b",
+    "size": 3531,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a19f4364487c3051e3c48eb74a2f076cdb96925b"
+  },
+  {
+    "path": "packet_auth.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1af90b932bcc8c07320f29aa6f5fa7cb6e66c5d3",
+    "size": 7839,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/1af90b932bcc8c07320f29aa6f5fa7cb6e66c5d3"
+  },
+  {
+    "path": "packet_channel_open.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "786f198f975d183491853b7fc1687d32545cc5f4",
+    "size": 3358,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/786f198f975d183491853b7fc1687d32545cc5f4"
+  },
+  {
+    "path": "packet_channel_recv.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78d7a4b4aa299dcb50f80e3124fb8efae20ef1f3",
+    "size": 2994,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/78d7a4b4aa299dcb50f80e3124fb8efae20ef1f3"
+  },
+  {
+    "path": "packet_channel_request.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "218c3c584ae968350d5751c32d8ef4150dba2532",
+    "size": 8533,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/218c3c584ae968350d5751c32d8ef4150dba2532"
+  },
+  {
+    "path": "packet_channel_send.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd6eb4c987a8fa23f04a9556c4f93f40aa6341fe",
+    "size": 4456,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/cd6eb4c987a8fa23f04a9556c4f93f40aa6341fe"
+  },
+  {
+    "path": "packet_get.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7b8d84ce16ffe850bf8342a1b96c4d0c611df0e",
+    "size": 3654,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/d7b8d84ce16ffe850bf8342a1b96c4d0c611df0e"
+  },
+  {
+    "path": "packet_hello.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a59675f65b3f88e0ea118e6befec2698e4c981a4",
+    "size": 1786,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a59675f65b3f88e0ea118e6befec2698e4c981a4"
+  },
+  {
+    "path": "packet_kex.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc122e173126aaa970be4d98953d0958c2118ef8",
+    "size": 4062,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/cc122e173126aaa970be4d98953d0958c2118ef8"
+  },
+  {
+    "path": "packet_kexdh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ed5a4f7aa3ed3c9a1889c20997bcf2db8b1ef26",
+    "size": 5043,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7ed5a4f7aa3ed3c9a1889c20997bcf2db8b1ef26"
+  },
+  {
+    "path": "packet_put.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07359fe409f3ede099dd4bc26efc3fac8d072b1e",
+    "size": 1430,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/07359fe409f3ede099dd4bc26efc3fac8d072b1e"
+  },
+  {
+    "path": "packet_recv.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a346b725fda305b6ee60fc74cac920e8026aaf4f",
+    "size": 827,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a346b725fda305b6ee60fc74cac920e8026aaf4f"
+  },
+  {
+    "path": "packet_send.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f68d3c757c03afca1b3e1b674f637ff1c3015e6",
+    "size": 946,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7f68d3c757c03afca1b3e1b674f637ff1c3015e6"
+  },
+  {
+    "path": "packet_unimplemented.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c79163934a7805d2b459c43e203ada9fe2168ae",
+    "size": 607,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7c79163934a7805d2b459c43e203ada9fe2168ae"
+  },
+  {
+    "path": "packetparser.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "290ff6c37ec702079a84006b20c9085892659dde",
+    "size": 2891,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/290ff6c37ec702079a84006b20c9085892659dde"
+  },
+  {
+    "path": "packetparser.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f51a55ed383a7168d04222e8dc8abf5774a31e04",
+    "size": 1828,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/f51a55ed383a7168d04222e8dc8abf5774a31e04"
+  },
+  {
+    "path": "porttostr.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "815934077f3291df1db74c5898364e5da853cf7b",
+    "size": 901,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/815934077f3291df1db74c5898364e5da853cf7b"
+  },
+  {
+    "path": "porttostr.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7a34052bde94d173341acd8ae57ba57d5a3b2fa",
+    "size": 137,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/f7a34052bde94d173341acd8ae57ba57d5a3b2fa"
+  },
+  {
+    "path": "purge.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5cb7dc077ba7fa433ea727cf4fd7dbc5c15e4813",
+    "size": 93,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/5cb7dc077ba7fa433ea727cf4fd7dbc5c15e4813"
+  },
+  {
+    "path": "randombytes.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79f2f060a99bba01d6f634f9688885ac8ea157cf",
+    "size": 1062,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/79f2f060a99bba01d6f634f9688885ac8ea157cf"
+  },
+  {
+    "path": "randombytes.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c412f6bfbf1f34a990528a92840953b1d58ee93f",
+    "size": 363,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/c412f6bfbf1f34a990528a92840953b1d58ee93f"
+  },
+  {
+    "path": "randommod.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23729e86edde8bf92faaf793d20a9557cf8f8a80",
+    "size": 462,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/23729e86edde8bf92faaf793d20a9557cf8f8a80"
+  },
+  {
+    "path": "randommod.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e380d59e13146e3af7d907a80878eee50352e05",
+    "size": 96,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/6e380d59e13146e3af7d907a80878eee50352e05"
+  },
+  {
+    "path": "readall.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae15bb9df9f2e9ad8641cacd6e9729f798b9ad30",
+    "size": 609,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/ae15bb9df9f2e9ad8641cacd6e9729f798b9ad30"
+  },
+  {
+    "path": "readall.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05a2874f5c72b853c6366d210ef6ab36b8ef3b90",
+    "size": 97,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/05a2874f5c72b853c6366d210ef6ab36b8ef3b90"
+  },
+  {
+    "path": "runtest.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5f25b5f737a21d54435fa4f3632f5cf062ba4ef",
+    "size": 455,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e5f25b5f737a21d54435fa4f3632f5cf062ba4ef"
+  },
+  {
+    "path": "savesync.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63b3829dbaeb3839a76d2a919c72398f095a842a",
+    "size": 572,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/63b3829dbaeb3839a76d2a919c72398f095a842a"
+  },
+  {
+    "path": "savesync.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01740d8e22b7f8a207840626cf4a5ca392b2900b",
+    "size": 115,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/01740d8e22b7f8a207840626cf4a5ca392b2900b"
+  },
+  {
+    "path": "sc25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e321e84a9b1dffed4664bdd0df2dd7099c882def",
+    "size": 1747,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e321e84a9b1dffed4664bdd0df2dd7099c882def"
+  },
+  {
+    "path": "sc25519.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6932014107cc29f5e0b919c10c0a0475758cd05",
+    "size": 239,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b6932014107cc29f5e0b919c10c0a0475758cd05"
+  },
+  {
+    "path": "ssh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d44420b37b0e68f8363a9f87ad3326251cf3bbbb",
+    "size": 1713,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/d44420b37b0e68f8363a9f87ad3326251cf3bbbb"
+  },
+  {
+    "path": "ssh.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0aae23491e7b693e6a5b188d7599ebde641b9a47",
+    "size": 3402,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/0aae23491e7b693e6a5b188d7599ebde641b9a47"
+  },
+  {
+    "path": "sshcrypto.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d21ab0a78c7e3f711932a64ad0a228166510aefd",
+    "size": 1820,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/d21ab0a78c7e3f711932a64ad0a228166510aefd"
+  },
+  {
+    "path": "sshcrypto.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9617ce29c81a557cdeb46513d6b569ee389d131",
+    "size": 7533,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e9617ce29c81a557cdeb46513d6b569ee389d131"
+  },
+  {
+    "path": "sshcrypto_cipher.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f29165096c0e8c708c677f95661969e553579916",
+    "size": 4048,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/f29165096c0e8c708c677f95661969e553579916"
+  },
+  {
+    "path": "sshcrypto_cipher_chachapoly.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "564e7866cd1c99037efa5d6ec653325f06a79fe1",
+    "size": 4235,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/564e7866cd1c99037efa5d6ec653325f06a79fe1"
+  },
+  {
+    "path": "sshcrypto_kex.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69c8353282ce259520c4b32bf06ba92183c603ef",
+    "size": 5180,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/69c8353282ce259520c4b32bf06ba92183c603ef"
+  },
+  {
+    "path": "sshcrypto_kex_curve25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "957d916c7f0174e46bd8a85d92ad7af2f4700b18",
+    "size": 718,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/957d916c7f0174e46bd8a85d92ad7af2f4700b18"
+  },
+  {
+    "path": "sshcrypto_kex_sntrup761x25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98123735c99afe3c16c3eba3895e1a2a98e9f84c",
+    "size": 280,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/98123735c99afe3c16c3eba3895e1a2a98e9f84c"
+  },
+  {
+    "path": "sshcrypto_key.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6249d9b234b1e92f20ee8745bf28db150537d6b",
+    "size": 4357,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b6249d9b234b1e92f20ee8745bf28db150537d6b"
+  },
+  {
+    "path": "sshcrypto_key_ed25519.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e63456ccac3e24d7448cbc91f41ce5644d612bc0",
+    "size": 2206,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e63456ccac3e24d7448cbc91f41ce5644d612bc0"
+  },
+  {
+    "path": "str.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2427507688e6746c5305f4556a928442e2bcf8b",
+    "size": 1433,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a2427507688e6746c5305f4556a928442e2bcf8b"
+  },
+  {
+    "path": "str.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64e6d6437a2c99b5378010a4f80ee26eb84aa36c",
+    "size": 252,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/64e6d6437a2c99b5378010a4f80ee26eb84aa36c"
+  },
+  {
+    "path": "stringparser.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0a0ecc0172e4c1d3fba986d4f13fc70dc15bc88",
+    "size": 797,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e0a0ecc0172e4c1d3fba986d4f13fc70dc15bc88"
+  },
+  {
+    "path": "stringparser.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e255729a1cb49525bbea7e3547005ef408c7aef",
+    "size": 206,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/5e255729a1cb49525bbea7e3547005ef408c7aef"
+  },
+  {
+    "path": "subprocess.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e29fb2dd2d75a4e87bac6d232869ee1e201a9a14",
+    "size": 492,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e29fb2dd2d75a4e87bac6d232869ee1e201a9a14"
+  },
+  {
+    "path": "subprocess_auth.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "301a0912ac8ef4cf6d374f07836d4b82e8762425",
+    "size": 5023,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/301a0912ac8ef4cf6d374f07836d4b82e8762425"
+  },
+  {
+    "path": "subprocess_sign.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "056658a69d1aabd3146b6fc230c6918149f188ee",
+    "size": 2818,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/056658a69d1aabd3146b6fc230c6918149f188ee"
+  },
+  {
+    "path": "test-crypto-dh.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48d3086292a58abc3433273d96c7878e90e26d9c",
+    "size": 80,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/48d3086292a58abc3433273d96c7878e90e26d9c"
+  },
+  {
+    "path": "test-crypto-dh.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7beecf0a1c3087ee78f43017d39026cbdfc465d5",
+    "size": 74,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7beecf0a1c3087ee78f43017d39026cbdfc465d5"
+  },
+  {
+    "path": "test-crypto-hash.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d6eb4abc4396422fc3884e96eb65065cec46832",
+    "size": 128,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/9d6eb4abc4396422fc3884e96eb65065cec46832"
+  },
+  {
+    "path": "test-crypto-hash.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a22034fdc502795aaeca8f14cfcfed1d1693ada",
+    "size": 78,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/1a22034fdc502795aaeca8f14cfcfed1d1693ada"
+  },
+  {
+    "path": "test-crypto-kem.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ec32e70a7792266f6ffa15a8de195fab9af4fc6",
+    "size": 89,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7ec32e70a7792266f6ffa15a8de195fab9af4fc6"
+  },
+  {
+    "path": "test-crypto-kem.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87b6604f2561e4379c3620f4b048a34de509b5c9",
+    "size": 76,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/87b6604f2561e4379c3620f4b048a34de509b5c9"
+  },
+  {
+    "path": "test-crypto-onetimeauth.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b874bae18055914027dc4d23332904a7478bff0",
+    "size": 111,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7b874bae18055914027dc4d23332904a7478bff0"
+  },
+  {
+    "path": "test-crypto-onetimeauth.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db68e714450dc033be650ce407fcd51a55c96847",
+    "size": 92,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/db68e714450dc033be650ce407fcd51a55c96847"
+  },
+  {
+    "path": "test-crypto-sign.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45a11e9957ac277941c8f68e1572fb02ab32c2bf",
+    "size": 88,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/45a11e9957ac277941c8f68e1572fb02ab32c2bf"
+  },
+  {
+    "path": "test-crypto-sign.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44d1ee05e8ec026c6f95dea67984aabbfcaaa941",
+    "size": 78,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/44d1ee05e8ec026c6f95dea67984aabbfcaaa941"
+  },
+  {
+    "path": "test-crypto-sort.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20f235f06e0f547d9c1398dfe444da0af2b0c7d2",
+    "size": 65,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/20f235f06e0f547d9c1398dfe444da0af2b0c7d2"
+  },
+  {
+    "path": "test-crypto-sort.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17d523e50c8c7e92ea858ed2e7b8778c71baff31",
+    "size": 78,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/17d523e50c8c7e92ea858ed2e7b8778c71baff31"
+  },
+  {
+    "path": "test-crypto-verify.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e44965d6346c3b2f66500330b69309cc97669b7",
+    "size": 122,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/8e44965d6346c3b2f66500330b69309cc97669b7"
+  },
+  {
+    "path": "test-crypto-verify.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b932c0ae35e1866efb48a542e7bd008eba43aa8b",
+    "size": 82,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b932c0ae35e1866efb48a542e7bd008eba43aa8b"
+  },
+  {
+    "path": "test-crypto.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c9750a7b93fcd82afa3adf5e37dc977733db97b",
+    "size": 14406,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/7c9750a7b93fcd82afa3adf5e37dc977733db97b"
+  },
+  {
+    "path": "test-tinysshd-makekey.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f083ec3c8e9f198f1209bc79196572541745333",
+    "size": 357,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/6f083ec3c8e9f198f1209bc79196572541745333"
+  },
+  {
+    "path": "test-tinysshd-makekey.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "117e6cfcf49ed5454aa9889d92182aa621b30e6a",
+    "size": 726,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/117e6cfcf49ed5454aa9889d92182aa621b30e6a"
+  },
+  {
+    "path": "test-tinysshd-printkey.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2f738a20e305bf8206222c281eca804219b054e",
+    "size": 483,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/c2f738a20e305bf8206222c281eca804219b054e"
+  },
+  {
+    "path": "test-tinysshd-printkey.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e03563c4d88ee06480a1718b17cfa5386dc7ef03",
+    "size": 1186,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e03563c4d88ee06480a1718b17cfa5386dc7ef03"
+  },
+  {
+    "path": "test-tinysshd.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5431278abfb522446019aa594b1990c294a32c6",
+    "size": 27279,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b5431278abfb522446019aa594b1990c294a32c6"
+  },
+  {
+    "path": "test-tinysshd.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa0689c8789740fa038461c9142213eb02cb08e0",
+    "size": 4176,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/aa0689c8789740fa038461c9142213eb02cb08e0"
+  },
+  {
+    "path": "test-tinysshnoneauthd.exp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "test-tinysshnoneauthd.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "039e4d0069c5c26909f86c505b9de66182e6d1f3",
+    "size": 17,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/039e4d0069c5c26909f86c505b9de66182e6d1f3"
+  },
+  {
+    "path": "tinysshd.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e53fc77f2a021dc858e0dc450c494f230601c36",
+    "size": 890,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/4e53fc77f2a021dc858e0dc450c494f230601c36"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cbfa3b428ea04a4c12c1f9b05642529e7a1a9ed3",
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/trees/cbfa3b428ea04a4c12c1f9b05642529e7a1a9ed3"
+  },
+  {
+    "path": "tryfeature.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "dd4d0575a85db56bc32d2ca78b432bf65f05fcd8",
+    "size": 829,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/dd4d0575a85db56bc32d2ca78b432bf65f05fcd8"
+  },
+  {
+    "path": "trylibs.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0d7240330c0d817cb06a025796273b01ef377d92",
+    "size": 984,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/0d7240330c0d817cb06a025796273b01ef377d92"
+  },
+  {
+    "path": "trymlock.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6ba73f84db6117e967207b797d3df4708eae347",
+    "size": 516,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/f6ba73f84db6117e967207b797d3df4708eae347"
+  },
+  {
+    "path": "trymlock.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56af4487a153c753fc5decc96f7b2e376351cf90",
+    "size": 139,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/56af4487a153c753fc5decc96f7b2e376351cf90"
+  },
+  {
+    "path": "uint16_optblocker.c",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "0a6adf4824776ddaffd04e5918d9895ecfd24e11",
+    "size": 29,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/0a6adf4824776ddaffd04e5918d9895ecfd24e11"
+  },
+  {
+    "path": "uint32_optblocker.c",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "fb730ff5bd6e61b150a44824bdaeb65fe3d4acfe",
+    "size": 29,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/fb730ff5bd6e61b150a44824bdaeb65fe3d4acfe"
+  },
+  {
+    "path": "uint64_optblocker.c",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "b4a922f13756adc94fad1537f9e2adb3b4f509e3",
+    "size": 29,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/b4a922f13756adc94fad1537f9e2adb3b4f509e3"
+  },
+  {
+    "path": "uint8_optblocker.c",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "56fd37daad940bfc56c6259cd228ff3355e3c372",
+    "size": 28,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/56fd37daad940bfc56c6259cd228ff3355e3c372"
+  },
+  {
+    "path": "writeall.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2970ef732d0f527c0db252603a8cdfdfc1d68e8",
+    "size": 678,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/a2970ef732d0f527c0db252603a8cdfdfc1d68e8"
+  },
+  {
+    "path": "writeall.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "40164196facbb7e4e36728081d771d50a875f8fe",
+    "size": 106,
+    "url": "https://api.github.com/repos/janmojzis/tinyssh/git/blobs/40164196facbb7e4e36728081d771d50a875f8fe"
+  }
+]

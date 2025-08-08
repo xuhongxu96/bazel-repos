@@ -1,0 +1,662 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "102bb1f8f833dbf0f6c2f81b19d75504d9c54f95",
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/trees/102bb1f8f833dbf0f6c2f81b19d75504d9c54f95"
+  },
+  {
+    "path": "G000 - Table Of Contents.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e2ddbec336015f71297b94e61e8f1b006217508",
+    "size": 84612,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/3e2ddbec336015f71297b94e61e8f1b006217508"
+  },
+  {
+    "path": "G001 - Hardware setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88d0714c54ecfe8576d76d7c4d212a02935721bc",
+    "size": 4797,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/88d0714c54ecfe8576d76d7c4d212a02935721bc"
+  },
+  {
+    "path": "G002 - Proxmox VE installation.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "845fa39d4ad349cae993818c01490f7fc08fadcf",
+    "size": 15514,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/845fa39d4ad349cae993818c01490f7fc08fadcf"
+  },
+  {
+    "path": "G003 - Host configuration 01 ~ Apt sources, updates and extra tools.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "944a6491b86425f5995cb128362edd7515f01f7c",
+    "size": 24735,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/944a6491b86425f5995cb128362edd7515f01f7c"
+  },
+  {
+    "path": "G004 - Host configuration 02 ~ UPS management with NUT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02a1ea33411fefa7b038348998cb2a4c271532be",
+    "size": 18785,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/02a1ea33411fefa7b038348998cb2a4c271532be"
+  },
+  {
+    "path": "G005 - Host configuration 03 ~ LVM storage.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0dca7633b1efb6fe0118f60a1dd5333f8aa860a4",
+    "size": 41870,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/0dca7633b1efb6fe0118f60a1dd5333f8aa860a4"
+  },
+  {
+    "path": "G006 - Host configuration 04 ~ Removing subscription warning.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f4fc7c7d4e133e732313b1e00b52d9e62376bdb",
+    "size": 3276,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/9f4fc7c7d4e133e732313b1e00b52d9e62376bdb"
+  },
+  {
+    "path": "G007 - Host hardening 01 ~ TFA authentication.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea1a5721b50307c035fa572476884eef9c72dfe8",
+    "size": 27046,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/ea1a5721b50307c035fa572476884eef9c72dfe8"
+  },
+  {
+    "path": "G008 - Host hardening 02 ~ Alternative administrator user.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "804c395264030da5670835deada6955e6c3ab2a8",
+    "size": 12639,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/804c395264030da5670835deada6955e6c3ab2a8"
+  },
+  {
+    "path": "G009 - Host hardening 03 ~ SSH key pairs and sshd service configuration.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6971937e9a6f109071ed1bf92fd67207be1a6548",
+    "size": 24951,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/6971937e9a6f109071ed1bf92fd67207be1a6548"
+  },
+  {
+    "path": "G010 - Host hardening 04 ~ Enabling Fail2Ban.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94f95e9ecfa2a7b8a3a1d4430aa7a3b21b025177",
+    "size": 13377,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/94f95e9ecfa2a7b8a3a1d4430aa7a3b21b025177"
+  },
+  {
+    "path": "G011 - Host hardening 05 ~ Proxmox VE services.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58f5e1a62e85e1f3604ee8c692a5195b515d6b65",
+    "size": 25231,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/58f5e1a62e85e1f3604ee8c692a5195b515d6b65"
+  },
+  {
+    "path": "G012 - Host hardening 06 ~ Network hardening with sysctl.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9767344bea2a8bd185e90c4dcea7a10456c22c4b",
+    "size": 18428,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/9767344bea2a8bd185e90c4dcea7a10456c22c4b"
+  },
+  {
+    "path": "G013 - Host hardening 07 ~ Mitigating CPU vulnerabilities.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e02b4d64f65ffd8c2b3ab30a2348bf86d5eacf8e",
+    "size": 3406,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/e02b4d64f65ffd8c2b3ab30a2348bf86d5eacf8e"
+  },
+  {
+    "path": "G014 - Host hardening 08 ~ Firewalling.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99e681db1c5d6345c021249c7bd74e4468b9b328",
+    "size": 51732,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/99e681db1c5d6345c021249c7bd74e4468b9b328"
+  },
+  {
+    "path": "G015 - Host optimization 01 ~ Adjustments through sysctl.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6e11df833080d4b94eb565c0e30b93d714184c0",
+    "size": 19157,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/d6e11df833080d4b94eb565c0e30b93d714184c0"
+  },
+  {
+    "path": "G016 - Host optimization 02 ~ Disabling transparent hugepages.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42f84b262090aeec3b5cdeffa7b5e2d3c93aecab",
+    "size": 3296,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/42f84b262090aeec3b5cdeffa7b5e2d3c93aecab"
+  },
+  {
+    "path": "G017 - Virtual Networking ~ Network configuration.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c80a774842a309803345ecf294758333b5e2f1d4",
+    "size": 12251,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/c80a774842a309803345ecf294758333b5e2f1d4"
+  },
+  {
+    "path": "G018 - K3s cluster setup 01 ~ Requirements and arrangement.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "10fb07ca91a392f8c3a85978f8cde38f3ec6db36",
+    "size": 5425,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/10fb07ca91a392f8c3a85978f8cde38f3ec6db36"
+  },
+  {
+    "path": "G019 - K3s cluster setup 02 ~ Storage setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a3cbfb175a41d180bc75999f59fd191c9edae90",
+    "size": 24529,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/6a3cbfb175a41d180bc75999f59fd191c9edae90"
+  },
+  {
+    "path": "G020 - K3s cluster setup 03 ~ Debian VM creation.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6027b2680a9d3b82ee5ec629a2af65935e5b87a0",
+    "size": 36811,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/6027b2680a9d3b82ee5ec629a2af65935e5b87a0"
+  },
+  {
+    "path": "G021 - K3s cluster setup 04 ~ Debian VM configuration.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "931d81f091db361218b0c5c893d4205f798ccc5c",
+    "size": 39527,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/931d81f091db361218b0c5c893d4205f798ccc5c"
+  },
+  {
+    "path": "G022 - K3s cluster setup 05 ~ Connecting the VM to the NUT server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9cb1cb6ce78d784d2e9b76acd275c1e7327076a",
+    "size": 41247,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/a9cb1cb6ce78d784d2e9b76acd275c1e7327076a"
+  },
+  {
+    "path": "G023 - K3s cluster setup 06 ~ Debian VM template and backup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fd615ee1ad3e08263869f9175c26785440a49cf",
+    "size": 15187,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/8fd615ee1ad3e08263869f9175c26785440a49cf"
+  },
+  {
+    "path": "G024 - K3s cluster setup 07 ~ K3s node VM template setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "450d46893b06653789094d8420e0b39491a3d62b",
+    "size": 28764,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/450d46893b06653789094d8420e0b39491a3d62b"
+  },
+  {
+    "path": "G025 - K3s cluster setup 08 ~ K3s Kubernetes cluster setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d9cae2f640f9a4c694eeb1ee6eb5e124c885f3e",
+    "size": 101533,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/9d9cae2f640f9a4c694eeb1ee6eb5e124c885f3e"
+  },
+  {
+    "path": "G026 - K3s cluster setup 09 ~ Setting up a kubectl client for remote access.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe5e3490110bfc2cc15a030de92e9a3712e18766",
+    "size": 13476,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/fe5e3490110bfc2cc15a030de92e9a3712e18766"
+  },
+  {
+    "path": "G027 - K3s cluster setup 10 ~ Deploying the MetalLB load balancer.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b67d5e9d5a6874f7c1d13c9be2b34b5b082b805",
+    "size": 18346,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/6b67d5e9d5a6874f7c1d13c9be2b34b5b082b805"
+  },
+  {
+    "path": "G028 - K3s cluster setup 11 ~ Deploying the metrics-server service.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7b2c152537dd3546a13a68755063a07cf8a0f7a",
+    "size": 17161,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/c7b2c152537dd3546a13a68755063a07cf8a0f7a"
+  },
+  {
+    "path": "G029 - K3s cluster setup 12 ~ Setting up cert-manager and wildcard certificate.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "706225d303ceebb56e073b5710ac9a5ef32dfbd8",
+    "size": 27877,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/706225d303ceebb56e073b5710ac9a5ef32dfbd8"
+  },
+  {
+    "path": "G030 - K3s cluster setup 13 ~ Deploying the Kubernetes Dashboard.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2dbed263e284917101dc208d3ee72bf3aa563a9",
+    "size": 12466,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/c2dbed263e284917101dc208d3ee72bf3aa563a9"
+  },
+  {
+    "path": "G031 - K3s cluster setup 14 ~ Enabling the Traefik dashboard.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7cf1729f0744359864f4ced7420fd5f123b42bf",
+    "size": 18305,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/d7cf1729f0744359864f4ced7420fd5f123b42bf"
+  },
+  {
+    "path": "G032 - Deploying services 01 ~ Considerations.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83e0134f8575d7611e1e7b658163d5e74dc7c0b4",
+    "size": 2381,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/83e0134f8575d7611e1e7b658163d5e74dc7c0b4"
+  },
+  {
+    "path": "G033 - Deploying services 02 ~ Nextcloud - Part 1 - Outlining setup, arranging storage and choosing service IPs.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ada062bde4b6bd792f0c54b3d57840e4cb7f7049",
+    "size": 22266,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/ada062bde4b6bd792f0c54b3d57840e4cb7f7049"
+  },
+  {
+    "path": "G033 - Deploying services 02 ~ Nextcloud - Part 2 - Redis cache server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19d2aeca62707b1d4882722db28fb06e4eb66c68",
+    "size": 25016,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/19d2aeca62707b1d4882722db28fb06e4eb66c68"
+  },
+  {
+    "path": "G033 - Deploying services 02 ~ Nextcloud - Part 3 - MariaDB database server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5ec3eaacc91266de43b725d3dd2ef43354b7a8e",
+    "size": 38022,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/d5ec3eaacc91266de43b725d3dd2ef43354b7a8e"
+  },
+  {
+    "path": "G033 - Deploying services 02 ~ Nextcloud - Part 4 - Nextcloud server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4380b5fc3ab0ed0964e10d3f97113bbe246d8bbb",
+    "size": 46320,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/4380b5fc3ab0ed0964e10d3f97113bbe246d8bbb"
+  },
+  {
+    "path": "G033 - Deploying services 02 ~ Nextcloud - Part 5 - Complete Nextcloud platform.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b265f9b8c81d877c5b03abefd2bf450511db7495",
+    "size": 64400,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/b265f9b8c81d877c5b03abefd2bf450511db7495"
+  },
+  {
+    "path": "G034 - Deploying services 03 ~ Gitea - Part 1 - Outlining setup and arranging storage.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "167f24c081125770c18c5054040c9bfd5112093c",
+    "size": 17969,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/167f24c081125770c18c5054040c9bfd5112093c"
+  },
+  {
+    "path": "G034 - Deploying services 03 ~ Gitea - Part 2 - Redis cache server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdd266a036cc2cce7c2af33f86ca2e7d5487d698",
+    "size": 17730,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/fdd266a036cc2cce7c2af33f86ca2e7d5487d698"
+  },
+  {
+    "path": "G034 - Deploying services 03 ~ Gitea - Part 3 - PostgreSQL database server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51793a9892a522389c8923c7086778a121d2a9a7",
+    "size": 42075,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/51793a9892a522389c8923c7086778a121d2a9a7"
+  },
+  {
+    "path": "G034 - Deploying services 03 ~ Gitea - Part 4 - Gitea server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d8b14cd586fd752fb5d59a98ca4187ce6bd41a8",
+    "size": 28914,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/5d8b14cd586fd752fb5d59a98ca4187ce6bd41a8"
+  },
+  {
+    "path": "G034 - Deploying services 03 ~ Gitea - Part 5 - Complete Gitea platform.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64811d3727595a62ae223983550a562788b575c9",
+    "size": 50324,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/64811d3727595a62ae223983550a562788b575c9"
+  },
+  {
+    "path": "G035 - Deploying services 04 ~ Monitoring stack - Part 1 - Outlining setup and arranging storage.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d68ad43226ac458034f13cd9fd7cf302b79d316f",
+    "size": 31310,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/d68ad43226ac458034f13cd9fd7cf302b79d316f"
+  },
+  {
+    "path": "G035 - Deploying services 04 ~ Monitoring stack - Part 2 - Kube State Metrics service.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38b6b29649ab5dbaa4b0bc22cd3550e2a8f4ec9c",
+    "size": 26127,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/38b6b29649ab5dbaa4b0bc22cd3550e2a8f4ec9c"
+  },
+  {
+    "path": "G035 - Deploying services 04 ~ Monitoring stack - Part 3 - Prometheus Node Exporter service.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34483d2065d0acb023705226211f7895e74c75d6",
+    "size": 13519,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/34483d2065d0acb023705226211f7895e74c75d6"
+  },
+  {
+    "path": "G035 - Deploying services 04 ~ Monitoring stack - Part 4 - Prometheus server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "011478a229cd2327cd6e1804fc2d0d30237fb836",
+    "size": 38181,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/011478a229cd2327cd6e1804fc2d0d30237fb836"
+  },
+  {
+    "path": "G035 - Deploying services 04 ~ Monitoring stack - Part 5 - Grafana.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cab5cc3a713a0c17af0b1625e5a2c4558f1b334",
+    "size": 17205,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/3cab5cc3a713a0c17af0b1625e5a2c4558f1b334"
+  },
+  {
+    "path": "G035 - Deploying services 04 ~ Monitoring stack - Part 6 - Complete monitoring stack setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9977ec548629a0014de9808e76bbbc3d8020de06",
+    "size": 54353,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/9977ec548629a0014de9808e76bbbc3d8020de06"
+  },
+  {
+    "path": "G036 - Host and K3s cluster ~ Monitoring and diagnosis.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b58899fa1af266ad22c4ebde2ed9a8a17f76e09a",
+    "size": 15017,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/b58899fa1af266ad22c4ebde2ed9a8a17f76e09a"
+  },
+  {
+    "path": "G037 - Backups 01 ~ Considerations.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7810588fbc9aab8ed1f1258ea9f584c72bd105a6",
+    "size": 8407,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/7810588fbc9aab8ed1f1258ea9f584c72bd105a6"
+  },
+  {
+    "path": "G038 - Backups 02 ~ Host platform backup with Clonezilla.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0289837e1031086360812030d050e8c6028683ab",
+    "size": 8046,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/0289837e1031086360812030d050e8c6028683ab"
+  },
+  {
+    "path": "G039 - Backups 03 ~ Proxmox VE backup job.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7854e6338534291d8ce9f82d6c30cd04db5f863",
+    "size": 37021,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/b7854e6338534291d8ce9f82d6c30cd04db5f863"
+  },
+  {
+    "path": "G040 - Backups 04 ~ UrBackup 01 - Server setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0479cf0000c25359681fb9595b1400c07c61930",
+    "size": 43013,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/f0479cf0000c25359681fb9595b1400c07c61930"
+  },
+  {
+    "path": "G041 - Backups 05 ~ UrBackup 02 - Clients setup and configuring file backups.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f582d1bd4d9f4885ca8086103ea0e5a90e6607d",
+    "size": 38343,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/1f582d1bd4d9f4885ca8086103ea0e5a90e6607d"
+  },
+  {
+    "path": "G042 - System update 01 ~ Considerations.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54b4855a595c298310f2ba131bdc3bf6caf5fc59",
+    "size": 5959,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/54b4855a595c298310f2ba131bdc3bf6caf5fc59"
+  },
+  {
+    "path": "G043 - System update 02 ~ Updating Proxmox VE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3097b97a35911c3f4f461d0d204e9fe833ab1f06",
+    "size": 13831,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/3097b97a35911c3f4f461d0d204e9fe833ab1f06"
+  },
+  {
+    "path": "G044 - System update 03 ~ Updating VMs and UrBackup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1038130601f3e2f5e8b051e0e1b5c0fe4cf6e8ae",
+    "size": 15643,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/1038130601f3e2f5e8b051e0e1b5c0fe4cf6e8ae"
+  },
+  {
+    "path": "G045 - System update 04 ~ Updating K3s and deployed apps.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9b56b7137a75269d2e831fd71ae6b3bbe1b082b",
+    "size": 43162,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/a9b56b7137a75269d2e831fd71ae6b3bbe1b082b"
+  },
+  {
+    "path": "G046 - Cleaning the system.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac7f453c23ba72b709eab6f6c089d04b23dd3f78",
+    "size": 46936,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/ac7f453c23ba72b709eab6f6c089d04b23dd3f78"
+  },
+  {
+    "path": "G901 - Appendix 01 ~ Connecting through SSH with PuTTY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1494159f1921b02b7959ddf6486d3714d091020e",
+    "size": 8888,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/1494159f1921b02b7959ddf6486d3714d091020e"
+  },
+  {
+    "path": "G902 - Appendix 02 ~ Vim vimrc configuration.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2da41f2262cba9799db1908efd6600f9ce9229c3",
+    "size": 1017,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/2da41f2262cba9799db1908efd6600f9ce9229c3"
+  },
+  {
+    "path": "G903 - Appendix 03 ~ Customization of the motd file.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b33b304006e5f24d7d321e7e771e3877fbbdad59",
+    "size": 1446,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/b33b304006e5f24d7d321e7e771e3877fbbdad59"
+  },
+  {
+    "path": "G904 - Appendix 04 ~ Object by object Kubernetes deployments.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea871fb1cd1085eb1c3289cb3605544c1b4559f0",
+    "size": 9568,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/ea871fb1cd1085eb1c3289cb3605544c1b4559f0"
+  },
+  {
+    "path": "G905 - Appendix 05 ~ Cloning storage drives with Clonezilla.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "302728e036e33b06c365858c37fd6311adf80c4b",
+    "size": 25823,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/302728e036e33b06c365858c37fd6311adf80c4b"
+  },
+  {
+    "path": "G906 - Appendix 06 ~ Handling VM or VM template volumes.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54d6611ed8de3819aee16dd77f8fd7d67353b95a",
+    "size": 14246,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/54d6611ed8de3819aee16dd77f8fd7d67353b95a"
+  },
+  {
+    "path": "G907 - Appendix 07 ~ Resizing a root LVM volume.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df29940d6aadec2b18aee3c9ce6795286fcda4ee",
+    "size": 11927,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/df29940d6aadec2b18aee3c9ce6795286fcda4ee"
+  },
+  {
+    "path": "G908 - Appendix 08 ~ K3s cluster with two or more server nodes.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b34490671f3876fceb773b5850f3e50a1768f5d",
+    "size": 11631,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/4b34490671f3876fceb773b5850f3e50a1768f5d"
+  },
+  {
+    "path": "G909 - Appendix 09 ~ Kubernetes object stuck in Terminating state.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e707dc113a734429ea5e69d089323f0741ae642",
+    "size": 4688,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/8e707dc113a734429ea5e69d089323f0741ae642"
+  },
+  {
+    "path": "G910 - Appendix 10 ~ Setting up virtual network with Open vSwitch.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "272fa928b0308d1875bda79e6c10c6de525871a9",
+    "size": 8132,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/272fa928b0308d1875bda79e6c10c6de525871a9"
+  },
+  {
+    "path": "G911 - Appendix 11 ~ Alternative Nextcloud web server setups.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc12efeceb86f1bb325a2a13f9c4c547e2801b94",
+    "size": 75358,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/fc12efeceb86f1bb325a2a13f9c4c547e2801b94"
+  },
+  {
+    "path": "G912 - Appendix 12 ~ Adapting MetalLB config to CR.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5508e061c1694a3e81a2d4f6de7e580d9d2f740c",
+    "size": 9699,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/5508e061c1694a3e81a2d4f6de7e580d9d2f740c"
+  },
+  {
+    "path": "G913 - Appendix 13 ~ Checking the K8s API endpoints status.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0aae6306a293b68c2594b3053bebd5de306f25b",
+    "size": 6329,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/a0aae6306a293b68c2594b3053bebd5de306f25b"
+  },
+  {
+    "path": "G914 - Appendix 14 ~ Post-update manual maintenance tasks for Nextcloud.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46f498df301d545839f8870cbaeb5040e0121926",
+    "size": 10690,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/46f498df301d545839f8870cbaeb5040e0121926"
+  },
+  {
+    "path": "G915 - Appendix 15 ~ Updating MariaDB to a newer major version.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f87b5bab1ab95e518314650ad8af6dc31dac7ef",
+    "size": 5683,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/6f87b5bab1ab95e518314650ad8af6dc31dac7ef"
+  },
+  {
+    "path": "G916 - Appendix 16 ~ Updating PostgreSQL to a newer major version.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef8d7b3d014ddb1dcd3b995b5a0608e3475c3edc",
+    "size": 54783,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/ef8d7b3d014ddb1dcd3b995b5a0608e3475c3edc"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "622f75dea28e15a63de58b330ae07a9f4b784638",
+    "size": 16617,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/622f75dea28e15a63de58b330ae07a9f4b784638"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e5a8268f0a8fc5931960e3d6510cd29db50591b",
+    "size": 4855,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/6e5a8268f0a8fc5931960e3d6510cd29db50591b"
+  },
+  {
+    "path": "Small homelab K8s cluster on Proxmox VE.code-workspace",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "517e0b2a8a00eb12b157e6bdd29e98f095add1d7",
+    "size": 66,
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/blobs/517e0b2a8a00eb12b157e6bdd29e98f095add1d7"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a8cf07265a3932ecfc3e81063d9e35d009688fcf",
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/trees/a8cf07265a3932ecfc3e81063d9e35d009688fcf"
+  },
+  {
+    "path": "k8sprjs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf3370be8ead4f8ee5f8f112a81eddceb71fca54",
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/trees/bf3370be8ead4f8ee5f8f112a81eddceb71fca54"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d079b743c14bce323f1560d2a71b55834f892933",
+    "url": "https://api.github.com/repos/ehlesp/smallab-k8s-pve-guide/git/trees/d079b743c14bce323f1560d2a71b55834f892933"
+  }
+]

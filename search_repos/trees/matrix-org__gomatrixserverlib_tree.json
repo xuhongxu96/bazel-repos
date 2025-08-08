@@ -1,0 +1,573 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e13c2d3d3ddc5cc82b13a7815140e14f3e3acc57",
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/trees/e13c2d3d3ddc5cc82b13a7815140e14f3e3acc57"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a01ee289f9a3c65287845c5138783d4f3b24a443",
+    "size": 7,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/a01ee289f9a3c65287845c5138783d4f3b24a443"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48ea8cab7a22a296d390afc7baa21191c46acf10",
+    "size": 342,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/48ea8cab7a22a296d390afc7baa21191c46acf10"
+  },
+  {
+    "path": ".idea",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6967a18c510285523de20b68180ab0098b3c6db4",
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/trees/6967a18c510285523de20b68180ab0098b3c6db4"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+    "size": 10174,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/f433b1a53f5b830a205fd2df78e2b34974656c7b"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "894f92b0474ea629cbae3347e8798940932f4d0d",
+    "size": 267,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/894f92b0474ea629cbae3347e8798940932f4d0d"
+  },
+  {
+    "path": "authchain.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4eb4630728bd5d7ffa21250bf5e76776d246fe2c",
+    "size": 2929,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/4eb4630728bd5d7ffa21250bf5e76776d246fe2c"
+  },
+  {
+    "path": "authchain_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d245c5a547def69da0d281eba69eb18eea96ce96",
+    "size": 14092,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/d245c5a547def69da0d281eba69eb18eea96ce96"
+  },
+  {
+    "path": "authstate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7cfe67af181e9e5e2e624adcfec60fdd9efd15a6",
+    "size": 14713,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/7cfe67af181e9e5e2e624adcfec60fdd9efd15a6"
+  },
+  {
+    "path": "authstate_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8924e713a30f5dc5380f4e1d90e9d3086266e13f",
+    "size": 11439,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/8924e713a30f5dc5380f4e1d90e9d3086266e13f"
+  },
+  {
+    "path": "backfill.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2d2a02aff7501ee7fd8baee331859f2f3bcff26",
+    "size": 5429,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/d2d2a02aff7501ee7fd8baee331859f2f3bcff26"
+  },
+  {
+    "path": "backfill_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "139b169d687b26201f08d5828bc58afee1d322c9",
+    "size": 17603,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/139b169d687b26201f08d5828bc58afee1d322c9"
+  },
+  {
+    "path": "create.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5ecd10c3220697c9809a738fbfa9eebb44e0628",
+    "size": 444,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/d5ecd10c3220697c9809a738fbfa9eebb44e0628"
+  },
+  {
+    "path": "device_update.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c636ccb597eacfe4df118af5fa41401deb5b9c84",
+    "size": 612,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/c636ccb597eacfe4df118af5fa41401deb5b9c84"
+  },
+  {
+    "path": "edu.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9984ab558174fbbbfead015671e547c95f63b1ea",
+    "size": 1129,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/9984ab558174fbbbfead015671e547c95f63b1ea"
+  },
+  {
+    "path": "errors.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0b63d2a1b209512501007681a09acec6cdd2cde",
+    "size": 1223,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/a0b63d2a1b209512501007681a09acec6cdd2cde"
+  },
+  {
+    "path": "event.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d605abf8f9b0f7a02464c12c757162c9d6030d9",
+    "size": 3486,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/9d605abf8f9b0f7a02464c12c757162c9d6030d9"
+  },
+  {
+    "path": "eventV1.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18f2cef02cfcf816725e985ea5b3f9eb90ae23a0",
+    "size": 9918,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/18f2cef02cfcf816725e985ea5b3f9eb90ae23a0"
+  },
+  {
+    "path": "eventV2.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0099e9b3316e80dcaadedf7bdea6c98450548c8",
+    "size": 8857,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/b0099e9b3316e80dcaadedf7bdea6c98450548c8"
+  },
+  {
+    "path": "eventV2_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9d5a6a87ed24f9d52ed2e031921e94d0182ff86",
+    "size": 4528,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/b9d5a6a87ed24f9d52ed2e031921e94d0182ff86"
+  },
+  {
+    "path": "event_builder.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b71c1b7799f6e24cd90962633fefbb3973365d94",
+    "size": 7416,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/b71c1b7799f6e24cd90962633fefbb3973365d94"
+  },
+  {
+    "path": "event_examples_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4882f8e56841cba7252121331668b8ff1bbc433e",
+    "size": 837,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/4882f8e56841cba7252121331668b8ff1bbc433e"
+  },
+  {
+    "path": "event_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dcd7ce7dabc8475dc217fc39c5c9b48e1e6a1456",
+    "size": 20060,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/dcd7ce7dabc8475dc217fc39c5c9b48e1e6a1456"
+  },
+  {
+    "path": "eventauth.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb9f5d894656f990effbf5774c0a5cce6f3731f8",
+    "size": 50632,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/eb9f5d894656f990effbf5774c0a5cce6f3731f8"
+  },
+  {
+    "path": "eventauth_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30b537489cf4487da4aa6aea31e9fcf330f7cb1c",
+    "size": 47027,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/30b537489cf4487da4aa6aea31e9fcf330f7cb1c"
+  },
+  {
+    "path": "eventcontent.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae67244d15daca3f4550afe00d1c09e4a2c7d751",
+    "size": 22169,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/ae67244d15daca3f4550afe00d1c09e4a2c7d751"
+  },
+  {
+    "path": "eventcontent_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53920851ce761e45fcbab25042d189e850ff7414",
+    "size": 7157,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/53920851ce761e45fcbab25042d189e850ff7414"
+  },
+  {
+    "path": "eventcrypto.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d4a7add2d2ee1d19c616d59b99b2b4d3e7db3cd",
+    "size": 11147,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/6d4a7add2d2ee1d19c616d59b99b2b4d3e7db3cd"
+  },
+  {
+    "path": "eventcrypto_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f91b8bc88533858782d1cc225f75e52e3ad290c8",
+    "size": 11604,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/f91b8bc88533858782d1cc225f75e52e3ad290c8"
+  },
+  {
+    "path": "eventversion.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21375f5aabdf7cdd970e4f5625b55f7be919961e",
+    "size": 29318,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/21375f5aabdf7cdd970e4f5625b55f7be919961e"
+  },
+  {
+    "path": "eventversion_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39e4ad03590551def882100acbf297b270f55025",
+    "size": 3438,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/39e4ad03590551def882100acbf297b270f55025"
+  },
+  {
+    "path": "fclient",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f41606f261cf3e1d474c1bbf797f863c78d18e95",
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/trees/f41606f261cf3e1d474c1bbf797f863c78d18e95"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54cfe9f11aa4fff5d979ac7870198e3555e060c2",
+    "size": 1156,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/54cfe9f11aa4fff5d979ac7870198e3555e060c2"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "376ca19422221d148855839276deea8f2cfc1225",
+    "size": 6684,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/376ca19422221d148855839276deea8f2cfc1225"
+  },
+  {
+    "path": "handleinvite.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e99c5ab74d66ad46b798213a567c5846a1631170",
+    "size": 7633,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/e99c5ab74d66ad46b798213a567c5846a1631170"
+  },
+  {
+    "path": "handleinvite_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0255f02091c55074612d46db915c4c9b78ccf19c",
+    "size": 26443,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/0255f02091c55074612d46db915c4c9b78ccf19c"
+  },
+  {
+    "path": "handlejoin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d8de7832b126b37d38c8889de7eacef54302429",
+    "size": 18521,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/4d8de7832b126b37d38c8889de7eacef54302429"
+  },
+  {
+    "path": "handlejoin_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "861e99d8c2eabf2078730d5078deccf915f4b469",
+    "size": 41375,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/861e99d8c2eabf2078730d5078deccf915f4b469"
+  },
+  {
+    "path": "handleleave.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e95329f654f01ff57451e5db14fbeb33565f41b",
+    "size": 3874,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/3e95329f654f01ff57451e5db14fbeb33565f41b"
+  },
+  {
+    "path": "handleleave_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7df30245ced0a4da907df395263b5882bfa87fe",
+    "size": 7029,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/a7df30245ced0a4da907df395263b5882bfa87fe"
+  },
+  {
+    "path": "headeredevent_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f1f6ea65805719beec8e283bd1696829d574abc",
+    "size": 2526,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/7f1f6ea65805719beec8e283bd1696829d574abc"
+  },
+  {
+    "path": "hex_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "883307d53e62a87e3f48cb7b95f2daf7d4e69aad",
+    "size": 1502,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/883307d53e62a87e3f48cb7b95f2daf7d4e69aad"
+  },
+  {
+    "path": "hex_string_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cb048622be571dbbd2e7c2a196a44c0239c7012",
+    "size": 2330,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/6cb048622be571dbbd2e7c2a196a44c0239c7012"
+  },
+  {
+    "path": "invite.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03614e3f164abbef73898752f56d62092daeaba2",
+    "size": 7554,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/03614e3f164abbef73898752f56d62092daeaba2"
+  },
+  {
+    "path": "invite_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af0076d31a9d217a36bf2e32ea345d17d5735bf2",
+    "size": 3517,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/af0076d31a9d217a36bf2e32ea345d17d5735bf2"
+  },
+  {
+    "path": "join.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67e6b43d623d33a6650ff27cff2327df358001c4",
+    "size": 3112,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/67e6b43d623d33a6650ff27cff2327df358001c4"
+  },
+  {
+    "path": "json.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e27ec3558d44cf29dce698a54d7bee24bc404bf",
+    "size": 10782,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/4e27ec3558d44cf29dce698a54d7bee24bc404bf"
+  },
+  {
+    "path": "json_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6477ced55741615b15dedefd2299e88c9312c2b",
+    "size": 10804,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/a6477ced55741615b15dedefd2299e88c9312c2b"
+  },
+  {
+    "path": "keyring.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6c3c120e4ccf5b3f205a0c61d998058085d37c0",
+    "size": 23781,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/f6c3c120e4ccf5b3f205a0c61d998058085d37c0"
+  },
+  {
+    "path": "keyring_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4d2b3ef201f4200f3aa5263d3b50f2b4acece3d",
+    "size": 18335,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/b4d2b3ef201f4200f3aa5263d3b50f2b4acece3d"
+  },
+  {
+    "path": "keys.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4aeed702a11b2d58a96a86b39eb16f717eed11f1",
+    "size": 5471,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/4aeed702a11b2d58a96a86b39eb16f717eed11f1"
+  },
+  {
+    "path": "linter.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0176451195e626a640762b030ac4765799019a17",
+    "size": 422,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/0176451195e626a640762b030ac4765799019a17"
+  },
+  {
+    "path": "load.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1368b5fa28e162082ea05a6774cc0debb3dd6fb",
+    "size": 4882,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/f1368b5fa28e162082ea05a6774cc0debb3dd6fb"
+  },
+  {
+    "path": "pdu.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25b7926c4623aeb85e51f60f111d273f3369871a",
+    "size": 4075,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/25b7926c4623aeb85e51f60f111d273f3369871a"
+  },
+  {
+    "path": "performinvite.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1830d8ec85fb33adfb7d2811ed5208239f90a53",
+    "size": 10467,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/a1830d8ec85fb33adfb7d2811ed5208239f90a53"
+  },
+  {
+    "path": "performinvite_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f663da0fe18341ddcc375eaeb17a14e00295c059",
+    "size": 30225,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/f663da0fe18341ddcc375eaeb17a14e00295c059"
+  },
+  {
+    "path": "performjoin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db480d5aeb13bda5b0b9a18dfaf10635e139dfda",
+    "size": 11809,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/db480d5aeb13bda5b0b9a18dfaf10635e139dfda"
+  },
+  {
+    "path": "performjoin_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c5395c695efa8001f60bb35205aff2dbeef46ee",
+    "size": 16732,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/7c5395c695efa8001f60bb35205aff2dbeef46ee"
+  },
+  {
+    "path": "redactevent.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c69ccb01671499edc98cc31af13f184f130838dd",
+    "size": 8187,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/c69ccb01671499edc98cc31af13f184f130838dd"
+  },
+  {
+    "path": "redactevent_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "708c2a889dd7b2803c02ce250e2bda003f59f47a",
+    "size": 6784,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/708c2a889dd7b2803c02ce250e2bda003f59f47a"
+  },
+  {
+    "path": "sendtodevice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7997f1d47c7821e5a4b0b2f97e5b8ad437bf329f",
+    "size": 504,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/7997f1d47c7821e5a4b0b2f97e5b8ad437bf329f"
+  },
+  {
+    "path": "signing.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6e114a8287b34482e1888639a35f6e3a17aa89d",
+    "size": 4704,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/b6e114a8287b34482e1888639a35f6e3a17aa89d"
+  },
+  {
+    "path": "signing_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69bf31bfa2f60f868e084c164aff33fbf8cf9a1",
+    "size": 5989,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/e69bf31bfa2f60f868e084c164aff33fbf8cf9a1"
+  },
+  {
+    "path": "spec",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1614c21c5f9075cc0163f3ea5d31ce3e71fed29c",
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/trees/1614c21c5f9075cc0163f3ea5d31ce3e71fed29c"
+  },
+  {
+    "path": "stateresolution.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d629455d94439c3e46f5c9cd4f316c765b4513d3",
+    "size": 14264,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/d629455d94439c3e46f5c9cd4f316c765b4513d3"
+  },
+  {
+    "path": "stateresolution_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c36116744246bdeff63ea65c4f3ec10bb8f220e",
+    "size": 6783,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/8c36116744246bdeff63ea65c4f3ec10bb8f220e"
+  },
+  {
+    "path": "stateresolutionv2.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "686307e48c09edf41f8a13830ec4e7eea04ed558",
+    "size": 31571,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/686307e48c09edf41f8a13830ec4e7eea04ed558"
+  },
+  {
+    "path": "stateresolutionv2_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b97d7dc2717de531ed3226f29d92af589489bcc",
+    "size": 36559,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/1b97d7dc2717de531ed3226f29d92af589489bcc"
+  },
+  {
+    "path": "stateresolutionv2heaps.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa94747b864aa3f0a05eb3742cb2192a7397a763",
+    "size": 4442,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/fa94747b864aa3f0a05eb3742cb2192a7397a763"
+  },
+  {
+    "path": "tokens",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a3b2b9ec7e357f7772398eb17efc01baa71b2f0d",
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/trees/a3b2b9ec7e357f7772398eb17efc01baa71b2f0d"
+  },
+  {
+    "path": "transaction.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84998b8257349fd56f0d7f8da29d1d588db9336f",
+    "size": 1722,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/84998b8257349fd56f0d7f8da29d1d588db9336f"
+  },
+  {
+    "path": "travis.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c30363eaae40db0a11bacdbe1654c43ddc2c7aca",
+    "size": 441,
+    "url": "https://api.github.com/repos/matrix-org/gomatrixserverlib/git/blobs/c30363eaae40db0a11bacdbe1654c43ddc2c7aca"
+  }
+]

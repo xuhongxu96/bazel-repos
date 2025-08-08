@@ -1,0 +1,455 @@
+[
+  {
+    "path": ".clang-format",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "443f90b774daff2e054451aabae8ff663a9750ac",
+    "size": 5959,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/443f90b774daff2e054451aabae8ff663a9750ac"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a388127d35cf806c884f0cfb8f41e3de084cd5bb",
+    "size": 70,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/a388127d35cf806c884f0cfb8f41e3de084cd5bb"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0a81d8d26c93423dc6b97f24cde596c969e804e",
+    "size": 185,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/b0a81d8d26c93423dc6b97f24cde596c969e804e"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31bc197a082d0cbccabf38d729c601082afcaee0",
+    "size": 484,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/31bc197a082d0cbccabf38d729c601082afcaee0"
+  },
+  {
+    "path": "CMakeLists.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91045e17714831aabdda600d712042678477998c",
+    "size": 9876,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/91045e17714831aabdda600d712042678477998c"
+  },
+  {
+    "path": "DESCRIPTORS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebcbe239b090d174726815e3758a54971fc4c205",
+    "size": 7266,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/ebcbe239b090d174726815e3758a54971fc4c205"
+  },
+  {
+    "path": "LICENSE.MIT",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d8e30ec512b4cecc8f3924f9a3762071fc4b9e8",
+    "size": 3744,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/0d8e30ec512b4cecc8f3924f9a3762071fc4b9e8"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffe3b00485529b7b482947d6abd529c706bda247",
+    "size": 3574,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/ffe3b00485529b7b482947d6abd529c706bda247"
+  },
+  {
+    "path": "bc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a928b43a18f9c16f52c2b4ae5c3f72503e980646",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/a928b43a18f9c16f52c2b4ae5c3f72503e980646"
+  },
+  {
+    "path": "build_dxc.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1b97e6041f018de171b5b442c803cd700ca2b3ea",
+    "size": 580,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/1b97e6041f018de171b5b442c803cd700ca2b3ea"
+  },
+  {
+    "path": "cfg_structurizer.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "319a3841e681b4dcbf3eabc519f9c966723cda79",
+    "size": 259536,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/319a3841e681b4dcbf3eabc519f9c966723cda79"
+  },
+  {
+    "path": "cfg_structurizer.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "593ea249cbcb61399f81733a90be6268e8983f11",
+    "size": 11987,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/593ea249cbcb61399f81733a90be6268e8983f11"
+  },
+  {
+    "path": "checkout_dxc.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "59b1a80a170b12e16c86b7a84d60fbdc3d90a871",
+    "size": 518,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/59b1a80a170b12e16c86b7a84d60fbdc3d90a871"
+  },
+  {
+    "path": "checkout_llvm.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f84b0dee51f2283cf6ce56321619705c79bcd56f",
+    "size": 508,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/f84b0dee51f2283cf6ce56321619705c79bcd56f"
+  },
+  {
+    "path": "copy_reference_shaders.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "341c3eb2edb0811f451c9ed634ab2b3b05e0edd0",
+    "size": 3030,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/341c3eb2edb0811f451c9ed634ab2b3b05e0edd0"
+  },
+  {
+    "path": "debug",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e05a5c68f23e52c55ea06e54ad382312083d2b1c",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/e05a5c68f23e52c55ea06e54ad382312083d2b1c"
+  },
+  {
+    "path": "descriptor_qa.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbcb0f236a0ec29f257c46e032a24a254034b7ac",
+    "size": 22370,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/fbcb0f236a0ec29f257c46e032a24a254034b7ac"
+  },
+  {
+    "path": "descriptor_qa.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a6d49ad1e333b4e9cfd050915a22c0bbad38cc3",
+    "size": 3954,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/4a6d49ad1e333b4e9cfd050915a22c0bbad38cc3"
+  },
+  {
+    "path": "dxbc_spirv_sandbox.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6970f753b63de216a236ef7e2b9254d15bb6b55",
+    "size": 8860,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/d6970f753b63de216a236ef7e2b9254d15bb6b55"
+  },
+  {
+    "path": "dxil-disasm.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "268581cf36e2ee549a63bd3f66ca795b0f868329",
+    "size": 5553,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/268581cf36e2ee549a63bd3f66ca795b0f868329"
+  },
+  {
+    "path": "dxil.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bae1f1f490e341f6b43bfd706611b5b39ee3c39",
+    "size": 16147,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/0bae1f1f490e341f6b43bfd706611b5b39ee3c39"
+  },
+  {
+    "path": "dxil_converter.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8d7f6be8c35f5f924f4eed67328cf388a2ab60f",
+    "size": 302672,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/f8d7f6be8c35f5f924f4eed67328cf388a2ab60f"
+  },
+  {
+    "path": "dxil_converter.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b72f977e496d7cc1398b910ba4a3abd2254c338",
+    "size": 21157,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/1b72f977e496d7cc1398b910ba4a3abd2254c338"
+  },
+  {
+    "path": "dxil_extract.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfe7e39734f6b11aede5001935a56dd5eb8ec883",
+    "size": 5011,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/bfe7e39734f6b11aede5001935a56dd5eb8ec883"
+  },
+  {
+    "path": "dxil_parser.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac4f5b0f686a14d0da765f13b881846bee546c25",
+    "size": 14111,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/ac4f5b0f686a14d0da765f13b881846bee546c25"
+  },
+  {
+    "path": "dxil_parser.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b95735b51f08a3bd9f18a84a39f6170356e190ae",
+    "size": 2712,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/b95735b51f08a3bd9f18a84a39f6170356e190ae"
+  },
+  {
+    "path": "dxil_spirv.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "474f669c24defe08ff054afb0beeb6441ac12548",
+    "size": 51586,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/474f669c24defe08ff054afb0beeb6441ac12548"
+  },
+  {
+    "path": "dxil_spirv_c.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "507b54360077fc20fcdde66609f2a758e3cc8211",
+    "size": 52780,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/507b54360077fc20fcdde66609f2a758e3cc8211"
+  },
+  {
+    "path": "dxil_spirv_c.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ebd35359407305580badb93853e967e8654c428",
+    "size": 37639,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/1ebd35359407305580badb93853e967e8654c428"
+  },
+  {
+    "path": "external",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0e3dce5cf79363e205719453d6d07e020dd18db",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/c0e3dce5cf79363e205719453d6d07e020dd18db"
+  },
+  {
+    "path": "format_all.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9b194e755685e892fdbcc01f5227555834cc3821",
+    "size": 193,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/9b194e755685e892fdbcc01f5227555834cc3821"
+  },
+  {
+    "path": "ir.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3387df2e494fccc8b96a2c44a484bdee399f094e",
+    "size": 4186,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/3387df2e494fccc8b96a2c44a484bdee399f094e"
+  },
+  {
+    "path": "link.T",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "afe8d11547213e3bc2c64993596730d94a0fe707",
+    "size": 37,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/afe8d11547213e3bc2c64993596730d94a0fe707"
+  },
+  {
+    "path": "llvm_bitcode_parser.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7ff73290d21a57b2e60ce0f475435486d3713ca",
+    "size": 2536,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/a7ff73290d21a57b2e60ce0f475435486d3713ca"
+  },
+  {
+    "path": "llvm_bitcode_parser.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "984871d79e2db25b5494b37d07f6a013b1c5393a",
+    "size": 1742,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/984871d79e2db25b5494b37d07f6a013b1c5393a"
+  },
+  {
+    "path": "memory_stream.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6398146bc78f42a733dcde5d2d72231ab1fad06d",
+    "size": 3289,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/6398146bc78f42a733dcde5d2d72231ab1fad06d"
+  },
+  {
+    "path": "memory_stream.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8940df33ddfaa4fc0867eacd350cdc4f04de3816",
+    "size": 2252,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/8940df33ddfaa4fc0867eacd350cdc4f04de3816"
+  },
+  {
+    "path": "meson.build",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "565877396391ff17e332e509b28914147db3387a",
+    "size": 2857,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/565877396391ff17e332e509b28914147db3387a"
+  },
+  {
+    "path": "misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fe7ebfb0eb15db51d5d2abd718642a69ed42c5c8",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/fe7ebfb0eb15db51d5d2abd718642a69ed42c5c8"
+  },
+  {
+    "path": "node.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d00e0c48831ad5571b4c87d13ddeb447ec4b0866",
+    "size": 19821,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/d00e0c48831ad5571b4c87d13ddeb447ec4b0866"
+  },
+  {
+    "path": "node.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e52b90289b93037ae9cbb6253b654e08bdb7669f",
+    "size": 6320,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/e52b90289b93037ae9cbb6253b654e08bdb7669f"
+  },
+  {
+    "path": "node_pool.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffe07df7a087859bc6103e663eca8c4064b68e60",
+    "size": 1537,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/ffe07df7a087859bc6103e663eca8c4064b68e60"
+  },
+  {
+    "path": "node_pool.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "763a268b2011461002d214e4b6cef0b985058951",
+    "size": 1600,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/763a268b2011461002d214e4b6cef0b985058951"
+  },
+  {
+    "path": "opcodes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a6c28bf47fcbf217f2550c326d86adaefa3b4265",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/a6c28bf47fcbf217f2550c326d86adaefa3b4265"
+  },
+  {
+    "path": "pkg-config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ef3f8903374e48a5feebcc5672fc2358037f51de",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/ef3f8903374e48a5feebcc5672fc2358037f51de"
+  },
+  {
+    "path": "reference-dxbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0e966a137f53918d2ec989de50625859d8baeef",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/a0e966a137f53918d2ec989de50625859d8baeef"
+  },
+  {
+    "path": "reference",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1eedc168699a12ebe55d8643625abde401fe785c",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/1eedc168699a12ebe55d8643625abde401fe785c"
+  },
+  {
+    "path": "roundtrip_shaders.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ed4f470a8129d286b9a0f7fcce60b35dee1f2afd",
+    "size": 4778,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/ed4f470a8129d286b9a0f7fcce60b35dee1f2afd"
+  },
+  {
+    "path": "scratch_pool.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24fe09be1894f295cb72e4ae53f3a3d3d70be023",
+    "size": 2440,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/24fe09be1894f295cb72e4ae53f3a3d3d70be023"
+  },
+  {
+    "path": "shaders",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dec15e3aec81ee12d897ee7c158ac015e0f801f2",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/dec15e3aec81ee12d897ee7c158ac015e0f801f2"
+  },
+  {
+    "path": "show_graph.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "734bcdbba34ea315bff4671f51670580a284d8d6",
+    "size": 166,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/734bcdbba34ea315bff4671f51670580a284d8d6"
+  },
+  {
+    "path": "spirv_module.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab996a187dd028ad3b1bd26cbce42ebea2f8c65c",
+    "size": 153541,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/ab996a187dd028ad3b1bd26cbce42ebea2f8c65c"
+  },
+  {
+    "path": "spirv_module.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65ae1687480d8e8dd84127f5e0816b1420ea74bf",
+    "size": 5206,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/65ae1687480d8e8dd84127f5e0816b1420ea74bf"
+  },
+  {
+    "path": "spirv_module_instrumentation.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "364e8bcb7dfb93c5fa2d80f72eb939b7d4f91a27",
+    "size": 40071,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/364e8bcb7dfb93c5fa2d80f72eb939b7d4f91a27"
+  },
+  {
+    "path": "spirv_module_instrumentation.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df20f12111571749e3f80f8f230f72a8dd64b9ca",
+    "size": 2015,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/df20f12111571749e3f80f8f230f72a8dd64b9ca"
+  },
+  {
+    "path": "test_shaders.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d8b20fb6d3c6d1e99c0a1b342f52c602ed195f4e",
+    "size": 15026,
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/blobs/d8b20fb6d3c6d1e99c0a1b342f52c602ed195f4e"
+  },
+  {
+    "path": "third_party",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1f8206ca2b3ffe1bc11523bba3ae18ef0d569427",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/1f8206ca2b3ffe1bc11523bba3ae18ef0d569427"
+  },
+  {
+    "path": "util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2097e0cdf484cf2ecfa7690117537fb8a47b37f1",
+    "url": "https://api.github.com/repos/HansKristian-Work/dxil-spirv/git/trees/2097e0cdf484cf2ecfa7690117537fb8a47b37f1"
+  }
+]

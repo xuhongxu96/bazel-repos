@@ -1,0 +1,769 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cef13e9886a6369df626b99d30d4f2e6f102b5e5",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/cef13e9886a6369df626b99d30d4f2e6f102b5e5"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1e2d0a50fc2bd3351d344e8fe21cd20f073fa9b",
+    "size": 57,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/c1e2d0a50fc2bd3351d344e8fe21cd20f073fa9b"
+  },
+  {
+    "path": ".pyspelling.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d57afccb64658000b63b57c9c80e5b1e30dd17b",
+    "size": 1193,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/5d57afccb64658000b63b57c9c80e5b1e30dd17b"
+  },
+  {
+    "path": ".wordlist-md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3461a01a9f41efb2afdd2adf6ba1447d61759dcc",
+    "size": 2419,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/3461a01a9f41efb2afdd2adf6ba1447d61759dcc"
+  },
+  {
+    "path": ".wordlist-sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": ".yamllint",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd9431206a87c439465c7379ff3c2d5340779423",
+    "size": 489,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/bd9431206a87c439465c7379ff3c2d5340779423"
+  },
+  {
+    "path": "1password-connect",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56c46c3e4dee3d3825165f3918b3f59813d65632",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/56c46c3e4dee3d3825165f3918b3f59813d65632"
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f022412519522950553320c30d15a202300028a",
+    "size": 80,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/1f022412519522950553320c30d15a202300028a"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07934ebf010623eabeb6235a281fae72ea2a4bb0",
+    "size": 3227,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/07934ebf010623eabeb6235a281fae72ea2a4bb0"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "size": 11357,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09dc8b6ce07f6546dab84f08ee042d1308cbe233",
+    "size": 2848,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/09dc8b6ce07f6546dab84f08ee042d1308cbe233"
+  },
+  {
+    "path": "ack-ec2-controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "18ad367c51180a7b7b6a3b503311e7bcd4079d36",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/18ad367c51180a7b7b6a3b503311e7bcd4079d36"
+  },
+  {
+    "path": "ack-ecr-controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0b57cd711974aa7c737439bb295b30518f02a7e3",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/0b57cd711974aa7c737439bb295b30518f02a7e3"
+  },
+  {
+    "path": "ack-iam-controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a05068c3a20f671c21435362ade87b6a172baf36",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/a05068c3a20f671c21435362ade87b6a172baf36"
+  },
+  {
+    "path": "ack-lambda-controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0718719eb196482fb9c1e0cb46488e6bb6d9083f",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/0718719eb196482fb9c1e0cb46488e6bb6d9083f"
+  },
+  {
+    "path": "ack-route53-controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91e9f16d34e3c7fcf4fceb8fb0a97a3be3cd830d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/91e9f16d34e3c7fcf4fceb8fb0a97a3be3cd830d"
+  },
+  {
+    "path": "ack-s3-controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ceca4eb58f562bcb3b55c00dd8decd57ae7b47ed",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/ceca4eb58f562bcb3b55c00dd8decd57ae7b47ed"
+  },
+  {
+    "path": "ack-sagemaker-controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d0da078ddf1d8c57f1f9afefef9aef2a5fc4ba5d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/d0da078ddf1d8c57f1f9afefef9aef2a5fc4ba5d"
+  },
+  {
+    "path": "ack-system",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "009819fd58b6d0b8c89bbbd18992b9e5202c836e",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/009819fd58b6d0b8c89bbbd18992b9e5202c836e"
+  },
+  {
+    "path": "advanced-cluster-management",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0d27d5016d230399dc28e93bca5b26fa275da2f9",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/0d27d5016d230399dc28e93bca5b26fa275da2f9"
+  },
+  {
+    "path": "advanced-cluster-security",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "fe298998c65cc3adaf8bc8492e793ff56eda68ad",
+    "size": 14,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/fe298998c65cc3adaf8bc8492e793ff56eda68ad"
+  },
+  {
+    "path": "advanced-cluster-security-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b44e2de7bf9da1634285b09daf3a127f032889d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/1b44e2de7bf9da1634285b09daf3a127f032889d"
+  },
+  {
+    "path": "amq-broker-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2763457036a9b716dd9ac51dd7ecf58ad8af34b9",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/2763457036a9b716dd9ac51dd7ecf58ad8af34b9"
+  },
+  {
+    "path": "amq-streams-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2220de007a72f1a5b3e6e1f3edcdc88d701ff342",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/2220de007a72f1a5b3e6e1f3edcdc88d701ff342"
+  },
+  {
+    "path": "ansible-automation-platform",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67c1f6178781f25a8c384fdb82f5bf52855191ae",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/67c1f6178781f25a8c384fdb82f5bf52855191ae"
+  },
+  {
+    "path": "apicast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8aa923a4b0c42e7fb9c88d18b3bf547a9f5b302d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/8aa923a4b0c42e7fb9c88d18b3bf547a9f5b302d"
+  },
+  {
+    "path": "apicurio-registry-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b671db16f0a0444f311369cc355f9484a7379b1a",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/b671db16f0a0444f311369cc355f9484a7379b1a"
+  },
+  {
+    "path": "authorino-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3c89dba818e7f71b84d9c35c6493e4fca7ec7a62",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/3c89dba818e7f71b84d9c35c6493e4fca7ec7a62"
+  },
+  {
+    "path": "business-automation-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56c82495ca68f1449ccee149f19618e9cc8f1495",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/56c82495ca68f1449ccee149f19618e9cc8f1495"
+  },
+  {
+    "path": "cert-manager-operator",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "aaeb7fbc390377109ee914d50c781d1e266475f5",
+    "size": 31,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/aaeb7fbc390377109ee914d50c781d1e266475f5"
+  },
+  {
+    "path": "cluster-observability-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a43714c9db2060ee8a2ac000dc591fcb5d54b177",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/a43714c9db2060ee8a2ac000dc591fcb5d54b177"
+  },
+  {
+    "path": "compliance-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "29e9ba8cd1aeadeebd65be10bc9e5488d7e8c53f",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/29e9ba8cd1aeadeebd65be10bc9e5488d7e8c53f"
+  },
+  {
+    "path": "container-security-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4029147bd2d4fc14e531e2c1fb3e72f260afe49a",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/4029147bd2d4fc14e531e2c1fb3e72f260afe49a"
+  },
+  {
+    "path": "cost-management-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "947286770573eec0944f23b49c08fc29b5901c98",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/947286770573eec0944f23b49c08fc29b5901c98"
+  },
+  {
+    "path": "crunchy-postgres-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "994e1c15740fc3aecd4809b3078350de11bd896d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/994e1c15740fc3aecd4809b3078350de11bd896d"
+  },
+  {
+    "path": "devspaces",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "e9b8c07aab463e66825c1ad264137a42e4ca247e",
+    "size": 20,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/e9b8c07aab463e66825c1ad264137a42e4ca247e"
+  },
+  {
+    "path": "eck-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e4e53dec99735aec2debd0a75003718a4dc8ca5a",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/e4e53dec99735aec2debd0a75003718a4dc8ca5a"
+  },
+  {
+    "path": "elasticsearch-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "39bb771a17bcc060d2032db7f557b21a3daa43a3",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/39bb771a17bcc060d2032db7f557b21a3daa43a3"
+  },
+  {
+    "path": "external-secrets-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc63cf87f2820c774a5ba2167394b3df62666daf",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/bc63cf87f2820c774a5ba2167394b3df62666daf"
+  },
+  {
+    "path": "file-integrity-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25ee56fc1e96ff099c84bf1e3ca4e6fdfc8905c4",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/25ee56fc1e96ff099c84bf1e3ca4e6fdfc8905c4"
+  },
+  {
+    "path": "gatekeeper-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2abbee8a4c42ac3163cff69a66a2a1dac0c4dd5c",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/2abbee8a4c42ac3163cff69a66a2a1dac0c4dd5c"
+  },
+  {
+    "path": "gpu-operator-certified",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8dcc90a6b3a404e1ca4f48abe2a7b162564b7f6d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/8dcc90a6b3a404e1ca4f48abe2a7b162564b7f6d"
+  },
+  {
+    "path": "grafana-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e3455451611567c7546f81ef0c4bdf30bcd1cbf8",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/e3455451611567c7546f81ef0c4bdf30bcd1cbf8"
+  },
+  {
+    "path": "group-sync-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6fc495c1eae4b55446582a6996bc5514b0349e54",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/6fc495c1eae4b55446582a6996bc5514b0349e54"
+  },
+  {
+    "path": "groups-roles-bindings",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8b2102de1da4e9f3f723c283696d4ffd91cd04ca",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/8b2102de1da4e9f3f723c283696d4ffd91cd04ca"
+  },
+  {
+    "path": "installplan-approver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3581c542c3ce39e04963465f3ae36bb51be46f9d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/3581c542c3ce39e04963465f3ae36bb51be46f9d"
+  },
+  {
+    "path": "jaeger-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c85acb176df792fb45d6d444867373f4a44ce61e",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/c85acb176df792fb45d6d444867373f4a44ce61e"
+  },
+  {
+    "path": "jenkins2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "34627218ac4cc4904dabd224b5d16cf36ddc9627",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/34627218ac4cc4904dabd224b5d16cf36ddc9627"
+  },
+  {
+    "path": "kiali-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b92cdd8e916b425feecc48e34bbe8bfea4203459",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/b92cdd8e916b425feecc48e34bbe8bfea4203459"
+  },
+  {
+    "path": "kyverno",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cda109b970d002783fb8bfa39ccc4b6750836060",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/cda109b970d002783fb8bfa39ccc4b6750836060"
+  },
+  {
+    "path": "letsencrypt-certs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "23812c183ca8b34d4a80f62f8cd59d399f8739db",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/23812c183ca8b34d4a80f62f8cd59d399f8739db"
+  },
+  {
+    "path": "local-storage",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5599b8aa1bd6dd9df5b2d192812a543431465df7",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/5599b8aa1bd6dd9df5b2d192812a543431465df7"
+  },
+  {
+    "path": "loki-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "33f16b2a12065038686268f7b1cd07d9b0f6d12c",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/33f16b2a12065038686268f7b1cd07d9b0f6d12c"
+  },
+  {
+    "path": "lvm-storage",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5fc2cfdbd7ff4a46c882d91e315beda3631b2836",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/5fc2cfdbd7ff4a46c882d91e315beda3631b2836"
+  },
+  {
+    "path": "metallb-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b9f5332d60f44016701c0543ccc349d05d814fe1",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/b9f5332d60f44016701c0543ccc349d05d814fe1"
+  },
+  {
+    "path": "migration-toolkit-apps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b5f93b52fbc01e219420a43bef29cba6e4fffae8",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/b5f93b52fbc01e219420a43bef29cba6e4fffae8"
+  },
+  {
+    "path": "namespace-configuration-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d16e3640d41716a73b4cc82190ceb38a0b198a60",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/d16e3640d41716a73b4cc82190ceb38a0b198a60"
+  },
+  {
+    "path": "nexus2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71835b3a12377dd3820086d44e9a282168bfd462",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/71835b3a12377dd3820086d44e9a282168bfd462"
+  },
+  {
+    "path": "nfd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "59e3cd3cac2b6368eef7773ef1c66900be0f715d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/59e3cd3cac2b6368eef7773ef1c66900be0f715d"
+  },
+  {
+    "path": "nmstate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "31020e786520026fa27a747999ead57924750b8f",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/31020e786520026fa27a747999ead57924750b8f"
+  },
+  {
+    "path": "nvidia-gpu-operator",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "b4c63bfff7068bceee35d801eecbc5c3cd22b3b2",
+    "size": 23,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/b4c63bfff7068bceee35d801eecbc5c3cd22b3b2"
+  },
+  {
+    "path": "oauth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37e13c31b9a96852085bb2d9c99874f4229a8062",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/37e13c31b9a96852085bb2d9c99874f4229a8062"
+  },
+  {
+    "path": "opendatahub-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9b3142b219d89fa6f6ec65d433621be3157d8a5c",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/9b3142b219d89fa6f6ec65d433621be3157d8a5c"
+  },
+  {
+    "path": "openshift-ai",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "2a28d2cd1ffb18ed980fb249cdadbac0361ead90",
+    "size": 14,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/2a28d2cd1ffb18ed980fb249cdadbac0361ead90"
+  },
+  {
+    "path": "openshift-api-for-data-protection-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0183aaf86c10b8d0310a283d8aea71477759386",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/a0183aaf86c10b8d0310a283d8aea71477759386"
+  },
+  {
+    "path": "openshift-cert-manager-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "175e317e6f28105a6276cdb38f12b9f08f06af9a",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/175e317e6f28105a6276cdb38f12b9f08f06af9a"
+  },
+  {
+    "path": "openshift-container-storage-noobaa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d3fe9a33bc33642f4ff1d75f7d04c866016218d3",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/d3fe9a33bc33642f4ff1d75f7d04c866016218d3"
+  },
+  {
+    "path": "openshift-container-storage-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5e24b69bf1f8df874b39f8eba8fc1856d6923884",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/5e24b69bf1f8df874b39f8eba8fc1856d6923884"
+  },
+  {
+    "path": "openshift-data-foundation-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3d4a53cb866b88731d9bef925fa845c9c2255b0",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/b3d4a53cb866b88731d9bef925fa845c9c2255b0"
+  },
+  {
+    "path": "openshift-dev-spaces",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0bd1e4c1f232a590034b04b7e3b6525703107f00",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/0bd1e4c1f232a590034b04b7e3b6525703107f00"
+  },
+  {
+    "path": "openshift-gitops-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce5509cdb05721209f63696d8d0b68f1f059ff6f",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/ce5509cdb05721209f63696d8d0b68f1f059ff6f"
+  },
+  {
+    "path": "openshift-image-registry",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "346cd596b544c78306305f1e09efe5f6e2c4bc40",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/346cd596b544c78306305f1e09efe5f6e2c4bc40"
+  },
+  {
+    "path": "openshift-logging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "033514a3e405a2792922f65ac72275cb3cfc3ab2",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/033514a3e405a2792922f65ac72275cb3cfc3ab2"
+  },
+  {
+    "path": "openshift-pipelines-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e6e21d4657caf763be3eb9b7d9a8f920184ebbf",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/2e6e21d4657caf763be3eb9b7d9a8f920184ebbf"
+  },
+  {
+    "path": "openshift-pipelines-tasks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a0df80cab01e7ef0a92b80c47936269e7c96041",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/6a0df80cab01e7ef0a92b80c47936269e7c96041"
+  },
+  {
+    "path": "openshift-sandboxed-containers",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "d38167b18ad01fc79e0f0aaa6a9be706751eeee0",
+    "size": 29,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/d38167b18ad01fc79e0f0aaa6a9be706751eeee0"
+  },
+  {
+    "path": "openshift-servicemesh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0183e09c7206a97ccba45d3e7e0c45a714618b05",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/0183e09c7206a97ccba45d3e7e0c45a714618b05"
+  },
+  {
+    "path": "openshift-sriov-network-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "be0eaa2b1a04457213deae5cb1440b23a70354e3",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/be0eaa2b1a04457213deae5cb1440b23a70354e3"
+  },
+  {
+    "path": "openshift-vertical-pod-autoscaler-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8610f44e35ac490a958720783ab2ed3768ad4385",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/8610f44e35ac490a958720783ab2ed3768ad4385"
+  },
+  {
+    "path": "operator_info.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c15152186dd5a109acf57f80a424dd782fe47ea8",
+    "size": 214997,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/c15152186dd5a109acf57f80a424dd782fe47ea8"
+  },
+  {
+    "path": "prometheus-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a8996d13b55420d389a3c8d7e54d36daaddb244",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/1a8996d13b55420d389a3c8d7e54d36daaddb244"
+  },
+  {
+    "path": "quay-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "10fdb6560128ad44095b13c31dc2ff968a2b0834",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/10fdb6560128ad44095b13c31dc2ff968a2b0834"
+  },
+  {
+    "path": "red-hat-camel-k",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e11ff20f11382507826148c08235bd2f15f97362",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/e11ff20f11382507826148c08235bd2f15f97362"
+  },
+  {
+    "path": "redhat-build-of-opentelemetry",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "247e953629adeeb993386be169d2bb21b27c8cff",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/247e953629adeeb993386be169d2bb21b27c8cff"
+  },
+  {
+    "path": "redhat-developer-hub-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ed46031e8b40862087274b8c3f28693bc5bdc7c",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/2ed46031e8b40862087274b8c3f28693bc5bdc7c"
+  },
+  {
+    "path": "redhat-keycloak",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6f733db5f755e6471c09f03953b40c6a7e067cae",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/6f733db5f755e6471c09f03953b40c6a7e067cae"
+  },
+  {
+    "path": "renovate.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01ae43ad577d8e90e70709bf87fa02a2e064c97b",
+    "size": 146,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/01ae43ad577d8e90e70709bf87fa02a2e064c97b"
+  },
+  {
+    "path": "requirements.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d449a3d128315f8a8cf65c8aeaf82d1ca77842ba",
+    "size": 20,
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/blobs/d449a3d128315f8a8cf65c8aeaf82d1ca77842ba"
+  },
+  {
+    "path": "rhoda-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e08e308c47e86d8c0d9df0aaa07186f1c4d95a88",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/e08e308c47e86d8c0d9df0aaa07186f1c4d95a88"
+  },
+  {
+    "path": "rhods-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b8a0c030bb234a7c4ad5f92aee0271789dcc546",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/2b8a0c030bb234a7c4ad5f92aee0271789dcc546"
+  },
+  {
+    "path": "rhsso",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c128e6d4608c5318b405855efb65f273df0d345a",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/c128e6d4608c5318b405855efb65f273df0d345a"
+  },
+  {
+    "path": "sandboxed-containers-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "62e110ea79d5222cc8c3209ae5463c20f5de1c9d",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/62e110ea79d5222cc8c3209ae5463c20f5de1c9d"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e381ca6d1943f9e79577a3ff7f78cd8ff7d9f8b",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/2e381ca6d1943f9e79577a3ff7f78cd8ff7d9f8b"
+  },
+  {
+    "path": "sealed-secrets-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fecdd8ae60e939ec450927c541e7c35d749d5b7a",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/fecdd8ae60e939ec450927c541e7c35d749d5b7a"
+  },
+  {
+    "path": "seldon-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4e32171adb4f8a0ebfd33f468ef97f55fee64664",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/4e32171adb4f8a0ebfd33f468ef97f55fee64664"
+  },
+  {
+    "path": "selenium",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a463b303305b665be0700aacb382c1b0eb74f308",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/a463b303305b665be0700aacb382c1b0eb74f308"
+  },
+  {
+    "path": "serverless-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cac97d29a37d6626a24bb3bd24dfbdfa81e49ab2",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/cac97d29a37d6626a24bb3bd24dfbdfa81e49ab2"
+  },
+  {
+    "path": "service-interconnect-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "84db0c3f7b7ec20c14640991d283a2c210e26236",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/84db0c3f7b7ec20c14640991d283a2c210e26236"
+  },
+  {
+    "path": "sonarqube8",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "234c2e6dfad05674951cba69a3bcdc92b047a5ca",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/234c2e6dfad05674951cba69a3bcdc92b047a5ca"
+  },
+  {
+    "path": "strimzi-kafka-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc7e0318ab5b54112812519588dd635990458143",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/bc7e0318ab5b54112812519588dd635990458143"
+  },
+  {
+    "path": "submariner-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8fb60cf1bc8cacedbf6fadbb6a49bad3972e10f0",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/8fb60cf1bc8cacedbf6fadbb6a49bad3972e10f0"
+  },
+  {
+    "path": "tempo-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d964ccc1ee4352982765030567442e9c04362b6a",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/d964ccc1ee4352982765030567442e9c04362b6a"
+  },
+  {
+    "path": "topology-aware-lifecycle-manager-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "db8b63f964de0e6232e654d09bab16755e6df7d3",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/db8b63f964de0e6232e654d09bab16755e6df7d3"
+  },
+  {
+    "path": "virtualization-operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "530d42b537a45c86eaf7fdb2d24345c92d638b0c",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/530d42b537a45c86eaf7fdb2d24345c92d638b0c"
+  },
+  {
+    "path": "volsync-product",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5f48b6d8fa2c25bfad487d1db7d5c96665275d98",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/5f48b6d8fa2c25bfad487d1db7d5c96665275d98"
+  },
+  {
+    "path": "web-terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1cb6b9fe859541fa64f382b39683105168e5c171",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/1cb6b9fe859541fa64f382b39683105168e5c171"
+  },
+  {
+    "path": "zero-trust-workload-identity-manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a546f275cc8601ecaaee5fb06424f2389c0cacf",
+    "url": "https://api.github.com/repos/redhat-cop/gitops-catalog/git/trees/1a546f275cc8601ecaaee5fb06424f2389c0cacf"
+  }
+]

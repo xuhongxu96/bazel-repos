@@ -1,0 +1,936 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85e7c1dfcb7fbb33f932c81024018cd8c10519da",
+    "size": 8,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/85e7c1dfcb7fbb33f932c81024018cd8c10519da"
+  },
+  {
+    "path": "000-template.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9266a76cfa2e375df4ac02e93794d5e55345e07",
+    "size": 972,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/b9266a76cfa2e375df4ac02e93794d5e55345e07"
+  },
+  {
+    "path": "001-move-strimzi-kafka-operators-to-java-11.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "561bf17bb394161202c2cc497dc2b25ef42adb34",
+    "size": 3231,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/561bf17bb394161202c2cc497dc2b25ef42adb34"
+  },
+  {
+    "path": "002-documentation-improvements.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f41b2f8e5785b1c8848f2acef8e976251c43f5b7",
+    "size": 9109,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/f41b2f8e5785b1c8848f2acef8e976251c43f5b7"
+  },
+  {
+    "path": "003-remove-deprecated-topic-operator-from-kafka-crd.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "caa69ced01b8663d26044fcfe195ea7f49d0777e",
+    "size": 3223,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/caa69ced01b8663d26044fcfe195ea7f49d0777e"
+  },
+  {
+    "path": "004-github-repository-restructuring.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a6f09c0d729d6ac4df658591c301b59d4002bc6",
+    "size": 2751,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/7a6f09c0d729d6ac4df658591c301b59d4002bc6"
+  },
+  {
+    "path": "005-improving-configurability-of-kafka-listeners.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86be37c3ac2a0c07a53d861ec9a86fe001d29d95",
+    "size": 10310,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/86be37c3ac2a0c07a53d861ec9a86fe001d29d95"
+  },
+  {
+    "path": "006-design-docs.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b926412b233fc42a350000f16c4a944a9321b112",
+    "size": 7484,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/b926412b233fc42a350000f16c4a944a9321b112"
+  },
+  {
+    "path": "007-restarting-kafka-connect-connectors-and-tasks.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "965d9eefa8e57dea47400ba146d05097700ed752",
+    "size": 11177,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/965d9eefa8e57dea47400ba146d05097700ed752"
+  },
+  {
+    "path": "008-tls-encrypt-the-kafka-connect-rest-api.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbc8d13169eb3612ef07e12a346ee26a57a0c396",
+    "size": 6171,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/fbc8d13169eb3612ef07e12a346ee26a57a0c396"
+  },
+  {
+    "path": "009-crd-v1-roadmap.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69d9678e620f67f1cd4a4242029b2ccb15e40e29",
+    "size": 8649,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/69d9678e620f67f1cd4a4242029b2ccb15e40e29"
+  },
+  {
+    "path": "010-ui-and-admin-server-security.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fbecdad52aabe6bfe23dd3fcfebe7f686b8c978",
+    "size": 9004,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/4fbecdad52aabe6bfe23dd3fcfebe7f686b8c978"
+  },
+  {
+    "path": "011-strimzi-ui.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5444b553f73048a9855c6860e690d3d4f612a57e",
+    "size": 20922,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/5444b553f73048a9855c6860e690d3d4f612a57e"
+  },
+  {
+    "path": "012-admin-server.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e181c15101de0b061fa7e486f9abdc31aad70cf",
+    "size": 12688,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/0e181c15101de0b061fa7e486f9abdc31aad70cf"
+  },
+  {
+    "path": "013-kafka-canary.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "910d3e5ed76d71676cf75d2430f84a4bf91b9a20",
+    "size": 6712,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/910d3e5ed76d71676cf75d2430f84a4bf91b9a20"
+  },
+  {
+    "path": "014-move-docker-images-to-quay.io.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "256421bfc304d3650ce0b6ad1481d447f6803e5f",
+    "size": 3033,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/256421bfc304d3650ce0b6ad1481d447f6803e5f"
+  },
+  {
+    "path": "015-kafka-connect-build.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6381070b33639769e48dfacb47f58725ae7d20b3",
+    "size": 7080,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/6381070b33639769e48dfacb47f58725ae7d20b3"
+  },
+  {
+    "path": "016-modularizing-strimzi-ui.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44087d12ac6a1d757518450bf843709f6711a410",
+    "size": 3846,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/44087d12ac6a1d757518450bf843709f6711a410"
+  },
+  {
+    "path": "017-kafka-topic-encryption.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f67ae0c9d4cadd553603c66ef1e6bfe45130dcb",
+    "size": 20294,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/5f67ae0c9d4cadd553603c66ef1e6bfe45130dcb"
+  },
+  {
+    "path": "018-rest-admin-api.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92d86d95a62aaa97441c38f852f8386bc70a505b",
+    "size": 3046,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/92d86d95a62aaa97441c38f852f8386bc70a505b"
+  },
+  {
+    "path": "019-restruture-the-installation-files.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bd02705906cb10c194428e351c6e979eabd4074",
+    "size": 3544,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/9bd02705906cb10c194428e351c6e979eabd4074"
+  },
+  {
+    "path": "020-rename-default-branch-of-strimzi-github-repositories.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17a7560c378850da5e1c6a124a1404adea157715",
+    "size": 2427,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/17a7560c378850da5e1c6a124a1404adea157715"
+  },
+  {
+    "path": "021-special-repository-for-st-clients-based-on-example-clients.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b22a46a07647308482677566684c014a077306e6",
+    "size": 3588,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/b22a46a07647308482677566684c014a077306e6"
+  },
+  {
+    "path": "022-feature-gates.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "966c2d62b541a49c6acd8ec520f5afed8f442591",
+    "size": 8732,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/966c2d62b541a49c6acd8ec520f5afed8f442591"
+  },
+  {
+    "path": "023-using-ubi8-as-base-image.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62b4b8efa7f972a9f3a2ea66ca6a8408fd06ba8d",
+    "size": 2811,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/62b4b8efa7f972a9f3a2ea66ca6a8408fd06ba8d"
+  },
+  {
+    "path": "024-adopt-the-kafka-static-quota-plugin.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efbb2787ab616c197a8cd5b875189d219e635014",
+    "size": 2732,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/efbb2787ab616c197a8cd5b875189d219e635014"
+  },
+  {
+    "path": "025-control-plain-listener.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b80d349cd089c169823bece096c4808f47d413b",
+    "size": 5799,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/3b80d349cd089c169823bece096c4808f47d413b"
+  },
+  {
+    "path": "026-service-account-patching.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af834b78c359f603e6074c32c5c83cec86e92829",
+    "size": 5317,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/af834b78c359f603e6074c32c5c83cec86e92829"
+  },
+  {
+    "path": "027-kubernetes-config-provider.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "773dea5e20f6345b56fbf10457a41c443f1d2dfd",
+    "size": 4147,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/773dea5e20f6345b56fbf10457a41c443f1d2dfd"
+  },
+  {
+    "path": "028-network-policy-generation-environment-variable.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f47ce05bb4517328e6e4e02b6764301e705f7bb9",
+    "size": 4806,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/f47ce05bb4517328e6e4e02b6764301e705f7bb9"
+  },
+  {
+    "path": "029-adopt-the-drain-cleaner-utility.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c52a03719775cc793b225665b8823710ccc0279d",
+    "size": 7278,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/c52a03719775cc793b225665b8823710ccc0279d"
+  },
+  {
+    "path": "030-env-var-config-provider.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b11f224a2e88a7bb127ee30b4493f60e4722807",
+    "size": 4062,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/3b11f224a2e88a7bb127ee30b4493f60e4722807"
+  },
+  {
+    "path": "031-statefulset-removal.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4322e407345e33ffd88417de5c8eee670f878b47",
+    "size": 18078,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/4322e407345e33ffd88417de5c8eee670f878b47"
+  },
+  {
+    "path": "032-custom_authentication_in_kafka_brokers.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6732cd39b890aea66c291599a04e4b46bd28e51a",
+    "size": 13021,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/6732cd39b890aea66c291599a04e4b46bd28e51a"
+  },
+  {
+    "path": "033-service-binding.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbfb3bc204991127a2dc8eba2568871ff314114e",
+    "size": 15649,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/cbfb3bc204991127a2dc8eba2568871ff314114e"
+  },
+  {
+    "path": "034-deprecate-and-remove-mirror-maker-2-extensions.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de0e45ac2c14b6908befe1f1ac782a3d1a256605",
+    "size": 2965,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/de0e45ac2c14b6908befe1f1ac782a3d1a256605"
+  },
+  {
+    "path": "035-rebalance-types-scaling-brokers.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ffc319e120ec040fa8d25fe47a723152eff11a9",
+    "size": 9659,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/4ffc319e120ec040fa8d25fe47a723152eff11a9"
+  },
+  {
+    "path": "036-kraft-mode.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38a3e5ab021c8743396d93c7a235bc32192e0be4",
+    "size": 7204,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/38a3e5ab021c8743396d93c7a235bc32192e0be4"
+  },
+  {
+    "path": "037-pluggable-pod-security-profiles.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d90bf3c528c8b1cadd5cf55cbab35a1b989fb6a",
+    "size": 14598,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/3d90bf3c528c8b1cadd5cf55cbab35a1b989fb6a"
+  },
+  {
+    "path": "038-optimization-proposal-autoapproval.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8156cad784d65b09a09babb849ff1f7a03b14fc",
+    "size": 5167,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/e8156cad784d65b09a09babb849ff1f7a03b14fc"
+  },
+  {
+    "path": "039-reduce-test-clients-images.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "245ec3bf4bd54e85c27a705041c7e1cb488994ec",
+    "size": 2637,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/245ec3bf4bd54e85c27a705041c7e1cb488994ec"
+  },
+  {
+    "path": "040-refactor-client-examples.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29db881fc67d884779c84fd0cd448d8010af1a21",
+    "size": 4456,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/29db881fc67d884779c84fd0cd448d8010af1a21"
+  },
+  {
+    "path": "041-user-operator-configurable-exclusion-of-labels.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "788bbe7c9ff59a9ad05e55173c7122cc603dbb93",
+    "size": 5826,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/788bbe7c9ff59a9ad05e55173c7122cc603dbb93"
+  },
+  {
+    "path": "042-remove-bridge-amqp-support.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7e7e5e015f6670f284ccf0da1c72ad9e5d433fd",
+    "size": 3417,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/d7e7e5e015f6670f284ccf0da1c72ad9e5d433fd"
+  },
+  {
+    "path": "043-deprecate-and-remove-jmxtrans.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5978ec0898e692ae031ef574dc99ecd7d84f49d2",
+    "size": 4088,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/5978ec0898e692ae031ef574dc99ecd7d84f49d2"
+  },
+  {
+    "path": "044-StrimziPodSets-graduation.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a36934cf9114200a4e171fb1ede2b4f1fdcef5cb",
+    "size": 3063,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/a36934cf9114200a4e171fb1ede2b4f1fdcef5cb"
+  },
+  {
+    "path": "045-Stable-identities-for-Kafka-Connect-worker-nodes.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ecc921e9ebfed8e46102abbdd499bb9eac8325b",
+    "size": 12605,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/4ecc921e9ebfed8e46102abbdd499bb9eac8325b"
+  },
+  {
+    "path": "046-kraft-liveness-readiness.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7ec34542f52eecf0beb7115f1db25b57b3524af",
+    "size": 13132,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/d7ec34542f52eecf0beb7115f1db25b57b3524af"
+  },
+  {
+    "path": "047-cluster-wide-volume-usage-quota-management.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b54351920802cd386fc7f0df230788a6d38afff6",
+    "size": 21076,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/b54351920802cd386fc7f0df230788a6d38afff6"
+  },
+  {
+    "path": "048-avoid-broker-restarts-when-in-recovery.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47befcf0c8d063c38487904a60a6007de08d4844",
+    "size": 8023,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/47befcf0c8d063c38487904a60a6007de08d4844"
+  },
+  {
+    "path": "049-prevent-broker-scale-down-if-it-contains-partition-replicas.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "303e8419d7bee095e1d7dad080e9237b1cd08ade",
+    "size": 6101,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/303e8419d7bee095e1d7dad080e9237b1cd08ade"
+  },
+  {
+    "path": "050-Kafka-Node-Pools.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d59e9f223f9aeaeeaf8ce68d2ee02f8683ba196",
+    "size": 36758,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/4d59e9f223f9aeaeeaf8ce68d2ee02f8683ba196"
+  },
+  {
+    "path": "051-unidirectional-topic-operator.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70075140421a3b93185bfc7223f666595a1c1b35",
+    "size": 36046,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/70075140421a3b93185bfc7223f666595a1c1b35"
+  },
+  {
+    "path": "052-k8s-server-side-apply.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58ab1be7e4fddc05167d360070ffe0fc887f70a5",
+    "size": 16384,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/58ab1be7e4fddc05167d360070ffe0fc887f70a5"
+  },
+  {
+    "path": "053-record-reconciled-versions.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5a98a8a690b5358c04c197774cae2b71824af59",
+    "size": 14035,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/b5a98a8a690b5358c04c197774cae2b71824af59"
+  },
+  {
+    "path": "054-stopping-kafka-connect-connectors.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1290a0e1eeb104ea70f6375fcb46e6130e6ee76b",
+    "size": 3929,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/1290a0e1eeb104ea70f6375fcb46e6130e6ee76b"
+  },
+  {
+    "path": "055-infinite-auto-restart-of-Kafka-connectors.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cfdfff0e7774ef74c74dc6dc042c1522b11dd208",
+    "size": 6927,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/cfdfff0e7774ef74c74dc6dc042c1522b11dd208"
+  },
+  {
+    "path": "056-cruise-control-api-users.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da4bb137831ab54aa404c18c63b8799ebf3befba",
+    "size": 13739,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/da4bb137831ab54aa404c18c63b8799ebf3befba"
+  },
+  {
+    "path": "057-run-zk-kraft-clusters-parallel.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af2187f09a49f656b56b3321c986dddbb1c3d7f8",
+    "size": 5756,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/af2187f09a49f656b56b3321c986dddbb1c3d7f8"
+  },
+  {
+    "path": "058-deprecate-and-remove-envvar-config-provider.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9dc457b1b460bed96265140577f9a58e9697708",
+    "size": 2739,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/e9dc457b1b460bed96265140577f9a58e9697708"
+  },
+  {
+    "path": "059-zk-kraft-migration.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81364b4c7e1ad2cd5139c69d40a6d400e60b7b60",
+    "size": 28416,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/81364b4c7e1ad2cd5139c69d40a6d400e60b7b60"
+  },
+  {
+    "path": "060-kafka-roller-kraft.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0c20e8c4a5786ef696ced642b6b065d1ce40214",
+    "size": 11658,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/e0c20e8c4a5786ef696ced642b6b065d1ce40214"
+  },
+  {
+    "path": "061-kraft-upgrades-and-downgrades.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98b9a4f599c82b44739dda22bb0e409dd423b928",
+    "size": 17624,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/98b9a4f599c82b44739dda22bb0e409dd423b928"
+  },
+  {
+    "path": "062-UseKRaft-feature-gate-promotion.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90966f44f4afdb7b853176c7028163e69e12fdeb",
+    "size": 7274,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/90966f44f4afdb7b853176c7028163e69e12fdeb"
+  },
+  {
+    "path": "063-pdb-generation-environment-variable.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "403c63019bf33856c7551e6ba4b2bb4dcf56e71d",
+    "size": 3978,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/403c63019bf33856c7551e6ba4b2bb4dcf56e71d"
+  },
+  {
+    "path": "064-prometheus-metrics-reporter.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f3ed1a5a548fec8f2e25e776c952f9b26e2c47a",
+    "size": 16950,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/7f3ed1a5a548fec8f2e25e776c952f9b26e2c47a"
+  },
+  {
+    "path": "065-support-tiered-storage.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a72eabfd5cb95a2d0dfc791e5ef21edb25bcd63f",
+    "size": 9194,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/a72eabfd5cb95a2d0dfc791e5ef21edb25bcd63f"
+  },
+  {
+    "path": "066-topic-replication-factor-change.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "069cc6c8fff31243ee72d01d4942d6783594fce8",
+    "size": 19127,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/069cc6c8fff31243ee72d01d4942d6783594fce8"
+  },
+  {
+    "path": "067-kraft-jbod-support.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05988f713ac3cbb74c40fd554f7e261de335b015",
+    "size": 13950,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/05988f713ac3cbb74c40fd554f7e261de335b015"
+  },
+  {
+    "path": "068-quotas-management.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aff3c63ec500eb3b41df150c263d94babb253736",
+    "size": 10734,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/aff3c63ec500eb3b41df150c263d94babb253736"
+  },
+  {
+    "path": "069-performance-testing.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12cf4e243d043cc19ac14f7365c38ab2809a6c7a",
+    "size": 22788,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/12cf4e243d043cc19ac14f7365c38ab2809a6c7a"
+  },
+  {
+    "path": "070-dont-fail-reconciliation-in-manual-rolling-update.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d8b568509ad3685d3b3bc5fc41b556791d2cbe1",
+    "size": 6079,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/6d8b568509ad3685d3b3bc5fc41b556791d2cbe1"
+  },
+  {
+    "path": "071-deprecate-bridge-openapi-2.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "770c98dd64fd77c53cb6532d724ddb2b995ab689",
+    "size": 4108,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/770c98dd64fd77c53cb6532d724ddb2b995ab689"
+  },
+  {
+    "path": "072-kafkabrige-consumer-producer.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b4bdc8a4780a3996e5cc5374b94c234f43d1c4a",
+    "size": 3071,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/4b4bdc8a4780a3996e5cc5374b94c234f43d1c4a"
+  },
+  {
+    "path": "073-improve-handling-of-CA-renewals-and-replacements-in-client-based-operands.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a7a13615b1cf25d9d2e4cb18241ba8de37a3e00",
+    "size": 12921,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/4a7a13615b1cf25d9d2e4cb18241ba8de37a3e00"
+  },
+  {
+    "path": "074-extend-feature-gates-to-all-operators.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96911a3ad644023b4d84bbd2883ed8d723de3695",
+    "size": 8034,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/96911a3ad644023b4d84bbd2883ed8d723de3695"
+  },
+  {
+    "path": "075-additional-volumes-support.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c835e08d89de06c8cc04d7fd235d83fa8a5b755",
+    "size": 8139,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/5c835e08d89de06c8cc04d7fd235d83fa8a5b755"
+  },
+  {
+    "path": "076-connector-offsets-support.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5dc97c1ee3940e75729f15a843a00a8bdf5bb6d",
+    "size": 14980,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/b5dc97c1ee3940e75729f15a843a00a8bdf5bb6d"
+  },
+  {
+    "path": "077-support-for-kafka-4.0.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "241eb474f68b17dd560b78bd513fc6af1332d795",
+    "size": 16074,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/241eb474f68b17dd560b78bd513fc6af1332d795"
+  },
+  {
+    "path": "078-auto-rebalancing-cluster-scaling.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3de067a8a7e93d27bf0cbb09bdd299e4b5a9dc5c",
+    "size": 35740,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/3de067a8a7e93d27bf0cbb09bdd299e4b5a9dc5c"
+  },
+  {
+    "path": "079-removal-of-mirror-maker-1.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e759806ff8533ad4a4ad43c58d8c2483238a0268",
+    "size": 9238,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/e759806ff8533ad4a4ad43c58d8c2483238a0268"
+  },
+  {
+    "path": "080-deprecation-and-removal-of-storage-overrides.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bcffc8d8ed51e72b1e4eb8156830bdd6ea7d924",
+    "size": 5165,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/7bcffc8d8ed51e72b1e4eb8156830bdd6ea7d924"
+  },
+  {
+    "path": "081-unregistration-of-KRaft-nodes.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00f4aaf45aa83f2b552ba0be2391ed1b4d64c4e8",
+    "size": 7515,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/00f4aaf45aa83f2b552ba0be2391ed1b4d64c4e8"
+  },
+  {
+    "path": "082-moving-data-between-two-jbod-disks-using-cruise-control.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e81344f0d0323de1b9149106a22d1fea7c048f2",
+    "size": 5923,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/2e81344f0d0323de1b9149106a22d1fea7c048f2"
+  },
+  {
+    "path": "083-mm2-connector-offsets-support.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "583c65482377b4f9eecb1846006dcad9de5856fb",
+    "size": 20360,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/583c65482377b4f9eecb1846006dcad9de5856fb"
+  },
+  {
+    "path": "084-templating-host-and-advertisedHost-fields.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a66a13abfcf137e28dccc23eaa3f3ad716b1ecb",
+    "size": 7467,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/0a66a13abfcf137e28dccc23eaa3f3ad716b1ecb"
+  },
+  {
+    "path": "085-configure-env-vars-based-on-secrets-or-configmaps.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1267a5f87d3f44cc5cdbdb04538dcb6c0d42e5e2",
+    "size": 7590,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/1267a5f87d3f44cc5cdbdb04538dcb6c0d42e5e2"
+  },
+  {
+    "path": "086-archive-canary.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0538084366d2e88d7b2a995453548dce0fd8b02",
+    "size": 6441,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/e0538084366d2e88d7b2a995453548dce0fd8b02"
+  },
+  {
+    "path": "087-monitoring-of-custom-resources.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79aece7266bcbdc3641fdf77a804a9de2a39994d",
+    "size": 8148,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/79aece7266bcbdc3641fdf77a804a9de2a39994d"
+  },
+  {
+    "path": "088-support-mounting-of-CSI-volumes.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48b24b5ed35224d8cc11bb9a7667f2cc9e0b2559",
+    "size": 3477,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/48b24b5ed35224d8cc11bb9a7667f2cc9e0b2559"
+  },
+  {
+    "path": "089-adopt-connect-health-endpoint.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e350ead38da46da16c3b4045b6b667179199b0cb",
+    "size": 5344,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/e350ead38da46da16c3b4045b6b667179199b0cb"
+  },
+  {
+    "path": "090-support-dns-config.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6a9695c4df9063da6256b36817108cbfe17fb33",
+    "size": 3892,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/a6a9695c4df9063da6256b36817108cbfe17fb33"
+  },
+  {
+    "path": "091-add-connect-to-test-container.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d7e0f91b09c997cf0fc5d2875d6fe7e963759f3",
+    "size": 6623,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/1d7e0f91b09c997cf0fc5d2875d6fe7e963759f3"
+  },
+  {
+    "path": "092-integrate-bridge-with-metrics-reporter.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dae0316ce8e2f354051da2519069a615d95786cf",
+    "size": 7649,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/dae0316ce8e2f354051da2519069a615d95786cf"
+  },
+  {
+    "path": "093-single-step-multi-version-downgrade.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ddddbe2d85b8070634e842c3286f72f20584434c",
+    "size": 7417,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/ddddbe2d85b8070634e842c3286f72f20584434c"
+  },
+  {
+    "path": "094-deprecate-secrets-field-in-custom-server-authentication.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4539756e714b3eef98fa5e45879a7472319d8b5",
+    "size": 3592,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/c4539756e714b3eef98fa5e45879a7472319d8b5"
+  },
+  {
+    "path": "095-add-support-volumeattributesclassname.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ba499b5d09f2f5c119efbc2ce08582d5eec3e38",
+    "size": 4550,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/1ba499b5d09f2f5c119efbc2ce08582d5eec3e38"
+  },
+  {
+    "path": "096-split-metrics-reporter-into-modules.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd7e677e4b7db5ddf0fe7a8e833dbe8d59b70506",
+    "size": 5077,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/bd7e677e4b7db5ddf0fe7a8e833dbe8d59b70506"
+  },
+  {
+    "path": "097-deprecate-OPA-authorization.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa721c60cc35b739c4c1978885ce9dea2f817945",
+    "size": 4265,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/aa721c60cc35b739c4c1978885ce9dea2f817945"
+  },
+  {
+    "path": "098-rebalance-progress-status.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85a7a66e4992e51a44e7807b5e7cf039eb1696bf",
+    "size": 25435,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/85a7a66e4992e51a44e7807b5e7cf039eb1696bf"
+  },
+  {
+    "path": "099-drop-travis-ci-and-testing-for-ppc-and-s390x.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "016ddd2d1bc9f157da4fd2e43284418f38bafb88",
+    "size": 5238,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/016ddd2d1bc9f157da4fd2e43284418f38bafb88"
+  },
+  {
+    "path": "100-external-certificate-manager.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e14ee497c0b0ef280e8f2631f4f15de2f72b3629",
+    "size": 27097,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/e14ee497c0b0ef280e8f2631f4f15de2f72b3629"
+  },
+  {
+    "path": "101-redesign-restart-events.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "396e36e3b3b7e98fe3465e242696a3e1034f27e5",
+    "size": 4002,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/396e36e3b3b7e98fe3465e242696a3e1034f27e5"
+  },
+  {
+    "path": "102-using-image-volumes-to-improve-extensibility-of-Strimzi-operands.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2682f9758329f0651d1ac055c6bc3d3c2f93ed4d",
+    "size": 18214,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/2682f9758329f0651d1ac055c6bc3d3c2f93ed4d"
+  },
+  {
+    "path": "103-bridge-vertx5-errors.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b6af115b998b08253a07c5be3c5df7c502115c3",
+    "size": 10272,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/2b6af115b998b08253a07c5be3c5df7c502115c3"
+  },
+  {
+    "path": "104-bridge-vertx5-openapi-3.1.0.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "116849b0c6b69b55061818bcb7a3ebb072e308af",
+    "size": 9352,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/116849b0c6b69b55061818bcb7a3ebb072e308af"
+  },
+  {
+    "path": "105-server-side-apply-implementation-fg-timelines.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c401dc87cefdb6cf261ab141c2efb414a368c1c7",
+    "size": 5124,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/c401dc87cefdb6cf261ab141c2efb414a368c1c7"
+  },
+  {
+    "path": "106-strimzi-drain-cleaner-namespace-filtering-proposal.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3136528a53171019151cc6d57ac7ecbb598aec92",
+    "size": 11842,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/3136528a53171019151cc6d57ac7ecbb598aec92"
+  },
+  {
+    "path": "107-make-ignored-users-in-UO-configurable.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75dcbda4252aed7d808871b495b30db7d54c99f7",
+    "size": 9718,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/75dcbda4252aed7d808871b495b30db7d54c99f7"
+  },
+  {
+    "path": "108-list-unregister-nodes-admin-api.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "096ba500e01333432a788ea784504f14a44e5f9b",
+    "size": 6514,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/096ba500e01333432a788ea784504f14a44e5f9b"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7168a629f20f9772dbbe008613ac88ac8089497",
+    "size": 183,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/f7168a629f20f9772dbbe008613ac88ac8089497"
+  },
+  {
+    "path": "GOVERNANCE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a52ffc0485577bf7fa8f9b4964a3f5b4c60d441",
+    "size": 148,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/9a52ffc0485577bf7fa8f9b4964a3f5b4c60d441"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "size": 11357,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  {
+    "path": "MAINTAINERS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c0b64454dd75bb0d830f5af0ec208e4d474c776",
+    "size": 158,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/6c0b64454dd75bb0d830f5af0ec208e4d474c776"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e40d60f101ceebe5c2c4b8d8038e655ec4d8f258",
+    "size": 11092,
+    "url": "https://api.github.com/repos/strimzi/proposals/git/blobs/e40d60f101ceebe5c2c4b8d8038e655ec4d8f258"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "018153ed265d4ff654498d1ff9eaacbc972f3657",
+    "url": "https://api.github.com/repos/strimzi/proposals/git/trees/018153ed265d4ff654498d1ff9eaacbc972f3657"
+  },
+  {
+    "path": "logo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8cd583f4c4ef99d056dccb820116d095b5c87b4e",
+    "url": "https://api.github.com/repos/strimzi/proposals/git/trees/8cd583f4c4ef99d056dccb820116d095b5c87b4e"
+  }
+]

@@ -1,0 +1,4158 @@
+[
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96b24f4af06c2b7e4d80485c84427b24cc77f500",
+    "size": 80456,
+    "url": "https://api.github.com/repos/openstack/openstack/git/blobs/96b24f4af06c2b7e4d80485c84427b24cc77f500"
+  },
+  {
+    "path": ".gitreview",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73af54d43795b18ec2d7340985b3b3c9e2fef18c",
+    "size": 76,
+    "url": "https://api.github.com/repos/openstack/openstack/git/blobs/73af54d43795b18ec2d7340985b3b3c9e2fef18c"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68c771a099958211169377d766a7389422f5573d",
+    "size": 10143,
+    "url": "https://api.github.com/repos/openstack/openstack/git/blobs/68c771a099958211169377d766a7389422f5573d"
+  },
+  {
+    "path": "README.rst",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "318986cd1ca709a35a7df71c3861acdc348073a2",
+    "size": 1554,
+    "url": "https://api.github.com/repos/openstack/openstack/git/blobs/318986cd1ca709a35a7df71c3861acdc348073a2"
+  },
+  {
+    "path": "adjutant",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1c0eccc674d79931e385de9530aaba5ccd8fcb6f"
+  },
+  {
+    "path": "adjutant-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a2c9f79d96f01ff6cac222731f9f84c961fe807b"
+  },
+  {
+    "path": "ansible-config_template",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d871c2161f8b96f8c28c405b8cec30cc4675c31b"
+  },
+  {
+    "path": "ansible-hardening",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5dad41279688f5a5132ef3389bf246b87c979838"
+  },
+  {
+    "path": "ansible-role-atos-hsm",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "baec445a57a4bc190ff26907a641ce3e6d4757f0"
+  },
+  {
+    "path": "ansible-role-chrony",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "565e1d0c46df3a80dee460a37c9cf8261370b469"
+  },
+  {
+    "path": "ansible-role-collect-logs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6b6858e8d78708990b82e938adaac29c1bffa066"
+  },
+  {
+    "path": "ansible-role-container-registry",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d68e447c4b1d769fb1efb332fde4f026df48c06d"
+  },
+  {
+    "path": "ansible-role-lunasa-hsm",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4a384f4fbed7c93ee2c680bb76fc87ffb0fd8d75"
+  },
+  {
+    "path": "ansible-role-openstack-operations",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7350bf7eb8aacc6f7b6c02a1df44e4b231924fce"
+  },
+  {
+    "path": "ansible-role-python_venv_build",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "cb1a26d9ba0b829fb48ca7481eeb065529f3af97"
+  },
+  {
+    "path": "ansible-role-qdrouterd",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "12008afe8b94c8274682e4c9c7f2e65f12155c23"
+  },
+  {
+    "path": "ansible-role-redhat-subscription",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "340d059ee56f462fb96c52df7761f9d5c98ae66b"
+  },
+  {
+    "path": "ansible-role-systemd_mount",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "feb10e762985e8969c4beb0863b249bde74530a3"
+  },
+  {
+    "path": "ansible-role-systemd_networkd",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3c5f9b223b237018407100c7b0cc231d57480c26"
+  },
+  {
+    "path": "ansible-role-systemd_service",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d8cc5a183c47cfc653735165a5124980868eb842"
+  },
+  {
+    "path": "ansible-role-thales-hsm",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "052f026e39a04d8116c909360d4ee744231d1aaa"
+  },
+  {
+    "path": "ansible-role-tripleo-modify-image",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "cbf9d36df6cf675b958a2504e319e6403cacf2df"
+  },
+  {
+    "path": "ansible-role-uwsgi",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f104b59b41cfdad121200920ed4d20d5f1cb8b14"
+  },
+  {
+    "path": "aodh",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b5125ead7588644401f0feb82cf69b37db86a59d"
+  },
+  {
+    "path": "automaton",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "10e8d117fc0046bac9f413fe2c20de8ed04d74c9"
+  },
+  {
+    "path": "barbican",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bfd1e72bf070a6a169882ad0abb88687f443a7da"
+  },
+  {
+    "path": "barbican-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7f6525a0bb9a26bc6ae9b217c0a63bbd203c7606"
+  },
+  {
+    "path": "barbican-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2cd185133a86242c58d721e66c2db753a369fe60"
+  },
+  {
+    "path": "barbican-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7e88ff2ace570b3899ae0c5526a9cfa8aef0b45e"
+  },
+  {
+    "path": "bashate",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ec2f2400915200d633299612a02d7d285e4be24c"
+  },
+  {
+    "path": "bifrost",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a43b5bd0f49a86c71894d8bb6f62b32e4e1c02ef"
+  },
+  {
+    "path": "blazar",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "71455b373a5f1a763d08d65b7d8f8ecf2b241ad9"
+  },
+  {
+    "path": "blazar-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "33f3a7ad1790315516a44befe303b36ead2a514e"
+  },
+  {
+    "path": "blazar-nova",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1bc12095a2a1a6a66d1f56d30420c72eaaf0d667"
+  },
+  {
+    "path": "blazar-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6d4fa8d6ddaa93f0f90e2312d5eac9ff39cd49f9"
+  },
+  {
+    "path": "blazar-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a834e47ef252750ca5e8e4b6bd1233fcaafa4322"
+  },
+  {
+    "path": "castellan",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "609f4ea667df386849930cf61d875b5c9e16abbb"
+  },
+  {
+    "path": "ceilometer",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "caa84ae9cf87b3f2959705b631af9c63a5d4bfed"
+  },
+  {
+    "path": "ceilometermiddleware",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "01718681a86ef42da527323cf29ff5a1b8573a4c"
+  },
+  {
+    "path": "charm-aodh",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "564b079fab4c98b692e2314a8a961f958e754160"
+  },
+  {
+    "path": "charm-barbican",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ef52836d3b82c37eb65acdd8969e0bb69b18226b"
+  },
+  {
+    "path": "charm-barbican-softhsm",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7a44dcaf25da6132f965f7aac722bf99fddc6a17"
+  },
+  {
+    "path": "charm-barbican-vault",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fdb9c2d6d39973b9a740634903123c29060cddb2"
+  },
+  {
+    "path": "charm-ceilometer",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ac8b75857e2c27a04b7458e487b91899dae14f0e"
+  },
+  {
+    "path": "charm-ceilometer-agent",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e76a320c49440984ef6ba842ed14b0a2121f0fd1"
+  },
+  {
+    "path": "charm-ceph-fs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3b8425281d754a45aaa4ffd61e7db2e7ab201754"
+  },
+  {
+    "path": "charm-ceph-mon",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "70c625d9aa0789d028ac629906fe16e50b4aaae0"
+  },
+  {
+    "path": "charm-ceph-osd",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "76d40b054e61eae534bc832e544159045d34fff6"
+  },
+  {
+    "path": "charm-ceph-proxy",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1ad934bd49cd13e71bc51ddf5ef6bacd56e159cd"
+  },
+  {
+    "path": "charm-ceph-radosgw",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "41d4c74ec9697d93c4b683a401517c4aba29bebd"
+  },
+  {
+    "path": "charm-ceph-rbd-mirror",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a88c53ffa3a130b227bd013d5fed21c6cd56b9e3"
+  },
+  {
+    "path": "charm-cinder",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f08cb1aba4cb958618907800ec82b6add79ab2b1"
+  },
+  {
+    "path": "charm-cinder-backup",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e16c66c3ca08a757d41fe94b5954c831fa9955fe"
+  },
+  {
+    "path": "charm-cinder-backup-swift-proxy",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6c1a01ff3f10c94fc505c6c1c224a36ecf28fb44"
+  },
+  {
+    "path": "charm-cinder-ceph",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f350ee31e454d476c1bd0e0e41f00ab1593dccca"
+  },
+  {
+    "path": "charm-cinder-purestorage",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8566f68e45fa8623273c8e1743eb57ecf487387d"
+  },
+  {
+    "path": "charm-cloudkitty",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2a6dde27df12634ab3fbe9e238ee6451005e1705"
+  },
+  {
+    "path": "charm-deployment-guide",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9cc926c3943acc607e822b800e8172ad1e6bff3f"
+  },
+  {
+    "path": "charm-designate",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fdd62f8fbf44abb2defb2796e3de5b7b31ea8c71"
+  },
+  {
+    "path": "charm-designate-bind",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2842e2321a3e2eb6f56880e95be9054012978cbf"
+  },
+  {
+    "path": "charm-glance",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "96fd7903b88adf2c363f14bea87e66ef9670b9e0"
+  },
+  {
+    "path": "charm-glance-simplestreams-sync",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b4c1a90f4d494a080a6a65856bfaaf6e3964a133"
+  },
+  {
+    "path": "charm-glusterfs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3d96b3501fea12b0ca95363a519cbbcb2a1d0ffc"
+  },
+  {
+    "path": "charm-gnocchi",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d66c4cf7a4e66277128378107054a8f724ecf951"
+  },
+  {
+    "path": "charm-guide",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ab7acddd987c3d195232a1a4eb230d79ae2a940c"
+  },
+  {
+    "path": "charm-hacluster",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "41a75ed15f34c0942bce55d32460257077aa67b9"
+  },
+  {
+    "path": "charm-heat",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9c0ea76a7e14a13ad22e35d2c253d473b74891b6"
+  },
+  {
+    "path": "charm-interface-barbican-secrets",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4cae88ff57db96b9394bf6b70982a5ff4ee8bcef"
+  },
+  {
+    "path": "charm-interface-bgp",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "003bdda7e1beeed1d4ea96a36d16886a70efdc41"
+  },
+  {
+    "path": "charm-interface-bind-rndc",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4c69d8ceb1af495156ff5bd9e3111bd8d34a347e"
+  },
+  {
+    "path": "charm-interface-ceph-client",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d9f3b53ca0cf30e47347a68beab59da5c03ce4c7"
+  },
+  {
+    "path": "charm-interface-ceph-mds",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dcd0b5f2bb003d2409e212547f0a2132a804245a"
+  },
+  {
+    "path": "charm-interface-ceph-rbd-mirror",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d746757302beb385384f9c647afe68ce764bb3b7"
+  },
+  {
+    "path": "charm-interface-cinder-backend",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5d9280cdde82359268d6feda42643f03af1f8b52"
+  },
+  {
+    "path": "charm-interface-cinder-backup",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a1cdf71ad61d4ea5f912d8e0423e887ae761bff7"
+  },
+  {
+    "path": "charm-interface-dashboard-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5fe099ee3065400e16902eadf009682e21852e9b"
+  },
+  {
+    "path": "charm-interface-designate",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f11ee38d265ce1675d75624409e26cb7f7377c75"
+  },
+  {
+    "path": "charm-interface-gnocchi",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9efd83a5728bee385a93887e8669a513e198a8fe"
+  },
+  {
+    "path": "charm-interface-hacluster",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d91e83a1fa59a13f4160febfe536c68dc762e436"
+  },
+  {
+    "path": "charm-interface-keystone",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "36ea7b385a569ebabca7184ed4ce8420bb8fa61a"
+  },
+  {
+    "path": "charm-interface-keystone-admin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0fc663f57535dcfddbf098572a3e25b9f08451ed"
+  },
+  {
+    "path": "charm-interface-keystone-credentials",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "53e93b8820899f2251d207ed5d5c3b212ceb64de"
+  },
+  {
+    "path": "charm-interface-keystone-domain-backend",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "18893a5c3803517fa0ce4c5fd790b01e987cd0eb"
+  },
+  {
+    "path": "charm-interface-keystone-fid-service-provider",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "be0926efafaa9ffe1df84f2fbd6b8a5d3d58b270"
+  },
+  {
+    "path": "charm-interface-keystone-notifications",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3b7e83585a0c34399f97b5943d33f63ff02cb597"
+  },
+  {
+    "path": "charm-interface-manila-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "14cb348a09b30c92de89878c58e790779ebdad23"
+  },
+  {
+    "path": "charm-interface-mysql-innodb-cluster",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "034077071275af64d106117854703f02518639ef"
+  },
+  {
+    "path": "charm-interface-mysql-router",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f47d7bad342da110af18afc6a23450e219564fb7"
+  },
+  {
+    "path": "charm-interface-mysql-shared",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f90f8c6edce21e4da3a872f0f9d6761730ce025d"
+  },
+  {
+    "path": "charm-interface-neutron-load-balancer",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "232bf9bad4536ea20f26831b6a31b55b778315d9"
+  },
+  {
+    "path": "charm-interface-neutron-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3fba729d3e2856a9cab4de71c1252388213b9844"
+  },
+  {
+    "path": "charm-interface-neutron-plugin-api-subordinate",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "33bcde1011235a77501d2a66f44b2be9e3ae61ef"
+  },
+  {
+    "path": "charm-interface-nova-cell",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "620f9eef998ef587d951e1475a1e2168551e3d23"
+  },
+  {
+    "path": "charm-interface-nova-compute",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ea0721a6fa4c3db2fdbee4622e29870e865f58ad"
+  },
+  {
+    "path": "charm-interface-odl-controller-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "199c67b69f2b6ba80ad99107534f1bb3e455540c"
+  },
+  {
+    "path": "charm-interface-openstack-ha",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a3b00e5b5fd857d130698c5cfe4b918877f0ab80"
+  },
+  {
+    "path": "charm-interface-ovsdb-manager",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6a1671abcce5fd52bb61e1a6e5fc102a51d4b74d"
+  },
+  {
+    "path": "charm-interface-pacemaker-remote",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "87dc3baa2145286ac5372a01bf9e260f257d3673"
+  },
+  {
+    "path": "charm-interface-placement",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e8a30d9fb4adce74e7b547942a615fd26a04185c"
+  },
+  {
+    "path": "charm-interface-rabbitmq",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "383121fc584d2d3bf9d233eba0d3708398a4c468"
+  },
+  {
+    "path": "charm-interface-service-control",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "901c9b9d7d405a0af52d2d5ee5286bbaa994b7d4"
+  },
+  {
+    "path": "charm-interface-websso-fid-service-provider",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b7c066abf22edec30af17c3da4612cd398b1306a"
+  },
+  {
+    "path": "charm-ironic",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "cd3c8395f8ddf20cf9928e4b1bb7734f94b19792"
+  },
+  {
+    "path": "charm-keystone",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "563b453257489ab73cd4852847b2076de87b4d42"
+  },
+  {
+    "path": "charm-keystone-ldap",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "23ad8bea88523ec0eaff7a63a764b724368265ea"
+  },
+  {
+    "path": "charm-keystone-saml-mellon",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5dee7e855d64a7a43630863329a94cc53930586c"
+  },
+  {
+    "path": "charm-layer-ceph",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "17d40abd8d9ec3b8c32756ca981c80c4733c016f"
+  },
+  {
+    "path": "charm-layer-ceph-base",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f9e75ab187156547149827ca892132adea9a424c"
+  },
+  {
+    "path": "charm-layer-openstack",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7c671b0696977f455616565d956895b2f890464b"
+  },
+  {
+    "path": "charm-layer-openstack-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "34311a62e963d0ce903b7ddb9d70b8f071f71651"
+  },
+  {
+    "path": "charm-layer-openstack-principle",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2541283a7f9c3fa923c0fccd7257e217e11dadcd"
+  },
+  {
+    "path": "charm-manila",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "898ddfe09d577e78499b8f1c6d6b61c4d52ea17f"
+  },
+  {
+    "path": "charm-manila-ganesha",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "43cad9f4b9e849958e7396490f95ed1845f79da2"
+  },
+  {
+    "path": "charm-manila-generic",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "73b0ff6ee634305bca336212a39191adf6cf6a6d"
+  },
+  {
+    "path": "charm-manila-glusterfs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e7c6b83473afa95195fe215f0a6a04ceea5aadb3"
+  },
+  {
+    "path": "charm-masakari",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5d7c1f020442304cc6711542841815edf8b5a247"
+  },
+  {
+    "path": "charm-masakari-monitors",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "effb0c7e3bb22d053c31959a1f1b87bfb0fd371b"
+  },
+  {
+    "path": "charm-mistral",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "aa1f704a6cdd0ba8f1cbe41e4dd2fff3f33c01d7"
+  },
+  {
+    "path": "charm-murano",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1e21532cb552b88ae7d39bf3acf681bbb5f84304"
+  },
+  {
+    "path": "charm-mysql-innodb-cluster",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9d56d5fc22084c4afd6796aa8b97e4fca2785ef4"
+  },
+  {
+    "path": "charm-mysql-router",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dd4b04bdd6e083aae9bcdc8aefafe9e7cdba33f0"
+  },
+  {
+    "path": "charm-neutron-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6d5021e58d06e8fc112000b9e9867b4a898222fb"
+  },
+  {
+    "path": "charm-neutron-api-odl",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c25627634adc5c2f7dc105109cf2a369508e606e"
+  },
+  {
+    "path": "charm-neutron-api-plugin-ovn",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3819f028ecf3015aefe1b1633be8a1ec4dd777d2"
+  },
+  {
+    "path": "charm-neutron-dynamic-routing",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5164ee37b146b26d8da9b312f735f8c95be34e91"
+  },
+  {
+    "path": "charm-neutron-gateway",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f22b4503a555fa7f2b6ffb17e1637e896e8b27aa"
+  },
+  {
+    "path": "charm-neutron-openvswitch",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c063d660570cbd7ea199a5444efeb7958c5dd035"
+  },
+  {
+    "path": "charm-nova-cell-controller",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "aa774ac376ff2f4f7c8e9548bccf17cfa19bb2ad"
+  },
+  {
+    "path": "charm-nova-cloud-controller",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "033fbfcf44d38709983746fc88d0201663428cf6"
+  },
+  {
+    "path": "charm-nova-compute",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7bc0ef9b57def6158cd771576a5283bd1d62dc7a"
+  },
+  {
+    "path": "charm-nova-compute-proxy",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "91d8c4f9f48df7ea02a07be1bf33003c543f8100"
+  },
+  {
+    "path": "charm-nova-lxd",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1e5f419e2085254c3c665b355256fa7f78597343"
+  },
+  {
+    "path": "charm-octavia",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "02194b3d9011d229c4e24270420d3b5657e657cf"
+  },
+  {
+    "path": "charm-octavia-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "62133876678c83b6bec206fd047cb2d21c01827a"
+  },
+  {
+    "path": "charm-octavia-diskimage-retrofit",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0a0cab82e1eac1b471ce65100ff699952d2dc7e5"
+  },
+  {
+    "path": "charm-odl-controller",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "32492cc8a6bfda0ed87981890f50be4def072fb9"
+  },
+  {
+    "path": "charm-openstack-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "48329542861331afd7730d71249eb75eff167ea2"
+  },
+  {
+    "path": "charm-openvswitch-odl",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "28265442175c726965e4ed147b011f2b8fa732a4"
+  },
+  {
+    "path": "charm-pacemaker-remote",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "66e025a5eb85c94ddc9433fec181f7c2c6a61533"
+  },
+  {
+    "path": "charm-panko",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4649445437d42792529aded750a2ed4bc0d10b8d"
+  },
+  {
+    "path": "charm-percona-cluster",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "05a43b057fe6957b2bc142e6b203499f65f7ab1e"
+  },
+  {
+    "path": "charm-placement",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "37c950b1fd9dd8ab951149e80acf951b690f9af3"
+  },
+  {
+    "path": "charm-rabbitmq-server",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6fc2862f623fe0467443a610e32deb03541102d0"
+  },
+  {
+    "path": "charm-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a3bff1a2013ac34949b2c24dfa442975939405f8"
+  },
+  {
+    "path": "charm-swift-proxy",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b4aa3c978b8be71585d43475598394451dbad11c"
+  },
+  {
+    "path": "charm-swift-storage",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2030423d57583cd31e1394f475ba87f7e0554002"
+  },
+  {
+    "path": "charm-tempest",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "999d8315808ad5f079ab46513a1d059eaba65ee8"
+  },
+  {
+    "path": "charm-trilio-data-mover",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "92b3c383aee810664a5ebb7bd882350af0485ca4"
+  },
+  {
+    "path": "charm-trilio-dm-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "cbb28c0ee5e1ec27b4540a1bd331de4b973a83e1"
+  },
+  {
+    "path": "charm-trilio-horizon-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6e14aa25b130f53b73abee0ec4fa44257195b2e8"
+  },
+  {
+    "path": "charm-trilio-wlm",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4928917afd1b94ebdf963bd660c7962c3700e7aa"
+  },
+  {
+    "path": "charm-trove",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d9888faa7068f783fd05d0fed69183001d5cb23b"
+  },
+  {
+    "path": "charm-vault",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5a0c525ee5286391fdc42242e82816021c469cb3"
+  },
+  {
+    "path": "charm-watcher",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "df8393ddd3b147e56417ec3a7a68aa035868b5fa"
+  },
+  {
+    "path": "charm-watcher-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "70f0d70cc367e48718af71b59555d393d714d32d"
+  },
+  {
+    "path": "charms.ceph",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1a66fb4a0154b2f9b0e2fdff76d18bb7302194cc"
+  },
+  {
+    "path": "charms.openstack",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "562012b05ea7f0828f5c10e2cf09be6218191ce0"
+  },
+  {
+    "path": "cinder",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2753c8a5ca67deab0727226887e2ef5386f8a3e3"
+  },
+  {
+    "path": "cinder-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ae9076bdf8651d351e093d5e58b595ed34de4ff9"
+  },
+  {
+    "path": "cinder-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5102371cefecc0bf90e8ff789b1159b3dc6a5229"
+  },
+  {
+    "path": "cinderlib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f380a5137acec9b5bc966dd778a63595d520d58c"
+  },
+  {
+    "path": "cliff",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0008efa45b4ee16bd93aa1d38ca4dfe7cbcd92a0"
+  },
+  {
+    "path": "cloudkitty",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "293f557298c197ee71e7e6ac386277327576ba36"
+  },
+  {
+    "path": "cloudkitty-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "605481c5244399ff1da83ce2dac668a33f718a43"
+  },
+  {
+    "path": "cloudkitty-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4bd913b6e231e0f7d4393d362c31f3f127b1a53a"
+  },
+  {
+    "path": "cloudkitty-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "106137decfabe4ca3754adeffb5572e171d558e7"
+  },
+  {
+    "path": "compute-hyperv",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5288ade765669c177fdef7119a68a8a3f39dad22"
+  },
+  {
+    "path": "cookbook-openstack-application-catalog",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8c06fcc597aa9d90d21bf9e596c3b1d78471aa85"
+  },
+  {
+    "path": "cookbook-openstack-bare-metal",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "faa39e7a24609eedc5f4ba20043764d3aa0f372f"
+  },
+  {
+    "path": "cookbook-openstack-block-storage",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a048e1094bd2ab0164574f2dc5148c9b4dd3a9de"
+  },
+  {
+    "path": "cookbook-openstack-client",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "94c1c6b604bae71b91671678721cfc4ce7f21fbd"
+  },
+  {
+    "path": "cookbook-openstack-common",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fb7c035bf307282d75be36e2e22320f1f46c35aa"
+  },
+  {
+    "path": "cookbook-openstack-compute",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7372103182dec9089cd2d6ebf2c76fd99af312dd"
+  },
+  {
+    "path": "cookbook-openstack-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d169cdecef8d6ccbdf0e0cfdd137391b2e0b365e"
+  },
+  {
+    "path": "cookbook-openstack-dns",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "01af4534d48cdafba750f473caefad0db4d3764d"
+  },
+  {
+    "path": "cookbook-openstack-identity",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "44d13c8c6421d123a51e70562a5e43f4018b66de"
+  },
+  {
+    "path": "cookbook-openstack-image",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "17c5f0c9396b628aa871e4e69a0809704cba39be"
+  },
+  {
+    "path": "cookbook-openstack-integration-test",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "48c554d385e85c44362713e0f59fa1b8236ce1d3"
+  },
+  {
+    "path": "cookbook-openstack-network",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b4f5c8f67042a8152200d439408fcbb023dd16f1"
+  },
+  {
+    "path": "cookbook-openstack-ops-database",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9460c5eb70ba50e4c4202266f9fc3e718232f16b"
+  },
+  {
+    "path": "cookbook-openstack-ops-messaging",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "48c2e02d00f10e3a34f02013411400fe4c29d83b"
+  },
+  {
+    "path": "cookbook-openstack-orchestration",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7696ada9d26eb838730dc19adee4535199d4a5b0"
+  },
+  {
+    "path": "cookbook-openstack-telemetry",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ea238dc44737a4163468524b5f46c9029f2b5689"
+  },
+  {
+    "path": "cookbook-openstackclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d2237f421a5d27545f0b8c82e603117843bdbcd9"
+  },
+  {
+    "path": "cookiecutter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2e5dc6ddb15c8424539e137664689391b2bdc3e9"
+  },
+  {
+    "path": "coverage2sql",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e139d92ca57aae0fca90c5f4fc46e4d6e4b1b91c"
+  },
+  {
+    "path": "cyborg",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0dd4b31edafda1ddc8f2054c9fe877d4d6602d39"
+  },
+  {
+    "path": "cyborg-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "08886300a2cf6c2384c764caa7dd28490f071821"
+  },
+  {
+    "path": "cyborg-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c97c9abb569bb2b833941d022f41913ad8c03e7d"
+  },
+  {
+    "path": "debtcollector",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6df4426a498174196bed0dde39ce30b78d8f1a9b"
+  },
+  {
+    "path": "designate",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "19a35e37666dc80f140037a8298cb41f0c09d906"
+  },
+  {
+    "path": "designate-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7ef1bf9a07c9ef13920d32316c9cb9a18b50a19e"
+  },
+  {
+    "path": "designate-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "cbf85d69b2a627dbe98aad971635456f325426aa"
+  },
+  {
+    "path": "designate-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "548add9c2bd770d09a2d01cbeb9b029eb9dfb55a"
+  },
+  {
+    "path": "devstack",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5aa5d4d65213554998ada60cfdecee5f395e4e92"
+  },
+  {
+    "path": "devstack-plugin-amqp1",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3becff51a57a13d7c0e4a88c18348310d0d7c0a0"
+  },
+  {
+    "path": "devstack-plugin-ceph",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "536ebea559673d694c8f8deeafe1362e2c41c021"
+  },
+  {
+    "path": "devstack-plugin-container",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ef781f6cd072399f5c89bdad25321d9d11a9908d"
+  },
+  {
+    "path": "devstack-plugin-cookiecutter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "65c498db14bd924e924952fd2e1c014578d16bf8"
+  },
+  {
+    "path": "devstack-plugin-kafka",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c6662b06a217fd62c71d439e11f2cb22d6614107"
+  },
+  {
+    "path": "devstack-plugin-nfs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d459cdf98d2abcfc1b9ba2fb84e1c0e74faa307a"
+  },
+  {
+    "path": "devstack-plugin-open-cas",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "88d639e529b440cf0a9e12c7a257af38ca115aa3"
+  },
+  {
+    "path": "devstack-plugin-pika",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2835a8cf91d5967c69acd6e10601d38ab3c4060c"
+  },
+  {
+    "path": "devstack-plugin-zmq",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "98f602bbf3875d23c2ec54e70607cf4f0da057ca"
+  },
+  {
+    "path": "devstack-tools",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "85f2363b016b7e8c0912d12ec7609c4418a1e463"
+  },
+  {
+    "path": "devstack-vagrant",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "089017de19c281b58c1411fe398702807f6e2cb8"
+  },
+  {
+    "path": "dib-utils",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "afc328f0842d6e0bc9f1b826c73539e78143d014"
+  },
+  {
+    "path": "django_openstack_auth",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "031814a7bd81dd9a79a5070e7b37ce825fd13c7f"
+  },
+  {
+    "path": "ec2-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d61398b5d91fb366c26e87e7b07b5cb6491ebd0b"
+  },
+  {
+    "path": "ec2api-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "31495609a8896f8a9349fc516fba7ea9411c6ac4"
+  },
+  {
+    "path": "eslint-config-openstack",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5ce7a463193053e697428a83895260ecb5eb6008"
+  },
+  {
+    "path": "freezer",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4120b9b53b1b8a46db1fabf664bda52f39a42c35"
+  },
+  {
+    "path": "freezer-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5bce8bb6da1a242d478a415fe7945133df6e871f"
+  },
+  {
+    "path": "freezer-dr",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ba1fcd9b41947ea0211a70fac564d2a8e2fa2d61"
+  },
+  {
+    "path": "freezer-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5166b818795f2aefb4b94aed5054d07a1eb39544"
+  },
+  {
+    "path": "freezer-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7875eee33377cfae70c69847b352d10457710e7a"
+  },
+  {
+    "path": "freezer-web-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "53b46046db8c984ac822efcdf1060f0d52d7d22a"
+  },
+  {
+    "path": "futurist",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9ea9a0080f07bcb856c0ed923a509f649833ca49"
+  },
+  {
+    "path": "generate-gitmodules.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e640c70d87074cd22c55dac3d3b02760513559f8",
+    "size": 2056,
+    "url": "https://api.github.com/repos/openstack/openstack/git/blobs/e640c70d87074cd22c55dac3d3b02760513559f8"
+  },
+  {
+    "path": "glance",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "36eebe1dc2f4c19b44b6e797b9ea27f20573607c"
+  },
+  {
+    "path": "glance-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e0eb7ac13429931622884f0add9548571988c1bf"
+  },
+  {
+    "path": "glance_store",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "97cbdf3346114a74db604980bf3f8161ff043004"
+  },
+  {
+    "path": "grenade",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4a069fe67e8629475f7f7f846cc9f6bdfcb46c2c"
+  },
+  {
+    "path": "hacking",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "abff65f29b7b00d38bce651a546b05a3eb27b71c"
+  },
+  {
+    "path": "heat",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b3fbb89d64a318a6ac7b9722163c0f6522681c79"
+  },
+  {
+    "path": "heat-agents",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "60d3b04b49cc59c6cb6873af23beb1bd7a18236c"
+  },
+  {
+    "path": "heat-cfnclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "92bc025c7b1c83b709382d2fd5016bc0a32548db"
+  },
+  {
+    "path": "heat-cfntools",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8d2a16958bd4542382810630a22583a24f9ba2eb"
+  },
+  {
+    "path": "heat-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "df924d12dcf9fd24d114de46068d5b5554ab81af"
+  },
+  {
+    "path": "heat-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e82abbf16226c61e433b3e697ea7a242e0985d95"
+  },
+  {
+    "path": "heat-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "63de1c25800d85eb2075de65c9b05f7ded87779d"
+  },
+  {
+    "path": "heat-templates",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "29b8ce6c5ea5d2f97ccb5752a04cf4c101185457"
+  },
+  {
+    "path": "heat-translator",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5964e3a1fd1c248f64881528d2ae2b0b81e75b0d"
+  },
+  {
+    "path": "horizon",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "011f3898b3b46634cb994feeaf7ba4fffc4151f4"
+  },
+  {
+    "path": "instack-undercloud",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "87abe05ba09d75829de38b8370afaa27e9714bdd"
+  },
+  {
+    "path": "ironic",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "59047a1ff47ad797ac4fedba0127890a1828e35e"
+  },
+  {
+    "path": "ironic-inspector",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0ad770f70b090d4eb498746688e7a1352daae4dc"
+  },
+  {
+    "path": "ironic-inspector-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0ef437e95e818a59b160d2a3a77fa394023a397d"
+  },
+  {
+    "path": "ironic-lib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2939f5dbc4df56b005914dfeecaaa8603b65ef64"
+  },
+  {
+    "path": "ironic-prometheus-exporter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "307504b2465e05c7da9d25ccb0560d440b207732"
+  },
+  {
+    "path": "ironic-python-agent",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f46f56decc83f129c12dd3c2884078efb1320166"
+  },
+  {
+    "path": "ironic-python-agent-builder",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e9e5b020a59e032905dfbeedd1af4b4d512b44b8"
+  },
+  {
+    "path": "ironic-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0c084d53f7db4fa5d7ffc73da2e735326a660b15"
+  },
+  {
+    "path": "ironic-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fa630483afe3b469c2eddeb9aba57ddf3c807d66"
+  },
+  {
+    "path": "ironic-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4b9e186f92f812f7360fb97ac6c78152c45ff84d"
+  },
+  {
+    "path": "js-openstack-lib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9bbf3d8a97ae30019b2d7f1bba02ec5241fb042d"
+  },
+  {
+    "path": "karbor",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "353f75eca0e2d2c32e898ddea94169ca73f0af54"
+  },
+  {
+    "path": "karbor-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1d52e37d0a9ceeeae6cdba6705cf3074c897b318"
+  },
+  {
+    "path": "karma-subunit-reporter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "28c9c34618dd035799be4dc639400ccd56b1dd1f"
+  },
+  {
+    "path": "kayobe",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "adab3467b45102c851754405b1da7d50d42135a7"
+  },
+  {
+    "path": "kayobe-config",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "efdc68b51370fa77e2279e33e5b0cd6c568fd249"
+  },
+  {
+    "path": "kayobe-config-dev",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "88560a1937c3ef2527fa93b972b063a435a59792"
+  },
+  {
+    "path": "keystone",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e066e18abf5dc9a061fe2fc479a851aa0b65c794"
+  },
+  {
+    "path": "keystone-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2cc6c7c8a59a303098aaccaa776352c13b79d1d3"
+  },
+  {
+    "path": "keystone-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bab7165ee8aef4abb796db587299c773bc105ee1"
+  },
+  {
+    "path": "keystoneauth",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "139cf086b35645ba43f17c1f560fb8391d0d2b16"
+  },
+  {
+    "path": "keystonemiddleware",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c893b626a252a6c3e18b51fa291bd54ffdb8c501"
+  },
+  {
+    "path": "kolla",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e478adcbe63d81faa44bc09f72461fd6a7fcdf94"
+  },
+  {
+    "path": "kolla-ansible",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a9f5c2710927838734478c8ebe7bacb23e10adf1"
+  },
+  {
+    "path": "kolla-cli",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c6e409f93db92fc4d6729f3bfdfdfcb1114399e7"
+  },
+  {
+    "path": "kuryr",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "78acf1694616fb63eeea8af7f51789cd7188cf09"
+  },
+  {
+    "path": "kuryr-kubernetes",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5a0478117bcff1541fd7d4ab0ab51c70b130c43d"
+  },
+  {
+    "path": "kuryr-libnetwork",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2faa110a5bc1db53d3f96ae239fe934c0e41567d"
+  },
+  {
+    "path": "kuryr-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "82bfa1f624dfa95062225fe3ee5c7b9a6faafd52"
+  },
+  {
+    "path": "ldappool",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "709efc7bb3da6e20e88bad584632500d13ed92d4"
+  },
+  {
+    "path": "liberasurecode",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a3a2229370d33a6254c987d1805e600acdeeec2e"
+  },
+  {
+    "path": "loci",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7ed75b3a67cbfbc7a8229d667af3f30fb14632d8"
+  },
+  {
+    "path": "magnum",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fa1c5ae66d9eda7ec8eabb5113f9e7f9dbb28f35"
+  },
+  {
+    "path": "magnum-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "aa06aafa8b725218b086106091f46d817c1d1ba7"
+  },
+  {
+    "path": "magnum-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fb142a09f8d0b7ea0cad9d54a61b157cd2980643"
+  },
+  {
+    "path": "magnum-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b3d46128ed8c7890d57e09f577ccf0a4ddbd5696"
+  },
+  {
+    "path": "manila",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "06cf298bbbbb77a2427ef8abdb7c8834e2bd12cb"
+  },
+  {
+    "path": "manila-image-elements",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3181d891235ab56843de89d3c4ec6a1b1b8ba0f1"
+  },
+  {
+    "path": "manila-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "964d4b751292be106f37ee57d8d3ee0246b936d6"
+  },
+  {
+    "path": "manila-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "82a06bdf2d7b9d5be58c59fd7b0271976dc518b3"
+  },
+  {
+    "path": "manila-test-image",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e181dd6926909fb1d2aa683549d539f9a64c6c70"
+  },
+  {
+    "path": "manila-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9b8407a30a388f443c031054f428062c2b90a32e"
+  },
+  {
+    "path": "masakari",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "73cb920ad41f4e1df36c368ce4adb0822a43c6db"
+  },
+  {
+    "path": "masakari-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6ba6cb624135dbda7dd4808c10454cdff26cf38f"
+  },
+  {
+    "path": "masakari-monitors",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ad3dc4a5d7ee1a6748dd9d751a33f01bc91685ce"
+  },
+  {
+    "path": "masakari-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ac5a9b34893554372872d3c14120cf751546055e"
+  },
+  {
+    "path": "metalsmith",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a4cfb05869d9738aa6d2d9a876cb6d9a0f9343fd"
+  },
+  {
+    "path": "microversion-parse",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "26a2dc96cc2a0e6baf528c846f2d6d48e1dd3379"
+  },
+  {
+    "path": "mistral",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "70ed5b8aa9cb4d7cdf9f2537d03d50f1bf1b90ff"
+  },
+  {
+    "path": "mistral-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "65db4b54f114106032012eea637f58ddb71606a8"
+  },
+  {
+    "path": "mistral-extra",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3a2aeeb1201aaf71f47053b82b1c031414302255"
+  },
+  {
+    "path": "mistral-lib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c98e93fc6dcdbb7fbd1ed6756054c2561ca394c1"
+  },
+  {
+    "path": "mistral-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "92e691b19bacc4735e559172096fa6f4942715a9"
+  },
+  {
+    "path": "mistral-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "05d4ca892ba9724ec4dbee335765d7ba7f69ba71"
+  },
+  {
+    "path": "molteniron",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "348138603465cd4bfecfa8664435851225af29ef"
+  },
+  {
+    "path": "monasca-agent",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7c42c56f1f28a2b5245dc0d89be923b59db28642"
+  },
+  {
+    "path": "monasca-analytics",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "aea6e4858d93337ba8de4b437cd58408b10182c6"
+  },
+  {
+    "path": "monasca-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "681cf917fcf2ce13efa9cedeaf3a9c1688af7a90"
+  },
+  {
+    "path": "monasca-ceilometer",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ab154fd92c08e093ca08934a421d253ca3f20ee5"
+  },
+  {
+    "path": "monasca-common",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7f254364a0630f61a0e3ee6a4da48dce8bd96d3a"
+  },
+  {
+    "path": "monasca-events-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f463084bf08a9c5a23b533bffb36af5eec3ae07f"
+  },
+  {
+    "path": "monasca-grafana-datasource",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ab821ad18054597fba3208475f9fea9b13768a15"
+  },
+  {
+    "path": "monasca-kibana-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b5843673c339a0510d6628a40cfc0178e185a242"
+  },
+  {
+    "path": "monasca-log-api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "db03a1c4f5ff37347bbde6424e622ca5ca5c870e"
+  },
+  {
+    "path": "monasca-notification",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "841dcc0fb120e13198ca594c7f768d5b5fe6bba1"
+  },
+  {
+    "path": "monasca-persister",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "949c1b894e3c1cb6dfc2ba0213e713194398b158"
+  },
+  {
+    "path": "monasca-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "393acda2c9eecdab55e43f33f250df996bffcc67"
+  },
+  {
+    "path": "monasca-statsd",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ca8dfbd871a8f8004a3a91e55cbb5f68920c2306"
+  },
+  {
+    "path": "monasca-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fc26314fa81771afb3423c43934a36bdd0f820db"
+  },
+  {
+    "path": "monasca-thresh",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2694dd2bb22f994d04a89d40dc67b7c6b7cc2f0d"
+  },
+  {
+    "path": "monasca-transform",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ddf7e04d324cbc485cda5fae4e039070a8be894f"
+  },
+  {
+    "path": "monasca-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "32b63fb6e624077fca95989af9cb985a8a3ec6f2"
+  },
+  {
+    "path": "mox3",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b22c58fcfcf20cc9044890a6deba3f12d23cf688"
+  },
+  {
+    "path": "murano",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1ac6e2bcb2a2455959c94a4b1d939acfc293399d"
+  },
+  {
+    "path": "murano-agent",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "92660e2cdd1e04ce8a1d669723f13f6bde368dd1"
+  },
+  {
+    "path": "murano-apps",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9032842fdc025618028206365528587f3e0a1772"
+  },
+  {
+    "path": "murano-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "529ca498a78e5aab50c266e46ecb1b5de96a8674"
+  },
+  {
+    "path": "murano-pkg-check",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "89bfee5c4bb6699516daad6c151a493151755481"
+  },
+  {
+    "path": "murano-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4b967c365b82be1f5a8219dbb8baa092c1f61c4a"
+  },
+  {
+    "path": "murano-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "528f48107cee6a9d2a120e7e8c94797b3b89bbb8"
+  },
+  {
+    "path": "networking-bagpipe",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "885ac706bdd1359a4c1fd4971ee0f8214c15d0dd"
+  },
+  {
+    "path": "networking-baremetal",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "eff375eb67ace36e715d5e50fd32ebc909a27f41"
+  },
+  {
+    "path": "networking-bgpvpn",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c1b2ffbd02295ca781261d570bcc1bba3470d7c7"
+  },
+  {
+    "path": "networking-generic-switch",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "32e0cbe2f6dfbe15ca3c93965c4147d3830018a3"
+  },
+  {
+    "path": "networking-hyperv",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9bbe1cac025d571065edc4d6368ab2cd171c8bf0"
+  },
+  {
+    "path": "networking-midonet",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5de684bfeba9b1d37998062f637e7e7bb5a8db98"
+  },
+  {
+    "path": "networking-odl",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "517df91c9ef84b4e462e6cc9d70b7e14ad5a511c"
+  },
+  {
+    "path": "networking-ovn",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0f98803fdfed6e9570c13deabbf563e0cc0546b3"
+  },
+  {
+    "path": "networking-sfc",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f6f4c36af427b13d3e3ff0713b446097241ee4dd"
+  },
+  {
+    "path": "neutron",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "224cb635d141f282e451f4084c12ddc096c6a8fc"
+  },
+  {
+    "path": "neutron-dynamic-routing",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5d82834777e06aa6ac8b58c401def4769293f1f2"
+  },
+  {
+    "path": "neutron-fwaas",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "61d58c61ac22024050f301120d3e77316733a2f4"
+  },
+  {
+    "path": "neutron-fwaas-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7039b8a1f44a10bb57a47fdf79ac9f18f84261ae"
+  },
+  {
+    "path": "neutron-lbaas",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1c1009af2b95c0408f7fa4eb0588cfa2ad0a5dd1"
+  },
+  {
+    "path": "neutron-lbaas-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8ce7d1c6199e93f212551e638123913fc5908682"
+  },
+  {
+    "path": "neutron-lib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9b6a1aafc394df6e29cde3534167e53279f727f6"
+  },
+  {
+    "path": "neutron-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "efc332acf71051350935c16acf3c5999b08e1b6c"
+  },
+  {
+    "path": "neutron-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b947e34df13dcb7341fee634bc9305d3ed93aa15"
+  },
+  {
+    "path": "neutron-vpnaas",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "93b8fddf45a56b2438a34c04be647d9d37c37e9b"
+  },
+  {
+    "path": "neutron-vpnaas-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "caa498ab6a6b208b2fc5a0c10adf1ed34a7e6b6b"
+  },
+  {
+    "path": "nova",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "735aae205c5a27cf6327c100661b76569a711786"
+  },
+  {
+    "path": "nova-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "79cce1f9aedcb02d99cd38abab05e53cd1aca452"
+  },
+  {
+    "path": "octavia",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f88e706c01b0c851faced2be255dddb568e74ace"
+  },
+  {
+    "path": "octavia-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3386566c7c98a055a4e42797f6843f5a44f9e48e"
+  },
+  {
+    "path": "octavia-lib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5b77739e7924435f38d8d419fd67c5fa9b640f2c"
+  },
+  {
+    "path": "octavia-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "783793792392c32cd791fd7f6419b32185e6e16f"
+  },
+  {
+    "path": "openstack-ansible",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "86a01f5c0d95f095d200dd04b28b12485466f13d"
+  },
+  {
+    "path": "openstack-ansible-apt_package_pinning",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e4e3b8cf3a005629d09150f20486f9c946271f77"
+  },
+  {
+    "path": "openstack-ansible-ceph_client",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d52f1eefda5a851d4b03b0454f695b41ed3a9367"
+  },
+  {
+    "path": "openstack-ansible-galera_client",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d3ef8b125693d69a4311b2eafda1babb662e6dc5"
+  },
+  {
+    "path": "openstack-ansible-galera_server",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f82a2cb80df2c3a3ff5ebc34912698a1fb523a9f"
+  },
+  {
+    "path": "openstack-ansible-haproxy_server",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b7a011ce579c09fdb650bc196278e087cf8de4bf"
+  },
+  {
+    "path": "openstack-ansible-lxc_container_create",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fb9fe7a6b06611aa6da4470948f51cbe957ee0e9"
+  },
+  {
+    "path": "openstack-ansible-lxc_hosts",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1e4e21e351a00313805682647b7c21b8be897b66"
+  },
+  {
+    "path": "openstack-ansible-memcached_server",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5de070bd9cc6dab547b8a4818bf87b48ff2fa0f1"
+  },
+  {
+    "path": "openstack-ansible-nspawn_container_create",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bc258b4e194de38db5f93e3ac6ad0252618ad184"
+  },
+  {
+    "path": "openstack-ansible-nspawn_hosts",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "611fb2bf4c89bfa44ff3c92ce03b849939bafaa9"
+  },
+  {
+    "path": "openstack-ansible-openstack_hosts",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4c15388915045f031b8b52cc79a7a4b6b3917538"
+  },
+  {
+    "path": "openstack-ansible-openstack_openrc",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1ad7e06cc4d4ce40b252e71754efb5440c6ae93e"
+  },
+  {
+    "path": "openstack-ansible-ops",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "03ca53ef154537dcadbdcb2ed4d0233492870e8a"
+  },
+  {
+    "path": "openstack-ansible-os_aodh",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d77e7c1a466109bbb992fbd6db5a19d9c6e442d5"
+  },
+  {
+    "path": "openstack-ansible-os_barbican",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "65ffe960e1ebce9889fdc2830e5cfaf67e8022f1"
+  },
+  {
+    "path": "openstack-ansible-os_blazar",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "863893a5227d460e7e0970844e2fcb6ac8438e80"
+  },
+  {
+    "path": "openstack-ansible-os_ceilometer",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "80be36a08634e9bceed7c14e540a069b8f0932f1"
+  },
+  {
+    "path": "openstack-ansible-os_cinder",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6780bf3275e7cc72f53cd1a5e976b9f0ec263104"
+  },
+  {
+    "path": "openstack-ansible-os_cloudkitty",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c263b3fb91e6ed48be80908a1cfdb0a45e7cc458"
+  },
+  {
+    "path": "openstack-ansible-os_congress",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e6683eac63dcdbf7d603964e9ad4e3cfa6feffbd"
+  },
+  {
+    "path": "openstack-ansible-os_designate",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9ccf5bafdbe453b898d21c6f22b29c9bac792311"
+  },
+  {
+    "path": "openstack-ansible-os_glance",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c51c845231a83e69b9b31d5fec16bb71ab5740fd"
+  },
+  {
+    "path": "openstack-ansible-os_gnocchi",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b1898f370a9b75c57d55db45900f0d79849571c8"
+  },
+  {
+    "path": "openstack-ansible-os_heat",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ca074bf6b2fa13adb7ebb7635be3ef8ad399fd69"
+  },
+  {
+    "path": "openstack-ansible-os_horizon",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bce1af53214fa80dea99e577a5f94b8e82a5a53b"
+  },
+  {
+    "path": "openstack-ansible-os_ironic",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6fb1dba4c95269ff8294d716bb4001fa2f041c35"
+  },
+  {
+    "path": "openstack-ansible-os_karbor",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7b44052e1865fc02d4e439fe3cba3bc94a48f83c"
+  },
+  {
+    "path": "openstack-ansible-os_keystone",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8b48fbb84f289ac6255f8015f1483495f88f3e9a"
+  },
+  {
+    "path": "openstack-ansible-os_magnum",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8af71233eaf1de0fff856de06c1b4e325bc44c1d"
+  },
+  {
+    "path": "openstack-ansible-os_manila",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0f4638e22391c28d9cfe318cab28b0b2c809461c"
+  },
+  {
+    "path": "openstack-ansible-os_masakari",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d574597fb19b66c6af8de6d749853ed2bad554a6"
+  },
+  {
+    "path": "openstack-ansible-os_mistral",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "efbceec3a5ba0babfe853defc607ea648578509d"
+  },
+  {
+    "path": "openstack-ansible-os_murano",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6c166e02e759465778222a488e6fd266735a4698"
+  },
+  {
+    "path": "openstack-ansible-os_neutron",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c2ad5f0594802a2e34ddc99b35fc99c972196a86"
+  },
+  {
+    "path": "openstack-ansible-os_nova",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "840087f608b550cb2222d7c72f393184bfa05846"
+  },
+  {
+    "path": "openstack-ansible-os_octavia",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f9cf3bd677ce8ec5e18cb74e25c96a71540f644d"
+  },
+  {
+    "path": "openstack-ansible-os_panko",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5f76a510ac6bc70930044eb94dcf118a72caf365"
+  },
+  {
+    "path": "openstack-ansible-os_placement",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c561c886126a59b1670258bd797867ad0769f1ef"
+  },
+  {
+    "path": "openstack-ansible-os_rally",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "259ae12b008b38da88a1b0fd863ce1b7e6232b13"
+  },
+  {
+    "path": "openstack-ansible-os_sahara",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3b20b84e158e12b9bbdd23f210cfd2cfd648f90d"
+  },
+  {
+    "path": "openstack-ansible-os_swift",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "128ab52f60881ea931b0a9fb992e32bf4d221588"
+  },
+  {
+    "path": "openstack-ansible-os_tacker",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dd8a05187edad306de5837672b1a9c639e6e04aa"
+  },
+  {
+    "path": "openstack-ansible-os_tempest",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2fa2c921937605226fe676c0411e82ed2a074b36"
+  },
+  {
+    "path": "openstack-ansible-os_trove",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6cedee13d85210af692846edc9d292fe356da896"
+  },
+  {
+    "path": "openstack-ansible-os_zun",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1f7e3abe47b99dc06632a7fed21d93567a4ad606"
+  },
+  {
+    "path": "openstack-ansible-plugins",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c740154043f6c694ab867541f9d4bbd9ebc4e615"
+  },
+  {
+    "path": "openstack-ansible-rabbitmq_server",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ac1661432631755ea98188fb13a728df933131d5"
+  },
+  {
+    "path": "openstack-ansible-repo_server",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b657c246e30f7d160502ed7bbb63438422e3fcb5"
+  },
+  {
+    "path": "openstack-ansible-rsyslog_client",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dcf6aed584b307ab0296c2a94a4631f66ee01e71"
+  },
+  {
+    "path": "openstack-ansible-rsyslog_server",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "07ae8366510b8ef0c9c7fdf67cdecdce3963f67f"
+  },
+  {
+    "path": "openstack-ansible-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "31668fd59c527930dd262dafc2b0af8f021d7c98"
+  },
+  {
+    "path": "openstack-ansible-tests",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "add16f81e32a4be9468eb2aeb10269462cc89c32"
+  },
+  {
+    "path": "openstack-chef",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0a53c4a9613a9f912fe25993345b4b49e7c95dda"
+  },
+  {
+    "path": "openstack-chef-repo",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5f5a0100130ef9236fb395d4e6f849742907da8b"
+  },
+  {
+    "path": "openstack-chef-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "75aef65e3d46cb1d3d46523bf3f800823b98ecb2"
+  },
+  {
+    "path": "openstack-doc-tools",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b74414e921f14139be95eb55d1c868073c2ef49b"
+  },
+  {
+    "path": "openstack-health",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d58ee7fb08abae46d4159fa5fcf31c6ba61b3a97"
+  },
+  {
+    "path": "openstack-helm",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "212da71f8acf5d1991f25de224bd0e6eddf52b5c"
+  },
+  {
+    "path": "openstack-helm-addons",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5ad8824fca42314414fbf01763ed8804167c84ad"
+  },
+  {
+    "path": "openstack-helm-docs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "75aa2283afd2c79231d83db9e681f5edcc743c5b"
+  },
+  {
+    "path": "openstack-helm-images",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c7ca3443337e1245d9e66d86f2028c48295c4775"
+  },
+  {
+    "path": "openstack-helm-infra",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "cac1d4c44e8f1dceef4f3f4a0d3d40f10e2ad05c"
+  },
+  {
+    "path": "openstack-tempest-skiplist",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "934fe576200c0a216d5e07ccede34e65b7a1cfa3"
+  },
+  {
+    "path": "openstack-virtual-baremetal",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8325044e7a7f589b12111a3b986621977c0f5896"
+  },
+  {
+    "path": "openstackclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3adebce3fe896879980be9b71da30b22b5c413e7"
+  },
+  {
+    "path": "openstackdocstheme",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "49d1eecc9893f2999efa3d35dc02e7f7216afc02"
+  },
+  {
+    "path": "openstacksdk",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f1e2760a6f040e710d77a7ed30250c3de2e28dde"
+  },
+  {
+    "path": "os-api-ref",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6084245033f4910e7bc8437cac0d76c2087c88f9"
+  },
+  {
+    "path": "os-apply-config",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "22a7192804b88cc8fdcf878420284a4f245d6ac8"
+  },
+  {
+    "path": "os-brick",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0a5a387523a449060df088182f2242765b6f2436"
+  },
+  {
+    "path": "os-client-config",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d1e2fe7d2e07767f1a66ed0c057c20d7a95271f4"
+  },
+  {
+    "path": "os-collect-config",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "146c0407ff97f08aa9f2dd55d9b2d56eb1568218"
+  },
+  {
+    "path": "os-ken",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bf639392f3dea7909792e257b8b65234dc5210a1"
+  },
+  {
+    "path": "os-net-config",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6ed93f844874622ca1487281b42a9e799e4e8795"
+  },
+  {
+    "path": "os-performance-tools",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "525cd14e18e69f5f0fba2b6c7aa30dc48f1add6e"
+  },
+  {
+    "path": "os-refresh-config",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bfdbef4f998ea2d7fcf57c134def597a3ae11aa7"
+  },
+  {
+    "path": "os-resource-classes",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "cbe82a54f809add8fb37a9ca2f4f2e6062b8e453"
+  },
+  {
+    "path": "os-service-types",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dbbc06795ce655011dc055f29587bf90f2de03f4"
+  },
+  {
+    "path": "os-testr",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0ba674d8c5d34890698e4e8ff9f71b24c389e109"
+  },
+  {
+    "path": "os-traits",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "45bc9b800f383780c9ff6519f4ebb48afa5ac546"
+  },
+  {
+    "path": "os-vif",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b33415b9fd62dd582f96bb7124da1b14df5405cf"
+  },
+  {
+    "path": "os-win",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "83dc573004401434de61d9d20fd46fc1fcd8e00d"
+  },
+  {
+    "path": "osc-lib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "33968f15ce82d9b236cb7a34efa0396ce9472ade"
+  },
+  {
+    "path": "osc-placement",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "53f6f56b9cb32818a6f641ca435164472eed083e"
+  },
+  {
+    "path": "oslo-cookiecutter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3bbd464510293950834c0cf4ef9a47b32de8b29f"
+  },
+  {
+    "path": "oslo-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a14f0734b5d4595ab37617d99aa879b499448a89"
+  },
+  {
+    "path": "oslo.cache",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1683ddb0e4c049015d69de93d35f27529bb606de"
+  },
+  {
+    "path": "oslo.concurrency",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "08987d8af202622ec5ea00bea76c6f6588b07960"
+  },
+  {
+    "path": "oslo.config",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "493a08645fe7339b9883f71748f341fd560dcdcb"
+  },
+  {
+    "path": "oslo.context",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f23bc418577d36f0e6b0f1bc1d58ff9e68b5a001"
+  },
+  {
+    "path": "oslo.db",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "69c740198f3536fd8734f0acac6609fb08b51042"
+  },
+  {
+    "path": "oslo.i18n",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fc51cd80171ee4984d7a2312b9189fb7d406209c"
+  },
+  {
+    "path": "oslo.limit",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d254dc4f0a830309976aba26ad366c75dfcacc29"
+  },
+  {
+    "path": "oslo.log",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dda3eb63acec377ab38c137b4c7da18bf22d775f"
+  },
+  {
+    "path": "oslo.messaging",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "827859af6dd1c7873b2e4e6168ae7df46936087d"
+  },
+  {
+    "path": "oslo.metrics",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "276d34db0e4c255e323418db7c3054f34dac713b"
+  },
+  {
+    "path": "oslo.middleware",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "07ceb303701a7f7381bca57188abd3ae27f006fb"
+  },
+  {
+    "path": "oslo.policy",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fc28a7b343516754829ffd0ecddc7323b866b33e"
+  },
+  {
+    "path": "oslo.privsep",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "699b3ca96b122aee49c81435cb5ef21056d14d5a"
+  },
+  {
+    "path": "oslo.reports",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b8904f1e46d77e58c436c6baf3bf073d0f5a1bc4"
+  },
+  {
+    "path": "oslo.rootwrap",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0cb36cdddad459e564d728199b906a8bdd586806"
+  },
+  {
+    "path": "oslo.serialization",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8ed3fca62b4b2b66ea5fb3bf941c457bd3fc4c7b"
+  },
+  {
+    "path": "oslo.service",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "caacdc88e624ed303a1823fc29f7fc08836507b0"
+  },
+  {
+    "path": "oslo.tools",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1c37b1c668a2d4c1397374f4b5a973dedf360c6c"
+  },
+  {
+    "path": "oslo.upgradecheck",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f7dcd0cf0d0938966bdea2720446b99fe9a6596e"
+  },
+  {
+    "path": "oslo.utils",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1a85259acb7dd070a22534c6eaa76e3c67c09302"
+  },
+  {
+    "path": "oslo.versionedobjects",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5c2d02ef021d16da8e14799bde5c7a8e7c811756"
+  },
+  {
+    "path": "oslo.vmware",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "308a9a60a2e94e1359ceaad03fb58950aa9c5dc5"
+  },
+  {
+    "path": "oslotest",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c088bc1ee27b8d52173d5f119fbbed96df16fcf1"
+  },
+  {
+    "path": "osprofiler",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e03de733da7d4d9af5d538081277387d31e93d28"
+  },
+  {
+    "path": "oswin-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0976964257d926742798e4f0f0cde711c354961d"
+  },
+  {
+    "path": "ovn-octavia-provider",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5895ae7c4e4da8926ccb8ff9c9826f518891fed1"
+  },
+  {
+    "path": "ovsdbapp",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "085ee75dee277839c04e54535d06263aebfed776"
+  },
+  {
+    "path": "panko",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "92be85c4ca1ce3f5cf3f170e8bccd4919d3fa37b"
+  },
+  {
+    "path": "patrole",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b540700061b9ef415b9aea494c765ad43d75fee2"
+  },
+  {
+    "path": "paunch",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d0e81c22ca4ed596af2396fb4665dc0535d1a75e"
+  },
+  {
+    "path": "pbr",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "40d45a16193c6b615d558efb52ec14cca145abb6"
+  },
+  {
+    "path": "performance-docs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5da860c75852f50276ad030ee6fccef5af7e9c63"
+  },
+  {
+    "path": "placement",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3e88156836f30b58abb83acf37405788c2ec519b"
+  },
+  {
+    "path": "puppet-aodh",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6083fe163d6933d2fa86039f74bae4955c70416e"
+  },
+  {
+    "path": "puppet-barbican",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d64888b59901aa2f388154a6dac057bac71bc0f4"
+  },
+  {
+    "path": "puppet-ceilometer",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7af985bb2c692ed23d0983e342c1f739f6cef67c"
+  },
+  {
+    "path": "puppet-ceph",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3ea0150dd18aa7b46d69b37c2881abf1893c559e"
+  },
+  {
+    "path": "puppet-cinder",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a1bfb682db5276d4f86ef7760f1b8a754016c50c"
+  },
+  {
+    "path": "puppet-cloudkitty",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "63035f3214643ab86571c401abf757b3c265e7ac"
+  },
+  {
+    "path": "puppet-congress",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "110346a30f3eb1bd3909b4a308f6471107d8263b"
+  },
+  {
+    "path": "puppet-designate",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5aaa3d1c235ebfa82567579f6ffd68ee4451a082"
+  },
+  {
+    "path": "puppet-ec2api",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ced3a194082febab06f0205d7438f707e250a4ce"
+  },
+  {
+    "path": "puppet-freezer",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bd33b1037ed62286d3548f8e628a961c22c7e4e2"
+  },
+  {
+    "path": "puppet-glance",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a394ca27af4f77cc02379e09fe003c5f5692efc9"
+  },
+  {
+    "path": "puppet-glare",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ba81a153712f1ebd6f79c94f28c62eb2f04090f9"
+  },
+  {
+    "path": "puppet-gnocchi",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e3c440ee310125c587bded59db204f66a1c7d84a"
+  },
+  {
+    "path": "puppet-heat",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bcaa08fa4c4d38a427c8fffea0cb911debaebf33"
+  },
+  {
+    "path": "puppet-horizon",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0934a63d29e07bfd6b1e5f37c11d600f559b20a6"
+  },
+  {
+    "path": "puppet-ironic",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "64c11bc969291460eb39945d5b0555603a9074d9"
+  },
+  {
+    "path": "puppet-keystone",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6ec21a428c026cbae0c798dff3e0ad9ed1d8c040"
+  },
+  {
+    "path": "puppet-magnum",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0af52391447d41a6ec13bb89fe64c23813cfb47f"
+  },
+  {
+    "path": "puppet-manila",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a90fac6d7c1ab1ba75e9b3070838938ac7ca4f06"
+  },
+  {
+    "path": "puppet-mistral",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0f2acb7131fa2dc6f850c37ef35f22e2a691c79e"
+  },
+  {
+    "path": "puppet-monasca",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b14a6251fd2daed805c5484182cf8d4f2e8dafc0"
+  },
+  {
+    "path": "puppet-murano",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "04efdf7e6730784844363f7adbb49d631591358a"
+  },
+  {
+    "path": "puppet-neutron",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "32730989e0fa0d9efee90b391cd859249e40937e"
+  },
+  {
+    "path": "puppet-nova",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9b3e3a3d36b7e8c3eaa6a09cefd5814810e3e9b3"
+  },
+  {
+    "path": "puppet-octavia",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "962034d5db299aa0d7b23d2f6cade513779c4fdb"
+  },
+  {
+    "path": "puppet-openstack-cookiecutter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "abafec8df833108b5bcc60cedd4db16aec4b1aea"
+  },
+  {
+    "path": "puppet-openstack-guide",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "07b31b21c21a899afc3fd3847e3edd54dd64fb1b"
+  },
+  {
+    "path": "puppet-openstack-integration",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b4ae076121208182d9a64329561911997ef21690"
+  },
+  {
+    "path": "puppet-openstack-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b1d484f6b641cde8dca9242e4ca7c13e371ddbd7"
+  },
+  {
+    "path": "puppet-openstack_extras",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c20a8fc5452d83a1d308e97ef1ffc978f17261d6"
+  },
+  {
+    "path": "puppet-openstack_spec_helper",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bac294d5fb12cfc408a4e57b8496f6200223f8bc"
+  },
+  {
+    "path": "puppet-openstacklib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9d3d43d8327dfcef98efb0c6a02a8d923aa1c3de"
+  },
+  {
+    "path": "puppet-oslo",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f0031e28c2f605b9f064331e03caa87b1a14cad8"
+  },
+  {
+    "path": "puppet-ovn",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2eada288298bb1982b148144797191254f72f717"
+  },
+  {
+    "path": "puppet-pacemaker",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9bd4d6455e52833ddcb9d7fc10be40d2decc473c"
+  },
+  {
+    "path": "puppet-panko",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5a97842973a94efb8094ca7dc55377dfcec7571d"
+  },
+  {
+    "path": "puppet-placement",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "08ce6b346b6e09df3e91f389a2e4a0cc0d94f638"
+  },
+  {
+    "path": "puppet-qdr",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "31aeb84bae9f82f8550000db1029b9d1c856d051"
+  },
+  {
+    "path": "puppet-rally",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "83b4b0b52ca1de7f963fb0b7f40a98e3ad44b2f8"
+  },
+  {
+    "path": "puppet-sahara",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "50b3fc6ac73935ef04c3af014d94b26d429287d5"
+  },
+  {
+    "path": "puppet-senlin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d5037baedf15936a1bc2f44967b3b257e824e8de"
+  },
+  {
+    "path": "puppet-swift",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dc390cde25d9090b4fa2c1c1309c610159abeb0e"
+  },
+  {
+    "path": "puppet-tacker",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "99e7f840006eaed2f7f6d59188f6fd481e2b08d4"
+  },
+  {
+    "path": "puppet-tempest",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7f671c18c5993ea727de6752016da01189000612"
+  },
+  {
+    "path": "puppet-tripleo",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e06f50cb06ad50ba5d5221964519681a4f8622a2"
+  },
+  {
+    "path": "puppet-trove",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7c554dea5ac97581be1bb0ffd731c6d135476d1c"
+  },
+  {
+    "path": "puppet-vitrage",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "69bc716cc1bd72d1f16045e922196b4c69ccf91d"
+  },
+  {
+    "path": "puppet-vswitch",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5d6258801e15a07e875ab6148c2e3c5ad8f76454"
+  },
+  {
+    "path": "puppet-watcher",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "34b5f6d7963178b4f3d0faeda7ceaed9890c5dc0"
+  },
+  {
+    "path": "puppet-zaqar",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6ccb4a4dfcfc73f5dc8e0aef39c188eb03a0b398"
+  },
+  {
+    "path": "pycadf",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "71dc880033901af1572c8436ba8d3ceea63ddb19"
+  },
+  {
+    "path": "pyeclib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5b58045435cef0acd43cbc088c2113179b6b49ac"
+  },
+  {
+    "path": "pymod2pkg",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "520ee43daba01eca0d767bbe6fdfe79857e63b40"
+  },
+  {
+    "path": "python-adjutantclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fe0003b0c0db71e462ef926aa1aff75f0fa8f8ea"
+  },
+  {
+    "path": "python-aodhclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "404ece3eba490da1989e47be96fdad9ad12a1ed9"
+  },
+  {
+    "path": "python-barbicanclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8b1a2103b09fbb3603ae571389164c81d404dbe2"
+  },
+  {
+    "path": "python-blazarclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0326b1208c5cadd704e28d983e4eb4f6ccfa7720"
+  },
+  {
+    "path": "python-brick-cinderclient-ext",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3997894711e22cd163e0fb21c8ae655cc16fb84d"
+  },
+  {
+    "path": "python-cinderclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "59824da6c71053d1181833c084b67f30a61fcfe1"
+  },
+  {
+    "path": "python-cloudkittyclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c4711dfd160434556cc9ad111c8accaa99f2e0e3"
+  },
+  {
+    "path": "python-cyborgclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "218cc6deb9589127fb1fec5b4b0e6ac50a5f8684"
+  },
+  {
+    "path": "python-designateclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1505c27dc6a8b5b092b7fff87f7d9cd7d64da154"
+  },
+  {
+    "path": "python-freezerclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "958e9ca8ef842b98d438e186e183d57504d6a846"
+  },
+  {
+    "path": "python-glanceclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d46a9bff0071e13201892dba6f3e6f9d16487f6c"
+  },
+  {
+    "path": "python-heatclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d8a25e1ce13433e2a0978e61e13b0e490bab16a4"
+  },
+  {
+    "path": "python-ironic-inspector-client",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "10ed6342db245766e143e91e382ed2d8d1ff0f7a"
+  },
+  {
+    "path": "python-ironicclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e6423bc5ef2c064bbf0f6ec4d7fc60f3701bc3c9"
+  },
+  {
+    "path": "python-karborclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e1087267bb8d605974fcfdb579f89bf0786260fb"
+  },
+  {
+    "path": "python-keystoneclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "be6c5069399179bd749d8edfa90045120936585d"
+  },
+  {
+    "path": "python-magnumclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "eb0db0cd81f706caeb67d9895a85a05c57e9b203"
+  },
+  {
+    "path": "python-manilaclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "37565dbd06b4d21a29240d875d0fa84665f64ee6"
+  },
+  {
+    "path": "python-masakariclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "02ee7022c27e6f9246c7a99677e6aa0161abb2a0"
+  },
+  {
+    "path": "python-mistralclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2fc5a83d3cfce470904b9adfd4d26f1b485924b8"
+  },
+  {
+    "path": "python-monascaclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "860840dd208c380e48dfda1fe39f49f4d803a092"
+  },
+  {
+    "path": "python-muranoclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c648cbee0872b35e0999fb43aff2057dd5580801"
+  },
+  {
+    "path": "python-neutronclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5f7d102f0e8111d6e90d958ab22682d07876a073"
+  },
+  {
+    "path": "python-novaclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ee73d6beec94256e8b80b0a4828fb206e9629dcd"
+  },
+  {
+    "path": "python-octaviaclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ddba32a8c0f8bc6173363db040ed23078c660f88"
+  },
+  {
+    "path": "python-openstackclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "46b25c7c0babbf9bfe7b64a5de87994364b46675"
+  },
+  {
+    "path": "python-pankoclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f23d13c01f098c78be7d7230fa403bc13adadde8"
+  },
+  {
+    "path": "python-qinlingclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4d184021c26f0994cba6b2365b6b1947215460b7"
+  },
+  {
+    "path": "python-saharaclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fcc67b0374884fd1bf577f9047cc8d854b8132f0"
+  },
+  {
+    "path": "python-searchlightclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "31410355d46751763031f802d89f92bb97b7b5c4"
+  },
+  {
+    "path": "python-senlinclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5f534155932abf8a5754278e4b43d03fbf23b603"
+  },
+  {
+    "path": "python-solumclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "31e8a218900d4b3617796e583455269884e8a343"
+  },
+  {
+    "path": "python-swiftclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8486005ebd881a5c60b6ba0e802387975a5644c0"
+  },
+  {
+    "path": "python-tackerclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "00d6e14b7361f972fad0d969f67f897034e3ef12"
+  },
+  {
+    "path": "python-tripleoclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "120ef346dfa9fab05ab07e56f89d86b478a5d199"
+  },
+  {
+    "path": "python-troveclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "544034c168f3a0b9b602a9e934a99abaab166c6e"
+  },
+  {
+    "path": "python-vitrageclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8c37504274b7a4ce7a556962d811ae8db7cab04f"
+  },
+  {
+    "path": "python-watcherclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "489d8c3e746d4c8ed6481b201f880a6e26c5bb7d"
+  },
+  {
+    "path": "python-zaqarclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f1aca7eeab789b05803d15575d79accb16b02060"
+  },
+  {
+    "path": "python-zunclient",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "eb6806a8682914171dd17a44c6b80e78f7c6b0bc"
+  },
+  {
+    "path": "qa-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6239bcaafb00b8140bd93c95ae7926f6acb96568"
+  },
+  {
+    "path": "qinling",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "77474eb9bb372dbd4a953fe6cd33e73501c18d72"
+  },
+  {
+    "path": "qinling-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ce8599cf34a33539f5671d2686672ca118440560"
+  },
+  {
+    "path": "rally",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c1e22f1d46f9a50b1ac47d2b80efead1d28c05fb"
+  },
+  {
+    "path": "rally-openstack",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "48e20b5d55a0ad62fd2d5b62ef39e486c1b6e932"
+  },
+  {
+    "path": "release-test",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "80350a89f5831346d6f6237ac5e9d219e2b38c27"
+  },
+  {
+    "path": "releases",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c56d1a367ddbcc532f327441e4786d405fa3db6b"
+  },
+  {
+    "path": "renderspec",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6fe3cec0298ef2ed198b7e50331279d2988e4181"
+  },
+  {
+    "path": "reno",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9d51b021d185521878d2685c9704d79301928625"
+  },
+  {
+    "path": "requestsexceptions",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4ca787152e9ee384f00231106d6e16b4b652c533"
+  },
+  {
+    "path": "requirements",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6324b28b1bfe61eace77bde3978daec14ed3d176"
+  },
+  {
+    "path": "rpm-packaging",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "464a7e68b7fee787cd7bdfdc2d3b552e097db585"
+  },
+  {
+    "path": "rpm-packaging-tools",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3a863b66c7653e6159f81c1cba1da6d56f02dc8a"
+  },
+  {
+    "path": "sahara",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e472826889d0b7ae73790e9307cd9fbffab39bbf"
+  },
+  {
+    "path": "sahara-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "af37b9efbf0d122d31579d9fc1b6a7b8457435bd"
+  },
+  {
+    "path": "sahara-extra",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "bbe243e2bf873553ea18ed5d7c96c3f7d75e7718"
+  },
+  {
+    "path": "sahara-image-elements",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9dad58b05acafbf51da0aea7ec71e2c9a35c9c50"
+  },
+  {
+    "path": "sahara-plugin-ambari",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3e0213e5c467bdc77a6b5c26ff3f6601dd3d5331"
+  },
+  {
+    "path": "sahara-plugin-cdh",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8bb418637bdf3ff24048d55e135de2c28437874f"
+  },
+  {
+    "path": "sahara-plugin-mapr",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dcf9a8fc59c8ab54ee96ac47532f32f595e977e3"
+  },
+  {
+    "path": "sahara-plugin-spark",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "12d6cc42ae2dbd3e9d1d70c2c73d196aba66776c"
+  },
+  {
+    "path": "sahara-plugin-storm",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d90338ed0b7315e797d9ba60e52447afb24b9f80"
+  },
+  {
+    "path": "sahara-plugin-vanilla",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b7c783cb1bfd216837fb737c8738a61234c7aade"
+  },
+  {
+    "path": "sahara-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "47f81c66cee6648e787810b69dfa121d7fda4a5f"
+  },
+  {
+    "path": "sahara-tests",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3815c917a31398425800001aa79e15114685d01d"
+  },
+  {
+    "path": "searchlight",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "73316422315176b8b97dcc0c7bccf1fc49d7eb0e"
+  },
+  {
+    "path": "searchlight-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "93dde42fec72d4b48aa579ca7ab316a0b2f53511"
+  },
+  {
+    "path": "searchlight-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "5ff2535fd13e025d5d7908bee7bb6768b8b33c1d"
+  },
+  {
+    "path": "senlin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3acf9ce11fde57e31e24364309e77ebf40b5373e"
+  },
+  {
+    "path": "senlin-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0830f74f9b659ad64a84138432a44d4719f1fa04"
+  },
+  {
+    "path": "senlin-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "83ccfcbeb31517dac620e3786eae085aa851918f"
+  },
+  {
+    "path": "shade",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b9dc7d04cc075d538e436f27084ba30dac94bc73"
+  },
+  {
+    "path": "solum",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "67425249e6a27066ab6b58832327b94b35da2696"
+  },
+  {
+    "path": "solum-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "80e7ef7b99d171b37a86c75fa1c8682f7f0b9f91"
+  },
+  {
+    "path": "solum-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "64f1dac678d92334696e7bcc95d58bb889d1f3cc"
+  },
+  {
+    "path": "solum-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "da9b61f57bc275ff6fecc208f1f40cf0a794350b"
+  },
+  {
+    "path": "specs-cookiecutter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6fb715b47c604260c1d49dae435655c14da07440"
+  },
+  {
+    "path": "sphinx-feature-classification",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4972944cefbf73212d444d5ae6094de08bd5d106"
+  },
+  {
+    "path": "stackviz",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "45de3fd70db2c05ffee48f515ee995481da2ce2e"
+  },
+  {
+    "path": "stevedore",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3c04bde90db9e6d1ab459ad507b48f3894e6832c"
+  },
+  {
+    "path": "storlets",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7761ea5beaba065f9a2c22c66692592c632c39d1"
+  },
+  {
+    "path": "sushy",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7f41d5c8a608eb062ca73cde6e6714c564697f36"
+  },
+  {
+    "path": "sushy-cli",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a6780093abb5c547dd4b1b7045a788a6f5f5649c"
+  },
+  {
+    "path": "sushy-tools",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4d7850318ee78a185463b2f4f385f1ebe82dc710"
+  },
+  {
+    "path": "swift",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c8d00108a61852143569f5f96c601675374ff095"
+  },
+  {
+    "path": "swift-bench",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0265d50f23584f48b196d606e269423c72680557"
+  },
+  {
+    "path": "tacker",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "39edaa21a63cde7cd33ed26dbeba24cad1e8fb88"
+  },
+  {
+    "path": "tacker-horizon",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b8220dd771aa9200a86e9eb4dfed2321f2bbc188"
+  },
+  {
+    "path": "tacker-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "dc03870f62ea22fbf284e5145c22f05047fb7b3a"
+  },
+  {
+    "path": "taskflow",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d01920ef1c0e3432c5d3a1e7708a34ff834bf339"
+  },
+  {
+    "path": "telemetry-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c0b4932eb2ea9fd09cd4e7c7b4434c3a80d11e04"
+  },
+  {
+    "path": "telemetry-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f8a8197b1e1764aecfcd02ae31053b7b96538a6a"
+  },
+  {
+    "path": "tempest",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "e7e3947694b4412a09c7d151c78a3fd47033adfc"
+  },
+  {
+    "path": "tempest-horizon",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6883d8ff5a1cc2c20b4fea7b58ba8fcda12ec035"
+  },
+  {
+    "path": "tempest-lib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fc1791f8589cb8dba9d8d9ef7856be17b2bc77f3"
+  },
+  {
+    "path": "tempest-plugin-cookiecutter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "72f0dc204a93fa08e98782d73952411fa867f195"
+  },
+  {
+    "path": "tempest-stress",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6bbec5a53dab662693cb91100d6fb8a9f5a70236"
+  },
+  {
+    "path": "tenks",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "114cc67a9e088864d46acc887113beb1e96b82b4"
+  },
+  {
+    "path": "tooz",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8df645f382e348f83049d54fb72ed08ae0496cfc"
+  },
+  {
+    "path": "tosca-parser",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "11b686a724db8194a28d10d4709c314bce17a53f"
+  },
+  {
+    "path": "tripleo-ansible",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7fa1307c6cd1aec878755a27d4d133254a29792c"
+  },
+  {
+    "path": "tripleo-ci",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a606c60efc9db618fdb478b20edc755974214b29"
+  },
+  {
+    "path": "tripleo-common",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "120bd48006418ff7aa52ce7624fcdeb2bb8df505"
+  },
+  {
+    "path": "tripleo-common-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ab7f0c583ecce5fbe204105942a733806c7afa87"
+  },
+  {
+    "path": "tripleo-docs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d67a6ebe02bedba31032f774350e008750a8ad00"
+  },
+  {
+    "path": "tripleo-ha-utils",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a1119eb2d861fc7346f63807c3fac33e1ddd24f6"
+  },
+  {
+    "path": "tripleo-heat-templates",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c2ff9b8f4900fcc95698368960f001da4d25d43d"
+  },
+  {
+    "path": "tripleo-image-elements",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a43311b7efcd44a9d274b493889c9995e8a93ef8"
+  },
+  {
+    "path": "tripleo-ipsec",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c992826604d06c83156e4b841d35b47cd24d0eb2"
+  },
+  {
+    "path": "tripleo-operator-ansible",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "43e28b25c2d5f86121d2df658f0990af4abb1714"
+  },
+  {
+    "path": "tripleo-puppet-elements",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b146333968d4d67e2e6fd8adc4e286ebd49979c3"
+  },
+  {
+    "path": "tripleo-quickstart",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c49552281f57037426aef2d22e21b6b30996d96e"
+  },
+  {
+    "path": "tripleo-quickstart-extras",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "72ea117f6180db58d96a337bd717447913780367"
+  },
+  {
+    "path": "tripleo-repos",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fd05df0293ef09f6ef7db5d6cb997ca58cb21ec6"
+  },
+  {
+    "path": "tripleo-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "be8ce42b781897578f866a5b1b50776a439e95dc"
+  },
+  {
+    "path": "tripleo-upgrade",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f543b1f66a52fa79b5e61789177ac3df8b71c55a"
+  },
+  {
+    "path": "tripleo-validations",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9080d003d911ab5568f1fdbb69ee4e6940b70564"
+  },
+  {
+    "path": "trove",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2cd499fc54cde4e9dcd2bfd37cecc8283a3c52c8"
+  },
+  {
+    "path": "trove-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "47d1542722d34cfc8346d2605227458993fa76eb"
+  },
+  {
+    "path": "trove-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "09b0eaace50c5307bf0a95a249e7515d1ba86ef5"
+  },
+  {
+    "path": "trove-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ac0e75b1b64e8b14e66c7395bb51bead8b43458c"
+  },
+  {
+    "path": "ui-cookiecutter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8390e9d6d2feb933d9e153b2ef045fbda63197e6"
+  },
+  {
+    "path": "validations-common",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fa150228512a47661df2b585e9770afbc3635b2a"
+  },
+  {
+    "path": "validations-libs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2847a85880195362cdb87863f8558cfce4964499"
+  },
+  {
+    "path": "virtualbmc",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6e14e8bdb8cc022d843bfb98377bfc89d99fc9c5"
+  },
+  {
+    "path": "vitrage",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "aafc997e3feada114109c752a9fd6d945607773b"
+  },
+  {
+    "path": "vitrage-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6e823b39eadc1bd93b84f1ca880262344c195324"
+  },
+  {
+    "path": "vitrage-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a29e691e6cb8ddfcf0dc94f14c8e15f3554c2004"
+  },
+  {
+    "path": "vitrage-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a294899d4e940b052edb5e36b6d7e10deddf12c8"
+  },
+  {
+    "path": "watcher",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "9925fd2cc97bac0e74857f96334298e1ed0e5836"
+  },
+  {
+    "path": "watcher-dashboard",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4a0f64b5cbd48af7c44788e0f86e313a6e7865a5"
+  },
+  {
+    "path": "watcher-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fec0c80ed0b746327dbec4375515276bb7904cae"
+  },
+  {
+    "path": "watcher-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "abd34b8a1ae89e1c2a7e24ec6627d200cc34d113"
+  },
+  {
+    "path": "whereto",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "413c619a3fe4b22dea0b24d80c06833ef5060e12"
+  },
+  {
+    "path": "whitebox-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "19f39aba511ddf6ecddd0e7dd5ae2440e57bdbbd"
+  },
+  {
+    "path": "xstatic-angular",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "375ee8e424d913b3759b67e9263a38a56c84942c"
+  },
+  {
+    "path": "xstatic-angular-bootstrap",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "fa90c1da36e004132824ac5aab58f468245ff0d1"
+  },
+  {
+    "path": "xstatic-angular-gettext",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6b7ba0f82bfe7b2094e7097e827d00b03f632c37"
+  },
+  {
+    "path": "xstatic-angular-lrdragndrop",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c4790f23747f8f90149032846f773eccbb482c16"
+  },
+  {
+    "path": "xstatic-angular-material",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "77a1575aab8e5d2dab7630d9ac0390d4bb572dcb"
+  },
+  {
+    "path": "xstatic-angular-notify",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "83d3b65b76918538a7f2b64a1d8dd1b1b9a1de4c"
+  },
+  {
+    "path": "xstatic-angular-smart-table",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6d355583069163b972b5c362a991bf69b8b5f1b5"
+  },
+  {
+    "path": "xstatic-angular-uuid",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "20ec6e6360b121d2e3551de5dc50661a581d5fb0"
+  },
+  {
+    "path": "xstatic-angular-vis",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "da9ba723e8e379371608547dc459d753b9262890"
+  },
+  {
+    "path": "xstatic-bootstrap-datepicker",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f1fc9efd5e6618330fa14292c702ed65fc1715cc"
+  },
+  {
+    "path": "xstatic-bootstrap-scss",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1ba0b953862e953a8af9fc8a0f1c9ff372b169cf"
+  },
+  {
+    "path": "xstatic-bootswatch",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "79fa5eb9aacc3cced8c6977ae97a6521675c04e4"
+  },
+  {
+    "path": "xstatic-d3",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f66bbbf9bf47b0f2a4bde946a00657eef5ff50c8"
+  },
+  {
+    "path": "xstatic-dagre",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f3fd721b7b7c4e06a729914b2bf47726efb811d6"
+  },
+  {
+    "path": "xstatic-dagre-d3",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "80d7aed8cf3d93b8b242e7d7619dd33d3ebc99f5"
+  },
+  {
+    "path": "xstatic-filesaver",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "02800208ef792b9fe3fb1080290e4f2470d76f9b"
+  },
+  {
+    "path": "xstatic-font-awesome",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "c2ae4482dfbc5ff187a85ef25575ad4ebba1c561"
+  },
+  {
+    "path": "xstatic-graphlib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "32eecfeb243346f2ae5c3b2bff038e1d14bbaeb1"
+  },
+  {
+    "path": "xstatic-hogan",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d9d52a3631b96128fc5a18933955fbb67fec4342"
+  },
+  {
+    "path": "xstatic-jasmine",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f8db790b6440f914968e7a6aa6b053a5d141c56c"
+  },
+  {
+    "path": "xstatic-jquery-migrate",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8f82e0f48025433b3ec6d2726302a5ce2dc52b48"
+  },
+  {
+    "path": "xstatic-jquery.quicksearch",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "6459ef2119c6792c12995fac68a08259f4517d98"
+  },
+  {
+    "path": "xstatic-jquery.tablesorter",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "09a700b565e3fa8696d8bfd1fc9059e1979f9f79"
+  },
+  {
+    "path": "xstatic-js-yaml",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ed5ce7005b994d7e94be9456ccb6e58d7a51a7b1"
+  },
+  {
+    "path": "xstatic-jsencrypt",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "00696018e47e617f1cbdf8905790b10fcb911519"
+  },
+  {
+    "path": "xstatic-json2yaml",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f1e1b9f062b7d9f23f3a5bd4ab0064ce246b9a9f"
+  },
+  {
+    "path": "xstatic-lodash",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "3bbd3db102bf786b95dfd7cb62c7c9ba8deca6a0"
+  },
+  {
+    "path": "xstatic-magic-search",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "119f1348afe17a69e0ef0640d69ae6c4d4557751"
+  },
+  {
+    "path": "xstatic-mdi",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "64dca40a7ce5794e1bf046de3b0548e99422c49b"
+  },
+  {
+    "path": "xstatic-moment",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7734ce759a6e6d92706e6d9b12111b2fbc6a7bbe"
+  },
+  {
+    "path": "xstatic-moment-timezone",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "84f71a2e9560953567cd27d0f767fc24aa8ee2db"
+  },
+  {
+    "path": "xstatic-rickshaw",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "8ceea48e79c5abc864c64012e2bde239afea011c"
+  },
+  {
+    "path": "xstatic-roboto-fontface",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0b87d4184df87e42e23df556d70d05c77ab4f039"
+  },
+  {
+    "path": "xstatic-spin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "14237451bad092de9c352d48ef7e0ce1c85d7a58"
+  },
+  {
+    "path": "yaql",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a51005462d53032ec2ae1d7e6c2a6a0b0e84726c"
+  },
+  {
+    "path": "zaqar",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "139df4c5fb1cae78116dfb3a9c3eef80f7a8cfe7"
+  },
+  {
+    "path": "zaqar-specs",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "189334067a625b6957ad75ee7a6019120e93ae2b"
+  },
+  {
+    "path": "zaqar-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "73e2764d7d2a013393dbc20e59888b648e133289"
+  },
+  {
+    "path": "zaqar-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "4ddd72d0d6be00cf10d78c0375d0d4682f04418f"
+  },
+  {
+    "path": "zun",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "023280e4227d78d56c4d511fe8ac647423fd9d65"
+  },
+  {
+    "path": "zun-tempest-plugin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "b373770606595435ab0572cad5217673295fa1ff"
+  },
+  {
+    "path": "zun-ui",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "a500ef467894718bd8e8c4de8abbeb8342266239"
+  }
+]

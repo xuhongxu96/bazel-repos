@@ -1,0 +1,168 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "352d2606dfb1ff3ba9149a623e9d163700805a9a",
+    "size": 1925,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/352d2606dfb1ff3ba9149a623e9d163700805a9a"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6dcf124c66a0bc6a33a1362eb80874610367a9c2",
+    "size": 1076,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/6dcf124c66a0bc6a33a1362eb80874610367a9c2"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cf2b33d33c3b911ab5018fe67c5fd1d09414650",
+    "size": 8712,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/0cf2b33d33c3b911ab5018fe67c5fd1d09414650"
+  },
+  {
+    "path": "calvin",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d677d38c790bcc78f1268de38ab1ab4fcb0d8879"
+  },
+  {
+    "path": "calvin_evaluate_all.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b673dcec2f7a5f98b64d8447481ce36e72e7361b",
+    "size": 2585,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/b673dcec2f7a5f98b64d8447481ce36e72e7361b"
+  },
+  {
+    "path": "make_prediction.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e4e7a65a8d3d29cb656dd35bfc8e8c10b98bdb6",
+    "size": 15628,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/4e4e7a65a8d3d29cb656dd35bfc8e8c10b98bdb6"
+  },
+  {
+    "path": "policy_conf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ab879f8d4fd61f0af459985c33606214cbc44aff",
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/trees/ab879f8d4fd61f0af459985c33606214cbc44aff"
+  },
+  {
+    "path": "policy_evaluation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "08a41df9ddaccf87d2d01d0f2d690b7362dea50c",
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/trees/08a41df9ddaccf87d2d01d0f2d690b7362dea50c"
+  },
+  {
+    "path": "policy_models",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2fcf28990a7c8b103d0fe956f617eabc4106f5c",
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/trees/e2fcf28990a7c8b103d0fe956f617eabc4106f5c"
+  },
+  {
+    "path": "policy_training",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09d46cf8e973386dd14aebeb31055397ea8cf364",
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/trees/09d46cf8e973386dd14aebeb31055397ea8cf364"
+  },
+  {
+    "path": "requirements.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61c22ea03b93b9098253456a60c8383858adada8",
+    "size": 516,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/61c22ea03b93b9098253456a60c8383858adada8"
+  },
+  {
+    "path": "step1_prepare_latent.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "607f66715b31d40d8b097dadce8f0157e152704d",
+    "size": 9755,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/607f66715b31d40d8b097dadce8f0157e152704d"
+  },
+  {
+    "path": "step1_train_svd.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86d98b339c1f2ceae3d5a352e157345e2974db79",
+    "size": 39522,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/86d98b339c1f2ceae3d5a352e157345e2974db79"
+  },
+  {
+    "path": "step2_prepare_json.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab6142851583fcd09a300645dbe169c0e4ea5a9a",
+    "size": 6212,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/ab6142851583fcd09a300645dbe169c0e4ea5a9a"
+  },
+  {
+    "path": "step2_train_action_calvin.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6503c0b84456c693b2096876f6b480f6481d36d",
+    "size": 10245,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/f6503c0b84456c693b2096876f6b480f6481d36d"
+  },
+  {
+    "path": "step2_train_action_xbot.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fec1dedabc1b0c9dc1ea00881ed4f8d111b5d22",
+    "size": 12031,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/8fec1dedabc1b0c9dc1ea00881ed4f8d111b5d22"
+  },
+  {
+    "path": "step3_deploy_real_xbot.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e27396231a0d74706ebfe91c8675896d5577c49",
+    "size": 7949,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/5e27396231a0d74706ebfe91c8675896d5577c49"
+  },
+  {
+    "path": "video_conf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc059c1e80737ea9e7a3b020edff8ce9052d2671",
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/trees/cc059c1e80737ea9e7a3b020edff8ce9052d2671"
+  },
+  {
+    "path": "video_dataset",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac40a4e8aec9761cc235a3a4c231ba85863f56f5",
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/trees/ac40a4e8aec9761cc235a3a4c231ba85863f56f5"
+  },
+  {
+    "path": "video_dataset_instance",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1aee67bb88531be3918da23bfc57a4fb3dbcddeb",
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/trees/1aee67bb88531be3918da23bfc57a4fb3dbcddeb"
+  },
+  {
+    "path": "video_models",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "12f17950e6bd26415f095e07c53245e5ddbc012b",
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/trees/12f17950e6bd26415f095e07c53245e5ddbc012b"
+  },
+  {
+    "path": "vpp_method.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "add7a1b8e7f210a09b702225e806463632fb9eb6",
+    "size": 380734,
+    "url": "https://api.github.com/repos/roboterax/video-prediction-policy/git/blobs/add7a1b8e7f210a09b702225e806463632fb9eb6"
+  }
+]

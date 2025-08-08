@@ -1,0 +1,895 @@
+[
+  {
+    "path": ".circleci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3f67179b75907e5a808639ef391ee5826d9d80f",
+    "url": "https://api.github.com/repos/DataDog/zstd/git/trees/b3f67179b75907e5a808639ef391ee5826d9d80f"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cec07640611ce44c08486572c3c5e6f0d6316244",
+    "url": "https://api.github.com/repos/DataDog/zstd/git/trees/cec07640611ce44c08486572c3c5e6f0d6316244"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "345c1eb932f9422627764036a982c2249f2e320f",
+    "size": 1559,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/345c1eb932f9422627764036a982c2249f2e320f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8443da430d822f9f798d0eb9cad12371ce6c721f",
+    "size": 5584,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/8443da430d822f9f798d0eb9cad12371ce6c721f"
+  },
+  {
+    "path": "ZSTD_LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75800288cc243f164b9d130f125e2ffae28f8e39",
+    "size": 1549,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/75800288cc243f164b9d130f125e2ffae28f8e39"
+  },
+  {
+    "path": "allocations.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61bc09e5581c324cdd6337a366c255ce191b7381",
+    "size": 1692,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/61bc09e5581c324cdd6337a366c255ce191b7381"
+  },
+  {
+    "path": "bits.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0ba8e6c26e450307f0068eefcd49009f0412360",
+    "size": 6014,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/f0ba8e6c26e450307f0068eefcd49009f0412360"
+  },
+  {
+    "path": "bitstream.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0323212c3ea0031972eb1b6c1f04ce97acf33cf8",
+    "size": 18785,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/0323212c3ea0031972eb1b6c1f04ce97acf33cf8"
+  },
+  {
+    "path": "clevels.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9215306cdeeb5268837583b12016d78044cf78a2",
+    "size": 6915,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/9215306cdeeb5268837583b12016d78044cf78a2"
+  },
+  {
+    "path": "compiler.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ab310000e07c8d366ce2f254f332a9ebd02a5c2",
+    "size": 16702,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/2ab310000e07c8d366ce2f254f332a9ebd02a5c2"
+  },
+  {
+    "path": "cover.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74451567c4922aa9084ed118bac4be3b3395f0d4",
+    "size": 44546,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/74451567c4922aa9084ed118bac4be3b3395f0d4"
+  },
+  {
+    "path": "cover.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5653b29575831ea32b12a74cba1ce7f50bd9abfd",
+    "size": 4863,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/5653b29575831ea32b12a74cba1ce7f50bd9abfd"
+  },
+  {
+    "path": "cpu.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2350a59f9935a311481c943df85f7510b59b33de",
+    "size": 5496,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/2350a59f9935a311481c943df85f7510b59b33de"
+  },
+  {
+    "path": "debug.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ce10e95d019148d53112becb5a6dfbea73bcdf6",
+    "size": 1149,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/1ce10e95d019148d53112becb5a6dfbea73bcdf6"
+  },
+  {
+    "path": "debug.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad4759311eeb2b8c12958f72cbe8ec44b1347326",
+    "size": 3983,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/ad4759311eeb2b8c12958f72cbe8ec44b1347326"
+  },
+  {
+    "path": "divsufsort.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82e6a80f1863b7091d76243b8e3f2fb728d41722",
+    "size": 54707,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/82e6a80f1863b7091d76243b8e3f2fb728d41722"
+  },
+  {
+    "path": "divsufsort.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d723a481a37b9deb9b9b03432e2fde59a2ba7b07",
+    "size": 2353,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/d723a481a37b9deb9b9b03432e2fde59a2ba7b07"
+  },
+  {
+    "path": "entropy_common.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bfbb525d019a9875aa889144431b52a092e5f49",
+    "size": 13366,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/1bfbb525d019a9875aa889144431b52a092e5f49"
+  },
+  {
+    "path": "error_private.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62e74132bcdec5daf89b09f52d0a4e768c851581",
+    "size": 3963,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/62e74132bcdec5daf89b09f52d0a4e768c851581"
+  },
+  {
+    "path": "error_private.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3c845e47f84200a8d74fff9156cb3f00c2ac7e4",
+    "size": 6493,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/f3c845e47f84200a8d74fff9156cb3f00c2ac7e4"
+  },
+  {
+    "path": "errors.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbeb8160d4a22ea9154fbd7882281c93b0f739d8",
+    "size": 779,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/dbeb8160d4a22ea9154fbd7882281c93b0f739d8"
+  },
+  {
+    "path": "errors_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce661fce7bfb6b797613367090de2b237644678e",
+    "size": 790,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/ce661fce7bfb6b797613367090de2b237644678e"
+  },
+  {
+    "path": "external_zstd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc4ceb2471ada389adc7ac05812caff3942d757b",
+    "size": 248,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/fc4ceb2471ada389adc7ac05812caff3942d757b"
+  },
+  {
+    "path": "fastcover.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d559e26e63f3b7c920036f49122628c00bd30a1",
+    "size": 28578,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/0d559e26e63f3b7c920036f49122628c00bd30a1"
+  },
+  {
+    "path": "fse.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "232d71e5bd4ff06d1a36b25a96705da332568edc",
+    "size": 30091,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/232d71e5bd4ff06d1a36b25a96705da332568edc"
+  },
+  {
+    "path": "fse_compress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b42e848183434527615543b7bc920db0a207d9dd",
+    "size": 24081,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/b42e848183434527615543b7bc920db0a207d9dd"
+  },
+  {
+    "path": "fse_decompress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d15197f693c740ba56977f1ca69f5758ac5202d",
+    "size": 12536,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/1d15197f693c740ba56977f1ca69f5758ac5202d"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41ceacc9ca0292988fd59ed5804868a48229955d",
+    "size": 40,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/41ceacc9ca0292988fd59ed5804868a48229955d"
+  },
+  {
+    "path": "helpers_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7da0ca5743ab17d2e93454d891af61531fd5bff7",
+    "size": 895,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/7da0ca5743ab17d2e93454d891af61531fd5bff7"
+  },
+  {
+    "path": "hist.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58d37aa835856608396d269f47ab3fbc2cacab9f",
+    "size": 7678,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/58d37aa835856608396d269f47ab3fbc2cacab9f"
+  },
+  {
+    "path": "hist.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28cf4fe174c495670a5709b0f1a3f557cc4118b8",
+    "size": 3802,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/28cf4fe174c495670a5709b0f1a3f557cc4118b8"
+  },
+  {
+    "path": "huf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b619deb9a83695a139e48616aa8fa17fa2ee9573",
+    "size": 14177,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/b619deb9a83695a139e48616aa8fa17fa2ee9573"
+  },
+  {
+    "path": "huf_compress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7df9160815300c69cbb80b77ad6a872f14007a7e",
+    "size": 58534,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/7df9160815300c69cbb80b77ad6a872f14007a7e"
+  },
+  {
+    "path": "huf_decompress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1589ef1f79cfd78a5f150f1ee381c114e370afda",
+    "size": 76888,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/1589ef1f79cfd78a5f150f1ee381c114e370afda"
+  },
+  {
+    "path": "huf_decompress_amd64.S",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1178b114f31c21c264a913d2fa675653707b1e8f",
+    "size": 15140,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/1178b114f31c21c264a913d2fa675653707b1e8f"
+  },
+  {
+    "path": "mem.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba12a74d5a178107dc444ea8e0bf928c3895c840",
+    "size": 12997,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/ba12a74d5a178107dc444ea8e0bf928c3895c840"
+  },
+  {
+    "path": "pool.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "943c20aba5e79dcb95694f53725a1a6fc99b82af",
+    "size": 11830,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/943c20aba5e79dcb95694f53725a1a6fc99b82af"
+  },
+  {
+    "path": "pool.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df22f4d26fafc63961e88a6eefddda813401de0c",
+    "size": 2624,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/df22f4d26fafc63961e88a6eefddda813401de0c"
+  },
+  {
+    "path": "portability_macros.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2001c243034d203e9c39919c0e1ddd460f9448ae",
+    "size": 4974,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/2001c243034d203e9c39919c0e1ddd460f9448ae"
+  },
+  {
+    "path": "threading.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01908a6e74a70fd2a4509c89d65cd392e295f46a",
+    "size": 4944,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/01908a6e74a70fd2a4509c89d65cd392e295f46a"
+  },
+  {
+    "path": "threading.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e13c8e72e12250eb3090978379fa10613a13a58",
+    "size": 5170,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/7e13c8e72e12250eb3090978379fa10613a13a58"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2eaa6e6565e675e1e93e5857a5100c44614b66e0",
+    "url": "https://api.github.com/repos/DataDog/zstd/git/trees/2eaa6e6565e675e1e93e5857a5100c44614b66e0"
+  },
+  {
+    "path": "travis_test_32.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "264ca06d110ac2894ec45df6d69ccae35435c759",
+    "size": 499,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/264ca06d110ac2894ec45df6d69ccae35435c759"
+  },
+  {
+    "path": "update.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1de939f76e5f4f13287e040998ed792d34cdeb2d",
+    "size": 1451,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/1de939f76e5f4f13287e040998ed792d34cdeb2d"
+  },
+  {
+    "path": "xxhash.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1096adcc270a5a445ef2d3550314c2a8f7ae8442",
+    "size": 665,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/1096adcc270a5a445ef2d3550314c2a8f7ae8442"
+  },
+  {
+    "path": "xxhash.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7d9abc9863bf6fd2f16478a259294aa81c414ec",
+    "size": 262546,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/e7d9abc9863bf6fd2f16478a259294aa81c414ec"
+  },
+  {
+    "path": "zbuff.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "969f8bd91449d1de1c2ffd5b64b5349fb25be259",
+    "size": 11553,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/969f8bd91449d1de1c2ffd5b64b5349fb25be259"
+  },
+  {
+    "path": "zbuff_common.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "367ba5ea54077fd161c1723d50fcf04f0b420b3e",
+    "size": 1056,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/367ba5ea54077fd161c1723d50fcf04f0b420b3e"
+  },
+  {
+    "path": "zbuff_compress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aada93b23a4ce953fba975b1d694a80a07ea5c61",
+    "size": 6818,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/aada93b23a4ce953fba975b1d694a80a07ea5c61"
+  },
+  {
+    "path": "zbuff_decompress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49e9a471f5a26997e33f4f1c86f46321b7ddb813",
+    "size": 2137,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/49e9a471f5a26997e33f4f1c86f46321b7ddb813"
+  },
+  {
+    "path": "zdict.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14dc1cf0fe7f1efdbc85f19ba1a4d436ead9bf23",
+    "size": 44415,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/14dc1cf0fe7f1efdbc85f19ba1a4d436ead9bf23"
+  },
+  {
+    "path": "zdict.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "506775fc834ecb0d1f450e6c069bd94da6b70fb4",
+    "size": 26574,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/506775fc834ecb0d1f450e6c069bd94da6b70fb4"
+  },
+  {
+    "path": "zstd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8499bf108b9ca60254fa2332690b82edb07615d0",
+    "size": 5264,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/8499bf108b9ca60254fa2332690b82edb07615d0"
+  },
+  {
+    "path": "zstd.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54a7cd4770cb8b917f2bb8528d93229e29ebc54f",
+    "size": 181859,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/54a7cd4770cb8b917f2bb8528d93229e29ebc54f"
+  },
+  {
+    "path": "zstd_bulk.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6294a65331365d6d741dcd0c18f34d2f46df9c5d",
+    "size": 4077,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/6294a65331365d6d741dcd0c18f34d2f46df9c5d"
+  },
+  {
+    "path": "zstd_bullk_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b506bcc1e4982ddcb9abd1568e62f16633336bd",
+    "size": 7357,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/7b506bcc1e4982ddcb9abd1568e62f16633336bd"
+  },
+  {
+    "path": "zstd_common.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "656c46c7ec4ab4a10b4656b98a9c6cc7cfc66183",
+    "size": 1741,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/656c46c7ec4ab4a10b4656b98a9c6cc7cfc66183"
+  },
+  {
+    "path": "zstd_compress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fcfd4d4ba4fe8a9893ea0efb5478711713c8742c",
+    "size": 345528,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/fcfd4d4ba4fe8a9893ea0efb5478711713c8742c"
+  },
+  {
+    "path": "zstd_compress_internal.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a96783d538dd09d3ca41748582cb15f4852c7c6a",
+    "size": 68543,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/a96783d538dd09d3ca41748582cb15f4852c7c6a"
+  },
+  {
+    "path": "zstd_compress_literals.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fab4f4bc5ecf2a7f551670cf6cc5086a4674132",
+    "size": 9213,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/8fab4f4bc5ecf2a7f551670cf6cc5086a4674132"
+  },
+  {
+    "path": "zstd_compress_literals.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80cb1db27450a445833dcce2a77842636326411c",
+    "size": 1671,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/80cb1db27450a445833dcce2a77842636326411c"
+  },
+  {
+    "path": "zstd_compress_sequences.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0496ab8f2af3fe8768c591e82b3dedffd04cb85d",
+    "size": 20062,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/0496ab8f2af3fe8768c591e82b3dedffd04cb85d"
+  },
+  {
+    "path": "zstd_compress_sequences.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac1b42e50d01bed5dce996ef195f603b16894bc2",
+    "size": 2262,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/ac1b42e50d01bed5dce996ef195f603b16894bc2"
+  },
+  {
+    "path": "zstd_compress_superblock.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "582b2d1dbd57bc189606a326c34ecc25c4e0a7b1",
+    "size": 34133,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/582b2d1dbd57bc189606a326c34ecc25c4e0a7b1"
+  },
+  {
+    "path": "zstd_compress_superblock.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdc4b1657e272bbfb8c37d43185e8b305472b258",
+    "size": 1223,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/fdc4b1657e272bbfb8c37d43185e8b305472b258"
+  },
+  {
+    "path": "zstd_ctx.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4a0889bd88d40093e76a480012772ace335dcc1",
+    "size": 3887,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/c4a0889bd88d40093e76a480012772ace335dcc1"
+  },
+  {
+    "path": "zstd_ctx_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c9eb4b0aa3e36a9957576b3c5aced482ff35520",
+    "size": 6235,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/4c9eb4b0aa3e36a9957576b3c5aced482ff35520"
+  },
+  {
+    "path": "zstd_cwksp.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e32ce263f1fc477dedbcb99e1a7224db6015fbeb",
+    "size": 28910,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/e32ce263f1fc477dedbcb99e1a7224db6015fbeb"
+  },
+  {
+    "path": "zstd_ddict.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c77a9df83b50b95f738187ef9c69acb7f2e8e555",
+    "size": 9168,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/c77a9df83b50b95f738187ef9c69acb7f2e8e555"
+  },
+  {
+    "path": "zstd_ddict.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97e432ef3f52dea4fde6de24e7f1113b9c16ec14",
+    "size": 1364,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/97e432ef3f52dea4fde6de24e7f1113b9c16ec14"
+  },
+  {
+    "path": "zstd_decompress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b96357af7272a4b7c3f4b70e1c5af7cb651121e",
+    "size": 102356,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/8b96357af7272a4b7c3f4b70e1c5af7cb651121e"
+  },
+  {
+    "path": "zstd_decompress_block.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c454eb739bc5690f6b9fb2d8992671e07574c3b0",
+    "size": 101445,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/c454eb739bc5690f6b9fb2d8992671e07574c3b0"
+  },
+  {
+    "path": "zstd_decompress_block.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b727de20465fbbfc30ccd83bdc587fedff1f6ce4",
+    "size": 2717,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/b727de20465fbbfc30ccd83bdc587fedff1f6ce4"
+  },
+  {
+    "path": "zstd_decompress_internal.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9db61ffd9cd871800ee55ea18774516201911deb",
+    "size": 9721,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/9db61ffd9cd871800ee55ea18774516201911deb"
+  },
+  {
+    "path": "zstd_deps.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fab9477b5a897fa6edfff6dc2c9f78a7456d3b09",
+    "size": 3068,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/fab9477b5a897fa6edfff6dc2c9f78a7456d3b09"
+  },
+  {
+    "path": "zstd_double_fast.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a7cb22c195144077c91b0f11ca1519972f74b37",
+    "size": 35361,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/9a7cb22c195144077c91b0f11ca1519972f74b37"
+  },
+  {
+    "path": "zstd_double_fast.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79d0175517b5f92712649c1013761bc380cb51ff",
+    "size": 1815,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/79d0175517b5f92712649c1013761bc380cb51ff"
+  },
+  {
+    "path": "zstd_errors.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ac47dd6c39aaa4466f9aa11c27f8068c61bce48",
+    "size": 4336,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/5ac47dd6c39aaa4466f9aa11c27f8068c61bce48"
+  },
+  {
+    "path": "zstd_fast.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea02c1228951f0272bd5f165d0d86496707d785f",
+    "size": 38162,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/ea02c1228951f0272bd5f165d0d86496707d785f"
+  },
+  {
+    "path": "zstd_fast.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6cefaf42e85de136a2565ffbf806c1a75ad7ccc",
+    "size": 1226,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/e6cefaf42e85de136a2565ffbf806c1a75ad7ccc"
+  },
+  {
+    "path": "zstd_internal.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b10d69a2b124957884542c7fdb88605a1a466455",
+    "size": 10966,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/b10d69a2b124957884542c7fdb88605a1a466455"
+  },
+  {
+    "path": "zstd_lazy.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d392019d9432a9df4233482a3c9ff4ca338b9ad",
+    "size": 102869,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/7d392019d9432a9df4233482a3c9ff4ca338b9ad"
+  },
+  {
+    "path": "zstd_lazy.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "579c940c0f2c501f90cd254624038ab3ad7afcca",
+    "size": 9742,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/579c940c0f2c501f90cd254624038ab3ad7afcca"
+  },
+  {
+    "path": "zstd_ldm.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d83232d9986d12877308e9d01eb6c74529291c21",
+    "size": 29351,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/d83232d9986d12877308e9d01eb6c74529291c21"
+  },
+  {
+    "path": "zstd_ldm.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e1ae7037bebe57c9295031399e6a37db8a15626",
+    "size": 4420,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/9e1ae7037bebe57c9295031399e6a37db8a15626"
+  },
+  {
+    "path": "zstd_ldm_geartab.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d799e7f6e794a1a5e6317af5cd275146078937a",
+    "size": 6115,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/5d799e7f6e794a1a5e6317af5cd275146078937a"
+  },
+  {
+    "path": "zstd_legacy.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bea26bccc71ea3011807f820b85c0988742e259",
+    "size": 15054,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/3bea26bccc71ea3011807f820b85c0988742e259"
+  },
+  {
+    "path": "zstd_opt.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35eac21ee93b68ac81ea6ba934995b8d33126548",
+    "size": 72064,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/35eac21ee93b68ac81ea6ba934995b8d33126548"
+  },
+  {
+    "path": "zstd_opt.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ecc6e18b74d16347fcd7313e16ddad951fd71c0",
+    "size": 3104,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/6ecc6e18b74d16347fcd7313e16ddad951fd71c0"
+  },
+  {
+    "path": "zstd_preSplit.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b4b1ee8c28b2e872a90745f8a141c1ded97a5fd",
+    "size": 8747,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/0b4b1ee8c28b2e872a90745f8a141c1ded97a5fd"
+  },
+  {
+    "path": "zstd_preSplit.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6879161dfe27c26cda42c1717b767fd5daafe3b",
+    "size": 1233,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/b6879161dfe27c26cda42c1717b767fd5daafe3b"
+  },
+  {
+    "path": "zstd_small_stream_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7e12d8f2d385b0ae61bbf499c6ed640a2a7929d",
+    "size": 2074,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/f7e12d8f2d385b0ae61bbf499c6ed640a2a7929d"
+  },
+  {
+    "path": "zstd_stream.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "714ecfee94cff2b36404185389b8a27c3025a6a9",
+    "size": 16372,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/714ecfee94cff2b36404185389b8a27c3025a6a9"
+  },
+  {
+    "path": "zstd_stream_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0960f4cf16317c2f5560b165d418bfcdf6c92f8",
+    "size": 11675,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/d0960f4cf16317c2f5560b165d418bfcdf6c92f8"
+  },
+  {
+    "path": "zstd_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a8455e215aeb1f069b46d88cccd683b25a0b4d8",
+    "size": 10802,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/2a8455e215aeb1f069b46d88cccd683b25a0b4d8"
+  },
+  {
+    "path": "zstd_trace.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96be633ca3d9ec7e0ab40e341df3cc2506ac43d6",
+    "size": 4620,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/96be633ca3d9ec7e0ab40e341df3cc2506ac43d6"
+  },
+  {
+    "path": "zstd_v01.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05b3eb6907f17734cde1910bd6c8336ae707e87c",
+    "size": 69585,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/05b3eb6907f17734cde1910bd6c8336ae707e87c"
+  },
+  {
+    "path": "zstd_v01.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29c714321de6821b180af625d8c92eab03923646",
+    "size": 3873,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/29c714321de6821b180af625d8c92eab03923646"
+  },
+  {
+    "path": "zstd_v02.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "348f04202aa45d0d549c191714772754fa934131",
+    "size": 125237,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/348f04202aa45d0d549c191714772754fa934131"
+  },
+  {
+    "path": "zstd_v02.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71d79cac9a34c5c7b8f1f5d7e5afd8d6332b06c3",
+    "size": 3782,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/71d79cac9a34c5c7b8f1f5d7e5afd8d6332b06c3"
+  },
+  {
+    "path": "zstd_v03.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c26f037c2841cf74f36152fbe18d22f0a7cc9317",
+    "size": 111347,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/c26f037c2841cf74f36152fbe18d22f0a7cc9317"
+  },
+  {
+    "path": "zstd_v03.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec3d8971fe326adc18f5a9b40a9f7e49169f1284",
+    "size": 3794,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/ec3d8971fe326adc18f5a9b40a9f7e49169f1284"
+  },
+  {
+    "path": "zstd_v04.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c93b71188a1a099f8b3ead40ade81409377b2d08",
+    "size": 132496,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/c93b71188a1a099f8b3ead40ade81409377b2d08"
+  },
+  {
+    "path": "zstd_v04.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b904be0c3a080cb92638ec59393200bda37ce328",
+    "size": 6512,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/b904be0c3a080cb92638ec59393200bda37ce328"
+  },
+  {
+    "path": "zstd_v05.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e63cb795805e76699fa2a5f38e884b6844ea730",
+    "size": 153760,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/4e63cb795805e76699fa2a5f38e884b6844ea730"
+  },
+  {
+    "path": "zstd_v05.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebb7831e2a7aac31570234037e7938f2724cbbe6",
+    "size": 7600,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/ebb7831e2a7aac31570234037e7938f2724cbbe6"
+  },
+  {
+    "path": "zstd_v06.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b90cd83122a4ff9ffb31e33c75b41edc9d4a16bc",
+    "size": 163525,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/b90cd83122a4ff9ffb31e33c75b41edc9d4a16bc"
+  },
+  {
+    "path": "zstd_v06.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f511b101dc4eb412ea20c2beec18de527915099f",
+    "size": 8148,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/f511b101dc4eb412ea20c2beec18de527915099f"
+  },
+  {
+    "path": "zstd_v07.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05c94aac5a7ba040e27ef12ef9f86345cc3263c2",
+    "size": 182205,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/05c94aac5a7ba040e27ef12ef9f86345cc3263c2"
+  },
+  {
+    "path": "zstd_v07.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "385b10c8cb622fb878c6f8565b8afb54bd3bd9bc",
+    "size": 8791,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/385b10c8cb622fb878c6f8565b8afb54bd3bd9bc"
+  },
+  {
+    "path": "zstdmt_compress.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "291a8380b9d0b1459c57edac8c1aaf63c88e8368",
+    "size": 84106,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/291a8380b9d0b1459c57edac8c1aaf63c88e8368"
+  },
+  {
+    "path": "zstdmt_compress.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab1b11b579ee7533f5930d80e54c5b431baed27e",
+    "size": 4619,
+    "url": "https://api.github.com/repos/DataDog/zstd/git/blobs/ab1b11b579ee7533f5930d80e54c5b431baed27e"
+  }
+]

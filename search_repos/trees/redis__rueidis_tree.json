@@ -1,0 +1,525 @@
+[
+  {
+    "path": ".circleci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a6504c6c633729dfa331b53a185f649b2c53de1",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/3a6504c6c633729dfa331b53a185f649b2c53de1"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "213a0ef944fc3a2fc90dff4949c60732fc3648c6",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/213a0ef944fc3a2fc90dff4949c60732fc3648c6"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f0cfd7809d86b4b8c56f9e569fe958e5724133f",
+    "size": 27,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/4f0cfd7809d86b4b8c56f9e569fe958e5724133f"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "989e2c59e973a05cfbfe9de678b7f2af777b0713",
+    "size": 11323,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/989e2c59e973a05cfbfe9de678b7f2af777b0713"
+  },
+  {
+    "path": "NOTICE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7de7a17ca16f5682a35f27cb9ec4be1eddf8d6a2",
+    "size": 58,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/7de7a17ca16f5682a35f27cb9ec4be1eddf8d6a2"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de6148922fa4d8e563eb4e1e18f362346ab6a640",
+    "size": 28555,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/de6148922fa4d8e563eb4e1e18f362346ab6a640"
+  },
+  {
+    "path": "binary.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3e3259e7f38a6b115a8652ec69ebe27182c9e5a",
+    "size": 2791,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/f3e3259e7f38a6b115a8652ec69ebe27182c9e5a"
+  },
+  {
+    "path": "binary_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c97a2c2b2b2131d7fbb7f6f78c63e8fc4f6f52fa",
+    "size": 1507,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/c97a2c2b2b2131d7fbb7f6f78c63e8fc4f6f52fa"
+  },
+  {
+    "path": "bitmap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44c0f345927b69d6eddd050b482ac0a9a18d9d3b",
+    "size": 517,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/44c0f345927b69d6eddd050b482ac0a9a18d9d3b"
+  },
+  {
+    "path": "bitmap_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34222acfe562266626cf72a03c111f3b4fcaefee",
+    "size": 522,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/34222acfe562266626cf72a03c111f3b4fcaefee"
+  },
+  {
+    "path": "cache.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7914dff6629cc428bbb48eaba4dd5d173196cce0",
+    "size": 5443,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/7914dff6629cc428bbb48eaba4dd5d173196cce0"
+  },
+  {
+    "path": "cache_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c625078b6e0d57ca995acc36d59988a7da62f767",
+    "size": 6298,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/c625078b6e0d57ca995acc36d59988a7da62f767"
+  },
+  {
+    "path": "client.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed907e8db8e30eb752f0ef36bb26aac8a2eb055a",
+    "size": 9692,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/ed907e8db8e30eb752f0ef36bb26aac8a2eb055a"
+  },
+  {
+    "path": "client_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae51762a2a70e0b3b72033d2924830fc3e5d5d48",
+    "size": 53837,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/ae51762a2a70e0b3b72033d2924830fc3e5d5d48"
+  },
+  {
+    "path": "cluster.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e82cd9cba95de3a5a3568e2810c23c453571934d",
+    "size": 38764,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/e82cd9cba95de3a5a3568e2810c23c453571934d"
+  },
+  {
+    "path": "cluster_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf530e0c89b134971588e3840eb1dc69fe9e1354",
+    "size": 257393,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/cf530e0c89b134971588e3840eb1dc69fe9e1354"
+  },
+  {
+    "path": "cmds.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46cd2d3966c58080f87d739c30afeaeba4261391",
+    "size": 1292,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/46cd2d3966c58080f87d739c30afeaeba4261391"
+  },
+  {
+    "path": "codecov.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a544e4c963180ad13999f7c5f2df81cc42ceddb7",
+    "size": 73,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/a544e4c963180ad13999f7c5f2df81cc42ceddb7"
+  },
+  {
+    "path": "docker-compose.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca93886ce37608546c9a9ac02da0a9d170761719",
+    "size": 4033,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/ca93886ce37608546c9a9ac02da0a9d170761719"
+  },
+  {
+    "path": "dockertest.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "21e83972c95401082bbdccad0567a7565b1bb12a",
+    "size": 961,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/21e83972c95401082bbdccad0567a7565b1bb12a"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ef7894e0be70ca22fa382044e691c84c1055c5c",
+    "size": 492,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/6ef7894e0be70ca22fa382044e691c84c1055c5c"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25b2f8675ba7fbf77722bd4899a67c1c532976d5",
+    "size": 2717,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/25b2f8675ba7fbf77722bd4899a67c1c532976d5"
+  },
+  {
+    "path": "hack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b6154fe28f9a3dfaaa1c34c7da00f0fc67128a0f",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/b6154fe28f9a3dfaaa1c34c7da00f0fc67128a0f"
+  },
+  {
+    "path": "helper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4289a0bede17664d5d425a5db3f35dc25390cc4a",
+    "size": 9756,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/4289a0bede17664d5d425a5db3f35dc25390cc4a"
+  },
+  {
+    "path": "helper_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69695e023f515c6505f55bd6071273b5ce5fad53",
+    "size": 53742,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/69695e023f515c6505f55bd6071273b5ce5fad53"
+  },
+  {
+    "path": "internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "46df48c7ab8232b42d666b1f5f60490d48ebf250",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/46df48c7ab8232b42d666b1f5f60490d48ebf250"
+  },
+  {
+    "path": "lru.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78dc6aa2390b7bb38be575abb6c2005b145d8e53",
+    "size": 7143,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/78dc6aa2390b7bb38be575abb6c2005b145d8e53"
+  },
+  {
+    "path": "lru_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec99c9f567f78fd39523ab541af6cf2408684f21",
+    "size": 17749,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/ec99c9f567f78fd39523ab541af6cf2408684f21"
+  },
+  {
+    "path": "lua.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce4a5cefdb24a8ac34e9a5ac83616ba03105954c",
+    "size": 4735,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/ce4a5cefdb24a8ac34e9a5ac83616ba03105954c"
+  },
+  {
+    "path": "lua_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecd9a23f39bec4c07d35e5b992e1dfa0e271291e",
+    "size": 11428,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/ecd9a23f39bec4c07d35e5b992e1dfa0e271291e"
+  },
+  {
+    "path": "message.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "891fe33b3de9c87831012a64cc64f732f1c4a31d",
+    "size": 42611,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/891fe33b3de9c87831012a64cc64f732f1c4a31d"
+  },
+  {
+    "path": "message_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0359351fc21cef0216ed37bcf534b5858d0a5d9",
+    "size": 85361,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/d0359351fc21cef0216ed37bcf534b5858d0a5d9"
+  },
+  {
+    "path": "mock",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "efd3a3fde79dbf1229f9ce5b126bb96f4ea097a4",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/efd3a3fde79dbf1229f9ce5b126bb96f4ea097a4"
+  },
+  {
+    "path": "mux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19fb17e92d006909098181ae33c4c7f9abfd02bc",
+    "size": 10614,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/19fb17e92d006909098181ae33c4c7f9abfd02bc"
+  },
+  {
+    "path": "mux_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d197cad9dfd4a40670826b24656fe60fddb7aa24",
+    "size": 34938,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/d197cad9dfd4a40670826b24656fe60fddb7aa24"
+  },
+  {
+    "path": "om",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cf079a4ecc7ecfc975fd8c1ed6a6ec6945f0a2bd",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/cf079a4ecc7ecfc975fd8c1ed6a6ec6945f0a2bd"
+  },
+  {
+    "path": "pipe.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "086894888fe783f2697c5cdeab03e6bf956ba991",
+    "size": 45227,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/086894888fe783f2697c5cdeab03e6bf956ba991"
+  },
+  {
+    "path": "pipe_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ee34884cb33a79a3b2864f5eba77406eb2737c1",
+    "size": 156794,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/7ee34884cb33a79a3b2864f5eba77406eb2737c1"
+  },
+  {
+    "path": "pool.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d9549244ec25aeb772a9efabe88493a2842bc37",
+    "size": 3014,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/3d9549244ec25aeb772a9efabe88493a2842bc37"
+  },
+  {
+    "path": "pool_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c37ede40c58cfff18f2d0df4a5fef6917aabc1df",
+    "size": 15027,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/c37ede40c58cfff18f2d0df4a5fef6917aabc1df"
+  },
+  {
+    "path": "pubsub.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11e5f7aa46ff3a4ce973f6507c7b335e3cc1ef64",
+    "size": 3235,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/11e5f7aa46ff3a4ce973f6507c7b335e3cc1ef64"
+  },
+  {
+    "path": "pubsub_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f006a73ed60df82c92dc5c2d839778090bd70749",
+    "size": 2147,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/f006a73ed60df82c92dc5c2d839778090bd70749"
+  },
+  {
+    "path": "redis_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "40a0bc4d23dba0fe45273190c0e64273edb1938a",
+    "size": 31462,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/40a0bc4d23dba0fe45273190c0e64273edb1938a"
+  },
+  {
+    "path": "resp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9736138e873002dd6bac19c3786ebae42e185b0b",
+    "size": 9288,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/9736138e873002dd6bac19c3786ebae42e185b0b"
+  },
+  {
+    "path": "resp_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4668d670b02d346d7cc106b77e218f022624e372",
+    "size": 17474,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/4668d670b02d346d7cc106b77e218f022624e372"
+  },
+  {
+    "path": "retry.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccab507d38db7beb16674d4c5bc31de8de645ab9",
+    "size": 2725,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/ccab507d38db7beb16674d4c5bc31de8de645ab9"
+  },
+  {
+    "path": "retry_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "111e743fcd9456200cd29c99bdb6b29de9d8af1c",
+    "size": 5611,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/111e743fcd9456200cd29c99bdb6b29de9d8af1c"
+  },
+  {
+    "path": "ring.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "185685841726186f26fbaff34de8f47f05af2eb4",
+    "size": 2908,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/185685841726186f26fbaff34de8f47f05af2eb4"
+  },
+  {
+    "path": "ring_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "171831f00630847122e21b8df053bc2f2078340d",
+    "size": 4047,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/171831f00630847122e21b8df053bc2f2078340d"
+  },
+  {
+    "path": "rueidis.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "121b4807a0c1c4695d5fc31b8854241418a01ea9",
+    "size": 25872,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/121b4807a0c1c4695d5fc31b8854241418a01ea9"
+  },
+  {
+    "path": "rueidis_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcf7cb10e48c1bd7427db9b322bfb9b3444fd8de",
+    "size": 18404,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/bcf7cb10e48c1bd7427db9b322bfb9b3444fd8de"
+  },
+  {
+    "path": "rueidisaside",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "65e9023a00779ccef3f69c23b33863d49ee1d6f4",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/65e9023a00779ccef3f69c23b33863d49ee1d6f4"
+  },
+  {
+    "path": "rueidiscompat",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fcddb20325534171f9a3513f682950eb75e061b8",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/fcddb20325534171f9a3513f682950eb75e061b8"
+  },
+  {
+    "path": "rueidishook",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7502fbccf581fe715c7506ace80c23ecabf5ddfd",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/7502fbccf581fe715c7506ace80c23ecabf5ddfd"
+  },
+  {
+    "path": "rueidislimiter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aef835da1d54546ed29078f765388843f5bc9e22",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/aef835da1d54546ed29078f765388843f5bc9e22"
+  },
+  {
+    "path": "rueidislock",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c15b13693476af0059f9611d4a2026adb9cd7a5",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/2c15b13693476af0059f9611d4a2026adb9cd7a5"
+  },
+  {
+    "path": "rueidisotel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5380f7791c26ad3f6f812fa98a7d53d10b31b391",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/5380f7791c26ad3f6f812fa98a7d53d10b31b391"
+  },
+  {
+    "path": "rueidisprob",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f6e8ded508ebba7bf18ac344eb8b803b04a691dd",
+    "url": "https://api.github.com/repos/redis/rueidis/git/trees/f6e8ded508ebba7bf18ac344eb8b803b04a691dd"
+  },
+  {
+    "path": "sentinel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "646dfb8dbf0ab40b782070e0d08ca6cd1b3d898b",
+    "size": 17282,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/646dfb8dbf0ab40b782070e0d08ca6cd1b3d898b"
+  },
+  {
+    "path": "sentinel_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6ca7c9f6679b8d17796498aab76fb0a8ad4f6e0",
+    "size": 103743,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/c6ca7c9f6679b8d17796498aab76fb0a8ad4f6e0"
+  },
+  {
+    "path": "singleflight.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01d1f4b06c72b2f9c838c8fb25477a5d888502b1",
+    "size": 1085,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/01d1f4b06c72b2f9c838c8fb25477a5d888502b1"
+  },
+  {
+    "path": "singleflight_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a0ac3440d3576e37431df04b10c5cbd73f9b10d",
+    "size": 2296,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/0a0ac3440d3576e37431df04b10c5cbd73f9b10d"
+  },
+  {
+    "path": "standalone.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60c2cd29432ddc30570d0582bb122a3d27017611",
+    "size": 3668,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/60c2cd29432ddc30570d0582bb122a3d27017611"
+  },
+  {
+    "path": "standalone_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3875b79d77de03aa930e6f7d6269ef0687f22956",
+    "size": 7364,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/3875b79d77de03aa930e6f7d6269ef0687f22956"
+  },
+  {
+    "path": "syncp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff340bc735bd55f92328aae11922695b39336aa8",
+    "size": 4956,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/ff340bc735bd55f92328aae11922695b39336aa8"
+  },
+  {
+    "path": "url.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dda837000aaf174a55a3685b185dbfb7c276bcda",
+    "size": 3358,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/dda837000aaf174a55a3685b185dbfb7c276bcda"
+  },
+  {
+    "path": "url_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f4c849f7fc5e1e1dc1af559fc7010bf428611c3",
+    "size": 4440,
+    "url": "https://api.github.com/repos/redis/rueidis/git/blobs/6f4c849f7fc5e1e1dc1af559fc7010bf428611c3"
+  }
+]

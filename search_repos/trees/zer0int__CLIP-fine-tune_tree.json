@@ -1,0 +1,639 @@
+[
+  {
+    "path": "CLIP-PCA-compare-org-to-finetuned-model.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f8ed71f4bfd2e3062f4487a121dbdf0d1dca97f",
+    "size": 3040,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/6f8ed71f4bfd2e3062f4487a121dbdf0d1dca97f"
+  },
+  {
+    "path": "COCO",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f62dd8083f8b09ba5206452fb3d3929d72515244",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/f62dd8083f8b09ba5206452fb3d3929d72515244"
+  },
+  {
+    "path": "Convert-for-HuggingFace-Spaces-etc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "108bb5ab25a23c3418c37a57e8ed7d690315aff8",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/108bb5ab25a23c3418c37a57e8ed7d690315aff8"
+  },
+  {
+    "path": "KO-CLIP-convert-for-huggingface",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee11d508f6628218447317c5f32d46d19cf3c012",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/ee11d508f6628218447317c5f32d46d19cf3c012"
+  },
+  {
+    "path": "KO-CLIP-teaser",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "812a696816daa47b6372b114fb702233a1e973d6",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/812a696816daa47b6372b114fb702233a1e973d6"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92b2e572c666f51ae4e995e7e01b71dc159f98b7",
+    "size": 1064,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/92b2e572c666f51ae4e995e7e01b71dc159f98b7"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03c3d64f4c07fee3920c2586794e349c06ccc655",
+    "size": 27419,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/03c3d64f4c07fee3920c2586794e349c06ccc655"
+  },
+  {
+    "path": "a-loss-to-penalize-overfit-via-entropy.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "364efbd4718f05979bbaa8768495c6cba0ff8834",
+    "size": 1880,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/364efbd4718f05979bbaa8768495c6cba0ff8834"
+  },
+  {
+    "path": "attnclip",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "85ab433deeafc3bbd5805be2aa829d7a32ffdd42",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/85ab433deeafc3bbd5805be2aa829d7a32ffdd42"
+  },
+  {
+    "path": "attnclipindiv",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c3c86576bfdb04729f3d0bab693dd49e567b6eab",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/c3c86576bfdb04729f3d0bab693dd49e567b6eab"
+  },
+  {
+    "path": "attnclipindiv_train",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "08dbfc17fe12d6f65fba78660ae256cc714a4482",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/08dbfc17fe12d6f65fba78660ae256cc714a4482"
+  },
+  {
+    "path": "cliptools.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad95cde521f63020a68a1b652d037777cb89f914",
+    "size": 67738,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/ad95cde521f63020a68a1b652d037777cb89f914"
+  },
+  {
+    "path": "convert-individual-labels-to-zer0int-json-COCO-SPRIGHT.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48d2f7a5f913a8b15bc3164345138681ecc5eaa8",
+    "size": 1170,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/48d2f7a5f913a8b15bc3164345138681ecc5eaa8"
+  },
+  {
+    "path": "convert-zer0int-json-individuals-to-kohya-json.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69bec19aef9e46d1560b305708bbced7bcb7366a",
+    "size": 1228,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/69bec19aef9e46d1560b305708bbced7bcb7366a"
+  },
+  {
+    "path": "convert-zer0int-json-to-individual-labels.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ed9ffcc6ac0a2afe66e5e7eae3ee7d03ad0f1f0",
+    "size": 836,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/8ed9ffcc6ac0a2afe66e5e7eae3ee7d03ad0f1f0"
+  },
+  {
+    "path": "exp-acts-ft-SMOOTH-finetune-OpenAI-CLIP-ViT-L-14-GmP.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62d46d146b80c28da7ffd21747faa10caa468d4c",
+    "size": 22222,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/62d46d146b80c28da7ffd21747faa10caa468d4c"
+  },
+  {
+    "path": "exp-acts-ft-finetune-OpenAI-CLIP-ViT-L-14-GmP-manipulate-neurons.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9aa4e0f359ec9101385aa61dac0ffde6987e9e42",
+    "size": 21667,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/9aa4e0f359ec9101385aa61dac0ffde6987e9e42"
+  },
+  {
+    "path": "exp-ft-B-GmP-finetune-OpenAI-ViT-L-14.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1bd140101abf139588d9a0917511209d12cc191",
+    "size": 22840,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/d1bd140101abf139588d9a0917511209d12cc191"
+  },
+  {
+    "path": "exp-ft-C-convert-GmP-back-to-weight.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ecac1fe26da51c3e84ecbb80af0fb78b808cdff",
+    "size": 2362,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/7ecac1fe26da51c3e84ecbb80af0fb78b808cdff"
+  },
+  {
+    "path": "exp-ft-X-visualize-theta-r-barplots.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80c3c5c9a7a2a8be1e2219bc69fbe61784603e5e",
+    "size": 2919,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/80c3c5c9a7a2a8be1e2219bc69fbe61784603e5e"
+  },
+  {
+    "path": "ft-A-clip-interrogator-csv-to-json-labels.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "172e9da5053f2d51806b8a4469dfbda4b323dbd7",
+    "size": 1499,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/172e9da5053f2d51806b8a4469dfbda4b323dbd7"
+  },
+  {
+    "path": "ft-A-data-augment-color-jitter.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33297370f2ba108730fa8c1b22e5629367dc4e53",
+    "size": 872,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/33297370f2ba108730fa8c1b22e5629367dc4e53"
+  },
+  {
+    "path": "ft-B-train-OpenAI-CLIP-ViT-L-14.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1e0964fa0cadf8a1c64ae0faf44ab961d0c66eb",
+    "size": 20354,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/f1e0964fa0cadf8a1c64ae0faf44ab961d0c66eb"
+  },
+  {
+    "path": "ft-C-convert-for-SDXL-comfyUI-OpenAI-CLIP.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a845377dc30f0d9ae25457ede07d8bf5496eb1b3",
+    "size": 378,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/a845377dc30f0d9ae25457ede07d8bf5496eb1b3"
+  },
+  {
+    "path": "ft-C-convert-to-safetensors.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "003d392e119ae8c72db12ad21cfc6a18f51892cb",
+    "size": 604,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/003d392e119ae8c72db12ad21cfc6a18f51892cb"
+  },
+  {
+    "path": "ft-C-convert-with-org-dtype-fp16.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "806fbd87937ec41d2ab7cfd3c9bf82594208c366",
+    "size": 596,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/806fbd87937ec41d2ab7cfd3c9bf82594208c366"
+  },
+  {
+    "path": "ft-D-eval-imagenet-objectnet.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b3620d5dc32b78265cc0301691e30d0ee13e8e1",
+    "size": 3842,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/7b3620d5dc32b78265cc0301691e30d0ee13e8e1"
+  },
+  {
+    "path": "ft-D-eval-model-on-my-finetune-dataset.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08a727f4b6a3eb4b3d25a6b343679bb523154930",
+    "size": 4457,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/08a727f4b6a3eb4b3d25a6b343679bb523154930"
+  },
+  {
+    "path": "ft-X-example-my-dataset-labels.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "496d668f24523a3e68f1939c448456e3fd0745e4",
+    "size": 855,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/496d668f24523a3e68f1939c448456e3fd0745e4"
+  },
+  {
+    "path": "gmpclip",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "901899651581b4073b190b3c5e93a62770a3bb77",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/901899651581b4073b190b3c5e93a62770a3bb77"
+  },
+  {
+    "path": "image_sets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6817724413680a0f4812627937220647079473b3",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/6817724413680a0f4812627937220647079473b3"
+  },
+  {
+    "path": "ko-1-fine-tune-clip-ko-head-dropout.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1c49051c4a417fca2b9946ceb510c26d8533c99",
+    "size": 27990,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/c1c49051c4a417fca2b9946ceb510c26d8533c99"
+  },
+  {
+    "path": "ko-2-convert-back-to-weight.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8480a4c1da8031a89a222698ac929127138b8118",
+    "size": 5343,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/8480a4c1da8031a89a222698ac929127138b8118"
+  },
+  {
+    "path": "ko-3-quick-finetune-eval.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63e31ca5d0b639a0fc1d9817556fe274d0aeb892",
+    "size": 16493,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/63e31ca5d0b639a0fc1d9817556fe274d0aeb892"
+  },
+  {
+    "path": "ko-a-huggingface-transformers-example.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df95b405acd8f1ee3ea450b436df15f1380cee16",
+    "size": 7446,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/df95b405acd8f1ee3ea450b436df15f1380cee16"
+  },
+  {
+    "path": "ko-eval-imagenet-linear-probe.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c62a11fb3b5dd3cdc41df9618dc261f82727c43c",
+    "size": 8053,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/c62a11fb3b5dd3cdc41df9618dc261f82727c43c"
+  },
+  {
+    "path": "ko-eval-imagenet-objectnet.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d3154fa5f5ca2dd665c277821d32f647388c839",
+    "size": 7819,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/2d3154fa5f5ca2dd665c277821d32f647388c839"
+  },
+  {
+    "path": "ko-eval-modgap-flickr8k.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffe2b11aa828dc74ad7ff3c99eae0391a2cc3c39",
+    "size": 12998,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/ffe2b11aa828dc74ad7ff3c99eae0391a2cc3c39"
+  },
+  {
+    "path": "ko-eval-zeroshot-attack-bliss-scam.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1616b550561d8cc84bf089906eaea05f7dd5b76c",
+    "size": 4502,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/1616b550561d8cc84bf089906eaea05f7dd5b76c"
+  },
+  {
+    "path": "ko-eval-zeroshot-attack-multilingual.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21e522f18302cf5e8787f61de99ad85f5c3a3268",
+    "size": 8142,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/21e522f18302cf5e8787f61de99ad85f5c3a3268"
+  },
+  {
+    "path": "ko-eval-zeroshot-attack-rta-100.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8495c5fcc245ad86bea5d195f6899558ef9c4373",
+    "size": 4689,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/8495c5fcc245ad86bea5d195f6899558ef9c4373"
+  },
+  {
+    "path": "ko-eval-zeroshot-attack.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c3240ed470e57cec948b88c74a032017f720264",
+    "size": 10074,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/3c3240ed470e57cec948b88c74a032017f720264"
+  },
+  {
+    "path": "ko-long-1-fine-tune-clip-ko-head-dropout.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5671e32c82b6fa2839ebfa254aae3fca6e76d58",
+    "size": 28213,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/e5671e32c82b6fa2839ebfa254aae3fca6e76d58"
+  },
+  {
+    "path": "ko-long-2-convert-back-to-weight.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "445fa037e1f55162d8f6489a32ff93355458b3c1",
+    "size": 5359,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/445fa037e1f55162d8f6489a32ff93355458b3c1"
+  },
+  {
+    "path": "ko-long-3-quick-finetune-eval.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5caacf6a2191a5635647f814dcfc08601b4c818e",
+    "size": 16516,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/5caacf6a2191a5635647f814dcfc08601b4c818e"
+  },
+  {
+    "path": "ko-long-eval-imagenet-linear-probe.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11788f2cf4d57eab50270a78325bd46d757ace5e",
+    "size": 7529,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/11788f2cf4d57eab50270a78325bd46d757ace5e"
+  },
+  {
+    "path": "ko-long-eval-imagenet-objectnet.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "125dcfd3541fcf512b1929fb571d80e6f5c25046",
+    "size": 7301,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/125dcfd3541fcf512b1929fb571d80e6f5c25046"
+  },
+  {
+    "path": "ko-long-eval-modgap-flickr8k.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "143e959e4c32683c59496a4f6b45ca4a15a1d55a",
+    "size": 12478,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/143e959e4c32683c59496a4f6b45ca4a15a1d55a"
+  },
+  {
+    "path": "ko-long-eval-zeroshot-attack-bliss-scam.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1615be9dac5ae0e8d23fed1ff32f2cb4432850bf",
+    "size": 4122,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/1615be9dac5ae0e8d23fed1ff32f2cb4432850bf"
+  },
+  {
+    "path": "ko-long-eval-zeroshot-attack-rta-100.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a30d8019035125692aaf69c8b9f67e1bb8ecc40",
+    "size": 4311,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/2a30d8019035125692aaf69c8b9f67e1bb8ecc40"
+  },
+  {
+    "path": "ko-tools-attn-corr-entropy-saliency.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09e45c1801832ea16e2268aa19b44cf79a4c49b0",
+    "size": 9221,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/09e45c1801832ea16e2268aa19b44cf79a4c49b0"
+  },
+  {
+    "path": "ko-tools-attn-mean-output-norm.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e4545f2106a921d632cefe015f136a8dbe56b19",
+    "size": 9761,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/3e4545f2106a921d632cefe015f136a8dbe56b19"
+  },
+  {
+    "path": "ko-tools-attn-representation-nmi.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "884579098e850688c4f2a4498d7232aeba588517",
+    "size": 11190,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/884579098e850688c4f2a4498d7232aeba588517"
+  },
+  {
+    "path": "ko-tools-attn-visualization-all-layers.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6addea4ad883789f659f81fc8f204d6fc6ac6865",
+    "size": 12176,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/6addea4ad883789f659f81fc8f204d6fc6ac6865"
+  },
+  {
+    "path": "ko-tools-attn-visualization.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "729090ce9c5bb44151c3f2251d66caf587c28eb2",
+    "size": 11893,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/729090ce9c5bb44151c3f2251d66caf587c28eb2"
+  },
+  {
+    "path": "ko-tools-attn-vit-only-per-head-visualization.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1688e6878324d5a0f50c9dce6d11893fafc8c542",
+    "size": 6383,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/1688e6878324d5a0f50c9dce6d11893fafc8c542"
+  },
+  {
+    "path": "ko-tools-check-attn-head-influence.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b04f18c05e5652dfcae1527cb86a383d3847a3be",
+    "size": 6053,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/b04f18c05e5652dfcae1527cb86a383d3847a3be"
+  },
+  {
+    "path": "ko-tools-generate-image-attn-head-max-vis.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c66aa2a95374a02efd2cce8376e2e3c74c25cb2c",
+    "size": 15296,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/c66aa2a95374a02efd2cce8376e2e3c74c25cb2c"
+  },
+  {
+    "path": "ko-tools-gradient-ascent-clip-opinion.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2bba490adeeebeae8869f386773cee91829a724",
+    "size": 15623,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/a2bba490adeeebeae8869f386773cee91829a724"
+  },
+  {
+    "path": "ko-tools-head-ablation-study-with-text-CLS.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93c199c2e394a01d6768583dfcdf4758d2106d9d",
+    "size": 19314,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/93c199c2e394a01d6768583dfcdf4758d2106d9d"
+  },
+  {
+    "path": "ko-tools-pgd-adversarial-perturb.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a97d717f09c2d398f9b6ac46189a622ec4152dc8",
+    "size": 11141,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/a97d717f09c2d398f9b6ac46189a622ec4152dc8"
+  },
+  {
+    "path": "ko-tools-pgd-eval-adv-example.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "417445985dfd1ca725ed010009bed50383b4780a",
+    "size": 15667,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/417445985dfd1ca725ed010009bed50383b4780a"
+  },
+  {
+    "path": "ko-tools-visualize-patch-norms-ablation.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3032f65f1473e9a8d8f25fdb13fa5cb7504f1142",
+    "size": 10081,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/3032f65f1473e9a8d8f25fdb13fa5cb7504f1142"
+  },
+  {
+    "path": "ko-tools-visualize-patch-norms.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52d4380ac2578a491696bac34c4c4938cf526a12",
+    "size": 8184,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/52d4380ac2578a491696bac34c4c4938cf526a12"
+  },
+  {
+    "path": "ko-xmisc-word-on-image-adv-gen-imagenet.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f8c4bc4abe754dd3b42abd97ba1a676da083ff8",
+    "size": 2879,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/8f8c4bc4abe754dd3b42abd97ba1a676da083ff8"
+  },
+  {
+    "path": "ko_adversarial_dataset",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43bd6accadf9fa2450ec46bc89a5439e83315321",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/43bd6accadf9fa2450ec46bc89a5439e83315321"
+  },
+  {
+    "path": "longattnclip",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0704a5d6d57517142c6aa68da0050065b11d2c18",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/0704a5d6d57517142c6aa68da0050065b11d2c18"
+  },
+  {
+    "path": "longattnclipindiv",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f5c96f64cb8a06e43e206e6fe7516c5f5e746c38",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/f5c96f64cb8a06e43e206e6fe7516c5f5e746c38"
+  },
+  {
+    "path": "longattnclipindiv_train",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bbcdefae26b23a79aa46ff01f841dd57089a11b1",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/bbcdefae26b23a79aa46ff01f841dd57089a11b1"
+  },
+  {
+    "path": "longclip",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "49e51eba8c4ae69ae5348023127b5c18e1350ebc",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/49e51eba8c4ae69ae5348023127b5c18e1350ebc"
+  },
+  {
+    "path": "merge-SDXL-TE-into-full-CLIP-model-object",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "df835a288dbdd753d4c92f4078c648b7d4d73745",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/df835a288dbdd753d4c92f4078c648b7d4d73745"
+  },
+  {
+    "path": "models",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f75d8e51a124a7d7b13388d936892df37fa5d167",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/f75d8e51a124a7d7b13388d936892df37fa5d167"
+  },
+  {
+    "path": "orgclip",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3cc5c60c95cb54ef0c6460aacad3b4c2737b0bc0",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/3cc5c60c95cb54ef0c6460aacad3b4c2737b0bc0"
+  },
+  {
+    "path": "orgclipnosha",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a4dbb856c6094b642fc659dfe99d18c89cd6f750",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/a4dbb856c6094b642fc659dfe99d18c89cd6f750"
+  },
+  {
+    "path": "requirements-finetune.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb677c67df089a5b373f4dec821a64de8929f974",
+    "size": 217,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/eb677c67df089a5b373f4dec821a64de8929f974"
+  },
+  {
+    "path": "requirements.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4072f547ddc00078fa80b6c034cf55c2a4b68224",
+    "size": 351,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/4072f547ddc00078fa80b6c034cf55c2a4b68224"
+  },
+  {
+    "path": "search-for-string-in-py-code.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28a9562b70c9fd88e031c2193c178729987e6a54",
+    "size": 611,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/28a9562b70c9fd88e031c2193c178729987e6a54"
+  },
+  {
+    "path": "test-models-new-saver.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7acf5b2d52569d9a8bd325d5a2c0671c2020a0ee",
+    "size": 4930,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/7acf5b2d52569d9a8bd325d5a2c0671c2020a0ee"
+  },
+  {
+    "path": "yolo-arbitrary-square-crop-min-224.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7addce65da0d58d5e3990b275a22eda9187aa77c",
+    "size": 3143,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/7addce65da0d58d5e3990b275a22eda9187aa77c"
+  },
+  {
+    "path": "yolo-crop-to-detected-object.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8647a625a83b4deb2bfde9ff2e4d514608c214bf",
+    "size": 2429,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/8647a625a83b4deb2bfde9ff2e4d514608c214bf"
+  },
+  {
+    "path": "yolo-dogs-not-people.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6e719bff9caa8c36f5b73d946030c060eda493f",
+    "size": 2981,
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/blobs/e6e719bff9caa8c36f5b73d946030c060eda493f"
+  },
+  {
+    "path": "yolo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1328d73bb7efb9c6204a3ca7be19587fcbaf5cca",
+    "url": "https://api.github.com/repos/zer0int/CLIP-fine-tune/git/trees/1328d73bb7efb9c6204a3ca7be19587fcbaf5cca"
+  }
+]

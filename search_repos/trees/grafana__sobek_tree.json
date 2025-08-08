@@ -1,0 +1,890 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a726f053d1ed8a778d70e602a1fdf448bf3ee6ff",
+    "url": "https://api.github.com/repos/grafana/sobek/git/trees/a726f053d1ed8a778d70e602a1fdf448bf3ee6ff"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22b26fd46da9ab7c0a908ee42d45f87c6a8b8a5e",
+    "size": 29,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/22b26fd46da9ab7c0a908ee42d45f87c6a8b8a5e"
+  },
+  {
+    "path": ".tc39_test262_checkout.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1500daa976a4aed794fd6e56e7746210afd81de2",
+    "size": 289,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/1500daa976a4aed794fd6e56e7746210afd81de2"
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b18311e05e97c5d57f71aae3af5306a61d7ab05",
+    "size": 25,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/6b18311e05e97c5d57f71aae3af5306a61d7ab05"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09c000454f729cae7a9317bd348f79c097d670cb",
+    "size": 1090,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/09c000454f729cae7a9317bd348f79c097d670cb"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92dd314971fd99426beadcc83385118f718cecd8",
+    "size": 12227,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/92dd314971fd99426beadcc83385118f718cecd8"
+  },
+  {
+    "path": "array.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef12dc558fba622b552ca4385c13910e143e1f53",
+    "size": 13700,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/ef12dc558fba622b552ca4385c13910e143e1f53"
+  },
+  {
+    "path": "array_sparse.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "877d281976ae730bd9f8833d787bafbe92657396",
+    "size": 12428,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/877d281976ae730bd9f8833d787bafbe92657396"
+  },
+  {
+    "path": "array_sparse_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32f513e72cf213069b60adcced83871f1cba6e21",
+    "size": 5589,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/32f513e72cf213069b60adcced83871f1cba6e21"
+  },
+  {
+    "path": "array_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baded42285865c2ff88b9cd4a635ebaa07e0d046",
+    "size": 2203,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/baded42285865c2ff88b9cd4a635ebaa07e0d046"
+  },
+  {
+    "path": "ast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5f6795604b28f1ba07df98da5ff3ba7aad60b0a6",
+    "url": "https://api.github.com/repos/grafana/sobek/git/trees/5f6795604b28f1ba07df98da5ff3ba7aad60b0a6"
+  },
+  {
+    "path": "builtin_array.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d421637330a909966977d0508e2f25c5e4d68ad5",
+    "size": 47679,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/d421637330a909966977d0508e2f25c5e4d68ad5"
+  },
+  {
+    "path": "builtin_arrray_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e779cc3870c95f4c974da5cb3f51fbdfd74b580",
+    "size": 9281,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/6e779cc3870c95f4c974da5cb3f51fbdfd74b580"
+  },
+  {
+    "path": "builtin_bigint.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c393e60dd2227741e1e28943bcd3c83eb952234",
+    "size": 9780,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/3c393e60dd2227741e1e28943bcd3c83eb952234"
+  },
+  {
+    "path": "builtin_bigint_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59961e6f2104f83ca612b2f87c37f0d094323d21",
+    "size": 4114,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/59961e6f2104f83ca612b2f87c37f0d094323d21"
+  },
+  {
+    "path": "builtin_boolean.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "757f8ad742355546b1660ef029f7503aa9d88fc8",
+    "size": 1968,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/757f8ad742355546b1660ef029f7503aa9d88fc8"
+  },
+  {
+    "path": "builtin_date.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b67e7f0e1798047bf57060167ad2b5edf6b8b346",
+    "size": 31229,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/b67e7f0e1798047bf57060167ad2b5edf6b8b346"
+  },
+  {
+    "path": "builtin_error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "132fae6d28ba434a6c85f2913dfe4b23418a1258",
+    "size": 8397,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/132fae6d28ba434a6c85f2913dfe4b23418a1258"
+  },
+  {
+    "path": "builtin_function.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f8872fccc76ac66ec6ff8c34f223ebc67dd150e",
+    "size": 11450,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/5f8872fccc76ac66ec6ff8c34f223ebc67dd150e"
+  },
+  {
+    "path": "builtin_function_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bf2c5fb4c770ca245d6713466c9d89f2ded932c",
+    "size": 434,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/7bf2c5fb4c770ca245d6713466c9d89f2ded932c"
+  },
+  {
+    "path": "builtin_global.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f22521a3c07af8f08b4376b8608823bab7e50e2c",
+    "size": 15044,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/f22521a3c07af8f08b4376b8608823bab7e50e2c"
+  },
+  {
+    "path": "builtin_global_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cda46b5b21a2f2c3d8715e1c6f23927f9ab35bce",
+    "size": 408,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/cda46b5b21a2f2c3d8715e1c6f23927f9ab35bce"
+  },
+  {
+    "path": "builtin_json.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3fbbd7b46a223e16e074f27ca451ea34cab0a3c",
+    "size": 12301,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/e3fbbd7b46a223e16e074f27ca451ea34cab0a3c"
+  },
+  {
+    "path": "builtin_json_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "437a22cffeba675483a3789f1d6a4817db3d6a1a",
+    "size": 3069,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/437a22cffeba675483a3789f1d6a4817db3d6a1a"
+  },
+  {
+    "path": "builtin_map.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0c887fcc5d26571331b47fce8c6c0077656fa1f",
+    "size": 9369,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/c0c887fcc5d26571331b47fce8c6c0077656fa1f"
+  },
+  {
+    "path": "builtin_map_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef982ca80bf321af8c7de7040a73851e6c947f16",
+    "size": 4223,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/ef982ca80bf321af8c7de7040a73851e6c947f16"
+  },
+  {
+    "path": "builtin_math.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a31d7c32e041a8b04e2b3d9fa9a89d4c2a602835",
+    "size": 11260,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/a31d7c32e041a8b04e2b3d9fa9a89d4c2a602835"
+  },
+  {
+    "path": "builtin_number.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7b2ee040d41c0d3bebe8e6101760777b84c26b9",
+    "size": 8759,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/f7b2ee040d41c0d3bebe8e6101760777b84c26b9"
+  },
+  {
+    "path": "builtin_object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "957ef63911226730f042d0f204f3cc1ea06df60b",
+    "size": 19680,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/957ef63911226730f042d0f204f3cc1ea06df60b"
+  },
+  {
+    "path": "builtin_promise.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc05f7682050a0f7d83700cd19cc53bf63a3a3bb",
+    "size": 19807,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/bc05f7682050a0f7d83700cd19cc53bf63a3a3bb"
+  },
+  {
+    "path": "builtin_proxy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ec5ba01745b05debaa19a701c0260d79be62230",
+    "size": 14243,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/4ec5ba01745b05debaa19a701c0260d79be62230"
+  },
+  {
+    "path": "builtin_proxy_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "214743f3ffb88f454418cb75aafd784dbb1e51a9",
+    "size": 27378,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/214743f3ffb88f454418cb75aafd784dbb1e51a9"
+  },
+  {
+    "path": "builtin_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ee0d7cf5a78aaadc39642831484f8afff6908b3",
+    "size": 5128,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/8ee0d7cf5a78aaadc39642831484f8afff6908b3"
+  },
+  {
+    "path": "builtin_regexp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8344b1cecd2ac13e45a2a36f863b958737076f74",
+    "size": 35354,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/8344b1cecd2ac13e45a2a36f863b958737076f74"
+  },
+  {
+    "path": "builtin_set.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45d956f115071c74dfbbded0510cc0ea3cd462ee",
+    "size": 9164,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/45d956f115071c74dfbbded0510cc0ea3cd462ee"
+  },
+  {
+    "path": "builtin_set_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e05dc02fcd1d60ceb6ed97fab24ec8a13dbb4c85",
+    "size": 2833,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/e05dc02fcd1d60ceb6ed97fab24ec8a13dbb4c85"
+  },
+  {
+    "path": "builtin_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e82697bb749c5bba650ca68689f513a06c0df5b",
+    "size": 30432,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/8e82697bb749c5bba650ca68689f513a06c0df5b"
+  },
+  {
+    "path": "builtin_string_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32d0cc41e3fb69650490ce3c5caf1f926cf4aa51",
+    "size": 8417,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/32d0cc41e3fb69650490ce3c5caf1f926cf4aa51"
+  },
+  {
+    "path": "builtin_symbol.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0c5fc8672177cb8b2d6edea9bcd95a29e301ca0",
+    "size": 4922,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/b0c5fc8672177cb8b2d6edea9bcd95a29e301ca0"
+  },
+  {
+    "path": "builtin_typedarrays.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d350f120871cb0de3b1a7089cc42b7c7f3445ead",
+    "size": 69535,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/d350f120871cb0de3b1a7089cc42b7c7f3445ead"
+  },
+  {
+    "path": "builtin_typedarrays_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "025388634d6719b14b9952142642d06bc178231e",
+    "size": 7364,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/025388634d6719b14b9952142642d06bc178231e"
+  },
+  {
+    "path": "builtin_weakmap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24bfdd2a41e477729de830a9780041cb9cd84a4a",
+    "size": 4801,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/24bfdd2a41e477729de830a9780041cb9cd84a4a"
+  },
+  {
+    "path": "builtin_weakmap_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "579ea58d9532bbd2f98517e3d845904e6f2a3e3e",
+    "size": 1301,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/579ea58d9532bbd2f98517e3d845904e6f2a3e3e"
+  },
+  {
+    "path": "builtin_weakset.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1f842ef0b002a1a52d58478c1243ac0b00ddd8e",
+    "size": 3780,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/e1f842ef0b002a1a52d58478c1243ac0b00ddd8e"
+  },
+  {
+    "path": "builtin_weakset_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "467f1f3a6a09a64a1a41ad67a6c9b19b346cf4da",
+    "size": 1835,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/467f1f3a6a09a64a1a41ad67a6c9b19b346cf4da"
+  },
+  {
+    "path": "catalog-info.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5da6147bf52a183de98851c91e421189a4e42c5",
+    "size": 355,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/c5da6147bf52a183de98851c91e421189a4e42c5"
+  },
+  {
+    "path": "compiler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "187c9df27756fde04ab5c0ec95c828225b88c08a",
+    "size": 43530,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/187c9df27756fde04ab5c0ec95c828225b88c08a"
+  },
+  {
+    "path": "compiler_expr.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76f364a35b7e09ff81e00ef8c22163c8e8e819e9",
+    "size": 84150,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/76f364a35b7e09ff81e00ef8c22163c8e8e819e9"
+  },
+  {
+    "path": "compiler_stmt.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "990f40c6ed5ab281a998014afe303a0acbf2d356",
+    "size": 33404,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/990f40c6ed5ab281a998014afe303a0acbf2d356"
+  },
+  {
+    "path": "compiler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "383847e5173b47e036f75922f4894059a025752c",
+    "size": 103186,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/383847e5173b47e036f75922f4894059a025752c"
+  },
+  {
+    "path": "date.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ea81bd8db5d668c1ce360c8c9d93cff713687dd",
+    "size": 2457,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/3ea81bd8db5d668c1ce360c8c9d93cff713687dd"
+  },
+  {
+    "path": "date_parser.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6fa81b659825b79d1410d08641c3bd61109ae52",
+    "size": 8495,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/c6fa81b659825b79d1410d08641c3bd61109ae52"
+  },
+  {
+    "path": "date_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea763cf306ea2ad127428d13e93956a5bf85cffd",
+    "size": 22187,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/ea763cf306ea2ad127428d13e93956a5bf85cffd"
+  },
+  {
+    "path": "destruct.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01e457ace2539cc958858a786540d9df501afbcf",
+    "size": 7783,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/01e457ace2539cc958858a786540d9df501afbcf"
+  },
+  {
+    "path": "extract_failed_tests.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c32513fdf692cf7a27b05cfa585fcd47eabb388c",
+    "size": 79,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/c32513fdf692cf7a27b05cfa585fcd47eabb388c"
+  },
+  {
+    "path": "file",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bdedbe00ae38893766077404a9f19684f9d35734",
+    "url": "https://api.github.com/repos/grafana/sobek/git/trees/bdedbe00ae38893766077404a9f19684f9d35734"
+  },
+  {
+    "path": "ftoa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2647d5c9e9d3868d05d78e9dab87a7590dbb11f9",
+    "url": "https://api.github.com/repos/grafana/sobek/git/trees/2647d5c9e9d3868d05d78e9dab87a7590dbb11f9"
+  },
+  {
+    "path": "func.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a044a0acb4af889dc5235aba0962cbe639d4025",
+    "size": 25705,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/2a044a0acb4af889dc5235aba0962cbe639d4025"
+  },
+  {
+    "path": "func_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "595e392b910fa29d7d3414914ef461bcf69ae287",
+    "size": 5648,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/595e392b910fa29d7d3414914ef461bcf69ae287"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b5e9566a2a3699d9d15a10899752e42d61e606d",
+    "size": 297,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/4b5e9566a2a3699d9d15a10899752e42d61e606d"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d2e8b25aac96fabc8ea727f8b02622f3c5a3d0b",
+    "size": 1301,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/4d2e8b25aac96fabc8ea727f8b02622f3c5a3d0b"
+  },
+  {
+    "path": "ipow.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d9ef0c3722c3e184d4e434cfaf7ea26f2a3c187",
+    "size": 1429,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/1d9ef0c3722c3e184d4e434cfaf7ea26f2a3c187"
+  },
+  {
+    "path": "map.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26dd400cf87f809f1d2cfca43b1dbc99027b2dd1",
+    "size": 3025,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/26dd400cf87f809f1d2cfca43b1dbc99027b2dd1"
+  },
+  {
+    "path": "map_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f82763e8b9c89357fe255d4b3175358df1cce21",
+    "size": 4924,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/3f82763e8b9c89357fe255d4b3175358df1cce21"
+  },
+  {
+    "path": "modules.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b21bf10d311fd87a5dae89896d988270e782c543",
+    "size": 16315,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/b21bf10d311fd87a5dae89896d988270e782c543"
+  },
+  {
+    "path": "modules_integration_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e19419d0136a40851b105ee0a86d43895dc1c2dc",
+    "size": 11495,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/e19419d0136a40851b105ee0a86d43895dc1c2dc"
+  },
+  {
+    "path": "modules_namespace.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b96e1497033c78dffd87ba6c081285a044ef208",
+    "size": 4528,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/3b96e1497033c78dffd87ba6c081285a044ef208"
+  },
+  {
+    "path": "modules_sourcetext.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b56d0efcc2b54c9114671ee4e6b48b423da603c9",
+    "size": 21261,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/b56d0efcc2b54c9114671ee4e6b48b423da603c9"
+  },
+  {
+    "path": "modules_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79ca93528a0855c156937180cea56f9c310af6eb",
+    "size": 13372,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/79ca93528a0855c156937180cea56f9c310af6eb"
+  },
+  {
+    "path": "object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4a00f97051ea49d5d6064397fec2930f8c051ea",
+    "size": 45159,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/c4a00f97051ea49d5d6064397fec2930f8c051ea"
+  },
+  {
+    "path": "object_args.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ef097fd28121a3d508e062d9e77bcb8ff8076e0",
+    "size": 3396,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/3ef097fd28121a3d508e062d9e77bcb8ff8076e0"
+  },
+  {
+    "path": "object_dynamic.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2ebc9784852313e646184d3ae2c800a8ed32a3c",
+    "size": 21781,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/a2ebc9784852313e646184d3ae2c800a8ed32a3c"
+  },
+  {
+    "path": "object_dynamic_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cd4fd97e04f75fb40c77b5d1eed5035f5c60fa6",
+    "size": 8289,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/8cd4fd97e04f75fb40c77b5d1eed5035f5c60fa6"
+  },
+  {
+    "path": "object_goarray_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05bb5d4179b3777cc19424d39c0c4eb4f9979f93",
+    "size": 8661,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/05bb5d4179b3777cc19424d39c0c4eb4f9979f93"
+  },
+  {
+    "path": "object_goarray_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea16a4cd7766c2d651e40305d8ba8054d696c885",
+    "size": 5755,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/ea16a4cd7766c2d651e40305d8ba8054d696c885"
+  },
+  {
+    "path": "object_gomap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d526403ca563d9769d00ba65613c805e641a4994",
+    "size": 3618,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/d526403ca563d9769d00ba65613c805e641a4994"
+  },
+  {
+    "path": "object_gomap_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "555023417a6ec64d4497698e9cb97c5c8aca9c57",
+    "size": 7403,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/555023417a6ec64d4497698e9cb97c5c8aca9c57"
+  },
+  {
+    "path": "object_gomap_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "715ab311644d3caa98cb285645b7ac5c71d96c9f",
+    "size": 6310,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/715ab311644d3caa98cb285645b7ac5c71d96c9f"
+  },
+  {
+    "path": "object_gomap_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ee74a54be3ccd1e076ce13a512ac898e4d31d7b",
+    "size": 5822,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/5ee74a54be3ccd1e076ce13a512ac898e4d31d7b"
+  },
+  {
+    "path": "object_goreflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12611c28f34e56d3536e03d832f5530ef36c2f01",
+    "size": 17123,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/12611c28f34e56d3536e03d832f5530ef36c2f01"
+  },
+  {
+    "path": "object_goreflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "765edfd6edfef3511fc27baf55864a55dbaae179",
+    "size": 31862,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/765edfd6edfef3511fc27baf55864a55dbaae179"
+  },
+  {
+    "path": "object_goslice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f71dfdfb179c30c16afa89ddeff238530b1e026",
+    "size": 7949,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/7f71dfdfb179c30c16afa89ddeff238530b1e026"
+  },
+  {
+    "path": "object_goslice_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "378322a4d2cf737c993a3b00113a1f7daa203c40",
+    "size": 2273,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/378322a4d2cf737c993a3b00113a1f7daa203c40"
+  },
+  {
+    "path": "object_goslice_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9cac787ea8da45efb6842fffbe838b13d28ea08",
+    "size": 9799,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/a9cac787ea8da45efb6842fffbe838b13d28ea08"
+  },
+  {
+    "path": "object_goslice_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "327b61ad57c9bfa76adf938b2f9a108b0791822c",
+    "size": 5585,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/327b61ad57c9bfa76adf938b2f9a108b0791822c"
+  },
+  {
+    "path": "object_template.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa39133b08403663038c71698be928ebb2e31385",
+    "size": 11638,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/fa39133b08403663038c71698be928ebb2e31385"
+  },
+  {
+    "path": "object_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa3449807df8ec4c33db4055b0b48b78aac82275",
+    "size": 12566,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/aa3449807df8ec4c33db4055b0b48b78aac82275"
+  },
+  {
+    "path": "parser",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c186bf3887a906355c4378b7170aa8a0d868ebd",
+    "url": "https://api.github.com/repos/grafana/sobek/git/trees/7c186bf3887a906355c4378b7170aa8a0d868ebd"
+  },
+  {
+    "path": "profiler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01a33b14c968d8869f961d2e456d773771742bc2",
+    "size": 8329,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/01a33b14c968d8869f961d2e456d773771742bc2"
+  },
+  {
+    "path": "profiler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50a1f997954ddff033e4a816960535c0444fda18",
+    "size": 2046,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/50a1f997954ddff033e4a816960535c0444fda18"
+  },
+  {
+    "path": "proxy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0662cde9d29584c30a54b220c17d10986f201546",
+    "size": 32569,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/0662cde9d29584c30a54b220c17d10986f201546"
+  },
+  {
+    "path": "regexp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca28ccccaf1ec133805891943912d3d705e0ed2a",
+    "size": 15869,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/ca28ccccaf1ec133805891943912d3d705e0ed2a"
+  },
+  {
+    "path": "regexp_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccc0950afbd04888d3853fcc78ee8c95e361fd9e",
+    "size": 29549,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/ccc0950afbd04888d3853fcc78ee8c95e361fd9e"
+  },
+  {
+    "path": "runtime.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ca40ecec43ec927d39273c6017fbe516e43907f",
+    "size": 82310,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/5ca40ecec43ec927d39273c6017fbe516e43907f"
+  },
+  {
+    "path": "runtime_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fb29e1a78522f97b6a0c051d8368c4930ac4433",
+    "size": 63366,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/0fb29e1a78522f97b6a0c051d8368c4930ac4433"
+  },
+  {
+    "path": "staticcheck.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2441b9d1ecaddcbf460f2499b9b61e9e50f410fa",
+    "size": 105,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/2441b9d1ecaddcbf460f2499b9b61e9e50f410fa"
+  },
+  {
+    "path": "string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f824c0340b3b505fcb1b9a7a00913e83503825d6",
+    "size": 9706,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/f824c0340b3b505fcb1b9a7a00913e83503825d6"
+  },
+  {
+    "path": "string_ascii.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63c92ada03452a61b2d9166464e98d90f1fba328",
+    "size": 7693,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/63c92ada03452a61b2d9166464e98d90f1fba328"
+  },
+  {
+    "path": "string_imported.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e61cb77c41d1937931b291a8c7301bef63cb2992",
+    "size": 6035,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/e61cb77c41d1937931b291a8c7301bef63cb2992"
+  },
+  {
+    "path": "string_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fc4a24f11c1d9323487653727fe8719c30ff00a",
+    "size": 4825,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/4fc4a24f11c1d9323487653727fe8719c30ff00a"
+  },
+  {
+    "path": "string_unicode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b755978cc620bf214d0073b972aaabe02bbe98b7",
+    "size": 12320,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/b755978cc620bf214d0073b972aaabe02bbe98b7"
+  },
+  {
+    "path": "tc39_norace_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce77a75b123faaeb458a274e134842f87502ebf3",
+    "size": 320,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/ce77a75b123faaeb458a274e134842f87502ebf3"
+  },
+  {
+    "path": "tc39_race_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f562d08ed2824ed05f9a7e621409bec22867e12",
+    "size": 623,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/3f562d08ed2824ed05f9a7e621409bec22867e12"
+  },
+  {
+    "path": "tc39_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fda1d6281f77d1ee1df66acaf024054e3faff5f1",
+    "size": 32030,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/fda1d6281f77d1ee1df66acaf024054e3faff5f1"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "200a409fccd8243ade51e0690396d0d0edabaa7e",
+    "url": "https://api.github.com/repos/grafana/sobek/git/trees/200a409fccd8243ade51e0690396d0d0edabaa7e"
+  },
+  {
+    "path": "token",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a82f7af42bf6a9e96da29626269156933a58c27d",
+    "url": "https://api.github.com/repos/grafana/sobek/git/trees/a82f7af42bf6a9e96da29626269156933a58c27d"
+  },
+  {
+    "path": "typedarrays.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "213da9fc7fb9f8fc877f6338cc8c997ee4f72fc3",
+    "size": 34619,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/213da9fc7fb9f8fc877f6338cc8c997ee4f72fc3"
+  },
+  {
+    "path": "typedarrays_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7777247ffa9a4d6b3d68780298f5a882fc15b973",
+    "size": 12803,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/7777247ffa9a4d6b3d68780298f5a882fc15b973"
+  },
+  {
+    "path": "unistring",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b178daeb8e5c5ab69d594716193392e591277e10",
+    "url": "https://api.github.com/repos/grafana/sobek/git/trees/b178daeb8e5c5ab69d594716193392e591277e10"
+  },
+  {
+    "path": "value.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18e16e3b5d0b59667856fff485272515edb308d8",
+    "size": 26928,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/18e16e3b5d0b59667856fff485272515edb308d8"
+  },
+  {
+    "path": "vm.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd47ec6ef339680d467e3c74b23615040bbf4a75",
+    "size": 123198,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/bd47ec6ef339680d467e3c74b23615040bbf4a75"
+  },
+  {
+    "path": "vm_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "022f2a5eb8af2384bb59ef097fac59f2d6d54177",
+    "size": 4710,
+    "url": "https://api.github.com/repos/grafana/sobek/git/blobs/022f2a5eb8af2384bb59ef097fac59f2d6d54177"
+  }
+]

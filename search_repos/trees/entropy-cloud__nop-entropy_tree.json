@@ -1,0 +1,990 @@
+[
+  {
+    "path": ".dockerignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94810d006e7bea2f6dcb0916a45fc09cbbfed0b9",
+    "size": 75,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/94810d006e7bea2f6dcb0916a45fc09cbbfed0b9"
+  },
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "196b3d1dc2c3c1c6c560e2f7930dc4b9bac0f478",
+    "size": 216,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/196b3d1dc2c3c1c6c560e2f7930dc4b9bac0f478"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a48cdf33f159b7342fc7ee3a7a07e38dc6ddd26f",
+    "size": 414,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/a48cdf33f159b7342fc7ee3a7a07e38dc6ddd26f"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ced109b2cad8801c365865000acc910ae5e8b59",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/9ced109b2cad8801c365865000acc910ae5e8b59"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "479c46281a495e87d08a2674d6ab0422915b40ea",
+    "size": 1603,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/479c46281a495e87d08a2674d6ab0422915b40ea"
+  },
+  {
+    "path": ".knosys",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8215381e13095b1127e0af57f6d2e734a55a9e7d",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/8215381e13095b1127e0af57f6d2e734a55a9e7d"
+  },
+  {
+    "path": ".mvn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8456fa9eb15d4ba0fe2a302000d1bc77a057521",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/e8456fa9eb15d4ba0fe2a302000d1bc77a057521"
+  },
+  {
+    "path": ".promptx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca14858a50c07ced862f72284aa69588f26e4139",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/ca14858a50c07ced862f72284aa69588f26e4139"
+  },
+  {
+    "path": ".workflow",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a9dd7065cb294a3d87f2abc8518dec9936a89c30",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/a9dd7065cb294a3d87f2abc8518dec9936a89c30"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "798613aca865cca0ed99caab727d6e3478bea126",
+    "size": 339,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/798613aca865cca0ed99caab727d6e3478bea126"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "size": 11357,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  {
+    "path": "NOTICE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1093090e575d04637bc1d1c61d49214707cfa9e6",
+    "size": 185,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/1093090e575d04637bc1d1c61d49214707cfa9e6"
+  },
+  {
+    "path": "README.en.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de903bf74a8ecfab83f6a27e10ca558decc4035c",
+    "size": 19412,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/de903bf74a8ecfab83f6a27e10ca558decc4035c"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb5e0a7ec597bd5f6e610251d4c1193e2ad74e8c",
+    "size": 20283,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/eb5e0a7ec597bd5f6e610251d4c1193e2ad74e8c"
+  },
+  {
+    "path": "TODO.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d3eed778abd88563f74545283a01bb761d82fe4",
+    "size": 36,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/3d3eed778abd88563f74545283a01bb761d82fe4"
+  },
+  {
+    "path": "build-tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "40b9598c108727974a4bffd8fa04e4ee7e49175f",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/40b9598c108727974a4bffd8fa04e4ee7e49175f"
+  },
+  {
+    "path": "build.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46dade0e3cf0a30c6759e79ee68cd4d9358ea801",
+    "size": 61,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/46dade0e3cf0a30c6759e79ee68cd4d9358ea801"
+  },
+  {
+    "path": "config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99f2459da7148d1146778a976deb6f9982806cf5",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/99f2459da7148d1146778a976deb6f9982806cf5"
+  },
+  {
+    "path": "demo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bccf36b9684bda32ee06e912ef4f6148c341be62",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/bccf36b9684bda32ee06e912ef4f6148c341be62"
+  },
+  {
+    "path": "deploy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac020a8e752eb64f8e6476eaed6e139620543d64",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/ac020a8e752eb64f8e6476eaed6e139620543d64"
+  },
+  {
+    "path": "docs-en",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9915785c8483072f1ff48a0bb3c05ca3f6a848e",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/c9915785c8483072f1ff48a0bb3c05ca3f6a848e"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6ecf2a9ac6017acb3e5aae2a62684c79cfd30aaf",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/6ecf2a9ac6017acb3e5aae2a62684c79cfd30aaf"
+  },
+  {
+    "path": "gen-dependency-tree.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7622f7c0bbef207f95dedcd6570d31f0e833b37",
+    "size": 65,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/a7622f7c0bbef207f95dedcd6570d31f0e833b37"
+  },
+  {
+    "path": "mvnw",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d937f4c14f11f8c3aded556054af0b0097eaede",
+    "size": 11289,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/8d937f4c14f11f8c3aded556054af0b0097eaede"
+  },
+  {
+    "path": "mvnw.cmd",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4586b564e6fa1bc22ae740b1308b258581f1c35",
+    "size": 7591,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/c4586b564e6fa1bc22ae740b1308b258581f1c35"
+  },
+  {
+    "path": "nop-ai",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f88a45b9068440f3cb6f3bc79808e0153f254c3",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/3f88a45b9068440f3cb6f3bc79808e0153f254c3"
+  },
+  {
+    "path": "nop-all-for-spring",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c3234ff2be606c99d489a8a5d3fc535bd26a5222",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/c3234ff2be606c99d489a8a5d3fc535bd26a5222"
+  },
+  {
+    "path": "nop-antlr4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "db9bba8d3ac19032c3b346325b5a133b01e7e292",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/db9bba8d3ac19032c3b346325b5a133b01e7e292"
+  },
+  {
+    "path": "nop-api-core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c755dfd80f7e207ec72a29d8b40ec9c4123711cb",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/c755dfd80f7e207ec72a29d8b40ec9c4123711cb"
+  },
+  {
+    "path": "nop-api-debugger",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a33e8d095082502da74f1225bd81fbaef63542e9",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/a33e8d095082502da74f1225bd81fbaef63542e9"
+  },
+  {
+    "path": "nop-auth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8f80ed67ebf7ab316edc90c05a058942fa145b9",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/c8f80ed67ebf7ab316edc90c05a058942fa145b9"
+  },
+  {
+    "path": "nop-autotest",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "69ac975fc179ece670a4d9011361688e22ecb02b",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/69ac975fc179ece670a4d9011361688e22ecb02b"
+  },
+  {
+    "path": "nop-batch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "39d03daab1090eaf0284d1f4228892b0b7c12ca4",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/39d03daab1090eaf0284d1f4228892b0b7c12ca4"
+  },
+  {
+    "path": "nop-benchmark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1d1cae656b0352cd6079c14fd558dda93cf1505e",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/1d1cae656b0352cd6079c14fd558dda93cf1505e"
+  },
+  {
+    "path": "nop-biz-report",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a8860662453ee3882725010a09febe0803f391eb",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/a8860662453ee3882725010a09febe0803f391eb"
+  },
+  {
+    "path": "nop-biz",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd91c4cf8352a101b56065ac469c85aedfd9a0c9",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/bd91c4cf8352a101b56065ac469c85aedfd9a0c9"
+  },
+  {
+    "path": "nop-bom",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bbc61ff5f5fc00ab77a8e4bbebbd2783bc31e371",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/bbc61ff5f5fc00ab77a8e4bbebbd2783bc31e371"
+  },
+  {
+    "path": "nop-boot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "69005bbec7a188cc42454e4923a890e5f553d794",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/69005bbec7a188cc42454e4923a890e5f553d794"
+  },
+  {
+    "path": "nop-cdc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "92342b7c14c82970e7fc9230b4e2a1403250126f",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/92342b7c14c82970e7fc9230b4e2a1403250126f"
+  },
+  {
+    "path": "nop-cli-core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "62f325c316795edcf50ee32cb6481b48891a5203",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/62f325c316795edcf50ee32cb6481b48891a5203"
+  },
+  {
+    "path": "nop-cli-jdk11",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b323b79fc1dadc21f69e8b6ef74dd7900a5a35e0",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/b323b79fc1dadc21f69e8b6ef74dd7900a5a35e0"
+  },
+  {
+    "path": "nop-cli",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6cc77724319cd2557f884d61f644dff62f35ca83",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/6cc77724319cd2557f884d61f644dff62f35ca83"
+  },
+  {
+    "path": "nop-cluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb72e325f60c895c56be33dd00b237e3eac05be3",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/eb72e325f60c895c56be33dd00b237e3eac05be3"
+  },
+  {
+    "path": "nop-codec",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06178eda96d9cd830c86fa825af50cbe8908278c",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/06178eda96d9cd830c86fa825af50cbe8908278c"
+  },
+  {
+    "path": "nop-codegen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6f0c9a241082412fdb70e3e281896233363d4b21",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/6f0c9a241082412fdb70e3e281896233363d4b21"
+  },
+  {
+    "path": "nop-commons-java21",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4341315452a5dc2535ba8b68691c148e0fa651e2",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/4341315452a5dc2535ba8b68691c148e0fa651e2"
+  },
+  {
+    "path": "nop-commons",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "367ad653bd491b07bc30681f5773d314842de9f8",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/367ad653bd491b07bc30681f5773d314842de9f8"
+  },
+  {
+    "path": "nop-config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "902a86be00856c59ca3a7f6329dba10efd9f133f",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/902a86be00856c59ca3a7f6329dba10efd9f133f"
+  },
+  {
+    "path": "nop-converter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b859060ca2187abb4807b886196000280a9db5e5",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/b859060ca2187abb4807b886196000280a9db5e5"
+  },
+  {
+    "path": "nop-core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "15b5ab076a4716da6b9fa8b010fb1b0edc682103",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/15b5ab076a4716da6b9fa8b010fb1b0edc682103"
+  },
+  {
+    "path": "nop-css",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6bd1809587cf06317e10c43ba7b46eef992449a9",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/6bd1809587cf06317e10c43ba7b46eef992449a9"
+  },
+  {
+    "path": "nop-dao",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dcd4a173177afdbaf38a53af93e67ff17597b385",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/dcd4a173177afdbaf38a53af93e67ff17597b385"
+  },
+  {
+    "path": "nop-dataset",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "005cc0b662732597bb959902e7323c037271cb5f",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/005cc0b662732597bb959902e7323c037271cb5f"
+  },
+  {
+    "path": "nop-datav",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8eb2777ed36dc673797116728569d7af6937ed4",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/c8eb2777ed36dc673797116728569d7af6937ed4"
+  },
+  {
+    "path": "nop-dbtool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2a0b01b6825b9566a0b98f7796104cde366032e8",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/2a0b01b6825b9566a0b98f7796104cde366032e8"
+  },
+  {
+    "path": "nop-demo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b169a6aecd1255d8dbdb9705bf0e34b0db25db4b",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/b169a6aecd1255d8dbdb9705bf0e34b0db25db4b"
+  },
+  {
+    "path": "nop-dependencies",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a738cfa15403e789a61780470c7d9b894c721899",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/a738cfa15403e789a61780470c7d9b894c721899"
+  },
+  {
+    "path": "nop-dev",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f8ad4c8c8f78e804f96e9bf4de15de57f1027956",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/f8ad4c8c8f78e804f96e9bf4de15de57f1027956"
+  },
+  {
+    "path": "nop-dyn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3bb98b09df9d2c35ef4ac94cbee4bbf070d6e283",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/3bb98b09df9d2c35ef4ac94cbee4bbf070d6e283"
+  },
+  {
+    "path": "nop-excel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0b3163cd652bf89a2bf713e256c1d2a987ae831",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/b0b3163cd652bf89a2bf713e256c1d2a987ae831"
+  },
+  {
+    "path": "nop-file",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0becb61f5fa0079c185214bfe05598e5eba1d75",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/e0becb61f5fa0079c185214bfe05598e5eba1d75"
+  },
+  {
+    "path": "nop-fsm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a5fbd55b6dd577ea87a5589cdc22fddfe772b24",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/7a5fbd55b6dd577ea87a5589cdc22fddfe772b24"
+  },
+  {
+    "path": "nop-gateway",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "336902f827cdf9e281efa30dde2b45e738830a0f",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/336902f827cdf9e281efa30dde2b45e738830a0f"
+  },
+  {
+    "path": "nop-git",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "982a1ad9f67e15558cad83a9a8691bf55acb1aff",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/982a1ad9f67e15558cad83a9a8691bf55acb1aff"
+  },
+  {
+    "path": "nop-graphql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "267452a74d5311bdc0d65b831888a70bd437ba57",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/267452a74d5311bdc0d65b831888a70bd437ba57"
+  },
+  {
+    "path": "nop-hazelcast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63d94a7c7b6ee68be578c9b56f88080c0c003aab",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/63d94a7c7b6ee68be578c9b56f88080c0c003aab"
+  },
+  {
+    "path": "nop-http",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8435647bf82ff160d1dc18ee326b4c322693ae0d",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/8435647bf82ff160d1dc18ee326b4c322693ae0d"
+  },
+  {
+    "path": "nop-idea-plugin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad79c637a6dc233b16b2f20b111d5a1d5720b286",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/ad79c637a6dc233b16b2f20b111d5a1d5720b286"
+  },
+  {
+    "path": "nop-image",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09ac1d9e180c35487419f0fd36eb520e7af43833",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/09ac1d9e180c35487419f0fd36eb520e7af43833"
+  },
+  {
+    "path": "nop-integration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "48095c0d04deefc8d1c2e4bf7f6cf49e40bad158",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/48095c0d04deefc8d1c2e4bf7f6cf49e40bad158"
+  },
+  {
+    "path": "nop-ioc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3da2f052f0ee4039950a63094665161017561ffb",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/3da2f052f0ee4039950a63094665161017561ffb"
+  },
+  {
+    "path": "nop-java-parser",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ade1eff89449c202d5c8d6ab461161004fe878d",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/7ade1eff89449c202d5c8d6ab461161004fe878d"
+  },
+  {
+    "path": "nop-javac",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "44a0e83f46f96425544e07d991bb75f3124e3b12",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/44a0e83f46f96425544e07d991bb75f3124e3b12"
+  },
+  {
+    "path": "nop-job",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "edc69f1e91179ce81c7bd578bbcd1f40df20585e",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/edc69f1e91179ce81c7bd578bbcd1f40df20585e"
+  },
+  {
+    "path": "nop-js",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a6851ebdce023a5a12d2ca543bc4768aa9993f88",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/a6851ebdce023a5a12d2ca543bc4768aa9993f88"
+  },
+  {
+    "path": "nop-log",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "458da593ea5dd23baadd426b2bee032fefac562b",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/458da593ea5dd23baadd426b2bee032fefac562b"
+  },
+  {
+    "path": "nop-logo.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81a2aa91860710cb8109b68c8869610b0c0937d0",
+    "size": 42508,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/81a2aa91860710cb8109b68c8869610b0c0937d0"
+  },
+  {
+    "path": "nop-logo.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "990120e025b8e97e8fe647094d7b2b1792cd5d40",
+    "size": 48473,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/990120e025b8e97e8fe647094d7b2b1792cd5d40"
+  },
+  {
+    "path": "nop-markdown",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9eb7b7a110f468f44758a3c682b5ae4c8d9d678e",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/9eb7b7a110f468f44758a3c682b5ae4c8d9d678e"
+  },
+  {
+    "path": "nop-match",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "622729e2dad4a05e0ad1e08a37b73d168c6c2841",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/622729e2dad4a05e0ad1e08a37b73d168c6c2841"
+  },
+  {
+    "path": "nop-maven",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "233574ff4a62459b2a54fd8f651e7b375cc7d26a",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/233574ff4a62459b2a54fd8f651e7b375cc7d26a"
+  },
+  {
+    "path": "nop-mermaid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4a09c8120f9ade018bddd572d5a4937d307c471a",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/4a09c8120f9ade018bddd572d5a4937d307c471a"
+  },
+  {
+    "path": "nop-message",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8763058a5840bbf7253dfa6d33be19b53986f062",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/8763058a5840bbf7253dfa6d33be19b53986f062"
+  },
+  {
+    "path": "nop-netty-ext",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94374d68ab84b53ff36f903471b437b358758ae3",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/94374d68ab84b53ff36f903471b437b358758ae3"
+  },
+  {
+    "path": "nop-netty",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f14ce0d313a6f68c4d5cbff449041ae0206fe5cd",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/f14ce0d313a6f68c4d5cbff449041ae0206fe5cd"
+  },
+  {
+    "path": "nop-nosql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f2760a47970bafab90acd19f6fb9639da927a0c",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/2f2760a47970bafab90acd19f6fb9639da927a0c"
+  },
+  {
+    "path": "nop-oauth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1dc0936bad69be0efc25642488a5f4a697364556",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/1dc0936bad69be0efc25642488a5f4a697364556"
+  },
+  {
+    "path": "nop-ofbiz-migration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3318c87dbda7258eee77162e934d9ffac2506dfa",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/3318c87dbda7258eee77162e934d9ffac2506dfa"
+  },
+  {
+    "path": "nop-ooxml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "01ff556f9e7dcaafd407d1e1079e58d1a9e14234",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/01ff556f9e7dcaafd407d1e1079e58d1a9e14234"
+  },
+  {
+    "path": "nop-orm-data",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca79512c79b409e611ff37793d1599f0796bf688",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/ca79512c79b409e611ff37793d1599f0796bf688"
+  },
+  {
+    "path": "nop-orm-drivers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "262118312e81efbd5957b3cb988f9272ecac20d3",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/262118312e81efbd5957b3cb988f9272ecac20d3"
+  },
+  {
+    "path": "nop-orm-eql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99fb4e1f53e4937754a8512396945fab8eb12569",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/99fb4e1f53e4937754a8512396945fab8eb12569"
+  },
+  {
+    "path": "nop-orm-geo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a394125310fcbade712b194aa9177b3cca5dabbf",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/a394125310fcbade712b194aa9177b3cca5dabbf"
+  },
+  {
+    "path": "nop-orm-graphql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a482c67d381dee41ef991b2d76e5dd0ca45f7ab",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/6a482c67d381dee41ef991b2d76e5dd0ca45f7ab"
+  },
+  {
+    "path": "nop-orm-model",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f3a76f3cd757fda6df1ab977ff81d938f481c44",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/8f3a76f3cd757fda6df1ab977ff81d938f481c44"
+  },
+  {
+    "path": "nop-orm-pdm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b616ff0da3c060c28a14d97fd12bfa6eae786a8c",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/b616ff0da3c060c28a14d97fd12bfa6eae786a8c"
+  },
+  {
+    "path": "nop-orm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43764c843a89746f8ded87f28790a8faeec4f9f6",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/43764c843a89746f8ded87f28790a8faeec4f9f6"
+  },
+  {
+    "path": "nop-pdf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "66f3461b2c11f1211121943ba20e542befa05c6d",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/66f3461b2c11f1211121943ba20e542befa05c6d"
+  },
+  {
+    "path": "nop-plugin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5bae8b74084ffa4cff3fd729c2a0fd18a4251845",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/5bae8b74084ffa4cff3fd729c2a0fd18a4251845"
+  },
+  {
+    "path": "nop-quarkus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2bfa93bd9d7e1d257a85529108db7db6e466782",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/e2bfa93bd9d7e1d257a85529108db7db6e466782"
+  },
+  {
+    "path": "nop-record",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd757dfca307169e8af331361babe478b5facee3",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/fd757dfca307169e8af331361babe478b5facee3"
+  },
+  {
+    "path": "nop-report-for-spring",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e817377410526a63b39cb987dd19c00d7f22cbc0",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/e817377410526a63b39cb987dd19c00d7f22cbc0"
+  },
+  {
+    "path": "nop-report",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1b2f85786acb30659779c075daa6778c901474a",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/d1b2f85786acb30659779c075daa6778c901474a"
+  },
+  {
+    "path": "nop-router",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b889593ad73f435af948d155c43766233367114",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/5b889593ad73f435af948d155c43766233367114"
+  },
+  {
+    "path": "nop-rpa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b29e17ce506006b436717437d6d011c1fe414788",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/b29e17ce506006b436717437d6d011c1fe414788"
+  },
+  {
+    "path": "nop-rpc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d2e6a2628b2262e248de0f0fdf97366aac369f3",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/2d2e6a2628b2262e248de0f0fdf97366aac369f3"
+  },
+  {
+    "path": "nop-rule",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dc7dd2a4b688ad3e22c9915e300490210ffc0d10",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/dc7dd2a4b688ad3e22c9915e300490210ffc0d10"
+  },
+  {
+    "path": "nop-search",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "76cd5f861388df82d9db313ccdfdb399ea1edbaa",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/76cd5f861388df82d9db313ccdfdb399ea1edbaa"
+  },
+  {
+    "path": "nop-security",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b39e7d64b49b19eaefd14d02ab595811c63c017a",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/b39e7d64b49b19eaefd14d02ab595811c63c017a"
+  },
+  {
+    "path": "nop-shell",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf68a0170666aad27f5abb5e8a86d2dd43d60d22",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/bf68a0170666aad27f5abb5e8a86d2dd43d60d22"
+  },
+  {
+    "path": "nop-socket",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00d80bd1ed3ccc18767abd1b69994ab056f779a6",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/00d80bd1ed3ccc18767abd1b69994ab056f779a6"
+  },
+  {
+    "path": "nop-spring",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d591b73d78525dcf3d74f99b847f72c6e739f558",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/d591b73d78525dcf3d74f99b847f72c6e739f558"
+  },
+  {
+    "path": "nop-stream",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d63587cc5c7d91615edce959d1057aab30ab34e5",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/d63587cc5c7d91615edce959d1057aab30ab34e5"
+  },
+  {
+    "path": "nop-svg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ed4b7784cd0770840d2d30e2921ad432065f01d",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/2ed4b7784cd0770840d2d30e2921ad432065f01d"
+  },
+  {
+    "path": "nop-sys",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61c563a28bc50913133cddb15d1b52e2786b305d",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/61c563a28bc50913133cddb15d1b52e2786b305d"
+  },
+  {
+    "path": "nop-tablesaw",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e6c976321818c2471a4300a615b2d02db12f160a",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/e6c976321818c2471a4300a615b2d02db12f160a"
+  },
+  {
+    "path": "nop-task",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "88e1aa6859491e7e9fc0a87aaff53dc839015a70",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/88e1aa6859491e7e9fc0a87aaff53dc839015a70"
+  },
+  {
+    "path": "nop-tcc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "36fc706120426ca62373fdb8203811887f038547",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/36fc706120426ca62373fdb8203811887f038547"
+  },
+  {
+    "path": "nop-tool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eee29520228be551ec1f5db944f2b5bbb6bb2dca",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/eee29520228be551ec1f5db944f2b5bbb6bb2dca"
+  },
+  {
+    "path": "nop-ui",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "497b1338ddc331e5a35f7bc7657c969d421d838e",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/497b1338ddc331e5a35f7bc7657c969d421d838e"
+  },
+  {
+    "path": "nop-vertx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4e56add941c7ec575007ba75483a97dc29675ff2",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/4e56add941c7ec575007ba75483a97dc29675ff2"
+  },
+  {
+    "path": "nop-web-amis-editor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7b496b0caeb7fb4dcba54b29d3b09bb74694cd1a",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/7b496b0caeb7fb4dcba54b29d3b09bb74694cd1a"
+  },
+  {
+    "path": "nop-web-page",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f586d21b578fb530a2d58a4bd554cd5dc1eb1a82",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/f586d21b578fb530a2d58a4bd554cd5dc1eb1a82"
+  },
+  {
+    "path": "nop-web-site",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea6e1a77c5db1396fc11d76ec4d11ac6a29a0915",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/ea6e1a77c5db1396fc11d76ec4d11ac6a29a0915"
+  },
+  {
+    "path": "nop-web",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bbad4257e9306e14c32db8f977ad23aebc7198ee",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/bbad4257e9306e14c32db8f977ad23aebc7198ee"
+  },
+  {
+    "path": "nop-wf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2277b3bf788773b7868583883385c3ce3b91e127",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/2277b3bf788773b7868583883385c3ce3b91e127"
+  },
+  {
+    "path": "nop-xdefs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e9f495bd89146bc6b47b23e9c98f1a9173f5eb1c",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/e9f495bd89146bc6b47b23e9c98f1a9173f5eb1c"
+  },
+  {
+    "path": "nop-xlang-debugger",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bb71e9d3ecdbccb1f761c7ff9909c9b5a3821a99",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/bb71e9d3ecdbccb1f761c7ff9909c9b5a3821a99"
+  },
+  {
+    "path": "nop-xlang",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8dd2eae117e8fd4658f45500b7fe66b58e8e8cc9",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/8dd2eae117e8fd4658f45500b7fe66b58e8e8cc9"
+  },
+  {
+    "path": "package.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ab14786aaf279460b9367b202447e42eb3abbb9",
+    "size": 623,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/9ab14786aaf279460b9367b202447e42eb3abbb9"
+  },
+  {
+    "path": "pom.xml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f109b26860de9905152ff43074c000cc6cd2d2ae",
+    "size": 20300,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/f109b26860de9905152ff43074c000cc6cd2d2ae"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a9e851e306a72db9f98bc75de044c07891963907",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/a9e851e306a72db9f98bc75de044c07891963907"
+  },
+  {
+    "path": "tests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a23a6926e85978d8b2511f70668320a88e3eab84",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/a23a6926e85978d8b2511f70668320a88e3eab84"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c767a9c0601cac30093c6b4713a1881c2b9195d9",
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/trees/c767a9c0601cac30093c6b4713a1881c2b9195d9"
+  },
+  {
+    "path": "wechat-group.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43d8f7c93c56282a650d587a94d6b754ea822325",
+    "size": 29554,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/43d8f7c93c56282a650d587a94d6b754ea822325"
+  },
+  {
+    "path": "wechat-public-account.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4360be31dc4ef58cb9c27301b4d57e3670e469d8",
+    "size": 26377,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/4360be31dc4ef58cb9c27301b4d57e3670e469d8"
+  },
+  {
+    "path": "xlang-logo.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c2aa01543f79bce56416f48cbde75d09d7506a7",
+    "size": 69207,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/6c2aa01543f79bce56416f48cbde75d09d7506a7"
+  },
+  {
+    "path": "xlang-logo.svg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d27f824d74dce561015313bb6e56810fc524c18",
+    "size": 4837,
+    "url": "https://api.github.com/repos/entropy-cloud/nop-entropy/git/blobs/4d27f824d74dce561015313bb6e56810fc524c18"
+  }
+]

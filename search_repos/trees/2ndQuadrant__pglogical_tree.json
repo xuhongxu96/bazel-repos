@@ -1,0 +1,928 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12844fc95702d2a217c5deca4c3d46586b43f706",
+    "size": 210,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/12844fc95702d2a217c5deca4c3d46586b43f706"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bfe78ace29ac42e05a42f2ad53d3b9b8446319f",
+    "size": 105,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/9bfe78ace29ac42e05a42f2ad53d3b9b8446319f"
+  },
+  {
+    "path": "COPYRIGHT",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33e6e4842ad64dd89d351c84454059daed61ff56",
+    "size": 1192,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/33e6e4842ad64dd89d351c84454059daed61ff56"
+  },
+  {
+    "path": "FAQ.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8878b1ab7f26a3976fdfc747fb3c5de249a2b1f",
+    "size": 2630,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/a8878b1ab7f26a3976fdfc747fb3c5de249a2b1f"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe4e0c496a9867aa2b8cd8930ca6a987fed878eb",
+    "size": 10650,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/fe4e0c496a9867aa2b8cd8930ca6a987fed878eb"
+  },
+  {
+    "path": "README.md",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "0e01b4308c1424d861f0af570038bfd5209c0691",
+    "size": 14,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/0e01b4308c1424d861f0af570038bfd5209c0691"
+  },
+  {
+    "path": "README.tests94",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6aedcbc6d5ab342ca46cc380f81846a54b1995b0",
+    "size": 546,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/6aedcbc6d5ab342ca46cc380f81846a54b1995b0"
+  },
+  {
+    "path": "compat10",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17c4d8499b4d7e49dd8f4c5b6fe3ad11263c464f",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/17c4d8499b4d7e49dd8f4c5b6fe3ad11263c464f"
+  },
+  {
+    "path": "compat11",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ffbeabbd1b81237fd7d6e53695088e8e533d167",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/2ffbeabbd1b81237fd7d6e53695088e8e533d167"
+  },
+  {
+    "path": "compat12",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17beee591e1cbedb5794d56ce750de679573e5e1",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/17beee591e1cbedb5794d56ce750de679573e5e1"
+  },
+  {
+    "path": "compat13",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b48ee412ed431ba25303b594d7223424f175a350",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/b48ee412ed431ba25303b594d7223424f175a350"
+  },
+  {
+    "path": "compat14",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "faf240b12e28755778e4edd68caca2dd6ecc6b96",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/faf240b12e28755778e4edd68caca2dd6ecc6b96"
+  },
+  {
+    "path": "compat15",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e94311886829c0604d3257c07528b14db8e6bf95",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/e94311886829c0604d3257c07528b14db8e6bf95"
+  },
+  {
+    "path": "compat16",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6683a113afac500f53b438b1a4f65f5935dbe828",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/6683a113afac500f53b438b1a4f65f5935dbe828"
+  },
+  {
+    "path": "compat17",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0f6cab97f6d197dea4218314c26ce107c46f458c",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/0f6cab97f6d197dea4218314c26ce107c46f458c"
+  },
+  {
+    "path": "compat94",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b25231d400f29de1e00bf7faaf0103075c3dc93b",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/b25231d400f29de1e00bf7faaf0103075c3dc93b"
+  },
+  {
+    "path": "compat95",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75acc76b367c108e700068230ea626bb0d9c10e5",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/75acc76b367c108e700068230ea626bb0d9c10e5"
+  },
+  {
+    "path": "compat96",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bbc077f9d89c968166f17191f0ae21b544c0a69c",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/bbc077f9d89c968166f17191f0ae21b544c0a69c"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b4518ea2583a62b90c577b1e206052b3921f5cb",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/1b4518ea2583a62b90c577b1e206052b3921f5cb"
+  },
+  {
+    "path": "expected",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "baf375f44a154b220bb7f6998ec09c4affee1190",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/baf375f44a154b220bb7f6998ec09c4affee1190"
+  },
+  {
+    "path": "internals-doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dea37d7298abcafcc7eaccc0c1be571c385e513e",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/dea37d7298abcafcc7eaccc0c1be571c385e513e"
+  },
+  {
+    "path": "pglogical--1.0.0--1.0.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e3dd19fd0b7b311ff913e08d57bf9fc54d9666c",
+    "size": 893,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/8e3dd19fd0b7b311ff913e08d57bf9fc54d9666c"
+  },
+  {
+    "path": "pglogical--1.0.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9626cbf109e761fdf95cef5572e5b20f14e4646a",
+    "size": 9496,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/9626cbf109e761fdf95cef5572e5b20f14e4646a"
+  },
+  {
+    "path": "pglogical--1.0.1--1.1.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90ea0e014b391a7c11e6245df0f428d7095bab65",
+    "size": 4576,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/90ea0e014b391a7c11e6245df0f428d7095bab65"
+  },
+  {
+    "path": "pglogical--1.1.0--1.1.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--1.1.1--1.1.2.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--1.1.2--1.2.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--1.2.0--1.2.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5563025e2ea4c3ed8d42a073ea88089b56c2c63",
+    "size": 31,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/a5563025e2ea4c3ed8d42a073ea88089b56c2c63"
+  },
+  {
+    "path": "pglogical--1.2.1--1.2.2.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b661e1530448e324760c73d2fb3922d090b10c46",
+    "size": 41,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/b661e1530448e324760c73d2fb3922d090b10c46"
+  },
+  {
+    "path": "pglogical--1.2.2--2.0.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c63f3ec844b056c22ae8af92695478afdd1f9695",
+    "size": 4401,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/c63f3ec844b056c22ae8af92695478afdd1f9695"
+  },
+  {
+    "path": "pglogical--2.0.0--2.0.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.0.0--2.1.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18f8241fbc62371d9629ea46b28881c4ae555508",
+    "size": 153,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/18f8241fbc62371d9629ea46b28881c4ae555508"
+  },
+  {
+    "path": "pglogical--2.0.1--2.1.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18f8241fbc62371d9629ea46b28881c4ae555508",
+    "size": 153,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/18f8241fbc62371d9629ea46b28881c4ae555508"
+  },
+  {
+    "path": "pglogical--2.1.0--2.1.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c3970e95b46d08c228a92e9ab4f244e7bb8d059",
+    "size": 224,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/2c3970e95b46d08c228a92e9ab4f244e7bb8d059"
+  },
+  {
+    "path": "pglogical--2.1.1--2.2.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.2.0--2.2.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c36429320f441593983d50d8798b73b2d1751e19",
+    "size": 681,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/c36429320f441593983d50d8798b73b2d1751e19"
+  },
+  {
+    "path": "pglogical--2.2.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "371d6c2f67fb6bbc1dd3134c1ea3095e37a177e4",
+    "size": 11711,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/371d6c2f67fb6bbc1dd3134c1ea3095e37a177e4"
+  },
+  {
+    "path": "pglogical--2.2.1--2.2.2.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.2.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00975966427e1574994a73f1b1ff56b255dedeba",
+    "size": 12392,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/00975966427e1574994a73f1b1ff56b255dedeba"
+  },
+  {
+    "path": "pglogical--2.2.2--2.3.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e65808f61c57bd6aab65e87215b6b289b2e7f914",
+    "size": 3059,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e65808f61c57bd6aab65e87215b6b289b2e7f914"
+  },
+  {
+    "path": "pglogical--2.2.2--2.3.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e290e8967538a7e17070d41b8aaf840fb4c43928",
+    "size": 100,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e290e8967538a7e17070d41b8aaf840fb4c43928"
+  },
+  {
+    "path": "pglogical--2.2.2.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00975966427e1574994a73f1b1ff56b255dedeba",
+    "size": 12392,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/00975966427e1574994a73f1b1ff56b255dedeba"
+  },
+  {
+    "path": "pglogical--2.3.0--2.3.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0b8827c63fd604a603232b4e0e33bcd8e1f56d2",
+    "size": 3967,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/b0b8827c63fd604a603232b4e0e33bcd8e1f56d2"
+  },
+  {
+    "path": "pglogical--2.3.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ef62fab8127893b71c262976613d0d56c2caeb0",
+    "size": 13143,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/5ef62fab8127893b71c262976613d0d56c2caeb0"
+  },
+  {
+    "path": "pglogical--2.3.1--2.3.2.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.3.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.3.2--2.3.3.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.3.2.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.3.3--2.3.4.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.3.3.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.3.4--2.4.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.3.4.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.4.0--2.4.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.4.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.4.1--2.4.2.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.4.1.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.4.2--2.4.3.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.4.2.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.4.3--2.4.4.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.4.3.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.4.4--2.4.5.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "pglogical--2.4.4.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical--2.4.5.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "692107b7b3f8470581ff5000d07b153825e7dc0c",
+    "size": 12491,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/692107b7b3f8470581ff5000d07b153825e7dc0c"
+  },
+  {
+    "path": "pglogical.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e1209c9cb98fd37deb9fe45a361bcdb0ae9cb93",
+    "size": 23306,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/2e1209c9cb98fd37deb9fe45a361bcdb0ae9cb93"
+  },
+  {
+    "path": "pglogical.control.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69fa7e5ed15882e1e66ea6ee7bafc5796fa409dd",
+    "size": 197,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/69fa7e5ed15882e1e66ea6ee7bafc5796fa409dd"
+  },
+  {
+    "path": "pglogical.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c734c9504d8c13a2b0d651fe8ba78b388da4518",
+    "size": 3583,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/9c734c9504d8c13a2b0d651fe8ba78b388da4518"
+  },
+  {
+    "path": "pglogical.supp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06e47cf5e37bb8895f77d317d38dc9c85dcd4656",
+    "size": 9383,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/06e47cf5e37bb8895f77d317d38dc9c85dcd4656"
+  },
+  {
+    "path": "pglogical_apply.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1dc6157a75e15b88f59018eb92014c183c84d33",
+    "size": 52539,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/a1dc6157a75e15b88f59018eb92014c183c84d33"
+  },
+  {
+    "path": "pglogical_apply.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66c72949fd7ce81575cd8989d207372c85848884",
+    "size": 1189,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/66c72949fd7ce81575cd8989d207372c85848884"
+  },
+  {
+    "path": "pglogical_apply_heap.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc97cd16eb301097f303fba1f3fe076b113f5c84",
+    "size": 27892,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/dc97cd16eb301097f303fba1f3fe076b113f5c84"
+  },
+  {
+    "path": "pglogical_apply_heap.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dee8734ff8d35d686c8c2c97db03d46158f0e78a",
+    "size": 1175,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/dee8734ff8d35d686c8c2c97db03d46158f0e78a"
+  },
+  {
+    "path": "pglogical_apply_spi.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7c7a7e57233ac36dec63d5f346e69b3b74049bc",
+    "size": 18728,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/b7c7a7e57233ac36dec63d5f346e69b3b74049bc"
+  },
+  {
+    "path": "pglogical_apply_spi.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa89404f0f352c67ea63ef3435f49a5ba1a1a3ac",
+    "size": 1186,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/fa89404f0f352c67ea63ef3435f49a5ba1a1a3ac"
+  },
+  {
+    "path": "pglogical_conflict.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3a65d5eb9a7d1f3fe145d080c53febea1d08de6",
+    "size": 24649,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/d3a65d5eb9a7d1f3fe145d080c53febea1d08de6"
+  },
+  {
+    "path": "pglogical_conflict.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d266460b3f0b3b00dd36365b16c0023ba38d7047",
+    "size": 2407,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/d266460b3f0b3b00dd36365b16c0023ba38d7047"
+  },
+  {
+    "path": "pglogical_create_subscriber.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "509e165cedd5b30686fe45dd0ee0376f2df92874",
+    "size": 46967,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/509e165cedd5b30686fe45dd0ee0376f2df92874"
+  },
+  {
+    "path": "pglogical_dependency.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a0046767436e412acc72e28370e6b0c019ef1af",
+    "size": 66842,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/9a0046767436e412acc72e28370e6b0c019ef1af"
+  },
+  {
+    "path": "pglogical_dependency.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e27cb1a1f377d03cfc480a8a0a59637f24ac4942",
+    "size": 1155,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e27cb1a1f377d03cfc480a8a0a59637f24ac4942"
+  },
+  {
+    "path": "pglogical_dump",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f66606d71788d58f0c50136adbd8064ec86afadf"
+  },
+  {
+    "path": "pglogical_executor.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fce27b4ff0d7f08d291989c3675a613c3b3107c1",
+    "size": 8754,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/fce27b4ff0d7f08d291989c3675a613c3b3107c1"
+  },
+  {
+    "path": "pglogical_executor.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5f5e4cf6c584aa78a9559ba15f28d0971fccf7e",
+    "size": 784,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/e5f5e4cf6c584aa78a9559ba15f28d0971fccf7e"
+  },
+  {
+    "path": "pglogical_fe.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a865ec87095b6bdd82ddce66a8281fb69cd4cec",
+    "size": 6476,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/0a865ec87095b6bdd82ddce66a8281fb69cd4cec"
+  },
+  {
+    "path": "pglogical_fe.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a0b44c51dd0c96c0daab3838d3365d033bfba74",
+    "size": 623,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/6a0b44c51dd0c96c0daab3838d3365d033bfba74"
+  },
+  {
+    "path": "pglogical_functions.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c98d36172aabf86697745ad7fba857534cfd0a6",
+    "size": 64649,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/9c98d36172aabf86697745ad7fba857534cfd0a6"
+  },
+  {
+    "path": "pglogical_manager.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfe3ade31571133eb473e461cdc38722e3ee42c0",
+    "size": 5879,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/dfe3ade31571133eb473e461cdc38722e3ee42c0"
+  },
+  {
+    "path": "pglogical_monitoring.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa4fe51cad0165661ab7fa7df6515c9d6317ceb5",
+    "size": 2855,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/fa4fe51cad0165661ab7fa7df6515c9d6317ceb5"
+  },
+  {
+    "path": "pglogical_node.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06946854cacb02859ab469ee69dd4349dc4df73e",
+    "size": 25441,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/06946854cacb02859ab469ee69dd4349dc4df73e"
+  },
+  {
+    "path": "pglogical_node.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29c391ae8b475dd93ccbec075ba316f838bf4550",
+    "size": 2242,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/29c391ae8b475dd93ccbec075ba316f838bf4550"
+  },
+  {
+    "path": "pglogical_origin--1.0.0.sql",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28bc4e75b49049bb5d75d59140aadbec0bcce299",
+    "size": 71,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/28bc4e75b49049bb5d75d59140aadbec0bcce299"
+  },
+  {
+    "path": "pglogical_origin.control",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75ad27773313c1c623812c7fd12ab9d9ac7fb5c4",
+    "size": 218,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/75ad27773313c1c623812c7fd12ab9d9ac7fb5c4"
+  },
+  {
+    "path": "pglogical_output.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b24897ef6b24ee508429759f91960a70a8015448",
+    "size": 986,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/b24897ef6b24ee508429759f91960a70a8015448"
+  },
+  {
+    "path": "pglogical_output_config.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "680c464a3c359de2702020871435023737b485a4",
+    "size": 16647,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/680c464a3c359de2702020871435023737b485a4"
+  },
+  {
+    "path": "pglogical_output_config.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e3493b4afdfcd83686fea44976926246122e7a6",
+    "size": 753,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/1e3493b4afdfcd83686fea44976926246122e7a6"
+  },
+  {
+    "path": "pglogical_output_plugin.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f1bf9c1bb12fa69a3dbbbb209e533955dd1612e",
+    "size": 30286,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/9f1bf9c1bb12fa69a3dbbbb209e533955dd1612e"
+  },
+  {
+    "path": "pglogical_output_plugin.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa843aefe91f082c252c402a4a896efdb944ae97",
+    "size": 2143,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/aa843aefe91f082c252c402a4a896efdb944ae97"
+  },
+  {
+    "path": "pglogical_output_proto.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15e00bd22f9a70ec64fc75eb3a4e5742860a3ab8",
+    "size": 1458,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/15e00bd22f9a70ec64fc75eb3a4e5742860a3ab8"
+  },
+  {
+    "path": "pglogical_output_proto.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "173d66217ea2eb14dfdc5b79ec0f7f69570727a9",
+    "size": 3582,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/173d66217ea2eb14dfdc5b79ec0f7f69570727a9"
+  },
+  {
+    "path": "pglogical_proto_json.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6650cba9cd463fb2222b594f8ed70aacbd52b789",
+    "size": 18080,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/6650cba9cd463fb2222b594f8ed70aacbd52b789"
+  },
+  {
+    "path": "pglogical_proto_json.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99b8962ca6d49859c8370dbc35037c4456cca63a",
+    "size": 1390,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/99b8962ca6d49859c8370dbc35037c4456cca63a"
+  },
+  {
+    "path": "pglogical_proto_native.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a94036d6cdb0771aa26fe7d01938b4bea1707dd",
+    "size": 21542,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/7a94036d6cdb0771aa26fe7d01938b4bea1707dd"
+  },
+  {
+    "path": "pglogical_proto_native.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb517fabf95758e124a96a04b4bfaf623d4a40a2",
+    "size": 2524,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/cb517fabf95758e124a96a04b4bfaf623d4a40a2"
+  },
+  {
+    "path": "pglogical_queue.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1d97a3ee043f6e043569c7063d80d2e8d7be687",
+    "size": 6224,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/d1d97a3ee043f6e043569c7063d80d2e8d7be687"
+  },
+  {
+    "path": "pglogical_queue.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bf13df85a1337b46f5261772fb8d704c8b042d8",
+    "size": 1048,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/9bf13df85a1337b46f5261772fb8d704c8b042d8"
+  },
+  {
+    "path": "pglogical_relcache.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab20721924b84e2b650ff319e660b1839222d3f2",
+    "size": 7080,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/ab20721924b84e2b650ff319e660b1839222d3f2"
+  },
+  {
+    "path": "pglogical_relcache.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b76cf19f997d1b8306e1a200c271b185337ec082",
+    "size": 1562,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/b76cf19f997d1b8306e1a200c271b185337ec082"
+  },
+  {
+    "path": "pglogical_repset.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7b68edba433d5edc9208608f35b41b6512c9bfd",
+    "size": 37253,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/b7b68edba433d5edc9208608f35b41b6512c9bfd"
+  },
+  {
+    "path": "pglogical_repset.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c705691fee6c8539dee433f2d808abe6970fb28",
+    "size": 3060,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/2c705691fee6c8539dee433f2d808abe6970fb28"
+  },
+  {
+    "path": "pglogical_rpc.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ddb2c12b7026160c86b75ff7504419b847191394",
+    "size": 10184,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/ddb2c12b7026160c86b75ff7504419b847191394"
+  },
+  {
+    "path": "pglogical_rpc.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fed9cad9b5bcc2a0c9a13325e3ef4b1adb105d45",
+    "size": 1080,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/fed9cad9b5bcc2a0c9a13325e3ef4b1adb105d45"
+  },
+  {
+    "path": "pglogical_sequences.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "993218665c5a8452b45417ab4388d1a7a83756e5",
+    "size": 8864,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/993218665c5a8452b45417ab4388d1a7a83756e5"
+  },
+  {
+    "path": "pglogical_sync.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7ee4d4d9a76b122c29c9e02702685a88f4f2b03",
+    "size": 59480,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/c7ee4d4d9a76b122c29c9e02702685a88f4f2b03"
+  },
+  {
+    "path": "pglogical_sync.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51e9cd98bd67ef3ff3ee058422677836428b62de",
+    "size": 3121,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/51e9cd98bd67ef3ff3ee058422677836428b62de"
+  },
+  {
+    "path": "pglogical_worker.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a934263a565a31919dc2f7d8b6b90abfd3e5296",
+    "size": 19111,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/6a934263a565a31919dc2f7d8b6b90abfd3e5296"
+  },
+  {
+    "path": "pglogical_worker.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8c62d930a6073e840b9685f57bc78f94b080235",
+    "size": 3211,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/f8c62d930a6073e840b9685f57bc78f94b080235"
+  },
+  {
+    "path": "regress-pg_hba.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39a87a3446a76a86842a111e4b27faa84ddf384f",
+    "size": 4873,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/39a87a3446a76a86842a111e4b27faa84ddf384f"
+  },
+  {
+    "path": "regress-postgresql.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d281d01d9f5004eb2548610a9f0d1edf2b32c71",
+    "size": 830,
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/blobs/5d281d01d9f5004eb2548610a9f0d1edf2b32c71"
+  },
+  {
+    "path": "sql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b95234cbfb25fd1ce3a2c260522d29203dd794bd",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/b95234cbfb25fd1ce3a2c260522d29203dd794bd"
+  },
+  {
+    "path": "t",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de5d3936bd2adc1c7972a31835ec12311c677aae",
+    "url": "https://api.github.com/repos/2ndQuadrant/pglogical/git/trees/de5d3936bd2adc1c7972a31835ec12311c677aae"
+  }
+]

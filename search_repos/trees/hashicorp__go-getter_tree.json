@@ -1,0 +1,741 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1ea1133d5009d8a469245f7f34bbc3ea0c5769ad",
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/trees/1ea1133d5009d8a469245f7f34bbc3ea0c5769ad"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "511ca2675b11fffa806c1c8350f2228df2f8c107",
+    "size": 24,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/511ca2675b11fffa806c1c8350f2228df2f8c107"
+  },
+  {
+    "path": ".goreleaser.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a94fc6932bafa4c4e1b3d0f5f291a93c4d8e2595",
+    "size": 889,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/a94fc6932bafa4c4e1b3d0f5f291a93c4d8e2595"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0b285324bd8ba19eaa84857cc66a18a9b60dde0",
+    "size": 70,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/a0b285324bd8ba19eaa84857cc66a18a9b60dde0"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34a4c73fc4c6e374803e4fc5c55a575f51404f8f",
+    "size": 16013,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/34a4c73fc4c6e374803e4fc5c55a575f51404f8f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f380fdccab62da84e688a596a5be6b56fa7f2d8",
+    "size": 17301,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/7f380fdccab62da84e688a596a5be6b56fa7f2d8"
+  },
+  {
+    "path": "checksum.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e28ee5109bb58f5d06b8536f5b6b272a9c79ac42",
+    "size": 8138,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/e28ee5109bb58f5d06b8536f5b6b272a9c79ac42"
+  },
+  {
+    "path": "client.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77cb496a386d9dd4846d650f902a93f726c76a78",
+    "size": 9603,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/77cb496a386d9dd4846d650f902a93f726c76a78"
+  },
+  {
+    "path": "client_mode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46b0fa9e73a9cf45b4928a3335c807dca8c610a2",
+    "size": 846,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/46b0fa9e73a9cf45b4928a3335c807dca8c610a2"
+  },
+  {
+    "path": "client_option.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58b6cb9465898fb4a73c183e995bbf38bc6393a5",
+    "size": 2490,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/58b6cb9465898fb4a73c183e995bbf38bc6393a5"
+  },
+  {
+    "path": "client_option_insecure.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8524b81e4b0125d3459a4276640576c0fd831389",
+    "size": 453,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/8524b81e4b0125d3459a4276640576c0fd831389"
+  },
+  {
+    "path": "client_option_progress.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfde75edf93ada7cca4cbbdf3e8b59ec07b53da1",
+    "size": 1198,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/bfde75edf93ada7cca4cbbdf3e8b59ec07b53da1"
+  },
+  {
+    "path": "client_option_progress_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "598cf33b3caaea311450507d06a78c2023719022",
+    "size": 1554,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/598cf33b3caaea311450507d06a78c2023719022"
+  },
+  {
+    "path": "cmd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9a2d194594009c8b1967f75ba290b119fc269799",
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/trees/9a2d194594009c8b1967f75ba290b119fc269799"
+  },
+  {
+    "path": "common.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cc5a7bf9789f75e958cabe202984f7921e3250e",
+    "size": 280,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/0cc5a7bf9789f75e958cabe202984f7921e3250e"
+  },
+  {
+    "path": "copy_dir.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "321887327917ffaba7b6c275878d8f6fc7c46654",
+    "size": 2113,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/321887327917ffaba7b6c275878d8f6fc7c46654"
+  },
+  {
+    "path": "decompress.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c91060c676e7762beaebdf70a8bf62939861a5fe",
+    "size": 3162,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/c91060c676e7762beaebdf70a8bf62939861a5fe"
+  },
+  {
+    "path": "decompress_bzip2.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6de6e0f2a58a1152959a0c36124af470215314c",
+    "size": 1019,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/e6de6e0f2a58a1152959a0c36124af470215314c"
+  },
+  {
+    "path": "decompress_bzip2_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d9564c39ef2aa2651673a1bc34707a2f2cce757",
+    "size": 535,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/7d9564c39ef2aa2651673a1bc34707a2f2cce757"
+  },
+  {
+    "path": "decompress_gzip.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c8be55a12c9827f9e1022501c9516f920f15cc6",
+    "size": 1089,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/8c8be55a12c9827f9e1022501c9516f920f15cc6"
+  },
+  {
+    "path": "decompress_gzip_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2a8ee1fc5e8ac2125b3ba43ae02ef323268e0f3",
+    "size": 530,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/d2a8ee1fc5e8ac2125b3ba43ae02ef323268e0f3"
+  },
+  {
+    "path": "decompress_tar.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4532923bbf89d1f30b5dd2a019984af579988533",
+    "size": 4459,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/4532923bbf89d1f30b5dd2a019984af579988533"
+  },
+  {
+    "path": "decompress_tar_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4708fb9e8042d55b0c6df9c04a93eb8d0cdb4ef0",
+    "size": 4163,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/4708fb9e8042d55b0c6df9c04a93eb8d0cdb4ef0"
+  },
+  {
+    "path": "decompress_tbz2.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8429ee98f603c5783c2fd50d3561d06459ce03e",
+    "size": 1084,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/a8429ee98f603c5783c2fd50d3561d06459ce03e"
+  },
+  {
+    "path": "decompress_tbz2_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63056d58aebfb93323e1c65bb68894fc43b9264b",
+    "size": 1035,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/63056d58aebfb93323e1c65bb68894fc43b9264b"
+  },
+  {
+    "path": "decompress_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f3f5436f7f84dc7e76e3afa852258fc78bd1d9c",
+    "size": 1807,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/2f3f5436f7f84dc7e76e3afa852258fc78bd1d9c"
+  },
+  {
+    "path": "decompress_testing.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c53d4239aac157b96af7ba7b26fc14c38c171c2c",
+    "size": 4276,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/c53d4239aac157b96af7ba7b26fc14c38c171c2c"
+  },
+  {
+    "path": "decompress_tgz.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ace64e14460e98ed1e81795476add39b031c7f8",
+    "size": 1222,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/6ace64e14460e98ed1e81795476add39b031c7f8"
+  },
+  {
+    "path": "decompress_tgz_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31fec2561dddc7af8720b15ae06735b16e7b17f5",
+    "size": 1348,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/31fec2561dddc7af8720b15ae06735b16e7b17f5"
+  },
+  {
+    "path": "decompress_txz.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e902665a67bc3b8785be97377ea622d58707e286",
+    "size": 1206,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/e902665a67bc3b8785be97377ea622d58707e286"
+  },
+  {
+    "path": "decompress_txz_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13d60f6ea86afcb6ab1ff2d4d1e74da67dc5517e",
+    "size": 1168,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/13d60f6ea86afcb6ab1ff2d4d1e74da67dc5517e"
+  },
+  {
+    "path": "decompress_tzst.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d42d12bf0f2a00eca6cc97e070b8ea8dc0124a85",
+    "size": 1227,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/d42d12bf0f2a00eca6cc97e070b8ea8dc0124a85"
+  },
+  {
+    "path": "decompress_tzst_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c678da1a0361b3813860b84f4911d5b8247cee0a",
+    "size": 1358,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/c678da1a0361b3813860b84f4911d5b8247cee0a"
+  },
+  {
+    "path": "decompress_xz.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cb0f810275f963563193e239c13091342136f9c",
+    "size": 1108,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/0cb0f810275f963563193e239c13091342136f9c"
+  },
+  {
+    "path": "decompress_xz_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b4d16cfa10ac7c6fae123d37c7b7454bce720ac",
+    "size": 526,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/8b4d16cfa10ac7c6fae123d37c7b7454bce720ac"
+  },
+  {
+    "path": "decompress_zip.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b7933845d516505514c181f29f5002845db065f",
+    "size": 2661,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/3b7933845d516505514c181f29f5002845db065f"
+  },
+  {
+    "path": "decompress_zip_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "396f121659057f6b5799ed2f255697bc3f5dfae0",
+    "size": 3521,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/396f121659057f6b5799ed2f255697bc3f5dfae0"
+  },
+  {
+    "path": "decompress_zstd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de043265f7935183f45208d3b9121368a05caf37",
+    "size": 1095,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/de043265f7935183f45208d3b9121368a05caf37"
+  },
+  {
+    "path": "decompress_zstd_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c71bebdbd644fa20293ef8e36ad66b73f2686a0",
+    "size": 533,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/6c71bebdbd644fa20293ef8e36ad66b73f2686a0"
+  },
+  {
+    "path": "detect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c63191558343407eef2f82a97b7d8e8b4b2305ea",
+    "size": 2798,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/c63191558343407eef2f82a97b7d8e8b4b2305ea"
+  },
+  {
+    "path": "detect_bitbucket.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de0841f8d45b2355525e7ee3d6c01f0caf2e8e1d",
+    "size": 1702,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/de0841f8d45b2355525e7ee3d6c01f0caf2e8e1d"
+  },
+  {
+    "path": "detect_bitbucket_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4123ca1c1164c77dbfadb69dc4b6b85d9b549088",
+    "size": 1198,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/4123ca1c1164c77dbfadb69dc4b6b85d9b549088"
+  },
+  {
+    "path": "detect_file.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56c2bcac44e7a22219e06a34fc6c0a8e5791a03c",
+    "size": 1650,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/56c2bcac44e7a22219e06a34fc6c0a8e5791a03c"
+  },
+  {
+    "path": "detect_file_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fbe2f0ba20670f3d8ae54ad5e7ec15cff3cedd3",
+    "size": 2569,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/1fbe2f0ba20670f3d8ae54ad5e7ec15cff3cedd3"
+  },
+  {
+    "path": "detect_file_unix_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f65bb147a3bc5e3e1e6d56e0749cac99b8d67f12",
+    "size": 1538,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/f65bb147a3bc5e3e1e6d56e0749cac99b8d67f12"
+  },
+  {
+    "path": "detect_gcs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "044df932bcaddc4874a77888ee0e2f372fc530c8",
+    "size": 1006,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/044df932bcaddc4874a77888ee0e2f372fc530c8"
+  },
+  {
+    "path": "detect_gcs_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf01e5a17d55bd716ba2b2895b1bc9744e2f6724",
+    "size": 2023,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/bf01e5a17d55bd716ba2b2895b1bc9744e2f6724"
+  },
+  {
+    "path": "detect_git.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e6654f60da444ad18be627496d41c44422b91d2",
+    "size": 643,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/7e6654f60da444ad18be627496d41c44422b91d2"
+  },
+  {
+    "path": "detect_git_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "807f9b7b98269eb228915002ceba836a926bf04e",
+    "size": 1911,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/807f9b7b98269eb228915002ceba836a926bf04e"
+  },
+  {
+    "path": "detect_github.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00babb783a64061cbb1be40a3dc8c603e6b8dbdf",
+    "size": 1089,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/00babb783a64061cbb1be40a3dc8c603e6b8dbdf"
+  },
+  {
+    "path": "detect_github_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25fecb43a7eb1afd1a576c09298685d518418a04",
+    "size": 963,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/25fecb43a7eb1afd1a576c09298685d518418a04"
+  },
+  {
+    "path": "detect_gitlab.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75244bbea2092b9f262d230ff1a19d612e64fa5c",
+    "size": 1109,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/75244bbea2092b9f262d230ff1a19d612e64fa5c"
+  },
+  {
+    "path": "detect_gitlab_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "764b956678542c281f4b31fdbb2f8f9fc041aa98",
+    "size": 963,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/764b956678542c281f4b31fdbb2f8f9fc041aa98"
+  },
+  {
+    "path": "detect_s3.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dcaac12f7e755d5913ce0797c766973a6f4a79d5",
+    "size": 2170,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/dcaac12f7e755d5913ce0797c766973a6f4a79d5"
+  },
+  {
+    "path": "detect_s3_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "237f73323ad90e2df2740cf108afc5557c30fb8e",
+    "size": 3121,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/237f73323ad90e2df2740cf108afc5557c30fb8e"
+  },
+  {
+    "path": "detect_ssh.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0ea0e2fa68d42cdf7afa3c3f61712e70a2e499c",
+    "size": 1228,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/a0ea0e2fa68d42cdf7afa3c3f61712e70a2e499c"
+  },
+  {
+    "path": "detect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3811f8f66b1e402c275516e651ad187a8a6f297c",
+    "size": 1849,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/3811f8f66b1e402c275516e651ad187a8a6f297c"
+  },
+  {
+    "path": "folder_storage.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d9a70410e9fb71670a98c4b8b5d64ba6685a8ae",
+    "size": 1527,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/9d9a70410e9fb71670a98c4b8b5d64ba6685a8ae"
+  },
+  {
+    "path": "folder_storage_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8e3c475edd3aea4dc5f17567006145351ecd339",
+    "size": 868,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/e8e3c475edd3aea4dc5f17567006145351ecd339"
+  },
+  {
+    "path": "get.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85a2df056998a4cc4457315fd1e493ca9ad8e76c",
+    "size": 4450,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/85a2df056998a4cc4457315fd1e493ca9ad8e76c"
+  },
+  {
+    "path": "get_base.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1623a136ee4f3d0d758f23a80fdce655bf155afc",
+    "size": 527,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/1623a136ee4f3d0d758f23a80fdce655bf155afc"
+  },
+  {
+    "path": "get_file.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "345a4942cf52605405660654bb440693eeeea5d3",
+    "size": 786,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/345a4942cf52605405660654bb440693eeeea5d3"
+  },
+  {
+    "path": "get_file_copy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b64ae2ddfd5a825b2399c0c98d099d94cfcd9e19",
+    "size": 2585,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/b64ae2ddfd5a825b2399c0c98d099d94cfcd9e19"
+  },
+  {
+    "path": "get_file_copy_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3b7d756da05e89c0c05ccfb955e3e618389df05",
+    "size": 1927,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/e3b7d756da05e89c0c05ccfb955e3e618389df05"
+  },
+  {
+    "path": "get_file_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bab2847edb0a8a567c8cce4a75c18a3e10079f46",
+    "size": 4629,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/bab2847edb0a8a567c8cce4a75c18a3e10079f46"
+  },
+  {
+    "path": "get_file_unix.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84d32bef5721b20ac4e7f6bac5c423e975c1948f",
+    "size": 2154,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/84d32bef5721b20ac4e7f6bac5c423e975c1948f"
+  },
+  {
+    "path": "get_file_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baad9e430cef0d3d7dfe2ce1718ebcf647b83797",
+    "size": 2979,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/baad9e430cef0d3d7dfe2ce1718ebcf647b83797"
+  },
+  {
+    "path": "get_gcs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4de4b2eb6e27abe7c3bb212d86e81e53295f1ba7",
+    "size": 5332,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/4de4b2eb6e27abe7c3bb212d86e81e53295f1ba7"
+  },
+  {
+    "path": "get_gcs_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efebfea64d04934e1308be326c04c4f5e5617a4f",
+    "size": 7115,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/efebfea64d04934e1308be326c04c4f5e5617a4f"
+  },
+  {
+    "path": "get_git.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a610eb2077f15939bf99fbd4c62ffbdd746218a4",
+    "size": 11832,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/a610eb2077f15939bf99fbd4c62ffbdd746218a4"
+  },
+  {
+    "path": "get_git_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8a95cef23086ffca07fbd70336d28296ea71eee",
+    "size": 28151,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/a8a95cef23086ffca07fbd70336d28296ea71eee"
+  },
+  {
+    "path": "get_hg.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f1922b941e47d2322e11d45c3a88321fec0bd00",
+    "size": 3801,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/4f1922b941e47d2322e11d45c3a88321fec0bd00"
+  },
+  {
+    "path": "get_hg_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bda299ecdd218f729a4f75154efcc32faff1faa6",
+    "size": 3285,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/bda299ecdd218f729a4f75154efcc32faff1faa6"
+  },
+  {
+    "path": "get_http.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80936995153c9c191a6005f2f619beaacebc6c09",
+    "size": 17422,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/80936995153c9c191a6005f2f619beaacebc6c09"
+  },
+  {
+    "path": "get_http_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aae84228c98b4b72ebd5276ed5d7e4f4f3e92b82",
+    "size": 24674,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/aae84228c98b4b72ebd5276ed5d7e4f4f3e92b82"
+  },
+  {
+    "path": "get_mock.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "919612ceb7df1c5d13cb3759b1d248339d433356",
+    "size": 1087,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/919612ceb7df1c5d13cb3759b1d248339d433356"
+  },
+  {
+    "path": "get_s3.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd0b7a7a6df0912c586d1b6fa9aa50e18b3fee5c",
+    "size": 9219,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/fd0b7a7a6df0912c586d1b6fa9aa50e18b3fee5c"
+  },
+  {
+    "path": "get_s3_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3b475c86066273088ca2833d138ca6bb23a8846",
+    "size": 9199,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/c3b475c86066273088ca2833d138ca6bb23a8846"
+  },
+  {
+    "path": "get_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e15e2486587e7bee1d1021d5be91571b0d583e3",
+    "size": 11615,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/9e15e2486587e7bee1d1021d5be91571b0d583e3"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "494d7704b5495c4263c9722d40096446fd6d07f7",
+    "size": 921,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/494d7704b5495c4263c9722d40096446fd6d07f7"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74190f1403ccbf2010fb5677c63060cccb157251",
+    "size": 156477,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/74190f1403ccbf2010fb5677c63060cccb157251"
+  },
+  {
+    "path": "helper",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0530095b8393a36ffaf8caec19064e9d5f65b757",
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/trees/0530095b8393a36ffaf8caec19064e9d5f65b757"
+  },
+  {
+    "path": "module_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09f185e13baaefffa3aa4e23d5d4a0cd1a2912de",
+    "size": 1574,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/09f185e13baaefffa3aa4e23d5d4a0cd1a2912de"
+  },
+  {
+    "path": "netrc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8892628cfda9b72d33a1afe54b8a735ea537a0ac",
+    "size": 1576,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/8892628cfda9b72d33a1afe54b8a735ea537a0ac"
+  },
+  {
+    "path": "netrc_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1cff5523e2610d064cbe25deb0c9c6f4e13e4ac0",
+    "size": 2273,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/1cff5523e2610d064cbe25deb0c9c6f4e13e4ac0"
+  },
+  {
+    "path": "source.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48ff3ecaa8d4281f030f0447aa3309a17a5ab49b",
+    "size": 1920,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/48ff3ecaa8d4281f030f0447aa3309a17a5ab49b"
+  },
+  {
+    "path": "source_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b425cdb569810574655bfac93bdcdb47f5a722f",
+    "size": 2232,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/0b425cdb569810574655bfac93bdcdb47f5a722f"
+  },
+  {
+    "path": "storage.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da8d4d1d033d6b0dc6fc7f21d8cdbeb88d469f2c",
+    "size": 511,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/da8d4d1d033d6b0dc6fc7f21d8cdbeb88d469f2c"
+  },
+  {
+    "path": "test-fixtures",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1f0fc5dacc92fa99fc4118e9ac59153d1cb30e31",
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/trees/1f0fc5dacc92fa99fc4118e9ac59153d1cb30e31"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "137f6a56a45a49e0af4f167d76b11b575fbf67ae",
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/trees/137f6a56a45a49e0af4f167d76b11b575fbf67ae"
+  },
+  {
+    "path": "url.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60885af2c1e25936c9b8e90fb42c9185c647a1bb",
+    "size": 818,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/60885af2c1e25936c9b8e90fb42c9185c647a1bb"
+  },
+  {
+    "path": "url_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc3603adbae98d3c48d31045c383c878d4d63774",
+    "size": 3514,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/bc3603adbae98d3c48d31045c383c878d4d63774"
+  },
+  {
+    "path": "util_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbd5a40eca550d1d89d3a94435dcaa9119fd0d21",
+    "size": 1021,
+    "url": "https://api.github.com/repos/hashicorp/go-getter/git/blobs/fbd5a40eca550d1d89d3a94435dcaa9119fd0d21"
+  }
+]

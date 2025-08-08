@@ -1,0 +1,953 @@
+[
+  {
+    "path": ".clang-format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b11867fbf014754d14d184f1f3f54fb570ce4359",
+    "size": 2617,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/b11867fbf014754d14d184f1f3f54fb570ce4359"
+  },
+  {
+    "path": ".doxygen.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20ce48b5af900d6763083c81bb014f6fafca822c",
+    "size": 3647,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/20ce48b5af900d6763083c81bb014f6fafca822c"
+  },
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11c5c733a8b8d9be2c0d9fa314d01c9a2e02d65e",
+    "size": 176,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/11c5c733a8b8d9be2c0d9fa314d01c9a2e02d65e"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "34b0a8ad0b1c22b292a724e027603c2fae1893da",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/34b0a8ad0b1c22b292a724e027603c2fae1893da"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c464f922097c773e7e4e7bf6b0a05850ed3e341",
+    "size": 1447,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/4c464f922097c773e7e4e7bf6b0a05850ed3e341"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b095e57fa327d5ed17c049647a35e5e864135bc",
+    "size": 627,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/2b095e57fa327d5ed17c049647a35e5e864135bc"
+  },
+  {
+    "path": ".style.yapf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f4d68e97cbcfeeb635d537e315ef5c7f3005923",
+    "size": 2431,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/9f4d68e97cbcfeeb635d537e315ef5c7f3005923"
+  },
+  {
+    "path": "CMakeLists.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "904fcf4f5bde6bc8fa42623b2761385c1a54619e",
+    "size": 7078,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/904fcf4f5bde6bc8fa42623b2761385c1a54619e"
+  },
+  {
+    "path": "Cargo.lock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9b6202ee8b1ac53cb204d315c1f3c1dc880d10d",
+    "size": 90031,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/e9b6202ee8b1ac53cb204d315c1f3c1dc880d10d"
+  },
+  {
+    "path": "Cargo.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f56c5c55d042ed1d6782731ec6dc2bf05a859eb",
+    "size": 1182,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/2f56c5c55d042ed1d6782731ec6dc2bf05a859eb"
+  },
+  {
+    "path": "LICENSE.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82d720c2c8c0a97ba89214a7bdf00bf4af9252d1",
+    "size": 1062,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/82d720c2c8c0a97ba89214a7bdf00bf4af9252d1"
+  },
+  {
+    "path": "PythonAPIDocumentation.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61f59251d7964980ad96b00e2cd2d205ee12d6ef",
+    "size": 15630,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/61f59251d7964980ad96b00e2cd2d205ee12d6ef"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae8db7657bc5b8085123db4405d82e368d315a31",
+    "size": 10364,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/ae8db7657bc5b8085123db4405d82e368d315a31"
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "999d196f76c32dff419634ce1142a9b39a50ace7",
+    "size": 3078,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/999d196f76c32dff419634ce1142a9b39a50ace7"
+  },
+  {
+    "path": "about.hbs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9091a2a7c34fc31bad3c384e385017955a5668b1",
+    "size": 1803,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/9091a2a7c34fc31bad3c384e385017955a5668b1"
+  },
+  {
+    "path": "about.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aaf511f8a3c830d62eda5d175288fa9c281000ed",
+    "size": 188,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/aaf511f8a3c830d62eda5d175288fa9c281000ed"
+  },
+  {
+    "path": "activity.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bb5858fd36db07588ab529de9aafb5b04909937",
+    "size": 1673,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/0bb5858fd36db07588ab529de9aafb5b04909937"
+  },
+  {
+    "path": "api-docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "957abf4fe583a4e7e9e9633473d2187294be391a",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/957abf4fe583a4e7e9e9633473d2187294be391a"
+  },
+  {
+    "path": "arch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "96ca91180b06384962cd5c66f60e4e2c8259a572",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/96ca91180b06384962cd5c66f60e4e2c8259a572"
+  },
+  {
+    "path": "architecture.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6db5b6b5b4e651274fd01429ebcdf54d056d59f2",
+    "size": 79391,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/6db5b6b5b4e651274fd01429ebcdf54d056d59f2"
+  },
+  {
+    "path": "backgroundtask.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5aeadaf826f1f2084a36bd7f0e319525f573f7a3",
+    "size": 1508,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/5aeadaf826f1f2084a36bd7f0e319525f573f7a3"
+  },
+  {
+    "path": "basedetection.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b660d36d9bc8141e7f357a0c50299467ec8a9c4",
+    "size": 3058,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/0b660d36d9bc8141e7f357a0c50299467ec8a9c4"
+  },
+  {
+    "path": "basicblock.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e178bd6eb0232abcaac010a6aaeea74b06ee72fb",
+    "size": 18285,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/e178bd6eb0232abcaac010a6aaeea74b06ee72fb"
+  },
+  {
+    "path": "binaryninjaapi.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c35e28c860c2847f9669c750b34bd2be10ba1b01",
+    "size": 13829,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/c35e28c860c2847f9669c750b34bd2be10ba1b01"
+  },
+  {
+    "path": "binaryninjaapi.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32d6051f1b9b874ae62e26b652c480b0e5b83c72",
+    "size": 841387,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/32d6051f1b9b874ae62e26b652c480b0e5b83c72"
+  },
+  {
+    "path": "binaryninjacore.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7f9e63a650e76ccc303296b11e6ec384eaf12b6",
+    "size": 478892,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/b7f9e63a650e76ccc303296b11e6ec384eaf12b6"
+  },
+  {
+    "path": "binaryreader.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dae048e7b360a2132453238f8d9e2b2fca296062",
+    "size": 8702,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/dae048e7b360a2132453238f8d9e2b2fca296062"
+  },
+  {
+    "path": "binaryview.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21266886cc40595bb2e0c67c35c389af6cc8635e",
+    "size": 163948,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/21266886cc40595bb2e0c67c35c389af6cc8635e"
+  },
+  {
+    "path": "binaryviewtype.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28f5c130bbc1a3ccea379fe2408e311492bd0f92",
+    "size": 10692,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/28f5c130bbc1a3ccea379fe2408e311492bd0f92"
+  },
+  {
+    "path": "binarywriter.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebc2194562378471f833fe1d1c09fa1d62102e5c",
+    "size": 4475,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/ebc2194562378471f833fe1d1c09fa1d62102e5c"
+  },
+  {
+    "path": "callingconvention.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "001635d3f418dc82feb6c843a2fa4c26a3924614",
+    "size": 13522,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/001635d3f418dc82feb6c843a2fa4c26a3924614"
+  },
+  {
+    "path": "cmake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b032d4b5a2b3e0412fa47b975210b4a620331628",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/b032d4b5a2b3e0412fa47b975210b4a620331628"
+  },
+  {
+    "path": "collaboration.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b07cd845cb24a88993ecb11024a1f6aa05da675d",
+    "size": 64637,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/b07cd845cb24a88993ecb11024a1f6aa05da675d"
+  },
+  {
+    "path": "component.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0dd7db21933bf92a3f122c263e82844aee6cffab",
+    "size": 4233,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/0dd7db21933bf92a3f122c263e82844aee6cffab"
+  },
+  {
+    "path": "database.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fdc50e10e0d87f5c74a46e1fff251770165032e",
+    "size": 12555,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/0fdc50e10e0d87f5c74a46e1fff251770165032e"
+  },
+  {
+    "path": "databuffer.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c8b4d39330f389a68f6b679a723007face2549a",
+    "size": 5755,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/8c8b4d39330f389a68f6b679a723007face2549a"
+  },
+  {
+    "path": "datarenderer.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d87183b5b344c402b7b34787fb78b814472c4301",
+    "size": 6531,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/d87183b5b344c402b7b34787fb78b814472c4301"
+  },
+  {
+    "path": "debuginfo.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3f14383048e5be7feeb38506a73507973461370",
+    "size": 14187,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/b3f14383048e5be7feeb38506a73507973461370"
+  },
+  {
+    "path": "defaultabb.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "647bbfb680ce3288d2a77cf7bd71dde22a772a43",
+    "size": 26473,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/647bbfb680ce3288d2a77cf7bd71dde22a772a43"
+  },
+  {
+    "path": "defaultabb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c0872c41d89a224d9a9c5f8bf4cb4fe44af8d14",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/6c0872c41d89a224d9a9c5f8bf4cb4fe44af8d14"
+  },
+  {
+    "path": "demangle.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad392d47319d475a757b13858074a329b3223c68",
+    "size": 7031,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/ad392d47319d475a757b13858074a329b3223c68"
+  },
+  {
+    "path": "demangler",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bb9a890f36769eacff4e4b2df701465b42ba03d",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/1bb9a890f36769eacff4e4b2df701465b42ba03d"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8a7ab3879624a9b0cd735a4f9e999912d41c2dfc",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/8a7ab3879624a9b0cd735a4f9e999912d41c2dfc"
+  },
+  {
+    "path": "downloadprovider.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "271e0cbf3310def6db5e1e5a93b8ac3a6f697f18",
+    "size": 7425,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/271e0cbf3310def6db5e1e5a93b8ac3a6f697f18"
+  },
+  {
+    "path": "enterprise.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc81a4ec7ab6b66b24ba44035e80e2847685d61b",
+    "size": 7418,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/bc81a4ec7ab6b66b24ba44035e80e2847685d61b"
+  },
+  {
+    "path": "enterprise.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49882bca9c23781ab0b7cce588473388b4d76bfc",
+    "size": 7342,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/49882bca9c23781ab0b7cce588473388b4d76bfc"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b69f4954b2cbb8e95c937ec20034201286cb53e4",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/b69f4954b2cbb8e95c937ec20034201286cb53e4"
+  },
+  {
+    "path": "exceptions.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4dcf01a2ae18e02c2fe33bc68695392c08341a1f",
+    "size": 2768,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/4dcf01a2ae18e02c2fe33bc68695392c08341a1f"
+  },
+  {
+    "path": "exceptions.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "283f0f2367add10286d53c180e50ec9f555727d4",
+    "size": 1780,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/283f0f2367add10286d53c180e50ec9f555727d4"
+  },
+  {
+    "path": "externallibrary.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ae2a89a4781a9ba3c17609957459d8c0c3a4b33",
+    "size": 3581,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/0ae2a89a4781a9ba3c17609957459d8c0c3a4b33"
+  },
+  {
+    "path": "ffi.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6dee0a9dc7145fe0b253799e4fa46d643b3e2e6d",
+    "size": 7726,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/6dee0a9dc7145fe0b253799e4fa46d643b3e2e6d"
+  },
+  {
+    "path": "ffi.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e365f21752f120b20498c6f27935753faa6d0f7f",
+    "size": 8647,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/e365f21752f120b20498c6f27935753faa6d0f7f"
+  },
+  {
+    "path": "fileaccessor.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abd87e5ab242231f9c44b1d384d82cd5fb0aab9d",
+    "size": 2428,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/abd87e5ab242231f9c44b1d384d82cd5fb0aab9d"
+  },
+  {
+    "path": "filemetadata.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e45354c7ca734b52c105a315e4ce7350bb379e5b",
+    "size": 12513,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/e45354c7ca734b52c105a315e4ce7350bb379e5b"
+  },
+  {
+    "path": "firmwareninja.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02c62526446ba085603308715da84fff55eb57d1",
+    "size": 19372,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/02c62526446ba085603308715da84fff55eb57d1"
+  },
+  {
+    "path": "flowgraph.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb4613ec009034eb111b425ab1427d5a9f95de54",
+    "size": 10311,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/eb4613ec009034eb111b425ab1427d5a9f95de54"
+  },
+  {
+    "path": "flowgraphlayout.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3aca6402445f4dda51ace02e43232a4d1be0b57a",
+    "size": 3408,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/3aca6402445f4dda51ace02e43232a4d1be0b57a"
+  },
+  {
+    "path": "flowgraphnode.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7dd7ac81decfd74116e72461e5c40cc8b0feb3e6",
+    "size": 5706,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/7dd7ac81decfd74116e72461e5c40cc8b0feb3e6"
+  },
+  {
+    "path": "formatter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00ff2832d4624707a3de8ec588c8c6a86e687eed",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/00ff2832d4624707a3de8ec588c8c6a86e687eed"
+  },
+  {
+    "path": "function.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d35aa7d979a2ad5351d1f1981da7f04dc1868d6",
+    "size": 93242,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/1d35aa7d979a2ad5351d1f1981da7f04dc1868d6"
+  },
+  {
+    "path": "functionrecognizer.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbd703c44fff63e0ea2bd2398b811479bc7c185c",
+    "size": 3092,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/bbd703c44fff63e0ea2bd2398b811479bc7c185c"
+  },
+  {
+    "path": "genericrange.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91854d16ec2c2b1be9d0f59941345dd9b939fd9e",
+    "size": 8186,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/91854d16ec2c2b1be9d0f59941345dd9b939fd9e"
+  },
+  {
+    "path": "highlevelil.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84d74eb397793f55368fe291e686fb24af0a9f84",
+    "size": 25632,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/84d74eb397793f55368fe291e686fb24af0a9f84"
+  },
+  {
+    "path": "highlevelilinstruction.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "964e1af94fe37e60ee4adf60c32b129a36617d58",
+    "size": 111704,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/964e1af94fe37e60ee4adf60c32b129a36617d58"
+  },
+  {
+    "path": "highlevelilinstruction.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e10c48513c21b66306529b91e307cc2e870b092",
+    "size": 52866,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/2e10c48513c21b66306529b91e307cc2e870b092"
+  },
+  {
+    "path": "http.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ce4206c210d57c1708e2f1fa203ffa391a23d42",
+    "size": 13966,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/4ce4206c210d57c1708e2f1fa203ffa391a23d42"
+  },
+  {
+    "path": "http.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5956717832ce8c6efb0d8666c4b99074b1395d03",
+    "size": 13296,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/5956717832ce8c6efb0d8666c4b99074b1395d03"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "904cbf2206bbf74d30dae89e72f0ed4847c00ab4",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/904cbf2206bbf74d30dae89e72f0ed4847c00ab4"
+  },
+  {
+    "path": "interaction.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c25095bb6e0afd4dcb15e0955cb4cbb1f589d351",
+    "size": 24263,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/c25095bb6e0afd4dcb15e0955cb4cbb1f589d351"
+  },
+  {
+    "path": "json",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0f1cbe49eef93fbe1b7953ff60d11d382840f3a2",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/0f1cbe49eef93fbe1b7953ff60d11d382840f3a2"
+  },
+  {
+    "path": "lang",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dc56c08bc27195fa1979ed56f775c009aa0c191a",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/dc56c08bc27195fa1979ed56f775c009aa0c191a"
+  },
+  {
+    "path": "languagerepresentation.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8194a57f14a7882c198a8f45ccfbd2768b60414c",
+    "size": 15608,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/8194a57f14a7882c198a8f45ccfbd2768b60414c"
+  },
+  {
+    "path": "linearviewcursor.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c468d085f2aa09056f9ab61a42ab4d47446b13e6",
+    "size": 6278,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/c468d085f2aa09056f9ab61a42ab4d47446b13e6"
+  },
+  {
+    "path": "linearviewobject.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94c738b4434dc58c549399fed5951a52b245d038",
+    "size": 12665,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/94c738b4434dc58c549399fed5951a52b245d038"
+  },
+  {
+    "path": "lineformatter.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44eac0b3e696c17c3e5c4bca1e66490b2094d76d",
+    "size": 6161,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/44eac0b3e696c17c3e5c4bca1e66490b2094d76d"
+  },
+  {
+    "path": "log.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2329e503b504b3d5bf2055ceca725b62aa1ee4cf",
+    "size": 19193,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/2329e503b504b3d5bf2055ceca725b62aa1ee4cf"
+  },
+  {
+    "path": "lowlevelil.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5fe2ed914fe25c7332eb816fd41c3a6032199383",
+    "size": 29748,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/5fe2ed914fe25c7332eb816fd41c3a6032199383"
+  },
+  {
+    "path": "lowlevelilinstruction.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26f5055d5a3d3e20830937bfb37e91f7b85eea17",
+    "size": 122731,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/26f5055d5a3d3e20830937bfb37e91f7b85eea17"
+  },
+  {
+    "path": "lowlevelilinstruction.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43c31adc7c27e139dc07b55d6fb14df2121a1f45",
+    "size": 72505,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/43c31adc7c27e139dc07b55d6fb14df2121a1f45"
+  },
+  {
+    "path": "mainthread.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a0f1321a2d39fd5b8a9d8733566e1bb0bd70509",
+    "size": 2531,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/6a0f1321a2d39fd5b8a9d8733566e1bb0bd70509"
+  },
+  {
+    "path": "mediumlevelil.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26a020aef240db4380a5810fdfa0752f3636a232",
+    "size": 34226,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/26a020aef240db4380a5810fdfa0752f3636a232"
+  },
+  {
+    "path": "mediumlevelilinstruction.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a026aad7122c65ce24effcb80a20f36763252c2",
+    "size": 110970,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/8a026aad7122c65ce24effcb80a20f36763252c2"
+  },
+  {
+    "path": "mediumlevelilinstruction.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1f8e00d64301b1d687b79c23b2bbdb124c0cf17",
+    "size": 66682,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/a1f8e00d64301b1d687b79c23b2bbdb124c0cf17"
+  },
+  {
+    "path": "metadata.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1905daf4599e014d0d231843e1055e0c4cfb43b5",
+    "size": 8525,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/1905daf4599e014d0d231843e1055e0c4cfb43b5"
+  },
+  {
+    "path": "mkdocs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f9dd11c37f0e69cd8f4bb081ded4809c279d6eb",
+    "size": 5628,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/0f9dd11c37f0e69cd8f4bb081ded4809c279d6eb"
+  },
+  {
+    "path": "objectivec",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b16555afd475e4aa84442ddf819240b6ee9f6714",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/b16555afd475e4aa84442ddf819240b6ee9f6714"
+  },
+  {
+    "path": "overrides",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "006de56fefc4c415f3cee2f2594c8c5590fd9f27",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/006de56fefc4c415f3cee2f2594c8c5590fd9f27"
+  },
+  {
+    "path": "platform.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef32e46961ec8af2190077c8df9e8efa5f24221a",
+    "size": 21750,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/ef32e46961ec8af2190077c8df9e8efa5f24221a"
+  },
+  {
+    "path": "platform",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3415109a0f5dc0049a53096c8a38eb7daacf9f5",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/f3415109a0f5dc0049a53096c8a38eb7daacf9f5"
+  },
+  {
+    "path": "plugin.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a54f1f01392d137ade506012384989222bfccfb2",
+    "size": 26268,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/a54f1f01392d137ade506012384989222bfccfb2"
+  },
+  {
+    "path": "pluginmanager.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1e674e1934c349379fe043425598ab81728eb19",
+    "size": 7054,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/f1e674e1934c349379fe043425598ab81728eb19"
+  },
+  {
+    "path": "plugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "74399cb93c9ae9b1fdeabf8d164f60e61a17b3f3",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/74399cb93c9ae9b1fdeabf8d164f60e61a17b3f3"
+  },
+  {
+    "path": "project.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e795db619f21d762883d0eaaf184300336089e6b",
+    "size": 21741,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/e795db619f21d762883d0eaaf184300336089e6b"
+  },
+  {
+    "path": "python",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b6cd9836201a558e8101535a3b5cd45509438456",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/b6cd9836201a558e8101535a3b5cd45509438456"
+  },
+  {
+    "path": "rapidjson",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a34c0829e377ed9d35063b5f07d38bb24d0f7e7c",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/a34c0829e377ed9d35063b5f07d38bb24d0f7e7c"
+  },
+  {
+    "path": "rapidjsonwrapper.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1739f5c9a4dfe11a52633f9c68a85e6206885bb6",
+    "size": 3399,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/1739f5c9a4dfe11a52633f9c68a85e6206885bb6"
+  },
+  {
+    "path": "relocationhandler.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed0b609ef3a3d4c97d89d7135331a3853b248d81",
+    "size": 5403,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/ed0b609ef3a3d4c97d89d7135331a3853b248d81"
+  },
+  {
+    "path": "renderlayer.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e23f62ea97e1bf79a89a7613bcc5559f5af0910",
+    "size": 8592,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/0e23f62ea97e1bf79a89a7613bcc5559f5af0910"
+  },
+  {
+    "path": "rust",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb8c446778de4be83f6c55b7f07f61549ff11757",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/eb8c446778de4be83f6c55b7f07f61549ff11757"
+  },
+  {
+    "path": "scriptingprovider.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad10ec5eef92d3e4d770c3ad8336ada45f60132b",
+    "size": 11770,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/ad10ec5eef92d3e4d770c3ad8336ada45f60132b"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d027a1f4410a6fda77a654d23db47ab0b7bc7ea5",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/d027a1f4410a6fda77a654d23db47ab0b7bc7ea5"
+  },
+  {
+    "path": "secretsprovider.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4b81aeb27f83a18fd40cffffb25e6042ab4a3b0",
+    "size": 4015,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/c4b81aeb27f83a18fd40cffffb25e6042ab4a3b0"
+  },
+  {
+    "path": "settings.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d06e309b23644757074df1c5ccee7c520c55e3d4",
+    "size": 15138,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/d06e309b23644757074df1c5ccee7c520c55e3d4"
+  },
+  {
+    "path": "sphinx_rtd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d34f4034d96d70f3b5b22c38503ffecb43ab8f1a",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/d34f4034d96d70f3b5b22c38503ffecb43ab8f1a"
+  },
+  {
+    "path": "tempfile.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fce74fd67ed4e80c20a1f4f285c6b3cd33c8b1b3",
+    "size": 1993,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/fce74fd67ed4e80c20a1f4f285c6b3cd33c8b1b3"
+  },
+  {
+    "path": "themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7bef6d426d444b8ceee2ccee7e89102ca695540d",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/7bef6d426d444b8ceee2ccee7e89102ca695540d"
+  },
+  {
+    "path": "transform.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86f2caf92cf88dd0c162739c7c7f1e7022a46e29",
+    "size": 7511,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/86f2caf92cf88dd0c162739c7c7f1e7022a46e29"
+  },
+  {
+    "path": "type.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dccede122db005bb2b9434efcf5cc826cd58917",
+    "size": 81069,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/9dccede122db005bb2b9434efcf5cc826cd58917"
+  },
+  {
+    "path": "typearchive.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acd4447b80a2bd2942bf4227159527a06533be97",
+    "size": 17597,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/acd4447b80a2bd2942bf4227159527a06533be97"
+  },
+  {
+    "path": "typecontainer.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "244c7a27d40617fbee77ebcb7150c09f01032b08",
+    "size": 12706,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/244c7a27d40617fbee77ebcb7150c09f01032b08"
+  },
+  {
+    "path": "typelibrary.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a56c6db36a05e4ba76c9e74f1b83a367aef3720e",
+    "size": 5938,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/a56c6db36a05e4ba76c9e74f1b83a367aef3720e"
+  },
+  {
+    "path": "typeparser.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7cbd442b077042d834bb94a1f4e45ebb0bef95df",
+    "size": 15663,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/7cbd442b077042d834bb94a1f4e45ebb0bef95df"
+  },
+  {
+    "path": "typeprinter.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b36da9dc9878080db0e3bdbd87784e249923d60",
+    "size": 14566,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/3b36da9dc9878080db0e3bdbd87784e249923d60"
+  },
+  {
+    "path": "ui",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f57e6ef2acfa9528b4e21bf89dd4b21d09a442c",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/4f57e6ef2acfa9528b4e21bf89dd4b21d09a442c"
+  },
+  {
+    "path": "undoaction.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b199719419f54e716c09228bcda81784e64ee374",
+    "size": 2425,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/b199719419f54e716c09228bcda81784e64ee374"
+  },
+  {
+    "path": "unicode.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "127521bed45ad9aacb159995918c0b5a807ae72f",
+    "size": 5690,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/127521bed45ad9aacb159995918c0b5a807ae72f"
+  },
+  {
+    "path": "update.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7fe2eec7466cf3d2051be381679a4fc53d10f403",
+    "size": 4740,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/7fe2eec7466cf3d2051be381679a4fc53d10f403"
+  },
+  {
+    "path": "user.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "321b457a5fcf7031ec993e591b099bc0900dd7a6",
+    "size": 1658,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/321b457a5fcf7031ec993e591b099bc0900dd7a6"
+  },
+  {
+    "path": "vendor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b4ec6e8239be54fb4e677ee50d08026289e61224",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/b4ec6e8239be54fb4e677ee50d08026289e61224"
+  },
+  {
+    "path": "view",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8473e7556ab92ac62a1a6400268112c8ad6d08d9",
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/trees/8473e7556ab92ac62a1a6400268112c8ad6d08d9"
+  },
+  {
+    "path": "websocketprovider.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3273e34f720a34b03032730e83a9e6116a553d57",
+    "size": 5594,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/3273e34f720a34b03032730e83a9e6116a553d57"
+  },
+  {
+    "path": "workflow.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13c180a51ee013efa73d3109a8abe9e067a7f67b",
+    "size": 18344,
+    "url": "https://api.github.com/repos/Vector35/binaryninja-api/git/blobs/13c180a51ee013efa73d3109a8abe9e067a7f67b"
+  }
+]

@@ -1,0 +1,2961 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61b6e4bc73892a77f018f6eb328213ee4f2277b0",
+    "size": 365,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/61b6e4bc73892a77f018f6eb328213ee4f2277b0"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bdb0cabc87cf50106df6e15097dff816c8c3eb34",
+    "size": 378,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bdb0cabc87cf50106df6e15097dff816c8c3eb34"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "082af88d9fbdabf190e187e27f4376565e9439ed",
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/trees/082af88d9fbdabf190e187e27f4376565e9439ed"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d6f44d2b032914112f92ff63c4e7b6e7f65cdea",
+    "size": 152,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4d6f44d2b032914112f92ff63c4e7b6e7f65cdea"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "size": 35149,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71fd0eb7034c83ddac926f0ab85d4df82d9ac28b",
+    "size": 3821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/71fd0eb7034c83ddac926f0ab85d4df82d9ac28b"
+  },
+  {
+    "path": "_template.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "855e94d97585012abd9c0226365fe4cfe3412544",
+    "size": 3306,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/855e94d97585012abd9c0226365fe4cfe3412544"
+  },
+  {
+    "path": "_template.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f8eff6befd39c666f2f22b07a1c8fb560894392",
+    "size": 2439,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2f8eff6befd39c666f2f22b07a1c8fb560894392"
+  },
+  {
+    "path": "actual-server.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fc719dd9c37fee94ce87bd3cf0d28a9d5dcf163",
+    "size": 1856,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4fc719dd9c37fee94ce87bd3cf0d28a9d5dcf163"
+  },
+  {
+    "path": "adguard.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab618d8518a2961b9f45c5c730a5dd6da9074ea3",
+    "size": 2601,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ab618d8518a2961b9f45c5c730a5dd6da9074ea3"
+  },
+  {
+    "path": "adminer.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e60eb41a47ebdadc16d30e77fcf03ecb5a4096fd",
+    "size": 1827,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e60eb41a47ebdadc16d30e77fcf03ecb5a4096fd"
+  },
+  {
+    "path": "adminer.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8b02243d3637ff5961d8bae9fac5df0e334fc33",
+    "size": 963,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e8b02243d3637ff5961d8bae9fac5df0e334fc33"
+  },
+  {
+    "path": "adminmongo.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2bd8ea62bd0e6cfee201ab0b9bf9417ef8aadc0",
+    "size": 1840,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c2bd8ea62bd0e6cfee201ab0b9bf9417ef8aadc0"
+  },
+  {
+    "path": "airsonic.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6fa79ba62872c690ef13eaebef51fcebe057dcc8",
+    "size": 1945,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6fa79ba62872c690ef13eaebef51fcebe057dcc8"
+  },
+  {
+    "path": "airsonic.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54b4f88d8757096a355601c5a187e0c19e48a130",
+    "size": 994,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/54b4f88d8757096a355601c5a187e0c19e48a130"
+  },
+  {
+    "path": "apprise-api.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e65486e91c261113a6b4a4e89b5c5b7009c8bc9",
+    "size": 1847,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4e65486e91c261113a6b4a4e89b5c5b7009c8bc9"
+  },
+  {
+    "path": "archisteamfarm.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e0170bef6741e592e0fff17de1436949a8f6e3d",
+    "size": 1861,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9e0170bef6741e592e0fff17de1436949a8f6e3d"
+  },
+  {
+    "path": "aria2-with-webui.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e75fcc0a08b0dccf06352d83f1df572e348ed50",
+    "size": 2824,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6e75fcc0a08b0dccf06352d83f1df572e348ed50"
+  },
+  {
+    "path": "asciinema.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a1e68783663812e2ae7c0d4135f2bd30a73a01f",
+    "size": 2829,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8a1e68783663812e2ae7c0d4135f2bd30a73a01f"
+  },
+  {
+    "path": "atuin.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03670f51e364fd82295419edf8378d056cb609d0",
+    "size": 1815,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/03670f51e364fd82295419edf8378d056cb609d0"
+  },
+  {
+    "path": "audiobookshelf.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b737e912725286c2ca56c34dc33ed582225173da",
+    "size": 1859,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b737e912725286c2ca56c34dc33ed582225173da"
+  },
+  {
+    "path": "audiobookshelf.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f97b5c33ad88916da0924d50636c16429f9d3c2b",
+    "size": 1040,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f97b5c33ad88916da0924d50636c16429f9d3c2b"
+  },
+  {
+    "path": "authelia.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c8276a6db0caa2beaab2eed4fbd02355b99c954",
+    "size": 919,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0c8276a6db0caa2beaab2eed4fbd02355b99c954"
+  },
+  {
+    "path": "authentik.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b6c9ccc32a8e7e76c9e704984993da00c125436",
+    "size": 947,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5b6c9ccc32a8e7e76c9e704984993da00c125436"
+  },
+  {
+    "path": "babybuddy.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84fd70f5b8a87365421f2091c13baabb98312a2d",
+    "size": 2126,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/84fd70f5b8a87365421f2091c13baabb98312a2d"
+  },
+  {
+    "path": "bazarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76d7346cf092963a4fe119b78958774132cb4289",
+    "size": 2116,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/76d7346cf092963a4fe119b78958774132cb4289"
+  },
+  {
+    "path": "bazarr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eede1dd1ff5c055c8cd06f5b9f15bad3481e3e12",
+    "size": 1238,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/eede1dd1ff5c055c8cd06f5b9f15bad3481e3e12"
+  },
+  {
+    "path": "beets.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "145f73570e22203ecb03be475ce26ee33de17fd4",
+    "size": 1948,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/145f73570e22203ecb03be475ce26ee33de17fd4"
+  },
+  {
+    "path": "beets.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a19a0b9c0fcacfa4db5e5ce540a2a99be95d279",
+    "size": 1119,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7a19a0b9c0fcacfa4db5e5ce540a2a99be95d279"
+  },
+  {
+    "path": "beszel.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cc6b0e3494aa214d7d3a571c0810e7f0c3cb6e0",
+    "size": 2116,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3cc6b0e3494aa214d7d3a571c0810e7f0c3cb6e0"
+  },
+  {
+    "path": "beszel.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "050d3e9b256b402e911780b52355f3e0b5a1074e",
+    "size": 1239,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/050d3e9b256b402e911780b52355f3e0b5a1074e"
+  },
+  {
+    "path": "bitwarden.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5dd48ad0f4b0877319e4c3be2f627bb93ee8850",
+    "size": 3734,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a5dd48ad0f4b0877319e4c3be2f627bb93ee8850"
+  },
+  {
+    "path": "boinc.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccad6c5fdab82e27ce2e10e946faf15f0e829d70",
+    "size": 1845,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ccad6c5fdab82e27ce2e10e946faf15f0e829d70"
+  },
+  {
+    "path": "boinc.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21dab87c3ada2a859b82c62811abcfd00652e8db",
+    "size": 2128,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/21dab87c3ada2a859b82c62811abcfd00652e8db"
+  },
+  {
+    "path": "booksonic.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d8b4c5d88e88abe3d3793518a5df8f413aa5bc6",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8d8b4c5d88e88abe3d3793518a5df8f413aa5bc6"
+  },
+  {
+    "path": "booksonic.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37dfdf9cc357677d4a5aae85d56a7c68ca8f641d",
+    "size": 1002,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/37dfdf9cc357677d4a5aae85d56a7c68ca8f641d"
+  },
+  {
+    "path": "bookstack.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be6cb12f2828774c00fc04efdc71b6777cb6bf9b",
+    "size": 2020,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/be6cb12f2828774c00fc04efdc71b6777cb6bf9b"
+  },
+  {
+    "path": "budge.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b40d2ef6ea43d87348f79005b751fc937bd95fc",
+    "size": 1817,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7b40d2ef6ea43d87348f79005b751fc937bd95fc"
+  },
+  {
+    "path": "cadvisor.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a61c13f9335ec3256b6607a3e545a623220274df",
+    "size": 2130,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a61c13f9335ec3256b6607a3e545a623220274df"
+  },
+  {
+    "path": "calibre-web.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5109bd7d65ac7732e50a367d96cc187e2460ac0",
+    "size": 3178,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b5109bd7d65ac7732e50a367d96cc187e2460ac0"
+  },
+  {
+    "path": "calibre-web.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "011c6fcaa271107873530304f9e5caddf02f0786",
+    "size": 2330,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/011c6fcaa271107873530304f9e5caddf02f0786"
+  },
+  {
+    "path": "calibre.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08a54df44c1306e09eb5bba3fbbb929ab0947107",
+    "size": 3202,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/08a54df44c1306e09eb5bba3fbbb929ab0947107"
+  },
+  {
+    "path": "calibre.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9192b77b0b4356d0d663ae6ad87424f4907cfdc",
+    "size": 3249,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f9192b77b0b4356d0d663ae6ad87424f4907cfdc"
+  },
+  {
+    "path": "castopod.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f15e3ef4360f139d95ad801542fb638acd1e89c4",
+    "size": 1839,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f15e3ef4360f139d95ad801542fb638acd1e89c4"
+  },
+  {
+    "path": "changedetection.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80d865ff15daa77e5ab38cc80a8485eb08274289",
+    "size": 1866,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/80d865ff15daa77e5ab38cc80a8485eb08274289"
+  },
+  {
+    "path": "chevereto.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0383dc314b5c6d28c113cf540b7a70b7f8b3503",
+    "size": 1833,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e0383dc314b5c6d28c113cf540b7a70b7f8b3503"
+  },
+  {
+    "path": "chronograf.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5bd86f44098ebf4fb0daef225e4339c9a002edba",
+    "size": 1841,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5bd86f44098ebf4fb0daef225e4339c9a002edba"
+  },
+  {
+    "path": "chronograf.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0510f341aa10c9bc83258a7c8a7f58397416dc33",
+    "size": 1124,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0510f341aa10c9bc83258a7c8a7f58397416dc33"
+  },
+  {
+    "path": "cloudbeaver.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b67cbc05b8e3a454584ed2cce44f0d033276dd3a",
+    "size": 1897,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b67cbc05b8e3a454584ed2cce44f0d033276dd3a"
+  },
+  {
+    "path": "code-server.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b97619f60711b576c27429419bc31bd8de7efbe9",
+    "size": 1742,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b97619f60711b576c27429419bc31bd8de7efbe9"
+  },
+  {
+    "path": "codimd.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d47be0be270115769055010ea496d6322b0e7606",
+    "size": 1869,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d47be0be270115769055010ea496d6322b0e7606"
+  },
+  {
+    "path": "collabora.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e953e039924695d468ad3eafb947d99391ad3dd9",
+    "size": 1837,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e953e039924695d468ad3eafb947d99391ad3dd9"
+  },
+  {
+    "path": "commento.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d49cfa1aeafe21fd8b680cf525ed143a6febe36a",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d49cfa1aeafe21fd8b680cf525ed143a6febe36a"
+  },
+  {
+    "path": "couchpotato.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4d8711a5151d8fa5e003c4f5f75c53c132a0a71",
+    "size": 1846,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a4d8711a5151d8fa5e003c4f5f75c53c132a0a71"
+  },
+  {
+    "path": "couchpotato.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e416b1241062666cdf5ef1f85094047b55d6876a",
+    "size": 944,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e416b1241062666cdf5ef1f85094047b55d6876a"
+  },
+  {
+    "path": "crontabui.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0398d26b765292581912b430ae4b2402e1c3c85c",
+    "size": 1014,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0398d26b765292581912b430ae4b2402e1c3c85c"
+  },
+  {
+    "path": "crowdsec-dashboard.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "979e6b354d7ae062cec71f20da5ad2fd9fe44019",
+    "size": 2091,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/979e6b354d7ae062cec71f20da5ad2fd9fe44019"
+  },
+  {
+    "path": "crowdsec.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0aa7de86c4a1ee3b4eb466ec725679b1d26509d",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e0aa7de86c4a1ee3b4eb466ec725679b1d26509d"
+  },
+  {
+    "path": "cryptgeon.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d591b00733db3858ad25fc5753f5eb4cdc0f147",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8d591b00733db3858ad25fc5753f5eb4cdc0f147"
+  },
+  {
+    "path": "dashy.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0370e09c2bf03cb6c473c87b20177cc2e67b6a91",
+    "size": 1815,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0370e09c2bf03cb6c473c87b20177cc2e67b6a91"
+  },
+  {
+    "path": "ddns-updater.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "557d3204d7a443f875a0d55d7db406ffbeb6ef3f",
+    "size": 2158,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/557d3204d7a443f875a0d55d7db406ffbeb6ef3f"
+  },
+  {
+    "path": "ddns-updater.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4ad7e9e5790927c76680bc236be93be1b0e3829",
+    "size": 1223,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f4ad7e9e5790927c76680bc236be93be1b0e3829"
+  },
+  {
+    "path": "deluge.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "422a8aa62623a16771ae7eabb3b2109333c61f5f",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/422a8aa62623a16771ae7eabb3b2109333c61f5f"
+  },
+  {
+    "path": "deluge.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74aab629d6b1d1da9bf907facc3c48ce7f0b35ca",
+    "size": 1037,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/74aab629d6b1d1da9bf907facc3c48ce7f0b35ca"
+  },
+  {
+    "path": "dillinger.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ca4e2b7a93f71924ff8712e60ef5b90895672a3",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/1ca4e2b7a93f71924ff8712e60ef5b90895672a3"
+  },
+  {
+    "path": "discount-bandit.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20f58977f9bd65773e418e068fa82e1c4082ac26",
+    "size": 1863,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/20f58977f9bd65773e418e068fa82e1c4082ac26"
+  },
+  {
+    "path": "dnsdist.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ecc4f1c4b1d6e39975ec4fd92eacd6ce7bbc50b",
+    "size": 631,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9ecc4f1c4b1d6e39975ec4fd92eacd6ce7bbc50b"
+  },
+  {
+    "path": "dockge.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c4913648b61430d30810e1bcff26a32e8b352b1",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5c4913648b61430d30810e1bcff26a32e8b352b1"
+  },
+  {
+    "path": "dockge.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5dbb6172fa2a55c41e16fcf61ad15e1e30211d70",
+    "size": 978,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5dbb6172fa2a55c41e16fcf61ad15e1e30211d70"
+  },
+  {
+    "path": "documentserver.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81885ca26d519f6611fafd969225769921ee55a8",
+    "size": 1870,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/81885ca26d519f6611fafd969225769921ee55a8"
+  },
+  {
+    "path": "dokuwiki.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1764d082b8c62642279eea442198b30eaa6ad6fd",
+    "size": 1882,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/1764d082b8c62642279eea442198b30eaa6ad6fd"
+  },
+  {
+    "path": "dokuwiki.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "401968fd42815ad93a3ee2c3acb1c7b60ded10d3",
+    "size": 1199,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/401968fd42815ad93a3ee2c3acb1c7b60ded10d3"
+  },
+  {
+    "path": "domoticz.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a64e9750d3f5a73b0d1a177740f64fdf9bcdc04",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9a64e9750d3f5a73b0d1a177740f64fdf9bcdc04"
+  },
+  {
+    "path": "domoticz.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bca758be41bbed4839ff26a191e36c79fccfb50",
+    "size": 994,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9bca758be41bbed4839ff26a191e36c79fccfb50"
+  },
+  {
+    "path": "dozzle.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a64638fb2d1d5c3b87f9a40512f3d9fcac38b625",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a64638fb2d1d5c3b87f9a40512f3d9fcac38b625"
+  },
+  {
+    "path": "dozzle.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0cd5bd4363f019e2c8e0a40bdfe2caa801025bc",
+    "size": 1183,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b0cd5bd4363f019e2c8e0a40bdfe2caa801025bc"
+  },
+  {
+    "path": "drone.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1c0819073846b4601c99652f013231196d5e0f8",
+    "size": 1813,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b1c0819073846b4601c99652f013231196d5e0f8"
+  },
+  {
+    "path": "dsmrreader.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87447382ef6302db1985808539bc4e0b12a6415b",
+    "size": 1809,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/87447382ef6302db1985808539bc4e0b12a6415b"
+  },
+  {
+    "path": "duplicacy.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d040b7782b327b57b914b1b90613f0fb6b1664f",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2d040b7782b327b57b914b1b90613f0fb6b1664f"
+  },
+  {
+    "path": "duplicati.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94a7dedfa88b867093857077ff215706615d944b",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/94a7dedfa88b867093857077ff215706615d944b"
+  },
+  {
+    "path": "duplicati.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "264000604cf37e1ea6aa217ebfab93f3f8e03e78",
+    "size": 1090,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/264000604cf37e1ea6aa217ebfab93f3f8e03e78"
+  },
+  {
+    "path": "emby.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04aab92eac09d96ba09b1e88a1ddd0382724bdb7",
+    "size": 1191,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/04aab92eac09d96ba09b1e88a1ddd0382724bdb7"
+  },
+  {
+    "path": "emby.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2295c74a77da2fdd73e2124b0f47073fee03ca9",
+    "size": 1288,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b2295c74a77da2fdd73e2124b0f47073fee03ca9"
+  },
+  {
+    "path": "embystat.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26e58d77cdecb3afe3fc2b8220b73f5b70dc99c5",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/26e58d77cdecb3afe3fc2b8220b73f5b70dc99c5"
+  },
+  {
+    "path": "emulatorjs.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a1da2415e27a637a280134f58076a2f3bf508a6",
+    "size": 3129,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4a1da2415e27a637a280134f58076a2f3bf508a6"
+  },
+  {
+    "path": "esphome.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66169a2521d2b8276e8053929b6395669e8e2902",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/66169a2521d2b8276e8053929b6395669e8e2902"
+  },
+  {
+    "path": "fenrus.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53c4b7518032815c29304e90c2907d9d3d14c075",
+    "size": 1820,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/53c4b7518032815c29304e90c2907d9d3d14c075"
+  },
+  {
+    "path": "filebot.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59963ee1da96f136519f9c8d419b9abcfca37f44",
+    "size": 2140,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/59963ee1da96f136519f9c8d419b9abcfca37f44"
+  },
+  {
+    "path": "filebot.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20a7430876fba660f97ae0d1c728a672b34620b4",
+    "size": 998,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/20a7430876fba660f97ae0d1c728a672b34620b4"
+  },
+  {
+    "path": "filebrowser.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dcbc4ffb9b3ec9d9e4d890ae0521e6e50f02350b",
+    "size": 2769,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/dcbc4ffb9b3ec9d9e4d890ae0521e6e50f02350b"
+  },
+  {
+    "path": "filebrowser.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c7ceaf5dabf055e4b32463c825eda95b40b8cfb",
+    "size": 1928,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8c7ceaf5dabf055e4b32463c825eda95b40b8cfb"
+  },
+  {
+    "path": "firefly.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70dc16210c787e876dc7390349bd2cb9ff006ea4",
+    "size": 1825,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/70dc16210c787e876dc7390349bd2cb9ff006ea4"
+  },
+  {
+    "path": "firefox.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7347b46afe7b20441861ea48b5da5233f99123c",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a7347b46afe7b20441861ea48b5da5233f99123c"
+  },
+  {
+    "path": "flaresolverr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee9c825efa299dffefdaee679e111ae83f8b07cf",
+    "size": 1851,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ee9c825efa299dffefdaee679e111ae83f8b07cf"
+  },
+  {
+    "path": "flaresolverr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b6afa05659c856f6828cc7a1907be47ee51493e",
+    "size": 944,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8b6afa05659c856f6828cc7a1907be47ee51493e"
+  },
+  {
+    "path": "flexget.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45dacc07768ab6de78fa6331e831fd67408ac323",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/45dacc07768ab6de78fa6331e831fd67408ac323"
+  },
+  {
+    "path": "flexget.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12f156613d98a4a423b552e76a8d220d08dc60fb",
+    "size": 1336,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/12f156613d98a4a423b552e76a8d220d08dc60fb"
+  },
+  {
+    "path": "flood.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "633bdd2f592470243c8c564d7e6e602102dc6316",
+    "size": 1816,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/633bdd2f592470243c8c564d7e6e602102dc6316"
+  },
+  {
+    "path": "flood.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b16d65b085584534bc636c71bc26f238f0138e3",
+    "size": 982,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6b16d65b085584534bc636c71bc26f238f0138e3"
+  },
+  {
+    "path": "foldingathome.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39eb643f546b577e78e1ced6f39abb3b9a4efc0a",
+    "size": 1885,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/39eb643f546b577e78e1ced6f39abb3b9a4efc0a"
+  },
+  {
+    "path": "forgejo.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4012110dd9584b59f1df3870a836ceb065be631",
+    "size": 2370,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e4012110dd9584b59f1df3870a836ceb065be631"
+  },
+  {
+    "path": "forgejo.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d23b337703a1b03372ca506115703e7480b989c4",
+    "size": 771,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d23b337703a1b03372ca506115703e7480b989c4"
+  },
+  {
+    "path": "foundryvtt.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4df44a76dd31d4dedd2c7eac1f442cb4d7255982",
+    "size": 2189,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4df44a76dd31d4dedd2c7eac1f442cb4d7255982"
+  },
+  {
+    "path": "freshrss.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11a70907d1ee4500ad025f5a15254b6763d4a2b1",
+    "size": 2066,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/11a70907d1ee4500ad025f5a15254b6763d4a2b1"
+  },
+  {
+    "path": "freshrss.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "208d400a2cbe5674adf078905ddc6598f3fc5b3e",
+    "size": 1221,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/208d400a2cbe5674adf078905ddc6598f3fc5b3e"
+  },
+  {
+    "path": "frigate.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "955622d68bd14b88f607f6099c554dccfb92ecb7",
+    "size": 1924,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/955622d68bd14b88f607f6099c554dccfb92ecb7"
+  },
+  {
+    "path": "gaps.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e05ffacc9acbf1953ce097cd15a56ed6b1e4f97",
+    "size": 1854,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3e05ffacc9acbf1953ce097cd15a56ed6b1e4f97"
+  },
+  {
+    "path": "gaps.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f99ff760c7e765029d9545272ec03d64348bea7",
+    "size": 1126,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9f99ff760c7e765029d9545272ec03d64348bea7"
+  },
+  {
+    "path": "gatus.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "457a0407967b03aeaaddaf8881e0bf309f6f8f13",
+    "size": 1817,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/457a0407967b03aeaaddaf8881e0bf309f6f8f13"
+  },
+  {
+    "path": "gatus.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdfb04a1141b764fecf7a05ef3a06ea354904141",
+    "size": 1015,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/cdfb04a1141b764fecf7a05ef3a06ea354904141"
+  },
+  {
+    "path": "get_iplayer.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff6d1ef6f9af62d55df36097e651e0fd17fdd81b",
+    "size": 1846,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ff6d1ef6f9af62d55df36097e651e0fd17fdd81b"
+  },
+  {
+    "path": "ghost.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20d718b16acd472dff3834772e57934ce1a242b5",
+    "size": 1816,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/20d718b16acd472dff3834772e57934ce1a242b5"
+  },
+  {
+    "path": "ghost.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5673ccc82fa9d601adc2364aa186f5dbb5d73ede",
+    "size": 1121,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5673ccc82fa9d601adc2364aa186f5dbb5d73ede"
+  },
+  {
+    "path": "gitea.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c1024f3404a92578c2f1961a9682497d3533146",
+    "size": 2314,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7c1024f3404a92578c2f1961a9682497d3533146"
+  },
+  {
+    "path": "gitea.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14f84a7fbd1f257cd0250cc12ad960f7fc9c6a9c",
+    "size": 710,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/14f84a7fbd1f257cd0250cc12ad960f7fc9c6a9c"
+  },
+  {
+    "path": "glances.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a32221fadcfb20cebff265767c4b98ebd3e721c8",
+    "size": 1827,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a32221fadcfb20cebff265767c4b98ebd3e721c8"
+  },
+  {
+    "path": "glances.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4da5f4cfe9659928734f04bdd2ecd2d3a854dc3",
+    "size": 999,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b4da5f4cfe9659928734f04bdd2ecd2d3a854dc3"
+  },
+  {
+    "path": "gotify.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "209f65f65b850c7ffc5401728e5f469d81df6d01",
+    "size": 1819,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/209f65f65b850c7ffc5401728e5f469d81df6d01"
+  },
+  {
+    "path": "gotify.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aae75b850c02dfa923cf2899810d74d0339c4a26",
+    "size": 986,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/aae75b850c02dfa923cf2899810d74d0339c4a26"
+  },
+  {
+    "path": "grafana.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "894497df528200be20788123cdda97b5b97dd182",
+    "size": 2407,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/894497df528200be20788123cdda97b5b97dd182"
+  },
+  {
+    "path": "grafana.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f460c48baf3f1764c9be502e438723caccc751f2",
+    "size": 1712,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f460c48baf3f1764c9be502e438723caccc751f2"
+  },
+  {
+    "path": "grampsweb.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b125e1a3deafc48b6791e76e9ef783c6b158454d",
+    "size": 2140,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b125e1a3deafc48b6791e76e9ef783c6b158454d"
+  },
+  {
+    "path": "grav.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c59b76019c7323f7390272a247e0bd008df54376",
+    "size": 1810,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c59b76019c7323f7390272a247e0bd008df54376"
+  },
+  {
+    "path": "graylog.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f77013a797d2a024d38acd7698fc99bc2913ebc",
+    "size": 1957,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5f77013a797d2a024d38acd7698fc99bc2913ebc"
+  },
+  {
+    "path": "grocy.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8bb6001ce94eda7007117ffc2a24b8958a06e799",
+    "size": 2104,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8bb6001ce94eda7007117ffc2a24b8958a06e799"
+  },
+  {
+    "path": "guacamole.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d237b281ad3f8b5e972ee2f13e7e0d6892605080",
+    "size": 1865,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d237b281ad3f8b5e972ee2f13e7e0d6892605080"
+  },
+  {
+    "path": "guacamole.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1355f28676b27294d60468ba91ae654a3503fac",
+    "size": 1039,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b1355f28676b27294d60468ba91ae654a3503fac"
+  },
+  {
+    "path": "hass-configurator.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3fe8ace840ee70c1db42ff7553eeca48a816119",
+    "size": 2012,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a3fe8ace840ee70c1db42ff7553eeca48a816119"
+  },
+  {
+    "path": "headphones.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15d64ca44702d75d99ab96f345abc54933152c1a",
+    "size": 1841,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/15d64ca44702d75d99ab96f345abc54933152c1a"
+  },
+  {
+    "path": "headphones.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1dd19880f2c5ab536bcc6173980946877ea34bd",
+    "size": 1088,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d1dd19880f2c5ab536bcc6173980946877ea34bd"
+  },
+  {
+    "path": "healthchecks.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8aa6baf9bbc0951ca69e8d241aa61d2cd98d040",
+    "size": 1954,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c8aa6baf9bbc0951ca69e8d241aa61d2cd98d040"
+  },
+  {
+    "path": "hedgedoc.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e89680170fcc0b82f84ee75bbf9e028e0c633dd",
+    "size": 1882,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4e89680170fcc0b82f84ee75bbf9e028e0c633dd"
+  },
+  {
+    "path": "heimdall.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3543e79a6220b75115cd4b5d7c23885961763555",
+    "size": 2019,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3543e79a6220b75115cd4b5d7c23885961763555"
+  },
+  {
+    "path": "heimdall.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56e69260c275be88a3e1f3e47262490305a30af2",
+    "size": 962,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/56e69260c275be88a3e1f3e47262490305a30af2"
+  },
+  {
+    "path": "hoarder.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "160a6a6b0266b1130e61f27e6a31cd5aaefe6ade",
+    "size": 2123,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/160a6a6b0266b1130e61f27e6a31cd5aaefe6ade"
+  },
+  {
+    "path": "homarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66b1cf0dbad2551c64058a2b2d40bcc88bbd8658",
+    "size": 1820,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/66b1cf0dbad2551c64058a2b2d40bcc88bbd8658"
+  },
+  {
+    "path": "homeassistant.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7e5a2b1458205c4d965b67f1fe858f42c1dcb48",
+    "size": 2574,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b7e5a2b1458205c4d965b67f1fe858f42c1dcb48"
+  },
+  {
+    "path": "homebox.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ed9df2b652f17c2c91527c3ddf49ef35c5d214e",
+    "size": 2123,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3ed9df2b652f17c2c91527c3ddf49ef35c5d214e"
+  },
+  {
+    "path": "homebridge.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07faba95b99d20b2d3bb2c4979a6d3d072aee198",
+    "size": 1891,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/07faba95b99d20b2d3bb2c4979a6d3d072aee198"
+  },
+  {
+    "path": "homepage.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7ee602b7ea1de5ea0ca62398f969b5f9c212804",
+    "size": 1975,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a7ee602b7ea1de5ea0ca62398f969b5f9c212804"
+  },
+  {
+    "path": "homepage.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52d3e7f8998ae26f54d51b24cd4403c061b53f34",
+    "size": 1285,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/52d3e7f8998ae26f54d51b24cd4403c061b53f34"
+  },
+  {
+    "path": "homer.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8e7d66721999a8ea5820439af353082a5c90b0e",
+    "size": 1815,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e8e7d66721999a8ea5820439af353082a5c90b0e"
+  },
+  {
+    "path": "huginn.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "935bb97ddc441ab3c07b0f27e04ba35ccf0fb906",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/935bb97ddc441ab3c07b0f27e04ba35ccf0fb906"
+  },
+  {
+    "path": "immich.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "293094025144621111a6be278ae3be1a0ef56238",
+    "size": 2191,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/293094025144621111a6be278ae3be1a0ef56238"
+  },
+  {
+    "path": "immich_server.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34bc4a990782b39ad6d83d9cc9b8a6f582772047",
+    "size": 2212,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/34bc4a990782b39ad6d83d9cc9b8a6f582772047"
+  },
+  {
+    "path": "influxdb.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f289e76fd70a3680ac7eb180e9bd20eefb3c3a1b",
+    "size": 2130,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f289e76fd70a3680ac7eb180e9bd20eefb3c3a1b"
+  },
+  {
+    "path": "iplayarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65dd217e4daeed667fb186d4cbcd6d692cf8c6d0",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/65dd217e4daeed667fb186d4cbcd6d692cf8c6d0"
+  },
+  {
+    "path": "it-tools.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffaa1bcab799cb64301b7c0b093755132bd80453",
+    "size": 1828,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ffaa1bcab799cb64301b7c0b093755132bd80453"
+  },
+  {
+    "path": "jackett.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7612225a36720c97cd948d0f8667aaa962da9ca",
+    "size": 2419,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c7612225a36720c97cd948d0f8667aaa962da9ca"
+  },
+  {
+    "path": "jackett.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "030b96cd7ac7b24d2ea41b47830faa110f872fd8",
+    "size": 1445,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/030b96cd7ac7b24d2ea41b47830faa110f872fd8"
+  },
+  {
+    "path": "jdownloader.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72cd4e0100ec7c474a6317f3044a98c6747a1e45",
+    "size": 2167,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/72cd4e0100ec7c474a6317f3044a98c6747a1e45"
+  },
+  {
+    "path": "jellyfin.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f667c30c91c65eac5bb8406eee0de6c902fde22",
+    "size": 2236,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4f667c30c91c65eac5bb8406eee0de6c902fde22"
+  },
+  {
+    "path": "jellyfin.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e5e01dda7d6ad7a61c04b03ce50043c80548982",
+    "size": 1079,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0e5e01dda7d6ad7a61c04b03ce50043c80548982"
+  },
+  {
+    "path": "jellyseerr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad0e9fab7a77442ed4e85af2c1ea27afa4483b55",
+    "size": 1841,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ad0e9fab7a77442ed4e85af2c1ea27afa4483b55"
+  },
+  {
+    "path": "jenkins.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac6e7e24d6d6ebed327d0be219f1d8ed0e9a1a96",
+    "size": 1448,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ac6e7e24d6d6ebed327d0be219f1d8ed0e9a1a96"
+  },
+  {
+    "path": "jfa-go.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f02cb060fdbce4d15d946c3bf2bc01dce0726734",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f02cb060fdbce4d15d946c3bf2bc01dce0726734"
+  },
+  {
+    "path": "jfa-go.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0709ebc613991bd138c7b769cf66ab1a2a2c8e30",
+    "size": 1192,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0709ebc613991bd138c7b769cf66ab1a2a2c8e30"
+  },
+  {
+    "path": "joplin.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7269cb024f9b9f4b612da1196ec0be7a6d90b8bd",
+    "size": 1822,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7269cb024f9b9f4b612da1196ec0be7a6d90b8bd"
+  },
+  {
+    "path": "kanzi.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41a3a9bf27f57151e0183f29ac5f6dc82c53a3ff",
+    "size": 1817,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/41a3a9bf27f57151e0183f29ac5f6dc82c53a3ff"
+  },
+  {
+    "path": "kanzi.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ec965ddc1e41558cc02f53dcd57a1a076ed17a7",
+    "size": 983,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5ec965ddc1e41558cc02f53dcd57a1a076ed17a7"
+  },
+  {
+    "path": "kasm.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58dc673f66d3e7e5b9b0adbfc01832a9b49afa4a",
+    "size": 3961,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/58dc673f66d3e7e5b9b0adbfc01832a9b49afa4a"
+  },
+  {
+    "path": "kavita.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c401eb6c5989c95f872fea0299f67fad6eabb3ec",
+    "size": 2171,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c401eb6c5989c95f872fea0299f67fad6eabb3ec"
+  },
+  {
+    "path": "kavita.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d365d447e8c46fdf19d1303b7f812a3d1364474",
+    "size": 1238,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3d365d447e8c46fdf19d1303b7f812a3d1364474"
+  },
+  {
+    "path": "kimai.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d40050faddf478d6abcbe186fe469dd5c0a0e39",
+    "size": 2106,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9d40050faddf478d6abcbe186fe469dd5c0a0e39"
+  },
+  {
+    "path": "komga.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fee6726517d3f9140f7c47ec64e5ba2ea4d8059",
+    "size": 2111,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0fee6726517d3f9140f7c47ec64e5ba2ea4d8059"
+  },
+  {
+    "path": "komga.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9e60d64c0df773bef08c8c957e328af296a07a3",
+    "size": 1388,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f9e60d64c0df773bef08c8c957e328af296a07a3"
+  },
+  {
+    "path": "kopia.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e400af7591326625d9b5ba7112f9def38db78643",
+    "size": 1817,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e400af7591326625d9b5ba7112f9def38db78643"
+  },
+  {
+    "path": "lazylibrarian.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "762da039112cb94196ad3326c1684bfa7b47ce30",
+    "size": 1856,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/762da039112cb94196ad3326c1684bfa7b47ce30"
+  },
+  {
+    "path": "lazylibrarian.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ba4c2143e6e48d6a16ed67cf4dc61a3bdff696c",
+    "size": 956,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2ba4c2143e6e48d6a16ed67cf4dc61a3bdff696c"
+  },
+  {
+    "path": "leantime.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa29afd3b32bd14d924d970c998b770af0a06b79",
+    "size": 1830,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/aa29afd3b32bd14d924d970c998b770af0a06b79"
+  },
+  {
+    "path": "libreddit.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73b52c3d4f3754acf8a068508fb4f4c84e978d9f",
+    "size": 1828,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/73b52c3d4f3754acf8a068508fb4f4c84e978d9f"
+  },
+  {
+    "path": "librespeed.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b2732efb5741aa74e715301e995517b5051c344",
+    "size": 1839,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3b2732efb5741aa74e715301e995517b5051c344"
+  },
+  {
+    "path": "lidarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b3f98f3bb6793e5be6c980547c3595c15a4ee2b",
+    "size": 2116,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2b3f98f3bb6793e5be6c980547c3595c15a4ee2b"
+  },
+  {
+    "path": "lidarr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dac4f28980fb4ae601db6956e1e8918c34ae7e5f",
+    "size": 1175,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/dac4f28980fb4ae601db6956e1e8918c34ae7e5f"
+  },
+  {
+    "path": "linkace.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7471854fd8bc3934d550e1a637042fd443cd05de",
+    "size": 1872,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7471854fd8bc3934d550e1a637042fd443cd05de"
+  },
+  {
+    "path": "linkstack.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f26100c10bc0fc2a7bf95b7f91f1fa9f206a404",
+    "size": 1832,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8f26100c10bc0fc2a7bf95b7f91f1fa9f206a404"
+  },
+  {
+    "path": "linkwarden.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da1f34a114538ca07285c52dfea8e11f1964d7e0",
+    "size": 2144,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/da1f34a114538ca07285c52dfea8e11f1964d7e0"
+  },
+  {
+    "path": "linkwarden.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "166b80aac047dfc32cc9741228ce8d58680dc0a8",
+    "size": 1281,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/166b80aac047dfc32cc9741228ce8d58680dc0a8"
+  },
+  {
+    "path": "lldap.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "384254b93731aaf705e89f1dbbf070fb33d19f8d",
+    "size": 1817,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/384254b93731aaf705e89f1dbbf070fb33d19f8d"
+  },
+  {
+    "path": "lubelogger.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29f8c3d51c7af8992fafeeb65a6a9dec4a43ecff",
+    "size": 1841,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/29f8c3d51c7af8992fafeeb65a6a9dec4a43ecff"
+  },
+  {
+    "path": "lychee.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34c6fdfc07d3a17dbb39c7fcb3137021e3a53505",
+    "size": 1819,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/34c6fdfc07d3a17dbb39c7fcb3137021e3a53505"
+  },
+  {
+    "path": "lychee.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b8f6adbea7b921dd42f23c3678388162e7ec0bf",
+    "size": 985,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4b8f6adbea7b921dd42f23c3678388162e7ec0bf"
+  },
+  {
+    "path": "mailcow.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb9ba49a54aedeaaf03bf029a0d92181e5fa967f",
+    "size": 3015,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bb9ba49a54aedeaaf03bf029a0d92181e5fa967f"
+  },
+  {
+    "path": "mailu.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4743bbebc7bd70fb83e8d503174b49f7fbcab08f",
+    "size": 1814,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4743bbebc7bd70fb83e8d503174b49f7fbcab08f"
+  },
+  {
+    "path": "mailu.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a4cfef3891ad2f59bd2a0ed656f78f0b3b84fb1",
+    "size": 1952,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5a4cfef3891ad2f59bd2a0ed656f78f0b3b84fb1"
+  },
+  {
+    "path": "maintainerr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c39de39d1e31d125262c02f139884f23a232a2c5",
+    "size": 1919,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c39de39d1e31d125262c02f139884f23a232a2c5"
+  },
+  {
+    "path": "mastodon.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a4113f0106e51065d529b9234f36d9674ea9ea2",
+    "size": 2215,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9a4113f0106e51065d529b9234f36d9674ea9ea2"
+  },
+  {
+    "path": "matomo.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a46e9b977c949f4d7446739a50f38872c6876255",
+    "size": 1819,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a46e9b977c949f4d7446739a50f38872c6876255"
+  },
+  {
+    "path": "mattermost.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b73a4cc94ef14a0b1e88fe4a4a5a10b01060f9f2",
+    "size": 1950,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b73a4cc94ef14a0b1e88fe4a4a5a10b01060f9f2"
+  },
+  {
+    "path": "mealie.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a4a04e8ec38d252fd64b02c1555b114ec633aea",
+    "size": 1794,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2a4a04e8ec38d252fd64b02c1555b114ec633aea"
+  },
+  {
+    "path": "medusa.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5106a4c5953f52e1278b3e6e7f931990f474212a",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5106a4c5953f52e1278b3e6e7f931990f474212a"
+  },
+  {
+    "path": "medusa.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e8ed8319fdae067ae71813b74b04f4281e16471",
+    "size": 914,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2e8ed8319fdae067ae71813b74b04f4281e16471"
+  },
+  {
+    "path": "metabase.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "445bc70ea2c812bfe0c3f8cc660b443563aabb2f",
+    "size": 2118,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/445bc70ea2c812bfe0c3f8cc660b443563aabb2f"
+  },
+  {
+    "path": "metube.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c07e2632490c051f3c97b826186c661d77219b56",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c07e2632490c051f3c97b826186c661d77219b56"
+  },
+  {
+    "path": "metube.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb10a01836c494534fd1810edea5ae1f764d367a",
+    "size": 991,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bb10a01836c494534fd1810edea5ae1f764d367a"
+  },
+  {
+    "path": "miniflux.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e83ab5b1b84f9f3e7e7242a87bc36d259d0dfab3",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e83ab5b1b84f9f3e7e7242a87bc36d259d0dfab3"
+  },
+  {
+    "path": "miniflux.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9fce1d9073075d517f33e8c2e59ca647ce1c6c7c",
+    "size": 1175,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9fce1d9073075d517f33e8c2e59ca647ce1c6c7c"
+  },
+  {
+    "path": "monica.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6744a49ef2c1aa632a15f821d4266f9f6e5b90ca",
+    "size": 2016,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6744a49ef2c1aa632a15f821d4266f9f6e5b90ca"
+  },
+  {
+    "path": "monica.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e7c84dc2afc47ce190950d5b519a74394084323",
+    "size": 1136,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2e7c84dc2afc47ce190950d5b519a74394084323"
+  },
+  {
+    "path": "monitorr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7658c3052c2feaf21ce844167d9462feaf69b29",
+    "size": 1829,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d7658c3052c2feaf21ce844167d9462feaf69b29"
+  },
+  {
+    "path": "monitorr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a084431d9a072164f67996439352266f60753809",
+    "size": 968,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a084431d9a072164f67996439352266f60753809"
+  },
+  {
+    "path": "mstream.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01a42d2c0ba826b02ef6904f6eb2ce93f7d5e137",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/01a42d2c0ba826b02ef6904f6eb2ce93f7d5e137"
+  },
+  {
+    "path": "mylar.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2fbf545d1ce2f22ad70f3c088a049bf09717193a",
+    "size": 1816,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2fbf545d1ce2f22ad70f3c088a049bf09717193a"
+  },
+  {
+    "path": "mylar.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe869d6659ec808f37b8586be2b7ed17ffe37315",
+    "size": 1038,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/fe869d6659ec808f37b8586be2b7ed17ffe37315"
+  },
+  {
+    "path": "mytinytodo.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a09929ed8a4c906e33ebc42ebe74cb7b3af1727",
+    "size": 1112,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6a09929ed8a4c906e33ebc42ebe74cb7b3af1727"
+  },
+  {
+    "path": "n8n.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "093a181a3a8b8b407a4118ed82f1c17e781a882b",
+    "size": 1920,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/093a181a3a8b8b407a4118ed82f1c17e781a882b"
+  },
+  {
+    "path": "navidrome.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9542268fb83738610f433e6c214d92488b492835",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9542268fb83738610f433e6c214d92488b492835"
+  },
+  {
+    "path": "netboot.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0aae38c97b8b02b7e87687f9713c89899c88ef6",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f0aae38c97b8b02b7e87687f9713c89899c88ef6"
+  },
+  {
+    "path": "netbox.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2065832c09f80290442c11a5712c0e9a2f7c6836",
+    "size": 2009,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2065832c09f80290442c11a5712c0e9a2f7c6836"
+  },
+  {
+    "path": "netdata.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3def484267641dcedf7a3203aaa174043c35fd02",
+    "size": 1827,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3def484267641dcedf7a3203aaa174043c35fd02"
+  },
+  {
+    "path": "netdata.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5cb786126612254f1d378230bcf609c300d95f2a",
+    "size": 999,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5cb786126612254f1d378230bcf609c300d95f2a"
+  },
+  {
+    "path": "nextcloud.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d99f851001c55bbb525a709205b107013308403",
+    "size": 1681,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7d99f851001c55bbb525a709205b107013308403"
+  },
+  {
+    "path": "nextcloud.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f206d06fabeb0e241ebc46778c5d917ff5935ad7",
+    "size": 2038,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f206d06fabeb0e241ebc46778c5d917ff5935ad7"
+  },
+  {
+    "path": "nexusoss.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d67f065d2a512135ec8d65c03df46b733d4e6fd6",
+    "size": 2996,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d67f065d2a512135ec8d65c03df46b733d4e6fd6"
+  },
+  {
+    "path": "nocodb.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "314e6fdc5f9252064e13f85193576ff412c128b7",
+    "size": 1820,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/314e6fdc5f9252064e13f85193576ff412c128b7"
+  },
+  {
+    "path": "notifiarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f90da26617b99f915d76d43937912e28a92f7de",
+    "size": 1963,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7f90da26617b99f915d76d43937912e28a92f7de"
+  },
+  {
+    "path": "ntfy.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7454b6f75b1b5ac23ae76d2d71dc74646522cb82",
+    "size": 1810,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7454b6f75b1b5ac23ae76d2d71dc74646522cb82"
+  },
+  {
+    "path": "nzbget.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02fcc4f832866dc93662b97eaef57bc5bb07c9e6",
+    "size": 2773,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/02fcc4f832866dc93662b97eaef57bc5bb07c9e6"
+  },
+  {
+    "path": "nzbget.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2daf488873fcde6abc91075216f4b15e77157eaf",
+    "size": 1802,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2daf488873fcde6abc91075216f4b15e77157eaf"
+  },
+  {
+    "path": "nzbhydra.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "753f92c7b8b9fdce1505c7de2aa5b9351f6ef0f7",
+    "size": 3351,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/753f92c7b8b9fdce1505c7de2aa5b9351f6ef0f7"
+  },
+  {
+    "path": "nzbhydra.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22a721ddeb040ac13e211b5c8975a1d229dff622",
+    "size": 2423,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/22a721ddeb040ac13e211b5c8975a1d229dff622"
+  },
+  {
+    "path": "octoprint.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d683c153062a89d5e88aa9430b8acd8336477de",
+    "size": 1875,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2d683c153062a89d5e88aa9430b8acd8336477de"
+  },
+  {
+    "path": "ombi.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1663649f7792e4c2a840240796dcb9ede9d2bf5",
+    "size": 2598,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e1663649f7792e4c2a840240796dcb9ede9d2bf5"
+  },
+  {
+    "path": "ombi.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a72188a8711f9563f2fdd031c624a44b7fb1c210",
+    "size": 1850,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a72188a8711f9563f2fdd031c624a44b7fb1c210"
+  },
+  {
+    "path": "onetimesecret.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "155e1a3c96de9296ad46c028e7293944f0ae510f",
+    "size": 1855,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/155e1a3c96de9296ad46c028e7293944f0ae510f"
+  },
+  {
+    "path": "oogway.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7eb1419b246a73bf1957f60c1686d70a62c213a",
+    "size": 1822,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e7eb1419b246a73bf1957f60c1686d70a62c213a"
+  },
+  {
+    "path": "open-webui.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4897f249dd3b87e06db685849d566d2b97ac840c",
+    "size": 1843,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4897f249dd3b87e06db685849d566d2b97ac840c"
+  },
+  {
+    "path": "openhab.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb8b11e19871f0df2f5e3ae9ed7efbdec16b5528",
+    "size": 1825,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bb8b11e19871f0df2f5e3ae9ed7efbdec16b5528"
+  },
+  {
+    "path": "openvpn-as.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef7d35a3b4aa4a1a6bdb24152ff81d5ffa10d516",
+    "size": 2818,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ef7d35a3b4aa4a1a6bdb24152ff81d5ffa10d516"
+  },
+  {
+    "path": "openvscode-server.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7c1726e0a4ac74ac86ea1902c406a6be1f5fc59",
+    "size": 5551,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e7c1726e0a4ac74ac86ea1902c406a6be1f5fc59"
+  },
+  {
+    "path": "organizr-auth.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb55d384f522de086af3823b01fbbc481316bec5",
+    "size": 1703,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/cb55d384f522de086af3823b01fbbc481316bec5"
+  },
+  {
+    "path": "organizr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08509dd0b680fb37982a6f67a67edddfcd7482ef",
+    "size": 1982,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/08509dd0b680fb37982a6f67a67edddfcd7482ef"
+  },
+  {
+    "path": "organizr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aed65c33d76a18dcef19a82ed254ab3c89379983",
+    "size": 1118,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/aed65c33d76a18dcef19a82ed254ab3c89379983"
+  },
+  {
+    "path": "osticket.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a34db31093bf56a0546016f903ce127ead066e90",
+    "size": 1829,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a34db31093bf56a0546016f903ce127ead066e90"
+  },
+  {
+    "path": "overseerr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13fb83481cfb90caa99b244883a7b6b6e71609fb",
+    "size": 2137,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/13fb83481cfb90caa99b244883a7b6b6e71609fb"
+  },
+  {
+    "path": "paperless.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d9907eb3edaade8ce8a7498d728997b7d186289",
+    "size": 2137,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5d9907eb3edaade8ce8a7498d728997b7d186289"
+  },
+  {
+    "path": "paperless.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f51996d7c233422e05c2469667d41691953b2f6f",
+    "size": 1270,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f51996d7c233422e05c2469667d41691953b2f6f"
+  },
+  {
+    "path": "papermerge.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f2aed33ecf3ed8480f2e011e3510beee56ef2e2",
+    "size": 1841,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9f2aed33ecf3ed8480f2e011e3510beee56ef2e2"
+  },
+  {
+    "path": "partdb.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "975a59acf0ca9355c6dab649410578d3df5ff2c9",
+    "size": 1820,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/975a59acf0ca9355c6dab649410578d3df5ff2c9"
+  },
+  {
+    "path": "petio.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c732b64465c960d0b2dd9141ddb1f69b5c7e769",
+    "size": 1815,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5c732b64465c960d0b2dd9141ddb1f69b5c7e769"
+  },
+  {
+    "path": "petio.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec382dc3b9dfceff00a35573958b7ea06633e2e2",
+    "size": 969,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ec382dc3b9dfceff00a35573958b7ea06633e2e2"
+  },
+  {
+    "path": "pgadmin.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46b4b989ec3d12f8e9dad82e0153bee71d5e9ec0",
+    "size": 2028,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/46b4b989ec3d12f8e9dad82e0153bee71d5e9ec0"
+  },
+  {
+    "path": "phoneinfoga.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31f9bc85f28f8cdaae108d7910604e86d7a475a9",
+    "size": 1929,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/31f9bc85f28f8cdaae108d7910604e86d7a475a9"
+  },
+  {
+    "path": "photoprism.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "657db9461ffe7b04060b7b46c80e00ad9e2ca645",
+    "size": 1810,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/657db9461ffe7b04060b7b46c80e00ad9e2ca645"
+  },
+  {
+    "path": "phpmyadmin.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e92af1edb1131a43fc53ffdcac63c0c83729bee4",
+    "size": 1839,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e92af1edb1131a43fc53ffdcac63c0c83729bee4"
+  },
+  {
+    "path": "phpmyadmin.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "046528f61c5ec9de9f205a04cc2ec953c6ca7be3",
+    "size": 1020,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/046528f61c5ec9de9f205a04cc2ec953c6ca7be3"
+  },
+  {
+    "path": "picard.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca819717b15cbdb481d11470df6663e38d2b8705",
+    "size": 990,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ca819717b15cbdb481d11470df6663e38d2b8705"
+  },
+  {
+    "path": "pihole.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "342f3c73bc5586168906fec6fbb3bfe6bb2da913",
+    "size": 2876,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/342f3c73bc5586168906fec6fbb3bfe6bb2da913"
+  },
+  {
+    "path": "pihole.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbc330e0b180058c188304668ab04b37f0ca25c7",
+    "size": 1950,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/dbc330e0b180058c188304668ab04b37f0ca25c7"
+  },
+  {
+    "path": "pingvin-share.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98562fa14722bea795f3fbebca6ee56951116f10",
+    "size": 2165,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/98562fa14722bea795f3fbebca6ee56951116f10"
+  },
+  {
+    "path": "pinry.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e1aa953146633769f5d7b72c7f3ffba78c40770",
+    "size": 1814,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6e1aa953146633769f5d7b72c7f3ffba78c40770"
+  },
+  {
+    "path": "piwigo.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1e82051b5c7a43348bba51204892fbf32e1173e",
+    "size": 1819,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f1e82051b5c7a43348bba51204892fbf32e1173e"
+  },
+  {
+    "path": "pixelfed.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8676381bd52969e5b3987d00aaf66ba0ea6d9e2e",
+    "size": 1828,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8676381bd52969e5b3987d00aaf66ba0ea6d9e2e"
+  },
+  {
+    "path": "planka.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d1e4ed8b4ea64d5aa0485fdaecfd08624618db6",
+    "size": 1932,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0d1e4ed8b4ea64d5aa0485fdaecfd08624618db6"
+  },
+  {
+    "path": "planka.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0d3d51fe0318a66dea1a8b256851b533e3ae83a",
+    "size": 1024,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b0d3d51fe0318a66dea1a8b256851b533e3ae83a"
+  },
+  {
+    "path": "plex.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78a94af07dbb16ac659969790c1df308941300c3",
+    "size": 3326,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/78a94af07dbb16ac659969790c1df308941300c3"
+  },
+  {
+    "path": "plex.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1e2ef182b0978a107b31fcdf8441572ad03d1f5",
+    "size": 2422,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d1e2ef182b0978a107b31fcdf8441572ad03d1f5"
+  },
+  {
+    "path": "plexwebtools.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92904b0fb06106395535272a2fa7407dc31dc0cd",
+    "size": 1828,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/92904b0fb06106395535272a2fa7407dc31dc0cd"
+  },
+  {
+    "path": "plexwebtools.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6175209091e61395a7ba8c27b3d16f4ba110467b",
+    "size": 1002,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6175209091e61395a7ba8c27b3d16f4ba110467b"
+  },
+  {
+    "path": "podgrab.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9614984edb096ebeb9506682caaeeeb8939afe89",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9614984edb096ebeb9506682caaeeeb8939afe89"
+  },
+  {
+    "path": "portainer.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41191445c50f5c28f82b36f17397c5f80956cd9c",
+    "size": 2313,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/41191445c50f5c28f82b36f17397c5f80956cd9c"
+  },
+  {
+    "path": "portainer.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf0f2e6f7b71eb0386a44054827c0f3a5d7ad8bb",
+    "size": 1486,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bf0f2e6f7b71eb0386a44054827c0f3a5d7ad8bb"
+  },
+  {
+    "path": "privatebin.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6c578e5ed2cd57b56379bab44ddce5b65589cc9",
+    "size": 1841,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c6c578e5ed2cd57b56379bab44ddce5b65589cc9"
+  },
+  {
+    "path": "prometheus.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b2ab86e7b43bc77d63dd1fa340f3556b76fcd43",
+    "size": 2613,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/1b2ab86e7b43bc77d63dd1fa340f3556b76fcd43"
+  },
+  {
+    "path": "prowlarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "681d76f20b0e3a223bbc4bad56bfc0a0d405be43",
+    "size": 2452,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/681d76f20b0e3a223bbc4bad56bfc0a0d405be43"
+  },
+  {
+    "path": "prowlarr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb373490bb3f8bc8ca733ccc03f2973134868ec9",
+    "size": 1476,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/cb373490bb3f8bc8ca733ccc03f2973134868ec9"
+  },
+  {
+    "path": "pterodactyl.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d33bf5fa2ac75c99b66212ee2a964329d67bec5",
+    "size": 2093,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4d33bf5fa2ac75c99b66212ee2a964329d67bec5"
+  },
+  {
+    "path": "pterodactylnode.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85bf09bf2b35504993b284f793c153b118b4e6cc",
+    "size": 2278,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/85bf09bf2b35504993b284f793c153b118b4e6cc"
+  },
+  {
+    "path": "pwndrop.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "10704b0f6b7431a02820e85f63d595ee244bc1f0",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/10704b0f6b7431a02820e85f63d595ee244bc1f0"
+  },
+  {
+    "path": "pydio-cells.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "adcad5038ed29e953d5a2c0517c474d5dd0e581f",
+    "size": 2977,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/adcad5038ed29e953d5a2c0517c474d5dd0e581f"
+  },
+  {
+    "path": "pydio.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "517e0d028a0c29e4b4756cfc9e95fcc35279eced",
+    "size": 1816,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/517e0d028a0c29e4b4756cfc9e95fcc35279eced"
+  },
+  {
+    "path": "pyload.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f653cdd1c4018df97a67791a015310e641e78b8",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/2f653cdd1c4018df97a67791a015310e641e78b8"
+  },
+  {
+    "path": "pyload.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba0bec7fa96f6484e4d59e8b66398eaa8640bbfb",
+    "size": 1063,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ba0bec7fa96f6484e4d59e8b66398eaa8640bbfb"
+  },
+  {
+    "path": "qbit-manage.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed59bcc9cd85bc1095812757c12a4691c9c77a8b",
+    "size": 1873,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ed59bcc9cd85bc1095812757c12a4691c9c77a8b"
+  },
+  {
+    "path": "qbittorrent.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c67a1be680a130c72126f760ab5f34c291a7a097",
+    "size": 6074,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c67a1be680a130c72126f760ab5f34c291a7a097"
+  },
+  {
+    "path": "qbittorrent.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0bd429bc7b6d3b24a5e3b0ad2e4d6a792bf10d2",
+    "size": 4897,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d0bd429bc7b6d3b24a5e3b0ad2e4d6a792bf10d2"
+  },
+  {
+    "path": "quassel-web.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d61f587feb28827207942f492cb7ca188c23e141",
+    "size": 1979,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d61f587feb28827207942f492cb7ca188c23e141"
+  },
+  {
+    "path": "quassel-web.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59de63ec9cd7e640c8171331f1d1fee4b4f7e8f1",
+    "size": 1162,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/59de63ec9cd7e640c8171331f1d1fee4b4f7e8f1"
+  },
+  {
+    "path": "radarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b5add0a6f6bcba2e360972ed4a4a8748ee1be58",
+    "size": 2116,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3b5add0a6f6bcba2e360972ed4a4a8748ee1be58"
+  },
+  {
+    "path": "radarr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eab06dece76a380422fbf23cf8b4d515813b54b8",
+    "size": 1175,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/eab06dece76a380422fbf23cf8b4d515813b54b8"
+  },
+  {
+    "path": "rallly.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "40b712fe1975787dd67cc9de2231eca25df5a4d3",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/40b712fe1975787dd67cc9de2231eca25df5a4d3"
+  },
+  {
+    "path": "raneto.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4630a2050bb37ca83377c8c03ea3673f79ed1ee4",
+    "size": 1821,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4630a2050bb37ca83377c8c03ea3673f79ed1ee4"
+  },
+  {
+    "path": "rclone.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce1bacc9f8adaead6e25a1a33e4238210d0f2c44",
+    "size": 1304,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ce1bacc9f8adaead6e25a1a33e4238210d0f2c44"
+  },
+  {
+    "path": "readarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1cb1c65d0cf890f5b0b0a84d1d0580bfe12e230",
+    "size": 2123,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a1cb1c65d0cf890f5b0b0a84d1d0580bfe12e230"
+  },
+  {
+    "path": "readarr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c251520aaddc4d79aae67da16befc47667b3476",
+    "size": 1183,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/1c251520aaddc4d79aae67da16befc47667b3476"
+  },
+  {
+    "path": "recipes.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52d3555e0c5a58488bf8c63f1780b439578ba398",
+    "size": 1996,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/52d3555e0c5a58488bf8c63f1780b439578ba398"
+  },
+  {
+    "path": "requestrr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "700fb04880ea2de7a8edd7721b4efb368a0e04e8",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/700fb04880ea2de7a8edd7721b4efb368a0e04e8"
+  },
+  {
+    "path": "resilio-sync.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "287a9f990e19c2a209f607e5eb83b4b8e490bc5f",
+    "size": 1851,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/287a9f990e19c2a209f607e5eb83b4b8e490bc5f"
+  },
+  {
+    "path": "romm.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9bc2170a25ccfa22b333d21e2572a58f99ad279",
+    "size": 1811,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b9bc2170a25ccfa22b333d21e2572a58f99ad279"
+  },
+  {
+    "path": "rutorrent.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6051a46324130f6d4d72c8a591425b5fafe6d8f5",
+    "size": 2961,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6051a46324130f6d4d72c8a591425b5fafe6d8f5"
+  },
+  {
+    "path": "rutorrent.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd45a7ae86682355fec5fe1d99d33f413d6869ab",
+    "size": 1971,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bd45a7ae86682355fec5fe1d99d33f413d6869ab"
+  },
+  {
+    "path": "sabnzbd.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e372d61c8dce2024aabad03373c7ee55d0eab4b",
+    "size": 2275,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6e372d61c8dce2024aabad03373c7ee55d0eab4b"
+  },
+  {
+    "path": "sabnzbd.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1f79cee7e08340f5192923de7bf5f92e9ac87f8",
+    "size": 1278,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f1f79cee7e08340f5192923de7bf5f92e9ac87f8"
+  },
+  {
+    "path": "saltrim.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30b6150dd2bdcc29b171594b0d966dcc8dcf0912",
+    "size": 1925,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/30b6150dd2bdcc29b171594b0d966dcc8dcf0912"
+  },
+  {
+    "path": "scope.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a86c3c6906cd10274f1791a87b95b801d26adef",
+    "size": 982,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/0a86c3c6906cd10274f1791a87b95b801d26adef"
+  },
+  {
+    "path": "scrutiny.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25cf36be339feb2000b3cfc6311b7d5a7542a57e",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/25cf36be339feb2000b3cfc6311b7d5a7542a57e"
+  },
+  {
+    "path": "semaphore.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87ec40d183defeb907bbfe0f72457b893e2fe488",
+    "size": 1981,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/87ec40d183defeb907bbfe0f72457b893e2fe488"
+  },
+  {
+    "path": "semaphore.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "871142bae413edff59a1641e9b525bc4fbbb327c",
+    "size": 1548,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/871142bae413edff59a1641e9b525bc4fbbb327c"
+  },
+  {
+    "path": "shinobi.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8f51951f405b9d17b2d2508991754f2160bc615",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/e8f51951f405b9d17b2d2508991754f2160bc615"
+  },
+  {
+    "path": "shinobi.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bf1618f333ae41500a0296323f149a9724cded4",
+    "size": 1091,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/9bf1618f333ae41500a0296323f149a9724cded4"
+  },
+  {
+    "path": "shlink.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "668edb5aa89743faeff0d1f59ab6dbda016a1674",
+    "size": 1820,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/668edb5aa89743faeff0d1f59ab6dbda016a1674"
+  },
+  {
+    "path": "sickchill.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4fe84cd6835da7ca8d7da9850eee29fb2896b84",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a4fe84cd6835da7ca8d7da9850eee29fb2896b84"
+  },
+  {
+    "path": "sickchill.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f862273d0e6d702cc3cfcc44d7ebdb4718abb355",
+    "size": 1077,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f862273d0e6d702cc3cfcc44d7ebdb4718abb355"
+  },
+  {
+    "path": "sickrage.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4356de8cf886e1b72ed5ef4f36bd087115660c5a",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4356de8cf886e1b72ed5ef4f36bd087115660c5a"
+  },
+  {
+    "path": "sickrage.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72afa683c06f91f98d484d8c5edc87a45a027745",
+    "size": 1067,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/72afa683c06f91f98d484d8c5edc87a45a027745"
+  },
+  {
+    "path": "skyhook.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c89b83e09e62440bd2254a4c85b3b6fd6782973",
+    "size": 1826,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8c89b83e09e62440bd2254a4c85b3b6fd6782973"
+  },
+  {
+    "path": "slskd.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04159c7e50c1009d19abc412f0e7b085490e5c05",
+    "size": 994,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/04159c7e50c1009d19abc412f0e7b085490e5c05"
+  },
+  {
+    "path": "smokeping.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa0340b5f435886f6316957c350ec71447f948be",
+    "size": 1834,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/fa0340b5f435886f6316957c350ec71447f948be"
+  },
+  {
+    "path": "smokeping.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfdba8023050c456708c9257368a707d32346491",
+    "size": 1029,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bfdba8023050c456708c9257368a707d32346491"
+  },
+  {
+    "path": "sonarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b7f640f6b0b73620e7ed185ed55c757217bae31",
+    "size": 2116,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7b7f640f6b0b73620e7ed185ed55c757217bae31"
+  },
+  {
+    "path": "sonarr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54fa3ea22c15a848f98f8142e0d928c53473263c",
+    "size": 1175,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/54fa3ea22c15a848f98f8142e0d928c53473263c"
+  },
+  {
+    "path": "sonarrtorss.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42a58d353931f30afac39d45c6e7df60576e688c",
+    "size": 2165,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/42a58d353931f30afac39d45c6e7df60576e688c"
+  },
+  {
+    "path": "sonarrtorss.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b5c37a8ee66a41096eeec721e2dd555c0917ecd",
+    "size": 1297,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8b5c37a8ee66a41096eeec721e2dd555c0917ecd"
+  },
+  {
+    "path": "speedtest-tracker.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "822621b53e40c1de189a35f15220fa75923d59bd",
+    "size": 1875,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/822621b53e40c1de189a35f15220fa75923d59bd"
+  },
+  {
+    "path": "spoolman.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "523c498c198822cde05cba9c0244754873e61a63",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/523c498c198822cde05cba9c0244754873e61a63"
+  },
+  {
+    "path": "spoolman.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fa88e782239a008337cafbea00095ae83db4d89",
+    "size": 992,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4fa88e782239a008337cafbea00095ae83db4d89"
+  },
+  {
+    "path": "statping.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d822b1621086ce48937cde73317ae81357801fe5",
+    "size": 2067,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d822b1621086ce48937cde73317ae81357801fe5"
+  },
+  {
+    "path": "stirling-pdf.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90385dd936648c651fd8784c9765393f6adddf33",
+    "size": 1852,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/90385dd936648c651fd8784c9765393f6adddf33"
+  },
+  {
+    "path": "storm.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6e422ee142dd40df9a6cda88a162274db7a7dc9",
+    "size": 1921,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f6e422ee142dd40df9a6cda88a162274db7a7dc9"
+  },
+  {
+    "path": "synapse.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "443fd66a76554b93e82c5b79242403ab6711d333",
+    "size": 1791,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/443fd66a76554b93e82c5b79242403ab6711d333"
+  },
+  {
+    "path": "synclounge.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b652279fc94f2645cc94c4c310105fb91fe97fa9",
+    "size": 2338,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b652279fc94f2645cc94c4c310105fb91fe97fa9"
+  },
+  {
+    "path": "synclounge.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc98fb61e7bad8171a5afd85724b45487c7d12cf",
+    "size": 2073,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/dc98fb61e7bad8171a5afd85724b45487c7d12cf"
+  },
+  {
+    "path": "syncthing.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdc3d454b61b8c812eeb8cf85b31f46bb640e502",
+    "size": 2220,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/cdc3d454b61b8c812eeb8cf85b31f46bb640e502"
+  },
+  {
+    "path": "syncthing.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17f719ec93a8388c07116442a08f231fec6475e0",
+    "size": 1393,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/17f719ec93a8388c07116442a08f231fec6475e0"
+  },
+  {
+    "path": "taisun.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e20ef08180866b2d958ab47250edac54ae044dd",
+    "size": 1850,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/1e20ef08180866b2d958ab47250edac54ae044dd"
+  },
+  {
+    "path": "tasmobackup.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c76147ec8b974265445283b1d527634b409b62c2",
+    "size": 1844,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/c76147ec8b974265445283b1d527634b409b62c2"
+  },
+  {
+    "path": "tautulli.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa487078ee0d1048f0caf79422d4f7debc24bfb5",
+    "size": 2737,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/fa487078ee0d1048f0caf79422d4f7debc24bfb5"
+  },
+  {
+    "path": "tautulli.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55e9eedca0a723294297336bab8f9f4b312e04cb",
+    "size": 1878,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/55e9eedca0a723294297336bab8f9f4b312e04cb"
+  },
+  {
+    "path": "tdarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03f6ca633ec8868ab05042c4602fe3e79c7a304c",
+    "size": 1816,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/03f6ca633ec8868ab05042c4602fe3e79c7a304c"
+  },
+  {
+    "path": "thelounge.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5c0f1396de15c913af18b6c71fba67e130a8502",
+    "size": 1836,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/d5c0f1396de15c913af18b6c71fba67e130a8502"
+  },
+  {
+    "path": "thelounge.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfd59240cfd10707b94ccc9d5219abc66f3a3af8",
+    "size": 1014,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/dfd59240cfd10707b94ccc9d5219abc66f3a3af8"
+  },
+  {
+    "path": "themepark.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c2f2323018532e931685de258489982d65af020",
+    "size": 2150,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7c2f2323018532e931685de258489982d65af020"
+  },
+  {
+    "path": "themepark.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6fff1b3bcc2fea30ec0c56363dbe476201f3d722",
+    "size": 1482,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6fff1b3bcc2fea30ec0c56363dbe476201f3d722"
+  },
+  {
+    "path": "tinyauth.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24eb3eeeb2ff9447b3e5038fcd265c5f3f970da6",
+    "size": 620,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/24eb3eeeb2ff9447b3e5038fcd265c5f3f970da6"
+  },
+  {
+    "path": "transmission.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "272d0dc81c642a412e29d09ad4c0d7bcb1894338",
+    "size": 2603,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/272d0dc81c642a412e29d09ad4c0d7bcb1894338"
+  },
+  {
+    "path": "transmission.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "059eb326391ce9a535bd6ea0c0572dc30c232b89",
+    "size": 1815,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/059eb326391ce9a535bd6ea0c0572dc30c232b89"
+  },
+  {
+    "path": "tvheadend.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b769460d67bb71314ab6d637ffd6abd8a01e345",
+    "size": 1803,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/3b769460d67bb71314ab6d637ffd6abd8a01e345"
+  },
+  {
+    "path": "ubooquity.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4438caefecb7ea61457dce0f3f0988c12b2f09ef",
+    "size": 2708,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/4438caefecb7ea61457dce0f3f0988c12b2f09ef"
+  },
+  {
+    "path": "ubooquity.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1a6a5bf61cef12501502918b1158e92914f7ca5",
+    "size": 1263,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b1a6a5bf61cef12501502918b1158e92914f7ca5"
+  },
+  {
+    "path": "unifi-controller.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35f332ae8d2de5bc6c1a9536611db0ff5076bca3",
+    "size": 2010,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/35f332ae8d2de5bc6c1a9536611db0ff5076bca3"
+  },
+  {
+    "path": "unifi-network-application.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa8032571b5705483b1ab2c716ab5896fe49b76c",
+    "size": 2103,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/aa8032571b5705483b1ab2c716ab5896fe49b76c"
+  },
+  {
+    "path": "uptime-kuma.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0a17d51b35650ff4f47abab6c4340ffd9287f2e",
+    "size": 2157,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/a0a17d51b35650ff4f47abab6c4340ffd9287f2e"
+  },
+  {
+    "path": "vaultwarden.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "761607b833def46236578f327f3a3da38a370d85",
+    "size": 4009,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/761607b833def46236578f327f3a3da38a370d85"
+  },
+  {
+    "path": "vaultwarden.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f97dc89363de01f48827d95317b595e7f0837314",
+    "size": 3006,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f97dc89363de01f48827d95317b595e7f0837314"
+  },
+  {
+    "path": "viewtube.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e1a2914ad8c71832cee96f0e34950ec69e606a9",
+    "size": 1832,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8e1a2914ad8c71832cee96f0e34950ec69e606a9"
+  },
+  {
+    "path": "wallabag.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73de4a6d537c6742fece4808a52a12ab0805adf0",
+    "size": 1995,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/73de4a6d537c6742fece4808a52a12ab0805adf0"
+  },
+  {
+    "path": "warpgate.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "872898a65fd55dded537aa3c0aeb0e7bdd37e86f",
+    "size": 1833,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/872898a65fd55dded537aa3c0aeb0e7bdd37e86f"
+  },
+  {
+    "path": "watcharr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f9beb800febebfa3fcd93180742d2c0342c0f29",
+    "size": 2130,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/8f9beb800febebfa3fcd93180742d2c0342c0f29"
+  },
+  {
+    "path": "watchstate.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f1684313c7b0a61e47e45d82a44a78ae0541826",
+    "size": 2247,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/5f1684313c7b0a61e47e45d82a44a78ae0541826"
+  },
+  {
+    "path": "webtop.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "362e29a0d47dc17ead89b523aabb8b2a6cf1cba7",
+    "size": 1845,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/362e29a0d47dc17ead89b523aabb8b2a6cf1cba7"
+  },
+  {
+    "path": "webtop.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "526525c3ff53306aa667b0e72eb472694a3a8151",
+    "size": 977,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/526525c3ff53306aa667b0e72eb472694a3a8151"
+  },
+  {
+    "path": "whisparr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc443f55977ad0c22ae66eec0c8a70b08a407838",
+    "size": 2130,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bc443f55977ad0c22ae66eec0c8a70b08a407838"
+  },
+  {
+    "path": "whisparr.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13d36933c7610ab2144f0c39855a79f9d647f9c0",
+    "size": 1191,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/13d36933c7610ab2144f0c39855a79f9d647f9c0"
+  },
+  {
+    "path": "wikijs.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1071ace35e6f6f8f626f73c37134bb415b2f9c49",
+    "size": 2120,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/1071ace35e6f6f8f626f73c37134bb415b2f9c49"
+  },
+  {
+    "path": "wizarr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84e00dfaabf133afe25d35afc7885075161d4f9a",
+    "size": 1820,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/84e00dfaabf133afe25d35afc7885075161d4f9a"
+  },
+  {
+    "path": "wordpress.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79489cd8fa490f271b53edb018914d60e3b1d2be",
+    "size": 1834,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/79489cd8fa490f271b53edb018914d60e3b1d2be"
+  },
+  {
+    "path": "wordpress.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b47885e5d57f200e8aa7fa03062e69fbed29423",
+    "size": 1120,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/6b47885e5d57f200e8aa7fa03062e69fbed29423"
+  },
+  {
+    "path": "wrapperr.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff4958824be2a7bb5c62e790bfcd7140fb15d7c0",
+    "size": 1831,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ff4958824be2a7bb5c62e790bfcd7140fb15d7c0"
+  },
+  {
+    "path": "yacht.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d46933413e2db3e698567a65c718ebe69ee3187",
+    "size": 1816,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/7d46933413e2db3e698567a65c718ebe69ee3187"
+  },
+  {
+    "path": "your-spotify-api.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae613e0b3963e28a8bb315a6b0aa458d0c288d38",
+    "size": 2241,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ae613e0b3963e28a8bb315a6b0aa458d0c288d38"
+  },
+  {
+    "path": "your-spotify.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc0bd15fbd725b2100c58cb7ca3d111828952437",
+    "size": 2218,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bc0bd15fbd725b2100c58cb7ca3d111828952437"
+  },
+  {
+    "path": "yourls.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee8edd7cef74045539a275e6d6046fb54b7b049d",
+    "size": 1832,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/ee8edd7cef74045539a275e6d6046fb54b7b049d"
+  },
+  {
+    "path": "youtube-dl-server.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4a9ce746ed9213e597146bfce89a7c7950937de",
+    "size": 1876,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f4a9ce746ed9213e597146bfce89a7c7950937de"
+  },
+  {
+    "path": "youtube-dl.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b07a58f06a4c5f7dc02e2230309e67cc9eb8bee8",
+    "size": 1309,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/b07a58f06a4c5f7dc02e2230309e67cc9eb8bee8"
+  },
+  {
+    "path": "yt-dlp-web.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88f8dc423ef28b5c23c425789978e570337fc3f9",
+    "size": 1840,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/88f8dc423ef28b5c23c425789978e570337fc3f9"
+  },
+  {
+    "path": "zigbee2mqtt.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88e065da3249dede43e3b64004c10b3f516c866a",
+    "size": 1847,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/88e065da3249dede43e3b64004c10b3f516c866a"
+  },
+  {
+    "path": "znc.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb944f176fdd87381afbabb698dd45b0ea307113",
+    "size": 1806,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/bb944f176fdd87381afbabb698dd45b0ea307113"
+  },
+  {
+    "path": "znc.subfolder.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70d2610556ea2588308d28672079d609c7ea032e",
+    "size": 1011,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/70d2610556ea2588308d28672079d609c7ea032e"
+  },
+  {
+    "path": "zwave-js-ui.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c56a28dee7a55796cf6d540f0e039a6fdd0529a",
+    "size": 1846,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/1c56a28dee7a55796cf6d540f0e039a6fdd0529a"
+  },
+  {
+    "path": "zwavejs2mqtt.subdomain.conf.sample",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f845e39732e32044c23f6a6d474c65f77064e488",
+    "size": 1851,
+    "url": "https://api.github.com/repos/linuxserver/reverse-proxy-confs/git/blobs/f845e39732e32044c23f6a6d474c65f77064e488"
+  }
+]

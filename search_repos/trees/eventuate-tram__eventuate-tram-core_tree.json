@@ -1,0 +1,907 @@
+[
+  {
+    "path": ".circleci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cabe1d62ab34895d565117e20c202d6e024eec4f",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/cabe1d62ab34895d565117e20c202d6e024eec4f"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5caf85938a71f1db398cbb737a102048089a1cdf",
+    "size": 97,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/5caf85938a71f1db398cbb737a102048089a1cdf"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11f935e855681f68f9821ba0d4beae61fe12e3ac",
+    "size": 581,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/11f935e855681f68f9821ba0d4beae61fe12e3ac"
+  },
+  {
+    "path": "README.adoc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "431a2af5d5e79b823053175765c60fada76ccdff",
+    "size": 10244,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/431a2af5d5e79b823053175765c60fada76ccdff"
+  },
+  {
+    "path": "ReliablePublication.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75789b06902e7f2e6584573f13653cebe6c2fdc6",
+    "size": 40279,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/75789b06902e7f2e6584573f13653cebe6c2fdc6"
+  },
+  {
+    "path": "_build-and-test-all.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d9ca61b4770d0b371139f53ecdb41e0a43c914de",
+    "size": 1118,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/d9ca61b4770d0b371139f53ecdb41e0a43c914de"
+  },
+  {
+    "path": "activemq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0323248e58ff1c086b81363b93d720bc22624b6c",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/0323248e58ff1c086b81363b93d720bc22624b6c"
+  },
+  {
+    "path": "build-and-test-all-mssql-polling-activemq.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "63405b290eeae03ec8e2e829bb3087b6a79944fb",
+    "size": 240,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/63405b290eeae03ec8e2e829bb3087b6a79944fb"
+  },
+  {
+    "path": "build-and-test-all-mysql-binlog-kafka.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "befa0f220c103d05f73fe6dabe591542a8e1e582",
+    "size": 138,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/befa0f220c103d05f73fe6dabe591542a8e1e582"
+  },
+  {
+    "path": "build-and-test-all-mysql-binlog-redis.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7eab4b45d5941d855b5cd42f5ca58af28f0776f4",
+    "size": 145,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/7eab4b45d5941d855b5cd42f5ca58af28f0776f4"
+  },
+  {
+    "path": "build-and-test-all-mysql-kafka-spring-boot-3.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cce90198f0a8ff302140403e85b14913d225c32f",
+    "size": 165,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/cce90198f0a8ff302140403e85b14913d225c32f"
+  },
+  {
+    "path": "build-and-test-all-postgres-wal-rabbitmq.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "dd71d89e8522010f4ef2c58b35838e831d96e236",
+    "size": 240,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/dd71d89e8522010f4ef2c58b35838e831d96e236"
+  },
+  {
+    "path": "build-and-test-everything.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0b450e865526d5b459a7dd165cd730299220a6f5",
+    "size": 593,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/0b450e865526d5b459a7dd165cd730299220a6f5"
+  },
+  {
+    "path": "build.gradle",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2238ca462ecd10ee18bdf4ece99d27d03f3dfc47",
+    "size": 2676,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/2238ca462ecd10ee18bdf4ece99d27d03f3dfc47"
+  },
+  {
+    "path": "deploy-artifacts.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6e11b0050e4a5928bf11c828195b0a5bf4ab2563",
+    "size": 64,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/6e11b0050e4a5928bf11c828195b0a5bf4ab2563"
+  },
+  {
+    "path": "docker-compose-mssql-polling-activemq.yml",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "892168a837efeddc52b8b256af21d083c0e263d2",
+    "size": 1342,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/892168a837efeddc52b8b256af21d083c0e263d2"
+  },
+  {
+    "path": "docker-compose-mysql-binlog-kafka.yml",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9c66055f5360baa951068c85b595dab2d9cb50f9",
+    "size": 1871,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/9c66055f5360baa951068c85b595dab2d9cb50f9"
+  },
+  {
+    "path": "docker-compose-mysql-binlog-redis.yml",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "27f6f18c3945f485b640fb708ab37c0ad8e0b96d",
+    "size": 1178,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/27f6f18c3945f485b640fb708ab37c0ad8e0b96d"
+  },
+  {
+    "path": "docker-compose-postgres-wal-rabbitmq.yml",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c6cea6344938b30b4610fa692a9aa6d1b767eba3",
+    "size": 1270,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/c6cea6344938b30b4610fa692a9aa6d1b767eba3"
+  },
+  {
+    "path": "docker-compose-zipkin.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de93622e14a04a4b18427d598fc02c4995fdeaa1",
+    "size": 116,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/de93622e14a04a4b18427d598fc02c4995fdeaa1"
+  },
+  {
+    "path": "eventuate-tram-aggregate-domain-events",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75300e5bba467bb42f8885ae4b9f0a30569f79d8",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/75300e5bba467bb42f8885ae4b9f0a30569f79d8"
+  },
+  {
+    "path": "eventuate-tram-commands-db-broker-integration-test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8dacb7902512431231fc50f8f8472d1e0bc65e5",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/e8dacb7902512431231fc50f8f8472d1e0bc65e5"
+  },
+  {
+    "path": "eventuate-tram-commands",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75c6e010f250918c4bade58df105488c20cfc8e4",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/75c6e010f250918c4bade58df105488c20cfc8e4"
+  },
+  {
+    "path": "eventuate-tram-common-spring-in-memory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "841567f609ca4030c244d5f02162de32db2cd4b7",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/841567f609ca4030c244d5f02162de32db2cd4b7"
+  },
+  {
+    "path": "eventuate-tram-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0af19ecd6f10061cb2d025e5231955b7844ece40",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/0af19ecd6f10061cb2d025e5231955b7844ece40"
+  },
+  {
+    "path": "eventuate-tram-consumer-activemq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c60c15cdce22af6ce55b5bb5fa472809f982714c",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/c60c15cdce22af6ce55b5bb5fa472809f982714c"
+  },
+  {
+    "path": "eventuate-tram-consumer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb3b1e8a3bf7aac07ae2f59a6385ecf15fa4df55",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/eb3b1e8a3bf7aac07ae2f59a6385ecf15fa4df55"
+  },
+  {
+    "path": "eventuate-tram-consumer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d4abb1ea3c6c56698cb92a23f14060094324aa4b",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/d4abb1ea3c6c56698cb92a23f14060094324aa4b"
+  },
+  {
+    "path": "eventuate-tram-consumer-kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "335e9780d40a93b64829afef90215959880b6e87",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/335e9780d40a93b64829afef90215959880b6e87"
+  },
+  {
+    "path": "eventuate-tram-consumer-rabbitmq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd7290d3f6c3a1c1e43c925ac1ab0fe9907f8092",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/bd7290d3f6c3a1c1e43c925ac1ab0fe9907f8092"
+  },
+  {
+    "path": "eventuate-tram-consumer-redis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0cca55cd53f314ee3f464a09afa511376bfb0012",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/0cca55cd53f314ee3f464a09afa511376bfb0012"
+  },
+  {
+    "path": "eventuate-tram-db-broker-integration-test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4a0284418f60e98fef881e9e865c2fd27ccf38ef",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/4a0284418f60e98fef881e9e865c2fd27ccf38ef"
+  },
+  {
+    "path": "eventuate-tram-events",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e4a611b835cb090a1e532e751b15ae018b080a66",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/e4a611b835cb090a1e532e751b15ae018b080a66"
+  },
+  {
+    "path": "eventuate-tram-in-memory-test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ba04571212641aed0c9b7bf7bc19458ea86b2f6",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/0ba04571212641aed0c9b7bf7bc19458ea86b2f6"
+  },
+  {
+    "path": "eventuate-tram-in-memory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37949e872c83596e18763afd20b623cd4a8c7b50",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/37949e872c83596e18763afd20b623cd4a8c7b50"
+  },
+  {
+    "path": "eventuate-tram-integration-test-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ff015984f54ffe99310d968cd10a80dbf83a4c9",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/8ff015984f54ffe99310d968cd10a80dbf83a4c9"
+  },
+  {
+    "path": "eventuate-tram-jdbc-activemq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f2b058bf52257165ecd8059efedda6ffa93ecca7",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/f2b058bf52257165ecd8059efedda6ffa93ecca7"
+  },
+  {
+    "path": "eventuate-tram-jdbc-rabbitmq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25945f4571a389e32489197b8861f92eaf20d108",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/25945f4571a389e32489197b8861f92eaf20d108"
+  },
+  {
+    "path": "eventuate-tram-jdbc-redis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "209371045eec427ee9a34b010bf5b9d137e9ef9a",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/209371045eec427ee9a34b010bf5b9d137e9ef9a"
+  },
+  {
+    "path": "eventuate-tram-messaging-producer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0a9adbb483e2f8dd4f9722d55d8340d9e5cf5381",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/0a9adbb483e2f8dd4f9722d55d8340d9e5cf5381"
+  },
+  {
+    "path": "eventuate-tram-messaging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9f45f16537d755bd9e30c4f70f7e9149b114c9c0",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/9f45f16537d755bd9e30c4f70f7e9149b114c9c0"
+  },
+  {
+    "path": "eventuate-tram-micronaut-commands",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "240d6a42ea3b17716f1c255d249896079df10936",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/240d6a42ea3b17716f1c255d249896079df10936"
+  },
+  {
+    "path": "eventuate-tram-micronaut-consumer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9de9c9d4b702f2f526d8e11104a4c6d011d784f7",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/9de9c9d4b702f2f526d8e11104a4c6d011d784f7"
+  },
+  {
+    "path": "eventuate-tram-micronaut-consumer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70c5754cdea62f3e197b2cbecb3fcfbd303a2ce4",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/70c5754cdea62f3e197b2cbecb3fcfbd303a2ce4"
+  },
+  {
+    "path": "eventuate-tram-micronaut-consumer-kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b36dc736921f7426a77480e82e9db701b7fd489e",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/b36dc736921f7426a77480e82e9db701b7fd489e"
+  },
+  {
+    "path": "eventuate-tram-micronaut-data-jdbc-optimistic-locking",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21845e4103840204c6c58c28c96f20b400b2334b",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/21845e4103840204c6c58c28c96f20b400b2334b"
+  },
+  {
+    "path": "eventuate-tram-micronaut-events",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00e489d79ad6c9a243d810d1c43431db964078ed",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/00e489d79ad6c9a243d810d1c43431db964078ed"
+  },
+  {
+    "path": "eventuate-tram-micronaut-in-memory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a687681007a8ecefda2324e000371d37f1f7884e",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/a687681007a8ecefda2324e000371d37f1f7884e"
+  },
+  {
+    "path": "eventuate-tram-micronaut-jdbc-kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4036da07f2d20ccf024c0ce498c8da04c1aa3dbe",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/4036da07f2d20ccf024c0ce498c8da04c1aa3dbe"
+  },
+  {
+    "path": "eventuate-tram-micronaut-messaging-producer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5acdaa1bb7156a61a22f103b8238ce4d134a61fe",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/5acdaa1bb7156a61a22f103b8238ce4d134a61fe"
+  },
+  {
+    "path": "eventuate-tram-micronaut-messaging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "435cb6f87f3016c9cbfce4a262e392a754d94fe7",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/435cb6f87f3016c9cbfce4a262e392a754d94fe7"
+  },
+  {
+    "path": "eventuate-tram-micronaut-producer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "283f89e0039bc6b1450f6221c2c9e778032d28e9",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/283f89e0039bc6b1450f6221c2c9e778032d28e9"
+  },
+  {
+    "path": "eventuate-tram-optimistic-locking-common-test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "598c904ff0824479fe96bf9ae89350b1c89368c2",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/598c904ff0824479fe96bf9ae89350b1c89368c2"
+  },
+  {
+    "path": "eventuate-tram-producer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c6dd17c9b83e98001e116bb9666bb18d026b46c",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/0c6dd17c9b83e98001e116bb9666bb18d026b46c"
+  },
+  {
+    "path": "eventuate-tram-reactive-commands",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25fc723a8b9d89ad8030d0b7ea39518199a6ab63",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/25fc723a8b9d89ad8030d0b7ea39518199a6ab63"
+  },
+  {
+    "path": "eventuate-tram-reactive-consumer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba0c024c009f4588de25b63f9bcfcb651fb0e459",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/ba0c024c009f4588de25b63f9bcfcb651fb0e459"
+  },
+  {
+    "path": "eventuate-tram-reactive-consumer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "064c052c38a409ad41a04bd92be77bc869367b47",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/064c052c38a409ad41a04bd92be77bc869367b47"
+  },
+  {
+    "path": "eventuate-tram-reactive-consumer-kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a463e4a55acf68950d3c579637f8a6a1203c819a",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/a463e4a55acf68950d3c579637f8a6a1203c819a"
+  },
+  {
+    "path": "eventuate-tram-reactive-events",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "81116f455d14f42e35c9b6d1d5eeec9dde48a6e6",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/81116f455d14f42e35c9b6d1d5eeec9dde48a6e6"
+  },
+  {
+    "path": "eventuate-tram-reactive-in-memory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "42e8d0b81e6791a3234b334a9f3521fd0361b3c5",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/42e8d0b81e6791a3234b334a9f3521fd0361b3c5"
+  },
+  {
+    "path": "eventuate-tram-reactive-messaging-producer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dc53637149e3e04a3b07d1d1bbfa6414fc61747b",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/dc53637149e3e04a3b07d1d1bbfa6414fc61747b"
+  },
+  {
+    "path": "eventuate-tram-reactive-producer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "841d1a59775dfde3775224344363d5746e1f7bc6",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/841d1a59775dfde3775224344363d5746e1f7bc6"
+  },
+  {
+    "path": "eventuate-tram-spring-commands-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ebf5131f97c9bc2cba846ee9743747e466016fd8",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/ebf5131f97c9bc2cba846ee9743747e466016fd8"
+  },
+  {
+    "path": "eventuate-tram-spring-commands-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a2e422d9c556e54a52c9d112d912d783f64c79a",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/5a2e422d9c556e54a52c9d112d912d783f64c79a"
+  },
+  {
+    "path": "eventuate-tram-spring-commands",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "246b742c7f7849e91a9f840334441a767c286ad0",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/246b742c7f7849e91a9f840334441a767c286ad0"
+  },
+  {
+    "path": "eventuate-tram-spring-consumer-activemq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "905790e3ed60bc5fc13ab718d152e8bdb0de3fb7",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/905790e3ed60bc5fc13ab718d152e8bdb0de3fb7"
+  },
+  {
+    "path": "eventuate-tram-spring-consumer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aee8c24f7bb954b5a45043f4e095d02c0ba6fcf4",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/aee8c24f7bb954b5a45043f4e095d02c0ba6fcf4"
+  },
+  {
+    "path": "eventuate-tram-spring-consumer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b007faf59b806d897da1e42d1f3292f3bb150e1",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/1b007faf59b806d897da1e42d1f3292f3bb150e1"
+  },
+  {
+    "path": "eventuate-tram-spring-consumer-kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61a14c7d33804941aadd6881d1ff7c250e3cdd22",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/61a14c7d33804941aadd6881d1ff7c250e3cdd22"
+  },
+  {
+    "path": "eventuate-tram-spring-consumer-rabbitmq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "27c19dc2760a61b1e9fd2d8c4eb3bd4e12138e9b",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/27c19dc2760a61b1e9fd2d8c4eb3bd4e12138e9b"
+  },
+  {
+    "path": "eventuate-tram-spring-consumer-redis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3ea8be1f2d69da1c674073d37e7be5fbde2ff4d3",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/3ea8be1f2d69da1c674073d37e7be5fbde2ff4d3"
+  },
+  {
+    "path": "eventuate-tram-spring-events-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "92c492df1955a6fbbded9080b5d02e0841cce5b2",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/92c492df1955a6fbbded9080b5d02e0841cce5b2"
+  },
+  {
+    "path": "eventuate-tram-spring-events-publisher-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a7909ac1626a7f55b234ce186b77f7cfab9f06af",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/a7909ac1626a7f55b234ce186b77f7cfab9f06af"
+  },
+  {
+    "path": "eventuate-tram-spring-events-publisher",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67f16eeaac6a7f2055aa87fa202e019d7ccedbd1",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/67f16eeaac6a7f2055aa87fa202e019d7ccedbd1"
+  },
+  {
+    "path": "eventuate-tram-spring-events-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "23e5586e83fa908bede304799cb7a44bfc88f041",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/23e5586e83fa908bede304799cb7a44bfc88f041"
+  },
+  {
+    "path": "eventuate-tram-spring-events-subscriber-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eae29b4ff369cb30228c0629bf1336c4f884dafe",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/eae29b4ff369cb30228c0629bf1336c4f884dafe"
+  },
+  {
+    "path": "eventuate-tram-spring-events-subscriber",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "212775a9ce007f361d6b7e766e8290ba116ae9ce",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/212775a9ce007f361d6b7e766e8290ba116ae9ce"
+  },
+  {
+    "path": "eventuate-tram-spring-events",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7b27f7bfeabda323f8d5297a4c948c65726b79a3",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/7b27f7bfeabda323f8d5297a4c948c65726b79a3"
+  },
+  {
+    "path": "eventuate-tram-spring-flyway",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d093e0976cc6eb4c590323a928a551815e7dd78b",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/d093e0976cc6eb4c590323a928a551815e7dd78b"
+  },
+  {
+    "path": "eventuate-tram-spring-in-memory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c9fb3dfff295833f29aa2d07a56ab8de53e3121",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/5c9fb3dfff295833f29aa2d07a56ab8de53e3121"
+  },
+  {
+    "path": "eventuate-tram-spring-jdbc-activemq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d2db4a56c4486c45ffbadb213389e9aa95f88d45",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/d2db4a56c4486c45ffbadb213389e9aa95f88d45"
+  },
+  {
+    "path": "eventuate-tram-spring-jdbc-kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2482722535084a39084485b2d707b141a3fd906c",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/2482722535084a39084485b2d707b141a3fd906c"
+  },
+  {
+    "path": "eventuate-tram-spring-jdbc-rabbitmq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a65c470d0f52a5c80762967c304a31cccd0856c9",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/a65c470d0f52a5c80762967c304a31cccd0856c9"
+  },
+  {
+    "path": "eventuate-tram-spring-jdbc-redis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "64cdfafe3ce1e9099d8631527c074eb788e2612c",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/64cdfafe3ce1e9099d8631527c074eb788e2612c"
+  },
+  {
+    "path": "eventuate-tram-spring-logging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba472a2ab86a62a5fd8ffb5773076698fc0dd007",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/ba472a2ab86a62a5fd8ffb5773076698fc0dd007"
+  },
+  {
+    "path": "eventuate-tram-spring-messaging-producer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e106df995d3fe273af310ec7176d9f05b68f4fb7",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/e106df995d3fe273af310ec7176d9f05b68f4fb7"
+  },
+  {
+    "path": "eventuate-tram-spring-messaging-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61e036e06edcef2df00d3ca935c8dac8c381f1fb",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/61e036e06edcef2df00d3ca935c8dac8c381f1fb"
+  },
+  {
+    "path": "eventuate-tram-spring-messaging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d5e5ed8b5ba726bae5376638dc510c8423bcc03",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/4d5e5ed8b5ba726bae5376638dc510c8423bcc03"
+  },
+  {
+    "path": "eventuate-tram-spring-optimistic-locking",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99033a9010cd6709ca626aeb6a20cf9f1aefe123",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/99033a9010cd6709ca626aeb6a20cf9f1aefe123"
+  },
+  {
+    "path": "eventuate-tram-spring-producer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a7e4005aa36f0f334309b01a3cf3f04d5ab0853",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/7a7e4005aa36f0f334309b01a3cf3f04d5ab0853"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-commands-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "df9cfd01716bc3dc56dd46cc5ce8e5d626c913a3",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/df9cfd01716bc3dc56dd46cc5ce8e5d626c913a3"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-commands",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6833369438c63e5f460a1e071e61c55722b57fa2",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/6833369438c63e5f460a1e071e61c55722b57fa2"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-consumer-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b126fcf7fb224c8559f2b7223b174efef84d3333",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/b126fcf7fb224c8559f2b7223b174efef84d3333"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-consumer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3db5f7d88bbc0032996525b4b44ba05437594073",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/3db5f7d88bbc0032996525b4b44ba05437594073"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-consumer-kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb63b8c66921ba4be97be3cbc996afd02cf6722f",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/eb63b8c66921ba4be97be3cbc996afd02cf6722f"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-events-publisher-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0e6bf2d4e06cf372d5795eabfad910e44ec6f40f",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/0e6bf2d4e06cf372d5795eabfad910e44ec6f40f"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-events-publisher",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9f3ea461c6c32414c5eadca45347ee27375696c4",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/9f3ea461c6c32414c5eadca45347ee27375696c4"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-events-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aeda80a1388e9f06b3685bd6a0bf87897446b5c6",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/aeda80a1388e9f06b3685bd6a0bf87897446b5c6"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-events-subscriber-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "809bfd36b4c533ff57b08bd9bfea6d57a02dc023",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/809bfd36b4c533ff57b08bd9bfea6d57a02dc023"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-events-subscriber",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c17bb43bbc056cb455e8028291325470a81d198c",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/c17bb43bbc056cb455e8028291325470a81d198c"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-events",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ccc8b0846296a73923eb2f6a7226308a0feaf5e0",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/ccc8b0846296a73923eb2f6a7226308a0feaf5e0"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-integration-tests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "709c868699dffc90bea970dcfc732d10aa11436f",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/709c868699dffc90bea970dcfc732d10aa11436f"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-jdbc-kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4eac98c59d722f86e483145e28c1196e67ce38ae",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/4eac98c59d722f86e483145e28c1196e67ce38ae"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-messaging-starter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c621fd06f2d1097a9d493541e026fe0638ad6e36",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/c621fd06f2d1097a9d493541e026fe0638ad6e36"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-optimistic-locking",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3bd5402a70f561663253b7fb76dcc95df11e4f7",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/f3bd5402a70f561663253b7fb76dcc95df11e4f7"
+  },
+  {
+    "path": "eventuate-tram-spring-reactive-producer-jdbc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09bf885b230c2179f6a3e508588ff82f3de3de01",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/09bf885b230c2179f6a3e508588ff82f3de3de01"
+  },
+  {
+    "path": "eventuate-tram-spring-testing-support-cloud-contract",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91d60025f32d025b2a8bf84692cd47cdf4878dc0",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/91d60025f32d025b2a8bf84692cd47cdf4878dc0"
+  },
+  {
+    "path": "eventuate-tram-spring-testing-support-kafka-producer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "73f794d06b04594fbcf5c530593e39453e50896c",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/73f794d06b04594fbcf5c530593e39453e50896c"
+  },
+  {
+    "path": "eventuate-tram-spring-testing-support-messaging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fff2ea81b277375db7f402f88207b2d93c16d2c8",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/fff2ea81b277375db7f402f88207b2d93c16d2c8"
+  },
+  {
+    "path": "eventuate-tram-spring-testing-support-outbox-commands",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4174139b3ae0d806d2f59b9a0ff9c2129512f275",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/4174139b3ae0d806d2f59b9a0ff9c2129512f275"
+  },
+  {
+    "path": "eventuate-tram-test-util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4e758adb013d1c79b50383a2104faa02904f54d3",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/4e758adb013d1c79b50383a2104faa02904f54d3"
+  },
+  {
+    "path": "eventuate-tram-testing-support",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "343728583995d6fe8f0d5dfd87107c9816061bec",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/343728583995d6fe8f0d5dfd87107c9816061bec"
+  },
+  {
+    "path": "gradle.properties",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0069ec25046b9e5ee0bd362284e19668ac54c6c",
+    "size": 1196,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/d0069ec25046b9e5ee0bd362284e19668ac54c6c"
+  },
+  {
+    "path": "gradle",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c93ffc6c208c2994aa713d6ff6f8977f516a52b",
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/trees/5c93ffc6c208c2994aa713d6ff6f8977f516a52b"
+  },
+  {
+    "path": "gradlew",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "91a7e269e19dfc62e27137a0b57ef3e430cee4fd",
+    "size": 5080,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/91a7e269e19dfc62e27137a0b57ef3e430cee4fd"
+  },
+  {
+    "path": "gradlew.bat",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aec99730b4e8fcd90b57a0e8e01544fea7c31a89",
+    "size": 2404,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/aec99730b4e8fcd90b57a0e8e01544fea7c31a89"
+  },
+  {
+    "path": "mssql-cli.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b159c223a49e1be43130c97bb9ca88cd824d5ec8",
+    "size": 230,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/b159c223a49e1be43130c97bb9ca88cd824d5ec8"
+  },
+  {
+    "path": "mysql-cli.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fd71918850eb1198030af606dccc4547d8609b0c",
+    "size": 206,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/fd71918850eb1198030af606dccc4547d8609b0c"
+  },
+  {
+    "path": "postgres-cli.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a8b25002a2a0854022d6c73239c786a9c8a62e38",
+    "size": 448,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/a8b25002a2a0854022d6c73239c786a9c8a62e38"
+  },
+  {
+    "path": "redis-cli.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7607c73c990527a1667ed07c4761524a4faf090a",
+    "size": 141,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/7607c73c990527a1667ed07c4761524a4faf090a"
+  },
+  {
+    "path": "settings.gradle",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d960cc75186fb5babf4c74b74c4d59910213f71",
+    "size": 4534,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/8d960cc75186fb5babf4c74b74c4d59910213f71"
+  },
+  {
+    "path": "wait-for-mssql.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "77aac425dacaccbceff9ac55bf9330bce4cdead0",
+    "size": 118,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/77aac425dacaccbceff9ac55bf9330bce4cdead0"
+  },
+  {
+    "path": "wait-for-mysql.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7ebcf596b48cf5ab90e5e6138fff9e5d55022eb1",
+    "size": 118,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/7ebcf596b48cf5ab90e5e6138fff9e5d55022eb1"
+  },
+  {
+    "path": "wait-for-postgres.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3ec0f5fa50f1827d431949edd43aac81ba7734f6",
+    "size": 114,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/3ec0f5fa50f1827d431949edd43aac81ba7734f6"
+  },
+  {
+    "path": "wait-for-services.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "bdeb5c21ed63608c9da68045cc02e51b07d0f5a5",
+    "size": 361,
+    "url": "https://api.github.com/repos/eventuate-tram/eventuate-tram-core/git/blobs/bdeb5c21ed63608c9da68045cc02e51b07d0f5a5"
+  }
+]

@@ -1,0 +1,988 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e3949f340e8ca01eba5ca5073d468f5fbbe4571",
+    "size": 33,
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/blobs/9e3949f340e8ca01eba5ca5073d468f5fbbe4571"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f9f50bcee52d258902f5bcf53784e84b1d5e40a5",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/f9f50bcee52d258902f5bcf53784e84b1d5e40a5"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d20fdae1f98523e52a3215e4302dee59861aab92",
+    "size": 92,
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/blobs/d20fdae1f98523e52a3215e4302dee59861aab92"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f22dca25ffcd25aa001205591be24f8c521afb1",
+    "size": 1341,
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/blobs/8f22dca25ffcd25aa001205591be24f8c521afb1"
+  },
+  {
+    "path": "FormatVersions",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "313ad77a1d7d3855b7c91313f61cc96d272fd82a",
+    "size": 77,
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/blobs/313ad77a1d7d3855b7c91313f61cc96d272fd82a"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01e8b6e575b72cd6e0827210371155e80b0d3dca",
+    "size": 1084,
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/blobs/01e8b6e575b72cd6e0827210371155e80b0d3dca"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "272035b4789a5b0f0d503e35af60ed1ee13e551c",
+    "size": 107,
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/blobs/272035b4789a5b0f0d503e35af60ed1ee13e551c"
+  },
+  {
+    "path": "app-accessibility",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89cfb6bd4ade2df26cd90c8ec45041b130622104",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/89cfb6bd4ade2df26cd90c8ec45041b130622104"
+  },
+  {
+    "path": "app-admin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d21c85c2eb402ae3fcff57985f45057cc60d353d",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/d21c85c2eb402ae3fcff57985f45057cc60d353d"
+  },
+  {
+    "path": "app-antivirus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "16c9c00c8af4f47ab27f9538f03a1df32fcff73e",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/16c9c00c8af4f47ab27f9538f03a1df32fcff73e"
+  },
+  {
+    "path": "app-arch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25cb7b1fba74249f5027878046570b9f0f617d95",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/25cb7b1fba74249f5027878046570b9f0f617d95"
+  },
+  {
+    "path": "app-backup",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e207c7af40f850b2b4c7a98c816d496d847eb2f2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/e207c7af40f850b2b4c7a98c816d496d847eb2f2"
+  },
+  {
+    "path": "app-benchmarks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "48a6a09d0c3cce8028f8426c050bbc951ce95d4f",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/48a6a09d0c3cce8028f8426c050bbc951ce95d4f"
+  },
+  {
+    "path": "app-cdr",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8baf74b0ece857d4cdd2d7a5926b8e0607e872d2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/8baf74b0ece857d4cdd2d7a5926b8e0607e872d2"
+  },
+  {
+    "path": "app-crypt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b9d8b830656cd55a028d251dadc1712147da4670",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b9d8b830656cd55a028d251dadc1712147da4670"
+  },
+  {
+    "path": "app-dicts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6860d68ca4fcf4a3543cdaaedc467840509b7be5",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/6860d68ca4fcf4a3543cdaaedc467840509b7be5"
+  },
+  {
+    "path": "app-doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e9e91bdd1a08786e04cfb99b3ca9eab7383f5682",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/e9e91bdd1a08786e04cfb99b3ca9eab7383f5682"
+  },
+  {
+    "path": "app-editors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "88d379c3792df7081c34b13946501348e960a111",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/88d379c3792df7081c34b13946501348e960a111"
+  },
+  {
+    "path": "app-emulation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "200cb5f03fdfd1e6c6366feebb0483adcb262eff",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/200cb5f03fdfd1e6c6366feebb0483adcb262eff"
+  },
+  {
+    "path": "app-forensics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71bea592016e091528981484c5c59b392ebfc880",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/71bea592016e091528981484c5c59b392ebfc880"
+  },
+  {
+    "path": "app-i18n",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6bff5b64ef7f0222113b11476d01c391c4428b8d",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/6bff5b64ef7f0222113b11476d01c391c4428b8d"
+  },
+  {
+    "path": "app-misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a440971b6db2fbebb6f6694799c35f8d0a6962f",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/1a440971b6db2fbebb6f6694799c35f8d0a6962f"
+  },
+  {
+    "path": "app-mobilephone",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4643cfb1d50dcae738966dc615295df964e78dde",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/4643cfb1d50dcae738966dc615295df964e78dde"
+  },
+  {
+    "path": "app-office",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "12dbb006cf21f8e874a2e94fbba4e75e4370a605",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/12dbb006cf21f8e874a2e94fbba4e75e4370a605"
+  },
+  {
+    "path": "app-pda",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4530ad2cfc2548ffe9447f5f8b684c042135185a",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/4530ad2cfc2548ffe9447f5f8b684c042135185a"
+  },
+  {
+    "path": "app-shells",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dcdc8ac42e44498695f0c6f768c74caae1cc9453",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/dcdc8ac42e44498695f0c6f768c74caae1cc9453"
+  },
+  {
+    "path": "app-text",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e6cfde52ce56dad471c2d3d364e9aaa45b3613fb",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/e6cfde52ce56dad471c2d3d364e9aaa45b3613fb"
+  },
+  {
+    "path": "app-vim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "523e79afc29d028a30ab33874ee4331e3f8c53be",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/523e79afc29d028a30ab33874ee4331e3f8c53be"
+  },
+  {
+    "path": "dev-build",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba76d0950cb16efb60e2fce4b6a96ae9137f499b",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/ba76d0950cb16efb60e2fce4b6a96ae9137f499b"
+  },
+  {
+    "path": "dev-cpp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9a541cdf7d9c914e0d448e0fa712a01ca7a35e14",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/9a541cdf7d9c914e0d448e0fa712a01ca7a35e14"
+  },
+  {
+    "path": "dev-db",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ed83437ef0f3cca8cbb9dcdfb036d6b5f5dd887f",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/ed83437ef0f3cca8cbb9dcdfb036d6b5f5dd887f"
+  },
+  {
+    "path": "dev-dotnet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "efe91dc0374a14fe559ba2171a4195080129d70c",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/efe91dc0374a14fe559ba2171a4195080129d70c"
+  },
+  {
+    "path": "dev-embedded",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2674165002c70a8b2f5420fdf40617dd2530f191",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/2674165002c70a8b2f5420fdf40617dd2530f191"
+  },
+  {
+    "path": "dev-games",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a09d5a93a441fb12084b156a86ea3a5bf722242",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/6a09d5a93a441fb12084b156a86ea3a5bf722242"
+  },
+  {
+    "path": "dev-go",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43bb7bb253fd849aefa440fa11f6836d72bbbe8e",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/43bb7bb253fd849aefa440fa11f6836d72bbbe8e"
+  },
+  {
+    "path": "dev-haskell",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63af045038073c2ad83691cfeb3877e8d4f4ecaf",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/63af045038073c2ad83691cfeb3877e8d4f4ecaf"
+  },
+  {
+    "path": "dev-java",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "515c753149f31a564c77cf0113232ec89028128f",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/515c753149f31a564c77cf0113232ec89028128f"
+  },
+  {
+    "path": "dev-lang",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c7565623f79f94129467084f108b58d2a320ae5",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/0c7565623f79f94129467084f108b58d2a320ae5"
+  },
+  {
+    "path": "dev-libs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1f3ed90936d91ac2dc7e57ad3f120b41a1c2afb5",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/1f3ed90936d91ac2dc7e57ad3f120b41a1c2afb5"
+  },
+  {
+    "path": "dev-lisp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "26f7d026abb21f4e012f325c57988c49d27fd774",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/26f7d026abb21f4e012f325c57988c49d27fd774"
+  },
+  {
+    "path": "dev-lua",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e0fdd8bacc61b88a94b8f0c230a2cba66d5cabd",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/1e0fdd8bacc61b88a94b8f0c230a2cba66d5cabd"
+  },
+  {
+    "path": "dev-perl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce714390527b5628235ce98b6041021552be2070",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/ce714390527b5628235ce98b6041021552be2070"
+  },
+  {
+    "path": "dev-python",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d06bd2edda6de36ecec66b21c318ccf6edaf38fa",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/d06bd2edda6de36ecec66b21c318ccf6edaf38fa"
+  },
+  {
+    "path": "dev-qt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5dbf52290a41e7b5e0f0bc01988cc2ab5e37e4a2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/5dbf52290a41e7b5e0f0bc01988cc2ab5e37e4a2"
+  },
+  {
+    "path": "dev-rust",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "530a4c615b889630c72832fe3690a765da5cc2a2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/530a4c615b889630c72832fe3690a765da5cc2a2"
+  },
+  {
+    "path": "dev-scheme",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cf6ef35d64a3be799efb0da3734c5354a24e8273",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/cf6ef35d64a3be799efb0da3734c5354a24e8273"
+  },
+  {
+    "path": "dev-tcltk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b6671e04fa5d0d522f75066f66ecf534512b4828",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b6671e04fa5d0d522f75066f66ecf534512b4828"
+  },
+  {
+    "path": "dev-tex",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2fc56fe87798fd89a182ddbbbb39e6e3c8e19441",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/2fc56fe87798fd89a182ddbbbb39e6e3c8e19441"
+  },
+  {
+    "path": "dev-util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35329d34ce5f3753a33f76ba76bd05afcd2a29c4",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/35329d34ce5f3753a33f76ba76bd05afcd2a29c4"
+  },
+  {
+    "path": "dev-vcs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cdff5cf4652654635e7e03283818ddfcebcf430d",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/cdff5cf4652654635e7e03283818ddfcebcf430d"
+  },
+  {
+    "path": "games-action",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "790e9130f0ff70637ae5cbf777487b29efb23dab",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/790e9130f0ff70637ae5cbf777487b29efb23dab"
+  },
+  {
+    "path": "games-arcade",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9044f5eb33d6874a2ba375d7323a3ce26ab0e35d",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/9044f5eb33d6874a2ba375d7323a3ce26ab0e35d"
+  },
+  {
+    "path": "games-board",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "abf906161369b52186a7d2393afab72446c3705a",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/abf906161369b52186a7d2393afab72446c3705a"
+  },
+  {
+    "path": "games-emulation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c01800eb4f6dbda0a614dc311fdd12a5736d0a35",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/c01800eb4f6dbda0a614dc311fdd12a5736d0a35"
+  },
+  {
+    "path": "games-engines",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "83868e5a9b83b487c1797a3cc3e3de914961c684",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/83868e5a9b83b487c1797a3cc3e3de914961c684"
+  },
+  {
+    "path": "games-fps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f800fc6294adac841fb344e059943a9cad754fdd",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/f800fc6294adac841fb344e059943a9cad754fdd"
+  },
+  {
+    "path": "games-kids",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03712c4accebd0f2b2340d2b0f5a706a15de035f",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/03712c4accebd0f2b2340d2b0f5a706a15de035f"
+  },
+  {
+    "path": "games-misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "97604b67f047a6fa69786bdc91265fb8108f8cbb",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/97604b67f047a6fa69786bdc91265fb8108f8cbb"
+  },
+  {
+    "path": "games-mud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b94c78825b2ee9d1d1685a17f93de91ea9e9690a",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b94c78825b2ee9d1d1685a17f93de91ea9e9690a"
+  },
+  {
+    "path": "games-puzzle",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d455e17f0bd18cc484100c7ccbdc723b1a3c27de",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/d455e17f0bd18cc484100c7ccbdc723b1a3c27de"
+  },
+  {
+    "path": "games-roguelike",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7789292ab0d3b0b0cc44010f20c530c11b35c2f0",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/7789292ab0d3b0b0cc44010f20c530c11b35c2f0"
+  },
+  {
+    "path": "games-rpg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b172950dc5544ccfeb9e5d9e0e10f21e73819117",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b172950dc5544ccfeb9e5d9e0e10f21e73819117"
+  },
+  {
+    "path": "games-simulation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c949c032e8c82292b54511aea736820f398ed5c7",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/c949c032e8c82292b54511aea736820f398ed5c7"
+  },
+  {
+    "path": "games-sports",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "78afc5724ef58d302702543bf07bf36d90777aa1",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/78afc5724ef58d302702543bf07bf36d90777aa1"
+  },
+  {
+    "path": "games-strategy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7560f395dd837ebd2638554b07450343a4a7f35c",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/7560f395dd837ebd2638554b07450343a4a7f35c"
+  },
+  {
+    "path": "games-util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e8c6a405cdfb14cad17f052ec5b53da3a0b1ada",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/8e8c6a405cdfb14cad17f052ec5b53da3a0b1ada"
+  },
+  {
+    "path": "gnome-base",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3eaeb114f9bd7f4c2534fa44da01b03b70c55b5e",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/3eaeb114f9bd7f4c2534fa44da01b03b70c55b5e"
+  },
+  {
+    "path": "gnome-extra",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "608d1d5d901a6bc3932c9b5734657ba74ddef085",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/608d1d5d901a6bc3932c9b5734657ba74ddef085"
+  },
+  {
+    "path": "gui-libs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0030c94fc6b3e63e0e2f139873b554b14dce6651",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/0030c94fc6b3e63e0e2f139873b554b14dce6651"
+  },
+  {
+    "path": "haiku-apps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d410a9bc231485f8570490b6adaa1500fc98dd8d",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/d410a9bc231485f8570490b6adaa1500fc98dd8d"
+  },
+  {
+    "path": "haiku-data",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "802471a03f113628bedd03ed0fcf59e272a1c0e4",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/802471a03f113628bedd03ed0fcf59e272a1c0e4"
+  },
+  {
+    "path": "haiku-games",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b46c745cd4f1b6701300c91b5b88a87eb9f9d95",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/2b46c745cd4f1b6701300c91b5b88a87eb9f9d95"
+  },
+  {
+    "path": "haiku-libs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a22a2ed8926bd129ded822116366585a6f0cd4f",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/1a22a2ed8926bd129ded822116366585a6f0cd4f"
+  },
+  {
+    "path": "haiku-misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6dc67b0e5483c38bdbd46df8f5d1fdfbbd98722e",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/6dc67b0e5483c38bdbd46df8f5d1fdfbbd98722e"
+  },
+  {
+    "path": "kde-apps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "66e08485aed2ef2ae3415fae03f0b19f11abcdce",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/66e08485aed2ef2ae3415fae03f0b19f11abcdce"
+  },
+  {
+    "path": "kde-base",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e927a52d67a8e05c5a5a8ce9c59e32d50ac3f11b",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/e927a52d67a8e05c5a5a8ce9c59e32d50ac3f11b"
+  },
+  {
+    "path": "kde-frameworks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fc19b53f568150a057f20e83a3f8bf07c6bfdd77",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/fc19b53f568150a057f20e83a3f8bf07c6bfdd77"
+  },
+  {
+    "path": "kde-misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7f493e8b14e1a95b8813b8e793759f5f6bb2c194",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/7f493e8b14e1a95b8813b8e793759f5f6bb2c194"
+  },
+  {
+    "path": "kde-plasma",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8efa79c178cccf5774e7a12a8a54963cedba3970",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/8efa79c178cccf5774e7a12a8a54963cedba3970"
+  },
+  {
+    "path": "lxde-base",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "93e918fc2ad4a0862341feaead51ef5fd2636d16",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/93e918fc2ad4a0862341feaead51ef5fd2636d16"
+  },
+  {
+    "path": "mail-client",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9f7acaab4fe8b2c878c53d68b76bbaf197171cc4",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/9f7acaab4fe8b2c878c53d68b76bbaf197171cc4"
+  },
+  {
+    "path": "mail-mta",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d7bd0f8aa940444d77bfb9a11dc9fdcefa8f52e2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/d7bd0f8aa940444d77bfb9a11dc9fdcefa8f52e2"
+  },
+  {
+    "path": "media-fonts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fb88b97d4ade3d611370431c74ba6be62e2d77bb",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/fb88b97d4ade3d611370431c74ba6be62e2d77bb"
+  },
+  {
+    "path": "media-gfx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba9d915b240faf6f5c333a5851549a8b1fcdc5a2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/ba9d915b240faf6f5c333a5851549a8b1fcdc5a2"
+  },
+  {
+    "path": "media-libs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d07712561d510cb196ec80d098a08db70fe121b2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/d07712561d510cb196ec80d098a08db70fe121b2"
+  },
+  {
+    "path": "media-plugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "592dc790d8c1dade2b6683b4861e95839fac177f",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/592dc790d8c1dade2b6683b4861e95839fac177f"
+  },
+  {
+    "path": "media-sound",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c975fc8be73d30298c3a5c9499daf61d5bb14a4",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/2c975fc8be73d30298c3a5c9499daf61d5bb14a4"
+  },
+  {
+    "path": "media-video",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ced9d5b9aca609bfed75386fbdb8d410e901eb5d",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/ced9d5b9aca609bfed75386fbdb8d410e901eb5d"
+  },
+  {
+    "path": "meta-ports",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "50f1f2317df2a6f71c509cad3dd676401502f519",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/50f1f2317df2a6f71c509cad3dd676401502f519"
+  },
+  {
+    "path": "net-analyzer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cd39e4c7fd24f94e12855362abfb9306fe4f5b22",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/cd39e4c7fd24f94e12855362abfb9306fe4f5b22"
+  },
+  {
+    "path": "net-dialup",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "813d09f65c845bdb6a5f93ed46ff7031c9e7db2d",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/813d09f65c845bdb6a5f93ed46ff7031c9e7db2d"
+  },
+  {
+    "path": "net-dns",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c9a4eaad15856ad5e4b9590f2abb4323ba90f09",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/2c9a4eaad15856ad5e4b9590f2abb4323ba90f09"
+  },
+  {
+    "path": "net-firewall",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "19a4f22900f33008ad25bf0338b87101378e4b9a",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/19a4f22900f33008ad25bf0338b87101378e4b9a"
+  },
+  {
+    "path": "net-fs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21bd1b8993c743327c1be94d686c597663ce87b7",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/21bd1b8993c743327c1be94d686c597663ce87b7"
+  },
+  {
+    "path": "net-ftp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0df7c657c908c77bfac0ffd21558a50ea07c98d",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b0df7c657c908c77bfac0ffd21558a50ea07c98d"
+  },
+  {
+    "path": "net-im",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "966f3160ac25876a1eba7241d824f91ec28c591f",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/966f3160ac25876a1eba7241d824f91ec28c591f"
+  },
+  {
+    "path": "net-irc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9ca8bdd3ee7a0cf5a95501a1d70a4e516a74317",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/c9ca8bdd3ee7a0cf5a95501a1d70a4e516a74317"
+  },
+  {
+    "path": "net-libs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94f058d9dec0ff136b71d9840e53992d77619326",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/94f058d9dec0ff136b71d9840e53992d77619326"
+  },
+  {
+    "path": "net-mail",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "281bfd8bad24c1635625607e975ac42858038464",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/281bfd8bad24c1635625607e975ac42858038464"
+  },
+  {
+    "path": "net-misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8ee92f63af9201133d64225daee73bb0cf23816",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/c8ee92f63af9201133d64225daee73bb0cf23816"
+  },
+  {
+    "path": "net-nds",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cdd3ca97565c458c77ea032df59a3510815ced09",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/cdd3ca97565c458c77ea032df59a3510815ced09"
+  },
+  {
+    "path": "net-news",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bbddb8abf7c403a909027e257698970d891dd073",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/bbddb8abf7c403a909027e257698970d891dd073"
+  },
+  {
+    "path": "net-nntp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "775d75acdc6afd612477056153e2f007ed09aa75",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/775d75acdc6afd612477056153e2f007ed09aa75"
+  },
+  {
+    "path": "net-p2p",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "af5c27776c8a09ea3092b6b682c713c3841f6a58",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/af5c27776c8a09ea3092b6b682c713c3841f6a58"
+  },
+  {
+    "path": "net-print",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac022243d3fac5216fe9409ac10ef6b49ab47aea",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/ac022243d3fac5216fe9409ac10ef6b49ab47aea"
+  },
+  {
+    "path": "net-proxy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79f050b12a4e34640bd34261993a53cff6ee9ced",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/79f050b12a4e34640bd34261993a53cff6ee9ced"
+  },
+  {
+    "path": "net-voip",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8a1cb5bf804a9afe4ae16be29554232f236eed86",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/8a1cb5bf804a9afe4ae16be29554232f236eed86"
+  },
+  {
+    "path": "net-vpn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a2358dbaed27320f120607c0f0340d79f49b984",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/7a2358dbaed27320f120607c0f0340d79f49b984"
+  },
+  {
+    "path": "net-wireless",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0c1e373b05d592cdedb0e9d92a08772d24c3124",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/a0c1e373b05d592cdedb0e9d92a08772d24c3124"
+  },
+  {
+    "path": "net-www",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "066d3200532febe35503128401252536cb797a5c",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/066d3200532febe35503128401252536cb797a5c"
+  },
+  {
+    "path": "sci-astronomy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8772ece6bc852fb73b871d7402d1e1aa99042efb",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/8772ece6bc852fb73b871d7402d1e1aa99042efb"
+  },
+  {
+    "path": "sci-biology",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9836e2629fb0b54603cff14dd2225330a514acda",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/9836e2629fb0b54603cff14dd2225330a514acda"
+  },
+  {
+    "path": "sci-calculators",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1c21a212bb731c75be4db40ea98a160caca5f6b8",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/1c21a212bb731c75be4db40ea98a160caca5f6b8"
+  },
+  {
+    "path": "sci-chemistry",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "29a78bf4c0a04125b6997c40df48c0ddc57ed119",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/29a78bf4c0a04125b6997c40df48c0ddc57ed119"
+  },
+  {
+    "path": "sci-electronics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e19c7aa1b0472076ed8c24fb4bd2e1fd0b3e100",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/8e19c7aa1b0472076ed8c24fb4bd2e1fd0b3e100"
+  },
+  {
+    "path": "sci-geosciences",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "42ef9aafe0708a4e426111b035f97e49f17f0f9a",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/42ef9aafe0708a4e426111b035f97e49f17f0f9a"
+  },
+  {
+    "path": "sci-libs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bcd3a444b9c67a8dc15531ed999b05c2e1ff9e2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/1bcd3a444b9c67a8dc15531ed999b05c2e1ff9e2"
+  },
+  {
+    "path": "sci-mathematics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fc60aa4c83dae974477e8703f4928f0b1c18f829",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/fc60aa4c83dae974477e8703f4928f0b1c18f829"
+  },
+  {
+    "path": "sci-physics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43b6e96a625be516ec7d32a001a9f5256acb47b9",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/43b6e96a625be516ec7d32a001a9f5256acb47b9"
+  },
+  {
+    "path": "sci-visualization",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b6d33dfdbdb04b8cc27c2572acb78e3986f8ccc0",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b6d33dfdbdb04b8cc27c2572acb78e3986f8ccc0"
+  },
+  {
+    "path": "sys-apps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8de3b6eeac1406001887cbfd09dfd11969137508",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/8de3b6eeac1406001887cbfd09dfd11969137508"
+  },
+  {
+    "path": "sys-auth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b20daea7912d0b604c81b692e2b590072ef08d63",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b20daea7912d0b604c81b692e2b590072ef08d63"
+  },
+  {
+    "path": "sys-block",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e5fc5b3a8e721004ce85ff04503635f97dd2e631",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/e5fc5b3a8e721004ce85ff04503635f97dd2e631"
+  },
+  {
+    "path": "sys-boot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "76ae394ba046b5ed9de5b9527be949f3fdca4d88",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/76ae394ba046b5ed9de5b9527be949f3fdca4d88"
+  },
+  {
+    "path": "sys-cluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6fc1498957bdb919f02e07be822f9d99b2df08a5",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/6fc1498957bdb919f02e07be822f9d99b2df08a5"
+  },
+  {
+    "path": "sys-devel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec39cc418ac7dd9ba210d5bf39b41fab15571c75",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/ec39cc418ac7dd9ba210d5bf39b41fab15571c75"
+  },
+  {
+    "path": "sys-firmware",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a210e260853b66ade121ac460bb00d83c113a836",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/a210e260853b66ade121ac460bb00d83c113a836"
+  },
+  {
+    "path": "sys-fs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4181871778c2fb5207ec4d0b8fb49edb13844279",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/4181871778c2fb5207ec4d0b8fb49edb13844279"
+  },
+  {
+    "path": "sys-libs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b7c0c713c9285fae2b87c45e93f1f370b1a20150",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b7c0c713c9285fae2b87c45e93f1f370b1a20150"
+  },
+  {
+    "path": "sys-power",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0927198b40eae061c3f11a1f18c2e8c7e1961775",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/0927198b40eae061c3f11a1f18c2e8c7e1961775"
+  },
+  {
+    "path": "sys-process",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c30d8ee5243ffda0197de9155254dc1e9ecf6cdb",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/c30d8ee5243ffda0197de9155254dc1e9ecf6cdb"
+  },
+  {
+    "path": "www-client",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c72ea210ea0f0f613ba696570b2486c05465352",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/0c72ea210ea0f0f613ba696570b2486c05465352"
+  },
+  {
+    "path": "www-misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9aca46414e8910b7d75e6ab4b26fc16d68d3a559",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/9aca46414e8910b7d75e6ab4b26fc16d68d3a559"
+  },
+  {
+    "path": "www-servers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f1cc0aea885859265a3cc289c746431d7b191c6e",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/f1cc0aea885859265a3cc289c746431d7b191c6e"
+  },
+  {
+    "path": "x11-base",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e85442743b372fb2dd4c05ce0af4ae1ec8ebf9a2",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/e85442743b372fb2dd4c05ce0af4ae1ec8ebf9a2"
+  },
+  {
+    "path": "x11-doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e07d5c60172d6e232c3e7b4bdce9e7d7cbcdfccb",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/e07d5c60172d6e232c3e7b4bdce9e7d7cbcdfccb"
+  },
+  {
+    "path": "x11-libs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e60af657706aad8cf74fd51d3ff7f69e4c77017b",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/e60af657706aad8cf74fd51d3ff7f69e4c77017b"
+  },
+  {
+    "path": "x11-misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b15de00eb766b623071d3898e6c6421094c11e57",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/b15de00eb766b623071d3898e6c6421094c11e57"
+  },
+  {
+    "path": "x11-proto",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "da95a05928a27cd4ed86e5b9d15667b66e338e55",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/da95a05928a27cd4ed86e5b9d15667b66e338e55"
+  },
+  {
+    "path": "x11-themes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6074e81756a530b202a9bec193f7dd496be288c0",
+    "url": "https://api.github.com/repos/haikuports/haikuports/git/trees/6074e81756a530b202a9bec193f7dd496be288c0"
+  }
+]

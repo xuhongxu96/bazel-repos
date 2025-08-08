@@ -1,0 +1,975 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dbb6adba70a97ed9cf07c7ca14a281a16f492226",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/dbb6adba70a97ed9cf07c7ca14a281a16f492226"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25bca000d0da1c3c947d1d14dc2b02447dd3db18",
+    "size": 68,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/25bca000d0da1c3c947d1d14dc2b02447dd3db18"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41a57ab92be60d788669cdc39f3385ac141eb89d",
+    "size": 216,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/41a57ab92be60d788669cdc39f3385ac141eb89d"
+  },
+  {
+    "path": ".nancy-ignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23ee728dda48ffa6aae25a701e43e136e7e74753",
+    "size": 584,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/23ee728dda48ffa6aae25a701e43e136e7e74753"
+  },
+  {
+    "path": ".prettierignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e816b997df347dc465c8103a33eaca00e92a2ae",
+    "size": 215,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/1e816b997df347dc465c8103a33eaca00e92a2ae"
+  },
+  {
+    "path": ".reference-ignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eee2a89c2edbff028e0a3c193b22eb91157550d9",
+    "size": 34,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/eee2a89c2edbff028e0a3c193b22eb91157550d9"
+  },
+  {
+    "path": ".reports",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a67e2bce652deb674eb42d877a7e4f0729a0e79f",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/a67e2bce652deb674eb42d877a7e4f0729a0e79f"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6ec97b90b44b4726d36b67a186dfc5c3a914bc9",
+    "size": 431,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/f6ec97b90b44b4726d36b67a186dfc5c3a914bc9"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ed5dd3070ee37dca0cda54d33d44efd923d2b26",
+    "size": 164729,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/7ed5dd3070ee37dca0cda54d33d44efd923d2b26"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cebaf358e337b5c4ee3b0ace9633a24961b1abe",
+    "size": 6210,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/9cebaf358e337b5c4ee3b0ace9633a24961b1abe"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bdd906b3a9f354f4ad94c662593744e445298d9",
+    "size": 11442,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/3bdd906b3a9f354f4ad94c662593744e445298d9"
+  },
+  {
+    "path": "HISTORY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ed22ced92b10e72cb4be2997c5596c4cf42cf26",
+    "size": 29233,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/4ed22ced92b10e72cb4be2997c5596c4cf42cf26"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "size": 11357,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  {
+    "path": "MAINTAINERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75713ca9ae38a4612b117f011387eb7a0d96f45c",
+    "size": 116,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/75713ca9ae38a4612b117f011387eb7a0d96f45c"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9308cd288c0385599b6888adbfd87861f16dc980",
+    "size": 1056,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/9308cd288c0385599b6888adbfd87861f16dc980"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "785a930adcdb0d6157bc38019d7c11dc412a6344",
+    "size": 22872,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/785a930adcdb0d6157bc38019d7c11dc412a6344"
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6104514805c403d60c5902242023c884dc386121",
+    "size": 2504,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/6104514805c403d60c5902242023c884dc386121"
+  },
+  {
+    "path": "access_error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85236715bdcfee307be9836ffaf820ad84a2a5a8",
+    "size": 1405,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/85236715bdcfee307be9836ffaf820ad84a2a5a8"
+  },
+  {
+    "path": "access_error_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32987e17cd96ef757e010b0262dc9e74923bf45f",
+    "size": 3423,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/32987e17cd96ef757e010b0262dc9e74923bf45f"
+  },
+  {
+    "path": "access_request.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de546005e8c1081e23c17be7f5015000e229dda4",
+    "size": 572,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/de546005e8c1081e23c17be7f5015000e229dda4"
+  },
+  {
+    "path": "access_request_handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45ddec6db42145d2342cc8e3661addfb2331943b",
+    "size": 4639,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/45ddec6db42145d2342cc8e3661addfb2331943b"
+  },
+  {
+    "path": "access_request_handler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f185c2ddd07d2b874b03881b25a90692ea020705",
+    "size": 13102,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/f185c2ddd07d2b874b03881b25a90692ea020705"
+  },
+  {
+    "path": "access_request_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "839cb86f3b4a1bafd7e1803b441ba0ba0c58fa2f",
+    "size": 729,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/839cb86f3b4a1bafd7e1803b441ba0ba0c58fa2f"
+  },
+  {
+    "path": "access_response.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be827644eb66d354580b0a3dd583823e0c2dc5c3",
+    "size": 1210,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/be827644eb66d354580b0a3dd583823e0c2dc5c3"
+  },
+  {
+    "path": "access_response_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "270af6663d422391d6b9a5427b2e74acea8d4825",
+    "size": 649,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/270af6663d422391d6b9a5427b2e74acea8d4825"
+  },
+  {
+    "path": "access_response_writer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "803250c0342691e6bbcbaa4798fd6fe9f68ac46f",
+    "size": 1365,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/803250c0342691e6bbcbaa4798fd6fe9f68ac46f"
+  },
+  {
+    "path": "access_response_writer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6f6bd8d70baa33aa73e43cceca0b1386a5332c9",
+    "size": 2296,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/d6f6bd8d70baa33aa73e43cceca0b1386a5332c9"
+  },
+  {
+    "path": "access_write.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8f1fd6a2c50c785957ac96552ec657a632f0035",
+    "size": 620,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/a8f1fd6a2c50c785957ac96552ec657a632f0035"
+  },
+  {
+    "path": "access_write_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46219eecdd397c28e002d4259da2fc8c94839c85",
+    "size": 970,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/46219eecdd397c28e002d4259da2fc8c94839c85"
+  },
+  {
+    "path": "arguments.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f037919f62d4046b66e2ef31297b44c0ab8c5177",
+    "size": 1750,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/f037919f62d4046b66e2ef31297b44c0ab8c5177"
+  },
+  {
+    "path": "arguments_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e5bef8539c9852021394191ee0277561ce0bd7c",
+    "size": 5188,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/6e5bef8539c9852021394191ee0277561ce0bd7c"
+  },
+  {
+    "path": "audience_strategy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61d836da1282c12311390138844b6a2f04db05af",
+    "size": 3196,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/61d836da1282c12311390138844b6a2f04db05af"
+  },
+  {
+    "path": "audience_strategy_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dccf5b359fd9f6bebfe70982345e26c191824560",
+    "size": 5694,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/dccf5b359fd9f6bebfe70982345e26c191824560"
+  },
+  {
+    "path": "authorize_error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7247cb743c19642ea6f738a07440def5fab2b6cd",
+    "size": 2167,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/7247cb743c19642ea6f738a07440def5fab2b6cd"
+  },
+  {
+    "path": "authorize_error_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ca2265bdd1088fd2fd7ca3b93c7c8940684456f",
+    "size": 24827,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/0ca2265bdd1088fd2fd7ca3b93c7c8940684456f"
+  },
+  {
+    "path": "authorize_helper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51bfab2b4574a08a912e306c6f4369d9da0f1772",
+    "size": 8193,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/51bfab2b4574a08a912e306c6f4369d9da0f1772"
+  },
+  {
+    "path": "authorize_helper_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00a84276b53eab113d46f10e7474d96ba8fbfc84",
+    "size": 11473,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/00a84276b53eab113d46f10e7474d96ba8fbfc84"
+  },
+  {
+    "path": "authorize_helper_whitebox_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52a4bba5e1ad27eb0e0e6fecbc22a5b64e087dde",
+    "size": 1272,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/52a4bba5e1ad27eb0e0e6fecbc22a5b64e087dde"
+  },
+  {
+    "path": "authorize_request.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a187478439796d86e146a3fd99be0a252d51568e",
+    "size": 2677,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/a187478439796d86e146a3fd99be0a252d51568e"
+  },
+  {
+    "path": "authorize_request_handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61b5d957a70444661c971c73e046a98af5ef726a",
+    "size": 17914,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/61b5d957a70444661c971c73e046a98af5ef726a"
+  },
+  {
+    "path": "authorize_request_handler_oidc_request_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8a2636c514c29e630624f7eea0ff5d612e66a3b",
+    "size": 9032,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/f8a2636c514c29e630624f7eea0ff5d612e66a3b"
+  },
+  {
+    "path": "authorize_request_handler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84921ac4ddc63d548f7de4d042b17b13e6962cca",
+    "size": 22133,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/84921ac4ddc63d548f7de4d042b17b13e6962cca"
+  },
+  {
+    "path": "authorize_request_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5886435ccbac690af4e68140599fa7fbb9d8cdd4",
+    "size": 2862,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/5886435ccbac690af4e68140599fa7fbb9d8cdd4"
+  },
+  {
+    "path": "authorize_response.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc84ffa411d1418aae685d4b5375f8e1edef9233",
+    "size": 868,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/fc84ffa411d1418aae685d4b5375f8e1edef9233"
+  },
+  {
+    "path": "authorize_response_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc47dba4377a6e92792a4e8173e56e9a8ef17357",
+    "size": 547,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/fc47dba4377a6e92792a4e8173e56e9a8ef17357"
+  },
+  {
+    "path": "authorize_response_writer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa239f5b5a45fe54fbe3deeac333c3f918d4294a",
+    "size": 1312,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/fa239f5b5a45fe54fbe3deeac333c3f918d4294a"
+  },
+  {
+    "path": "authorize_response_writer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "caa0d996ceee550e698ff16814ac3a4a42e5ebbd",
+    "size": 3369,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/caa0d996ceee550e698ff16814ac3a4a42e5ebbd"
+  },
+  {
+    "path": "authorize_validators_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36705fb62f88086397eb666772fc72f052f3e7f4",
+    "size": 1669,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/36705fb62f88086397eb666772fc72f052f3e7f4"
+  },
+  {
+    "path": "authorize_write.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f254a835822fa52c38260ca9c081fe601a2cc774",
+    "size": 1857,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/f254a835822fa52c38260ca9c081fe601a2cc774"
+  },
+  {
+    "path": "authorize_write_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2174c52d2082da06e322fd5b0a1f32f3e809de35",
+    "size": 7110,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/2174c52d2082da06e322fd5b0a1f32f3e809de35"
+  },
+  {
+    "path": "client.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b40149671413f62da0ac5692913a3e079ac66aad",
+    "size": 6515,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/b40149671413f62da0ac5692913a3e079ac66aad"
+  },
+  {
+    "path": "client_authentication.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2515091995e4410fbf332b5f3d6a7b7cf953ca0c",
+    "size": 13698,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/2515091995e4410fbf332b5f3d6a7b7cf953ca0c"
+  },
+  {
+    "path": "client_authentication_jwks_strategy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e90cb89b6834fc23d687db4baf8a99d0ba234a3",
+    "size": 4757,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/3e90cb89b6834fc23d687db4baf8a99d0ba234a3"
+  },
+  {
+    "path": "client_authentication_jwks_strategy_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93ce74710e2fd31ee7dc47f295b850eb1bed58db",
+    "size": 4748,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/93ce74710e2fd31ee7dc47f295b850eb1bed58db"
+  },
+  {
+    "path": "client_authentication_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aee4d6b591dbd472e4b590bd63f0bcf71bc2869b",
+    "size": 26156,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/aee4d6b591dbd472e4b590bd63f0bcf71bc2869b"
+  },
+  {
+    "path": "client_manager.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e9685dc0450d74c9eb9590556ea204597504122",
+    "size": 893,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/4e9685dc0450d74c9eb9590556ea204597504122"
+  },
+  {
+    "path": "client_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1ce2e3be3c4864ae3f6867e7990e8f7935f217b",
+    "size": 1337,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/d1ce2e3be3c4864ae3f6867e7990e8f7935f217b"
+  },
+  {
+    "path": "client_with_custom_token_lifespans.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b46e2ba54573f622fa7b4fd732ad9de2f5d518da",
+    "size": 4638,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/b46e2ba54573f622fa7b4fd732ad9de2f5d518da"
+  },
+  {
+    "path": "client_with_custom_token_lifespans_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "813645c838792d71fa35c818cdb28873d03f4d81",
+    "size": 853,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/813645c838792d71fa35c818cdb28873d03f4d81"
+  },
+  {
+    "path": "compose",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35b2a1338bee2b11af8156bb4f29bfe4e0c154d0",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/35b2a1338bee2b11af8156bb4f29bfe4e0c154d0"
+  },
+  {
+    "path": "config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "519b8632494ffa0397d7256e7eb895c589bc971a",
+    "size": 14301,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/519b8632494ffa0397d7256e7eb895c589bc971a"
+  },
+  {
+    "path": "config_default.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95fd60373be92c4eddff251d7dec5a79834e7f86",
+    "size": 22291,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/95fd60373be92c4eddff251d7dec5a79834e7f86"
+  },
+  {
+    "path": "context.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34cdce1eee83a9af4b555aafcce11ba60a7fdf44",
+    "size": 640,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/34cdce1eee83a9af4b555aafcce11ba60a7fdf44"
+  },
+  {
+    "path": "device_request.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35f454ef4405e0abc9ed15e2a04d8a75752150ea",
+    "size": 968,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/35f454ef4405e0abc9ed15e2a04d8a75752150ea"
+  },
+  {
+    "path": "device_request_handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6cc40048ca495da475149be74a34da3ecb77718",
+    "size": 2460,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/e6cc40048ca495da475149be74a34da3ecb77718"
+  },
+  {
+    "path": "device_request_handler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9ec7e5a6b15567d411dff1337803ff920e7ab53",
+    "size": 6250,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/b9ec7e5a6b15567d411dff1337803ff920e7ab53"
+  },
+  {
+    "path": "device_response.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95b3993b4e106dbcbb218381fb12cf6fe1afbb80",
+    "size": 2686,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/95b3993b4e106dbcbb218381fb12cf6fe1afbb80"
+  },
+  {
+    "path": "device_response_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38e3f84139107696cd26c834b869526ece316e92",
+    "size": 773,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/38e3f84139107696cd26c834b869526ece316e92"
+  },
+  {
+    "path": "device_response_writer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "722abbaee7ecb6f903cd44b90b0149bbc19ce6dc",
+    "size": 508,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/722abbaee7ecb6f903cd44b90b0149bbc19ce6dc"
+  },
+  {
+    "path": "device_write.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2da0f83869d3b05f469685fd8530ef295e7ec94f",
+    "size": 1227,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/2da0f83869d3b05f469685fd8530ef295e7ec94f"
+  },
+  {
+    "path": "device_write_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a1fcccdb579aff4f5ec57317a8961d7c13e3921",
+    "size": 1795,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/3a1fcccdb579aff4f5ec57317a8961d7c13e3921"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3411a122fe627385c5b4ef4790ea5e2a02d72ea3",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/3411a122fe627385c5b4ef4790ea5e2a02d72ea3"
+  },
+  {
+    "path": "equalKeys_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b965461dd808dfb65b0e036b6bf6c85b2b198cb",
+    "size": 1840,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/5b965461dd808dfb65b0e036b6bf6c85b2b198cb"
+  },
+  {
+    "path": "errors.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "046241c8112fc57d57662319fe5745f0fa0d6698",
+    "size": 19395,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/046241c8112fc57d57662319fe5745f0fa0d6698"
+  },
+  {
+    "path": "errors_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b6c5e36fd11a78e29d0c0bafb0a757f3b1843c1",
+    "size": 3248,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/8b6c5e36fd11a78e29d0c0bafb0a757f3b1843c1"
+  },
+  {
+    "path": "fosite.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7ab0547c6c890406af96c057a57e2b22be97917",
+    "size": 4893,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/b7ab0547c6c890406af96c057a57e2b22be97917"
+  },
+  {
+    "path": "fosite.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "315eb4d38c5cd7b6be8fe955fdcfecec8e77c3b2",
+    "size": 43726,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/315eb4d38c5cd7b6be8fe955fdcfecec8e77c3b2"
+  },
+  {
+    "path": "fosite_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a63650e20207c6190334e38c5ab52598048787f2",
+    "size": 2020,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/a63650e20207c6190334e38c5ab52598048787f2"
+  },
+  {
+    "path": "generate-mocks.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5637f2c8c75e00c01549be8a1ff3740a57a33413",
+    "size": 3744,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/5637f2c8c75e00c01549be8a1ff3740a57a33413"
+  },
+  {
+    "path": "generate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e79ba092492331da0ff67a9dd73154d082342f68",
+    "size": 4971,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/e79ba092492331da0ff67a9dd73154d082342f68"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39519fea38d76d1e87b1e1d62a2575cee990a06d",
+    "size": 4022,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/39519fea38d76d1e87b1e1d62a2575cee990a06d"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af36927c0cfab7fa74efd23a7e05191669917a07",
+    "size": 83091,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/af36927c0cfab7fa74efd23a7e05191669917a07"
+  },
+  {
+    "path": "go_mod_indirect_pins.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ec710c8a48322142638febe942d8c2d6c2f5d70",
+    "size": 225,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/8ec710c8a48322142638febe942d8c2d6c2f5d70"
+  },
+  {
+    "path": "handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b98cd7f9d5210b7c0ddfcccbe75c7cd9c5d38bcc",
+    "size": 4559,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/b98cd7f9d5210b7c0ddfcccbe75c7cd9c5d38bcc"
+  },
+  {
+    "path": "handler",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3444071bf64a4c9661a6306779053dc2b47fce77",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/3444071bf64a4c9661a6306779053dc2b47fce77"
+  },
+  {
+    "path": "hash.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "10da2b2b33ab1893da0457b8c5ee7c37282ee41d",
+    "size": 452,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/10da2b2b33ab1893da0457b8c5ee7c37282ee41d"
+  },
+  {
+    "path": "hash_bcrypt.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47a721fb2904720795e3ab1c7dff9476aeea8e8a",
+    "size": 802,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/47a721fb2904720795e3ab1c7dff9476aeea8e8a"
+  },
+  {
+    "path": "hash_bcrypt_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97196ff91b93340a0a10d60626fb7ef69445cde7",
+    "size": 2565,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/97196ff91b93340a0a10d60626fb7ef69445cde7"
+  },
+  {
+    "path": "helper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f5d6911b35de53373620d23b2c9b74b4ba96b64",
+    "size": 1189,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/1f5d6911b35de53373620d23b2c9b74b4ba96b64"
+  },
+  {
+    "path": "helper_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c026479177740d4702cf39faf4dc8d8c8f6d3ae",
+    "size": 1126,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/5c026479177740d4702cf39faf4dc8d8c8f6d3ae"
+  },
+  {
+    "path": "i18n",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1284feedbb923c04f61f32cdaf991426635abdf9",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/1284feedbb923c04f61f32cdaf991426635abdf9"
+  },
+  {
+    "path": "i18n_helper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "600d1c6cb747bed966cc04cac2347856d3be593b",
+    "size": 1533,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/600d1c6cb747bed966cc04cac2347856d3be593b"
+  },
+  {
+    "path": "i18n_helper_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a7bf3ce04674166069fd6b46a5f85c6fa6769ae",
+    "size": 2000,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/8a7bf3ce04674166069fd6b46a5f85c6fa6769ae"
+  },
+  {
+    "path": "integration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6ef0865c2127ecadc915385c978ed6e869f8b119",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/6ef0865c2127ecadc915385c978ed6e869f8b119"
+  },
+  {
+    "path": "internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0e666d77a74eb68419a915f48bd883622d835d7",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/e0e666d77a74eb68419a915f48bd883622d835d7"
+  },
+  {
+    "path": "introspect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bffcd8c27c9fd2d2c469faf3e579b8bf098ed924",
+    "size": 2131,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/bffcd8c27c9fd2d2c469faf3e579b8bf098ed924"
+  },
+  {
+    "path": "introspect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f7da0fbe796d88a34a78b72efd5511c3e78072e",
+    "size": 3552,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/3f7da0fbe796d88a34a78b72efd5511c3e78072e"
+  },
+  {
+    "path": "introspection_request_handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c58b292e7db099797600aebbe9c5a484a7943728",
+    "size": 8588,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/c58b292e7db099797600aebbe9c5a484a7943728"
+  },
+  {
+    "path": "introspection_request_handler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "067a5092d2ca0bdf95cab235d77de486c86e75a6",
+    "size": 7015,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/067a5092d2ca0bdf95cab235d77de486c86e75a6"
+  },
+  {
+    "path": "introspection_response_writer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e136a7501b906d3a39885c2fbef876d8245654e",
+    "size": 8715,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/7e136a7501b906d3a39885c2fbef876d8245654e"
+  },
+  {
+    "path": "introspection_response_writer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "431dd4e8d7654e34b3d441121399cf5cd3212b57",
+    "size": 4898,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/431dd4e8d7654e34b3d441121399cf5cd3212b57"
+  },
+  {
+    "path": "oauth2.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee920a98ab86ea199bcba1d7046c419a30c87db6",
+    "size": 18683,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/ee920a98ab86ea199bcba1d7046c419a30c87db6"
+  },
+  {
+    "path": "package-lock.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "784ba9b586ab39e613d451f3d32b7bf0099a9bbf",
+    "size": 67151,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/784ba9b586ab39e613d451f3d32b7bf0099a9bbf"
+  },
+  {
+    "path": "package.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38d490046da1ec5d65819e0194bac9da111c7b23",
+    "size": 226,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/38d490046da1ec5d65819e0194bac9da111c7b23"
+  },
+  {
+    "path": "pushed_authorize_request_handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7a81df38c671885dc5682ffb352cee9d939d204",
+    "size": 3001,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/d7a81df38c671885dc5682ffb352cee9d939d204"
+  },
+  {
+    "path": "pushed_authorize_request_handler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94ec8868c1cc517bfa5231fbe07bdb4a17e26f0b",
+    "size": 25049,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/94ec8868c1cc517bfa5231fbe07bdb4a17e26f0b"
+  },
+  {
+    "path": "pushed_authorize_response.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "048788a8fe2e4a443c83d5d949ce5c0e58d5d4b0",
+    "size": 1402,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/048788a8fe2e4a443c83d5d949ce5c0e58d5d4b0"
+  },
+  {
+    "path": "pushed_authorize_response_writer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecbab8ee09b13e01c16c1123255ede726d7db2cb",
+    "size": 3198,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/ecbab8ee09b13e01c16c1123255ede726d7db2cb"
+  },
+  {
+    "path": "pushed_authorize_response_writer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c82862ab0721bf52d8d86b0f927544511aa6ec7",
+    "size": 1595,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/5c82862ab0721bf52d8d86b0f927544511aa6ec7"
+  },
+  {
+    "path": "request.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42c92abb125d07ec3610b3688b8a37e5284cb076",
+    "size": 4138,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/42c92abb125d07ec3610b3688b8a37e5284cb076"
+  },
+  {
+    "path": "request_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "204cd3c87fa0dd634477c8665c596c5742448358",
+    "size": 3827,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/204cd3c87fa0dd634477c8665c596c5742448358"
+  },
+  {
+    "path": "response_handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "901185a7ce8509a1a22424700d2aa576ecfc97d4",
+    "size": 1929,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/901185a7ce8509a1a22424700d2aa576ecfc97d4"
+  },
+  {
+    "path": "revoke_handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "214808b8acd20f76d02474374582ba206ec73499",
+    "size": 4073,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/214808b8acd20f76d02474374582ba206ec73499"
+  },
+  {
+    "path": "revoke_handler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55370fb5106c20a9cce953bef9c48efc4bed36a1",
+    "size": 6443,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/55370fb5106c20a9cce953bef9c48efc4bed36a1"
+  },
+  {
+    "path": "scope_strategy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "358f3b7f364160ad516e48df6eb2ce0774b8c661",
+    "size": 1694,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/358f3b7f364160ad516e48df6eb2ce0774b8c661"
+  },
+  {
+    "path": "scope_strategy_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a30a753b846f3af7d282a45f416f50a96af00e93",
+    "size": 4844,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/a30a753b846f3af7d282a45f416f50a96af00e93"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "47421be614ad27d27e0f10b15ce04b22a4662ef6",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/47421be614ad27d27e0f10b15ce04b22a4662ef6"
+  },
+  {
+    "path": "session.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33d31479da31ed7c26a5e401e96091e0f66657bf",
+    "size": 2606,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/33d31479da31ed7c26a5e401e96091e0f66657bf"
+  },
+  {
+    "path": "session_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb8615d859f77bfc9fea0bcae79f202ff2073ea9",
+    "size": 525,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/bb8615d859f77bfc9fea0bcae79f202ff2073ea9"
+  },
+  {
+    "path": "storage.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e4aacd8be22c8ecc4b57bbe939fb2422a5590f7",
+    "size": 822,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/7e4aacd8be22c8ecc4b57bbe939fb2422a5590f7"
+  },
+  {
+    "path": "storage",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "601d647a119a1b10a511169b6f61043807a511e5",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/601d647a119a1b10a511169b6f61043807a511e5"
+  },
+  {
+    "path": "token",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5acb2bedfc759dce779258a1f1950bd7c3971d22",
+    "url": "https://api.github.com/repos/ory/fosite/git/trees/5acb2bedfc759dce779258a1f1950bd7c3971d22"
+  },
+  {
+    "path": "tools.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e1cfbeb1e8676926d96002bdd7bea2ae182d4fa",
+    "size": 221,
+    "url": "https://api.github.com/repos/ory/fosite/git/blobs/7e1cfbeb1e8676926d96002bdd7bea2ae182d4fa"
+  }
+]

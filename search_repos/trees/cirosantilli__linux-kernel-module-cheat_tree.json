@@ -1,0 +1,898 @@
+[
+  {
+    "path": ".circleci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac0b65b7a0c7d1e07d22721a5ee473aef7d91558",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/ac0b65b7a0c7d1e07d22721a5ee473aef7d91558"
+  },
+  {
+    "path": ".dockerignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f917ebf57f3fd5fa1eb64312b3915c81799b6460",
+    "size": 102,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/f917ebf57f3fd5fa1eb64312b3915c81799b6460"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "52dc6f1177cea0a819088bf106dfdda34dbd7d71",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/52dc6f1177cea0a819088bf106dfdda34dbd7d71"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2af1d43883897e53c8fdc6f419320208145b61a3",
+    "size": 628,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/2af1d43883897e53c8fdc6f419320208145b61a3"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc998cfa4bb866ac6f5eb5bf3f402c67e8d1d7a5",
+    "size": 1978,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/fc998cfa4bb866ac6f5eb5bf3f402c67e8d1d7a5"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13c8b93b75e9badbd6ce53d7f022bbcc231823d2",
+    "size": 395,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/13c8b93b75e9badbd6ce53d7f022bbcc231823d2"
+  },
+  {
+    "path": "CONTRIBUTING.adoc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dacda55fd7335723cec87d232e03e59c9cc4536",
+    "size": 53,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/9dacda55fd7335723cec87d232e03e59c9cc4536"
+  },
+  {
+    "path": "Dockerfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4505f42fff1aae57ee4253da8740195441272de",
+    "size": 288,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/d4505f42fff1aae57ee4253da8740195441272de"
+  },
+  {
+    "path": "Gemfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8da8d40a70d09b7cde189b2e3ba7e087afb58a34",
+    "size": 139,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/8da8d40a70d09b7cde189b2e3ba7e087afb58a34"
+  },
+  {
+    "path": "Gemfile.lock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c041935e40c6652c8a986625adadebe58b4ebd49",
+    "size": 7394,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/c041935e40c6652c8a986625adadebe58b4ebd49"
+  },
+  {
+    "path": "LICENSE.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+    "size": 35147,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/94a9ed024d3859793618152ea559a168bbcbb5e2"
+  },
+  {
+    "path": "README.adoc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6622c4d9d9614272729d20ac5f6e68282a592eb8",
+    "size": 1089874,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/6622c4d9d9614272729d20ac5f6e68282a592eb8"
+  },
+  {
+    "path": "_config.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9fd43ff79355529f3023f71d2b24150a0311fb54",
+    "size": 79,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/9fd43ff79355529f3023f71d2b24150a0311fb54"
+  },
+  {
+    "path": "asciidoctor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6f3df68d4a69465c38032c249c20578cc9a2fa8a",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/6f3df68d4a69465c38032c249c20578cc9a2fa8a"
+  },
+  {
+    "path": "baremetal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f25355d1469ac455d6988fbd1ef2acf6917fae1",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/8f25355d1469ac455d6988fbd1ef2acf6917fae1"
+  },
+  {
+    "path": "bench-all",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2945be1322b14365a02524cb388dc7d72d9c0d8f",
+    "size": 4092,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/2945be1322b14365a02524cb388dc7d72d9c0d8f"
+  },
+  {
+    "path": "bench-cmd",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "de36443d126a34a46047ed030f29fb3be4bcb352",
+    "size": 602,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/de36443d126a34a46047ed030f29fb3be4bcb352"
+  },
+  {
+    "path": "bisect-gem5-gdb",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cbc0d386d6d906a1a1bbc608eb2447e9359759a5",
+    "size": 192,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/cbc0d386d6d906a1a1bbc608eb2447e9359759a5"
+  },
+  {
+    "path": "bisect-gem5-linux-boot",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "263af3deee8c87dad45cd2e6a677e0e7be11a36b",
+    "size": 569,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/263af3deee8c87dad45cd2e6a677e0e7be11a36b"
+  },
+  {
+    "path": "bisect-linux-boot-gem5",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0b22f47d4ed29dbe223513f36e588de226261f99",
+    "size": 466,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/0b22f47d4ed29dbe223513f36e588de226261f99"
+  },
+  {
+    "path": "bisect-qemu-linux-boot",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7d245b06a26687a9b4e2e4f714c1c85bf18df8b3",
+    "size": 334,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/7d245b06a26687a9b4e2e4f714c1c85bf18df8b3"
+  },
+  {
+    "path": "bst-vs-heap-vs-hashmap-gem5-stats",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b57daa4aa78bb9e5f3af0340341a62009d858f33",
+    "size": 1024,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/b57daa4aa78bb9e5f3af0340341a62009d858f33"
+  },
+  {
+    "path": "bst-vs-heap-vs-hashmap.gnuplot",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f40e09182c1ed4f14073dba2dca7512e41e3a9e1",
+    "size": 1238,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/f40e09182c1ed4f14073dba2dca7512e41e3a9e1"
+  },
+  {
+    "path": "build",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ae3fbfbe15d6e5080c936818158af85162cdd317",
+    "size": 26352,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/ae3fbfbe15d6e5080c936818158af85162cdd317"
+  },
+  {
+    "path": "build-android",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7db3326bc38880327cde8e6834cdcc6703ca8ecc",
+    "size": 2659,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/7db3326bc38880327cde8e6834cdcc6703ca8ecc"
+  },
+  {
+    "path": "build-baremetal",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ba6c08650813bcf633cc07aa4196665192f672a3",
+    "size": 4105,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/ba6c08650813bcf633cc07aa4196665192f672a3"
+  },
+  {
+    "path": "build-buildroot",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b64be45eb8a20ab327940244b9f179fdec3f45f3",
+    "size": 7547,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/b64be45eb8a20ab327940244b9f179fdec3f45f3"
+  },
+  {
+    "path": "build-crosstool-ng",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cf01c07e09a3a8172baf71386ce20c5947f9e8ec",
+    "size": 3231,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/cf01c07e09a3a8172baf71386ce20c5947f9e8ec"
+  },
+  {
+    "path": "build-disk2",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a158536c2178810b94c0a34e5206d754d02fd8d3",
+    "size": 659,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/a158536c2178810b94c0a34e5206d754d02fd8d3"
+  },
+  {
+    "path": "build-doc",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "60b0709e98640192dca1c992d16002f93a4c773c",
+    "size": 4437,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/60b0709e98640192dca1c992d16002f93a4c773c"
+  },
+  {
+    "path": "build-docker",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c2eed29959eafabd3583abd045b71624c6c24606",
+    "size": 2251,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/c2eed29959eafabd3583abd045b71624c6c24606"
+  },
+  {
+    "path": "build-gem5",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9a06982ac0dab32069291443b15125ea84853f5d",
+    "size": 6970,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/9a06982ac0dab32069291443b15125ea84853f5d"
+  },
+  {
+    "path": "build-linux",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a851097285211e0ba0ff56b580dbfcdfbb3822e2",
+    "size": 8187,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/a851097285211e0ba0ff56b580dbfcdfbb3822e2"
+  },
+  {
+    "path": "build-m5",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a59be89e00c3b615f45bd8b7407f627453a75ed0",
+    "size": 1369,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/a59be89e00c3b615f45bd8b7407f627453a75ed0"
+  },
+  {
+    "path": "build-modules",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c1956dcc268c03064d82a4fd958b84060e99e746",
+    "size": 5067,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/c1956dcc268c03064d82a4fd958b84060e99e746"
+  },
+  {
+    "path": "build-qemu",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5dc52609d3ac51bc473770fe111aae6acd1e77cb",
+    "size": 2188,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/5dc52609d3ac51bc473770fe111aae6acd1e77cb"
+  },
+  {
+    "path": "build-test",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "739c768cf2576984cf41f427ba12138e7bf578c6",
+    "size": 343,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/739c768cf2576984cf41f427ba12138e7bf578c6"
+  },
+  {
+    "path": "build-test-boot",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b10986a7463d9302c910a40507d4ff34491dcd2d",
+    "size": 603,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/b10986a7463d9302c910a40507d4ff34491dcd2d"
+  },
+  {
+    "path": "build-userland",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5359f6801968342d305de46fc8af4072cc2d161a",
+    "size": 3926,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/5359f6801968342d305de46fc8af4072cc2d161a"
+  },
+  {
+    "path": "build-userland-in-tree",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e75297ea68dbbdea1e1e91fd02ca4b896f855839",
+    "size": 707,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/e75297ea68dbbdea1e1e91fd02ca4b896f855839"
+  },
+  {
+    "path": "build-xen",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ced2823eaa5f89b073ed2587f842e6e22c483352",
+    "size": 1182,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/ced2823eaa5f89b073ed2587f842e6e22c483352"
+  },
+  {
+    "path": "buildroot_config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "570f87c051b04c2e415331a417ac5bbdd8d5654d",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/570f87c051b04c2e415331a417ac5bbdd8d5654d"
+  },
+  {
+    "path": "buildroot_override",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af0fb6fdaf36496a492d908729e9e67970455d35",
+    "size": 348,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/af0fb6fdaf36496a492d908729e9e67970455d35"
+  },
+  {
+    "path": "buildroot_packages",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "677098875193337fcb32b622f66baf04304eabf0",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/677098875193337fcb32b622f66baf04304eabf0"
+  },
+  {
+    "path": "busybox_config_fragment",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2080446bf55bb1c6fb6ce3a81d0bf3082c8da6ee",
+    "size": 717,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/2080446bf55bb1c6fb6ce3a81d0bf3082c8da6ee"
+  },
+  {
+    "path": "cli_function.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "19f63e875e0da6946916dbcb3ffe32328bcf48f5",
+    "size": 19815,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/19f63e875e0da6946916dbcb3ffe32328bcf48f5"
+  },
+  {
+    "path": "cli_function_test_config.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccf7d1c9f2eea8b98ad9ac800fcc8c7b9f9ba1fd",
+    "size": 95,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/ccf7d1c9f2eea8b98ad9ac800fcc8c7b9f9ba1fd"
+  },
+  {
+    "path": "cli_function_test_config_2.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "868c642ab1c840d2358c653cb948d7f6de0a11a8",
+    "size": 137,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/868c642ab1c840d2358c653cb948d7f6de0a11a8"
+  },
+  {
+    "path": "common.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad686d815af021f17a5b07e522c32f52f49d24ef",
+    "size": 93287,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/ad686d815af021f17a5b07e522c32f52f49d24ef"
+  },
+  {
+    "path": "config.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5f96f78099d1dfa879ea41f0f4bb13d6e56df8c",
+    "size": 404,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/f5f96f78099d1dfa879ea41f0f4bb13d6e56df8c"
+  },
+  {
+    "path": "copy-overlay",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "13b8b4eb69a93403f6007eaf3c1aa4e76977185d",
+    "size": 526,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/13b8b4eb69a93403f6007eaf3c1aa4e76977185d"
+  },
+  {
+    "path": "crosstool_ng_config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "30dddc605040bfd85ebacbe5abc48ee27829b561",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/30dddc605040bfd85ebacbe5abc48ee27829b561"
+  },
+  {
+    "path": "disas",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "81014def2403ada03cf2aad873c0a0c6d5e7eb9f",
+    "size": 956,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/81014def2403ada03cf2aad873c0a0c6d5e7eb9f"
+  },
+  {
+    "path": "docinfo-footer.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ffa723968baa1718dcef76ee3fb3ac5526201bb",
+    "size": 658,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/7ffa723968baa1718dcef76ee3fb3ac5526201bb"
+  },
+  {
+    "path": "docinfo.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d11bb773215e7c2cf57e4e5565750584f30d356",
+    "size": 140,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/1d11bb773215e7c2cf57e4e5565750584f30d356"
+  },
+  {
+    "path": "eeval",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "adca80b1fd10fab160b7cc1b09b841e73cfa051e",
+    "size": 724,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/adca80b1fd10fab160b7cc1b09b841e73cfa051e"
+  },
+  {
+    "path": "gem5-bench-cache",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5edf722291a2ccf5dc010adb350503de664bb493",
+    "size": 3621,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/5edf722291a2ccf5dc010adb350503de664bb493"
+  },
+  {
+    "path": "gem5-bench-dhrystone",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d2cf87261a1b8c736d60532e795ed03d49a14fc3",
+    "size": 1124,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/d2cf87261a1b8c736d60532e795ed03d49a14fc3"
+  },
+  {
+    "path": "gem5-regression",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "af3177597bf4cd5d6dc07ca4107ba49da6718ddd",
+    "size": 1624,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/af3177597bf4cd5d6dc07ca4107ba49da6718ddd"
+  },
+  {
+    "path": "gem5-shell",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "58416971a57bac88549abe8dc693a05c41bd16bb",
+    "size": 554,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/58416971a57bac88549abe8dc693a05c41bd16bb"
+  },
+  {
+    "path": "gem5-stat",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7f75ef39ad4649f89251914efed54a1e13ef54cc",
+    "size": 604,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/7f75ef39ad4649f89251914efed54a1e13ef54cc"
+  },
+  {
+    "path": "getprops",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0b30be35ca1b25b392d643cdadd3a5f6070c880f",
+    "size": 703,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/0b30be35ca1b25b392d643cdadd3a5f6070c880f"
+  },
+  {
+    "path": "getvar",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c9741bc992000735c4ab5667214a40865992908b",
+    "size": 926,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/c9741bc992000735c4ab5667214a40865992908b"
+  },
+  {
+    "path": "hello_host_kernel_module",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c536e8c80160aae92dc55e330484d5aa18005ac6",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/c536e8c80160aae92dc55e330484d5aa18005ac6"
+  },
+  {
+    "path": "java",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "b1dcf2cea543c0b16f0e57fdd23f93f3bfb9c019",
+    "size": 24,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/b1dcf2cea543c0b16f0e57fdd23f93f3bfb9c019"
+  },
+  {
+    "path": "kernel_modules.code-workspace",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc1adfa740a1808a2b05b96fb11250c0edf751bf",
+    "size": 1054,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/fc1adfa740a1808a2b05b96fb11250c0edf751bf"
+  },
+  {
+    "path": "kernel_modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c06f20806b438fc1ff64e794738c123dd0b6b11",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/4c06f20806b438fc1ff64e794738c123dd0b6b11"
+  },
+  {
+    "path": "linux-kernel-module-cheat.code-workspace",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7458807e7f6586d5d418f543bf04044f71821c91",
+    "size": 492,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/7458807e7f6586d5d418f543bf04044f71821c91"
+  },
+  {
+    "path": "linux_config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d5ff1dc7379bb2f7e12659c608a29af9d82fddaf",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/d5ff1dc7379bb2f7e12659c608a29af9d82fddaf"
+  },
+  {
+    "path": "lkmc.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c6861559ebf739471d49a827bc0b17bfefc4b04",
+    "size": 3764,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/7c6861559ebf739471d49a827bc0b17bfefc4b04"
+  },
+  {
+    "path": "lkmc.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df2bd399bd4b4bc6bf6be1c847e8a3993add64cb",
+    "size": 2361,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/df2bd399bd4b4bc6bf6be1c847e8a3993add64cb"
+  },
+  {
+    "path": "lkmc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "12481c907245e7aa5c0c3624d3ca67eaf73a539f",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/12481c907245e7aa5c0c3624d3ca67eaf73a539f"
+  },
+  {
+    "path": "nodejs",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "b0494e0474fe775b024e67ca7b4a414806d6adc1",
+    "size": 27,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/b0494e0474fe775b024e67ca7b4a414806d6adc1"
+  },
+  {
+    "path": "npm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3629dcec74abe381316e99ca9ca0af40743e6c2b",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/3629dcec74abe381316e99ca9ca0af40743e6c2b"
+  },
+  {
+    "path": "patches",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c60c4c678541622dba3c4b9b74f9489d5b6b18b5",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/c60c4c678541622dba3c4b9b74f9489d5b6b18b5"
+  },
+  {
+    "path": "path_properties.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "461e15694f21a83bfcafd428df8c9ffd400ac091",
+    "size": 40026,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/461e15694f21a83bfcafd428df8c9ffd400ac091"
+  },
+  {
+    "path": "publish-gh-pages",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5480c37e18e421b7ea4cdcd4fd3fef7b8a4cfcc2",
+    "size": 658,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/5480c37e18e421b7ea4cdcd4fd3fef7b8a4cfcc2"
+  },
+  {
+    "path": "python",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "cb0603086ea0c12e9fb1cd21fe80fd9edf2e4342",
+    "size": 27,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/cb0603086ea0c12e9fb1cd21fe80fd9edf2e4342"
+  },
+  {
+    "path": "qemu-monitor",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7da27b76b3cffdda86ecdb26dda25d31ff53643f",
+    "size": 1663,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/7da27b76b3cffdda86ecdb26dda25d31ff53643f"
+  },
+  {
+    "path": "qemu-rr",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "163dc29faa90e868ec7768fa8376ba0726019f1c",
+    "size": 68,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/163dc29faa90e868ec7768fa8376ba0726019f1c"
+  },
+  {
+    "path": "qemu-trace2txt",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "725c09a98af95d833a4513ef60d3bd937f3c921c",
+    "size": 790,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/725c09a98af95d833a4513ef60d3bd937f3c921c"
+  },
+  {
+    "path": "release-download-latest",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "98107139188d214416a4f9181660073098144d7c",
+    "size": 759,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/98107139188d214416a4f9181660073098144d7c"
+  },
+  {
+    "path": "release-upload",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b51172746c402e968c4fb67658ecfc74c161b579",
+    "size": 2513,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/b51172746c402e968c4fb67658ecfc74c161b579"
+  },
+  {
+    "path": "release-zip",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e56e27524d2f94255f72b9414c1045a6d007b2e6",
+    "size": 1356,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/e56e27524d2f94255f72b9414c1045a6d007b2e6"
+  },
+  {
+    "path": "requirements.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e24951b28004e08b2f726f0ab142eab403ca9b3b",
+    "size": 190,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/e24951b28004e08b2f726f0ab142eab403ca9b3b"
+  },
+  {
+    "path": "rootfs-post-build-script",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d35325e5b2bf09f2f7e2d3ca0531192a2918be8b",
+    "size": 1062,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/d35325e5b2bf09f2f7e2d3ca0531192a2918be8b"
+  },
+  {
+    "path": "rootfs_overlay",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bdbc697d83c8eab596480b92f5725dd80022cc1",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/1bdbc697d83c8eab596480b92f5725dd80022cc1"
+  },
+  {
+    "path": "run",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "bdf8986b00410ff896a17e60bbbfda830f1d53dd",
+    "size": 45008,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/bdf8986b00410ff896a17e60bbbfda830f1d53dd"
+  },
+  {
+    "path": "run-android",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5c017a69dfc736c5484138fbc6f8aea6a6678a82",
+    "size": 743,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/5c017a69dfc736c5484138fbc6f8aea6a6678a82"
+  },
+  {
+    "path": "run-docker",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0a1d9a15fb446ea0bff092dd983cc186b656c235",
+    "size": 2097,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/0a1d9a15fb446ea0bff092dd983cc186b656c235"
+  },
+  {
+    "path": "run-gdb",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9a022462e11d731bc2d03fc94fd06291a548c928",
+    "size": 9041,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/9a022462e11d731bc2d03fc94fd06291a548c928"
+  },
+  {
+    "path": "run-toolchain",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "60f430e3ef45e10e40b78bde808f07b870791bab",
+    "size": 1354,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/60f430e3ef45e10e40b78bde808f07b870791bab"
+  },
+  {
+    "path": "setup",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fd71ecf96b5510812f7c3cccbec8b26f6677c665",
+    "size": 589,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/fd71ecf96b5510812f7c3cccbec8b26f6677c665"
+  },
+  {
+    "path": "shell_helpers.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cf8157c53c5af93b2efb5bdfd0b13edaf028fc1",
+    "size": 20166,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/8cf8157c53c5af93b2efb5bdfd0b13edaf028fc1"
+  },
+  {
+    "path": "submodules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea9710fd0e4a2faa6f78ba7e38f6d282462cd8fc",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/ea9710fd0e4a2faa6f78ba7e38f6d282462cd8fc"
+  },
+  {
+    "path": "test",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f353e79d21fff77931178248d31f609778a94f30",
+    "size": 1596,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/f353e79d21fff77931178248d31f609778a94f30"
+  },
+  {
+    "path": "test-boot",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d9ba813eaa72580e6062b8940471976f5adaefc5",
+    "size": 4224,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/d9ba813eaa72580e6062b8940471976f5adaefc5"
+  },
+  {
+    "path": "test-build-userland",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0ab01e25f117d9c6cb9ad7fe34e06f22c597a3bb",
+    "size": 2019,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/0ab01e25f117d9c6cb9ad7fe34e06f22c597a3bb"
+  },
+  {
+    "path": "test-executables",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cd3be11bc2f54845250ff62fb6298fe3033af239",
+    "size": 4807,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/cd3be11bc2f54845250ff62fb6298fe3033af239"
+  },
+  {
+    "path": "test-executables-in-tree",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8c3b96a46bf2725105e65eeab4ce1c149aad572b",
+    "size": 621,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/8c3b96a46bf2725105e65eeab4ce1c149aad572b"
+  },
+  {
+    "path": "test-gdb",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "bf5261ed94e6bd9da62a0cbf6298d0ba9f23beb8",
+    "size": 3113,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/bf5261ed94e6bd9da62a0cbf6298d0ba9f23beb8"
+  },
+  {
+    "path": "test-gem5-graphics",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "27d30c6a8d17d2b97147527fb152e408d696a499",
+    "size": 619,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/27d30c6a8d17d2b97147527fb152e408d696a499"
+  },
+  {
+    "path": "test-test-executables",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "584d995a8241ddb4c61abc80a3286a98a4665cd0",
+    "size": 961,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/584d995a8241ddb4c61abc80a3286a98a4665cd0"
+  },
+  {
+    "path": "test-userland-full-system",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6d2b9ca1c928be46a7d92e2553b1ab8e2a63c836",
+    "size": 579,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/6d2b9ca1c928be46a7d92e2553b1ab8e2a63c836"
+  },
+  {
+    "path": "thread_pool.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "516790b897f85e48bc2d62e437b23fac7a42ee4a",
+    "size": 15361,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/516790b897f85e48bc2d62e437b23fac7a42ee4a"
+  },
+  {
+    "path": "tmux-split",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f505da9d25a356206539f8e072416e445cfd4d7f",
+    "size": 354,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/f505da9d25a356206539f8e072416e445cfd4d7f"
+  },
+  {
+    "path": "trace-boot",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3a731eed2dbc757b17cb6b386d6d7a45e37a963d",
+    "size": 2030,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/3a731eed2dbc757b17cb6b386d6d7a45e37a963d"
+  },
+  {
+    "path": "trace2line",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "4563d97d86b14db51b6b4e46c41a3f533de252c2",
+    "size": 2173,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/4563d97d86b14db51b6b4e46c41a3f533de252c2"
+  },
+  {
+    "path": "trace2line.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "949121d5e9ec0a38215b4f0b4a30d63a59b43c98",
+    "size": 482,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/949121d5e9ec0a38215b4f0b4a30d63a59b43c98"
+  },
+  {
+    "path": "update-buildroot-kernel-configs",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "92e4a0f3582a483e50aba7fc21f1efed1ce5e236",
+    "size": 579,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/92e4a0f3582a483e50aba7fc21f1efed1ce5e236"
+  },
+  {
+    "path": "user_table",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "deef105b532957b955d33cb812c2e1607d69b176",
+    "size": 49,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/deef105b532957b955d33cb812c2e1607d69b176"
+  },
+  {
+    "path": "userland",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "45b57e3ce003cd6a128735db6af8748fd4fa84c5",
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/trees/45b57e3ce003cd6a128735db6af8748fd4fa84c5"
+  },
+  {
+    "path": "vnc",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9b0cb64663fef4bb396c1b0bdf8ff77ded3324bb",
+    "size": 43,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/9b0cb64663fef4bb396c1b0bdf8ff77ded3324bb"
+  },
+  {
+    "path": "x11.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3760a8949c3fe6ffaf72d39bfef80e1e62b7ea85",
+    "size": 16224,
+    "url": "https://api.github.com/repos/cirosantilli/linux-kernel-module-cheat/git/blobs/3760a8949c3fe6ffaf72d39bfef80e1e62b7ea85"
+  }
+]

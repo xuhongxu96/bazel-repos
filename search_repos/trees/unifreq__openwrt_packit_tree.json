@@ -1,0 +1,408 @@
+[
+  {
+    "path": ".dockerignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a5ea32c91fc6ff720e985e6ebb22528dd7c667a",
+    "size": 156,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/2a5ea32c91fc6ff720e985e6ebb22528dd7c667a"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d5fb762632d6ad92b210d4a050d6114f14def19a",
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/trees/d5fb762632d6ad92b210d4a050d6114f14def19a"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cafca0da31f09696fa8efb82d0156edcf32b4c4f",
+    "size": 87,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/cafca0da31f09696fa8efb82d0156edcf32b4c4f"
+  },
+  {
+    "path": "Dockerfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b225ab4ededd8003783ececa660d8bfdf7e809d",
+    "size": 182,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/6b225ab4ededd8003783ececa660d8bfdf7e809d"
+  },
+  {
+    "path": "README.ACTION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85c7a049e6c3342836bd2d8770f2d5a5fbdd5ad6",
+    "size": 10626,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/85c7a049e6c3342836bd2d8770f2d5a5fbdd5ad6"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ab15c6a5349434ce774db05ba17166b3969ca27",
+    "size": 8111,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/2ab15c6a5349434ce774db05ba17166b3969ca27"
+  },
+  {
+    "path": "action.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0e383eb663114ebbdfe74412f2c78d8810c511e",
+    "size": 442,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/f0e383eb663114ebbdfe74412f2c78d8810c511e"
+  },
+  {
+    "path": "files",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "306982f9543c8f4a960d1687652981f2e608d0cc",
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/trees/306982f9543c8f4a960d1687652981f2e608d0cc"
+  },
+  {
+    "path": "make.env",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cce750fc858b2fdac99ed215efd87e609e7e4d4f",
+    "size": 2260,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/cce750fc858b2fdac99ed215efd87e609e7e4d4f"
+  },
+  {
+    "path": "mk_h6_vplus.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "214659b94b7f15d3c78e59e47b73a153704448f4",
+    "size": 5425,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/214659b94b7f15d3c78e59e47b73a153704448f4"
+  },
+  {
+    "path": "mk_openwrt_dockerimg.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fd3090b83c875755136a658537d9edece2f10ec9",
+    "size": 4993,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/fd3090b83c875755136a658537d9edece2f10ec9"
+  },
+  {
+    "path": "mk_qemu-aarch64_img.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7495b2bd77e7c5a915a41d4573aeec255bff8a13",
+    "size": 4203,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/7495b2bd77e7c5a915a41d4573aeec255bff8a13"
+  },
+  {
+    "path": "mk_rk3328_beikeyun.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b26b409228735d380546f8f3776969e43d41c07a",
+    "size": 5238,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/b26b409228735d380546f8f3776969e43d41c07a"
+  },
+  {
+    "path": "mk_rk3328_l1pro.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0e221452ce44ae999a033077a84b5d6e95db2703",
+    "size": 5240,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/0e221452ce44ae999a033077a84b5d6e95db2703"
+  },
+  {
+    "path": "mk_rk3399_generic.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "bfe7e43bb8b88975163e9c9539a1a3dc619744c6",
+    "size": 5858,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/bfe7e43bb8b88975163e9c9539a1a3dc619744c6"
+  },
+  {
+    "path": "mk_rk3399_zcube1-max.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0235ac1ec34ff55185787c563936f2c934d68e15",
+    "size": 5410,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/0235ac1ec34ff55185787c563936f2c934d68e15"
+  },
+  {
+    "path": "mk_rk3528_e20c.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "41cda4ee83f67ed9fb8235f54d3f59ffa1ef7e9e",
+    "size": 5494,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/41cda4ee83f67ed9fb8235f54d3f59ffa1ef7e9e"
+  },
+  {
+    "path": "mk_rk3528_e24c.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5b7fafd0f940305389c0ac9ce511f3ca2cbb321b",
+    "size": 5498,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/5b7fafd0f940305389c0ac9ce511f3ca2cbb321b"
+  },
+  {
+    "path": "mk_rk3528_h28k.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8f01ea38d10a36bc4e49d888d9b4a450db94cbe7",
+    "size": 5447,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/8f01ea38d10a36bc4e49d888d9b4a450db94cbe7"
+  },
+  {
+    "path": "mk_rk3528_ht2.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "90fc1351634738b1b0482b6813cf0e3bd176baf7",
+    "size": 5511,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/90fc1351634738b1b0482b6813cf0e3bd176baf7"
+  },
+  {
+    "path": "mk_rk3528_rs6pro.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ad7eecf51d097c4f17dc5e7d092c234febfd4af4",
+    "size": 5461,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/ad7eecf51d097c4f17dc5e7d092c234febfd4af4"
+  },
+  {
+    "path": "mk_rk3566_jp-tvbox.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "940bbfd5998692d11daa13a5a4242fa291800c76",
+    "size": 5374,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/940bbfd5998692d11daa13a5a4242fa291800c76"
+  },
+  {
+    "path": "mk_rk3566_netfusion.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d9ce76fa0fc8d756468f586060ed520649989e3d",
+    "size": 5385,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/d9ce76fa0fc8d756468f586060ed520649989e3d"
+  },
+  {
+    "path": "mk_rk3566_radxa-cm3-rpi-cm4-io.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d5349dc0dd49ea5948f3f1e3c4589c51f777b686",
+    "size": 5411,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/d5349dc0dd49ea5948f3f1e3c4589c51f777b686"
+  },
+  {
+    "path": "mk_rk3568_e25.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f854f0fbb01a9a20deccffc39fa93fadc924cd28",
+    "size": 5345,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/f854f0fbb01a9a20deccffc39fa93fadc924cd28"
+  },
+  {
+    "path": "mk_rk3568_ec-x.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "999259e1b550498a3035d206974ac26d1dca1daf",
+    "size": 5455,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/999259e1b550498a3035d206974ac26d1dca1daf"
+  },
+  {
+    "path": "mk_rk3568_h66k.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "34af8256a391f84ad492b369417132e141ecdf73",
+    "size": 5377,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/34af8256a391f84ad492b369417132e141ecdf73"
+  },
+  {
+    "path": "mk_rk3568_h68k.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "32b988f9f754657574bdb54432d0fd79918dc0ee",
+    "size": 5455,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/32b988f9f754657574bdb54432d0fd79918dc0ee"
+  },
+  {
+    "path": "mk_rk3568_h69k.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "54c71703b5cedb8dc10859fe8f4eb0873ba5bbdb",
+    "size": 6005,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/54c71703b5cedb8dc10859fe8f4eb0873ba5bbdb"
+  },
+  {
+    "path": "mk_rk3568_photonicat.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b42e60d786906775545b270e7e4eecdb87e22c09",
+    "size": 7169,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/b42e60d786906775545b270e7e4eecdb87e22c09"
+  },
+  {
+    "path": "mk_rk3568_r66s.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fc744a2e9917260fbd238c6ae9f1622e76f5c28e",
+    "size": 5161,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/fc744a2e9917260fbd238c6ae9f1622e76f5c28e"
+  },
+  {
+    "path": "mk_rk3568_r68s.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "921cf8f1510327dfe3fc795a6df1b052314e017f",
+    "size": 5161,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/921cf8f1510327dfe3fc795a6df1b052314e017f"
+  },
+  {
+    "path": "mk_rk3568_tx68.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6940a6ecf5a395a3a1b3e0c2cebc399fa7ea4830",
+    "size": 5455,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/6940a6ecf5a395a3a1b3e0c2cebc399fa7ea4830"
+  },
+  {
+    "path": "mk_rk3568_watermelon-pi.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3140ea20dcbab429a3a15eebb5aabc4e345029f6",
+    "size": 5362,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/3140ea20dcbab429a3a15eebb5aabc4e345029f6"
+  },
+  {
+    "path": "mk_rk3588_h88k-v3.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "94be6561e4f8e4568c927b2f2ca861cd31c76986",
+    "size": 5965,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/94be6561e4f8e4568c927b2f2ca861cd31c76986"
+  },
+  {
+    "path": "mk_rk3588_h88k.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3d9e3fa6cdf17eb8288be0493ecc33ab163930db",
+    "size": 5947,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/3d9e3fa6cdf17eb8288be0493ecc33ab163930db"
+  },
+  {
+    "path": "mk_rk3588_rock5b.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3eed00aea82440af4dd12b37fb2f1c15563f06c1",
+    "size": 5442,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/3eed00aea82440af4dd12b37fb2f1c15563f06c1"
+  },
+  {
+    "path": "mk_rk3588s_e52c.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5a8cdd06ef47be3e731f39c4089b65fcc47ebfeb",
+    "size": 5409,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/5a8cdd06ef47be3e731f39c4089b65fcc47ebfeb"
+  },
+  {
+    "path": "mk_rk3588s_e54c.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3f8e7128aab396ed60cc098f1a63bc9b8ed0ce73",
+    "size": 5409,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/3f8e7128aab396ed60cc098f1a63bc9b8ed0ce73"
+  },
+  {
+    "path": "mk_rk3588s_rock5c.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "538db1667a7d5f6906205dd2dfb9b1cbcbd83688",
+    "size": 5359,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/538db1667a7d5f6906205dd2dfb9b1cbcbd83688"
+  },
+  {
+    "path": "mk_s905_mxqpro+.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "72b691fd0023475fdc79d16fb3617166801cd95e",
+    "size": 5657,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/72b691fd0023475fdc79d16fb3617166801cd95e"
+  },
+  {
+    "path": "mk_s905d_n1.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "341ef0dae236a82415668c2d0514c4f7238b5246",
+    "size": 6132,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/341ef0dae236a82415668c2d0514c4f7238b5246"
+  },
+  {
+    "path": "mk_s905x2_x96max.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c7a2258be7695e9cc7ebb03de5059866bcf8a6c4",
+    "size": 5967,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/c7a2258be7695e9cc7ebb03de5059866bcf8a6c4"
+  },
+  {
+    "path": "mk_s905x3_multi.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "195be44d94442053f24db09f84977906f9071530",
+    "size": 7700,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/195be44d94442053f24db09f84977906f9071530"
+  },
+  {
+    "path": "mk_s912_zyxq.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "54cdf553081330ccb9d10c71fac54ee38d230aaf",
+    "size": 5982,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/54cdf553081330ccb9d10c71fac54ee38d230aaf"
+  },
+  {
+    "path": "mk_s922x_gtking.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2631f0990a118fbd9828743760e37edd1e6d0d82",
+    "size": 6580,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/2631f0990a118fbd9828743760e37edd1e6d0d82"
+  },
+  {
+    "path": "mk_s922x_odroid-n2.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "7463ce3683b32c0c90e8c72483a4d60cf5e7ad04",
+    "size": 6147,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/7463ce3683b32c0c90e8c72483a4d60cf5e7ad04"
+  },
+  {
+    "path": "openwrt_flippy.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "59750cfb832e6f56f8e8476eca96bc0bf87f53d3",
+    "size": 32154,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/59750cfb832e6f56f8e8476eca96bc0bf87f53d3"
+  },
+  {
+    "path": "public_funcs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d7f10a696cad1a3f006591e97bb37ef30e992da",
+    "size": 69622,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/5d7f10a696cad1a3f006591e97bb37ef30e992da"
+  },
+  {
+    "path": "qemu-aarch64.env",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "afe05f1353d9ad025e94a3227168050b0fd31f8a",
+    "size": 2855,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/afe05f1353d9ad025e94a3227168050b0fd31f8a"
+  },
+  {
+    "path": "sel",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "237c7df226021973bc595a2c2a487d4822c87847",
+    "size": 214,
+    "url": "https://api.github.com/repos/unifreq/openwrt_packit/git/blobs/237c7df226021973bc595a2c2a487d4822c87847"
+  }
+]

@@ -1,0 +1,996 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bd58e1cbb3a77c846a15bd11d8bfe834cc172c7",
+    "size": 51,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/4bd58e1cbb3a77c846a15bd11d8bfe834cc172c7"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7cf35148fcaca98adbe08dbcae6a4860cbca00a1",
+    "size": 87,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/7cf35148fcaca98adbe08dbcae6a4860cbca00a1"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2474581fa4889f8f8c369e579b1d4346dd91f0fa",
+    "size": 3105,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/2474581fa4889f8f8c369e579b1d4346dd91f0fa"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6775d74bf6306f314692ba7df79e0b746b83263",
+    "size": 44933,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/b6775d74bf6306f314692ba7df79e0b746b83263"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d695652df675d0b4d3312e04f8e1053cfc2b1677",
+    "size": 46550,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/d695652df675d0b4d3312e04f8e1053cfc2b1677"
+  },
+  {
+    "path": "animation_easing.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed9e52f5930a04f28b84f9cb78b8de68f1b50c32",
+    "size": 1949,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/ed9e52f5930a04f28b84f9cb78b8de68f1b50c32"
+  },
+  {
+    "path": "animation_sprite.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c43e7b537c0195c65c3adc5216d6cf1b05ed26d6",
+    "size": 1444,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/c43e7b537c0195c65c3adc5216d6cf1b05ed26d6"
+  },
+  {
+    "path": "assets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0b38ef2f537c8c9ded472b94c61faf42f332f809",
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/trees/0b38ef2f537c8c9ded472b94c61faf42f332f809"
+  },
+  {
+    "path": "benchmarks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f684230d97601ada03a2bd04e4faf3ca25cc37a",
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/trees/2f684230d97601ada03a2bd04e4faf3ca25cc37a"
+  },
+  {
+    "path": "color_brightnessContrast.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3ad9aed707938a7bccd061de8746e5d3ecc8933",
+    "size": 580,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/b3ad9aed707938a7bccd061de8746e5d3ecc8933"
+  },
+  {
+    "path": "color_brightnessContrastMatrix.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cd88de5f50cb24f1a332720b6e3adbb459d1402",
+    "size": 634,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/0cd88de5f50cb24f1a332720b6e3adbb459d1402"
+  },
+  {
+    "path": "color_daltonize.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d9010fe487a91587742d45cef3f56cc3dfb2501c",
+    "size": 947,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/d9010fe487a91587742d45cef3f56cc3dfb2501c"
+  },
+  {
+    "path": "color_dither.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec44b4b182d948b8aeb241bf851ddfb68c795ac7",
+    "size": 1244,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/ec44b4b182d948b8aeb241bf851ddfb68c795ac7"
+  },
+  {
+    "path": "color_iridescence_map.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8d066288fab0bd58ceb1c98e6c4160ebe60dfdf",
+    "size": 495,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/c8d066288fab0bd58ceb1c98e6c4160ebe60dfdf"
+  },
+  {
+    "path": "color_lut.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38e7d9e3aae77ca47d6f5031232bebe8d704983d",
+    "size": 485,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/38e7d9e3aae77ca47d6f5031232bebe8d704983d"
+  },
+  {
+    "path": "color_mix.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c13f75ce7e8542ebd613f9e253125458d47ea35",
+    "size": 1165,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/7c13f75ce7e8542ebd613f9e253125458d47ea35"
+  },
+  {
+    "path": "color_mixSpectral_check.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7789b49c0266f8ac44749330147f7cb5e4b092fe",
+    "size": 1099,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/7789b49c0266f8ac44749330147f7cb5e4b092fe"
+  },
+  {
+    "path": "color_mix_ryb.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ab17779ddf1c6f07d1fa2231c0e29431ec16344",
+    "size": 1270,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/4ab17779ddf1c6f07d1fa2231c0e29431ec16344"
+  },
+  {
+    "path": "color_palette_lerp.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ded878c853dcd94798c5b68712fd3e4416253e90",
+    "size": 3186,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/ded878c853dcd94798c5b68712fd3e4416253e90"
+  },
+  {
+    "path": "color_pigments.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f80894d52acac8a2eb2f777137d93b1669d75d0f",
+    "size": 5435,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/f80894d52acac8a2eb2f777137d93b1669d75d0f"
+  },
+  {
+    "path": "color_ryb.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84ea26062d0aaf9f9106b0a73cb0f207dada7df1",
+    "size": 1653,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/84ea26062d0aaf9f9106b0a73cb0f207dada7df1"
+  },
+  {
+    "path": "color_wada.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82b0d44a45e2446bb26e8ea1dfa236fd02ff6cf0",
+    "size": 1015,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/82b0d44a45e2446bb26e8ea1dfa236fd02ff6cf0"
+  },
+  {
+    "path": "color_wada_dyads.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b57ea4eff36934fec1f48492067d1d4a9b5be7f7",
+    "size": 1141,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/b57ea4eff36934fec1f48492067d1d4a9b5be7f7"
+  },
+  {
+    "path": "color_wada_tetrads.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cc6d5215b5a75066b460ee3596746de33ca7a79",
+    "size": 1264,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/8cc6d5215b5a75066b460ee3596746de33ca7a79"
+  },
+  {
+    "path": "color_wada_triads.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5531f318742e9af94c466a0976a3c763e9e9cddf",
+    "size": 1198,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/5531f318742e9af94c466a0976a3c763e9e9cddf"
+  },
+  {
+    "path": "color_wavelength.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04146bd0f46a081def5e508e4d4c671af9696c28",
+    "size": 1274,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/04146bd0f46a081def5e508e4d4c671af9696c28"
+  },
+  {
+    "path": "color_zorn.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baa2d41efed611a82179a3414ff33023440f105f",
+    "size": 1269,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/baa2d41efed611a82179a3414ff33023440f105f"
+  },
+  {
+    "path": "config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "877e09f53d96bd325ec8c3e34b4d9ea127cdec83",
+    "size": 18989,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/877e09f53d96bd325ec8c3e34b4d9ea127cdec83"
+  },
+  {
+    "path": "distort_pincushion.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13edaab95e53b37c461cdc7aae2a5f801f47cbcf",
+    "size": 553,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/13edaab95e53b37c461cdc7aae2a5f801f47cbcf"
+  },
+  {
+    "path": "draw_aa.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8768a657aa8f138b9d2dc9389f9888e8f0eafe9e",
+    "size": 1244,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/8768a657aa8f138b9d2dc9389f9888e8f0eafe9e"
+  },
+  {
+    "path": "draw_colorChecker.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb117079b7b8e13558583d511633dfb46b2d9dfe",
+    "size": 1512,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/cb117079b7b8e13558583d511633dfb46b2d9dfe"
+  },
+  {
+    "path": "draw_debug1.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57ff2334d768b3a470946d749859134fd84c809d",
+    "size": 3292,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/57ff2334d768b3a470946d749859134fd84c809d"
+  },
+  {
+    "path": "draw_debug2.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e0b3df63c155f83ec4eebb37f13a875f6fbd473",
+    "size": 2148,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/1e0b3df63c155f83ec4eebb37f13a875f6fbd473"
+  },
+  {
+    "path": "draw_digits.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ada0c6ee92c9ea81e48a3c08e3bcbeafd648fbfc",
+    "size": 886,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/ada0c6ee92c9ea81e48a3c08e3bcbeafd648fbfc"
+  },
+  {
+    "path": "draw_julia.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "422994ac6dc0a237630e0256346278a9ba164475",
+    "size": 1389,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/422994ac6dc0a237630e0256346278a9ba164475"
+  },
+  {
+    "path": "draw_koch.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "531df7eb7e3325bcb8ef40d575832ed81149f554",
+    "size": 438,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/531df7eb7e3325bcb8ef40d575832ed81149f554"
+  },
+  {
+    "path": "draw_mandelbulb.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96f24e8e6740095656ffa5ac596622edfab4f144",
+    "size": 973,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/96f24e8e6740095656ffa5ac596622edfab4f144"
+  },
+  {
+    "path": "draw_shapes.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0170b7ba26012c7a0ede6b3959ea42fe0c6b6d5",
+    "size": 2572,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/a0170b7ba26012c7a0ede6b3959ea42fe0c6b6d5"
+  },
+  {
+    "path": "draw_supershape.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81b9699d6c67cd8db4a4c2644d1c8d1f01499d98",
+    "size": 473,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/81b9699d6c67cd8db4a4c2644d1c8d1f01499d98"
+  },
+  {
+    "path": "draw_tiles.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3917d41c838025d968e885187db4853d4025b3e9",
+    "size": 1281,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/3917d41c838025d968e885187db4853d4025b3e9"
+  },
+  {
+    "path": "filter_bilateral2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "213b83a24512bce116aab2cbd12a3ba3a453e20b",
+    "size": 782,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/213b83a24512bce116aab2cbd12a3ba3a453e20b"
+  },
+  {
+    "path": "filter_bilinear2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2658d6f6cd9f4b4f4f18f38a51bb95af4bf925b9",
+    "size": 775,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/2658d6f6cd9f4b4f4f18f38a51bb95af4bf925b9"
+  },
+  {
+    "path": "filter_boxBlur1D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23b8e5afe02d2099a16545d66ec88d967cc524f2",
+    "size": 954,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/23b8e5afe02d2099a16545d66ec88d967cc524f2"
+  },
+  {
+    "path": "filter_boxBlur2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f29055d1264ac4cf5dcc93f5b9984d3c9746622",
+    "size": 790,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/1f29055d1264ac4cf5dcc93f5b9984d3c9746622"
+  },
+  {
+    "path": "filter_edge2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30f6bbb193a2de7be0ead8d00b124c0fc8e494cc",
+    "size": 915,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/30f6bbb193a2de7be0ead8d00b124c0fc8e494cc"
+  },
+  {
+    "path": "filter_fibonacciBokeh.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91ef27225767f683b68258d553fcf07714da41ac",
+    "size": 766,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/91ef27225767f683b68258d553fcf07714da41ac"
+  },
+  {
+    "path": "filter_gaussianBlur1D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "046622beecffb0f21645aee0e0ae7b34f83fd86d",
+    "size": 952,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/046622beecffb0f21645aee0e0ae7b34f83fd86d"
+  },
+  {
+    "path": "filter_gaussianBlur2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b8f2327f822e5ee4128e79f82ed2d396de15fdf",
+    "size": 810,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/9b8f2327f822e5ee4128e79f82ed2d396de15fdf"
+  },
+  {
+    "path": "filter_kuwahara2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db5c16cc29a450be54a0d7b443903154d4b3a5cd",
+    "size": 826,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/db5c16cc29a450be54a0d7b443903154d4b3a5cd"
+  },
+  {
+    "path": "filter_laplacian2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d986456a4453cfe109832cffdee04b81b4142604",
+    "size": 769,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/d986456a4453cfe109832cffdee04b81b4142604"
+  },
+  {
+    "path": "filter_median2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cda2873d8ffe6b49688da71a64875ada910dbcb9",
+    "size": 982,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/cda2873d8ffe6b49688da71a64875ada910dbcb9"
+  },
+  {
+    "path": "filter_noiseBlur2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae042b8fc62ac393a042d628bc34bbb3460e6519",
+    "size": 987,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/ae042b8fc62ac393a042d628bc34bbb3460e6519"
+  },
+  {
+    "path": "filter_radialBlur2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75b6e858aae236b282d072cf4d8a59aeef07be21",
+    "size": 1030,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/75b6e858aae236b282d072cf4d8a59aeef07be21"
+  },
+  {
+    "path": "filter_sharpen2D.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "312724f4e13a8dfb66e3fda460474388ab6f4af8",
+    "size": 787,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/312724f4e13a8dfb66e3fda460474388ab6f4af8"
+  },
+  {
+    "path": "generative_cnoise.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0350ea0cb0a4615bffd90feea6e6bba3e369b2fb",
+    "size": 472,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/0350ea0cb0a4615bffd90feea6e6bba3e369b2fb"
+  },
+  {
+    "path": "generative_curl.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9880da61e0f38341b1fb4758642d0ccf18e8803",
+    "size": 1167,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/c9880da61e0f38341b1fb4758642d0ccf18e8803"
+  },
+  {
+    "path": "generative_fbm.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b43e9c8f8f3aea2b851e97d6e0bf6ff7071f406",
+    "size": 463,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/0b43e9c8f8f3aea2b851e97d6e0bf6ff7071f406"
+  },
+  {
+    "path": "generative_noised.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48fb67ee7dfc5f0dd7719a3f48350924e7299077",
+    "size": 526,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/48fb67ee7dfc5f0dd7719a3f48350924e7299077"
+  },
+  {
+    "path": "generative_pnoise.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e74d3aa3a4d29659cf18ddb463719ae8969395e",
+    "size": 509,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/3e74d3aa3a4d29659cf18ddb463719ae8969395e"
+  },
+  {
+    "path": "generative_psrdnoise.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "466c1339ee40e0f19415bc98cd8960af5dbac03d",
+    "size": 1257,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/466c1339ee40e0f19415bc98cd8960af5dbac03d"
+  },
+  {
+    "path": "generative_random.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "099d94909156b4962ffa53d071b9e3eb75d485a9",
+    "size": 448,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/099d94909156b4962ffa53d071b9e3eb75d485a9"
+  },
+  {
+    "path": "generative_snoise.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fcd62746215d52ae4b0e6ca43f9966ad561fe208",
+    "size": 472,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/fcd62746215d52ae4b0e6ca43f9966ad561fe208"
+  },
+  {
+    "path": "generative_voronoi.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd3f94094391ccdc6c841969f282804c5ef9cb3c",
+    "size": 453,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/fd3f94094391ccdc6c841969f282804c5ef9cb3c"
+  },
+  {
+    "path": "generative_voronoise.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03ee2ffd95cb2b9fc15e94da520a7fdb8e682b51",
+    "size": 599,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/03ee2ffd95cb2b9fc15e94da520a7fdb8e682b51"
+  },
+  {
+    "path": "generative_wavelet.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44a81caed61515bd0b3620fabd2ae8dd566b3463",
+    "size": 497,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/44a81caed61515bd0b3620fabd2ae8dd566b3463"
+  },
+  {
+    "path": "generative_worley.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fec6cb70a987224c2696437a15ad08ed77eaaf17",
+    "size": 700,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/fec6cb70a987224c2696437a15ad08ed77eaaf17"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "df023d3ee6b9c86eb2a31df3777bd95604649d5e",
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/trees/df023d3ee6b9c86eb2a31df3777bd95604649d5e"
+  },
+  {
+    "path": "lighting_atmosphere.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36126d4c6e918589997cf521c045f2cb07895a32",
+    "size": 2560,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/36126d4c6e918589997cf521c045f2cb07895a32"
+  },
+  {
+    "path": "lighting_gooch.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46bea146450a19739bd37eb5a8616ec1c8364e9d",
+    "size": 1679,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/46bea146450a19739bd37eb5a8616ec1c8364e9d"
+  },
+  {
+    "path": "lighting_normal.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be9d69bc6a9dea5514de651a712dd8dca879d52c",
+    "size": 632,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/be9d69bc6a9dea5514de651a712dd8dca879d52c"
+  },
+  {
+    "path": "lighting_pbr.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f92ac97f915a9a984243f5414c3e51d358c34a5f",
+    "size": 2354,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/f92ac97f915a9a984243f5414c3e51d358c34a5f"
+  },
+  {
+    "path": "lighting_pbrClearCoat.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae58aec785279cb49a30ad737dae192f1a609e83",
+    "size": 2346,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/ae58aec785279cb49a30ad737dae192f1a609e83"
+  },
+  {
+    "path": "lighting_pbrGlass.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c14294be64c06b531110043387aa9483dec870cb",
+    "size": 1204,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/c14294be64c06b531110043387aa9483dec870cb"
+  },
+  {
+    "path": "lighting_pbrIridescence.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31183f194eeb58d0b031ef7137e16c861dfed992",
+    "size": 2897,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/31183f194eeb58d0b031ef7137e16c861dfed992"
+  },
+  {
+    "path": "lighting_pbrLittle.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e161c5322af4c85828106dc87c29263c80eb3ae",
+    "size": 2342,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/7e161c5322af4c85828106dc87c29263c80eb3ae"
+  },
+  {
+    "path": "lighting_pbrLittle_deferred.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe56e1df498fd1a99bf15a456009007affcf500e",
+    "size": 4266,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/fe56e1df498fd1a99bf15a456009007affcf500e"
+  },
+  {
+    "path": "lighting_pbrSsS.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54605548b012f17c5e9cd05673f80d9adcce1b8a",
+    "size": 2433,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/54605548b012f17c5e9cd05673f80d9adcce1b8a"
+  },
+  {
+    "path": "lighting_pbr_deferred.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "797e9e84ae000e31a86870d428fc3ef687fd80ff",
+    "size": 4235,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/797e9e84ae000e31a86870d428fc3ef687fd80ff"
+  },
+  {
+    "path": "lighting_pbr_dynamic.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96b716b63312792b8e0f2df6b381f62b872b6785",
+    "size": 3287,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/96b716b63312792b8e0f2df6b381f62b872b6785"
+  },
+  {
+    "path": "lighting_pbr_dynamic.vert",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80cf26aeb62e013226a2eda37583e15009138f0b",
+    "size": 2500,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/80cf26aeb62e013226a2eda37583e15009138f0b"
+  },
+  {
+    "path": "lighting_pbr_lights.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a37140148cc88be3b1b513e49ac02d34d29493f8",
+    "size": 2642,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/a37140148cc88be3b1b513e49ac02d34d29493f8"
+  },
+  {
+    "path": "lighting_position.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1383ebcb1d205c93108ecf6ab7cce85acfcd1d8f",
+    "size": 1627,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/1383ebcb1d205c93108ecf6ab7cce85acfcd1d8f"
+  },
+  {
+    "path": "lighting_raymarching.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae086b7206c7e85da3c3dcf9a01870b7cbc1d724",
+    "size": 2468,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/ae086b7206c7e85da3c3dcf9a01870b7cbc1d724"
+  },
+  {
+    "path": "lighting_raymarching_gooch.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b333094db3d9ce001ee815571c6395436f506bc7",
+    "size": 1889,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/b333094db3d9ce001ee815571c6395436f506bc7"
+  },
+  {
+    "path": "lighting_raymarching_pbr.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c31543af5e8f73517762ae3324f7d31f92b48af",
+    "size": 2135,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/6c31543af5e8f73517762ae3324f7d31f92b48af"
+  },
+  {
+    "path": "lighting_raymarching_pbrClearCoat.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16288082b68870657f2e5c11c5ed87045f3954c1",
+    "size": 2232,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/16288082b68870657f2e5c11c5ed87045f3954c1"
+  },
+  {
+    "path": "lighting_raymarching_pbrGlass.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "592f20d584f7e175afc7e49b84c0eafb909e2ce2",
+    "size": 2145,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/592f20d584f7e175afc7e49b84c0eafb909e2ce2"
+  },
+  {
+    "path": "lighting_raymarching_pbrIridescence.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9be4038afb863b11ac03df5439971c81f7c42a54",
+    "size": 2361,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/9be4038afb863b11ac03df5439971c81f7c42a54"
+  },
+  {
+    "path": "lighting_raymarching_pbrLittle.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0604999829e787f4ae6d352dc297fed502b68254",
+    "size": 2144,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/0604999829e787f4ae6d352dc297fed502b68254"
+  },
+  {
+    "path": "lighting_raymarching_pbr_volume.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a075c3106cf7424030b1bff7bac96e5b882739ec",
+    "size": 2562,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/a075c3106cf7424030b1bff7bac96e5b882739ec"
+  },
+  {
+    "path": "lighting_raymarching_return.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b1d925f7207b67c1f9f010faff7b578f95b83b3",
+    "size": 3535,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/5b1d925f7207b67c1f9f010faff7b578f95b83b3"
+  },
+  {
+    "path": "lighting_raymarching_spheric.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c201cd403633903ce7a8f990aa967de8c36f3a53",
+    "size": 2812,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/c201cd403633903ce7a8f990aa967de8c36f3a53"
+  },
+  {
+    "path": "lighting_raymarching_volume.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "342c54ce59c427c48ca4dac2b10ad79fe9f05619",
+    "size": 2867,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/342c54ce59c427c48ca4dac2b10ad79fe9f05619"
+  },
+  {
+    "path": "lighting_shadow.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "128dd263d6b04ecce98b248d2319a8cf98a28cba",
+    "size": 1607,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/128dd263d6b04ecce98b248d2319a8cf98a28cba"
+  },
+  {
+    "path": "lighting_sphereMap.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dac7a85de6afc9f3a0a48431429d2df11c47b849",
+    "size": 1368,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/dac7a85de6afc9f3a0a48431429d2df11c47b849"
+  },
+  {
+    "path": "lighting_sphericalHarmonics.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d0942856a93b6ffbb0ac6518a437f1146c50841",
+    "size": 1810,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/6d0942856a93b6ffbb0ac6518a437f1146c50841"
+  },
+  {
+    "path": "lighting_ssao.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e49f60112a2efc47840561f41b5776aa157b7cb3",
+    "size": 2634,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/e49f60112a2efc47840561f41b5776aa157b7cb3"
+  },
+  {
+    "path": "lighting_ssr.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd9fb1625c51cbbd8c5797edaad5bc94e9ba1e6d",
+    "size": 3758,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/bd9fb1625c51cbbd8c5797edaad5bc94e9ba1e6d"
+  },
+  {
+    "path": "lighting_volumetric.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fcec1caa36ed9c6e930da7b5234e78415dbbcf3c",
+    "size": 3082,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/fcec1caa36ed9c6e930da7b5234e78415dbbcf3c"
+  },
+  {
+    "path": "lygia",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2700aa5dcb88cac604e83d6af893528c4f63e1bd"
+  },
+  {
+    "path": "math_functions.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b225beca89b071360b80e20795dce68f43791e9c",
+    "size": 1965,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/b225beca89b071360b80e20795dce68f43791e9c"
+  },
+  {
+    "path": "math_gaussian.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7202e8e1145c696e2e478c8e0e48cb4decb32872",
+    "size": 618,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/7202e8e1145c696e2e478c8e0e48cb4decb32872"
+  },
+  {
+    "path": "math_quat.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09374927d958299928217e974a42ef4b8ff1483d",
+    "size": 782,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/09374927d958299928217e974a42ef4b8ff1483d"
+  },
+  {
+    "path": "math_quat.vert",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd82b11d2b0a7d379eab9d440d06b318ee1537f2",
+    "size": 1536,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/dd82b11d2b0a7d379eab9d440d06b318ee1537f2"
+  },
+  {
+    "path": "morphological_alphaFill.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15453f914485c180280851157596280712789c05",
+    "size": 592,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/15453f914485c180280851157596280712789c05"
+  },
+  {
+    "path": "morphological_dilation.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e60de2620b803da2d010abcb7946139fb3eaa964",
+    "size": 537,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/e60de2620b803da2d010abcb7946139fb3eaa964"
+  },
+  {
+    "path": "morphological_erosion.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3f6510910d57aead27e68f72e6a5dbd86c8926d",
+    "size": 537,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/e3f6510910d57aead27e68f72e6a5dbd86c8926d"
+  },
+  {
+    "path": "morphological_marchinSquares.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44fed44545fdfaec9096bbbc8ef0814f1acfe159",
+    "size": 827,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/44fed44545fdfaec9096bbbc8ef0814f1acfe159"
+  },
+  {
+    "path": "morphological_poissonFill.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15ef9fb9da2d1d64e916db8e51d247bd5b520d9a",
+    "size": 1451,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/15ef9fb9da2d1d64e916db8e51d247bd5b520d9a"
+  },
+  {
+    "path": "sample_3Dsdf.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d9aec87eb84e194a302a7b9c5ce4982a9160289",
+    "size": 1896,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/0d9aec87eb84e194a302a7b9c5ce4982a9160289"
+  },
+  {
+    "path": "sample_bracketing.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c4beb489f82352edc103da7da8aaa99a03ad2b4",
+    "size": 1024,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/0c4beb489f82352edc103da7da8aaa99a03ad2b4"
+  },
+  {
+    "path": "sample_dither.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df5f36cc3ee171b6245009d98e2792b59a95fa7d",
+    "size": 939,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/df5f36cc3ee171b6245009d98e2792b59a95fa7d"
+  },
+  {
+    "path": "sample_dof.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dedfd1d99ab943268638959d0b36964a4d428c03",
+    "size": 2341,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/dedfd1d99ab943268638959d0b36964a4d428c03"
+  },
+  {
+    "path": "sample_equirect.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d58a115cc28881139e0693695843a33b0d0d011",
+    "size": 2296,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/0d58a115cc28881139e0693695843a33b0d0d011"
+  },
+  {
+    "path": "sample_filter_bicubic.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab3c84deb79693d759f4a47ccb8e71c04724be77",
+    "size": 651,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/ab3c84deb79693d759f4a47ccb8e71c04724be77"
+  },
+  {
+    "path": "sample_filter_nearest.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d6378f5a5ef191bf5906bdb3e367afc38b4fd9e",
+    "size": 650,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/1d6378f5a5ef191bf5906bdb3e367afc38b4fd9e"
+  },
+  {
+    "path": "sample_filter_smooth.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6458706463b787ac7fcc1aed645dd67a2fd413e2",
+    "size": 758,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/6458706463b787ac7fcc1aed645dd67a2fd413e2"
+  },
+  {
+    "path": "sample_triplanar.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d71456b9095ce4f6faf723e6cc7fa6f5688598a5",
+    "size": 914,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/d71456b9095ce4f6faf723e6cc7fa6f5688598a5"
+  },
+  {
+    "path": "sample_wrap.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa492b6c92194f1c2a7a5739826684f6d93c4414",
+    "size": 829,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/fa492b6c92194f1c2a7a5739826684f6d93c4414"
+  },
+  {
+    "path": "sample_wrap_clamp.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2134e96b17150be621da6c8ebe59be770ee20fd3",
+    "size": 790,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/2134e96b17150be621da6c8ebe59be770ee20fd3"
+  },
+  {
+    "path": "sample_wrap_mirror.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "046765278467055c76d0ae4994c79d2543c03da1",
+    "size": 782,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/046765278467055c76d0ae4994c79d2543c03da1"
+  },
+  {
+    "path": "sample_wrap_repeat.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c17b4deb04281c5098f986808511ee1328653cfc",
+    "size": 823,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/c17b4deb04281c5098f986808511ee1328653cfc"
+  },
+  {
+    "path": "sample_wrap_untile.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92726a521758a717dc932c29f9381c44aed19edc",
+    "size": 1010,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/92726a521758a717dc932c29f9381c44aed19edc"
+  },
+  {
+    "path": "sample_wrap_zero.frag",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94092772651d87de32cb59748e3341b79b2bf4ce",
+    "size": 610,
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/blobs/94092772651d87de32cb59748e3341b79b2bf4ce"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "371c724a42ad6bd7afd092b3d47e6a8d46238668",
+    "url": "https://api.github.com/repos/patriciogonzalezvivo/lygia_examples/git/trees/371c724a42ad6bd7afd092b3d47e6a8d46238668"
+  }
+]

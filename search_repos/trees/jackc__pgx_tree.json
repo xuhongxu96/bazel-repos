@@ -1,0 +1,404 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "39440e56a3daa011cf8bd2cf95ed6d73a1f3f186",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/39440e56a3daa011cf8bd2cf95ed6d73a1f3f186"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2ebbe9c60e0b84a78c14da84935c5e89d444e91",
+    "size": 280,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/a2ebbe9c60e0b84a78c14da84935c5e89d444e91"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e56878e8f64c1d78ac65218c4d8ef9e6297b5ed",
+    "size": 24297,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/1e56878e8f64c1d78ac65218c4d8ef9e6297b5ed"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c975a937242cfa5fa15628629a1e3dd352ac1bfd",
+    "size": 4797,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/c975a937242cfa5fa15628629a1e3dd352ac1bfd"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c486c39a2244d0637a7cd47626cbaee8ac92aa6",
+    "size": 1078,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/5c486c39a2244d0637a7cd47626cbaee8ac92aa6"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17b781b0d9a2e31a00fc71fac14489dac828b096",
+    "size": 7842,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/17b781b0d9a2e31a00fc71fac14489dac828b096"
+  },
+  {
+    "path": "Rakefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e3aa5030d306b58495994bf2968cd4b416582e4",
+    "size": 463,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/3e3aa5030d306b58495994bf2968cd4b416582e4"
+  },
+  {
+    "path": "batch.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3c2834f2d9e8f40742a0947661faad5b5d7b1f1",
+    "size": 11600,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/c3c2834f2d9e8f40742a0947661faad5b5d7b1f1"
+  },
+  {
+    "path": "batch_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1bc25de6208713fc936ade5445f2ff836deb6f8",
+    "size": 27381,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/b1bc25de6208713fc936ade5445f2ff836deb6f8"
+  },
+  {
+    "path": "bench_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bafdb05c77b3c95098d008e3681103bf4b01f4ad",
+    "size": 35086,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/bafdb05c77b3c95098d008e3681103bf4b01f4ad"
+  },
+  {
+    "path": "ci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8c2a8cb80514ff81704440dfab2352a982b0e811",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/8c2a8cb80514ff81704440dfab2352a982b0e811"
+  },
+  {
+    "path": "conn.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67b2252930f9d192602c5aba8d9653c6b41dde93",
+    "size": 46887,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/67b2252930f9d192602c5aba8d9653c6b41dde93"
+  },
+  {
+    "path": "conn_internal_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3127ef7d296ab9fead93bef312e8d369dad8502",
+    "size": 1531,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/d3127ef7d296ab9fead93bef312e8d369dad8502"
+  },
+  {
+    "path": "conn_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d51f829b90e95ccf4ce09fd03b7582e25a89db72",
+    "size": 43396,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/d51f829b90e95ccf4ce09fd03b7582e25a89db72"
+  },
+  {
+    "path": "copy_from.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abcd223964977936e09354db07b13581e7e81498",
+    "size": 7267,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/abcd223964977936e09354db07b13581e7e81498"
+  },
+  {
+    "path": "copy_from_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "423337e45787a921a7800875678c7fc886381abc",
+    "size": 22418,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/423337e45787a921a7800875678c7fc886381abc"
+  },
+  {
+    "path": "derived_types.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72c0a242366d7c1e1324c3d7150c730cb593b280",
+    "size": 9732,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/72c0a242366d7c1e1324c3d7150c730cb593b280"
+  },
+  {
+    "path": "derived_types_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6fb6e1d362461663fef2572191583544f0116c9a",
+    "size": 1224,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/6fb6e1d362461663fef2572191583544f0116c9a"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d2ae3889a0cf2fe97db22f04273e37b6849180b",
+    "size": 7179,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/5d2ae3889a0cf2fe97db22f04273e37b6849180b"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f6e5e7a4c00349351cb9ca0635f75d6bcd465e49",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/f6e5e7a4c00349351cb9ca0635f75d6bcd465e49"
+  },
+  {
+    "path": "extended_query_builder.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "526b0e953be4fdf1c6c5c65095254091ab981b52",
+    "size": 3895,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/526b0e953be4fdf1c6c5c65095254091ab981b52"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be133f15d35478770fc9e65a85d375623657bc2e",
+    "size": 566,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/be133f15d35478770fc9e65a85d375623657bc2e"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e112808c0c49e9a53bf4653d115d5d582dcf04d2",
+    "size": 3948,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/e112808c0c49e9a53bf4653d115d5d582dcf04d2"
+  },
+  {
+    "path": "helper_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5b650766b41747b70bd3f77e410fdb72f3f0e1b",
+    "size": 5116,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/c5b650766b41747b70bd3f77e410fdb72f3f0e1b"
+  },
+  {
+    "path": "internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e37e97e8fd41a732471e6f1048343f2a3ad3984e",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/e37e97e8fd41a732471e6f1048343f2a3ad3984e"
+  },
+  {
+    "path": "large_objects.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d21afdce9186d97709848109632cc5f9a783932",
+    "size": 4605,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/9d21afdce9186d97709848109632cc5f9a783932"
+  },
+  {
+    "path": "large_objects_private_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36eca8f06cbfb7f26bf5722321f9119bac294649",
+    "size": 457,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/36eca8f06cbfb7f26bf5722321f9119bac294649"
+  },
+  {
+    "path": "large_objects_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de2eed0d89c7fc6a51924edcc9b98050299c52b9",
+    "size": 5899,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/de2eed0d89c7fc6a51924edcc9b98050299c52b9"
+  },
+  {
+    "path": "log",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c0a725684b16808cc6550ddc1d7d85c51495cf6",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/2c0a725684b16808cc6550ddc1d7d85c51495cf6"
+  },
+  {
+    "path": "multitracer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b2e767ca7832bf3c0f10c0be45ba5a03fb17b91",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/6b2e767ca7832bf3c0f10c0be45ba5a03fb17b91"
+  },
+  {
+    "path": "named_args.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c88991ee4a923b2f158de4685e68fb3205d3567a",
+    "size": 6947,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/c88991ee4a923b2f158de4685e68fb3205d3567a"
+  },
+  {
+    "path": "named_args_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cab2f4d220a4fce04766711fa2e4085e38a970c",
+    "size": 4533,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/8cab2f4d220a4fce04766711fa2e4085e38a970c"
+  },
+  {
+    "path": "pgbouncer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac22b679c10a963262a1afee8d7e4d0f0628fa30",
+    "size": 2113,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/ac22b679c10a963262a1afee8d7e4d0f0628fa30"
+  },
+  {
+    "path": "pgconn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ab0899ede46caaa5113ba63d2ce79e5458332c0",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/2ab0899ede46caaa5113ba63d2ce79e5458332c0"
+  },
+  {
+    "path": "pgproto3",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cdd2f9e1156a64677a61c1f7f5ca62f19ddebc49",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/cdd2f9e1156a64677a61c1f7f5ca62f19ddebc49"
+  },
+  {
+    "path": "pgtype",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "51709bdaccfdad9e4d7b18491d1bef9ad2ac8350",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/51709bdaccfdad9e4d7b18491d1bef9ad2ac8350"
+  },
+  {
+    "path": "pgx_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51b4bbc4ea39ce9f80d5442305ba5e277a3d469b",
+    "size": 404,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/51b4bbc4ea39ce9f80d5442305ba5e277a3d469b"
+  },
+  {
+    "path": "pgxpool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "faa568810f6328ddc15c0da325db2ca29961b993",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/faa568810f6328ddc15c0da325db2ca29961b993"
+  },
+  {
+    "path": "pgxtest",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a02013e02ef1fa7e0f6d14377fc15b1a748cbcaf",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/a02013e02ef1fa7e0f6d14377fc15b1a748cbcaf"
+  },
+  {
+    "path": "pipeline_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8590bf9f4a69c1e3f17963d550781dc486cf16d",
+    "size": 2094,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/b8590bf9f4a69c1e3f17963d550781dc486cf16d"
+  },
+  {
+    "path": "query_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9519ff60580aa8d2e3ae40c1c5b1bed2173eac91",
+    "size": 60118,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/9519ff60580aa8d2e3ae40c1c5b1bed2173eac91"
+  },
+  {
+    "path": "rows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aaca780633d62d5e20c345d46a34fc01b60e9ea2",
+    "size": 25169,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/aaca780633d62d5e20c345d46a34fc01b60e9ea2"
+  },
+  {
+    "path": "rows_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cda957fc758d4456adc042feb4afbf2d4821d9c",
+    "size": 30119,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/4cda957fc758d4456adc042feb4afbf2d4821d9c"
+  },
+  {
+    "path": "stdlib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d038aacd66571f34e4168e005c49ce452f34f367",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/d038aacd66571f34e4168e005c49ce452f34f367"
+  },
+  {
+    "path": "testsetup",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d4c2fc3e13918ddc36aa6cfa78154ee214a69e35",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/d4c2fc3e13918ddc36aa6cfa78154ee214a69e35"
+  },
+  {
+    "path": "tracelog",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0f46587a2645181f26c14ee2bc53fb63f086384",
+    "url": "https://api.github.com/repos/jackc/pgx/git/trees/a0f46587a2645181f26c14ee2bc53fb63f086384"
+  },
+  {
+    "path": "tracer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58ca99f7e007424146a4a677cb6125c097534465",
+    "size": 3023,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/58ca99f7e007424146a4a677cb6125c097534465"
+  },
+  {
+    "path": "tracer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8920313ff177ae7481186131f5bbf04a39e2b6c4",
+    "size": 19899,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/8920313ff177ae7481186131f5bbf04a39e2b6c4"
+  },
+  {
+    "path": "tx.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "571e5e00f8799544d52ade736647af4192a6285a",
+    "size": 13755,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/571e5e00f8799544d52ade736647af4192a6285a"
+  },
+  {
+    "path": "tx_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd4fb20748267f934f73fa91a6ea62f4e9644bbc",
+    "size": 16074,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/cd4fb20748267f934f73fa91a6ea62f4e9644bbc"
+  },
+  {
+    "path": "values.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e2ff30030e43a8a23f4ca54b59a81f035eb7b32",
+    "size": 1350,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/6e2ff30030e43a8a23f4ca54b59a81f035eb7b32"
+  },
+  {
+    "path": "values_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01550c9c072fc5307387b6cb435d1bfc35b3d5ff",
+    "size": 32901,
+    "url": "https://api.github.com/repos/jackc/pgx/git/blobs/01550c9c072fc5307387b6cb435d1bfc35b3d5ff"
+  }
+]

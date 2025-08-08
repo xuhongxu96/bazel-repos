@@ -1,0 +1,841 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a81db8083a35f06f2b5d459171d2650c850865be",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/a81db8083a35f06f2b5d459171d2650c850865be"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22b26fd46da9ab7c0a908ee42d45f87c6a8b8a5e",
+    "size": 29,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/22b26fd46da9ab7c0a908ee42d45f87c6a8b8a5e"
+  },
+  {
+    "path": ".tc39_test262_checkout.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1500daa976a4aed794fd6e56e7746210afd81de2",
+    "size": 289,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/1500daa976a4aed794fd6e56e7746210afd81de2"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09c000454f729cae7a9317bd348f79c097d670cb",
+    "size": 1090,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/09c000454f729cae7a9317bd348f79c097d670cb"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "959341d299788dbef4cb975b162a01b8e712ac76",
+    "size": 11413,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/959341d299788dbef4cb975b162a01b8e712ac76"
+  },
+  {
+    "path": "array.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a67a47c16eea9ec65f6e3cfa9cbe7d85c59564e",
+    "size": 13697,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/7a67a47c16eea9ec65f6e3cfa9cbe7d85c59564e"
+  },
+  {
+    "path": "array_sparse.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f99afd7e6dda27e169b8417850ec28b1574b1713",
+    "size": 12425,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/f99afd7e6dda27e169b8417850ec28b1574b1713"
+  },
+  {
+    "path": "array_sparse_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a635cf972a6a17a35f56819707549e9c7fb9136",
+    "size": 5588,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/9a635cf972a6a17a35f56819707549e9c7fb9136"
+  },
+  {
+    "path": "array_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbbd4aafce469b4e22965268cef06e42811661b1",
+    "size": 2202,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/fbbd4aafce469b4e22965268cef06e42811661b1"
+  },
+  {
+    "path": "ast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f346e17cf8729639f5127ccc6cef0af7bc750aae",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/f346e17cf8729639f5127ccc6cef0af7bc750aae"
+  },
+  {
+    "path": "builtin_array.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "147bf4b8c1a19dff92fd357275910f4f6be9881b",
+    "size": 47678,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/147bf4b8c1a19dff92fd357275910f4f6be9881b"
+  },
+  {
+    "path": "builtin_arrray_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2fcc15e8ffc1cdd5917086403a803011d0782a2a",
+    "size": 9280,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/2fcc15e8ffc1cdd5917086403a803011d0782a2a"
+  },
+  {
+    "path": "builtin_bigint.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a50ebcf2aca120a712e7d58d3d98b131a12ad8a4",
+    "size": 9765,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/a50ebcf2aca120a712e7d58d3d98b131a12ad8a4"
+  },
+  {
+    "path": "builtin_bigint_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79df861a4aa36e0b2ed4b624e0ba62f8238bf515",
+    "size": 4113,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/79df861a4aa36e0b2ed4b624e0ba62f8238bf515"
+  },
+  {
+    "path": "builtin_boolean.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8476328511b9d64d5e230100eba847e48150e94d",
+    "size": 1967,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/8476328511b9d64d5e230100eba847e48150e94d"
+  },
+  {
+    "path": "builtin_date.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84a80ac02b2277aaab1d93641c51bc460bf7f002",
+    "size": 31228,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/84a80ac02b2277aaab1d93641c51bc460bf7f002"
+  },
+  {
+    "path": "builtin_error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7eae7da5bebd979c4797df3fd22c2b43d7ad9d1",
+    "size": 8394,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/a7eae7da5bebd979c4797df3fd22c2b43d7ad9d1"
+  },
+  {
+    "path": "builtin_function.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79cb2c2d8d8f8aff044dd33356f0c1b003298b58",
+    "size": 11449,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/79cb2c2d8d8f8aff044dd33356f0c1b003298b58"
+  },
+  {
+    "path": "builtin_function_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "249cb3656924d35d6feca978f56c01a6cb29f442",
+    "size": 433,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/249cb3656924d35d6feca978f56c01a6cb29f442"
+  },
+  {
+    "path": "builtin_global.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c6385aeb808e0c7e4e57c8f32b4433df7824608",
+    "size": 15040,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/2c6385aeb808e0c7e4e57c8f32b4433df7824608"
+  },
+  {
+    "path": "builtin_global_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ac8d7f175aaf50e6ad7b474cd49944d3a79f459",
+    "size": 407,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/5ac8d7f175aaf50e6ad7b474cd49944d3a79f459"
+  },
+  {
+    "path": "builtin_json.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd4a7bcaba75ebbbb3016dae8293c8c852a06ab0",
+    "size": 12298,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/cd4a7bcaba75ebbbb3016dae8293c8c852a06ab0"
+  },
+  {
+    "path": "builtin_json_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a71c54e4de98282a4f01243d28a2de12980b69bd",
+    "size": 3068,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/a71c54e4de98282a4f01243d28a2de12980b69bd"
+  },
+  {
+    "path": "builtin_map.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "819d025fe1080106c0d8996544675f86042f7a8d",
+    "size": 9368,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/819d025fe1080106c0d8996544675f86042f7a8d"
+  },
+  {
+    "path": "builtin_map_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6afafead0f750ed6ad27aab9d19bef54396d90e",
+    "size": 4222,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/e6afafead0f750ed6ad27aab9d19bef54396d90e"
+  },
+  {
+    "path": "builtin_math.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "169ea18ca4bef1a736566c03c2d58f9901252514",
+    "size": 11259,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/169ea18ca4bef1a736566c03c2d58f9901252514"
+  },
+  {
+    "path": "builtin_number.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43add4ffb3e6ebe5cb9876e2940cec8631e36acc",
+    "size": 8756,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/43add4ffb3e6ebe5cb9876e2940cec8631e36acc"
+  },
+  {
+    "path": "builtin_object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bf1ff80ae9106c6480f2caf7278af2739ae77ab",
+    "size": 19845,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/6bf1ff80ae9106c6480f2caf7278af2739ae77ab"
+  },
+  {
+    "path": "builtin_promise.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "205f155279343b257543f4f6b5c947529a4847b3",
+    "size": 19798,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/205f155279343b257543f4f6b5c947529a4847b3"
+  },
+  {
+    "path": "builtin_proxy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f589930677e8dca250b4edddf3105541cc12e58b",
+    "size": 14240,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/f589930677e8dca250b4edddf3105541cc12e58b"
+  },
+  {
+    "path": "builtin_proxy_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64ccafde875d53b7f6e460ee2e4da622034d40a3",
+    "size": 27377,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/64ccafde875d53b7f6e460ee2e4da622034d40a3"
+  },
+  {
+    "path": "builtin_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17bb11a36d6f836e6308f5a27d7f091165f64656",
+    "size": 5127,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/17bb11a36d6f836e6308f5a27d7f091165f64656"
+  },
+  {
+    "path": "builtin_regexp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdc0d9db203813c442f2f8b224152aa889185bf6",
+    "size": 35351,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/cdc0d9db203813c442f2f8b224152aa889185bf6"
+  },
+  {
+    "path": "builtin_set.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eeedb887c7ff9d3a4dac55518a3af7bcb9b904cc",
+    "size": 9163,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/eeedb887c7ff9d3a4dac55518a3af7bcb9b904cc"
+  },
+  {
+    "path": "builtin_set_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd5fc6a516f47a8ff1509f1bf407337961023fd2",
+    "size": 2832,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/bd5fc6a516f47a8ff1509f1bf407337961023fd2"
+  },
+  {
+    "path": "builtin_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "067c615dcd2bd66bb7da23f2b69bdeb5fee74b19",
+    "size": 30421,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/067c615dcd2bd66bb7da23f2b69bdeb5fee74b19"
+  },
+  {
+    "path": "builtin_string_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c217f0a2a88987a0617ee4b6e890dc7544ccb2a",
+    "size": 8416,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/2c217f0a2a88987a0617ee4b6e890dc7544ccb2a"
+  },
+  {
+    "path": "builtin_symbol.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8231b7bfcb786058c53926be9497bc452c520618",
+    "size": 4919,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/8231b7bfcb786058c53926be9497bc452c520618"
+  },
+  {
+    "path": "builtin_typedarrays.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38c0376b40413cf4eca6c367872782e36817bb44",
+    "size": 69532,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/38c0376b40413cf4eca6c367872782e36817bb44"
+  },
+  {
+    "path": "builtin_typedarrays_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad9f6d87d46a62bf996adc04c5ca5fbce398c125",
+    "size": 7363,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/ad9f6d87d46a62bf996adc04c5ca5fbce398c125"
+  },
+  {
+    "path": "builtin_weakmap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "40fc717db13dff10a3d5869fd275034a72c0d14f",
+    "size": 4800,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/40fc717db13dff10a3d5869fd275034a72c0d14f"
+  },
+  {
+    "path": "builtin_weakmap_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "648320de8abcf42e8faf4f8e0d7adb762ffe15c6",
+    "size": 1300,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/648320de8abcf42e8faf4f8e0d7adb762ffe15c6"
+  },
+  {
+    "path": "builtin_weakset.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd8183e59127c1719f6b013e821dd236753ac277",
+    "size": 3779,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/cd8183e59127c1719f6b013e821dd236753ac277"
+  },
+  {
+    "path": "builtin_weakset_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "edd1b17cd25e0430c41834070c0dc0a499832b2d",
+    "size": 1834,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/edd1b17cd25e0430c41834070c0dc0a499832b2d"
+  },
+  {
+    "path": "compiler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ef84253434380f628b2944db835fccddb41a8f9",
+    "size": 36251,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/8ef84253434380f628b2944db835fccddb41a8f9"
+  },
+  {
+    "path": "compiler_expr.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f537415d35f9249094fced4f34c98381b2ec0b7",
+    "size": 83308,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/3f537415d35f9249094fced4f34c98381b2ec0b7"
+  },
+  {
+    "path": "compiler_stmt.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c09b07ba392786c8dfc1e4169e1104ae3a1bab8",
+    "size": 28644,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/0c09b07ba392786c8dfc1e4169e1104ae3a1bab8"
+  },
+  {
+    "path": "compiler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c27af2a5ae392e468b18eb393db0b8db8780dfb",
+    "size": 103183,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/4c27af2a5ae392e468b18eb393db0b8db8780dfb"
+  },
+  {
+    "path": "date.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "917c92923129311438ba921a1d0666047319ea5e",
+    "size": 2456,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/917c92923129311438ba921a1d0666047319ea5e"
+  },
+  {
+    "path": "date_parser.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "971f1eed7ca74797bcf8fb34275859e8c17e1d54",
+    "size": 8494,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/971f1eed7ca74797bcf8fb34275859e8c17e1d54"
+  },
+  {
+    "path": "date_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3ef7bab5fcfb813744e9682db51dbabacc7be08",
+    "size": 22186,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/a3ef7bab5fcfb813744e9682db51dbabacc7be08"
+  },
+  {
+    "path": "destruct.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66792dc3f65cbfe12ee4da2477af9626f10fd8e7",
+    "size": 7780,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/66792dc3f65cbfe12ee4da2477af9626f10fd8e7"
+  },
+  {
+    "path": "extract_failed_tests.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c32513fdf692cf7a27b05cfa585fcd47eabb388c",
+    "size": 79,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/c32513fdf692cf7a27b05cfa585fcd47eabb388c"
+  },
+  {
+    "path": "file",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1ca6efeb616cdb0c9b823cd2a8d5b6f2c782c17b",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/1ca6efeb616cdb0c9b823cd2a8d5b6f2c782c17b"
+  },
+  {
+    "path": "ftoa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a948acbe61845e72de4b830ee81b921407b267ef",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/a948acbe61845e72de4b830ee81b921407b267ef"
+  },
+  {
+    "path": "func.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fea3230bd7172b0874f97937ac13734bc1f1510b",
+    "size": 25702,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/fea3230bd7172b0874f97937ac13734bc1f1510b"
+  },
+  {
+    "path": "func_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f2720ce18c97457200cc2b2f96e7faa26dc3529",
+    "size": 5647,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/0f2720ce18c97457200cc2b2f96e7faa26dc3529"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "103a3f1255bc838204774cfff797a31c890c8a1b",
+    "size": 410,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/103a3f1255bc838204774cfff797a31c890c8a1b"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14a87f46d375b13de42900ed7696677dd6920453",
+    "size": 3277,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/14a87f46d375b13de42900ed7696677dd6920453"
+  },
+  {
+    "path": "goja",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a8cf1b77d06bcafad2bc9a045d54f795a977a814",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/a8cf1b77d06bcafad2bc9a045d54f795a977a814"
+  },
+  {
+    "path": "ipow.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ee0d4db9178778b1ffe69e35362006c6a7e101a",
+    "size": 1428,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/5ee0d4db9178778b1ffe69e35362006c6a7e101a"
+  },
+  {
+    "path": "map.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b092b0d0494b33e096c20df686ca8b1bc6581fd3",
+    "size": 3024,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/b092b0d0494b33e096c20df686ca8b1bc6581fd3"
+  },
+  {
+    "path": "map_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a743e417db6f1a4dafffa90fd51c160cfb37e8d",
+    "size": 4923,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/8a743e417db6f1a4dafffa90fd51c160cfb37e8d"
+  },
+  {
+    "path": "object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79bd67df429712c53ddab282ca32c4f2880b8dfe",
+    "size": 45247,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/79bd67df429712c53ddab282ca32c4f2880b8dfe"
+  },
+  {
+    "path": "object_args.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb41d01ce04522721d7ac8f16ebfb9ef88235e60",
+    "size": 3393,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/eb41d01ce04522721d7ac8f16ebfb9ef88235e60"
+  },
+  {
+    "path": "object_dynamic.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1e3161e94430843b472745de4c473a6420ad853",
+    "size": 21778,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/b1e3161e94430843b472745de4c473a6420ad853"
+  },
+  {
+    "path": "object_dynamic_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fedb8f6a44464d45320402d78657837ebe1c2599",
+    "size": 8288,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/fedb8f6a44464d45320402d78657837ebe1c2599"
+  },
+  {
+    "path": "object_goarray_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e40364db9e900c9ae0177ae52bea2371b039acf3",
+    "size": 8658,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/e40364db9e900c9ae0177ae52bea2371b039acf3"
+  },
+  {
+    "path": "object_goarray_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d89aa761a31852b1e4fbe09429eb1315be55195",
+    "size": 5754,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/9d89aa761a31852b1e4fbe09429eb1315be55195"
+  },
+  {
+    "path": "object_gomap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82138c28aafd57ee965956e3a4c00a8daa3056da",
+    "size": 3615,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/82138c28aafd57ee965956e3a4c00a8daa3056da"
+  },
+  {
+    "path": "object_gomap_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4c1a0617ea49e66c57d9609d1d8bc205eeff20f",
+    "size": 7400,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/d4c1a0617ea49e66c57d9609d1d8bc205eeff20f"
+  },
+  {
+    "path": "object_gomap_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8603c26e2b4d376dbcc1fe0e269f514172c43780",
+    "size": 6309,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/8603c26e2b4d376dbcc1fe0e269f514172c43780"
+  },
+  {
+    "path": "object_gomap_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81225febaaa803f991c6dbb7c7b180525830457d",
+    "size": 5821,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/81225febaaa803f991c6dbb7c7b180525830457d"
+  },
+  {
+    "path": "object_goreflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5b5e8f205f578494680f39c4a909e3ff32dcc02",
+    "size": 17118,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/f5b5e8f205f578494680f39c4a909e3ff32dcc02"
+  },
+  {
+    "path": "object_goreflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b71b33202d5638bb80aa0369cc5162837a17d40",
+    "size": 31861,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/8b71b33202d5638bb80aa0369cc5162837a17d40"
+  },
+  {
+    "path": "object_goslice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a5220746d88b8a919381ad4b1c9d008d2f32153",
+    "size": 7946,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/1a5220746d88b8a919381ad4b1c9d008d2f32153"
+  },
+  {
+    "path": "object_goslice_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c28d8cd00f67246cf005dd45b0c19e11d3c32a7",
+    "size": 2270,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/4c28d8cd00f67246cf005dd45b0c19e11d3c32a7"
+  },
+  {
+    "path": "object_goslice_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6137c38bba79449d6cb0f4ba139feb7ed4e1dc0",
+    "size": 9798,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/c6137c38bba79449d6cb0f4ba139feb7ed4e1dc0"
+  },
+  {
+    "path": "object_goslice_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bef479f257037c8c624a9a35dc1604b080e7d3d",
+    "size": 5584,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/1bef479f257037c8c624a9a35dc1604b080e7d3d"
+  },
+  {
+    "path": "object_template.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d42f9f9805c24e360a279931a75bba6d61f04ca",
+    "size": 11635,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/6d42f9f9805c24e360a279931a75bba6d61f04ca"
+  },
+  {
+    "path": "object_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45b95bc5e5344489a7e5487e3ccd0c4fef42f3bd",
+    "size": 12565,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/45b95bc5e5344489a7e5487e3ccd0c4fef42f3bd"
+  },
+  {
+    "path": "parser",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "01a7c66b2f97292e99db41107e4e50a47b4a042f",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/01a7c66b2f97292e99db41107e4e50a47b4a042f"
+  },
+  {
+    "path": "profiler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d21ad1d95e3c31cf2b332b71553e77be558b79d",
+    "size": 8328,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/3d21ad1d95e3c31cf2b332b71553e77be558b79d"
+  },
+  {
+    "path": "profiler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99478e6fb3b9e5bd47f4600e298830882b4e004e",
+    "size": 2045,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/99478e6fb3b9e5bd47f4600e298830882b4e004e"
+  },
+  {
+    "path": "proxy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9bd8c96752dd234e80ef853f4766a12b52665ec",
+    "size": 32566,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/e9bd8c96752dd234e80ef853f4766a12b52665ec"
+  },
+  {
+    "path": "regexp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f70c34d9543bc2ca09f4e43785a02e49a52cd617",
+    "size": 15866,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/f70c34d9543bc2ca09f4e43785a02e49a52cd617"
+  },
+  {
+    "path": "regexp_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04498e51b511a824ee3481136aa118fbfec3c88d",
+    "size": 29548,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/04498e51b511a824ee3481136aa118fbfec3c88d"
+  },
+  {
+    "path": "runtime.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cccb4693bce68fe4530280eed56418cba8c2405",
+    "size": 81940,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/9cccb4693bce68fe4530280eed56418cba8c2405"
+  },
+  {
+    "path": "runtime_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "801a9999bd6f6281e1f8808d042fb737cb06c3ff",
+    "size": 63359,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/801a9999bd6f6281e1f8808d042fb737cb06c3ff"
+  },
+  {
+    "path": "staticcheck.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2441b9d1ecaddcbf460f2499b9b61e9e50f410fa",
+    "size": 105,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/2441b9d1ecaddcbf460f2499b9b61e9e50f410fa"
+  },
+  {
+    "path": "string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0eaf3ef9d3614a2d7d87b01ff697e72dd0d3a06a",
+    "size": 9703,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/0eaf3ef9d3614a2d7d87b01ff697e72dd0d3a06a"
+  },
+  {
+    "path": "string_ascii.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b13784b5c42b6e83453fb7278f37cc28758c890",
+    "size": 7690,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/6b13784b5c42b6e83453fb7278f37cc28758c890"
+  },
+  {
+    "path": "string_imported.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c6cae88d0992700492177d76eb437d2bd918a17",
+    "size": 6030,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/1c6cae88d0992700492177d76eb437d2bd918a17"
+  },
+  {
+    "path": "string_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df242fcc827c82bab71d3a2ef3c37d01af2350ed",
+    "size": 4824,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/df242fcc827c82bab71d3a2ef3c37d01af2350ed"
+  },
+  {
+    "path": "string_unicode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49e363fe8f95e342e61925a440072c38685e4341",
+    "size": 12315,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/49e363fe8f95e342e61925a440072c38685e4341"
+  },
+  {
+    "path": "tc39_norace_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a1a18c6263f81066c838df21d2e53b839f22b31",
+    "size": 319,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/9a1a18c6263f81066c838df21d2e53b839f22b31"
+  },
+  {
+    "path": "tc39_race_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e17bd121538202322609bb405afc9d95201ca65e",
+    "size": 622,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/e17bd121538202322609bb405afc9d95201ca65e"
+  },
+  {
+    "path": "tc39_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f14ca567afc429d4038078a136f4678367c0474",
+    "size": 27716,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/2f14ca567afc429d4038078a136f4678367c0474"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "200a409fccd8243ade51e0690396d0d0edabaa7e",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/200a409fccd8243ade51e0690396d0d0edabaa7e"
+  },
+  {
+    "path": "token",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f89ac8066e2113b37b60222fc19e1907c4c2054f",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/f89ac8066e2113b37b60222fc19e1907c4c2054f"
+  },
+  {
+    "path": "typedarrays.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67c46772397ee684f77a0576393274195f8b9ebb",
+    "size": 34616,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/67c46772397ee684f77a0576393274195f8b9ebb"
+  },
+  {
+    "path": "typedarrays_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92653d6a27e1544078904a1f25bf9f975f465447",
+    "size": 12802,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/92653d6a27e1544078904a1f25bf9f975f465447"
+  },
+  {
+    "path": "unistring",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b178daeb8e5c5ab69d594716193392e591277e10",
+    "url": "https://api.github.com/repos/dop251/goja/git/trees/b178daeb8e5c5ab69d594716193392e591277e10"
+  },
+  {
+    "path": "value.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8c36fc27989ebbd6a8466c47672d13eccd4858d",
+    "size": 26923,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/e8c36fc27989ebbd6a8466c47672d13eccd4858d"
+  },
+  {
+    "path": "vm.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0782930c26b6639682741125dd8d284f8e69627f",
+    "size": 118789,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/0782930c26b6639682741125dd8d284f8e69627f"
+  },
+  {
+    "path": "vm_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a88ff477605428f73295367aa74fe173228efbf2",
+    "size": 4703,
+    "url": "https://api.github.com/repos/dop251/goja/git/blobs/a88ff477605428f73295367aa74fe173228efbf2"
+  }
+]

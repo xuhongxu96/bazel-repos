@@ -1,0 +1,2826 @@
+[
+  {
+    "path": ".builders",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9eb7a984540f0e705d7a07170e0810ed84a7c9b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c9eb7a984540f0e705d7a07170e0810ed84a7c9b"
+  },
+  {
+    "path": ".codecov.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3cfc075f7df53d7f22d04d9e408dd86826ff1b5",
+    "size": 36123,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/b3cfc075f7df53d7f22d04d9e408dd86826ff1b5"
+  },
+  {
+    "path": ".codespell",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8cd724057807a3b343d61765725d8557d1da4a77",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8cd724057807a3b343d61765725d8557d1da4a77"
+  },
+  {
+    "path": ".coveragerc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c5b00de77c4bde279d77b70f122e6033cea6498",
+    "size": 1811,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/7c5b00de77c4bde279d77b70f122e6033cea6498"
+  },
+  {
+    "path": ".cursor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bfa726121f981039e2c30754342bf21dc5b075db",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/bfa726121f981039e2c30754342bf21dc5b075db"
+  },
+  {
+    "path": ".ddev",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "36d5e3e6eef6967244d34082ed071cae139bbafa",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/36d5e3e6eef6967244d34082ed071cae139bbafa"
+  },
+  {
+    "path": ".ddqa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c15b27243847374518fc2336c24e16e8b9f3beb1",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c15b27243847374518fc2336c24e16e8b9f3beb1"
+  },
+  {
+    "path": ".deps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a9610b5a6ab0f58b60ee9160ac8219f51815640",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5a9610b5a6ab0f58b60ee9160ac8219f51815640"
+  },
+  {
+    "path": ".devcontainer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf2718e2216bcc93d5e5ebe267c1056f3ac0c88e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/bf2718e2216bcc93d5e5ebe267c1056f3ac0c88e"
+  },
+  {
+    "path": ".dockerignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64844c521f74f7904077ac981846076b23f2ab9e",
+    "size": 76,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/64844c521f74f7904077ac981846076b23f2ab9e"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+    "size": 19,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee693eccb4afdb660e88cd11e6077e7eb6cf9f1b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ee693eccb4afdb660e88cd11e6077e7eb6cf9f1b"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01c7be6c56afed2da6ac96660db89c8b166e7cd4",
+    "size": 1762,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/01c7be6c56afed2da6ac96660db89c8b166e7cd4"
+  },
+  {
+    "path": ".gitlab-ci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9369aaa4ae7ca5ab392d4a0833dfc07f3291a14f",
+    "size": 5162,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/9369aaa4ae7ca5ab392d4a0833dfc07f3291a14f"
+  },
+  {
+    "path": ".gitlab",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1fb502f7f8f7e9cc696d6c9459f3484614ef5c0b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1fb502f7f8f7e9cc696d6c9459f3484614ef5c0b"
+  },
+  {
+    "path": ".in-toto",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac208c2730f514e651db6effccf82bcb14e004d8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ac208c2730f514e651db6effccf82bcb14e004d8"
+  },
+  {
+    "path": ".linkcheckerrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9841a87389f0d0b5421206cc64591cdda5321718",
+    "size": 81,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/9841a87389f0d0b5421206cc64591cdda5321718"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7da8713c1ce3c6dbbb0c0ffeb84aace1e2f472ee",
+    "size": 1047,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/7da8713c1ce3c6dbbb0c0ffeb84aace1e2f472ee"
+  },
+  {
+    "path": ".stubs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b0ee4a2d594b430716bd81ff7ce7a8887d149dd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2b0ee4a2d594b430716bd81ff7ce7a8887d149dd"
+  },
+  {
+    "path": "AGENT_CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "928d065962a57c02d89c0b112f6a867cd1a08305",
+    "size": 523679,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/928d065962a57c02d89c0b112f6a867cd1a08305"
+  },
+  {
+    "path": "AGENT_INTEGRATIONS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aede4b48869294d6d6fb81ef5b73b0a89bb71dbe",
+    "size": 499980,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/aede4b48869294d6d6fb81ef5b73b0a89bb71dbe"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f735d13c59561fc3fb1919a2a351406ce4425719",
+    "size": 2581,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/f735d13c59561fc3fb1919a2a351406ce4425719"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6da36ea86c2bbf69796fe59a71858cedfbd37be4",
+    "size": 1488,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/6da36ea86c2bbf69796fe59a71858cedfbd37be4"
+  },
+  {
+    "path": "LICENSE-3rdparty.csv",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4164f44dc651cb9337a80ba7a76c64a473cd6b5",
+    "size": 6189,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/f4164f44dc651cb9337a80ba7a76c64a473cd6b5"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6728a389a74b00677507d9fe6e381c287e7a05e",
+    "size": 3024,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/a6728a389a74b00677507d9fe6e381c287e7a05e"
+  },
+  {
+    "path": "active_directory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7577d1f76581a801262432905fad0709c663d385",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7577d1f76581a801262432905fad0709c663d385"
+  },
+  {
+    "path": "activemq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1eaf62705e7355a6ef842fc82406c3ab923723e4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1eaf62705e7355a6ef842fc82406c3ab923723e4"
+  },
+  {
+    "path": "activemq_xml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c771a4b1c13feece24a8140fb44315700e53dbf",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5c771a4b1c13feece24a8140fb44315700e53dbf"
+  },
+  {
+    "path": "adyen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "66bc42cd81a896f8d2d4a946e4aa0f13130d06a0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/66bc42cd81a896f8d2d4a946e4aa0f13130d06a0"
+  },
+  {
+    "path": "aerospike",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "442be3fc9829b06abfc97746a776b5c8eaf012d9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/442be3fc9829b06abfc97746a776b5c8eaf012d9"
+  },
+  {
+    "path": "agent_metrics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "714964d2483dc5d0b04c7d03171f487257edf9f7",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/714964d2483dc5d0b04c7d03171f487257edf9f7"
+  },
+  {
+    "path": "agent_requirements.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6dca680b918af135977dcd071b4a9597153e4155",
+    "size": 1552,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/6dca680b918af135977dcd071b4a9597153e4155"
+  },
+  {
+    "path": "airbyte",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c4355ae7f27b393b07e2f319fb6e086d10be1a12",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c4355ae7f27b393b07e2f319fb6e086d10be1a12"
+  },
+  {
+    "path": "airflow",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b057d349cc3084fb66f5c59d0c76be16ba13f2f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1b057d349cc3084fb66f5c59d0c76be16ba13f2f"
+  },
+  {
+    "path": "amazon_eks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0429cfc002704cae1c6ce601e6098cc494e69d0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e0429cfc002704cae1c6ce601e6098cc494e69d0"
+  },
+  {
+    "path": "amazon_eks_blueprints",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb35179088e4ffaafd6c37e464139275e3a33e8b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/eb35179088e4ffaafd6c37e464139275e3a33e8b"
+  },
+  {
+    "path": "amazon_msk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c43b7e4123dabb6cc66ef9b7960c55cc54f9cc3d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c43b7e4123dabb6cc66ef9b7960c55cc54f9cc3d"
+  },
+  {
+    "path": "ambari",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e67201850065be1a7b1cc60699be708c6501bbb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7e67201850065be1a7b1cc60699be708c6501bbb"
+  },
+  {
+    "path": "anthropic",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "58e6b74495ea6edd3bd730261e8f2631b99e5f84",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/58e6b74495ea6edd3bd730261e8f2631b99e5f84"
+  },
+  {
+    "path": "anyscale",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1dc2159968c9986004158e1f83ea022547096d52",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1dc2159968c9986004158e1f83ea022547096d52"
+  },
+  {
+    "path": "apache",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f7005aa89e2f5c539fc9d3364028b7f65c070f0b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f7005aa89e2f5c539fc9d3364028b7f65c070f0b"
+  },
+  {
+    "path": "appgate_sdp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c225f00b5194ec0f685ae62828dacbdcbd4ff00c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c225f00b5194ec0f685ae62828dacbdcbd4ff00c"
+  },
+  {
+    "path": "arangodb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03f25585d6eb12cabeb3c168428680912b46ea62",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/03f25585d6eb12cabeb3c168428680912b46ea62"
+  },
+  {
+    "path": "argo_rollouts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ee26fc42804171e347b44e13f7e4f1a6e7147d4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9ee26fc42804171e347b44e13f7e4f1a6e7147d4"
+  },
+  {
+    "path": "argo_workflows",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7093ee1e86216a4af870f053fc0d7587be2d6cab",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7093ee1e86216a4af870f053fc0d7587be2d6cab"
+  },
+  {
+    "path": "argocd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43d0ee732942afd24063ae64242451481e84e94f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/43d0ee732942afd24063ae64242451481e84e94f"
+  },
+  {
+    "path": "asana",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c7c078a6b5bea2230b943ed9e9da30770240b03f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c7c078a6b5bea2230b943ed9e9da30770240b03f"
+  },
+  {
+    "path": "aspdotnet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "216b94735de3a32777d707cdfdf27dd2f771681f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/216b94735de3a32777d707cdfdf27dd2f771681f"
+  },
+  {
+    "path": "authorize_net",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "251fb415b55888ab88195ad6426bee99530f8e6d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/251fb415b55888ab88195ad6426bee99530f8e6d"
+  },
+  {
+    "path": "avast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e08340a2aa040e3ecef2924649b8a3b2d72eef6",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2e08340a2aa040e3ecef2924649b8a3b2d72eef6"
+  },
+  {
+    "path": "avi_vantage",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "598124d039c584a66f931db630874608c4af7b8e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/598124d039c584a66f931db630874608c4af7b8e"
+  },
+  {
+    "path": "aws_neuron",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "297a39b1845479f6f19e3430940b16c9747adb5f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/297a39b1845479f6f19e3430940b16c9747adb5f"
+  },
+  {
+    "path": "azure_active_directory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7325c161eb3edeadb625f13d234d47c513252b1a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7325c161eb3edeadb625f13d234d47c513252b1a"
+  },
+  {
+    "path": "azure_iot_edge",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "33af1d3527071d5e5a7b808ed20cf4b0df5daf0a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/33af1d3527071d5e5a7b808ed20cf4b0df5daf0a"
+  },
+  {
+    "path": "beyondtrust_password_safe",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4a0f39846f5c5d4f8c4b636ac26e0f56218d276e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4a0f39846f5c5d4f8c4b636ac26e0f56218d276e"
+  },
+  {
+    "path": "bitdefender",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3df6ec089bf8617da3af1765f7863787bcb26a0e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3df6ec089bf8617da3af1765f7863787bcb26a0e"
+  },
+  {
+    "path": "bitwarden",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc54a20342342bdd18e0d1880cb35c9ec37d5c04",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/bc54a20342342bdd18e0d1880cb35c9ec37d5c04"
+  },
+  {
+    "path": "blazemeter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d69031f3a0c0174520fb0fd22341d0502153ece",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4d69031f3a0c0174520fb0fd22341d0502153ece"
+  },
+  {
+    "path": "boundary",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9e5bda1f9126a9ed4a15705e016340794311c307",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9e5bda1f9126a9ed4a15705e016340794311c307"
+  },
+  {
+    "path": "box",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b747437465a3b254cb3f615ba8e3080d87ab3490",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b747437465a3b254cb3f615ba8e3080d87ab3490"
+  },
+  {
+    "path": "brevo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25e90789cc8333900a1e550de7a434031064fc17",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/25e90789cc8333900a1e550de7a434031064fc17"
+  },
+  {
+    "path": "btrfs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "633273c95947b9aa8e8718ead64cde63951d1b34",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/633273c95947b9aa8e8718ead64cde63951d1b34"
+  },
+  {
+    "path": "cacti",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "11b2f6516387ab474d1a1042a6108f3479a20619",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/11b2f6516387ab474d1a1042a6108f3479a20619"
+  },
+  {
+    "path": "calico",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5241ac2519f2e3ae83ae7a42b9985a1d6f9065a2",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5241ac2519f2e3ae83ae7a42b9985a1d6f9065a2"
+  },
+  {
+    "path": "carbon_black_cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1d9fd913b303d6c4fc8a44fb184f697478eaf715",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1d9fd913b303d6c4fc8a44fb184f697478eaf715"
+  },
+  {
+    "path": "cassandra",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ce1182b0d3c95822313638b9683e976f8ef4bcd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8ce1182b0d3c95822313638b9683e976f8ef4bcd"
+  },
+  {
+    "path": "cassandra_nodetool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b25c8225208032ebc7ae8fea875aa38eeca565d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2b25c8225208032ebc7ae8fea875aa38eeca565d"
+  },
+  {
+    "path": "celery",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b3e321658c8cdd9dafe643b90cbe82cf8d6023a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6b3e321658c8cdd9dafe643b90cbe82cf8d6023a"
+  },
+  {
+    "path": "ceph",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "102595d7f4daf37344bb66d865f48b41e4196b6e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/102595d7f4daf37344bb66d865f48b41e4196b6e"
+  },
+  {
+    "path": "cert_manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "65670829fddf3f99e1999c631b61777289bc28ba",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/65670829fddf3f99e1999c631b61777289bc28ba"
+  },
+  {
+    "path": "changelog_template.jinja",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab0e397ed0f9322b772ea3df33549eb5f8bae68b",
+    "size": 310,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/ab0e397ed0f9322b772ea3df33549eb5f8bae68b"
+  },
+  {
+    "path": "checkpoint_harmony_email_and_collaboration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f09e50ef0f4119bcfd1f3558270c3305ff46ca5",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3f09e50ef0f4119bcfd1f3558270c3305ff46ca5"
+  },
+  {
+    "path": "checkpoint_quantum_firewall",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3620353d13fd1dfe6169b49952283a59a88b64b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b3620353d13fd1dfe6169b49952283a59a88b64b"
+  },
+  {
+    "path": "cilium",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2999544a874d562c3d425dbf03a03dcb8aff53e0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2999544a874d562c3d425dbf03a03dcb8aff53e0"
+  },
+  {
+    "path": "cisco_aci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ebf39e35cb90b76a04bae0cdde6633c6508d8e35",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ebf39e35cb90b76a04bae0cdde6633c6508d8e35"
+  },
+  {
+    "path": "cisco_duo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c537d0e1954838f94e748bd2d46e7d6bcbcbcfc",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9c537d0e1954838f94e748bd2d46e7d6bcbcbcfc"
+  },
+  {
+    "path": "cisco_sdwan",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e6ee5cfd0b4f1a74281fa3cd98df9bd9d71d95e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1e6ee5cfd0b4f1a74281fa3cd98df9bd9d71d95e"
+  },
+  {
+    "path": "cisco_secure_email_threat_defense",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5beec15407741e9d50cd9973d03c876923452791",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5beec15407741e9d50cd9973d03c876923452791"
+  },
+  {
+    "path": "cisco_secure_endpoint",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d484991485cdd757f765e864ba958f173ac5fbf3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d484991485cdd757f765e864ba958f173ac5fbf3"
+  },
+  {
+    "path": "cisco_secure_firewall",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b07c7991ec60efb1b983969f09c44221383b00b7",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b07c7991ec60efb1b983969f09c44221383b00b7"
+  },
+  {
+    "path": "cisco_secure_web_appliance",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "336d6cfe6a735da46fdf3fdb16f051c81060e680",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/336d6cfe6a735da46fdf3fdb16f051c81060e680"
+  },
+  {
+    "path": "cisco_umbrella_dns",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4168d563b80e2395e723047f006de9b0d4104acd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4168d563b80e2395e723047f006de9b0d4104acd"
+  },
+  {
+    "path": "citrix_hypervisor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "087e28b83fdd03991a4ca0f7363f61ee193f7f4b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/087e28b83fdd03991a4ca0f7363f61ee193f7f4b"
+  },
+  {
+    "path": "clickhouse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6beb30569eb27184c5ec08abc03733bc04d4942e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6beb30569eb27184c5ec08abc03733bc04d4942e"
+  },
+  {
+    "path": "cloud_foundry_api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba0ae791e95ac4220c50b840f9e87a34341fd051",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ba0ae791e95ac4220c50b840f9e87a34341fd051"
+  },
+  {
+    "path": "cloudera",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "204662c5723bd74dd87e002c8917e0d06ed30345",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/204662c5723bd74dd87e002c8917e0d06ed30345"
+  },
+  {
+    "path": "cockroachdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b33a7f80d9f0a028e51b2191d53aa3a0fdb779e5",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b33a7f80d9f0a028e51b2191d53aa3a0fdb779e5"
+  },
+  {
+    "path": "confluent_platform",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f4a19136d9ac9621d39c2536ae9961e66c9bacc0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f4a19136d9ac9621d39c2536ae9961e66c9bacc0"
+  },
+  {
+    "path": "consul",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a82b073017f373c3560a6c3d317bbf0fc01e29fe",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a82b073017f373c3560a6c3d317bbf0fc01e29fe"
+  },
+  {
+    "path": "consul_connect",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21edbca444a2a3367e9a5574868ea19e1b45ed45",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/21edbca444a2a3367e9a5574868ea19e1b45ed45"
+  },
+  {
+    "path": "container",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3221d833a86a3eae00a1b2f4fe89bf8c9eee9ae5",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3221d833a86a3eae00a1b2f4fe89bf8c9eee9ae5"
+  },
+  {
+    "path": "containerd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bdfee2342c08ad0e4e048a4b0abc5e9a5665a9ea",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/bdfee2342c08ad0e4e048a4b0abc5e9a5665a9ea"
+  },
+  {
+    "path": "contentful",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63a74d9bd8c11ab205ef3ebcf2301bdd7c67598f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/63a74d9bd8c11ab205ef3ebcf2301bdd7c67598f"
+  },
+  {
+    "path": "coredns",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09584bb7af29b61f7877541c2b24f0a2662eb525",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/09584bb7af29b61f7877541c2b24f0a2662eb525"
+  },
+  {
+    "path": "couch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b48f9ee6382483d3498b4c0c3cf237d48f4eba3e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b48f9ee6382483d3498b4c0c3cf237d48f4eba3e"
+  },
+  {
+    "path": "couchbase",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b1a81a5961c7ec3d5292d780a992027ae5696987",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b1a81a5961c7ec3d5292d780a992027ae5696987"
+  },
+  {
+    "path": "crewai",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d7ce50c9529999f0714a926d62bcb260bf4b9276",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d7ce50c9529999f0714a926d62bcb260bf4b9276"
+  },
+  {
+    "path": "cri",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "efade9c2b3a61e90bca9d67c39c8b8f89918e4ec",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/efade9c2b3a61e90bca9d67c39c8b8f89918e4ec"
+  },
+  {
+    "path": "crio",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6546f88b6d0264c9d5755fe780178d9e42812f77",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6546f88b6d0264c9d5755fe780178d9e42812f77"
+  },
+  {
+    "path": "databricks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7bff9c8a152e0cfd5423fa03cf5f01aec60478bd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7bff9c8a152e0cfd5423fa03cf5f01aec60478bd"
+  },
+  {
+    "path": "datadog_checks_base",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d93b4dbd1b4e864f4dbb1a772e1152b2dfd7522d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d93b4dbd1b4e864f4dbb1a772e1152b2dfd7522d"
+  },
+  {
+    "path": "datadog_checks_dependency_provider",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7042db43c98d6779f3f5984e0cd6581abcb4e4fe",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7042db43c98d6779f3f5984e0cd6581abcb4e4fe"
+  },
+  {
+    "path": "datadog_checks_dev",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e96c408f311c944c895268986d755e007d7e48c3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e96c408f311c944c895268986d755e007d7e48c3"
+  },
+  {
+    "path": "datadog_checks_downloader",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1f38000b84d7b3871ffe048624657c474b793fed",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1f38000b84d7b3871ffe048624657c474b793fed"
+  },
+  {
+    "path": "datadog_checks_tests_helper",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9206242870df00e7971cbd3f0c8fa7c8ffd052c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c9206242870df00e7971cbd3f0c8fa7c8ffd052c"
+  },
+  {
+    "path": "datadog_cluster_agent",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "73daf2fae2f7771884ecf67f568ebf759a06d2d1",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/73daf2fae2f7771884ecf67f568ebf759a06d2d1"
+  },
+  {
+    "path": "datadog_operator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4a5f080f59ec60c7737eb0701061b1041496cb54",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4a5f080f59ec60c7737eb0701061b1041496cb54"
+  },
+  {
+    "path": "dcgm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e99e8f678d61aada8e2837ed18a2bc616166b06",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2e99e8f678d61aada8e2837ed18a2bc616166b06"
+  },
+  {
+    "path": "ddev",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "673f2d8fe3cd1cbf65f2008a4451567f2ea9b690",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/673f2d8fe3cd1cbf65f2008a4451567f2ea9b690"
+  },
+  {
+    "path": "delinea_privilege_manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4fec74eec52348e54de8ce3ea56860a22920056f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4fec74eec52348e54de8ce3ea56860a22920056f"
+  },
+  {
+    "path": "delinea_secret_server",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2015753852ec3892d9bdcea984ef422c9a004d32",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2015753852ec3892d9bdcea984ef422c9a004d32"
+  },
+  {
+    "path": "directory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3c9fd4d8f1af384efeaf64ac4b366ca4017292d9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3c9fd4d8f1af384efeaf64ac4b366ca4017292d9"
+  },
+  {
+    "path": "disk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "505b0cabada22c180d8b83f6930ec002503bcacb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/505b0cabada22c180d8b83f6930ec002503bcacb"
+  },
+  {
+    "path": "dns_check",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "44d778eccc12d607ecb32b6015bd5dcba24b4d16",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/44d778eccc12d607ecb32b6015bd5dcba24b4d16"
+  },
+  {
+    "path": "dnsfilter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7689dd67a1728f9c17004d90b8f0bc2d1f1f8d42",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7689dd67a1728f9c17004d90b8f0bc2d1f1f8d42"
+  },
+  {
+    "path": "docker_daemon",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5838d75a9f129f9376bdf5aaf4230c5152ea1d5f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5838d75a9f129f9376bdf5aaf4230c5152ea1d5f"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac3e495676a22d1bda0bfda4e061bcdb4105e394",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ac3e495676a22d1bda0bfda4e061bcdb4105e394"
+  },
+  {
+    "path": "docusign",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1121bf5d3f8ecf625eddc001feab4a6fd36ec95d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1121bf5d3f8ecf625eddc001feab4a6fd36ec95d"
+  },
+  {
+    "path": "dotnetclr",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a94ea80599a7908eae45dd4c953be1a2480f24bb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a94ea80599a7908eae45dd4c953be1a2480f24bb"
+  },
+  {
+    "path": "druid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "942541077152a69b8c8d02929396402aed3e163d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/942541077152a69b8c8d02929396402aed3e163d"
+  },
+  {
+    "path": "duckdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a58596c4f910e6cee696434808fcd75dc7e770f0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a58596c4f910e6cee696434808fcd75dc7e770f0"
+  },
+  {
+    "path": "ecs_fargate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d04c890ad56b17bcb8e33663e927195486f5920b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d04c890ad56b17bcb8e33663e927195486f5920b"
+  },
+  {
+    "path": "eks_anywhere",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7b0cf4b01778bafd7de6830dfb909049d56be0d1",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7b0cf4b01778bafd7de6830dfb909049d56be0d1"
+  },
+  {
+    "path": "eks_fargate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2a6df81e5f9e790fbcb716886ea75f5d420e1243",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2a6df81e5f9e790fbcb716886ea75f5d420e1243"
+  },
+  {
+    "path": "elastic",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fac1dc4b8a59d10bb5cc14d71f61e57128e90069",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/fac1dc4b8a59d10bb5cc14d71f61e57128e90069"
+  },
+  {
+    "path": "envoy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6427de388e0c3c6788614e8af135d6bc59a60919",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6427de388e0c3c6788614e8af135d6bc59a60919"
+  },
+  {
+    "path": "eset_protect",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b6e8f52cd7bed935a978e5cb0329c051850fd7d8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b6e8f52cd7bed935a978e5cb0329c051850fd7d8"
+  },
+  {
+    "path": "esxi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d36505b0c28f20d6017549c457da059efc18dff4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d36505b0c28f20d6017549c457da059efc18dff4"
+  },
+  {
+    "path": "etcd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "69190e6b1192c1807521889bfe60f4ea12ac85da",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/69190e6b1192c1807521889bfe60f4ea12ac85da"
+  },
+  {
+    "path": "exchange_server",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6e65cd2f5fda09f4fa63459968d5e7beaa7f9c7a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6e65cd2f5fda09f4fa63459968d5e7beaa7f9c7a"
+  },
+  {
+    "path": "external_dns",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a031e54fcdc5dcfe2343ae522d4cb7068260e1a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5a031e54fcdc5dcfe2343ae522d4cb7068260e1a"
+  },
+  {
+    "path": "extrahop",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9a5c4a86f1cce212350b488911eaacaeb295bfa8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9a5c4a86f1cce212350b488911eaacaeb295bfa8"
+  },
+  {
+    "path": "falco",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9f4d75c8a792c54e99f2092e7099071ac473547",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c9f4d75c8a792c54e99f2092e7099071ac473547"
+  },
+  {
+    "path": "flink",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fcee0f8d186df83b0bdf5fcf902952b4c173b35b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/fcee0f8d186df83b0bdf5fcf902952b4c173b35b"
+  },
+  {
+    "path": "fluentd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea445e9abbc578a6c1f66fd5497438eb74f66612",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ea445e9abbc578a6c1f66fd5497438eb74f66612"
+  },
+  {
+    "path": "fluxcd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f5fe4c145a8e6acc785ebafbe109d6f54b3e48d9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f5fe4c145a8e6acc785ebafbe109d6f54b3e48d9"
+  },
+  {
+    "path": "fly_io",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4831dccb273dc0226456ff5396c5deb89e7ae2e2",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4831dccb273dc0226456ff5396c5deb89e7ae2e2"
+  },
+  {
+    "path": "forcepoint_secure_web_gateway",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fdaf450093424d82af6a7bc2f37895e7dbb3afe6",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/fdaf450093424d82af6a7bc2f37895e7dbb3afe6"
+  },
+  {
+    "path": "forcepoint_security_service_edge",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79218b5936fb1803b48a608a2c6b437df0c06d3d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/79218b5936fb1803b48a608a2c6b437df0c06d3d"
+  },
+  {
+    "path": "foundationdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99bcf11243beb5217c0ba7e74c6113617540b4d0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/99bcf11243beb5217c0ba7e74c6113617540b4d0"
+  },
+  {
+    "path": "freshservice",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "69c4ada2a0912e3715297f36decb595dbffb0067",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/69c4ada2a0912e3715297f36decb595dbffb0067"
+  },
+  {
+    "path": "gearmand",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c19e2eeabcb594595771f3ab307be3b661b3a6e4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c19e2eeabcb594595771f3ab307be3b661b3a6e4"
+  },
+  {
+    "path": "genesys",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ac251ddc30de351384c2faeb463274379bcaca1",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/0ac251ddc30de351384c2faeb463274379bcaca1"
+  },
+  {
+    "path": "gitlab",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "52aee9dec2d14fa10d8e8747a48357efd35e4cb6",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/52aee9dec2d14fa10d8e8747a48357efd35e4cb6"
+  },
+  {
+    "path": "gitlab_runner",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ca6f63eeb4f85c9fe4a1c7634e1f7d8cec3277e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/0ca6f63eeb4f85c9fe4a1c7634e1f7d8cec3277e"
+  },
+  {
+    "path": "gke",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a79e53f9e819b1e2157a0923ceddda674de645c3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a79e53f9e819b1e2157a0923ceddda674de645c3"
+  },
+  {
+    "path": "glusterfs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c4e04fcbbfb725644440f636e8ca7554526cd312",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c4e04fcbbfb725644440f636e8ca7554526cd312"
+  },
+  {
+    "path": "go-metro",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "583e0b3da5a208722009c2a6f7a3f34001daae36",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/583e0b3da5a208722009c2a6f7a3f34001daae36"
+  },
+  {
+    "path": "go_expvar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0deb9a861d0ecb86dec98dba03fd47e32a24747",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a0deb9a861d0ecb86dec98dba03fd47e32a24747"
+  },
+  {
+    "path": "godaddy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d7560a8280dbda5c53d0a65294f0eda5781b136",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2d7560a8280dbda5c53d0a65294f0eda5781b136"
+  },
+  {
+    "path": "gpu",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "da4a41d81248423391ed8739d2757a689433748d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/da4a41d81248423391ed8739d2757a689433748d"
+  },
+  {
+    "path": "greenhouse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e8f6fe737933018d7aebae322ce64b6e39aa7c7",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7e8f6fe737933018d7aebae322ce64b6e39aa7c7"
+  },
+  {
+    "path": "gunicorn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac26c7372198e58a1e6d14da073f835aa678b9ed",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ac26c7372198e58a1e6d14da073f835aa678b9ed"
+  },
+  {
+    "path": "haproxy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "362a516b0c0b9db9ed74457cfc499cae9c27f916",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/362a516b0c0b9db9ed74457cfc499cae9c27f916"
+  },
+  {
+    "path": "harbor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b5c4d6f315ab8d3048d70cdb58ec165b33c3934",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3b5c4d6f315ab8d3048d70cdb58ec165b33c3934"
+  },
+  {
+    "path": "hatch.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9602bdfeb3f74d72c69c90a31596e12175e6988",
+    "size": 1329,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/c9602bdfeb3f74d72c69c90a31596e12175e6988"
+  },
+  {
+    "path": "hazelcast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "30fbb912f58aa06fc5eaa16a5a347c9c8a7e8865",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/30fbb912f58aa06fc5eaa16a5a347c9c8a7e8865"
+  },
+  {
+    "path": "hdfs_datanode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a571af34a7df886b1767917ccd06e86ff01af5ea",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a571af34a7df886b1767917ccd06e86ff01af5ea"
+  },
+  {
+    "path": "hdfs_namenode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "93eb937ea90467d99c3f898237f253a7ef40ae48",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/93eb937ea90467d99c3f898237f253a7ef40ae48"
+  },
+  {
+    "path": "helm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7fce3f632dccbc4064496a25dbec10358a91d8b8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7fce3f632dccbc4064496a25dbec10358a91d8b8"
+  },
+  {
+    "path": "hive",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fcd2713371f0d46409424692dfdea9417b73c9ad",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/fcd2713371f0d46409424692dfdea9417b73c9ad"
+  },
+  {
+    "path": "hivemq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c4498516b1ce4f5528d31e3065ca0e77646e524c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c4498516b1ce4f5528d31e3065ca0e77646e524c"
+  },
+  {
+    "path": "http_check",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75ba751777bc9ecc7059ff3aba39c0f73268a760",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/75ba751777bc9ecc7059ff3aba39c0f73268a760"
+  },
+  {
+    "path": "hubspot_content_hub",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "754800225e1389ec8e3b34820e8cf814de20ad85",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/754800225e1389ec8e3b34820e8cf814de20ad85"
+  },
+  {
+    "path": "hudi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06e02614888f29459df3ab50c4b54bdd478a7b44",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/06e02614888f29459df3ab50c4b54bdd478a7b44"
+  },
+  {
+    "path": "hyperv",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea0053928053dacdcbc3578ea3f7e8ae178f8e56",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ea0053928053dacdcbc3578ea3f7e8ae178f8e56"
+  },
+  {
+    "path": "iam_access_analyzer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "69799acfc05a9654349d61d9857ea6398298a239",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/69799acfc05a9654349d61d9857ea6398298a239"
+  },
+  {
+    "path": "ibm_ace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "411c9012bac14139690c757babd8028eeb4a48b3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/411c9012bac14139690c757babd8028eeb4a48b3"
+  },
+  {
+    "path": "ibm_db2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4e6e6de34db5793a0c2cbe0cb7a748f7e229572f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4e6e6de34db5793a0c2cbe0cb7a748f7e229572f"
+  },
+  {
+    "path": "ibm_i",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0510feedf6e1f966c8b222439cc2462f3ff203c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c0510feedf6e1f966c8b222439cc2462f3ff203c"
+  },
+  {
+    "path": "ibm_mq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f13ea2964c78d0a9eefa62a7dc1da274c9a4f69",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8f13ea2964c78d0a9eefa62a7dc1da274c9a4f69"
+  },
+  {
+    "path": "ibm_was",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82f186d6850ae21715cb1f20c3ad9c3fc48fa5be",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/82f186d6850ae21715cb1f20c3ad9c3fc48fa5be"
+  },
+  {
+    "path": "iboss",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "32b39b20efaddcabb0a06230b01f2048bad20812",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/32b39b20efaddcabb0a06230b01f2048bad20812"
+  },
+  {
+    "path": "ignite",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "98d4b23a167f68b704e17a7b14d199f1dd596022",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/98d4b23a167f68b704e17a7b14d199f1dd596022"
+  },
+  {
+    "path": "iis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "81f7de76bc777ef3eca50195152d5e1b1e82fafd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/81f7de76bc777ef3eca50195152d5e1b1e82fafd"
+  },
+  {
+    "path": "impala",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4dbc64cd82c7c9d025bc1ca05c8d9da18c55a572",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4dbc64cd82c7c9d025bc1ca05c8d9da18c55a572"
+  },
+  {
+    "path": "incident_io",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37d1352f5dbd84e561599eb6e1b3aa4b9be293f3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/37d1352f5dbd84e561599eb6e1b3aa4b9be293f3"
+  },
+  {
+    "path": "infiniband",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9f07a9695b9a434262e8e9ee3a5e167b8181859e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9f07a9695b9a434262e8e9ee3a5e167b8181859e"
+  },
+  {
+    "path": "intercom",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "54c5c04dabe60d6ba0b011c8e12f8b0000b4e1e8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/54c5c04dabe60d6ba0b011c8e12f8b0000b4e1e8"
+  },
+  {
+    "path": "istio",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8dc67ff7bcf27d886fea4a7689806f1dada9533",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e8dc67ff7bcf27d886fea4a7689806f1dada9533"
+  },
+  {
+    "path": "ivanti_connect_secure",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "450b6dec1bb5b1fecf7dda76115407cc823e7c1f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/450b6dec1bb5b1fecf7dda76115407cc823e7c1f"
+  },
+  {
+    "path": "ivanti_nzta",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfb5cca7e0402c5bb053fb8ccae5a189f1b9aa70",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/cfb5cca7e0402c5bb053fb8ccae5a189f1b9aa70"
+  },
+  {
+    "path": "jboss_wildfly",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "682c544fbf9742a95f3e64420aa6259dd533dea7",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/682c544fbf9742a95f3e64420aa6259dd533dea7"
+  },
+  {
+    "path": "jmeter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e835f9e435c1c36709a3b36e7a873e8021efbe7e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e835f9e435c1c36709a3b36e7a873e8021efbe7e"
+  },
+  {
+    "path": "journald",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9aac2f9be698276a1c0b6cd1b580cd5aff6d1d43",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9aac2f9be698276a1c0b6cd1b580cd5aff6d1d43"
+  },
+  {
+    "path": "juniper_srx_firewall",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "184c1b2d9d89b38db4648046ccc75cce52a53c7b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/184c1b2d9d89b38db4648046ccc75cce52a53c7b"
+  },
+  {
+    "path": "kafka",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e07ad7510f1e5ea20dcd853eeed3b3fef157f46a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e07ad7510f1e5ea20dcd853eeed3b3fef157f46a"
+  },
+  {
+    "path": "kafka_consumer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2aa897ac2ad21a49628db2e1383c5903adf07ee0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2aa897ac2ad21a49628db2e1383c5903adf07ee0"
+  },
+  {
+    "path": "karpenter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9749c6eb5d97cbf45d5683b520ffef09b9aa88a6",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9749c6eb5d97cbf45d5683b520ffef09b9aa88a6"
+  },
+  {
+    "path": "keda",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "839892a4c9e41a2f05772258b1ed548041c8087d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/839892a4c9e41a2f05772258b1ed548041c8087d"
+  },
+  {
+    "path": "keeper",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f48c3d4a3ba4fd9d9b7fb9767b1c1e19808d44fd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f48c3d4a3ba4fd9d9b7fb9767b1c1e19808d44fd"
+  },
+  {
+    "path": "keycloak",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a5e393bec7d9f15b7c917ceaab8a10bad8833806",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a5e393bec7d9f15b7c917ceaab8a10bad8833806"
+  },
+  {
+    "path": "klaviyo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1df4e276d17e4bde43479f19a1e9aae1f0dc0fc7",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1df4e276d17e4bde43479f19a1e9aae1f0dc0fc7"
+  },
+  {
+    "path": "kong",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c4f557c8efc3e3905ab0275536853e5cae38e64f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c4f557c8efc3e3905ab0275536853e5cae38e64f"
+  },
+  {
+    "path": "krakend",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "64d73fb14c67c31857e7177a34f1c2a249dccaf3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/64d73fb14c67c31857e7177a34f1c2a249dccaf3"
+  },
+  {
+    "path": "kube_apiserver_metrics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04af9371f793860de2b0162abe8a5917936a535e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/04af9371f793860de2b0162abe8a5917936a535e"
+  },
+  {
+    "path": "kube_controller_manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "817078b5d884c9d1778d873942f23c1cd23e49d0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/817078b5d884c9d1778d873942f23c1cd23e49d0"
+  },
+  {
+    "path": "kube_dns",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6f9d738ffc7117b34db36d045fc9081a26fe66ea",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6f9d738ffc7117b34db36d045fc9081a26fe66ea"
+  },
+  {
+    "path": "kube_metrics_server",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7f1e2d52d990e4f29d5823334db36d4ab0604bc5",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7f1e2d52d990e4f29d5823334db36d4ab0604bc5"
+  },
+  {
+    "path": "kube_proxy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c1d66309d5e8c99b171568dd29838f3692241fd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7c1d66309d5e8c99b171568dd29838f3692241fd"
+  },
+  {
+    "path": "kube_scheduler",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eeb486541c1167c7e05618ea5266131258b1144e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/eeb486541c1167c7e05618ea5266131258b1144e"
+  },
+  {
+    "path": "kubeflow",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "627cc2743e12b39f2d69bc8fd12b9b21d893a3e6",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/627cc2743e12b39f2d69bc8fd12b9b21d893a3e6"
+  },
+  {
+    "path": "kubelet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c2a146e9cb5c2772941fc5252095a0d09448690a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c2a146e9cb5c2772941fc5252095a0d09448690a"
+  },
+  {
+    "path": "kubernetes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e488f6c4edb99090264cba92921a1a5c2e76aebb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e488f6c4edb99090264cba92921a1a5c2e76aebb"
+  },
+  {
+    "path": "kubernetes_admission",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f33113bab8cc97a40ac78338fff00ce3b26d777e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f33113bab8cc97a40ac78338fff00ce3b26d777e"
+  },
+  {
+    "path": "kubernetes_cluster_autoscaler",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "442366ecf0dfc6a153a2b8e25d5aa06d23cbac4b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/442366ecf0dfc6a153a2b8e25d5aa06d23cbac4b"
+  },
+  {
+    "path": "kubernetes_state",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b7cbe73079f6356905a23fd462746f310eeb0a4b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b7cbe73079f6356905a23fd462746f310eeb0a4b"
+  },
+  {
+    "path": "kubernetes_state_core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5618a8a05a678f1e95a45cb2a4320650bafcdc95",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5618a8a05a678f1e95a45cb2a4320650bafcdc95"
+  },
+  {
+    "path": "kubevirt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "16ebf298b40d68114dc9b2a0ce13a2ce9ddf284b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/16ebf298b40d68114dc9b2a0ce13a2ce9ddf284b"
+  },
+  {
+    "path": "kubevirt_api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "23f239adfd64c899d88efcf458ce3553cf24c26e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/23f239adfd64c899d88efcf458ce3553cf24c26e"
+  },
+  {
+    "path": "kubevirt_controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ed024bdb02577e632b75f8e365dc0b1d17444fc3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ed024bdb02577e632b75f8e365dc0b1d17444fc3"
+  },
+  {
+    "path": "kubevirt_handler",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56eca4824acda4e9c4bd9014be1ee690cfb69daf",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/56eca4824acda4e9c4bd9014be1ee690cfb69daf"
+  },
+  {
+    "path": "kuma",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56bc8b86a011eb73797bdfabaa5efc2adf83f210",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/56bc8b86a011eb73797bdfabaa5efc2adf83f210"
+  },
+  {
+    "path": "kyototycoon",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79f3d55d0746aac093afd5f4c8f3a8f1980ed6c0",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/79f3d55d0746aac093afd5f4c8f3a8f1980ed6c0"
+  },
+  {
+    "path": "kyverno",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "556bba460cac48449823063428b0e16d367f501d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/556bba460cac48449823063428b0e16d367f501d"
+  },
+  {
+    "path": "langchain",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "60dff028741ef31f9a3d75883dc4ef026bf29ea4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/60dff028741ef31f9a3d75883dc4ef026bf29ea4"
+  },
+  {
+    "path": "lastpass",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e3b98ac3d6d5b6ad6996d7c0f435b7ef022a8b3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2e3b98ac3d6d5b6ad6996d7c0f435b7ef022a8b3"
+  },
+  {
+    "path": "lighttpd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "310254ffca1c723bad58cff7c48bb19af10d3731",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/310254ffca1c723bad58cff7c48bb19af10d3731"
+  },
+  {
+    "path": "linkerd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "afe47d2afe0695ab7ec42ab7672846daeeb45c75",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/afe47d2afe0695ab7ec42ab7672846daeeb45c75"
+  },
+  {
+    "path": "linux_audit_logs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "10c87a67ddf03486d5c9656d30ae4001e8bacbb6",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/10c87a67ddf03486d5c9656d30ae4001e8bacbb6"
+  },
+  {
+    "path": "linux_proc_extras",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e65031ad8375dcfb87d3a97e61965b745acd0b78",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e65031ad8375dcfb87d3a97e61965b745acd0b78"
+  },
+  {
+    "path": "litellm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fa1fdc64f5310fb38f70f7fec4cc567a12899e66",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/fa1fdc64f5310fb38f70f7fec4cc567a12899e66"
+  },
+  {
+    "path": "lustre",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cd7f2789583acfccda40b038aa23ae5afb0ece6e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/cd7f2789583acfccda40b038aa23ae5afb0ece6e"
+  },
+  {
+    "path": "mac_audit_logs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "865ec742b516251eaabbe40ee5bc2109d25db618",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/865ec742b516251eaabbe40ee5bc2109d25db618"
+  },
+  {
+    "path": "mailchimp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ebc2bc33f2008cb73411f180262f7d6d291552f3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ebc2bc33f2008cb73411f180262f7d6d291552f3"
+  },
+  {
+    "path": "mapr",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91c3b981217aaf832f332a825d7c1787daca2059",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/91c3b981217aaf832f332a825d7c1787daca2059"
+  },
+  {
+    "path": "mapreduce",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4e8cb2f1eb882d9f9aed7b95e1a61c6be0b1ea32",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4e8cb2f1eb882d9f9aed7b95e1a61c6be0b1ea32"
+  },
+  {
+    "path": "marathon",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3402c366afe96a49eef25b6b11c3a019cc036f4f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3402c366afe96a49eef25b6b11c3a019cc036f4f"
+  },
+  {
+    "path": "marklogic",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f97a0e0886ad959569ab561a25012a89b81ad477",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f97a0e0886ad959569ab561a25012a89b81ad477"
+  },
+  {
+    "path": "mcache",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f9267b3af55b58eef59816cc5e8c0830b1cc19bc",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f9267b3af55b58eef59816cc5e8c0830b1cc19bc"
+  },
+  {
+    "path": "mesos_master",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03d26c9dbc56d8354e36481cb9c6b9ec0dcc4bbf",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/03d26c9dbc56d8354e36481cb9c6b9ec0dcc4bbf"
+  },
+  {
+    "path": "mesos_slave",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5945c28e1ba1fa68085c6dbda627346455b67091",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5945c28e1ba1fa68085c6dbda627346455b67091"
+  },
+  {
+    "path": "metabase",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c5512b1c337adb73d8197da83e74f057b5612fd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6c5512b1c337adb73d8197da83e74f057b5612fd"
+  },
+  {
+    "path": "microsoft_dns",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d78427fb3e4be32409b01f88825a7d6052cb4f19",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d78427fb3e4be32409b01f88825a7d6052cb4f19"
+  },
+  {
+    "path": "microsoft_sysmon",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b20367a92da9500c846af0ff0d8e1c300e4a7a5c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b20367a92da9500c846af0ff0d8e1c300e4a7a5c"
+  },
+  {
+    "path": "milvus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f86387d2629a73125a2229ab12246f01d9e1bdc8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f86387d2629a73125a2229ab12246f01d9e1bdc8"
+  },
+  {
+    "path": "mimecast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cd21368dd8685adb3c2757120822d77313b6981a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/cd21368dd8685adb3c2757120822d77313b6981a"
+  },
+  {
+    "path": "mkdocs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07c1377e7c4d1ade5ca15e1cfc0a1ffc5e26574f",
+    "size": 5773,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/07c1377e7c4d1ade5ca15e1cfc0a1ffc5e26574f"
+  },
+  {
+    "path": "mongo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c89ce31c2efc2f8b5f5cc2529bd1b3f5f7d0d6f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4c89ce31c2efc2f8b5f5cc2529bd1b3f5f7d0d6f"
+  },
+  {
+    "path": "mux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6adb816efb7e43f289559f00b4591a799c756ae9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6adb816efb7e43f289559f00b4591a799c756ae9"
+  },
+  {
+    "path": "mysql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e9124b97807fb0e908ba91a4d1a15453ddfc931e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e9124b97807fb0e908ba91a4d1a15453ddfc931e"
+  },
+  {
+    "path": "nagios",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "58dee6eb63454c877f52a4beb7d28c8a8327daeb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/58dee6eb63454c877f52a4beb7d28c8a8327daeb"
+  },
+  {
+    "path": "network",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1b3059cfbcbcc83e4c92859021b13d353a795fb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d1b3059cfbcbcc83e4c92859021b13d353a795fb"
+  },
+  {
+    "path": "network_path",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "081b8f83e516d96d7ac3fd87e4a71facab7ca043",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/081b8f83e516d96d7ac3fd87e4a71facab7ca043"
+  },
+  {
+    "path": "nfsstat",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "65592484afbe0e9c06b72f3fc6fcb796ebd14819",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/65592484afbe0e9c06b72f3fc6fcb796ebd14819"
+  },
+  {
+    "path": "nginx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd7734dbe6c13c397c1bfd18d792b8f80ef83c38",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/bd7734dbe6c13c397c1bfd18d792b8f80ef83c38"
+  },
+  {
+    "path": "nginx_ingress_controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1419f20ff60112addfaaf44573373f621e4d2aec",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1419f20ff60112addfaaf44573373f621e4d2aec"
+  },
+  {
+    "path": "ntp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "01e097d35ed1397b8eb3d67775c1876e36afe4db",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/01e097d35ed1397b8eb3d67775c1876e36afe4db"
+  },
+  {
+    "path": "nvidia_jetson",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "256dadf7af293093474a661b52906e501435b453",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/256dadf7af293093474a661b52906e501435b453"
+  },
+  {
+    "path": "nvidia_nim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25fa0c3f8e030fea0c3aab57aff476a5a92e3081",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/25fa0c3f8e030fea0c3aab57aff476a5a92e3081"
+  },
+  {
+    "path": "nvidia_triton",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "72e947426a288ad0a220a7b5828b54a1550a7cfe",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/72e947426a288ad0a220a7b5828b54a1550a7cfe"
+  },
+  {
+    "path": "octopus_deploy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f4b158acb2adb1f94185ad23d3236d1e251eb47",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3f4b158acb2adb1f94185ad23d3236d1e251eb47"
+  },
+  {
+    "path": "oke",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b47decb84d7b9c0b573f8f3480043cefcc5ba238",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b47decb84d7b9c0b573f8f3480043cefcc5ba238"
+  },
+  {
+    "path": "okta_workflows",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5f6cbfdf56812f5c0eabff7908578a140b4fd9dd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5f6cbfdf56812f5c0eabff7908578a140b4fd9dd"
+  },
+  {
+    "path": "oom_kill",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "30ca8ece2dea6cdbe1b34fb11bb6cc205f7500ec",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/30ca8ece2dea6cdbe1b34fb11bb6cc205f7500ec"
+  },
+  {
+    "path": "openai",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c5cc279afc870259169d177e3781abe02bafadf4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c5cc279afc870259169d177e3781abe02bafadf4"
+  },
+  {
+    "path": "openldap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8a7d74e28882e8494524910796398110565c1b16",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8a7d74e28882e8494524910796398110565c1b16"
+  },
+  {
+    "path": "openmetrics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a646578092dcd82e6d33b1879b2113045e8754d4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a646578092dcd82e6d33b1879b2113045e8754d4"
+  },
+  {
+    "path": "openshift",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5ae7cdcefb9da0e97b811da72b56846c81a65549",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5ae7cdcefb9da0e97b811da72b56846c81a65549"
+  },
+  {
+    "path": "openstack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7de81ea7990cf3aff2416391eb9c8febbf51e963",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/7de81ea7990cf3aff2416391eb9c8febbf51e963"
+  },
+  {
+    "path": "openstack_controller",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba6bd6dd4ad8bc48f8e55edfcbb1ee9feef3e2d8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ba6bd6dd4ad8bc48f8e55edfcbb1ee9feef3e2d8"
+  },
+  {
+    "path": "openvpn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "978ea426144c8df105b372eda29b47ed88741e46",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/978ea426144c8df105b372eda29b47ed88741e46"
+  },
+  {
+    "path": "oracle",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3d23abdfc4eba530016b236efb88a6b1f7dc2769",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3d23abdfc4eba530016b236efb88a6b1f7dc2769"
+  },
+  {
+    "path": "orca_security",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4191a1cd90f9d9ff1df5efc4da5f9af56d83c2eb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4191a1cd90f9d9ff1df5efc4da5f9af56d83c2eb"
+  },
+  {
+    "path": "ossec_security",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ecd585c1c28d8c97e8d638e97609e9288630f74",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9ecd585c1c28d8c97e8d638e97609e9288630f74"
+  },
+  {
+    "path": "otel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "084ca201bbb1f7fa18ad74c69c6828e38b3ebeda",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/084ca201bbb1f7fa18ad74c69c6828e38b3ebeda"
+  },
+  {
+    "path": "palo_alto_cortex_xdr",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "76e4d8ea6954dbca44510c7285877d79d11e0aeb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/76e4d8ea6954dbca44510c7285877d79d11e0aeb"
+  },
+  {
+    "path": "palo_alto_panorama",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "54f3b4c94f5437cbaa98f73be620abc71d8ba17c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/54f3b4c94f5437cbaa98f73be620abc71d8ba17c"
+  },
+  {
+    "path": "pan_firewall",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "432b4c27c1dafe116e79ad4dce62687c34d8f1d9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/432b4c27c1dafe116e79ad4dce62687c34d8f1d9"
+  },
+  {
+    "path": "pdh_check",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b855a3bbfdef8b213ff91e83e44c2be21b0d7bd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5b855a3bbfdef8b213ff91e83e44c2be21b0d7bd"
+  },
+  {
+    "path": "pgbouncer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79e2048ae5b008fd4407a7532e014b68a0417af4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/79e2048ae5b008fd4407a7532e014b68a0417af4"
+  },
+  {
+    "path": "php_fpm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "848100d5b5d2aa4e5534be9d071efa90172dfec4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/848100d5b5d2aa4e5534be9d071efa90172dfec4"
+  },
+  {
+    "path": "ping_federate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6056671eb4e61e15ef28ae3dd8711a8eca662966",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6056671eb4e61e15ef28ae3dd8711a8eca662966"
+  },
+  {
+    "path": "ping_one",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3cacc9cc740d3e4679b461ea1142d1f5d662254e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3cacc9cc740d3e4679b461ea1142d1f5d662254e"
+  },
+  {
+    "path": "pivotal_pks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0a3d2b054c74021910701489d9468ab7ee75fbaa",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/0a3d2b054c74021910701489d9468ab7ee75fbaa"
+  },
+  {
+    "path": "plaid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d29c479dba264be5985df03d581442dbbf0d116",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4d29c479dba264be5985df03d581442dbbf0d116"
+  },
+  {
+    "path": "plivo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6ffaab1fd8984c77e7abafdca5fb41544371adef",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6ffaab1fd8984c77e7abafdca5fb41544371adef"
+  },
+  {
+    "path": "podman",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d10bc6b574015e0e993f05a54c4badb15a97fc8d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d10bc6b574015e0e993f05a54c4badb15a97fc8d"
+  },
+  {
+    "path": "postfix",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "23cf44f2157e76a25e38cb817aeef475dbe49be8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/23cf44f2157e76a25e38cb817aeef475dbe49be8"
+  },
+  {
+    "path": "postgres",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f654987124114afcfcc671f9ae88ef741a889d29",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f654987124114afcfcc671f9ae88ef741a889d29"
+  },
+  {
+    "path": "postmark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "54000915981d1198fd5f73f6030252c2a8b9eeb9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/54000915981d1198fd5f73f6030252c2a8b9eeb9"
+  },
+  {
+    "path": "powerdns_recursor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b5c339a9a92db2a213fadd0d8b260b0068f94bf9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b5c339a9a92db2a213fadd0d8b260b0068f94bf9"
+  },
+  {
+    "path": "presto",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3673db60782aa3022c9b4d4000110d25888a7f0a",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3673db60782aa3022c9b4d4000110d25888a7f0a"
+  },
+  {
+    "path": "process",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d4c878c07687bf8030d458809c19f1026fe1e80",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2d4c878c07687bf8030d458809c19f1026fe1e80"
+  },
+  {
+    "path": "prometheus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b03d8bda8a856e29744c5f195d85ce958310ea0e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/b03d8bda8a856e29744c5f195d85ce958310ea0e"
+  },
+  {
+    "path": "proofpoint_on_demand",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "142e3ced1f2bf9e720284dfca05dcfe9cf962949",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/142e3ced1f2bf9e720284dfca05dcfe9cf962949"
+  },
+  {
+    "path": "proofpoint_tap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a26c1f72df1f60c320ea4be5b63166fd98e5fad9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a26c1f72df1f60c320ea4be5b63166fd98e5fad9"
+  },
+  {
+    "path": "proxmox",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09ed8e7645fa02e9f7364ba3fbdebc97b9588d89",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/09ed8e7645fa02e9f7364ba3fbdebc97b9588d89"
+  },
+  {
+    "path": "proxysql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8b0a68f0d9fa4f330f708373c27a08f22841e3ac",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8b0a68f0d9fa4f330f708373c27a08f22841e3ac"
+  },
+  {
+    "path": "pulsar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba5e0098e1eeb52c2284627036845f70e8170a73",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ba5e0098e1eeb52c2284627036845f70e8170a73"
+  },
+  {
+    "path": "pyproject.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "10e020d8d3d54685175655981b839dd2d4ecd401",
+    "size": 3154,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/10e020d8d3d54685175655981b839dd2d4ecd401"
+  },
+  {
+    "path": "quarkus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd5b88bd7d86c9f8340c147abe7603c8fb8bd2f4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/fd5b88bd7d86c9f8340c147abe7603c8fb8bd2f4"
+  },
+  {
+    "path": "rabbitmq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a5f11380a6ec135a59b776b8d9396615f3fc8483",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a5f11380a6ec135a59b776b8d9396615f3fc8483"
+  },
+  {
+    "path": "ray",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e893d2fe245953fb3691bbcd99489b22f242e3a3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e893d2fe245953fb3691bbcd99489b22f242e3a3"
+  },
+  {
+    "path": "redisdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a4f4d0589813da29afdb31c2b3c157deeac316d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3a4f4d0589813da29afdb31c2b3c157deeac316d"
+  },
+  {
+    "path": "repository.datadog.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1561f5efe2c5c65f3c477db6f1d9eb9ece17bcb5",
+    "size": 521,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/1561f5efe2c5c65f3c477db6f1d9eb9ece17bcb5"
+  },
+  {
+    "path": "requirements-agent-release.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d8591b600f4990b318a9f9fb2e547b461b8c1ad6",
+    "size": 7391,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/d8591b600f4990b318a9f9fb2e547b461b8c1ad6"
+  },
+  {
+    "path": "rethinkdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06c44c7a13edd3b1b00bdfe46df8b47b61c27b80",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/06c44c7a13edd3b1b00bdfe46df8b47b61c27b80"
+  },
+  {
+    "path": "riak",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ecf4ea0782ef2756aa45418022b5718c9036a826",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ecf4ea0782ef2756aa45418022b5718c9036a826"
+  },
+  {
+    "path": "riakcs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5dbab2d361ac211a17d1e051a2eb5fb57a644746",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5dbab2d361ac211a17d1e051a2eb5fb57a644746"
+  },
+  {
+    "path": "ringcentral",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "44650e08be7d1d9a838fb33aa701572b7b66a5ee",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/44650e08be7d1d9a838fb33aa701572b7b66a5ee"
+  },
+  {
+    "path": "sanity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bbdb5b9597a62dbd6480ecf3af93e1e8a6e55465",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/bbdb5b9597a62dbd6480ecf3af93e1e8a6e55465"
+  },
+  {
+    "path": "sap_hana",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f448f4ca870b746f0bd1027145a296fcac6ac155",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f448f4ca870b746f0bd1027145a296fcac6ac155"
+  },
+  {
+    "path": "scylla",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5d664a5a8d293dd960dcc93611a166b774fce8de",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5d664a5a8d293dd960dcc93611a166b774fce8de"
+  },
+  {
+    "path": "servicenow_performance",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aef16e3c7d6828cc0f529e3c04314babb0ad2f6e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/aef16e3c7d6828cc0f529e3c04314babb0ad2f6e"
+  },
+  {
+    "path": "shopify",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c1449e25beb7d309cf30dca8222b3820e371811",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9c1449e25beb7d309cf30dca8222b3820e371811"
+  },
+  {
+    "path": "sidekiq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a44d4fdde2ef1ae17b5da54c1922b76c8a01a12d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a44d4fdde2ef1ae17b5da54c1922b76c8a01a12d"
+  },
+  {
+    "path": "silk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87ba5f3375c8c0d258fa1837d2ecb83c8bc3d16b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/87ba5f3375c8c0d258fa1837d2ecb83c8bc3d16b"
+  },
+  {
+    "path": "silverstripe_cms",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "278ab4188c17f74f4066f2523dc453314dacc1da",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/278ab4188c17f74f4066f2523dc453314dacc1da"
+  },
+  {
+    "path": "singlestore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dcd4f9a00a7abee39c3ac20755bea38130b6cd32",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/dcd4f9a00a7abee39c3ac20755bea38130b6cd32"
+  },
+  {
+    "path": "slurm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c75850eb7e396f85b3372fe015afa5de7083a10b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c75850eb7e396f85b3372fe015afa5de7083a10b"
+  },
+  {
+    "path": "snmp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e3faa96162e49b86f9701ebd1e8def9903a1b783",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e3faa96162e49b86f9701ebd1e8def9903a1b783"
+  },
+  {
+    "path": "snmp_american_power_conversion",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4dc39ee91d1e1ec77310114a0f7b4d7a0f409e46",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4dc39ee91d1e1ec77310114a0f7b4d7a0f409e46"
+  },
+  {
+    "path": "snmp_arista",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1c7969c8dcdfd982a05b07781c531f50e681b6f3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1c7969c8dcdfd982a05b07781c531f50e681b6f3"
+  },
+  {
+    "path": "snmp_aruba",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "31499cf890b473a82cf1ec21b551949de01215b9",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/31499cf890b473a82cf1ec21b551949de01215b9"
+  },
+  {
+    "path": "snmp_chatsworth_products",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4eda2fdfb77a5cb07e38ea2bea68b6d17faa9399",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4eda2fdfb77a5cb07e38ea2bea68b6d17faa9399"
+  },
+  {
+    "path": "snmp_check_point",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9688a0deb51fd2315ea67592921c8a949f3804b5",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9688a0deb51fd2315ea67592921c8a949f3804b5"
+  },
+  {
+    "path": "snmp_cisco",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d243fc25d43ed42017d25697cbeaf6d2fe858bda",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d243fc25d43ed42017d25697cbeaf6d2fe858bda"
+  },
+  {
+    "path": "snmp_dell",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04974d5bb8d0e95a4243f3c4e573c66fb14efc19",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/04974d5bb8d0e95a4243f3c4e573c66fb14efc19"
+  },
+  {
+    "path": "snmp_f5",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91711ab39d9caa30c8b3aca5418d2ce1423390de",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/91711ab39d9caa30c8b3aca5418d2ce1423390de"
+  },
+  {
+    "path": "snmp_fortinet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d4a9e1d76074de09e777f2439bc07d199120a56e",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d4a9e1d76074de09e777f2439bc07d199120a56e"
+  },
+  {
+    "path": "snmp_hewlett_packard_enterprise",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17ddf1d0e2cbf4e8224ef58572250bb7961871cd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/17ddf1d0e2cbf4e8224ef58572250bb7961871cd"
+  },
+  {
+    "path": "snmp_juniper",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf045eef9426965efacd4b449357a57318ff275b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/bf045eef9426965efacd4b449357a57318ff275b"
+  },
+  {
+    "path": "snmp_netapp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8fd428053f4a8b67c9c8305efd1739eb9912f27d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8fd428053f4a8b67c9c8305efd1739eb9912f27d"
+  },
+  {
+    "path": "snowflake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5765cb7296a48f3d27085fe45c6ccbc0020daf45",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5765cb7296a48f3d27085fe45c6ccbc0020daf45"
+  },
+  {
+    "path": "solarwinds",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "802e470432f7ba112a1e9f0a11ec76be9cc25663",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/802e470432f7ba112a1e9f0a11ec76be9cc25663"
+  },
+  {
+    "path": "solr",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4973bb55cdd6b09427b6b8aa11acaec24da6d5fd",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/4973bb55cdd6b09427b6b8aa11acaec24da6d5fd"
+  },
+  {
+    "path": "sonarqube",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a307a3282b8c2e44703192fa418de5e714862082",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a307a3282b8c2e44703192fa418de5e714862082"
+  },
+  {
+    "path": "sonatype_nexus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "95ee1529be4ba57d79d024618788c6ca4dbaa231",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/95ee1529be4ba57d79d024618788c6ca4dbaa231"
+  },
+  {
+    "path": "sonicwall_firewall",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99a0d92fd6155bd3a6809f38ba8a26b549159ee3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/99a0d92fd6155bd3a6809f38ba8a26b549159ee3"
+  },
+  {
+    "path": "sophos_central_cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "877a6ce9450e5a1b6cbc51998cff4302cfa596f8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/877a6ce9450e5a1b6cbc51998cff4302cfa596f8"
+  },
+  {
+    "path": "spark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "39d4dcf4c755b8b073b35000d1174fdad21d7e51",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/39d4dcf4c755b8b073b35000d1174fdad21d7e51"
+  },
+  {
+    "path": "sqlserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1120a6dd085286856e5912410b83c102fe68b4a5",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1120a6dd085286856e5912410b83c102fe68b4a5"
+  },
+  {
+    "path": "squid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0bc774e4d240064cfd8e48a8c72ae9384ec1b223",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/0bc774e4d240064cfd8e48a8c72ae9384ec1b223"
+  },
+  {
+    "path": "ssh_check",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c18ac1e9a9ce26fbdb6da5269c5220588c00bc3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5c18ac1e9a9ce26fbdb6da5269c5220588c00bc3"
+  },
+  {
+    "path": "static-analysis.datadog.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45cb2ce90c661c05a8668cd175392f254a44881f",
+    "size": 36,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/45cb2ce90c661c05a8668cd175392f254a44881f"
+  },
+  {
+    "path": "statsd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "543fb68b4d42d947e6fff88058930434bdc7b705",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/543fb68b4d42d947e6fff88058930434bdc7b705"
+  },
+  {
+    "path": "streamnative",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "22000f6b2ba626fefc0f6fb6c07b00bb21a31c48",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/22000f6b2ba626fefc0f6fb6c07b00bb21a31c48"
+  },
+  {
+    "path": "strimzi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e405989cd1ae98aa56fecfb91b8aeb51e7d28d5b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e405989cd1ae98aa56fecfb91b8aeb51e7d28d5b"
+  },
+  {
+    "path": "supabase",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff85a882b1c22858116abe9d8a59d02d5956f915",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ff85a882b1c22858116abe9d8a59d02d5956f915"
+  },
+  {
+    "path": "supervisord",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "019e7cdff3b31b8e4af087d524101f775e89b92f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/019e7cdff3b31b8e4af087d524101f775e89b92f"
+  },
+  {
+    "path": "suricata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8383938c9965dc2c8f588c2c7610fe4bb8732591",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8383938c9965dc2c8f588c2c7610fe4bb8732591"
+  },
+  {
+    "path": "symantec_endpoint_protection",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "758bc9139fd811f59fc2baa4acdcde5e9d3b317d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/758bc9139fd811f59fc2baa4acdcde5e9d3b317d"
+  },
+  {
+    "path": "symantec_vip",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "23faf6d582d74371b7f6537734247042949e7d24",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/23faf6d582d74371b7f6537734247042949e7d24"
+  },
+  {
+    "path": "system_core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee108074a6f950afce3bea1863fec61483ad8476",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ee108074a6f950afce3bea1863fec61483ad8476"
+  },
+  {
+    "path": "system_swap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0be2778e455d013d9ee154c9a45bd9ced6a321ff",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/0be2778e455d013d9ee154c9a45bd9ced6a321ff"
+  },
+  {
+    "path": "systemd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "906259df5b014fa4b7ea3e493ab061a7653a572c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/906259df5b014fa4b7ea3e493ab061a7653a572c"
+  },
+  {
+    "path": "tanium",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fa308a465315a1a0def32bc64a6779bcc5e9be63",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/fa308a465315a1a0def32bc64a6779bcc5e9be63"
+  },
+  {
+    "path": "tcp_check",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6872bba66d297a0402eb259daabd258c4fd4c6e7",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6872bba66d297a0402eb259daabd258c4fd4c6e7"
+  },
+  {
+    "path": "tcp_queue_length",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1d9f9c8fe4c18643e76978a24348c647e405d50",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d1d9f9c8fe4c18643e76978a24348c647e405d50"
+  },
+  {
+    "path": "teamcity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d23af03f15770c9bd09fed7374a0fa396f6434cf",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d23af03f15770c9bd09fed7374a0fa396f6434cf"
+  },
+  {
+    "path": "tekton",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8159d0863ce7c3c371353fb241a04ef4b6725718",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8159d0863ce7c3c371353fb241a04ef4b6725718"
+  },
+  {
+    "path": "teleport",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2507d7cf457336c3b00da60cae5de4110e6d292b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/2507d7cf457336c3b00da60cae5de4110e6d292b"
+  },
+  {
+    "path": "temporal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3fa351a2c3192ffd64de0d648abde0f7841ce5be",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3fa351a2c3192ffd64de0d648abde0f7841ce5be"
+  },
+  {
+    "path": "temporal_cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c3d6228c0355dfa3a41c8df60b84e4c2db58b963",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c3d6228c0355dfa3a41c8df60b84e4c2db58b963"
+  },
+  {
+    "path": "tenable",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a652504e2a4eee2680a250f5deff85b91f90520",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/1a652504e2a4eee2680a250f5deff85b91f90520"
+  },
+  {
+    "path": "tenable_io",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c058bb75710816ba14706c3747116801a9b4d16f",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c058bb75710816ba14706c3747116801a9b4d16f"
+  },
+  {
+    "path": "teradata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0faab3e79db1be27ebcb329506b99dfc332ef652",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/0faab3e79db1be27ebcb329506b99dfc332ef652"
+  },
+  {
+    "path": "terraform",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "755efaf2e03a88c5c3d16c7a002fb56c8d5c2db2",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/755efaf2e03a88c5c3d16c7a002fb56c8d5c2db2"
+  },
+  {
+    "path": "test.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce99736fcc77d6aa9b106df149146066b5111f46",
+    "size": 92,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/ce99736fcc77d6aa9b106df149146066b5111f46"
+  },
+  {
+    "path": "tibco_ems",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "12bee87d2e3922ea8ec1144d8d80c4d5319f4b76",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/12bee87d2e3922ea8ec1144d8d80c4d5319f4b76"
+  },
+  {
+    "path": "tls",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80073c70ca8c6226dc1cadd64cdef4477c628af8",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/80073c70ca8c6226dc1cadd64cdef4477c628af8"
+  },
+  {
+    "path": "tokumx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6694821eb62d1426401fae8880e67a39b9ce3a51",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6694821eb62d1426401fae8880e67a39b9ce3a51"
+  },
+  {
+    "path": "tomcat",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "57b28b8f2900ec100443c84848da28a3eeaf9c30",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/57b28b8f2900ec100443c84848da28a3eeaf9c30"
+  },
+  {
+    "path": "torchserve",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9f9f245f46e1c015429ea4c685fc9419ff2b5c6",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c9f9f245f46e1c015429ea4c685fc9419ff2b5c6"
+  },
+  {
+    "path": "towncrier.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71cc4bae1ef389643e83e5e1449db40021aafd97",
+    "size": 1198,
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/blobs/71cc4bae1ef389643e83e5e1449db40021aafd97"
+  },
+  {
+    "path": "traefik_mesh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d82cd8dd700ee8c18e5d16975d68495207578f7b",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d82cd8dd700ee8c18e5d16975d68495207578f7b"
+  },
+  {
+    "path": "traffic_server",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c75bb6e2179d9e6dd4ca1a002c7bb876592de59",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/0c75bb6e2179d9e6dd4ca1a002c7bb876592de59"
+  },
+  {
+    "path": "trellix_endpoint_security",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "008436647ea0c2c47e7d4cc49791a156661b4a29",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/008436647ea0c2c47e7d4cc49791a156661b4a29"
+  },
+  {
+    "path": "trend_micro_email_security",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6cf2f0b5cdf22e7cf0624965a31067b747e5b546",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6cf2f0b5cdf22e7cf0624965a31067b747e5b546"
+  },
+  {
+    "path": "trend_micro_vision_one_endpoint_security",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d3eedfe99fce966b8fced442a32bb814f814aecf",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/d3eedfe99fce966b8fced442a32bb814f814aecf"
+  },
+  {
+    "path": "trend_micro_vision_one_xdr",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "84b03014009bfda61520f2640becdf330239c29c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/84b03014009bfda61520f2640becdf330239c29c"
+  },
+  {
+    "path": "twemproxy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9077e7b03c4ff8a070b3d4ea92dbbe1a58aba370",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/9077e7b03c4ff8a070b3d4ea92dbbe1a58aba370"
+  },
+  {
+    "path": "twistlock",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37f44b640c1e58a10fb853ba2177c933a1a7fa6c",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/37f44b640c1e58a10fb853ba2177c933a1a7fa6c"
+  },
+  {
+    "path": "varnish",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c81e57a525f540dcb20fe47cc7767f44e1294aa5",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c81e57a525f540dcb20fe47cc7767f44e1294aa5"
+  },
+  {
+    "path": "vault",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5e0d31f8d5175c3a5d369829c8978b9d0c4575fb",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/5e0d31f8d5175c3a5d369829c8978b9d0c4575fb"
+  },
+  {
+    "path": "velero",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c408c300ffbcd033340a3557b3716ddb19f0be51",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c408c300ffbcd033340a3557b3716ddb19f0be51"
+  },
+  {
+    "path": "vertica",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f8fb5c6755c8884544426047420979d99d8247a4",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f8fb5c6755c8884544426047420979d99d8247a4"
+  },
+  {
+    "path": "vllm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "100111d888265c6ec3ada54c64ee7ac4ee581e38",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/100111d888265c6ec3ada54c64ee7ac4ee581e38"
+  },
+  {
+    "path": "voltdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c747da2490378968d7a07e3a276a47c2f0167563",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/c747da2490378968d7a07e3a276a47c2f0167563"
+  },
+  {
+    "path": "vonage",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8b5619716202aaed0a340521ea5993e9bc8f76d5",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8b5619716202aaed0a340521ea5993e9bc8f76d5"
+  },
+  {
+    "path": "vsphere",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8019f3ed507705af7781d5c8e6d1937456e05edc",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/8019f3ed507705af7781d5c8e6d1937456e05edc"
+  },
+  {
+    "path": "watchguard_firebox",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3bf5d4983648ab3d03c2d87fda1baa237d48dd01",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3bf5d4983648ab3d03c2d87fda1baa237d48dd01"
+  },
+  {
+    "path": "wazuh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75021247f6a57b06e03552a4da0a46bbfff1e354",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/75021247f6a57b06e03552a4da0a46bbfff1e354"
+  },
+  {
+    "path": "weaviate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ab398bf1635f592a719005549b9dbd7c5a24ffed",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ab398bf1635f592a719005549b9dbd7c5a24ffed"
+  },
+  {
+    "path": "weblogic",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "657f800adbffa4d46d7542a9fbe3b7a5065427b3",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/657f800adbffa4d46d7542a9fbe3b7a5065427b3"
+  },
+  {
+    "path": "win32_event_log",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fbac835ee168dfe71806360e4e0fa7c67e755d63",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/fbac835ee168dfe71806360e4e0fa7c67e755d63"
+  },
+  {
+    "path": "wincrashdetect",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec6dd6e5dfb74938e5e2a04bdd8fe36f18aae411",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/ec6dd6e5dfb74938e5e2a04bdd8fe36f18aae411"
+  },
+  {
+    "path": "windows_certificate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f142e8fd5f726561e25c6ae943d43e128f27ee34",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/f142e8fd5f726561e25c6ae943d43e128f27ee34"
+  },
+  {
+    "path": "windows_performance_counters",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a98f2398b560c2118d4ab2d29834c344b118f388",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a98f2398b560c2118d4ab2d29834c344b118f388"
+  },
+  {
+    "path": "windows_registry",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e380c2e13d68269e6a5c1bf3dfc9e66255bb0b57",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e380c2e13d68269e6a5c1bf3dfc9e66255bb0b57"
+  },
+  {
+    "path": "windows_service",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87115e9c716161393b62158d3c984974b5bdd180",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/87115e9c716161393b62158d3c984974b5bdd180"
+  },
+  {
+    "path": "winkmem",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dea641b93f77b7c34400bcc2a61ed283fb596a40",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/dea641b93f77b7c34400bcc2a61ed283fb596a40"
+  },
+  {
+    "path": "wlan",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a107a968aa925ea077b8f0050e0da9aa4477c64d",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/a107a968aa925ea077b8f0050e0da9aa4477c64d"
+  },
+  {
+    "path": "wmi_check",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e9d2d5e758fd354c1dba03d167df8bb633e65342",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/e9d2d5e758fd354c1dba03d167df8bb633e65342"
+  },
+  {
+    "path": "workato",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b582de2383eede82e9860f890687cc1388a6c18",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/3b582de2383eede82e9860f890687cc1388a6c18"
+  },
+  {
+    "path": "yarn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6ad462689bd15092e2bc57cd8bfad824f82c9a73",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/6ad462689bd15092e2bc57cd8bfad824f82c9a73"
+  },
+  {
+    "path": "zeek",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "916d35d580b0c3e1212ba5aa5b463695ae2743cc",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/916d35d580b0c3e1212ba5aa5b463695ae2743cc"
+  },
+  {
+    "path": "zero_networks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "daee33cbe7337f52eec3a898cb67ae3d875b7e63",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/daee33cbe7337f52eec3a898cb67ae3d875b7e63"
+  },
+  {
+    "path": "zk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "065e5b3989b9f93a56edc9cfd020195300e47726",
+    "url": "https://api.github.com/repos/DataDog/integrations-core/git/trees/065e5b3989b9f93a56edc9cfd020195300e47726"
+  }
+]

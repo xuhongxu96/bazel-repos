@@ -1,0 +1,256 @@
+[
+  {
+    "path": ".clang-format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25563f427d0ce406ef23d476090c1f589fa7a227",
+    "size": 7620,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/25563f427d0ce406ef23d476090c1f589fa7a227"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ef5e3c93e0e298c752d097c73da222ec8b8849c",
+    "size": 536,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/3ef5e3c93e0e298c752d097c73da222ec8b8849c"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c8d166d6f84366843bfe7cac728c496ee2f35e0",
+    "size": 592,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/8c8d166d6f84366843bfe7cac728c496ee2f35e0"
+  },
+  {
+    "path": ".goreleaser.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6e26670f447d0bf7f12ad8b9e8a0203473b34fa",
+    "size": 1436,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/e6e26670f447d0bf7f12ad8b9e8a0203473b34fa"
+  },
+  {
+    "path": ".prettierignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9af23c3d38b8f6e15a972c5f05049a55a2eeebd1",
+    "size": 1076,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/9af23c3d38b8f6e15a972c5f05049a55a2eeebd1"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59a77f7cd4f5b825ce57c866818cdd0b66101e85",
+    "size": 10195,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/59a77f7cd4f5b825ce57c866818cdd0b66101e85"
+  },
+  {
+    "path": "Taskfile.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8978a0d1bfc0575e620e6f84b260ca8feeaaa815",
+    "size": 2587,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/8978a0d1bfc0575e620e6f84b260ca8feeaaa815"
+  },
+  {
+    "path": "bpf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21aa3c590eb986ddb6667d6f57f46c88a8435535",
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/trees/21aa3c590eb986ddb6667d6f57f46c88a8435535"
+  },
+  {
+    "path": "cgroup.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b89123d51a50312c65eaccf25e3fae508174cf3",
+    "size": 6604,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/0b89123d51a50312c65eaccf25e3fae508174cf3"
+  },
+  {
+    "path": "cgroup_arm64_bpfel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "760b73a5e658151aa859af113906a485cedd1e05",
+    "size": 3434,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/760b73a5e658151aa859af113906a485cedd1e05"
+  },
+  {
+    "path": "cgroup_arm64_bpfel.o",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e479068a9c181511a74985247d086f8dfea0cb0",
+    "size": 10816,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/0e479068a9c181511a74985247d086f8dfea0cb0"
+  },
+  {
+    "path": "cgroup_x86_bpfel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8dc125cbdbc49c47f2464f58800a32c369f12c8",
+    "size": 3439,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/e8dc125cbdbc49c47f2464f58800a32c369f12c8"
+  },
+  {
+    "path": "cgroup_x86_bpfel.o",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e479068a9c181511a74985247d086f8dfea0cb0",
+    "size": 10816,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/0e479068a9c181511a74985247d086f8dfea0cb0"
+  },
+  {
+    "path": "contrib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c86aaef3014e16de0cc1a621a3c53b761061aa9",
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/trees/6c86aaef3014e16de0cc1a621a3c53b761061aa9"
+  },
+  {
+    "path": "counter_arm64_bpfel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62a2e615806052e1c6e98eba5cfafbf98f0eb625",
+    "size": 5498,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/62a2e615806052e1c6e98eba5cfafbf98f0eb625"
+  },
+  {
+    "path": "counter_arm64_bpfel.o",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7e7876316feac9c3ebe15b2db211f9662122c23",
+    "size": 81280,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/e7e7876316feac9c3ebe15b2db211f9662122c23"
+  },
+  {
+    "path": "counter_x86_bpfel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1debced6b605cac3175ed96f62d644ed8b1018e2",
+    "size": 5503,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/1debced6b605cac3175ed96f62d644ed8b1018e2"
+  },
+  {
+    "path": "counter_x86_bpfel.o",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac784dfcbe688a6d2ec2d829daeb3335ae703f65",
+    "size": 81480,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/ac784dfcbe688a6d2ec2d829daeb3335ae703f65"
+  },
+  {
+    "path": "demo.gif",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b572e4b8af7a26ccf215949b41bb58997780b1a5",
+    "size": 851627,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/b572e4b8af7a26ccf215949b41bb58997780b1a5"
+  },
+  {
+    "path": "flags.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90b68b3f45313a63c0de458685df01628ad88622",
+    "size": 3799,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/90b68b3f45313a63c0de458685df01628ad88622"
+  },
+  {
+    "path": "gen.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6319a63b454faad6de4ed3b574903c2f2ebaa3e2",
+    "size": 1608,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/6319a63b454faad6de4ed3b574903c2f2ebaa3e2"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1da541f965245fa8a43bf8df24c24cdaf5869fc4",
+    "size": 675,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/1da541f965245fa8a43bf8df24c24cdaf5869fc4"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "882fdd0944f183515631f3c8cc5f58e686131cd8",
+    "size": 10278,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/882fdd0944f183515631f3c8cc5f58e686131cd8"
+  },
+  {
+    "path": "gopher.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "088adc95a370b7afb9657926be2801720f45e093",
+    "size": 54368,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/088adc95a370b7afb9657926be2801720f45e093"
+  },
+  {
+    "path": "helpers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22f248bdc746cd0bca9ee5468717bb4d5c7dd4f9",
+    "size": 3336,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/22f248bdc746cd0bca9ee5468717bb4d5c7dd4f9"
+  },
+  {
+    "path": "init.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b83bea905d5703f59e9fe9949d5bb656e9874447",
+    "size": 1430,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/b83bea905d5703f59e9fe9949d5bb656e9874447"
+  },
+  {
+    "path": "main.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b699309055209f4a741c24f98cc8b7e846af824",
+    "size": 4801,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/5b699309055209f4a741c24f98cc8b7e846af824"
+  },
+  {
+    "path": "output.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9734972c7db2115ad75a7feef14a8011eb16fa3c",
+    "size": 6883,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/9734972c7db2115ad75a7feef14a8011eb16fa3c"
+  },
+  {
+    "path": "probe.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4d302af273edcd759b752c0b0ffd2f758f8dab0",
+    "size": 10182,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/f4d302af273edcd759b752c0b0ffd2f758f8dab0"
+  },
+  {
+    "path": "tui.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f91190314bd8f109312261052c38c0588402c57a",
+    "size": 8461,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/f91190314bd8f109312261052c38c0588402c57a"
+  },
+  {
+    "path": "types.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d15677e58566a793a14987ce8394bc32a02beda",
+    "size": 1703,
+    "url": "https://api.github.com/repos/dkorunic/pktstat-bpf/git/blobs/2d15677e58566a793a14987ce8394bc32a02beda"
+  }
+]

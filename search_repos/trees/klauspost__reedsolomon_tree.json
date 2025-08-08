@@ -1,0 +1,446 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "827a2823675fa91271269a43f7f9f7563aca9917",
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/trees/827a2823675fa91271269a43f7f9f7563aca9917"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59610b561a20d56b084872d87022a8b5e1db6610",
+    "size": 272,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/59610b561a20d56b084872d87022a8b5e1db6610"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a947e162b0ee959adb981d6e73ac8682d0754000",
+    "size": 1107,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/a947e162b0ee959adb981d6e73ac8682d0754000"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0af1d890a2ee767bd6439dcede79fb9ce95ba4c6",
+    "size": 24865,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/0af1d890a2ee767bd6439dcede79fb9ce95ba4c6"
+  },
+  {
+    "path": "_gen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5307847a0e39c5882d22f805a863277e5194e6ec",
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/trees/5307847a0e39c5882d22f805a863277e5194e6ec"
+  },
+  {
+    "path": "benchmark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61d706642c2c921075b9be17c967bf24722f1004",
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/trees/61d706642c2c921075b9be17c967bf24722f1004"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb5774d97b19766073be899df85fc9bd661c4ddb",
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/trees/eb5774d97b19766073be899df85fc9bd661c4ddb"
+  },
+  {
+    "path": "examples_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd3aee7ff0300f5ff99fd65e10834e89fa262bb4",
+    "size": 5806,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/bd3aee7ff0300f5ff99fd65e10834e89fa262bb4"
+  },
+  {
+    "path": "galois.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbc521f4e41353d566f6b523bac4464408a5a8ca",
+    "size": 452966,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/bbc521f4e41353d566f6b523bac4464408a5a8ca"
+  },
+  {
+    "path": "galois_amd64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8025560f285bbe26867978749410f637bfc2bc5d",
+    "size": 14912,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/8025560f285bbe26867978749410f637bfc2bc5d"
+  },
+  {
+    "path": "galois_amd64.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18e08c316e27ecaef9badc2c256965532e1fa7fb",
+    "size": 8853,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/18e08c316e27ecaef9badc2c256965532e1fa7fb"
+  },
+  {
+    "path": "galois_amd64_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e053c1e1a3918a8ae3fad3bbba34e40ffd7543f",
+    "size": 297,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/1e053c1e1a3918a8ae3fad3bbba34e40ffd7543f"
+  },
+  {
+    "path": "galois_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d860525c9354f92f8f37a33eabce895065901831",
+    "size": 3427,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/d860525c9354f92f8f37a33eabce895065901831"
+  },
+  {
+    "path": "galois_arm64.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca3c9120883680ad4a2092342c1370119b153308",
+    "size": 2677,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/ca3c9120883680ad4a2092342c1370119b153308"
+  },
+  {
+    "path": "galois_arm64_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a096e8afbbe664e11982f079922f054faff66668",
+    "size": 453,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/a096e8afbbe664e11982f079922f054faff66668"
+  },
+  {
+    "path": "galois_gen_amd64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dac9b13634109fa88abf797dcacc869a142b762e",
+    "size": 114703,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/dac9b13634109fa88abf797dcacc869a142b762e"
+  },
+  {
+    "path": "galois_gen_amd64.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ff74bf4358b1f59b43e28bc59649a0303391aec",
+    "size": 3308294,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/8ff74bf4358b1f59b43e28bc59649a0303391aec"
+  },
+  {
+    "path": "galois_gen_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f8719038f24a49ff94547f0d20582b4f06278e9",
+    "size": 3940,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/2f8719038f24a49ff94547f0d20582b4f06278e9"
+  },
+  {
+    "path": "galois_gen_arm64.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd974c115da87125f76982e907f6b58574d50013",
+    "size": 1228381,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/dd974c115da87125f76982e907f6b58574d50013"
+  },
+  {
+    "path": "galois_gen_none.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e258986ff2f6811fe0394a1513c840c910bf821",
+    "size": 540,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/3e258986ff2f6811fe0394a1513c840c910bf821"
+  },
+  {
+    "path": "galois_gen_nopshufb_amd64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "298bf5040e797cb8f4aa2cdc80d2ba4f81c5641d",
+    "size": 73222,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/298bf5040e797cb8f4aa2cdc80d2ba4f81c5641d"
+  },
+  {
+    "path": "galois_gen_nopshufb_amd64.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5782759c62fee43f93c4f169fcbf18bbd48cbeb8",
+    "size": 1927322,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/5782759c62fee43f93c4f169fcbf18bbd48cbeb8"
+  },
+  {
+    "path": "galois_gen_switch_amd64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9c36e2965c10e471a85cad4336033aba454fab0",
+    "size": 49715,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/f9c36e2965c10e471a85cad4336033aba454fab0"
+  },
+  {
+    "path": "galois_gen_switch_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "656e06213f4974817471af28a8a865278c8cf57c",
+    "size": 5714,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/656e06213f4974817471af28a8a865278c8cf57c"
+  },
+  {
+    "path": "galois_gen_switch_nopshufb_amd64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ac349d3fc9fb5c1f15c1a69db4b1de89a0103a4",
+    "size": 31534,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/3ac349d3fc9fb5c1f15c1a69db4b1de89a0103a4"
+  },
+  {
+    "path": "galois_gen_switch_nopshufb_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db2aaa6134c940477da057401234540f4fc0094c",
+    "size": 688,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/db2aaa6134c940477da057401234540f4fc0094c"
+  },
+  {
+    "path": "galois_noasm.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb5a3b654463a6010b57c909ff56eafea8453ac3",
+    "size": 2120,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/fb5a3b654463a6010b57c909ff56eafea8453ac3"
+  },
+  {
+    "path": "galois_nopshufb_amd64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89c74e2420fe00adf140e9ef8f99ae01a38ba4fc",
+    "size": 3022,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/89c74e2420fe00adf140e9ef8f99ae01a38ba4fc"
+  },
+  {
+    "path": "galois_ppc64le.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4c80351f39aa285442c93a315fa981a90467073",
+    "size": 3254,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/c4c80351f39aa285442c93a315fa981a90467073"
+  },
+  {
+    "path": "galois_ppc64le.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c585c2b6421c9a8510dfec4948ccdd068e30026b",
+    "size": 2658,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/c585c2b6421c9a8510dfec4948ccdd068e30026b"
+  },
+  {
+    "path": "galois_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b151b26880414f7dd91e01d4b604d748e8d1788",
+    "size": 11733,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/4b151b26880414f7dd91e01d4b604d748e8d1788"
+  },
+  {
+    "path": "gentables.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b194c4ab3fe1d1535741c0b1e5f0042b83f2dc76",
+    "size": 3321,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/b194c4ab3fe1d1535741c0b1e5f0042b83f2dc76"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2dd6e6fd2a8b876f8f47674ceac29ef6e4254b9",
+    "size": 416,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/d2dd6e6fd2a8b876f8f47674ceac29ef6e4254b9"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0d9ecc1ac3c674f306846f549d466da1abcc111",
+    "size": 332,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/d0d9ecc1ac3c674f306846f549d466da1abcc111"
+  },
+  {
+    "path": "inversion_tree.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f97f810a7f15eb139883d4ad1d971246a728bcb",
+    "size": 5955,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/3f97f810a7f15eb139883d4ad1d971246a728bcb"
+  },
+  {
+    "path": "inversion_tree_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49f5a17f66a166c634c89dcb5fe9ca019eb3a95b",
+    "size": 2963,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/49f5a17f66a166c634c89dcb5fe9ca019eb3a95b"
+  },
+  {
+    "path": "leopard.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0df6d9d4e791c8d5b06b572340e9412ad9d889a",
+    "size": 27314,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/e0df6d9d4e791c8d5b06b572340e9412ad9d889a"
+  },
+  {
+    "path": "leopard8.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7db11eea9720a77f34f32dbb4c6a30d2d56885ab",
+    "size": 27674,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/7db11eea9720a77f34f32dbb4c6a30d2d56885ab"
+  },
+  {
+    "path": "leopard8_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "154747c16bbc6f08532d1e77476b2c2483b09dee",
+    "size": 796,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/154747c16bbc6f08532d1e77476b2c2483b09dee"
+  },
+  {
+    "path": "leopard_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c7720b95db0964518138d9ef82315f9e9272e35",
+    "size": 4076,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/4c7720b95db0964518138d9ef82315f9e9272e35"
+  },
+  {
+    "path": "matrix.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfdcca66ff1da1c149cfa8d25c9de63af916993d",
+    "size": 6906,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/bfdcca66ff1da1c149cfa8d25c9de63af916993d"
+  },
+  {
+    "path": "matrix_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ff5428a4e96438115e135087f2a0d525a8da429",
+    "size": 6083,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/1ff5428a4e96438115e135087f2a0d525a8da429"
+  },
+  {
+    "path": "mulslice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d908738e8c4ad7e4f953e953de7bf9d9fca67db",
+    "size": 1146,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/1d908738e8c4ad7e4f953e953de7bf9d9fca67db"
+  },
+  {
+    "path": "options.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cde25556431ee7df2817849ec76f66cb037fbab9",
+    "size": 9696,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/cde25556431ee7df2817849ec76f66cb037fbab9"
+  },
+  {
+    "path": "race.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f2c0b6938c8f5474df4a9a6bbd3bb10e98e9c4e",
+    "size": 1159,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/4f2c0b6938c8f5474df4a9a6bbd3bb10e98e9c4e"
+  },
+  {
+    "path": "race_none.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7d05f287a45604c7666f526ad1d4084be3e661f",
+    "size": 311,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/c7d05f287a45604c7666f526ad1d4084be3e661f"
+  },
+  {
+    "path": "reedsolomon.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f848e457ebba095e56c520a177bbf1f26590cdcc",
+    "size": 50769,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/f848e457ebba095e56c520a177bbf1f26590cdcc"
+  },
+  {
+    "path": "reedsolomon_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa1cce1b33a4472c3a4e351e37428c096c755081",
+    "size": 59281,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/fa1cce1b33a4472c3a4e351e37428c096c755081"
+  },
+  {
+    "path": "streaming.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7aba3b8918b821854e9c54d5c457dfa5272feee",
+    "size": 16032,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/f7aba3b8918b821854e9c54d5c457dfa5272feee"
+  },
+  {
+    "path": "streaming_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4ba544a8979fa673ee4d498a94fb5f2578eb36f",
+    "size": 16791,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/d4ba544a8979fa673ee4d498a94fb5f2578eb36f"
+  },
+  {
+    "path": "testlevel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9057487ccde559a2b1c04507f6ad868102572eb",
+    "size": 531,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/a9057487ccde559a2b1c04507f6ad868102572eb"
+  },
+  {
+    "path": "unsafe.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d85892f0fc56519e4d858325bb4c6020df63921e",
+    "size": 885,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/d85892f0fc56519e4d858325bb4c6020df63921e"
+  },
+  {
+    "path": "unsafe_disabled.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95cb8e6ebaef9e0f9aa1b07eeba5a6af2ed4a7cd",
+    "size": 620,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/95cb8e6ebaef9e0f9aa1b07eeba5a6af2ed4a7cd"
+  },
+  {
+    "path": "xor_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffda8884c564a5e108f25f8da2310669ef96f87e",
+    "size": 414,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/ffda8884c564a5e108f25f8da2310669ef96f87e"
+  },
+  {
+    "path": "xor_arm64.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "562987316b84e99d0135ab78dcf0387a1db8a2ad",
+    "size": 499,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/562987316b84e99d0135ab78dcf0387a1db8a2ad"
+  },
+  {
+    "path": "xor_noasm.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3e29f90edff61166c4a30a2e4b0c7854f500690",
+    "size": 153,
+    "url": "https://api.github.com/repos/klauspost/reedsolomon/git/blobs/d3e29f90edff61166c4a30a2e4b0c7854f500690"
+  }
+]

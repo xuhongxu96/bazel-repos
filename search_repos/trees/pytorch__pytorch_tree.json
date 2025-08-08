@@ -1,0 +1,596 @@
+[
+  {
+    "path": ".bazelignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01fcdd0d8e050ccb37483c59fecf49f1597ede74",
+    "size": 176,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/01fcdd0d8e050ccb37483c59fecf49f1597ede74"
+  },
+  {
+    "path": ".bazelrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc2995dc838c59cdbf3f339b61c40bed6be6d8b2",
+    "size": 5675,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/fc2995dc838c59cdbf3f339b61c40bed6be6d8b2"
+  },
+  {
+    "path": ".bazelversion",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f22d756da39d4c5f688b56060df98ea326cc0376",
+    "size": 6,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/f22d756da39d4c5f688b56060df98ea326cc0376"
+  },
+  {
+    "path": ".ci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c33fc675ae1bc8d8469c636dbb2121dce4bce884",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/c33fc675ae1bc8d8469c636dbb2121dce4bce884"
+  },
+  {
+    "path": ".circleci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b57fd281bf5b21c8aa0326bc2e11870b5dba312",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/2b57fd281bf5b21c8aa0326bc2e11870b5dba312"
+  },
+  {
+    "path": ".clang-format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67b722d967c7e18869d947b7e262c16f6dbe17c1",
+    "size": 3433,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/67b722d967c7e18869d947b7e262c16f6dbe17c1"
+  },
+  {
+    "path": ".clang-tidy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b1548d646b25ed3acff95eb5edcbd8fde8fe240",
+    "size": 2695,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/4b1548d646b25ed3acff95eb5edcbd8fde8fe240"
+  },
+  {
+    "path": ".cmakelintrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad58a641c8fa36618fbeac44685232bffed9ca74",
+    "size": 245,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/ad58a641c8fa36618fbeac44685232bffed9ca74"
+  },
+  {
+    "path": ".coveragerc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "428fe5243a35a9ed1ea26e791f8d8dfacefd550c",
+    "size": 186,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/428fe5243a35a9ed1ea26e791f8d8dfacefd550c"
+  },
+  {
+    "path": ".ctags.d",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3c8ba0dccbb55f2da51365a465144aa69c6025d0",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/3c8ba0dccbb55f2da51365a465144aa69c6025d0"
+  },
+  {
+    "path": ".devcontainer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d18ca6111a67dc3b1ccbae48077458ace420ded0",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/d18ca6111a67dc3b1ccbae48077458ace420ded0"
+  },
+  {
+    "path": ".dockerignore",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "3e4e48b0b5fe6b468434d6767749b399319f2da2",
+    "size": 10,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/3e4e48b0b5fe6b468434d6767749b399319f2da2"
+  },
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9581612a050e360633f7c0f2711598e4abfdb9a",
+    "size": 490,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/e9581612a050e360633f7c0f2711598e4abfdb9a"
+  },
+  {
+    "path": ".flake8",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e8a6c3a5115a9a51dfdc5436f798592b87ea501",
+    "size": 3303,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/3e8a6c3a5115a9a51dfdc5436f798592b87ea501"
+  },
+  {
+    "path": ".gdbinit",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "271486850cb8ecebd3b294b91d5e026cfdb28070",
+    "size": 653,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/271486850cb8ecebd3b294b91d5e026cfdb28070"
+  },
+  {
+    "path": ".git-blame-ignore-revs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce1f31570854eb7b6b05ca2f44d66e40bbebbe2b",
+    "size": 5812,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/ce1f31570854eb7b6b05ca2f44d66e40bbebbe2b"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f20bd8f1b31b440deef6a7f03058d7b9accb122f",
+    "size": 411,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/f20bd8f1b31b440deef6a7f03058d7b9accb122f"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf1fe3c352db34f5f8f7ddcfbf7697bcac0f0d8b",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/bf1fe3c352db34f5f8f7ddcfbf7697bcac0f0d8b"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4e78e642b24502c0be459393d4895c7f50c330e",
+    "size": 6620,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/b4e78e642b24502c0be459393d4895c7f50c330e"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4eb6e511127d0b5f5f063b6049ea2185daa8c8de",
+    "size": 4802,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/4eb6e511127d0b5f5f063b6049ea2185daa8c8de"
+  },
+  {
+    "path": ".lintrunner.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c46c91b5e353d8982e2947ad07a9e6301eac7a1",
+    "size": 52667,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/9c46c91b5e353d8982e2947ad07a9e6301eac7a1"
+  },
+  {
+    "path": ".lldbinit",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8af4aae10c3ca6403ef83dc4ab1e7700cdba799c",
+    "size": 785,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/8af4aae10c3ca6403ef83dc4ab1e7700cdba799c"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c67fb1981b71f1fd24cb4875c14faa7d4f79491",
+    "size": 693,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/2c67fb1981b71f1fd24cb4875c14faa7d4f79491"
+  },
+  {
+    "path": ".vscode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c21417c5361dbe0654f9e47a09df78f328c87ff",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/9c21417c5361dbe0654f9e47a09df78f328c87ff"
+  },
+  {
+    "path": "AGENTS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "daf0f491702ba75a02b40afdd77ada864ffb3eeb",
+    "size": 63,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/daf0f491702ba75a02b40afdd77ada864ffb3eeb"
+  },
+  {
+    "path": "BUCK.oss",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13d5518801a249eb1242d296734a1fe1cfb46eb4",
+    "size": 4103,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/13d5518801a249eb1242d296734a1fe1cfb46eb4"
+  },
+  {
+    "path": "BUILD.bazel",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50ffa1257647547fccb5b8b97dd5b608520c77e9",
+    "size": 29544,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/50ffa1257647547fccb5b8b97dd5b608520c77e9"
+  },
+  {
+    "path": "CITATION.cff",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5f86639c8694a417dc9d0db0d889f9e7edafc30",
+    "size": 3219,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/d5f86639c8694a417dc9d0db0d889f9e7edafc30"
+  },
+  {
+    "path": "CMakeLists.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6b662fd69c3ad4d86a649666182970a52a8e6f7",
+    "size": 53494,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/c6b662fd69c3ad4d86a649666182970a52a8e6f7"
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24ab4fd35be9d275182a786b0063afcc566107bd",
+    "size": 7145,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/24ab4fd35be9d275182a786b0063afcc566107bd"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b91e23b17c023f10a34c7973c6f8614eed61ad1f",
+    "size": 3343,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/b91e23b17c023f10a34c7973c6f8614eed61ad1f"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dade8f4ec6ec0b5494eb3e86e5a6b21e19e52924",
+    "size": 59066,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/dade8f4ec6ec0b5494eb3e86e5a6b21e19e52924"
+  },
+  {
+    "path": "Dockerfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b8964bd860e078df8448938422eef254ff69227",
+    "size": 3822,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/7b8964bd860e078df8448938422eef254ff69227"
+  },
+  {
+    "path": "GLOSSARY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf9e6a8b6c7a1077daf66dc3760fbade61b94e05",
+    "size": 2470,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/bf9e6a8b6c7a1077daf66dc3760fbade61b94e05"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "966a609b61e537d94133d6dfbcf9d0a9a1c04e5a",
+    "size": 3464,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/966a609b61e537d94133d6dfbcf9d0a9a1c04e5a"
+  },
+  {
+    "path": "MANIFEST.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec00f251160b7bc1f5f3f9ab61e955790561861d",
+    "size": 1174,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/ec00f251160b7bc1f5f3f9ab61e955790561861d"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3db2b7aa44e76f96623ea0fbe5031b090c9c6873",
+    "size": 2327,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/3db2b7aa44e76f96623ea0fbe5031b090c9c6873"
+  },
+  {
+    "path": "NOTICE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6effb8b5d70709f90835f2f5d646352fd77b6943",
+    "size": 23632,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/6effb8b5d70709f90835f2f5d646352fd77b6943"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65c0bb982bd96fab3b81b06b3cf767273fba1491",
+    "size": 27021,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/65c0bb982bd96fab3b81b06b3cf767273fba1491"
+  },
+  {
+    "path": "RELEASE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "047bb10161f71c43a0510f4c5aaabf5f452bb295",
+    "size": 31995,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/047bb10161f71c43a0510f4c5aaabf5f452bb295"
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3baa145df7953a04f4b4903a1518d6552429913e",
+    "size": 10117,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/3baa145df7953a04f4b4903a1518d6552429913e"
+  },
+  {
+    "path": "WORKSPACE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6fd5f3c28b3a481d122d5a98b4162b809fb71e8b",
+    "size": 9730,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/6fd5f3c28b3a481d122d5a98b4162b809fb71e8b"
+  },
+  {
+    "path": "android",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56e38143665d438ab06cacb67f901d8324c95a92",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/56e38143665d438ab06cacb67f901d8324c95a92"
+  },
+  {
+    "path": "aten.bzl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d8cff6d1ae7dbdc246a7c5a1623184628dceefd",
+    "size": 2837,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/6d8cff6d1ae7dbdc246a7c5a1623184628dceefd"
+  },
+  {
+    "path": "aten",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94b7d32dfa74642089db44d4434052eb05b339fe",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/94b7d32dfa74642089db44d4434052eb05b339fe"
+  },
+  {
+    "path": "benchmarks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea864a8b50cfcbf3005f8be11505401e0f0de585",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/ea864a8b50cfcbf3005f8be11505401e0f0de585"
+  },
+  {
+    "path": "binaries",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cf0914373f23b56ccf423bcc7fbaec2bf9771a63",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/cf0914373f23b56ccf423bcc7fbaec2bf9771a63"
+  },
+  {
+    "path": "buckbuild.bzl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09a515584d97cc2e21fa7891e5e34d86e2389596",
+    "size": 86189,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/09a515584d97cc2e21fa7891e5e34d86e2389596"
+  },
+  {
+    "path": "build.bzl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c2c3e24dc5a259e88cf33a9f4ee41267c1d519c",
+    "size": 11781,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/7c2c3e24dc5a259e88cf33a9f4ee41267c1d519c"
+  },
+  {
+    "path": "build_variables.bzl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a226249db7089cb6f1debcc5d17a47226ebc1a1b",
+    "size": 74491,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/a226249db7089cb6f1debcc5d17a47226ebc1a1b"
+  },
+  {
+    "path": "c10",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a347375148b1796bbb94236d86c095a26cca2453",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/a347375148b1796bbb94236d86c095a26cca2453"
+  },
+  {
+    "path": "caffe2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "df1e5c061362e9c15d32cfc158301314cea6598c",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/df1e5c061362e9c15d32cfc158301314cea6598c"
+  },
+  {
+    "path": "cmake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f54f0410f166c5586030a68039baa3e1a5c5b16",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/3f54f0410f166c5586030a68039baa3e1a5c5b16"
+  },
+  {
+    "path": "defs.bzl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76da984725a949ca5b0399c96345a5aff7a86f92",
+    "size": 2653,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/76da984725a949ca5b0399c96345a5aff7a86f92"
+  },
+  {
+    "path": "docker.Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f510d1618a21426886249dca08dec3555f90761d",
+    "size": 3890,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/f510d1618a21426886249dca08dec3555f90761d"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "428e1c88eafedaacaaa95b82c659a77c26f9c08a",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/428e1c88eafedaacaaa95b82c659a77c26f9c08a"
+  },
+  {
+    "path": "functorch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cd1755c0ce6b0dc1774fc9e50bc80eea0e89f25f",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/cd1755c0ce6b0dc1774fc9e50bc80eea0e89f25f"
+  },
+  {
+    "path": "mypy-strict.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dddbb623047f7144df440df2976b836c5a775b6a",
+    "size": 1638,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/dddbb623047f7144df440df2976b836c5a775b6a"
+  },
+  {
+    "path": "mypy.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6a8af4c88c20c81c364f9cd8ff34250d7e84619",
+    "size": 6245,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/e6a8af4c88c20c81c364f9cd8ff34250d7e84619"
+  },
+  {
+    "path": "mypy_plugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f2f6231e180a450273107602eef43bd9433a51c0",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/f2f6231e180a450273107602eef43bd9433a51c0"
+  },
+  {
+    "path": "pt_ops.bzl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e27de57c5933b860f1f7ca4aa5f15ea8f8bf612b",
+    "size": 20344,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/e27de57c5933b860f1f7ca4aa5f15ea8f8bf612b"
+  },
+  {
+    "path": "pt_template_srcs.bzl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3a8dcabaa7ed3677eecce56adc1d5f957cbb395",
+    "size": 11393,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/d3a8dcabaa7ed3677eecce56adc1d5f957cbb395"
+  },
+  {
+    "path": "pyproject.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c42aa782407fa90c15a50693e6516acf10bf370b",
+    "size": 8793,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/c42aa782407fa90c15a50693e6516acf10bf370b"
+  },
+  {
+    "path": "pyrefly.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0637473497719b973a99d918e59305760ffeb9f",
+    "size": 2121,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/e0637473497719b973a99d918e59305760ffeb9f"
+  },
+  {
+    "path": "pytest.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2ab2ebd0cc164fa39acbc875f9b537cc2621ccf",
+    "size": 839,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/e2ab2ebd0cc164fa39acbc875f9b537cc2621ccf"
+  },
+  {
+    "path": "requirements-build.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be19d987f73db3115a6487eb95d33f64d994ac55",
+    "size": 220,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/be19d987f73db3115a6487eb95d33f64d994ac55"
+  },
+  {
+    "path": "requirements.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2affc4d2215a924b0d30a6db6dd567ec8278d86a",
+    "size": 383,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/2affc4d2215a924b0d30a6db6dd567ec8278d86a"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf7164cda9fb904014f3ad1bf78e8737f4f4e85c",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/bf7164cda9fb904014f3ad1bf78e8737f4f4e85c"
+  },
+  {
+    "path": "setup.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e30896a2fdf4eea2e94d87acd86fd6fb5b159605",
+    "size": 63695,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/e30896a2fdf4eea2e94d87acd86fd6fb5b159605"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "413d810e22b9cc120030b1ebb9f4e873c69e51ef",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/413d810e22b9cc120030b1ebb9f4e873c69e51ef"
+  },
+  {
+    "path": "third_party",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c51c004c690421906f7cb42e93fdf7133ecce6f",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/6c51c004c690421906f7cb42e93fdf7133ecce6f"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b34c612e40762512b9e088f04fdca9e74327ff8e",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/b34c612e40762512b9e088f04fdca9e74327ff8e"
+  },
+  {
+    "path": "torch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b84fa88c5a4c3b05cab83172a68bd48b78b7e95",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/1b84fa88c5a4c3b05cab83172a68bd48b78b7e95"
+  },
+  {
+    "path": "torchgen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f72125156f47074996b165fe2e697502390eb31",
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/trees/2f72125156f47074996b165fe2e697502390eb31"
+  },
+  {
+    "path": "ubsan.supp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ffeb6cb5fe68fbe6a7c5355c9dc103d800befb8",
+    "size": 42,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/2ffeb6cb5fe68fbe6a7c5355c9dc103d800befb8"
+  },
+  {
+    "path": "ufunc_defs.bzl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4490f05be01519784d52d3bfa40d21de090f0812",
+    "size": 800,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/4490f05be01519784d52d3bfa40d21de090f0812"
+  },
+  {
+    "path": "version.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03e905f0db5fe531cf4653cd410efa9cfc6b5311",
+    "size": 8,
+    "url": "https://api.github.com/repos/pytorch/pytorch/git/blobs/03e905f0db5fe531cf4653cd410efa9cfc6b5311"
+  }
+]

@@ -1,0 +1,886 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf10cfc627e8bddb95ab4403cef02d147969e407",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/bf10cfc627e8bddb95ab4403cef02d147969e407"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9242628bd58d3c368bdda3d4c325a2e7baa921b3",
+    "size": 52,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/9242628bd58d3c368bdda3d4c325a2e7baa921b3"
+  },
+  {
+    "path": "CNAME",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc2b7fc55100cd18f652643a5b547e8bcbbc63db",
+    "size": 24,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/cc2b7fc55100cd18f652643a5b547e8bcbbc63db"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f55d62d28dafa303fb67f3427bbbd7c78db2df5",
+    "size": 16696,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/0f55d62d28dafa303fb67f3427bbbd7c78db2df5"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06935ce9c7b153711d75a43660789e6675d1bc7e",
+    "size": 27597,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/06935ce9c7b153711d75a43660789e6675d1bc7e"
+  },
+  {
+    "path": "alloydb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fcaf5725c7a9f5048a5096397f80c428bf22404d",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/fcaf5725c7a9f5048a5096397f80c428bf22404d"
+  },
+  {
+    "path": "athena",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a6ac0afc712508ea73d28a7c30ca68bffe93995d",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/a6ac0afc712508ea73d28a7c30ca68bffe93995d"
+  },
+  {
+    "path": "aurora-mysql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "81e5027a627199d405a2a8905a6f9dad6caa7ae3",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/81e5027a627199d405a2a8905a6f9dad6caa7ae3"
+  },
+  {
+    "path": "aurora-postgresql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "389d1c3eab6482fc235996bbb903ddc587b38d96",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/389d1c3eab6482fc235996bbb903ddc587b38d96"
+  },
+  {
+    "path": "bigquery",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f70161d7d7008953c0861d148ce5cad08aa8545a",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/f70161d7d7008953c0861d148ce5cad08aa8545a"
+  },
+  {
+    "path": "brytlytdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "668389a11afd33d089ccdc652a31f1e5e29d513b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/668389a11afd33d089ccdc652a31f1e5e29d513b"
+  },
+  {
+    "path": "byconity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a474fe67e4d0caf631c2a713b27f1f401f6cdc36",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/a474fe67e4d0caf631c2a713b27f1f401f6cdc36"
+  },
+  {
+    "path": "bytehouse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1caf4df8c9ce256496db5be424b820770313895",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/d1caf4df8c9ce256496db5be424b820770313895"
+  },
+  {
+    "path": "cedardb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d1a61936a1dc9798bbaa339722b8ed174e629fe",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/7d1a61936a1dc9798bbaa339722b8ed174e629fe"
+  },
+  {
+    "path": "chdb-dataframe",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f32a6743a09c77508806a7271a436e8646ea4a5",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/3f32a6743a09c77508806a7271a436e8646ea4a5"
+  },
+  {
+    "path": "chdb-parquet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d948bcaea29435e42ef27189206689803c97d6c",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/4d948bcaea29435e42ef27189206689803c97d6c"
+  },
+  {
+    "path": "chdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b9eeffe387f7d7957056a19b2f1c4efdca10ac5",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/5b9eeffe387f7d7957056a19b2f1c4efdca10ac5"
+  },
+  {
+    "path": "chyt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec88d885cc5acef7838230ce74140ad378aa846f",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/ec88d885cc5acef7838230ce74140ad378aa846f"
+  },
+  {
+    "path": "citus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "44aba0fdbbe9fac140055a2513ebcc7a56fe2557",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/44aba0fdbbe9fac140055a2513ebcc7a56fe2557"
+  },
+  {
+    "path": "clickhouse-cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c614aa411e7d703a945444ab0d09b75de43d6819",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/c614aa411e7d703a945444ab0d09b75de43d6819"
+  },
+  {
+    "path": "clickhouse-datalake-partitioned",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfdcfcbf9c3c2e07e1b421772aa9b6f6454f0b38",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/cfdcfcbf9c3c2e07e1b421772aa9b6f6454f0b38"
+  },
+  {
+    "path": "clickhouse-datalake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "668675c301d985997955cba86b86a719777e9a07",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/668675c301d985997955cba86b86a719777e9a07"
+  },
+  {
+    "path": "clickhouse-parquet-partitioned",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1509ace9933e8740f36963ed86c92259eb603aa6",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/1509ace9933e8740f36963ed86c92259eb603aa6"
+  },
+  {
+    "path": "clickhouse-parquet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "edd2831aaac7dfb4f58bd5ede4573bfce0e046d3",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/edd2831aaac7dfb4f58bd5ede4573bfce0e046d3"
+  },
+  {
+    "path": "clickhouse-tencent",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "54a988b6cbcb695d3924bf683c8736af73dcdcfe",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/54a988b6cbcb695d3924bf683c8736af73dcdcfe"
+  },
+  {
+    "path": "clickhouse-web",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9bc31130de8aeb2959d878d87f3b13bdd24fb813",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/9bc31130de8aeb2959d878d87f3b13bdd24fb813"
+  },
+  {
+    "path": "clickhouse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "be219f20fba2af8bf7d54f0d2f5e210e39243d1e",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/be219f20fba2af8bf7d54f0d2f5e210e39243d1e"
+  },
+  {
+    "path": "cloud-init.sh.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee143fcb14242ac317c97f638bb72897dcf99350",
+    "size": 2337,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/ee143fcb14242ac317c97f638bb72897dcf99350"
+  },
+  {
+    "path": "cloudberry",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7da7b714c3d7edfe9c71a2a31aefe180a2abc2b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/e7da7b714c3d7edfe9c71a2a31aefe180a2abc2b"
+  },
+  {
+    "path": "cockroachdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ef95b27231ffa121e952162cdc309d488718881",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/7ef95b27231ffa121e952162cdc309d488718881"
+  },
+  {
+    "path": "collect-results.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5abb2c9b262eac1750aaa2e9a64302201b9ab46b",
+    "size": 3417,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/5abb2c9b262eac1750aaa2e9a64302201b9ab46b"
+  },
+  {
+    "path": "cratedb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9b77858fe8c6a2e9a4b30a75e0fb62e4b4600e97",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/9b77858fe8c6a2e9a4b30a75e0fb62e4b4600e97"
+  },
+  {
+    "path": "crunchy-bridge-for-analytics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0079ff90305a5b485f8fd4f4653b00f92bdac0cd",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/0079ff90305a5b485f8fd4f4653b00f92bdac0cd"
+  },
+  {
+    "path": "csvq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5f8c6908dcaa51c6c5d148294f4289d63598d5af",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/5f8c6908dcaa51c6c5d148294f4289d63598d5af"
+  },
+  {
+    "path": "daft-parquet-partitioned",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "170d0f632d2d8b02275d35ff6cf4212da2f62fd0",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/170d0f632d2d8b02275d35ff6cf4212da2f62fd0"
+  },
+  {
+    "path": "daft-parquet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a122b1290fe69319826e2203db382c69bcc7d27",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/3a122b1290fe69319826e2203db382c69bcc7d27"
+  },
+  {
+    "path": "data.generated.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "483066bc8daee42fd940375cb90975964ac2c7fc",
+    "size": 391411,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/483066bc8daee42fd940375cb90975964ac2c7fc"
+  },
+  {
+    "path": "databend",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf758dcfa410be31c57c1de1813f8ced08cea0e9",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/bf758dcfa410be31c57c1de1813f8ced08cea0e9"
+  },
+  {
+    "path": "datafusion-partitioned",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e11c0826c8e4384b8d00fd6c25ef2c5c73acd5ff",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/e11c0826c8e4384b8d00fd6c25ef2c5c73acd5ff"
+  },
+  {
+    "path": "datafusion-vortex-partitioned",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9a876746c417c4c5368aac434c3b75032e520cb",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/c9a876746c417c4c5368aac434c3b75032e520cb"
+  },
+  {
+    "path": "datafusion-vortex",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0f5fa8a650f52d7702bb22c6833eba72f0e613b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/c0f5fa8a650f52d7702bb22c6833eba72f0e613b"
+  },
+  {
+    "path": "datafusion",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0731bc29cf5d404939506de0e1b17ee60c72e695",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/0731bc29cf5d404939506de0e1b17ee60c72e695"
+  },
+  {
+    "path": "doris-parquet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9205b6fe44ff2f8e4099a0795c4290b27bc41666",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/9205b6fe44ff2f8e4099a0795c4290b27bc41666"
+  },
+  {
+    "path": "doris",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03dd368bea07d48f810ed8509988344c1de715f3",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/03dd368bea07d48f810ed8509988344c1de715f3"
+  },
+  {
+    "path": "drill",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfe086b63c24cedf82f053220837a5b3670819ea",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/cfe086b63c24cedf82f053220837a5b3670819ea"
+  },
+  {
+    "path": "druid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cf4785df02979238fee8fff7e435a6b7b5c4e198",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/cf4785df02979238fee8fff7e435a6b7b5c4e198"
+  },
+  {
+    "path": "dsq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61f2094a5e00636911d6937013c4f27be8de312c",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/61f2094a5e00636911d6937013c4f27be8de312c"
+  },
+  {
+    "path": "duckdb-dataframe",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6e2ada3f508f52e2b6cba4b6b93b4c7ab9a441fe",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/6e2ada3f508f52e2b6cba4b6b93b4c7ab9a441fe"
+  },
+  {
+    "path": "duckdb-memory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4867377a1d434e4d1924b965dc4353ba3f6c6bf8",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/4867377a1d434e4d1924b965dc4353ba3f6c6bf8"
+  },
+  {
+    "path": "duckdb-parquet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4acae0cb2d32170f2ffd440733c389270cea2d6c",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/4acae0cb2d32170f2ffd440733c389270cea2d6c"
+  },
+  {
+    "path": "duckdb-vortex-partitioned",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e39e232b323254fe18de1397926b6ee2b9909347",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/e39e232b323254fe18de1397926b6ee2b9909347"
+  },
+  {
+    "path": "duckdb-vortex",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3e9eef30b46ce8279501126fa04da4c02acc3dc",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/b3e9eef30b46ce8279501126fa04da4c02acc3dc"
+  },
+  {
+    "path": "duckdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7eb2a78eefa8b2eb7b6954416a1339b391c2054b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/7eb2a78eefa8b2eb7b6954416a1339b391c2054b"
+  },
+  {
+    "path": "elasticsearch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dfa44f36e9c0191c5d3792970f70c01f6414f9a7",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/dfa44f36e9c0191c5d3792970f70c01f6414f9a7"
+  },
+  {
+    "path": "exasol",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04248742e74fa66766d4c1ef69b543d574200be0",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/04248742e74fa66766d4c1ef69b543d574200be0"
+  },
+  {
+    "path": "firebolt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ec5b86fc51408a89bbe5dc9d0b7c6bf74c2fb11",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/9ec5b86fc51408a89bbe5dc9d0b7c6bf74c2fb11"
+  },
+  {
+    "path": "generate-results.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fb05a11a854aed2f420352b8c48529581aaa3e85",
+    "size": 490,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/fb05a11a854aed2f420352b8c48529581aaa3e85"
+  },
+  {
+    "path": "glaredb-partitioned",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9e0eaad27b08f601406cf7811db083fefb987771",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/9e0eaad27b08f601406cf7811db083fefb987771"
+  },
+  {
+    "path": "glaredb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "49640132e68efd007d4546744ff60495c6aebd3b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/49640132e68efd007d4546744ff60495c6aebd3b"
+  },
+  {
+    "path": "gravitons",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5bad3f78de0bcb0e4545e2748c1eee954631a652",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/5bad3f78de0bcb0e4545e2748c1eee954631a652"
+  },
+  {
+    "path": "greenplum",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6377da0815c043e3a0be39eb2bce4b727d1984d4",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/6377da0815c043e3a0be39eb2bce4b727d1984d4"
+  },
+  {
+    "path": "hardware",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8db61f70aad5030a5171634744a05df54612ddf9",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/8db61f70aad5030a5171634744a05df54612ddf9"
+  },
+  {
+    "path": "heavyai",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8670965f17a73be33db1c3f64c3e9fed6e7f267",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/c8670965f17a73be33db1c3f64c3e9fed6e7f267"
+  },
+  {
+    "path": "hologres",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "120d47c3f25119f8b8bbb5220dc2821dfc54f894",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/120d47c3f25119f8b8bbb5220dc2821dfc54f894"
+  },
+  {
+    "path": "hydra",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff2d27f377486626ce08215956d1d529e4db19e2",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/ff2d27f377486626ce08215956d1d529e4db19e2"
+  },
+  {
+    "path": "hydrolix",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "351c369414da590404077fd4d3d33bf2dc68776f",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/351c369414da590404077fd4d3d33bf2dc68776f"
+  },
+  {
+    "path": "hyper-parquet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b00df1820bf385c4e6d9ad036a5ce3094f897e76",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/b00df1820bf385c4e6d9ad036a5ce3094f897e76"
+  },
+  {
+    "path": "hyper",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04d3a401059911dabbb0a2ffa8e69e6699d7a5d3",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/04d3a401059911dabbb0a2ffa8e69e6699d7a5d3"
+  },
+  {
+    "path": "index.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38e45611d619d34416c5618a261f5273e081cf46",
+    "size": 47177,
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/blobs/38e45611d619d34416c5618a261f5273e081cf46"
+  },
+  {
+    "path": "infobright",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "af23184bf39484cef58217b6aed4d2d6567b7da4",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/af23184bf39484cef58217b6aed4d2d6567b7da4"
+  },
+  {
+    "path": "kinetica",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "36508f6044bf29d59ada1a94eb0ac3d1224222ad",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/36508f6044bf29d59ada1a94eb0ac3d1224222ad"
+  },
+  {
+    "path": "locustdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8397394901ce0855dee6460c9c57506603eac062",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/8397394901ce0855dee6460c9c57506603eac062"
+  },
+  {
+    "path": "mariadb-columnstore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f312baf765d7b98fcc7986ae6157f082224f6ec7",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/f312baf765d7b98fcc7986ae6157f082224f6ec7"
+  },
+  {
+    "path": "mariadb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8928ee432654fb8cae96693f15acc5ec75a0eca1",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/8928ee432654fb8cae96693f15acc5ec75a0eca1"
+  },
+  {
+    "path": "monetdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0fd929237f1b678cd342c09d8bcfbb28d075d1d4",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/0fd929237f1b678cd342c09d8bcfbb28d075d1d4"
+  },
+  {
+    "path": "mongodb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75151e5b7ca4c555d2e3401a92030824be054fe5",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/75151e5b7ca4c555d2e3401a92030824be054fe5"
+  },
+  {
+    "path": "motherduck",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a538ff62a195221e2a809fbf872a6462710d4e5",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/1a538ff62a195221e2a809fbf872a6462710d4e5"
+  },
+  {
+    "path": "mysql-myisam",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f52f1c3e71d7800648c2ca0cda3e45bacaa5b4ee",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/f52f1c3e71d7800648c2ca0cda3e45bacaa5b4ee"
+  },
+  {
+    "path": "mysql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "765d6d25407196ee16a94afa6a7528fdf214951e",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/765d6d25407196ee16a94afa6a7528fdf214951e"
+  },
+  {
+    "path": "octosql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "98bf04488262538fdbab1383f78266179cd7baad",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/98bf04488262538fdbab1383f78266179cd7baad"
+  },
+  {
+    "path": "opteryx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee6ac1a2b6c576a4f034e7e7af1ebd94e18f20f1",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/ee6ac1a2b6c576a4f034e7e7af1ebd94e18f20f1"
+  },
+  {
+    "path": "oxla",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b284dc95870cf150496119a9314a717d3c0594f6",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/b284dc95870cf150496119a9314a717d3c0594f6"
+  },
+  {
+    "path": "pandas",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9fe62ac33faa3e0386487c330c60efe06f853ee3",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/9fe62ac33faa3e0386487c330c60efe06f853ee3"
+  },
+  {
+    "path": "paradedb-partitioned",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "40670d79d0e4ee14a01a53cc4999efce1b5c34bd",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/40670d79d0e4ee14a01a53cc4999efce1b5c34bd"
+  },
+  {
+    "path": "paradedb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c15b2f38262cd688db4ffe41ef61e68584308726",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/c15b2f38262cd688db4ffe41ef61e68584308726"
+  },
+  {
+    "path": "parseable",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "209405a7761984b7304cfffc94d1836602668c54",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/209405a7761984b7304cfffc94d1836602668c54"
+  },
+  {
+    "path": "pg_duckdb-indexed",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "175792f5b2d69034d39649b80cb323d7d8c436e5",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/175792f5b2d69034d39649b80cb323d7d8c436e5"
+  },
+  {
+    "path": "pg_duckdb-motherduck",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6cad5f470c3beee7eac2ce2d11b93ecee42cabac",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/6cad5f470c3beee7eac2ce2d11b93ecee42cabac"
+  },
+  {
+    "path": "pg_duckdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "32adf8e431a06eb2dd9ee46b6bac7a81647fecf1",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/32adf8e431a06eb2dd9ee46b6bac7a81647fecf1"
+  },
+  {
+    "path": "pg_duckdb_parquet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d127c4c80b2df977e6c81f56a4f45cd89d3f4f27",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/d127c4c80b2df977e6c81f56a4f45cd89d3f4f27"
+  },
+  {
+    "path": "pg_mooncake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c7acd992869ed5d80a7db22c3ab46a991fa737de",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/c7acd992869ed5d80a7db22c3ab46a991fa737de"
+  },
+  {
+    "path": "pgpro_tam",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dc682b35e3aa59dd1930601df89695ea91e94901",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/dc682b35e3aa59dd1930601df89695ea91e94901"
+  },
+  {
+    "path": "pinot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d878fbad32e3f8a88b6359c5ab13838842c8344c",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/d878fbad32e3f8a88b6359c5ab13838842c8344c"
+  },
+  {
+    "path": "polars",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99b7e435a562f7ee173cf9a7cea3e9dbe5ded129",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/99b7e435a562f7ee173cf9a7cea3e9dbe5ded129"
+  },
+  {
+    "path": "polars_dataframe",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "684ffa637d8a8d872c84ab13d63167887b1dfaef",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/684ffa637d8a8d872c84ab13d63167887b1dfaef"
+  },
+  {
+    "path": "postgresql-indexed",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "774004700349cbeec243e6167ada549fad93f9dc",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/774004700349cbeec243e6167ada549fad93f9dc"
+  },
+  {
+    "path": "postgresql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67d6c0fba42bca73f9fa302cf77aa72fbb20f530",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/67d6c0fba42bca73f9fa302cf77aa72fbb20f530"
+  },
+  {
+    "path": "questdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea41054e6e08fcc45f1be8753f4acba42857bc6b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/ea41054e6e08fcc45f1be8753f4acba42857bc6b"
+  },
+  {
+    "path": "redshift-serverless",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ade3784551eabaca52bd3b6e39848e177e0cbad5",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/ade3784551eabaca52bd3b6e39848e177e0cbad5"
+  },
+  {
+    "path": "redshift",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2d821a98d64f6426bab8f3d9d72ed0c4736f688",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/a2d821a98d64f6426bab8f3d9d72ed0c4736f688"
+  },
+  {
+    "path": "s3select",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0836393cda4ac4398e440b739d777816bde6dd2",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/c0836393cda4ac4398e440b739d777816bde6dd2"
+  },
+  {
+    "path": "sail",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4b33f7cf013cfc775e3a72b97ad6c87388ce47f5",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/4b33f7cf013cfc775e3a72b97ad6c87388ce47f5"
+  },
+  {
+    "path": "selectdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f99e6a53a1d984e1a438838e1f23bbddca610c8",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/2f99e6a53a1d984e1a438838e1f23bbddca610c8"
+  },
+  {
+    "path": "siglens",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dd42d1dac5a0091767b31e345e217956689890c7",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/dd42d1dac5a0091767b31e345e217956689890c7"
+  },
+  {
+    "path": "singlestore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "98fc35da53c2b9a003cd983e4b111e057c4cf3d2",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/98fc35da53c2b9a003cd983e4b111e057c4cf3d2"
+  },
+  {
+    "path": "snowflake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4eceb814872fa10f38b04648a58cc9e67f347e61",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/4eceb814872fa10f38b04648a58cc9e67f347e61"
+  },
+  {
+    "path": "spark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2cca681f00e4c82fcb103ca2bdcdc26394febe20",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/2cca681f00e4c82fcb103ca2bdcdc26394febe20"
+  },
+  {
+    "path": "sqlite",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8eb6885fda221aa1e109403efd4b5f8c725cec4d",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/8eb6885fda221aa1e109403efd4b5f8c725cec4d"
+  },
+  {
+    "path": "starrocks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea1930c496c3e065e87b9610941da041a4138a2b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/ea1930c496c3e065e87b9610941da041a4138a2b"
+  },
+  {
+    "path": "tablespace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4b5c21af79205697ac2806fdf251c13bfb767a77",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/4b5c21af79205697ac2806fdf251c13bfb767a77"
+  },
+  {
+    "path": "tembo-olap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "760b051f681c0cb693ede0b02a37bf751d55b07b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/760b051f681c0cb693ede0b02a37bf751d55b07b"
+  },
+  {
+    "path": "tidb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d91238e5a5767d799ddad8edb4f10b54043aa368",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/d91238e5a5767d799ddad8edb4f10b54043aa368"
+  },
+  {
+    "path": "timescale-cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6ae6e0142c3d45e8411cf56b7814a9781d068c27",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/6ae6e0142c3d45e8411cf56b7814a9781d068c27"
+  },
+  {
+    "path": "timescaledb-no-columnstore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf6af30a7989af174c868575f16d529638559805",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/bf6af30a7989af174c868575f16d529638559805"
+  },
+  {
+    "path": "timescaledb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2c0c1425c89641ab98bfb9307641fb50d874328",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/e2c0c1425c89641ab98bfb9307641fb50d874328"
+  },
+  {
+    "path": "tinybird",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "77fe4e62526500684fdaf4cd65af6f82b7ea7e76",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/77fe4e62526500684fdaf4cd65af6f82b7ea7e76"
+  },
+  {
+    "path": "trino",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "623cb6c26f9eca9a348dbc4929a69932c7312d9b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/623cb6c26f9eca9a348dbc4929a69932c7312d9b"
+  },
+  {
+    "path": "turso",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1537b635bda5ce9ebd76995ee8ccfdc9cdcf1260",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/1537b635bda5ce9ebd76995ee8ccfdc9cdcf1260"
+  },
+  {
+    "path": "umbra",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1accebb122177215fb40774ba9bc3d3582b30753",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/1accebb122177215fb40774ba9bc3d3582b30753"
+  },
+  {
+    "path": "ursa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "953b46b375d4bbcae7fa7bfc3830eca1e30a4c9d",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/953b46b375d4bbcae7fa7bfc3830eca1e30a4c9d"
+  },
+  {
+    "path": "versions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75406ec3150ef93327447cb3d202d44cb00c402b",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/75406ec3150ef93327447cb3d202d44cb00c402b"
+  },
+  {
+    "path": "vertica",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a192505f96747325ad6a22980d98373067a2b13c",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/a192505f96747325ad6a22980d98373067a2b13c"
+  },
+  {
+    "path": "victorialogs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e79f3d3a8520c3fc21c5e4d894900ba5b66dfbf",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/7e79f3d3a8520c3fc21c5e4d894900ba5b66dfbf"
+  },
+  {
+    "path": "ydb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8372c98cc29daa08d8bb27fb4a91ef733983f1a",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/e8372c98cc29daa08d8bb27fb4a91ef733983f1a"
+  },
+  {
+    "path": "yugabytedb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6d4e552257dadbd508fdab418eff8b65939d0737",
+    "url": "https://api.github.com/repos/ClickHouse/ClickBench/git/trees/6d4e552257dadbd508fdab418eff8b65939d0737"
+  }
+]

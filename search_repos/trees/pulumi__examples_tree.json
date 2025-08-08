@@ -1,0 +1,2415 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86e82ef159ec0430e25999ed51f6f2eced72568e",
+    "size": 657,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/86e82ef159ec0430e25999ed51f6f2eced72568e"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f57c7c307ee4eaebccfc41258d0dacdfa388fc0b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/f57c7c307ee4eaebccfc41258d0dacdfa388fc0b"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3afea4766db22e89b34f2c942514e6ee5b4c7f0",
+    "size": 278,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/a3afea4766db22e89b34f2c942514e6ee5b4c7f0"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "CODE-OF-CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfb1c215c913e71414e7d20babc44f0809802164",
+    "size": 3234,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/bfb1c215c913e71414e7d20babc44f0809802164"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02a31fa39f4ae866a4e432a7b21407477bbcff00",
+    "size": 3222,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/02a31fa39f4ae866a4e432a7b21407477bbcff00"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+    "size": 11358,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24c8a3712b49489d48548e42e93c860c19bbe1fb",
+    "size": 2278,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/24c8a3712b49489d48548e42e93c860c19bbe1fb"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0806468494a7ffeced6ae2b12b9596ee658307d1",
+    "size": 35392,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/0806468494a7ffeced6ae2b12b9596ee658307d1"
+  },
+  {
+    "path": "alicloud-ts-ecs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "414e59e53fe781cdaefc1d99526878328d806db3",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/414e59e53fe781cdaefc1d99526878328d806db3"
+  },
+  {
+    "path": "aws-apigateway-go-routes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd2e8fa3de9dff9025ea9d1386fff0b3cf3b2e77",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fd2e8fa3de9dff9025ea9d1386fff0b3cf3b2e77"
+  },
+  {
+    "path": "aws-apigateway-py-routes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "069cbf1b8f7a64bdba7e537e096c935b303b608b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/069cbf1b8f7a64bdba7e537e096c935b303b608b"
+  },
+  {
+    "path": "aws-apigateway-ts-routes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a8b55113040a30bbe761060baf511344eb18a873",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a8b55113040a30bbe761060baf511344eb18a873"
+  },
+  {
+    "path": "aws-cs-ansible-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "addbd42e12e5875dd0f6f3394df69cbe8c146a14",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/addbd42e12e5875dd0f6f3394df69cbe8c146a14"
+  },
+  {
+    "path": "aws-cs-assume-role",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "393dafb6aa17ad0e7660e98b28964a76d67e5c4e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/393dafb6aa17ad0e7660e98b28964a76d67e5c4e"
+  },
+  {
+    "path": "aws-cs-eks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6edb5dccb094a412ea5f6696a755a622259a5026",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/6edb5dccb094a412ea5f6696a755a622259a5026"
+  },
+  {
+    "path": "aws-cs-fargate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4910d382ef5027abbf83819c099bb64344db3946",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4910d382ef5027abbf83819c099bb64344db3946"
+  },
+  {
+    "path": "aws-cs-lambda",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b4cd9f1b278132ff1194131300cf4d5975bd80d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/3b4cd9f1b278132ff1194131300cf4d5975bd80d"
+  },
+  {
+    "path": "aws-cs-langserve",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e53c169e8fa04c5bc4755260033b6f18201fd931",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e53c169e8fa04c5bc4755260033b6f18201fd931"
+  },
+  {
+    "path": "aws-cs-s3-folder",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "50a26d881c47ff0e0639620dca951a8dc43a1391",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/50a26d881c47ff0e0639620dca951a8dc43a1391"
+  },
+  {
+    "path": "aws-cs-secrets-manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d43e310e644d51b1a48d1b50e3240f363e7b207f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d43e310e644d51b1a48d1b50e3240f363e7b207f"
+  },
+  {
+    "path": "aws-cs-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dbf3caab4e2ab5e2667f4587cbaab9c82e6125b9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/dbf3caab4e2ab5e2667f4587cbaab9c82e6125b9"
+  },
+  {
+    "path": "aws-fs-lambda-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b12ebf297c82754d3e5229419bd84aeb527c5363",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b12ebf297c82754d3e5229419bd84aeb527c5363"
+  },
+  {
+    "path": "aws-fs-s3-folder",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "baa6a55a74163f9a3dbdd6a3c8b834f437e0cb96",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/baa6a55a74163f9a3dbdd6a3c8b834f437e0cb96"
+  },
+  {
+    "path": "aws-go-ansible-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2936f12c4d3cbdb43074c47430eb12f73ef082ad",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2936f12c4d3cbdb43074c47430eb12f73ef082ad"
+  },
+  {
+    "path": "aws-go-appsync",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a98525848da98805baf310a4a875612fba6018b8",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a98525848da98805baf310a4a875612fba6018b8"
+  },
+  {
+    "path": "aws-go-assume-role",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89924cba508a5b65eeab3e0d86e75b0dc93f235e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/89924cba508a5b65eeab3e0d86e75b0dc93f235e"
+  },
+  {
+    "path": "aws-go-console-slack-notification",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5d21a137d562e5e1a7b03b6b80d452e84f629934",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/5d21a137d562e5e1a7b03b6b80d452e84f629934"
+  },
+  {
+    "path": "aws-go-eks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc442c9a3d848360309576a48b6357388bac1251",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cc442c9a3d848360309576a48b6357388bac1251"
+  },
+  {
+    "path": "aws-go-fargate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9dcc9b922f63a34875dda90d3f4bb99549d0b65f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9dcc9b922f63a34875dda90d3f4bb99549d0b65f"
+  },
+  {
+    "path": "aws-go-lambda-gateway",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3315fe27e7c7b491f5560af8c92770bdb15630c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b3315fe27e7c7b491f5560af8c92770bdb15630c"
+  },
+  {
+    "path": "aws-go-lambda",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0d3fb390e51126607b19101ef5d41e9b85c35a4",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c0d3fb390e51126607b19101ef5d41e9b85c35a4"
+  },
+  {
+    "path": "aws-go-langserve",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bfd046458af248705cabac50c9335c85d9cec97",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1bfd046458af248705cabac50c9335c85d9cec97"
+  },
+  {
+    "path": "aws-go-resources",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b8e7b8693dc2f4c5e20bb803b5e0fbfc9802036e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b8e7b8693dc2f4c5e20bb803b5e0fbfc9802036e"
+  },
+  {
+    "path": "aws-go-s3-folder-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fce8a3c3ccc879bcbd4b15e9a4110407273c5a2a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fce8a3c3ccc879bcbd4b15e9a4110407273c5a2a"
+  },
+  {
+    "path": "aws-go-s3-folder",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ae9dc3d15312898d8523883734b805e9230d9072",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ae9dc3d15312898d8523883734b805e9230d9072"
+  },
+  {
+    "path": "aws-go-secrets-manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad5a766ee41be50984efc1cb1261f54004febddc",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ad5a766ee41be50984efc1cb1261f54004febddc"
+  },
+  {
+    "path": "aws-go-slackbot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cba590e50cb0faaec4ec28399a1b8eee6c25802d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cba590e50cb0faaec4ec28399a1b8eee6c25802d"
+  },
+  {
+    "path": "aws-go-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e3607c902a7feafa34f40994fb74b476768e2b89",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e3607c902a7feafa34f40994fb74b476768e2b89"
+  },
+  {
+    "path": "aws-java-ansible-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "935177646f566b6836398508eea84428ac2f868d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/935177646f566b6836398508eea84428ac2f868d"
+  },
+  {
+    "path": "aws-java-eks-minimal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a1882f9a67b449a035f2e038bf1da1aa30ff223",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1a1882f9a67b449a035f2e038bf1da1aa30ff223"
+  },
+  {
+    "path": "aws-java-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4533b59e6233804a0310e2fb85f119af8287614a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4533b59e6233804a0310e2fb85f119af8287614a"
+  },
+  {
+    "path": "aws-js-containers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "acf2841e27de44e6ba821d23b2b45f3799deed40",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/acf2841e27de44e6ba821d23b2b45f3799deed40"
+  },
+  {
+    "path": "aws-js-langserve",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a47591f7ca8dc2d819a9e4137a924909a986917a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a47591f7ca8dc2d819a9e4137a924909a986917a"
+  },
+  {
+    "path": "aws-js-s3-folder-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f83040bc239585b0c0542c9f711dd466b2ea04a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8f83040bc239585b0c0542c9f711dd466b2ea04a"
+  },
+  {
+    "path": "aws-js-s3-folder",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c704f921fe5a92d2adcd33ec56700dbdc8c30360",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c704f921fe5a92d2adcd33ec56700dbdc8c30360"
+  },
+  {
+    "path": "aws-js-sqs-slack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0161149bb58ad400476276176bcb7bd0d2bfb8d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e0161149bb58ad400476276176bcb7bd0d2bfb8d"
+  },
+  {
+    "path": "aws-js-webserver-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3681084ac6a93621f4ca099ca58ba644784b6fdb",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/3681084ac6a93621f4ca099ca58ba644784b6fdb"
+  },
+  {
+    "path": "aws-js-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2458f40a3f4ba0a0fe62fe7022d6e41f434826c2",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2458f40a3f4ba0a0fe62fe7022d6e41f434826c2"
+  },
+  {
+    "path": "aws-py-ansible-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fad78de4dbd0d92378737bf58cf7bb0c180554d9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fad78de4dbd0d92378737bf58cf7bb0c180554d9"
+  },
+  {
+    "path": "aws-py-apigateway-lambda-serverless",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "62b37f3ed73659ff25a52af310623d0926a488c5",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/62b37f3ed73659ff25a52af310623d0926a488c5"
+  },
+  {
+    "path": "aws-py-apigatewayv2-eventbridge",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ed9e2ef60ea80fc46c5f1a3ae96e0b6ae87c1beb",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ed9e2ef60ea80fc46c5f1a3ae96e0b6ae87c1beb"
+  },
+  {
+    "path": "aws-py-apigatewayv2-http-api-quickcreate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c5ea132d8a3fa8ebba8a13d0a82b106a1e4ab7f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4c5ea132d8a3fa8ebba8a13d0a82b106a1e4ab7f"
+  },
+  {
+    "path": "aws-py-appsync",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "caedb01380c59eef4c7db2e10725eaa88c66fb52",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/caedb01380c59eef4c7db2e10725eaa88c66fb52"
+  },
+  {
+    "path": "aws-py-assume-role",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0ffaeca3e5a6dfb85129931ebb8aeb7b19632c4",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e0ffaeca3e5a6dfb85129931ebb8aeb7b19632c4"
+  },
+  {
+    "path": "aws-py-django-voting-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a6c781b4827baf99d874ffac9fd0712dfb2007a2",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a6c781b4827baf99d874ffac9fd0712dfb2007a2"
+  },
+  {
+    "path": "aws-py-dynamicresource",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "238d54bf367c3ec6ae220a81407aefa9cefa2fec",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/238d54bf367c3ec6ae220a81407aefa9cefa2fec"
+  },
+  {
+    "path": "aws-py-ec2-provisioners",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfa5a6ee213f02c65e6c478b115a42e65a267e47",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cfa5a6ee213f02c65e6c478b115a42e65a267e47"
+  },
+  {
+    "path": "aws-py-ecs-instances-autoapi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0b365330dc20e7e576deb9feb6ac3739a5f272aa",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/0b365330dc20e7e576deb9feb6ac3739a5f272aa"
+  },
+  {
+    "path": "aws-py-eks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1a10147a6052ce4615cc9004f9638ad2142a24d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d1a10147a6052ce4615cc9004f9638ad2142a24d"
+  },
+  {
+    "path": "aws-py-fargate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8250ab1b13fdc018cf8577acdc22e4de89cc9ccf",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8250ab1b13fdc018cf8577acdc22e4de89cc9ccf"
+  },
+  {
+    "path": "aws-py-hub-and-spoke-network",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9d88d8ad58203fd7a446133c9f04f9705e536b9d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9d88d8ad58203fd7a446133c9f04f9705e536b9d"
+  },
+  {
+    "path": "aws-py-langserve",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6d3b5ac901f12e11d31006f3e8b1e027235fb035",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/6d3b5ac901f12e11d31006f3e8b1e027235fb035"
+  },
+  {
+    "path": "aws-py-oidc-provider-pulumi-cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "accf8d1ff64a9919defbf1b1fdd9292826c14254",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/accf8d1ff64a9919defbf1b1fdd9292826c14254"
+  },
+  {
+    "path": "aws-py-redshift-glue-etl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "420505326687d33b8e444a2f18105a0630f94288",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/420505326687d33b8e444a2f18105a0630f94288"
+  },
+  {
+    "path": "aws-py-resources",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f97fb7695b9e6c41d4e975aa84f5ad64a09b1d1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/3f97fb7695b9e6c41d4e975aa84f5ad64a09b1d1"
+  },
+  {
+    "path": "aws-py-s3-folder",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "036a5540588bc90bddbf822f9d11aed02d08aac9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/036a5540588bc90bddbf822f9d11aed02d08aac9"
+  },
+  {
+    "path": "aws-py-secrets-manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f0e06d3130ee59953b1b75abcba8c8958819c2c1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/f0e06d3130ee59953b1b75abcba8c8958819c2c1"
+  },
+  {
+    "path": "aws-py-serverless-raw",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bfd4d50c849bfa07e28c23e7302b92bb2c3e57bf",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/bfd4d50c849bfa07e28c23e7302b92bb2c3e57bf"
+  },
+  {
+    "path": "aws-py-slackbot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8dc5587780de68b04322d1e7f33d75cdcf599942",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8dc5587780de68b04322d1e7f33d75cdcf599942"
+  },
+  {
+    "path": "aws-py-stackreference",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2367e4b35a6f002da95c0bb51bef923b027cd70b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2367e4b35a6f002da95c0bb51bef923b027cd70b"
+  },
+  {
+    "path": "aws-py-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cd14ad4b525ed64573f479c7746d34e7c9b4e379",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cd14ad4b525ed64573f479c7746d34e7c9b4e379"
+  },
+  {
+    "path": "aws-py-stepfunctions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ff86f3acf23a4a693f4afc9e32747c01b3e5508",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7ff86f3acf23a4a693f4afc9e32747c01b3e5508"
+  },
+  {
+    "path": "aws-py-voting-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b2d79ff4364605c9c34620373f59ed001e84bcca",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b2d79ff4364605c9c34620373f59ed001e84bcca"
+  },
+  {
+    "path": "aws-py-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bb3f1a474da1cde229f008000a316eb710dfead",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1bb3f1a474da1cde229f008000a316eb710dfead"
+  },
+  {
+    "path": "aws-py-wordpress-fargate-rds",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5eb160dbbd2b68a4f24be0aed0d837901ec382fc",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/5eb160dbbd2b68a4f24be0aed0d837901ec382fc"
+  },
+  {
+    "path": "aws-ts-airflow",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a38315857cb0169c792f07fe569bbb8f4db9a090",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a38315857cb0169c792f07fe569bbb8f4db9a090"
+  },
+  {
+    "path": "aws-ts-ansible-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "630bf1bd494227d5c242787bab1f177398e009e6",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/630bf1bd494227d5c242787bab1f177398e009e6"
+  },
+  {
+    "path": "aws-ts-apigateway-auth0",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "473d442e84ee7af794bce05572898158dd52bf87",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/473d442e84ee7af794bce05572898158dd52bf87"
+  },
+  {
+    "path": "aws-ts-apigateway-eventbridge",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "338f4c9ab719b7850540a215edb5cb3400836043",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/338f4c9ab719b7850540a215edb5cb3400836043"
+  },
+  {
+    "path": "aws-ts-apigateway-lambda-serverless",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3eff45bdcd49d4cdc7fb060b4c9a0c3c26f1b4f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/f3eff45bdcd49d4cdc7fb060b4c9a0c3c26f1b4f"
+  },
+  {
+    "path": "aws-ts-apigateway",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0656ea62b672af0b4e46922c398a5384ef7cf457",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/0656ea62b672af0b4e46922c398a5384ef7cf457"
+  },
+  {
+    "path": "aws-ts-apigatewayv2-eventbridge",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "05f936d7269cd7ed6fa2d3b35007f1517a4f4d8b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/05f936d7269cd7ed6fa2d3b35007f1517a4f4d8b"
+  },
+  {
+    "path": "aws-ts-apigatewayv2-http-api-quickcreate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d57bb7d21edc2f282db2abe6b1e2e003d4fd1edc",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d57bb7d21edc2f282db2abe6b1e2e003d4fd1edc"
+  },
+  {
+    "path": "aws-ts-apigatewayv2-http-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99ea2d12facb30d06494afa38e0860b2c85c6c64",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/99ea2d12facb30d06494afa38e0860b2c85c6c64"
+  },
+  {
+    "path": "aws-ts-appsync",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eee6f221fb97d4e6a63ed0174a240026dc51f81c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/eee6f221fb97d4e6a63ed0174a240026dc51f81c"
+  },
+  {
+    "path": "aws-ts-assume-role",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "73e7c21c9d8ecee72ae51939b89f45710319b123",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/73e7c21c9d8ecee72ae51939b89f45710319b123"
+  },
+  {
+    "path": "aws-ts-containers-dockerbuild",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5880a566442aaadd88a2bb12a8b730bd186e9438",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/5880a566442aaadd88a2bb12a8b730bd186e9438"
+  },
+  {
+    "path": "aws-ts-containers-dockerbuildcloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac26ff5bb8fa8ea2a958859ea86f8664f433b7a5",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ac26ff5bb8fa8ea2a958859ea86f8664f433b7a5"
+  },
+  {
+    "path": "aws-ts-containers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f627287bcaa394ab3d7f5302cd7860f710f968d9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/f627287bcaa394ab3d7f5302cd7860f710f968d9"
+  },
+  {
+    "path": "aws-ts-ec2-provisioners",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ee6887a8c6a279f55c3cffdae552ed81b744d5f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4ee6887a8c6a279f55c3cffdae552ed81b744d5f"
+  },
+  {
+    "path": "aws-ts-ecr-cache",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "95324f21a01d1f821e91caae066e57fc433f7282",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/95324f21a01d1f821e91caae066e57fc433f7282"
+  },
+  {
+    "path": "aws-ts-ecs-anywhere",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8186eec8ebc7daa033baf138b893d88fb7f6fd6c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8186eec8ebc7daa033baf138b893d88fb7f6fd6c"
+  },
+  {
+    "path": "aws-ts-eks-distro",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cbaddeb4d600fb4fe7c646b1bf6a016387595388",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cbaddeb4d600fb4fe7c646b1bf6a016387595388"
+  },
+  {
+    "path": "aws-ts-eks-hello-world",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fca44759a0db5eb9b2f13b26ad5fd8a53f7f9765",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fca44759a0db5eb9b2f13b26ad5fd8a53f7f9765"
+  },
+  {
+    "path": "aws-ts-eks-migrate-nodegroups",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "83194c3ec199273b79248d95d92686a9d031cb15",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/83194c3ec199273b79248d95d92686a9d031cb15"
+  },
+  {
+    "path": "aws-ts-eks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8809545853d35f810726d530f2ffaffa6484b8fe",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8809545853d35f810726d530f2ffaffa6484b8fe"
+  },
+  {
+    "path": "aws-ts-hello-fargate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cbf00374a93224308025d349f4c776cfafe426d1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cbf00374a93224308025d349f4c776cfafe426d1"
+  },
+  {
+    "path": "aws-ts-k8s-mern-voting-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd4d7baaacb30ba1ac34fe20a5448466a335cec4",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/bd4d7baaacb30ba1ac34fe20a5448466a335cec4"
+  },
+  {
+    "path": "aws-ts-k8s-voting-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca5f2a898f70ca26b7c4ecb21c7935f3e9175084",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ca5f2a898f70ca26b7c4ecb21c7935f3e9175084"
+  },
+  {
+    "path": "aws-ts-lambda-efs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e790c94770ea44fa192b5c9c05a34f160aff797",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8e790c94770ea44fa192b5c9c05a34f160aff797"
+  },
+  {
+    "path": "aws-ts-lambda-secrets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bfcb371118368fe2ac870120c567df61d313f7f4",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/bfcb371118368fe2ac870120c567df61d313f7f4"
+  },
+  {
+    "path": "aws-ts-lambda-slack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b159585e51c972656722cbf9b926c752315478c1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b159585e51c972656722cbf9b926c752315478c1"
+  },
+  {
+    "path": "aws-ts-lambda-thumbnailer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5803bd96574a4ac86bad1948789b0c795c842d5f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/5803bd96574a4ac86bad1948789b0c795c842d5f"
+  },
+  {
+    "path": "aws-ts-langserve",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a9e75dc8902d3cddc98c35d28d26d43939fd6f71",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a9e75dc8902d3cddc98c35d28d26d43939fd6f71"
+  },
+  {
+    "path": "aws-ts-localai-flowise",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c6db91cf392816bf9b985212f1162ad62ee9a75f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c6db91cf392816bf9b985212f1162ad62ee9a75f"
+  },
+  {
+    "path": "aws-ts-multi-language-lambda",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "485c4ca2625a1dbf765c86621410577349edef30",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/485c4ca2625a1dbf765c86621410577349edef30"
+  },
+  {
+    "path": "aws-ts-netlify-cms-and-oauth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e485b8e22e04c5e13ae36fbdf144bf57520e4bcf",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e485b8e22e04c5e13ae36fbdf144bf57520e4bcf"
+  },
+  {
+    "path": "aws-ts-nextjs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "710338e8933f37cf734c583e6e62244016dc9d16",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/710338e8933f37cf734c583e6e62244016dc9d16"
+  },
+  {
+    "path": "aws-ts-oidc-provider-pulumi-cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d9f5892ae302d67c8b60c5f69beb510e517765d2",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d9f5892ae302d67c8b60c5f69beb510e517765d2"
+  },
+  {
+    "path": "aws-ts-organizations",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d9bd08b200004c312b70e22fa66543f12c05c1ea",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d9bd08b200004c312b70e22fa66543f12c05c1ea"
+  },
+  {
+    "path": "aws-ts-pern-voting-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "64c441865b500460f88b2d99cab2e4a743eeae37",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/64c441865b500460f88b2d99cab2e4a743eeae37"
+  },
+  {
+    "path": "aws-ts-pulumi-miniflux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "907e0457ce41abe464a086d12ddb37bf29306909",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/907e0457ce41abe464a086d12ddb37bf29306909"
+  },
+  {
+    "path": "aws-ts-pulumi-webhooks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "234f51cd9d643f0d397fd14a2093dafa071f92e9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/234f51cd9d643f0d397fd14a2093dafa071f92e9"
+  },
+  {
+    "path": "aws-ts-redshift-glue-etl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8d3e2d8e467be2df6aba8b2e809124f3458674ae",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8d3e2d8e467be2df6aba8b2e809124f3458674ae"
+  },
+  {
+    "path": "aws-ts-resources",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd8afb49419ad1807dad7ee630d23bb8013e7d72",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fd8afb49419ad1807dad7ee630d23bb8013e7d72"
+  },
+  {
+    "path": "aws-ts-ruby-on-rails",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b83c4b30d1e46d1e51b692ca35cf5d029928f965",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b83c4b30d1e46d1e51b692ca35cf5d029928f965"
+  },
+  {
+    "path": "aws-ts-s3-folder",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b2373f35f54fb251d238dc36411fcc3fa7f0d5d0",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b2373f35f54fb251d238dc36411fcc3fa7f0d5d0"
+  },
+  {
+    "path": "aws-ts-s3-lambda-copyzip",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f716c2a57f5d46f276672722742b26a90a69bef3",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/f716c2a57f5d46f276672722742b26a90a69bef3"
+  },
+  {
+    "path": "aws-ts-scheduled-function",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a276f71bc6526bdf3985fc6e30fc74231e26afd2",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a276f71bc6526bdf3985fc6e30fc74231e26afd2"
+  },
+  {
+    "path": "aws-ts-secrets-manager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f82729de4d666736a50c01cf63a83189211e4be3",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/f82729de4d666736a50c01cf63a83189211e4be3"
+  },
+  {
+    "path": "aws-ts-serverless-datawarehouse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ddd85dcedb37a56e4e9ea1cdd592cca1811de8ec",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ddd85dcedb37a56e4e9ea1cdd592cca1811de8ec"
+  },
+  {
+    "path": "aws-ts-serverless-raw",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "627f0b16cb9c86b890f1f3c3cae96b31ee963cf8",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/627f0b16cb9c86b890f1f3c3cae96b31ee963cf8"
+  },
+  {
+    "path": "aws-ts-slackbot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2fda99c8fe6e07c451bc37f976f7e8f1f1250fae",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2fda99c8fe6e07c451bc37f976f7e8f1f1250fae"
+  },
+  {
+    "path": "aws-ts-stackreference-architecture",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f61362c9cd2fcc3b22ddec0104cb3bf15e060f0",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2f61362c9cd2fcc3b22ddec0104cb3bf15e060f0"
+  },
+  {
+    "path": "aws-ts-stackreference",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3ab5c71ed4488052aea1b3956e28b9c4b5e3745f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/3ab5c71ed4488052aea1b3956e28b9c4b5e3745f"
+  },
+  {
+    "path": "aws-ts-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e083e50de16e0766a5ccfdff89ee20c0f85e399",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2e083e50de16e0766a5ccfdff89ee20c0f85e399"
+  },
+  {
+    "path": "aws-ts-stepfunctions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "33e5dd95bc5394708ad658fe5425641edbc05be8",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/33e5dd95bc5394708ad658fe5425641edbc05be8"
+  },
+  {
+    "path": "aws-ts-synthetics-canary",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1dd9443b71d241babc80bedd67666890e6acaa3b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1dd9443b71d241babc80bedd67666890e6acaa3b"
+  },
+  {
+    "path": "aws-ts-thumbnailer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "826f8f20b0339d1d1e4cbdc52555bf0200af0375",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/826f8f20b0339d1d1e4cbdc52555bf0200af0375"
+  },
+  {
+    "path": "aws-ts-twitter-athena",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "af76d487d2ab96b02a94bf7b60ce285534bd9e6b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/af76d487d2ab96b02a94bf7b60ce285534bd9e6b"
+  },
+  {
+    "path": "aws-ts-url-shortener-cache-http",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f5eda806f9d6c31c83133156e5ff2d77fd70e55",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8f5eda806f9d6c31c83133156e5ff2d77fd70e55"
+  },
+  {
+    "path": "aws-ts-voting-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2e0261f9b06107db27f7617c178aa70b704d76a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e2e0261f9b06107db27f7617c178aa70b704d76a"
+  },
+  {
+    "path": "aws-ts-vpc-with-ecs-fargate-py",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1d05dd4dcfbe85a663df7970c28df10f0c434c2f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1d05dd4dcfbe85a663df7970c28df10f0c434c2f"
+  },
+  {
+    "path": "aws-ts-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de67ea8d033e73d1505c9dbadaef6a50891f8f76",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/de67ea8d033e73d1505c9dbadaef6a50891f8f76"
+  },
+  {
+    "path": "aws-ts-wordpress-fargate-rds",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b9a0d93f2b9db19d7f5786b29c98bfcab8d56527",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b9a0d93f2b9db19d7f5786b29c98bfcab8d56527"
+  },
+  {
+    "path": "aws-yaml-ansible-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ce16d8db2fa2535b3c06cc68b65d2af8fc7d710",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2ce16d8db2fa2535b3c06cc68b65d2af8fc7d710"
+  },
+  {
+    "path": "aws-yaml-cue-eks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7dc4ea393979d75415d2026946903fac66d22804",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7dc4ea393979d75415d2026946903fac66d22804"
+  },
+  {
+    "path": "aws-yaml-eks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7cf22745f7d11ed404a39e4c869372c4b6e28318",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7cf22745f7d11ed404a39e4c869372c4b6e28318"
+  },
+  {
+    "path": "aws-yaml-langserve",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eccc93b595696da18e762e4be960f7e65a417035",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/eccc93b595696da18e762e4be960f7e65a417035"
+  },
+  {
+    "path": "aws-yaml-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0a3217e5906be38d9a5472a3fd4d75f5fab128dd",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/0a3217e5906be38d9a5472a3fd4d75f5fab128dd"
+  },
+  {
+    "path": "azure-cs-aci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89c4bc8b61d3ba0ffe142ef30374dbcce9004409",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/89c4bc8b61d3ba0ffe142ef30374dbcce9004409"
+  },
+  {
+    "path": "azure-cs-aks-cosmos-helm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ead5dd00ab08dc06329f9f40bd80008c3d7d3cc5",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ead5dd00ab08dc06329f9f40bd80008c3d7d3cc5"
+  },
+  {
+    "path": "azure-cs-aks-helm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "228ad7b5f5e19ec482c79ff46624063c9e5f1741",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/228ad7b5f5e19ec482c79ff46624063c9e5f1741"
+  },
+  {
+    "path": "azure-cs-aks-managed-identity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c919c81be89babddeca6c38ea78da8aad2dc6405",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c919c81be89babddeca6c38ea78da8aad2dc6405"
+  },
+  {
+    "path": "azure-cs-aks-multicluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fa9e30a9985071b789ece7121c2dba63d3e5bb9f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fa9e30a9985071b789ece7121c2dba63d3e5bb9f"
+  },
+  {
+    "path": "azure-cs-aks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "68ce634ee993cf123f9eb07666db9e9a1f276ff4",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/68ce634ee993cf123f9eb07666db9e9a1f276ff4"
+  },
+  {
+    "path": "azure-cs-appservice-docker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8587efe23fcc78532ca6bdaf89e49b841f736cb",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c8587efe23fcc78532ca6bdaf89e49b841f736cb"
+  },
+  {
+    "path": "azure-cs-appservice",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ed1dd8c755e56c6404dbded8ab8455b59c06db3",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9ed1dd8c755e56c6404dbded8ab8455b59c06db3"
+  },
+  {
+    "path": "azure-cs-call-azure-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "16a23db00db483d96dd88fa432b49eeb93f388b9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/16a23db00db483d96dd88fa432b49eeb93f388b9"
+  },
+  {
+    "path": "azure-cs-containerapps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec7c40d8a3175aa9c2e7682ca51a25b1b7a3aed7",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ec7c40d8a3175aa9c2e7682ca51a25b1b7a3aed7"
+  },
+  {
+    "path": "azure-cs-cosmosdb-logicapp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e30059716ec7908707ff84d16e469a1b1c2327bc",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e30059716ec7908707ff84d16e469a1b1c2327bc"
+  },
+  {
+    "path": "azure-cs-credential-rotation-one-set",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c3e3707c76a7c0fb08b949de06c5606c8484176a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c3e3707c76a7c0fb08b949de06c5606c8484176a"
+  },
+  {
+    "path": "azure-cs-functions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "502fb5b31ba497802f17f92e5d90a2780f441134",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/502fb5b31ba497802f17f92e5d90a2780f441134"
+  },
+  {
+    "path": "azure-cs-net5-aks-webapp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a412c9ac4550b49d2dc2e3e8d3b2ec821eb2d3e9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a412c9ac4550b49d2dc2e3e8d3b2ec821eb2d3e9"
+  },
+  {
+    "path": "azure-cs-sqlserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a4e92f460f056bb10d6ea4e45111a4653175c4af",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a4e92f460f056bb10d6ea4e45111a4653175c4af"
+  },
+  {
+    "path": "azure-cs-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "415da8988ef3bf38dba1e477615c9d74bb2dda69",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/415da8988ef3bf38dba1e477615c9d74bb2dda69"
+  },
+  {
+    "path": "azure-cs-synapse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f6bc9f6b945b1108c3bb5a68c9cc9dbf9b0ff50",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4f6bc9f6b945b1108c3bb5a68c9cc9dbf9b0ff50"
+  },
+  {
+    "path": "azure-go-aci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "957096110b6f1ac58adb07f5d2833b91e39d0edf",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/957096110b6f1ac58adb07f5d2833b91e39d0edf"
+  },
+  {
+    "path": "azure-go-aks-helm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89061736a3ec6168b447f846d1b297676b45a88e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/89061736a3ec6168b447f846d1b297676b45a88e"
+  },
+  {
+    "path": "azure-go-aks-managed-identity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e49929fa2b2ae75f67e420b75e6177039a1da674",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e49929fa2b2ae75f67e420b75e6177039a1da674"
+  },
+  {
+    "path": "azure-go-aks-multicluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c49d1e7d498f1d58071e9672f3f09507354f9aae",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c49d1e7d498f1d58071e9672f3f09507354f9aae"
+  },
+  {
+    "path": "azure-go-aks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "976aefeaafc30babdb1617a908cd5e723163d931",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/976aefeaafc30babdb1617a908cd5e723163d931"
+  },
+  {
+    "path": "azure-go-appservice-docker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0303c9480d913c2f1821c146223728bb577ca124",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/0303c9480d913c2f1821c146223728bb577ca124"
+  },
+  {
+    "path": "azure-go-call-azure-sdk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d83da2a65a319f4f18172fac1ded221e4427beed",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d83da2a65a319f4f18172fac1ded221e4427beed"
+  },
+  {
+    "path": "azure-go-containerapps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "031149f008367255be142aef53662a26f45f753f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/031149f008367255be142aef53662a26f45f753f"
+  },
+  {
+    "path": "azure-go-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "095c8cfed5477ba963d3e3b7bf9d374534580b86",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/095c8cfed5477ba963d3e3b7bf9d374534580b86"
+  },
+  {
+    "path": "azure-java-appservice-sql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e6744e3d9fea9be9b8ecac7a59db6a0a678f0ac4",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e6744e3d9fea9be9b8ecac7a59db6a0a678f0ac4"
+  },
+  {
+    "path": "azure-java-function-graal-spring",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d90f037d646e81402dc6a68bad1b5ea6261c0f10",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d90f037d646e81402dc6a68bad1b5ea6261c0f10"
+  },
+  {
+    "path": "azure-java-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3a4412d033c822729ce80aa02b93fe4ff6b11cb",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b3a4412d033c822729ce80aa02b93fe4ff6b11cb"
+  },
+  {
+    "path": "azure-py-aci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d18f97635e3d6cb6c3a76a27f8c6cf62c226157c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d18f97635e3d6cb6c3a76a27f8c6cf62c226157c"
+  },
+  {
+    "path": "azure-py-aks-helm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0371d311ca623f3a639b621f01efc30521007da",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c0371d311ca623f3a639b621f01efc30521007da"
+  },
+  {
+    "path": "azure-py-aks-managed-identity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6e79506f284d581cc806cebb06c3b50043b11941",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/6e79506f284d581cc806cebb06c3b50043b11941"
+  },
+  {
+    "path": "azure-py-aks-multicluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "402fe7335c5325cbb99b220179f7b1238f38a4d8",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/402fe7335c5325cbb99b220179f7b1238f38a4d8"
+  },
+  {
+    "path": "azure-py-aks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "094c226512a9f17b18f7caa91faff3e5d4ddbcae",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/094c226512a9f17b18f7caa91faff3e5d4ddbcae"
+  },
+  {
+    "path": "azure-py-appservice-docker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4fc71313e23377e390d29766c44adf6db2494012",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4fc71313e23377e390d29766c44adf6db2494012"
+  },
+  {
+    "path": "azure-py-appservice",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "706d4f425741e786234f9f5ead707b9d50838b11",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/706d4f425741e786234f9f5ead707b9d50838b11"
+  },
+  {
+    "path": "azure-py-call-azure-sdk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71eb7a8129db8c537afbe8e50c50aecdce2bbe5a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/71eb7a8129db8c537afbe8e50c50aecdce2bbe5a"
+  },
+  {
+    "path": "azure-py-containerapps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fbee1940ce1834a7a76a933e47ad0cb7b4d8a433",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fbee1940ce1834a7a76a933e47ad0cb7b4d8a433"
+  },
+  {
+    "path": "azure-py-cosmosdb-logicapp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0fa37bf0e18c09e19b650c627f2865ce3fc3bdc5",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/0fa37bf0e18c09e19b650c627f2865ce3fc3bdc5"
+  },
+  {
+    "path": "azure-py-functions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ce1b3206b311b40ffc8e35a45ee71a7adc35611",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2ce1b3206b311b40ffc8e35a45ee71a7adc35611"
+  },
+  {
+    "path": "azure-py-loadbalancer-vm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "141efb87d2ed767c864b2faa3197f6e747279e34",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/141efb87d2ed767c864b2faa3197f6e747279e34"
+  },
+  {
+    "path": "azure-py-minecraft-server",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d61b36538e478ac275b2c88eb454338ead25f3d7",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d61b36538e478ac275b2c88eb454338ead25f3d7"
+  },
+  {
+    "path": "azure-py-oidc-provider-pulumi-cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca85b1d2e50e3b3be2d2b4c75505ce5cac19a17c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ca85b1d2e50e3b3be2d2b4c75505ce5cac19a17c"
+  },
+  {
+    "path": "azure-py-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a98ecc1d8e903ff44fcf3964145f0ee6545484d4",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a98ecc1d8e903ff44fcf3964145f0ee6545484d4"
+  },
+  {
+    "path": "azure-py-synapse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c5f4dd8b308d0eb3dc2176282c987eba9a86333e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c5f4dd8b308d0eb3dc2176282c987eba9a86333e"
+  },
+  {
+    "path": "azure-py-virtual-data-center",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c990ad84e145553ee568963bda5414e0a08f4730",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c990ad84e145553ee568963bda5414e0a08f4730"
+  },
+  {
+    "path": "azure-py-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c9fac4299f11a79a3f8193839f61f2ef06039eb",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4c9fac4299f11a79a3f8193839f61f2ef06039eb"
+  },
+  {
+    "path": "azure-ts-aci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fc2cc2fbe5d5a397e2200d720fda560ffa261407",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fc2cc2fbe5d5a397e2200d720fda560ffa261407"
+  },
+  {
+    "path": "azure-ts-aks-helm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c63bccfc57816a6860765b8b0e91d81b9859bb2",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4c63bccfc57816a6860765b8b0e91d81b9859bb2"
+  },
+  {
+    "path": "azure-ts-aks-managed-identity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9b5ea57bbeff22cfb8bb681fea7188c008fcd31c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9b5ea57bbeff22cfb8bb681fea7188c008fcd31c"
+  },
+  {
+    "path": "azure-ts-aks-multicluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "42c7b2847ebc05c5afcc7dd2e6a20b00dfff6bdd",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/42c7b2847ebc05c5afcc7dd2e6a20b00dfff6bdd"
+  },
+  {
+    "path": "azure-ts-aks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a9184541a0c9a4bd2305c80c73467ae30d91e4e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/6a9184541a0c9a4bd2305c80c73467ae30d91e4e"
+  },
+  {
+    "path": "azure-ts-appservice-docker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dfb2c52df04e84db422768c331df2ad18477704b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/dfb2c52df04e84db422768c331df2ad18477704b"
+  },
+  {
+    "path": "azure-ts-appservice",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37e2faac1a80d1895f307737e1ad87f630792362",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/37e2faac1a80d1895f307737e1ad87f630792362"
+  },
+  {
+    "path": "azure-ts-call-azure-sdk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0811aebbd2700767a8d1f47e50b88d668798635",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e0811aebbd2700767a8d1f47e50b88d668798635"
+  },
+  {
+    "path": "azure-ts-containerapps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "76ccbc95075f16095afd792c5a91a996c1776a4e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/76ccbc95075f16095afd792c5a91a996c1776a4e"
+  },
+  {
+    "path": "azure-ts-cosmosdb-logicapp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "36836a635ac05462315fdb57379848a2e16d7b67",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/36836a635ac05462315fdb57379848a2e16d7b67"
+  },
+  {
+    "path": "azure-ts-functions-many",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b598a085a59b8699182204b4458fa08781ceee24",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b598a085a59b8699182204b4458fa08781ceee24"
+  },
+  {
+    "path": "azure-ts-functions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9811df19cca079053e023c5709677bc0ec5fa6c0",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9811df19cca079053e023c5709677bc0ec5fa6c0"
+  },
+  {
+    "path": "azure-ts-oidc-provider-pulumi-cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5d14c9b045fec58afb3bea7255f80468c8b9ad2d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/5d14c9b045fec58afb3bea7255f80468c8b9ad2d"
+  },
+  {
+    "path": "azure-ts-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b530a38249d794a034ad8af0783bf609094ebc1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2b530a38249d794a034ad8af0783bf609094ebc1"
+  },
+  {
+    "path": "azure-ts-synapse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e6caee253d83f221a3fc9294210ccecb556afe6b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e6caee253d83f221a3fc9294210ccecb556afe6b"
+  },
+  {
+    "path": "azure-ts-webapp-privateendpoint-vnet-injection",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "51d148360ef0da68464e116e35025e4eb7fdf157",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/51d148360ef0da68464e116e35025e4eb7fdf157"
+  },
+  {
+    "path": "azure-ts-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "abe808575ad84192f20fd7fb02064c8a2f299e6b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/abe808575ad84192f20fd7fb02064c8a2f299e6b"
+  },
+  {
+    "path": "azure-yaml-aks-managed-identity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5aff72efd1925f023896d84a6e587e9d271ab69f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/5aff72efd1925f023896d84a6e587e9d271ab69f"
+  },
+  {
+    "path": "azure-yaml-app-service",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "33b952970ee92a31516e49ec5a2b3d481c23288b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/33b952970ee92a31516e49ec5a2b3d481c23288b"
+  },
+  {
+    "path": "azure-yaml-container-apps",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a8334eba769806e33347dc50a78483f3c1814fb3",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a8334eba769806e33347dc50a78483f3c1814fb3"
+  },
+  {
+    "path": "azure-yaml-cue-static-web-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "20fa57268185a43aa4f96f479e852bdc1f8199dd",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/20fa57268185a43aa4f96f479e852bdc1f8199dd"
+  },
+  {
+    "path": "azure-yaml-static-website",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3880ff0daf29a835cd43c8446450839bde8202b2",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/3880ff0daf29a835cd43c8446450839bde8202b2"
+  },
+  {
+    "path": "black.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e69df3d52117784375fda45969ae653e994b1de",
+    "size": 178,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/2e69df3d52117784375fda45969ae653e994b1de"
+  },
+  {
+    "path": "classic-azure-cs-botservice",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "531f06a1cb1e4eafefad34c4f944240547a08176",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/531f06a1cb1e4eafefad34c4f944240547a08176"
+  },
+  {
+    "path": "classic-azure-cs-msi-keyvault-rbac",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f34293cc24383e1bb633835f84dc35776efe036",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4f34293cc24383e1bb633835f84dc35776efe036"
+  },
+  {
+    "path": "classic-azure-cs-vm-scaleset",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "362e6aa44e5599a6faad0f0231a01bfca4ee6e11",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/362e6aa44e5599a6faad0f0231a01bfca4ee6e11"
+  },
+  {
+    "path": "classic-azure-cs-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c0d5ad83845d77b43ebd808138450a3763101db",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9c0d5ad83845d77b43ebd808138450a3763101db"
+  },
+  {
+    "path": "classic-azure-fs-aci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "78e91c322538555c1256f338c9201cd20bf0b274",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/78e91c322538555c1256f338c9201cd20bf0b274"
+  },
+  {
+    "path": "classic-azure-fs-aks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dfacec257cfdaea2358a9c9bd9a4469f8f730928",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/dfacec257cfdaea2358a9c9bd9a4469f8f730928"
+  },
+  {
+    "path": "classic-azure-fs-appservice",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9e1e8e69e278a14216945d5c6fce0b30047b622d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9e1e8e69e278a14216945d5c6fce0b30047b622d"
+  },
+  {
+    "path": "classic-azure-go-aks-multicluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c2e8911d8346259afdbcaf2dd9bd59cb3c3d368",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9c2e8911d8346259afdbcaf2dd9bd59cb3c3d368"
+  },
+  {
+    "path": "classic-azure-go-webserver-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "90104b95f5655acea856c12350da22ee217ac039",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/90104b95f5655acea856c12350da22ee217ac039"
+  },
+  {
+    "path": "classic-azure-py-aks-multicluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dc00e09ac6a96c02748090d9c49239a5415a164f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/dc00e09ac6a96c02748090d9c49239a5415a164f"
+  },
+  {
+    "path": "classic-azure-py-arm-template",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "830f95e657ecdda9692e90ba9bdc0e7be8ac4479",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/830f95e657ecdda9692e90ba9bdc0e7be8ac4479"
+  },
+  {
+    "path": "classic-azure-py-hdinsight-spark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bb33c0f0e0402b38a7638175357790486c6fc396",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/bb33c0f0e0402b38a7638175357790486c6fc396"
+  },
+  {
+    "path": "classic-azure-py-msi-keyvault-rbac",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7f1696642d0209f3e542bedd2d88caad0c19e57a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7f1696642d0209f3e542bedd2d88caad0c19e57a"
+  },
+  {
+    "path": "classic-azure-py-vm-scaleset",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f6d212c57af8e36e6c0820e2a8b3bbaba9d7cfc9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/f6d212c57af8e36e6c0820e2a8b3bbaba9d7cfc9"
+  },
+  {
+    "path": "classic-azure-py-webserver-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9bc5a88131006a2a3557f6531972a74f27910b64",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9bc5a88131006a2a3557f6531972a74f27910b64"
+  },
+  {
+    "path": "classic-azure-ts-aks-keda",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7fc4089f6bac23a0d6a3735ab16e1b069337d637",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7fc4089f6bac23a0d6a3735ab16e1b069337d637"
+  },
+  {
+    "path": "classic-azure-ts-aks-mean",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67e7769152616c5a5180ccfe19fba6bcae823bcb",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/67e7769152616c5a5180ccfe19fba6bcae823bcb"
+  },
+  {
+    "path": "classic-azure-ts-api-management",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d43916d6497a21570b62f179aa07b175e563bb81",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d43916d6497a21570b62f179aa07b175e563bb81"
+  },
+  {
+    "path": "classic-azure-ts-appservice-devops",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e28e579c95b5b1006688f71ab01cd13094f1d4ad",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e28e579c95b5b1006688f71ab01cd13094f1d4ad"
+  },
+  {
+    "path": "classic-azure-ts-cosmosapp-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "958cbddc82bfd5cac965643b565b90c6751c5331",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/958cbddc82bfd5cac965643b565b90c6751c5331"
+  },
+  {
+    "path": "classic-azure-ts-hdinsight-spark",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "529191047fc9066d78ad4a451e6ef3828eea1e14",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/529191047fc9066d78ad4a451e6ef3828eea1e14"
+  },
+  {
+    "path": "classic-azure-ts-msi-keyvault-rbac",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e28d24bba64add5360027ff55162be4676f9dfe9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e28d24bba64add5360027ff55162be4676f9dfe9"
+  },
+  {
+    "path": "classic-azure-ts-serverless-url-shortener-global",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3ca108054946bc88ef9abd481bc33e8c69ead73a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/3ca108054946bc88ef9abd481bc33e8c69ead73a"
+  },
+  {
+    "path": "classic-azure-ts-stream-analytics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a100e69ccc2bc1e89c0edc5feddc2453fbab6de9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a100e69ccc2bc1e89c0edc5feddc2453fbab6de9"
+  },
+  {
+    "path": "classic-azure-ts-vm-provisioners",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "08d1e5736f426e982b79ef7fcbf47c8a1f0c83bd",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/08d1e5736f426e982b79ef7fcbf47c8a1f0c83bd"
+  },
+  {
+    "path": "classic-azure-ts-vm-scaleset",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ab3ec0e459ac2742a8dbe331d5ac6fac7ccdece",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7ab3ec0e459ac2742a8dbe331d5ac6fac7ccdece"
+  },
+  {
+    "path": "classic-azure-ts-webserver-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bed51339d5ae4721ea8a2cdbce93eec96db6f46a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/bed51339d5ae4721ea8a2cdbce93eec96db6f46a"
+  },
+  {
+    "path": "crd2pulumi-crontabs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37d669a60ff718969902896bfc54692a68391c57",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/37d669a60ff718969902896bfc54692a68391c57"
+  },
+  {
+    "path": "digitalocean-cs-k8s",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "24c29890d56a464bb0035676cbe16309084d0f6d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/24c29890d56a464bb0035676cbe16309084d0f6d"
+  },
+  {
+    "path": "digitalocean-cs-loadbalanced-droplets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bcd7358403186d5105116aba5c14a1aa53c37c9",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1bcd7358403186d5105116aba5c14a1aa53c37c9"
+  },
+  {
+    "path": "digitalocean-py-k8s",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43afdfe7bd354f21d36050f83a78dc3f4ddefc70",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/43afdfe7bd354f21d36050f83a78dc3f4ddefc70"
+  },
+  {
+    "path": "digitalocean-py-loadbalanced-droplets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4cf1ea8d96fdf676bdc311a70a090fea95bc6941",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4cf1ea8d96fdf676bdc311a70a090fea95bc6941"
+  },
+  {
+    "path": "digitalocean-ts-k8s",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a44421146ca6114dbabf8c15698a44541bcc9758",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a44421146ca6114dbabf8c15698a44541bcc9758"
+  },
+  {
+    "path": "digitalocean-ts-loadbalanced-droplets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d41405a9667ae52e74246cc1cf1c3ca0d73b625",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7d41405a9667ae52e74246cc1cf1c3ca0d73b625"
+  },
+  {
+    "path": "docker-cs-multi-container-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aafc0887e0ec0138c2c83a1ca5f36c09301e5a41",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/aafc0887e0ec0138c2c83a1ca5f36c09301e5a41"
+  },
+  {
+    "path": "docker-py-multi-container-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87a3f2c34b30fd4a80fc05b047d1581846c7823b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/87a3f2c34b30fd4a80fc05b047d1581846c7823b"
+  },
+  {
+    "path": "docker-ts-multi-container-app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "96126b6d7d5047ead292fbb3b2a28d103839b7c8",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/96126b6d7d5047ead292fbb3b2a28d103839b7c8"
+  },
+  {
+    "path": "dockerbuildcloud-ts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0da213d9f65fd3648fa5b5f67ccc94852c4dde4b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/0da213d9f65fd3648fa5b5f67ccc94852c4dde4b"
+  },
+  {
+    "path": "equinix-py-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aadecbd8cecd95f83fb66056ba2e7fedb52f1f4e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/aadecbd8cecd95f83fb66056ba2e7fedb52f1f4e"
+  },
+  {
+    "path": "equinix-ts-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1069a6fa26cef8e04d1c532e6be24b122f3cf304",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1069a6fa26cef8e04d1c532e6be24b122f3cf304"
+  },
+  {
+    "path": "example-readme-template.md.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "635a5d6eba080cb7e8b8e223e7022b2a260a7426",
+    "size": 4291,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/635a5d6eba080cb7e8b8e223e7022b2a260a7426"
+  },
+  {
+    "path": "f5bigip-ts-ltm-pool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bef62ad7919091930aa2218216b00a9408416170",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/bef62ad7919091930aa2218216b00a9408416170"
+  },
+  {
+    "path": "gcp-cs-functions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d4704ea1159599ba3ea6b8c8c1f9574d4b1cdff",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4d4704ea1159599ba3ea6b8c8c1f9574d4b1cdff"
+  },
+  {
+    "path": "gcp-cs-gke",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03016ee5af366e28e00ecaec97854d47ccb91397",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/03016ee5af366e28e00ecaec97854d47ccb91397"
+  },
+  {
+    "path": "gcp-go-functions-raw",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e42f579c94fd05226e55859a4213ee28860ba357",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e42f579c94fd05226e55859a4213ee28860ba357"
+  },
+  {
+    "path": "gcp-go-functions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b860b263880ea84fa6e6618340b44931ad05aaaf",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b860b263880ea84fa6e6618340b44931ad05aaaf"
+  },
+  {
+    "path": "gcp-go-gke",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "531b4e6cd8d4a7c5d0c287cf07d6de7e54894d2a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/531b4e6cd8d4a7c5d0c287cf07d6de7e54894d2a"
+  },
+  {
+    "path": "gcp-go-instance",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61db9cdec75182243d3a902de7ed3026b3ee5ada",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/61db9cdec75182243d3a902de7ed3026b3ee5ada"
+  },
+  {
+    "path": "gcp-go-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4730e56e2525271a2446fb97d71730989ed04862",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4730e56e2525271a2446fb97d71730989ed04862"
+  },
+  {
+    "path": "gcp-java-gke-hello-world",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80690c95e2e455cc983d809996a124f076bd7edd",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/80690c95e2e455cc983d809996a124f076bd7edd"
+  },
+  {
+    "path": "gcp-js-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06e31ae907fe2732dd1c15f95af345b4611392ff",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/06e31ae907fe2732dd1c15f95af345b4611392ff"
+  },
+  {
+    "path": "gcp-py-cloudrun-cloudsql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e4068955e07bab6cd4b8fd9cd37c83a4eb517154",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e4068955e07bab6cd4b8fd9cd37c83a4eb517154"
+  },
+  {
+    "path": "gcp-py-functions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2cb2a83389275b8426a3a6072c48e623980d58f4",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2cb2a83389275b8426a3a6072c48e623980d58f4"
+  },
+  {
+    "path": "gcp-py-gke",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0709505072a3e4124ad1d9a9555bc6492e3cb66",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a0709505072a3e4124ad1d9a9555bc6492e3cb66"
+  },
+  {
+    "path": "gcp-py-instance-nginx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "07a4e9e7db4e6f5d2c01221f692f7c1bf1bcf99a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/07a4e9e7db4e6f5d2c01221f692f7c1bf1bcf99a"
+  },
+  {
+    "path": "gcp-py-network-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70b720d27065055d7309a1abba7c4b450222cc34",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/70b720d27065055d7309a1abba7c4b450222cc34"
+  },
+  {
+    "path": "gcp-py-serverless-raw",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8749afcf5e6977f4c301aa5200da0a5a6e075df2",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8749afcf5e6977f4c301aa5200da0a5a6e075df2"
+  },
+  {
+    "path": "gcp-py-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a5ab829f09a225db10b6698c78dbc37aaa7ae4f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7a5ab829f09a225db10b6698c78dbc37aaa7ae4f"
+  },
+  {
+    "path": "gcp-ts-cloudrun",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "708e1ad4c5d9f74624d9c3485b0c31c90ea2c498",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/708e1ad4c5d9f74624d9c3485b0c31c90ea2c498"
+  },
+  {
+    "path": "gcp-ts-docker-gcr-cloudrun",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d0684d534a149f12280b70c12ecb54234e4d589b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d0684d534a149f12280b70c12ecb54234e4d589b"
+  },
+  {
+    "path": "gcp-ts-functions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "579991c55d2a1af0534500cd399eaf1cf456d888",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/579991c55d2a1af0534500cd399eaf1cf456d888"
+  },
+  {
+    "path": "gcp-ts-gke-hello-world",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b901ff1d168d3da5c41c9248cc917f3505897216",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b901ff1d168d3da5c41c9248cc917f3505897216"
+  },
+  {
+    "path": "gcp-ts-gke-serviceaccount",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7cf8ab355ae19ae905a40a6559b9150f76aa1bfe",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7cf8ab355ae19ae905a40a6559b9150f76aa1bfe"
+  },
+  {
+    "path": "gcp-ts-gke",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "141d06e42e64d49eebe982b396bc3b2bf195229c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/141d06e42e64d49eebe982b396bc3b2bf195229c"
+  },
+  {
+    "path": "gcp-ts-k8s-ruby-on-rails-postgresql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fdff295bbefd4f03edf1b603f2c38c29632bf61d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fdff295bbefd4f03edf1b603f2c38c29632bf61d"
+  },
+  {
+    "path": "gcp-ts-oidc-provider-pulumi-cloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "51f62804c39c814314655357117bf7b075621767",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/51f62804c39c814314655357117bf7b075621767"
+  },
+  {
+    "path": "gcp-ts-serverless-raw",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ffc1379af2d7987c28c6c57d4a0327cf736b5127",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ffc1379af2d7987c28c6c57d4a0327cf736b5127"
+  },
+  {
+    "path": "gcp-ts-slackbot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dd9af6fde6f40b72c303e95a1c937b105fb14d30",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/dd9af6fde6f40b72c303e95a1c937b105fb14d30"
+  },
+  {
+    "path": "google-native-ts-functions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f414c6c2d16daf9375df2b8fef0309fd8657a0ce",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/f414c6c2d16daf9375df2b8fef0309fd8657a0ce"
+  },
+  {
+    "path": "google-native-ts-gke-config-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4aa068826602a49c04edab9b40ae52e531b8f26c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4aa068826602a49c04edab9b40ae52e531b8f26c"
+  },
+  {
+    "path": "google-native-ts-k8s-python-postgresql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9b6e9fe684a9387121932c1d86c2f3829ede5249",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9b6e9fe684a9387121932c1d86c2f3829ede5249"
+  },
+  {
+    "path": "google-native-ts-k8s-ruby-on-rails-postgresql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "47c085438ea0c5b2a52a4a5c8c4155d6075522ed",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/47c085438ea0c5b2a52a4a5c8c4155d6075522ed"
+  },
+  {
+    "path": "kubernetes-cs-guestbook",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4edd1cda61455887f0d1592ee6ab11893321719b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4edd1cda61455887f0d1592ee6ab11893321719b"
+  },
+  {
+    "path": "kubernetes-cs-helm-release-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ffbd7bf584d3ddcd73856bd1ee3cad9114bb8d6",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8ffbd7bf584d3ddcd73856bd1ee3cad9114bb8d6"
+  },
+  {
+    "path": "kubernetes-go-configmap-rollout",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ea82463f01b4b1a2753d1e84349ba46caa634ff",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2ea82463f01b4b1a2753d1e84349ba46caa634ff"
+  },
+  {
+    "path": "kubernetes-go-exposed-deployment",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d9f9310a33d384901887eaaeed12ce49c98cf178",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/d9f9310a33d384901887eaaeed12ce49c98cf178"
+  },
+  {
+    "path": "kubernetes-go-guestbook",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8345d34e97e54f7d021f5a7c48b964b80135bf11",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8345d34e97e54f7d021f5a7c48b964b80135bf11"
+  },
+  {
+    "path": "kubernetes-go-helm-release-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "888702831c39d491c02b2f3fbfb3ebae5c5895d8",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/888702831c39d491c02b2f3fbfb3ebae5c5895d8"
+  },
+  {
+    "path": "kubernetes-go-helm-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3100fbda333861d39ede480a30712b0a9569410",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/b3100fbda333861d39ede480a30712b0a9569410"
+  },
+  {
+    "path": "kubernetes-py-exposed-deployment",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea1fd198bb3924b5f01df75d976d307765f6ff55",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/ea1fd198bb3924b5f01df75d976d307765f6ff55"
+  },
+  {
+    "path": "kubernetes-py-guestbook",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8b89e2afd9957e86be6b8b399fd3bcd1dc4ae2a3",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8b89e2afd9957e86be6b8b399fd3bcd1dc4ae2a3"
+  },
+  {
+    "path": "kubernetes-py-helm-release-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9514a5be8555f8f3175d0379a92dea696882c61d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9514a5be8555f8f3175d0379a92dea696882c61d"
+  },
+  {
+    "path": "kubernetes-py-jenkins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd9bec2596aac9e544a76c03b921e7ccd5a6f117",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fd9bec2596aac9e544a76c03b921e7ccd5a6f117"
+  },
+  {
+    "path": "kubernetes-py-nginx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dfc3e17993a8ea9bb45ec46f48b467035890d45d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/dfc3e17993a8ea9bb45ec46f48b467035890d45d"
+  },
+  {
+    "path": "kubernetes-ts-configmap-rollout",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc53e4ece3cffd02cfbb7c3701b79c40aa9b5e0d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cc53e4ece3cffd02cfbb7c3701b79c40aa9b5e0d"
+  },
+  {
+    "path": "kubernetes-ts-exposed-deployment",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c91296186078df6f9a90768a9d09e1d96c618c0e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/c91296186078df6f9a90768a9d09e1d96c618c0e"
+  },
+  {
+    "path": "kubernetes-ts-guestbook",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "42a225890d7122880213525aae71753b471d936d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/42a225890d7122880213525aae71753b471d936d"
+  },
+  {
+    "path": "kubernetes-ts-helm-release-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "da071e6b1434671ce9e387d75bf58661da3af1d1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/da071e6b1434671ce9e387d75bf58661da3af1d1"
+  },
+  {
+    "path": "kubernetes-ts-helm-wordpress",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ba738fd194a40ffc6a1572356ebcd1d9a93ce4c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4ba738fd194a40ffc6a1572356ebcd1d9a93ce4c"
+  },
+  {
+    "path": "kubernetes-ts-jenkins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b15f825c23e1afb024017107744f1d031bf711f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/6b15f825c23e1afb024017107744f1d031bf711f"
+  },
+  {
+    "path": "kubernetes-ts-multicloud",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7dfd18b72bdf115371ed1af0915f7fbb14f9fb38",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7dfd18b72bdf115371ed1af0915f7fbb14f9fb38"
+  },
+  {
+    "path": "kubernetes-ts-nginx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7bd110b75881a8e70cfb98676d1c61f23858ff6a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7bd110b75881a8e70cfb98676d1c61f23858ff6a"
+  },
+  {
+    "path": "kubernetes-ts-s3-rollout",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bbb7976efe964543764441d974d29f4b3627ed1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1bbb7976efe964543764441d974d29f4b3627ed1"
+  },
+  {
+    "path": "kubernetes-ts-sock-shop",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ba5851768a19940cc7c892169af77de76684307",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9ba5851768a19940cc7c892169af77de76684307"
+  },
+  {
+    "path": "kubernetes-ts-staged-rollout-with-prometheus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "558569e909da1570348385555cd18031c01b5d5b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/558569e909da1570348385555cd18031c01b5d5b"
+  },
+  {
+    "path": "kubernetes-yaml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1c45181b5d19d72a750cdcc34da5c655e76b9da1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1c45181b5d19d72a750cdcc34da5c655e76b9da1"
+  },
+  {
+    "path": "libvirt-py-vm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f35a1c913e5e3f085a87b15d0f6db35bb25466a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4f35a1c913e5e3f085a87b15d0f6db35bb25466a"
+  },
+  {
+    "path": "linode-js-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "72b386ecb3e84c87180fa10c02ff7fdfcfebe545",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/72b386ecb3e84c87180fa10c02ff7fdfcfebe545"
+  },
+  {
+    "path": "misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5d1ebeffd6e32f7380b498271e83edd5d8ec926d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/5d1ebeffd6e32f7380b498271e83edd5d8ec926d"
+  },
+  {
+    "path": "multicloud-ts-buckets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2bbfb89b444f39ebf1966e99fbf8fecd623cdec0",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2bbfb89b444f39ebf1966e99fbf8fecd623cdec0"
+  },
+  {
+    "path": "nx-monorepo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "76b447802cb1f150ffaa7cad8854574a2ee7c44b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/76b447802cb1f150ffaa7cad8854574a2ee7c44b"
+  },
+  {
+    "path": "openstack-py-webserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eed7458a374754e9a7913f20e20cb07bf78214c3",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/eed7458a374754e9a7913f20e20cb07bf78214c3"
+  },
+  {
+    "path": "ovhcloud-go-kubernetes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dd67eaccebff4611186adb69b9bb8be1d2b5a23d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/dd67eaccebff4611186adb69b9bb8be1d2b5a23d"
+  },
+  {
+    "path": "policy-packs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cad9376095b41201689f10595d243a8560f2f565",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cad9376095b41201689f10595d243a8560f2f565"
+  },
+  {
+    "path": "random-yaml-cue",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "762aacdf064af92f7d7ad3533951df0774ec018c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/762aacdf064af92f7d7ad3533951df0774ec018c"
+  },
+  {
+    "path": "random-yaml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0a9f1a0d6015a2f0d2c7fe61e3b35e517c524395",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/0a9f1a0d6015a2f0d2c7fe61e3b35e517c524395"
+  },
+  {
+    "path": "redis-cloud-aws-ts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4bf30b5294785be9b6090e10bd8360f44f7f41e0",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4bf30b5294785be9b6090e10bd8360f44f7f41e0"
+  },
+  {
+    "path": "renovate.json5",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d808719297a097005867b423fd9bb185baff7ed",
+    "size": 550,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/8d808719297a097005867b423fd9bb185baff7ed"
+  },
+  {
+    "path": "secrets-provider",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1508bfa6de919f10f033f339e47f4249ee04789a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1508bfa6de919f10f033f339e47f4249ee04789a"
+  },
+  {
+    "path": "stack-readme-cs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79a44747e4add377ab13985dcffe0e80c3d000b1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/79a44747e4add377ab13985dcffe0e80c3d000b1"
+  },
+  {
+    "path": "stack-readme-go",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd44822b1b5100160a6587b7e90ef759cd8c4669",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/bd44822b1b5100160a6587b7e90ef759cd8c4669"
+  },
+  {
+    "path": "stack-readme-java",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e5dc3a4e3ccd8c1b957666f23955574e134f8944",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e5dc3a4e3ccd8c1b957666f23955574e134f8944"
+  },
+  {
+    "path": "stack-readme-py",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2854730292a4e9a68cf17acae5352c182a174869",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/2854730292a4e9a68cf17acae5352c182a174869"
+  },
+  {
+    "path": "stack-readme-ts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e1029b84976cc851f8cc3c4cbd60408564722339",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e1029b84976cc851f8cc3c4cbd60408564722339"
+  },
+  {
+    "path": "stack-readme-yaml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9bd3d5a706fdbab9454c1be717aae8cd963dfdf7",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/9bd3d5a706fdbab9454c1be717aae8cd963dfdf7"
+  },
+  {
+    "path": "testing-integration-py",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b72530b0e65595b943f2db5ecd2558aa13d67c3",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/5b72530b0e65595b943f2db5ecd2558aa13d67c3"
+  },
+  {
+    "path": "testing-integration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e26f519e8be18868ee4bba92a5866a59594311d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/1e26f519e8be18868ee4bba92a5866a59594311d"
+  },
+  {
+    "path": "testing-pac-ts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc418a9079fc4b2d993941000e830b00eba9365d",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cc418a9079fc4b2d993941000e830b00eba9365d"
+  },
+  {
+    "path": "testing-unit-cs-mocks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "62af9e355c25dea63c771e6b7655c58c38c4c1b1",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/62af9e355c25dea63c771e6b7655c58c38c4c1b1"
+  },
+  {
+    "path": "testing-unit-cs-top-level-program",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "535866b661a6b8e773aa061809a5aa6f38137995",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/535866b661a6b8e773aa061809a5aa6f38137995"
+  },
+  {
+    "path": "testing-unit-cs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0a881b82e757c605bc4fca83b8bdf41451d4c24",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/a0a881b82e757c605bc4fca83b8bdf41451d4c24"
+  },
+  {
+    "path": "testing-unit-fs-mocks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8eb683a4bf4c1928d4c6ecfc09a0e99f5bd43c08",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8eb683a4bf4c1928d4c6ecfc09a0e99f5bd43c08"
+  },
+  {
+    "path": "testing-unit-go-components",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8945defe0495781b8dc6e0ec2a12a286de333ee2",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8945defe0495781b8dc6e0ec2a12a286de333ee2"
+  },
+  {
+    "path": "testing-unit-go",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7872ee668815734e8ae8d8df4b41a822d2cd823a",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/7872ee668815734e8ae8d8df4b41a822d2cd823a"
+  },
+  {
+    "path": "testing-unit-py",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fb108b64b697d3da780b0fa1a0c94d241210be15",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/fb108b64b697d3da780b0fa1a0c94d241210be15"
+  },
+  {
+    "path": "testing-unit-ts-mocks-jest",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e58165ba286024b8084d9c50ecda50437cf7fe1e",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/e58165ba286024b8084d9c50ecda50437cf7fe1e"
+  },
+  {
+    "path": "testing-unit-ts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a9cfcd053a4d9fe482b2bcedd9ad5d80aafd1c6",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/3a9cfcd053a4d9fe482b2bcedd9ad5d80aafd1c6"
+  },
+  {
+    "path": "tslint.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23c573057a836432c6f89d5e993d83d633caabca",
+    "size": 4624,
+    "url": "https://api.github.com/repos/pulumi/examples/git/blobs/23c573057a836432c6f89d5e993d83d633caabca"
+  },
+  {
+    "path": "twilio-ts-component",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0662657a56800277c26c5358e00f41e262afbd52",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/0662657a56800277c26c5358e00f41e262afbd52"
+  },
+  {
+    "path": "webserver-yaml-json",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4bf757026cbbc187b3313d64873c8e3d4e31c98b",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/4bf757026cbbc187b3313d64873c8e3d4e31c98b"
+  },
+  {
+    "path": "webserver-yaml",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cdf59142ff835b538eb632b5e02134f2234fbb0c",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/cdf59142ff835b538eb632b5e02134f2234fbb0c"
+  },
+  {
+    "path": "yaml-math-and-objects",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8aa37a4344dd8965157d7b72ef41efd64875035f",
+    "url": "https://api.github.com/repos/pulumi/examples/git/trees/8aa37a4344dd8965157d7b72ef41efd64875035f"
+  }
+]

@@ -1,0 +1,591 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bedf117c7789e1aa2e116bc1f9422a6c6409445",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/1bedf117c7789e1aa2e116bc1f9422a6c6409445"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8016b4be34e0c297c4380f3cc488af3a6ee7d823",
+    "size": 97,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/8016b4be34e0c297c4380f3cc488af3a6ee7d823"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a475c1bb0a48c35a6be307b2bd273ebf85cfb4c9",
+    "size": 6935,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/a475c1bb0a48c35a6be307b2bd273ebf85cfb4c9"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb02657caa27e9585d37b8ad83c8690cab1f58f8",
+    "size": 1073,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/bb02657caa27e9585d37b8ad83c8690cab1f58f8"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b5ec3eca9acb172ccb143966edf5cc02e3ebdbc",
+    "size": 941,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/2b5ec3eca9acb172ccb143966edf5cc02e3ebdbc"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "710d1642d6abc3e3186272dc4fd9916b0d318534",
+    "size": 6835,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/710d1642d6abc3e3186272dc4fd9916b0d318534"
+  },
+  {
+    "path": "check.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acd0d55393dd3c8bdddfe638531c6c689b798c07",
+    "size": 1595,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/acd0d55393dd3c8bdddfe638531c6c689b798c07"
+  },
+  {
+    "path": "cmd_client.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca9fcd9a4d4e895c16d82dec43434953fcc8b9b6",
+    "size": 1462,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/ca9fcd9a4d4e895c16d82dec43434953fcc8b9b6"
+  },
+  {
+    "path": "cmd_client_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f70fc8286e0a7f7032930da5bd6d1b3106d92984",
+    "size": 630,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/f70fc8286e0a7f7032930da5bd6d1b3106d92984"
+  },
+  {
+    "path": "cmd_cluster.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efb5349672ba0b01cb4a1eb3f734121708ee1471",
+    "size": 1733,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/efb5349672ba0b01cb4a1eb3f734121708ee1471"
+  },
+  {
+    "path": "cmd_cluster_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a0a5c6ab065222c15e7628a00cd330ba796f8b7",
+    "size": 907,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/9a0a5c6ab065222c15e7628a00cd330ba796f8b7"
+  },
+  {
+    "path": "cmd_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f73b2bac42729869c5c9e8b3c1c5c5e457c864b",
+    "size": 15841,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/8f73b2bac42729869c5c9e8b3c1c5c5e457c864b"
+  },
+  {
+    "path": "cmd_connection.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e403c949749c7fbb41398b428ce8d4f54da824f1",
+    "size": 5436,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/e403c949749c7fbb41398b428ce8d4f54da824f1"
+  },
+  {
+    "path": "cmd_connection_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd89468acce6136ab22b7b831fc2354dafcb357f",
+    "size": 5603,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/dd89468acce6136ab22b7b831fc2354dafcb357f"
+  },
+  {
+    "path": "cmd_generic.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d99a7ce56fe8d89de87924556c8cbe2d975b76c",
+    "size": 16130,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/9d99a7ce56fe8d89de87924556c8cbe2d975b76c"
+  },
+  {
+    "path": "cmd_generic_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3994bac092a3810ec6bf4a21bfbc565479afcfb3",
+    "size": 20341,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/3994bac092a3810ec6bf4a21bfbc565479afcfb3"
+  },
+  {
+    "path": "cmd_geo.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d35a75e2af51a5dd26eb80eece50b8b08a88227",
+    "size": 12476,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/4d35a75e2af51a5dd26eb80eece50b8b08a88227"
+  },
+  {
+    "path": "cmd_geo_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "951f6e56e325362a06d2424e21a5949090235660",
+    "size": 10742,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/951f6e56e325362a06d2424e21a5949090235660"
+  },
+  {
+    "path": "cmd_hash.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c30e2a03307d1c2a0b2f1d52f396275e4d02483",
+    "size": 12306,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/0c30e2a03307d1c2a0b2f1d52f396275e4d02483"
+  },
+  {
+    "path": "cmd_hash_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a9747f8ec92b1be87541add4202fda4af4420b1",
+    "size": 14494,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/0a9747f8ec92b1be87541add4202fda4af4420b1"
+  },
+  {
+    "path": "cmd_hll.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c7963faab76f8ad8f73f5536e5f3c19a7b46083e",
+    "size": 1422,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/c7963faab76f8ad8f73f5536e5f3c19a7b46083e"
+  },
+  {
+    "path": "cmd_hll_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e64f6e0f0c6e47391303e1e92387641599d96cae",
+    "size": 4058,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/e64f6e0f0c6e47391303e1e92387641599d96cae"
+  },
+  {
+    "path": "cmd_info.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a5d7b6267e3cfa43142f7cb888075a7f12effa7",
+    "size": 728,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/3a5d7b6267e3cfa43142f7cb888075a7f12effa7"
+  },
+  {
+    "path": "cmd_info_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d94050deba4e6c6051da265cd46566ba06677418",
+    "size": 1016,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/d94050deba4e6c6051da265cd46566ba06677418"
+  },
+  {
+    "path": "cmd_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4f397cb76ed72de61aaa729c03184c122db4a4e",
+    "size": 18369,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/c4f397cb76ed72de61aaa729c03184c122db4a4e"
+  },
+  {
+    "path": "cmd_list_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aabe1de70b6d993c81045996db2cc548f6d2e368",
+    "size": 34772,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/aabe1de70b6d993c81045996db2cc548f6d2e368"
+  },
+  {
+    "path": "cmd_object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8117c5294c7985a48bdb34ddfade70ce5889060",
+    "size": 962,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/e8117c5294c7985a48bdb34ddfade70ce5889060"
+  },
+  {
+    "path": "cmd_object_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54ae2af82e109e83d5ed8a0fb4f0ee486ef514f3",
+    "size": 618,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/54ae2af82e109e83d5ed8a0fb4f0ee486ef514f3"
+  },
+  {
+    "path": "cmd_pubsub.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "571431e8e057c8e597aae431114822c873178afe",
+    "size": 5016,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/571431e8e057c8e597aae431114822c873178afe"
+  },
+  {
+    "path": "cmd_pubsub_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5fdd73d78066f1be8420d66d807b1e1c2b750218",
+    "size": 11265,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/5fdd73d78066f1be8420d66d807b1e1c2b750218"
+  },
+  {
+    "path": "cmd_scripting.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "340ccc440b5f7e049825da260f26b150689254e4",
+    "size": 7147,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/340ccc440b5f7e049825da260f26b150689254e4"
+  },
+  {
+    "path": "cmd_scripting_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8fcd69fbe1799b4b4406d8e44d349962b17cf30",
+    "size": 11820,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/b8fcd69fbe1799b4b4406d8e44d349962b17cf30"
+  },
+  {
+    "path": "cmd_server.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd747048dd08e2320f995a7d588f605088021578",
+    "size": 3215,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/cd747048dd08e2320f995a7d588f605088021578"
+  },
+  {
+    "path": "cmd_server_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "608f3cfbd4bbe485fb92260f8a053b751022f6b3",
+    "size": 2293,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/608f3cfbd4bbe485fb92260f8a053b751022f6b3"
+  },
+  {
+    "path": "cmd_set.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d01bb2bbef2c93858a6cc8d95f0a11fac40501e",
+    "size": 13237,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/7d01bb2bbef2c93858a6cc8d95f0a11fac40501e"
+  },
+  {
+    "path": "cmd_set_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7923f0e4b0ff7661ad2729df46b5fa77dea22ab3",
+    "size": 18205,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/7923f0e4b0ff7661ad2729df46b5fa77dea22ab3"
+  },
+  {
+    "path": "cmd_sorted_set.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9838e3974093cb6f53f2ee626f03bae395095125",
+    "size": 36973,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/9838e3974093cb6f53f2ee626f03bae395095125"
+  },
+  {
+    "path": "cmd_sorted_set_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4040d6ba91870cd86d4dd759f05a25b49cb536a",
+    "size": 44263,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/a4040d6ba91870cd86d4dd759f05a25b49cb536a"
+  },
+  {
+    "path": "cmd_stream.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0167eafe35822bd5d451b912d6e611250033776c",
+    "size": 35642,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/0167eafe35822bd5d451b912d6e611250033776c"
+  },
+  {
+    "path": "cmd_stream_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bf57f607632e696c9a9b2e20140c32d45f47c6b",
+    "size": 42897,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/3bf57f607632e696c9a9b2e20140c32d45f47c6b"
+  },
+  {
+    "path": "cmd_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e9b859e827fb49556642bde2c2d0949385d0d47",
+    "size": 23330,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/9e9b859e827fb49556642bde2c2d0949385d0d47"
+  },
+  {
+    "path": "cmd_string_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d25081796477cbca053b0f41ef62078a9b3b5bc",
+    "size": 30045,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/1d25081796477cbca053b0f41ef62078a9b3b5bc"
+  },
+  {
+    "path": "cmd_transactions.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93d5354f7bd62a9fe6c1159ab6e7432cd876cdd7",
+    "size": 2670,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/93d5354f7bd62a9fe6c1159ab6e7432cd876cdd7"
+  },
+  {
+    "path": "cmd_transactions_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c6dafcd6f7a536020a1594531cd4b91535f48c4",
+    "size": 3379,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/7c6dafcd6f7a536020a1594531cd4b91535f48c4"
+  },
+  {
+    "path": "db.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6af7ba3a620600828a3a894eff4b14299b76670d",
+    "size": 16727,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/6af7ba3a620600828a3a894eff4b14299b76670d"
+  },
+  {
+    "path": "direct.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88ef361e9843da0f9c4b579764bec3edf59ebdae",
+    "size": 21426,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/88ef361e9843da0f9c4b579764bec3edf59ebdae"
+  },
+  {
+    "path": "fpconv",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d613ef5f66eb7d9fd1f4222a983ca236db8c10f",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/4d613ef5f66eb7d9fd1f4222a983ca236db8c10f"
+  },
+  {
+    "path": "geo.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3028a1670103a465363b5f8e02ece4316be12888",
+    "size": 1418,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/3028a1670103a465363b5f8e02ece4316be12888"
+  },
+  {
+    "path": "geo_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17ef219f62c741368731b8e064be04df9663acb6",
+    "size": 372,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/17ef219f62c741368731b8e064be04df9663acb6"
+  },
+  {
+    "path": "geohash",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f712b339a5f3caf0f35ae2db60a5b99b763f7be7",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/f712b339a5f3caf0f35ae2db60a5b99b763f7be7"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48a862f2dc47e4207f25a9c4bf439fc52f687f11",
+    "size": 92,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/48a862f2dc47e4207f25a9c4bf439fc52f687f11"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32d6a11fa02a4b66ea586719f36e4e5c5e82da25",
+    "size": 595,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/32d6a11fa02a4b66ea586719f36e4e5c5e82da25"
+  },
+  {
+    "path": "gopher-json",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc9ad04ec94ded55d2147cdaa011c6679ca96a56",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/bc9ad04ec94ded55d2147cdaa011c6679ca96a56"
+  },
+  {
+    "path": "hll.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d00ad78a297047a6be4e5df18df824d52499bec2",
+    "size": 851,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/d00ad78a297047a6be4e5df18df824d52499bec2"
+  },
+  {
+    "path": "hyperloglog",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea6f65a7420fd73befc0cc46342e102c77d166ee",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/ea6f65a7420fd73befc0cc46342e102c77d166ee"
+  },
+  {
+    "path": "integration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b13c028c2371d15a7be86d0952cd465503375edc",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/b13c028c2371d15a7be86d0952cd465503375edc"
+  },
+  {
+    "path": "keys.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "058e0a79a3844ed69a46fdd11bffa829fe9a37b9",
+    "size": 1779,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/058e0a79a3844ed69a46fdd11bffa829fe9a37b9"
+  },
+  {
+    "path": "keys_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3f7ef9112f39b5241c99cca99792151595d4211",
+    "size": 2979,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/f3f7ef9112f39b5241c99cca99792151595d4211"
+  },
+  {
+    "path": "lua.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f623739213243b83e9612a6b45bd3f5233b468a7",
+    "size": 6432,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/f623739213243b83e9612a6b45bd3f5233b468a7"
+  },
+  {
+    "path": "metro",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ab40e24498b6c5e6e694c770d8ce03012472fec6",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/ab40e24498b6c5e6e694c770d8ce03012472fec6"
+  },
+  {
+    "path": "miniredis.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72a145a069b17f476a3fd8ba8b30d964a9f9927a",
+    "size": 18715,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/72a145a069b17f476a3fd8ba8b30d964a9f9927a"
+  },
+  {
+    "path": "miniredis_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1c07e3e3265d25fdc71bee7c08e4664639f1283",
+    "size": 7840,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/c1c07e3e3265d25fdc71bee7c08e4664639f1283"
+  },
+  {
+    "path": "opts.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b29c78c23f36a17b51dacb0f61b5c0900ce193b",
+    "size": 1225,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/5b29c78c23f36a17b51dacb0f61b5c0900ce193b"
+  },
+  {
+    "path": "proto",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7e1bd8b984c02baca3071c6ec9d0aec349f2003",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/e7e1bd8b984c02baca3071c6ec9d0aec349f2003"
+  },
+  {
+    "path": "pubsub.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb31f80a8803dc4d97cbfd3af18c7454d9e1893e",
+    "size": 5036,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/bb31f80a8803dc4d97cbfd3af18c7454d9e1893e"
+  },
+  {
+    "path": "redis.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bf3bae24f5dd9c5a58d5412e7638dae692bdee0",
+    "size": 7916,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/2bf3bae24f5dd9c5a58d5412e7638dae692bdee0"
+  },
+  {
+    "path": "redis_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4c788c47d0be5d8ae24b4c15a0e85ab6a79a3d5",
+    "size": 592,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/c4c788c47d0be5d8ae24b4c15a0e85ab6a79a3d5"
+  },
+  {
+    "path": "server",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8291d3edf71a13fe9027a02e640f05a4ab03f93c",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/8291d3edf71a13fe9027a02e640f05a4ab03f93c"
+  },
+  {
+    "path": "size",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4e1b23de7c9f2d2926e8ea322ee5f626278383aa",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/4e1b23de7c9f2d2926e8ea322ee5f626278383aa"
+  },
+  {
+    "path": "sorted_set.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96ebd5d71bba1bf64843e773732ce2574e816267",
+    "size": 1900,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/96ebd5d71bba1bf64843e773732ce2574e816267"
+  },
+  {
+    "path": "sorted_set_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a29101bd989302e0ad8f381bc12052c5caf8bd8c",
+    "size": 1550,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/a29101bd989302e0ad8f381bc12052c5caf8bd8c"
+  },
+  {
+    "path": "stream.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2dd466d58ae004a4fb636b57b62cce89104e79d",
+    "size": 10748,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/f2dd466d58ae004a4fb636b57b62cce89104e79d"
+  },
+  {
+    "path": "stream_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95c0e52ece09878f3943946e729b282556c227bd",
+    "size": 4183,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/95c0e52ece09878f3943946e729b282556c227bd"
+  },
+  {
+    "path": "test_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c49fff829147c276dffd9e9c1dc93d0af2de748",
+    "size": 3082,
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/blobs/0c49fff829147c276dffd9e9c1dc93d0af2de748"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "96ee480383c21ab230b892f3cf87972d167bf74d",
+    "url": "https://api.github.com/repos/alicebob/miniredis/git/trees/96ee480383c21ab230b892f3cf87972d167bf74d"
+  }
+]

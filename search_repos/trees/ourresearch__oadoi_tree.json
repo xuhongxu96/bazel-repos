@@ -1,0 +1,944 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb5270b88e081336e827e7155a304e537377846c",
+    "size": 1257,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/eb5270b88e081336e827e7155a304e537377846c"
+  },
+  {
+    "path": "Aptfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7d54b0eb15630e0634afa6cc376e7e6e0d517d6",
+    "size": 19,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/d7d54b0eb15630e0634afa6cc376e7e6e0d517d6"
+  },
+  {
+    "path": "CHANGELOG.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34934cf4d688f852441e4216c582e7cc7f837b5a",
+    "size": 670,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/34934cf4d688f852441e4216c582e7cc7f837b5a"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b22febddb5140c5e8aaf49ef272f1dd4858d949e",
+    "size": 1079,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/b22febddb5140c5e8aaf49ef272f1dd4858d949e"
+  },
+  {
+    "path": "Procfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bdf5439d22b49587620a1c585969253f8d76477",
+    "size": 1376,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/3bdf5439d22b49587620a1c585969253f8d76477"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "admin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8cd4c3ad8e72dfdc8afea29abccc079e7b27c9c5",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/8cd4c3ad8e72dfdc8afea29abccc079e7b27c9c5"
+  },
+  {
+    "path": "app.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "558f375a9420c49bc3650014953ac7f002f085fe",
+    "size": 4472,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/558f375a9420c49bc3650014953ac7f002f085fe"
+  },
+  {
+    "path": "bigquery_import.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2c0bcfa047b30cc44951de4adf8915b70bc2603",
+    "size": 12506,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/f2c0bcfa047b30cc44951de4adf8915b70bc2603"
+  },
+  {
+    "path": "cache_changefile_dicts.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "417ebd28fad85d4d4892a71b87857c17097f4b7e",
+    "size": 1980,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/417ebd28fad85d4d4892a71b87857c17097f4b7e"
+  },
+  {
+    "path": "call_journal_apis.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72df097792c04533cc535b16cdebae57c49d2f56",
+    "size": 3116,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/72df097792c04533cc535b16cdebae57c49d2f56"
+  },
+  {
+    "path": "changefile.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcba2db2d00dd24d1a8592d57233ba4dc4187e0f",
+    "size": 2901,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/bcba2db2d00dd24d1a8592d57233ba4dc4187e0f"
+  },
+  {
+    "path": "clean_fulltext.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dba2eea5fdb9b848b8bb747ab51eece9fdb77b5",
+    "size": 2738,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/9dba2eea5fdb9b848b8bb747ab51eece9fdb77b5"
+  },
+  {
+    "path": "clean_pdfs.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e16493beb52085ce602a9f3175deab2141e50c5",
+    "size": 6722,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/4e16493beb52085ce602a9f3175deab2141e50c5"
+  },
+  {
+    "path": "const.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43bb76ee024d17330f728e4fd4c46d0368786aa2",
+    "size": 346,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/43bb76ee024d17330f728e4fd4c46d0368786aa2"
+  },
+  {
+    "path": "convert_http_to_https.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d684a56a88346f9810b2e9fa34d088a27bea93cb",
+    "size": 1710,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/d684a56a88346f9810b2e9fa34d088a27bea93cb"
+  },
+  {
+    "path": "crossref_snapshot_staging.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e58ec67d07d371c18fd38845719d115673e4179c",
+    "size": 2308,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/e58ec67d07d371c18fd38845719d115673e4179c"
+  },
+  {
+    "path": "crossref_snapshot_sync.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ad15b3e2a06ba672cd73e7320586236bf79d30c",
+    "size": 4664,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/4ad15b3e2a06ba672cd73e7320586236bf79d30c"
+  },
+  {
+    "path": "data",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "661fa0e735116cc57eeebe0f9e7ef74bae5c5809",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/661fa0e735116cc57eeebe0f9e7ef74bae5c5809"
+  },
+  {
+    "path": "doaj.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a868cf3b1f5f261c758dd3d579ed0fc6890789ca",
+    "size": 1417,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/a868cf3b1f5f261c758dd3d579ed0fc6890789ca"
+  },
+  {
+    "path": "download_pdfs.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5316ae6aca27ac6b201fffe76c2056632868f223",
+    "size": 13048,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/5316ae6aca27ac6b201fffe76c2056632868f223"
+  },
+  {
+    "path": "emailer.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8c13dd74eae8d6f10052b30a96a2de597a77dc1",
+    "size": 2809,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/b8c13dd74eae8d6f10052b30a96a2de597a77dc1"
+  },
+  {
+    "path": "endpoint.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a5e5b8633ecb1f33e4ac4852ea012009a0b1e3b",
+    "size": 26478,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/5a5e5b8633ecb1f33e4ac4852ea012009a0b1e3b"
+  },
+  {
+    "path": "enqueue_doi_record_queue.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e4d5cadb0701bedcc55c40bf2f0ebb0007cd37c",
+    "size": 2312,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/4e4d5cadb0701bedcc55c40bf2f0ebb0007cd37c"
+  },
+  {
+    "path": "grobid_do_util.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbd02842aba6a2c0aa34fb98d748eaa8f8ffb60f",
+    "size": 3011,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/fbd02842aba6a2c0aa34fb98d748eaa8f8ffb60f"
+  },
+  {
+    "path": "http_cache.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22ae1c1b99d2edf6e2c301f82f0b433abc574cab",
+    "size": 13224,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/22ae1c1b99d2edf6e2c301f82f0b433abc574cab"
+  },
+  {
+    "path": "insert_pdf_recordthresher.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8de007bccf9e61c9482db7db4032f966b187bf2",
+    "size": 2123,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/a8de007bccf9e61c9482db7db4032f966b187bf2"
+  },
+  {
+    "path": "install_emacs.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e5ebd2a95268ea1f3317c3ad7c5d5fd2e630820d",
+    "size": 179,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/e5ebd2a95268ea1f3317c3ad7c5d5fd2e630820d"
+  },
+  {
+    "path": "journal.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eeb13135ec570c3039a17183f9e627082188ef51",
+    "size": 1325,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/eeb13135ec570c3039a17183f9e627082188ef51"
+  },
+  {
+    "path": "journal_export.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92524fc20da2e23f8bff3de3c87d98db9ca41947",
+    "size": 3792,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/92524fc20da2e23f8bff3de3c87d98db9ca41947"
+  },
+  {
+    "path": "load_dblp.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf99dc2540d7c362fd254e3dc911ab0c799da06d",
+    "size": 2811,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/cf99dc2540d7c362fd254e3dc911ab0c799da06d"
+  },
+  {
+    "path": "load_pubmed_baseline_files.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6899c05e136381e5f673c1419e781705bc2d1320",
+    "size": 5024,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/6899c05e136381e5f673c1419e781705bc2d1320"
+  },
+  {
+    "path": "load_pubmed_update_files.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32822f71ac2e80c6e950b9e2a9da4607d4e814f2",
+    "size": 5175,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/32822f71ac2e80c6e950b9e2a9da4607d4e814f2"
+  },
+  {
+    "path": "monitoring",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "05f0b40a5844c0f818a5c264bb215c7413706652",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/05f0b40a5844c0f818a5c264bb215c7413706652"
+  },
+  {
+    "path": "need_rescrape_funcs.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e102c5a1badc3dcd825f74379f20ed16b7e2965",
+    "size": 210,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/5e102c5a1badc3dcd825f74379f20ed16b7e2965"
+  },
+  {
+    "path": "nose.cfg.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "oa_evidence.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22a9efd03da6afd81fea97bdfb3d7bfef53fcaee",
+    "size": 464,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/22a9efd03da6afd81fea97bdfb3d7bfef53fcaee"
+  },
+  {
+    "path": "oa_local.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f3699656d11afc786c5ad04d50b66dec236cee4",
+    "size": 23952,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/6f3699656d11afc786c5ad04d50b66dec236cee4"
+  },
+  {
+    "path": "oa_manual.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "809b2e8fbc3c34d42ede2206a8350d1e297f98e8",
+    "size": 60846,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/809b2e8fbc3c34d42ede2206a8350d1e297f98e8"
+  },
+  {
+    "path": "oa_page.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2db8f2917b773778c3434aeaec5c764d37823a90",
+    "size": 15437,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/2db8f2917b773778c3434aeaec5c764d37823a90"
+  },
+  {
+    "path": "oa_pmc.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ede03d320241e2e006a7f7f51329e96798270d3",
+    "size": 889,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/3ede03d320241e2e006a7f7f51329e96798270d3"
+  },
+  {
+    "path": "open_location.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8caffa1b91991c937db3b73cf1ab3672819c804a",
+    "size": 9833,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/8caffa1b91991c937db3b73cf1ab3672819c804a"
+  },
+  {
+    "path": "page.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72db5ff00d33ad4cab8210f3dc3c516878c2f436",
+    "size": 41407,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/72db5ff00d33ad4cab8210f3dc3c516878c2f436"
+  },
+  {
+    "path": "passive_enqueue_missing_affs.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "347c098263a8351c82b77feef9cbd008ce9bfa02",
+    "size": 3021,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/347c098263a8351c82b77feef9cbd008ce9bfa02"
+  },
+  {
+    "path": "pdf_parse.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0412c6aed4fc7220514ef0a8a7db937416f286f",
+    "size": 9829,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/f0412c6aed4fc7220514ef0a8a7db937416f286f"
+  },
+  {
+    "path": "pdf_to_text.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6603319d6920906561e4f1d2599ef296d72b782a",
+    "size": 522,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/6603319d6920906561e4f1d2599ef296d72b782a"
+  },
+  {
+    "path": "pdf_url.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42916f6f25572d9bb30d77748e700208c76f1b23",
+    "size": 415,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/42916f6f25572d9bb30d77748e700208c76f1b23"
+  },
+  {
+    "path": "pdf_util.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa55d81ce9d7b66116055eabd3aaa89baec50fd4",
+    "size": 4101,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/fa55d81ce9d7b66116055eabd3aaa89baec50fd4"
+  },
+  {
+    "path": "pmh_record.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f088998270142d70857ba3fe4e791bfdc4fcd2c7",
+    "size": 32284,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/f088998270142d70857ba3fe4e791bfdc4fcd2c7"
+  },
+  {
+    "path": "pub.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "babdb3cb918911eb2c8d823854a1075d605a7c46",
+    "size": 105122,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/babdb3cb918911eb2c8d823854a1075d605a7c46"
+  },
+  {
+    "path": "pubmed_parse.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9e5b7ee1a68d065d0f329d1aa6358f54f8c948c",
+    "size": 11295,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/c9e5b7ee1a68d065d0f329d1aa6358f54f8c948c"
+  },
+  {
+    "path": "pubmed_parse_fix.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5200a37a6f12dbe4fd39d4aa8d268795132bf9f7",
+    "size": 12005,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/5200a37a6f12dbe4fd39d4aa8d268795132bf9f7"
+  },
+  {
+    "path": "put_crossref_in_db.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "791c370e217240c00fbb2098bab1e0708917fa46",
+    "size": 12995,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/791c370e217240c00fbb2098bab1e0708917fa46"
+  },
+  {
+    "path": "put_crossref_in_s3.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cadb344f53685d46b047fb323225794200b31de",
+    "size": 3896,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/0cadb344f53685d46b047fb323225794200b31de"
+  },
+  {
+    "path": "put_repo_requests_in_db.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25cf10b70e3093c05443a43d41e3d2645f6d5900",
+    "size": 6114,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/25cf10b70e3093c05443a43d41e3d2645f6d5900"
+  },
+  {
+    "path": "queue_datacite_doi.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd122d786dbb810032feeaef0b96057a0c8ce059",
+    "size": 3941,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/bd122d786dbb810032feeaef0b96057a0c8ce059"
+  },
+  {
+    "path": "queue_doi_rt_record.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07e0e27de38f1c2492e37eab2db008d46e6e0d2a",
+    "size": 5476,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/07e0e27de38f1c2492e37eab2db008d46e6e0d2a"
+  },
+  {
+    "path": "queue_green_oa_scrape.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "228b27c72d7f6a5e2a7239e3bc9ba408aa27cb32",
+    "size": 15926,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/228b27c72d7f6a5e2a7239e3bc9ba408aa27cb32"
+  },
+  {
+    "path": "queue_green_oa_scrape_arxiv_tmp.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72226e7fcb0beb01260ba1d220ec078850e54128",
+    "size": 16111,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/72226e7fcb0beb01260ba1d220ec078850e54128"
+  },
+  {
+    "path": "queue_main.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90d5df2b76a432f526f3715a773b79b95a617330",
+    "size": 10543,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/90d5df2b76a432f526f3715a773b79b95a617330"
+  },
+  {
+    "path": "queue_pdf_url_check.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37165fd7817455c796f529bf37e526b7a94e957e",
+    "size": 8603,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/37165fd7817455c796f529bf37e526b7a94e957e"
+  },
+  {
+    "path": "queue_pmh.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a633d16c8b1c1c6e8a74f0831b2bce53a1f1d7a",
+    "size": 4521,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/1a633d16c8b1c1c6e8a74f0831b2bce53a1f1d7a"
+  },
+  {
+    "path": "queue_pmh_rt_record.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9a241d844f4d8b04ee171183610f087cc89f735",
+    "size": 4904,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/c9a241d844f4d8b04ee171183610f087cc89f735"
+  },
+  {
+    "path": "queue_pub.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c485c3a30b874abb1b96ec0c30b1a99d242b3dca",
+    "size": 8132,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/c485c3a30b874abb1b96ec0c30b1a99d242b3dca"
+  },
+  {
+    "path": "queue_pub_refresh_aux.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0774cc299bba31f7ac2f2350908a1a343f23089",
+    "size": 5075,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/f0774cc299bba31f7ac2f2350908a1a343f23089"
+  },
+  {
+    "path": "queue_pubmed_record.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ce04e64a710ca26aea6e202c2b3f800d025598d",
+    "size": 3721,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/3ce04e64a710ca26aea6e202c2b3f800d025598d"
+  },
+  {
+    "path": "queue_repo.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "beaddbdbf894b805fb15540fa76a20ca9d82f8d2",
+    "size": 8179,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/beaddbdbf894b805fb15540fa76a20ca9d82f8d2"
+  },
+  {
+    "path": "recordthresher",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c99ce89a352533d6db8159c72ff5571ce87e64ad",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/c99ce89a352533d6db8159c72ff5571ce87e64ad"
+  },
+  {
+    "path": "recordthresher_refresh.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39247a263edf9e9a0d0c64dd8bdc54d92b4cc6a2",
+    "size": 9407,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/39247a263edf9e9a0d0c64dd8bdc54d92b4cc6a2"
+  },
+  {
+    "path": "redirectors.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "345a31936d3f3d66bf1e49ad6e830c209dc8a59f",
+    "size": 887,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/345a31936d3f3d66bf1e49ad6e830c209dc8a59f"
+  },
+  {
+    "path": "remove_is_raw_record.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14f0bd92e2eccee6f06a8b71c70bfd7d3db5905a",
+    "size": 1396,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/14f0bd92e2eccee6f06a8b71c70bfd7d3db5905a"
+  },
+  {
+    "path": "repo_oa_location_export.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "644c58297cfd90b83cf0388febe11bf788697671",
+    "size": 6673,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/644c58297cfd90b83cf0388febe11bf788697671"
+  },
+  {
+    "path": "repo_oa_location_export_request.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73f96e45a9a2918245b8b989a7a51dee56371206",
+    "size": 707,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/73f96e45a9a2918245b8b989a7a51dee56371206"
+  },
+  {
+    "path": "repo_pulse.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78f8fa01364dc4a6e9b3c3e4f79d8a93a1052c60",
+    "size": 2046,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/78f8fa01364dc4a6e9b3c3e4f79d8a93a1052c60"
+  },
+  {
+    "path": "repo_request.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1209bac448d25085d57e0dcf82dc040dd1bcd42",
+    "size": 2830,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/e1209bac448d25085d57e0dcf82dc040dd1bcd42"
+  },
+  {
+    "path": "reported_noncompliant_copies.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c0687c0e02931cae1c6db443f9ec7468b76fbd8",
+    "size": 4151,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/1c0687c0e02931cae1c6db443f9ec7468b76fbd8"
+  },
+  {
+    "path": "repository.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "547dc46b221097ad938f727c04b85aafcb50370a",
+    "size": 4919,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/547dc46b221097ad938f727c04b85aafcb50370a"
+  },
+  {
+    "path": "requirements.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a29daa23e88b35e30283334f4c35f83ee4e39a45",
+    "size": 1835,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/a29daa23e88b35e30283334f4c35f83ee4e39a45"
+  },
+  {
+    "path": "run_clean_fulltext.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9242c3aa4e9c42a695e8e8bfafc907d61af6b69",
+    "size": 163,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/c9242c3aa4e9c42a695e8e8bfafc907d61af6b69"
+  },
+  {
+    "path": "run_crossref_snapshot_sync.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d852565d056804df6fdf393299f758e864abf284",
+    "size": 192,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/d852565d056804df6fdf393299f758e864abf284"
+  },
+  {
+    "path": "run_datacite_doi_rt_record_worker.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88760a8c85e2524f8b2724eeb1f7479f86ca3c3e",
+    "size": 212,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/88760a8c85e2524f8b2724eeb1f7479f86ca3c3e"
+  },
+  {
+    "path": "run_doi_rt_record_worker.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "878df12a0c70a176425994425d8c55dcbc6c9516",
+    "size": 372,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/878df12a0c70a176425994425d8c55dcbc6c9516"
+  },
+  {
+    "path": "run_green_scrape_arxiv_worker.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "feccff81d05b28b2e1776cad9dcf4a6eead41c5f",
+    "size": 394,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/feccff81d05b28b2e1776cad9dcf4a6eead41c5f"
+  },
+  {
+    "path": "run_green_scrape_worker.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f27c375b337559a6c10dbdebfa64324f0015c2e9",
+    "size": 378,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/f27c375b337559a6c10dbdebfa64324f0015c2e9"
+  },
+  {
+    "path": "run_hybrid_worker.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "807ae845d618c74a509a0aab4d1eb3319e21358b",
+    "size": 380,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/807ae845d618c74a509a0aab4d1eb3319e21358b"
+  },
+  {
+    "path": "run_hybrid_worker_aux_0.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6d5efde7b31a6c1c299fc4aa6b97a4a49d3b1144",
+    "size": 385,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/6d5efde7b31a6c1c299fc4aa6b97a4a49d3b1144"
+  },
+  {
+    "path": "run_pdf_clean_worker.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ac4e6e4b8f34809d28aeef49073b095f82c5bc3",
+    "size": 325,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/5ac4e6e4b8f34809d28aeef49073b095f82c5bc3"
+  },
+  {
+    "path": "run_pdf_download_worker.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a2017e37d588a6e32259bc67e3658afe6047a6c",
+    "size": 332,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/1a2017e37d588a6e32259bc67e3658afe6047a6c"
+  },
+  {
+    "path": "run_pdf_parse_worker.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be6ab29efc6f0405368a8c1647dc9389eedf03a3",
+    "size": 324,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/be6ab29efc6f0405368a8c1647dc9389eedf03a3"
+  },
+  {
+    "path": "run_pdf_url_check.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "864da314fcdaff07b68e02c0e6abfb5f1f9829fe",
+    "size": 217,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/864da314fcdaff07b68e02c0e6abfb5f1f9829fe"
+  },
+  {
+    "path": "run_pmh.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "14b99f5965da91e416024fe55e9e506d845c294c",
+    "size": 333,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/14b99f5965da91e416024fe55e9e506d845c294c"
+  },
+  {
+    "path": "run_pmh_rt_record_worker.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c5cb7211725d4911e2600a494a535ca7e4398769",
+    "size": 372,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/c5cb7211725d4911e2600a494a535ca7e4398769"
+  },
+  {
+    "path": "run_publisher_scrape_worker.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "855429500c127527abd17795e7567b37f6ab6a9b",
+    "size": 397,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/855429500c127527abd17795e7567b37f6ab6a9b"
+  },
+  {
+    "path": "run_pubmed_record_worker.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6e5d00d09627480732041b00d0e93f171f1fb9df",
+    "size": 372,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/6e5d00d09627480732041b00d0e93f171f1fb9df"
+  },
+  {
+    "path": "run_recordthresher_refresh_enqueue_top_25.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e09f43a0715bc9d88a08dd428bb04dab4d83aaae",
+    "size": 1352,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/e09f43a0715bc9d88a08dd428bb04dab4d83aaae"
+  },
+  {
+    "path": "run_recordthresher_refresh_worker.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59fad850f45b18f80a05c3403d4d2248ff021945",
+    "size": 351,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/59fad850f45b18f80a05c3403d4d2248ff021945"
+  },
+  {
+    "path": "run_repo.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "02a766e033cf8543d8e95c692022fb0235a740fe",
+    "size": 397,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/02a766e033cf8543d8e95c692022fb0235a740fe"
+  },
+  {
+    "path": "run_repo_arxiv.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1110d9b136dba24e9d3f51f199c039cd3f42b6c5",
+    "size": 290,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/1110d9b136dba24e9d3f51f199c039cd3f42b6c5"
+  },
+  {
+    "path": "run_worker.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "68affa4a240ccf1ca558e794df8d76c29487eb06",
+    "size": 400,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/68affa4a240ccf1ca558e794df8d76c29487eb06"
+  },
+  {
+    "path": "runtime.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9cbcea6fb0564c8e9468395022320052dedcf72",
+    "size": 14,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/c9cbcea6fb0564c8e9468395022320052dedcf72"
+  },
+  {
+    "path": "s3_util.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec4851371a0a965260cf1c8f5f650b4ec50a18af",
+    "size": 1620,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/ec4851371a0a965260cf1c8f5f650b4ec50a18af"
+  },
+  {
+    "path": "scrape_oa_filter.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a052fdcb2aedaa1cd33da196ee20df9b984831a3",
+    "size": 11205,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/a052fdcb2aedaa1cd33da196ee20df9b984831a3"
+  },
+  {
+    "path": "scrape_regression_test.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6da9cd277172dda7b194432bc90823e83c309525",
+    "size": 7126,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/6da9cd277172dda7b194432bc90823e83c309525"
+  },
+  {
+    "path": "search.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "324fa9241c04f0df8a489f263afd6b684014d3d9",
+    "size": 2815,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/324fa9241c04f0df8a489f263afd6b684014d3d9"
+  },
+  {
+    "path": "slow_crawl_crossref.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eade650838cd78239867b7297110ed2e278a2982",
+    "size": 5210,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/eade650838cd78239867b7297110ed2e278a2982"
+  },
+  {
+    "path": "snapshot.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49fa17a4eedb68a32c279fd73bb870d5a8a73849",
+    "size": 879,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/49fa17a4eedb68a32c279fd73bb870d5a8a73849"
+  },
+  {
+    "path": "snapshot",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd18a1931df53cca698d20c96f4efc75fcbabd5a",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/fd18a1931df53cca698d20c96f4efc75fcbabd5a"
+  },
+  {
+    "path": "sql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d5ea44d566085fa524065d36918b80d0ebbdd0ff",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/d5ea44d566085fa524065d36918b80d0ebbdd0ff"
+  },
+  {
+    "path": "static",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "14fb56d0a9b5a682869a3035f60247ab576be4f6",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/14fb56d0a9b5a682869a3035f60247ab576be4f6"
+  },
+  {
+    "path": "static_api_response.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a8bf09ebff6d3f3a1157d7950da8042e0c90043",
+    "size": 264,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/3a8bf09ebff6d3f3a1157d7950da8042e0c90043"
+  },
+  {
+    "path": "stats.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "573137b6713ec4c7d3ad38c8629a787a8c4c8f93",
+    "size": 4583,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/573137b6713ec4c7d3ad38c8629a787a8c4c8f93"
+  },
+  {
+    "path": "templates",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "59f95ae848f845ad4f4e389b8a5b6288ab2d13c6",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/59f95ae848f845ad4f4e389b8a5b6288ab2d13c6"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8863a3d6ccda194043ca8c475fb37b0580fbd9fc",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/8863a3d6ccda194043ca8c475fb37b0580fbd9fc"
+  },
+  {
+    "path": "tracking",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43bb2f6d18aa0da0786f76afa9f8f8823b91452f",
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/trees/43bb2f6d18aa0da0786f76afa9f8f8823b91452f"
+  },
+  {
+    "path": "util.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba62e65a25fa48733cb3150c00da7a4dafa63a04",
+    "size": 26512,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/ba62e65a25fa48733cb3150c00da7a4dafa63a04"
+  },
+  {
+    "path": "views.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb476400d90e441e8bac3d61be9daadc136144ba",
+    "size": 43356,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/fb476400d90e441e8bac3d61be9daadc136144ba"
+  },
+  {
+    "path": "webpage.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eaeecae90f766bad0525bda5a67f2db9171ef4dc",
+    "size": 85765,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/eaeecae90f766bad0525bda5a67f2db9171ef4dc"
+  },
+  {
+    "path": "wunpaywall.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34eeb998b369fce67ba62ea4db3b739e454fcef5",
+    "size": 2137,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/34eeb998b369fce67ba62ea4db3b739e454fcef5"
+  },
+  {
+    "path": "zyte_session.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecd96fe30085ab2f44fcada659141a86ffced047",
+    "size": 11963,
+    "url": "https://api.github.com/repos/ourresearch/oadoi/git/blobs/ecd96fe30085ab2f44fcada659141a86ffced047"
+  }
+]

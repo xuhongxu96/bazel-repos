@@ -1,0 +1,578 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a01ee289f9a3c65287845c5138783d4f3b24a443",
+    "size": 7,
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/blobs/a01ee289f9a3c65287845c5138783d4f3b24a443"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9e894e0ce2db060b28deca754344097dcd34713",
+    "size": 68,
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/blobs/b9e894e0ce2db060b28deca754344097dcd34713"
+  },
+  {
+    "path": "libdicom-ubuntu20.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "474b8412e8e0714d2f5eebd5fdfdae2195ed1abe",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/474b8412e8e0714d2f5eebd5fdfdae2195ed1abe"
+  },
+  {
+    "path": "libvips-amazonlinux2-sharp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0d4e8a016fd7e44ffce692d4af4d8e4a4ce051d",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/a0d4e8a016fd7e44ffce692d4af4d8e4a4ce051d"
+  },
+  {
+    "path": "libvips-amazonlinux2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd5c75ae21993b88f637ec61937e785494c8e16c",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/bd5c75ae21993b88f637ec61937e785494c8e16c"
+  },
+  {
+    "path": "libvips-arch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf8693986378392e9fad3967086e3fe59264a02a",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/bf8693986378392e9fad3967086e3fe59264a02a"
+  },
+  {
+    "path": "libvips-buster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "66a97d35c36ec1580b62376bd567a662b9887058",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/66a97d35c36ec1580b62376bd567a662b9887058"
+  },
+  {
+    "path": "libvips-centos6.9",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9d0f2625717ca6f57729be06646a743f82db12e0",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/9d0f2625717ca6f57729be06646a743f82db12e0"
+  },
+  {
+    "path": "libvips-centos7.9",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7a7a0a5df8eee73214c23138567286b86c7d9d0",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/e7a7a0a5df8eee73214c23138567286b86c7d9d0"
+  },
+  {
+    "path": "libvips-centos7",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aba376252c0e5063429ad7272efddc013b5037e9",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/aba376252c0e5063429ad7272efddc013b5037e9"
+  },
+  {
+    "path": "libvips-debian11",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ab8dcedfa89a7843a89ffc5c9b28ded857f696e9",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/ab8dcedfa89a7843a89ffc5c9b28ded857f696e9"
+  },
+  {
+    "path": "libvips-fedora28",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b87839140fa99661cddca53bbe74a07ee4b7ec94",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/b87839140fa99661cddca53bbe74a07ee4b7ec94"
+  },
+  {
+    "path": "libvips-guix-buster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0ce17d2159a7da01d051d4abec555baa3276d6c",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/e0ce17d2159a7da01d051d4abec555baa3276d6c"
+  },
+  {
+    "path": "libvips-heroku18",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "74869f12f118882719be257ab49f662a2cb27733",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/74869f12f118882719be257ab49f662a2cb27733"
+  },
+  {
+    "path": "libvips-heroku20",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8a60bfcfe63eb1f18c1b38a185ac79dea637ed0d",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/8a60bfcfe63eb1f18c1b38a185ac79dea637ed0d"
+  },
+  {
+    "path": "libvips-heroku22",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6013a33ebd3a923c7ccfe8315849ad39b4dcf7e8",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/6013a33ebd3a923c7ccfe8315849ad39b4dcf7e8"
+  },
+  {
+    "path": "libvips-mozjpeg-buster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "443da60f41ce0f4f1469410935e5aae825a18da9",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/443da60f41ce0f4f1469410935e5aae825a18da9"
+  },
+  {
+    "path": "libvips-mozjpeg-ubuntu18.10",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f2ccb2790e1c72f2fa23c9d535f61cd9789158d",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/3f2ccb2790e1c72f2fa23c9d535f61cd9789158d"
+  },
+  {
+    "path": "libvips-mozjpeg-ubuntu20.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d27ac7312c0b496de1cfc2f213980e2b39746364",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/d27ac7312c0b496de1cfc2f213980e2b39746364"
+  },
+  {
+    "path": "libvips-mozjpeg-ubuntu23.10",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "22c6eb37eb166ab286dc94be8543ac0e6900f882",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/22c6eb37eb166ab286dc94be8543ac0e6900f882"
+  },
+  {
+    "path": "libvips-openjdk-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc7f54019da9af4a3fdc7ca5a9d655ce2b386ff6",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/bc7f54019da9af4a3fdc7ca5a9d655ce2b386ff6"
+  },
+  {
+    "path": "libvips-openjpeg-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b17a5563931cff0733a7dc0c974b4c064885879",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/2b17a5563931cff0733a7dc0c974b4c064885879"
+  },
+  {
+    "path": "libvips-openslide-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5747715e560ec831314b1e55655df75001966d84",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/5747715e560ec831314b1e55655df75001966d84"
+  },
+  {
+    "path": "libvips-pdfium-ubuntu20.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8aa731f49b4218b3ae36f6f652a0f96166b34922",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/8aa731f49b4218b3ae36f6f652a0f96166b34922"
+  },
+  {
+    "path": "libvips-poppler-aws",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "edc0c16fbe089da00d4b4623381078e8764da79f",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/edc0c16fbe089da00d4b4623381078e8764da79f"
+  },
+  {
+    "path": "libvips-stable-debian9",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8835d777ef9c5675df56585cee292a1631f4c846",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/8835d777ef9c5675df56585cee292a1631f4c846"
+  },
+  {
+    "path": "libvips-ubuntu18.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4092b48bdc5855116231ad32d639fd93bebb7a16",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/4092b48bdc5855116231ad32d639fd93bebb7a16"
+  },
+  {
+    "path": "libvips-ubuntu20.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cf9b609eddd670e3d04b01334b6128cc232354e8",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/cf9b609eddd670e3d04b01334b6128cc232354e8"
+  },
+  {
+    "path": "libvips-ubuntu20.10",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "55d1ea36d9b98cb1fee9cd6139794e3e082fe200",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/55d1ea36d9b98cb1fee9cd6139794e3e082fe200"
+  },
+  {
+    "path": "libvips-ubuntu21.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "18e646dfe6ba50056d2a04008a98aa3dc37f0809",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/18e646dfe6ba50056d2a04008a98aa3dc37f0809"
+  },
+  {
+    "path": "libvips-ubuntu22.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4683288a82e720e5a38e94484050241d84bd3bf3",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/4683288a82e720e5a38e94484050241d84bd3bf3"
+  },
+  {
+    "path": "lua-vips-ubuntu20.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "55b117efa36c1d50f689b7eb9d76f524bf4baf52",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/55b117efa36c1d50f689b7eb9d76f524bf4baf52"
+  },
+  {
+    "path": "mirtk-build",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2bde2ba464b5f6ecc78c049d30a6f48ec2b3642d",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/2bde2ba464b5f6ecc78c049d30a6f48ec2b3642d"
+  },
+  {
+    "path": "mirtk-ubuntu16.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06f9559294b11f3ee65da10422866edb0e7004ad",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/06f9559294b11f3ee65da10422866edb0e7004ad"
+  },
+  {
+    "path": "mirtk-workbench-ubuntu16.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "49cfa22ccee5a90f8b89b15c575f270e6140a2fd",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/49cfa22ccee5a90f8b89b15c575f270e6140a2fd"
+  },
+  {
+    "path": "msm-fsl6-ubuntu16.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "081653949fb47da169b3e560f3d3038c5b6efec7",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/081653949fb47da169b3e560f3d3038c5b6efec7"
+  },
+  {
+    "path": "nip2-fedora28",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e3065367e2ec9de3b884f74d614dcfe6014ebc97",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/e3065367e2ec9de3b884f74d614dcfe6014ebc97"
+  },
+  {
+    "path": "node-vips-amazonlinux-2018.03",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d74b7d13fc63288e7a2e1aadf9590fd742377e6c",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/d74b7d13fc63288e7a2e1aadf9590fd742377e6c"
+  },
+  {
+    "path": "orthanc-ubuntu20.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd440686f224d73c9340478b7af9c9fd5f158a86",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/bd440686f224d73c9340478b7af9c9fd5f158a86"
+  },
+  {
+    "path": "pdfium-heroku18",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fef1cbfff9a745d6ea50220788d854d03e0237c5",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/fef1cbfff9a745d6ea50220788d854d03e0237c5"
+  },
+  {
+    "path": "pdfium",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b64a8f18adedc362b6e788fd46d1e747ce763ab",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/1b64a8f18adedc362b6e788fd46d1e747ce763ab"
+  },
+  {
+    "path": "php-vips-alpine-custom",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "503e45a8595a1337bf214aba52b8fbfd07593fec",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/503e45a8595a1337bf214aba52b8fbfd07593fec"
+  },
+  {
+    "path": "php-vips-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b92e57936d2477840ef4c2f6cf97672ab8077b1",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/3b92e57936d2477840ef4c2f6cf97672ab8077b1"
+  },
+  {
+    "path": "php-vips-debian9",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "208ed6adb9b81289d392c298bfe1e29e611ba4e9",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/208ed6adb9b81289d392c298bfe1e29e611ba4e9"
+  },
+  {
+    "path": "php-vips-php8.3",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3489837d2c4296a1366024b391f85115ed06f654",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/3489837d2c4296a1366024b391f85115ed06f654"
+  },
+  {
+    "path": "php-vips-php8.4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "df391d978dc4bae2dca28062747b22bb40deef3e",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/df391d978dc4bae2dca28062747b22bb40deef3e"
+  },
+  {
+    "path": "php-vips-ubuntu-16.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff77b4ebea616181efa2bbcb70f5e452475237ff",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/ff77b4ebea616181efa2bbcb70f5e452475237ff"
+  },
+  {
+    "path": "php-vips-ubuntu-18.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06e99327fee32db022388f273c693dc1e7368f68",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/06e99327fee32db022388f273c693dc1e7368f68"
+  },
+  {
+    "path": "php-vips-ubuntu-20.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c1133c6e0d833dccd87e4b14e6a99b20057d8237",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/c1133c6e0d833dccd87e4b14e6a99b20057d8237"
+  },
+  {
+    "path": "pyvips-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6619279a090a962ef6c3a4b133126fbdf3b880c3",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/6619279a090a962ef6c3a4b133126fbdf3b880c3"
+  },
+  {
+    "path": "pyvips-aws-soak",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2887e65f6a515b4f49028e62febc54673095f59",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/a2887e65f6a515b4f49028e62febc54673095f59"
+  },
+  {
+    "path": "pyvips-aws",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5fa5c13b507e91fd6f5b3752c0b858e24e6f7243",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/5fa5c13b507e91fd6f5b3752c0b858e24e6f7243"
+  },
+  {
+    "path": "pyvips-libvips-openslide-ubuntu18.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "81fcba30c367be6b95a4354092fec1bf07b4bc19",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/81fcba30c367be6b95a4354092fec1bf07b4bc19"
+  },
+  {
+    "path": "pyvips-libvipsmaster-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e26658bd9e44c235bfcc1d630b5449415bea71b5",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/e26658bd9e44c235bfcc1d630b5449415bea71b5"
+  },
+  {
+    "path": "pyvips-python3-bullseye",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5082aae528e4386e543908680d190ed39420e33f",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/5082aae528e4386e543908680d190ed39420e33f"
+  },
+  {
+    "path": "pyvips-python3.12-slim",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79b7b6ac43401825d8b8309ee7cab15387ba84db",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/79b7b6ac43401825d8b8309ee7cab15387ba84db"
+  },
+  {
+    "path": "pyvips-python3.7-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41b283ca16a7e9dc1fb1718b796758393a5d992f",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/41b283ca16a7e9dc1fb1718b796758393a5d992f"
+  },
+  {
+    "path": "pyvips-python3.9",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "11dfa9887e29b937727d4893909d6ce06dbb64e2",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/11dfa9887e29b937727d4893909d6ce06dbb64e2"
+  },
+  {
+    "path": "pyvips-python3",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9ea8d08a1c572f0c123e7bb25b38418fe0d71f1",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/c9ea8d08a1c572f0c123e7bb25b38418fe0d71f1"
+  },
+  {
+    "path": "pyvips-stretch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67daff95af522787d75845482c432328dc5b00b0",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/67daff95af522787d75845482c432328dc5b00b0"
+  },
+  {
+    "path": "pyvips-ubuntu20.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c8dcffb3329ac45c7233705d5d15c835aa31f9b",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/6c8dcffb3329ac45c7233705d5d15c835aa31f9b"
+  },
+  {
+    "path": "pyvips-ubuntu21.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b2698fba3096fadb9e53c9343eff59eca2f69dc",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/2b2698fba3096fadb9e53c9343eff59eca2f69dc"
+  },
+  {
+    "path": "pyvipsmaster-libvipsmaster-ubuntu18.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2125a2e768a51e5467a70d8479610001a945ee81",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/2125a2e768a51e5467a70d8479610001a945ee81"
+  },
+  {
+    "path": "ruby-vips-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f181f42b985389023af411136673968511d2d94a",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/f181f42b985389023af411136673968511d2d94a"
+  },
+  {
+    "path": "ruby-vips-amazonlinux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "200b91f187cc68bb5817b6ac655b28f0be99aa91",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/200b91f187cc68bb5817b6ac655b28f0be99aa91"
+  },
+  {
+    "path": "ruby-vips-centos6",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "95fc313d90cd27a3744a2c0db1b3707db4c8b823",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/95fc313d90cd27a3744a2c0db1b3707db4c8b823"
+  },
+  {
+    "path": "ruby-vips-centos7.2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "da0c92b47e60dac19a87d43aa35f21c8a67921db",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/da0c92b47e60dac19a87d43aa35f21c8a67921db"
+  },
+  {
+    "path": "ruby-vips-fedora33",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee549699e6ff8ba554d78c6337237c561163829f",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/ee549699e6ff8ba554d78c6337237c561163829f"
+  },
+  {
+    "path": "ruby-vips-heroku18",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1edeb892c90ecf16624ae9104e93aa0788ade2ca",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/1edeb892c90ecf16624ae9104e93aa0788ade2ca"
+  },
+  {
+    "path": "ruby-vips-libvips-ruby:3.0.1",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8a7383ed7f8a149d687fab4fba20293d3319e2e1",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/8a7383ed7f8a149d687fab4fba20293d3319e2e1"
+  },
+  {
+    "path": "ruby-vips-libvips-ubuntu18.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f707af230208d7619a23babe9176e7b7b5dac55b",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/f707af230208d7619a23babe9176e7b7b5dac55b"
+  },
+  {
+    "path": "ruby-vips-ruby2.3-ubuntu16.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a73203aab4075aa9899dd658318c0aaab709aea4",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/a73203aab4075aa9899dd658318c0aaab709aea4"
+  },
+  {
+    "path": "ruby-vips-stretch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a89295dc07fea34921410d687a3fc66722d6df96",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/a89295dc07fea34921410d687a3fc66722d6df96"
+  },
+  {
+    "path": "ruby-vips-ubuntu18.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fe7d9e20f9f1c75c80b28ee1bcda93bf573378d0",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/fe7d9e20f9f1c75c80b28ee1bcda93bf573378d0"
+  },
+  {
+    "path": "sharp-amazonlinux-2018.03",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e19661577c78a8ecce3ab8e5c64f3b95a337e372",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/e19661577c78a8ecce3ab8e5c64f3b95a337e372"
+  },
+  {
+    "path": "sharp-ubuntu16.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dae38ca506e5ca2d4671a1d31874a001c186b865",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/dae38ca506e5ca2d4671a1d31874a001c186b865"
+  },
+  {
+    "path": "structural-pipeline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7a237169ef5510d0c486bd76b43ae4fff97c83e",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/e7a237169ef5510d0c486bd76b43ae4fff97c83e"
+  },
+  {
+    "path": "tiff-jpeg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0774d72e8a11bd4c226201e05e3575e94c738a47",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/0774d72e8a11bd4c226201e05e3575e94c738a47"
+  },
+  {
+    "path": "vips-static",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cf6ccfea8edceed3572a8a795e5dbe0095f1f007",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/cf6ccfea8edceed3572a8a795e5dbe0095f1f007"
+  },
+  {
+    "path": "wildfly",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1aae87d3435e77ac34f9287ab76d8ef4a9c83d6a",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/1aae87d3435e77ac34f9287ab76d8ef4a9c83d6a"
+  },
+  {
+    "path": "workbench",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b2a2e545dd4b1adb422f10ad57dc2879b371f8b",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/6b2a2e545dd4b1adb422f10ad57dc2879b371f8b"
+  },
+  {
+    "path": "wsi-to-dicom-ubuntu-21.04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3ec498cdfc13f74ea33f2389546cfa48a7de979b",
+    "url": "https://api.github.com/repos/jcupitt/docker-builds/git/trees/3ec498cdfc13f74ea33f2389546cfa48a7de979b"
+  }
+]

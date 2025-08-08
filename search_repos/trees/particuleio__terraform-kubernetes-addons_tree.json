@@ -1,0 +1,359 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71b12bbf39590287e3c43f454aff5ead7b69209b",
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/trees/71b12bbf39590287e3c43f454aff5ead7b69209b"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb6ac616e44f3a6f227ec8871d6a48f448f82b6b",
+    "size": 55,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/bb6ac616e44f3a6f227ec8871d6a48f448f82b6b"
+  },
+  {
+    "path": ".mergify.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46fa15ccd163cef211bc1bf76939a51b3e025811",
+    "size": 338,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/46fa15ccd163cef211bc1bf76939a51b3e025811"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1289df82047f943228fdaf76238efd28c9be131",
+    "size": 524,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/d1289df82047f943228fdaf76238efd28c9be131"
+  },
+  {
+    "path": ".python-version",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4f828cf80555bba34e3235b9b3275bb4db1e367",
+    "size": 4,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/e4f828cf80555bba34e3235b9b3275bb4db1e367"
+  },
+  {
+    "path": ".releaserc.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0985abb96784d30b04b737295031bd9ea2094c7a",
+    "size": 144,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/0985abb96784d30b04b737295031bd9ea2094c7a"
+  },
+  {
+    "path": ".terraform-docs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abb4abb22e6a47f9db37db057cb2524ba7151c95",
+    "size": 28,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/abb4abb22e6a47f9db37db057cb2524ba7151c95"
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31459c02c8da1904af949e4487337385a271e58e",
+    "size": 323,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/31459c02c8da1904af949e4487337385a271e58e"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "size": 11357,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "194d0034d9adf693dbfb3d617cfa9b62e2b3b3ad",
+    "size": 46770,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/194d0034d9adf693dbfb3d617cfa9b62e2b3b3ad"
+  },
+  {
+    "path": "admiralty.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9081aab31ad38eb3ac9b2d5fd82409284cacb399",
+    "size": 3330,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/9081aab31ad38eb3ac9b2d5fd82409284cacb399"
+  },
+  {
+    "path": "cert-manager-csi-driver.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c73cf9d8441f68d04d01259a15b5b0e19b02a91",
+    "size": 2571,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/6c73cf9d8441f68d04d01259a15b5b0e19b02a91"
+  },
+  {
+    "path": "cert-manager.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c7404de923f053d702f19b1b9d2c76d027f71ab",
+    "size": 6968,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/9c7404de923f053d702f19b1b9d2c76d027f71ab"
+  },
+  {
+    "path": "csi-external-snapshotter.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6257b4f6f727220f0c58cade2ff749522b415b36",
+    "size": 2069,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/6257b4f6f727220f0c58cade2ff749522b415b36"
+  },
+  {
+    "path": "flux2.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "459660ee34817a49047eabe6cc6361c5ad09e433",
+    "size": 5273,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/459660ee34817a49047eabe6cc6361c5ad09e433"
+  },
+  {
+    "path": "helm-dependencies.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "178962917fb1810e0c0f963aa4320fc2d2ed3278",
+    "size": 4158,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/178962917fb1810e0c0f963aa4320fc2d2ed3278"
+  },
+  {
+    "path": "ingress-nginx.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e869f34037d0e21732268e650c62c647e429ea8",
+    "size": 7904,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/1e869f34037d0e21732268e650c62c647e429ea8"
+  },
+  {
+    "path": "k8gb.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1cf5a725b68c7747cf4dd0712f1544e471ce942c",
+    "size": 3071,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/1cf5a725b68c7747cf4dd0712f1544e471ce942c"
+  },
+  {
+    "path": "karma.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a99690d59af4806a5f2307a5b032dd4519403f5e",
+    "size": 4146,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/a99690d59af4806a5f2307a5b032dd4519403f5e"
+  },
+  {
+    "path": "keda.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32319b60b3b70a815c3971db182373249deb65b4",
+    "size": 3387,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/32319b60b3b70a815c3971db182373249deb65b4"
+  },
+  {
+    "path": "kong-crds.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "621018b18af0cf458f15fa9cc4a3b3ea5e55be55",
+    "size": 1056,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/621018b18af0cf458f15fa9cc4a3b3ea5e55be55"
+  },
+  {
+    "path": "kong.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2a3d40967a7d72caad31714ab0e8c8e6e523c45",
+    "size": 5238,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/a2a3d40967a7d72caad31714ab0e8c8e6e523c45"
+  },
+  {
+    "path": "kube-prometheus-crd.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "adee8ef01dc52163ab15b95e51f7a273e1ac3d74",
+    "size": 3685,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/adee8ef01dc52163ab15b95e51f7a273e1ac3d74"
+  },
+  {
+    "path": "kube-prometheus.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3d69b17e5949aa6461dbfcacd8e65e63271eba0",
+    "size": 8656,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/e3d69b17e5949aa6461dbfcacd8e65e63271eba0"
+  },
+  {
+    "path": "linkerd-viz.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe9637a85ecc0fa989a14b83f91cf89a30669c11",
+    "size": 7788,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/fe9637a85ecc0fa989a14b83f91cf89a30669c11"
+  },
+  {
+    "path": "linkerd.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2b535f6189d70cba872a258a7ca55f54ac6769f",
+    "size": 12922,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/a2b535f6189d70cba872a258a7ca55f54ac6769f"
+  },
+  {
+    "path": "linkerd2-cni.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55c5eac55f8f0d0c77bf8c2c11fd9428e440725a",
+    "size": 3934,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/55c5eac55f8f0d0c77bf8c2c11fd9428e440725a"
+  },
+  {
+    "path": "locals.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f8f2f270f2ac9be21fa9504fa977a29cf70484b",
+    "size": 848,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/6f8f2f270f2ac9be21fa9504fa977a29cf70484b"
+  },
+  {
+    "path": "loki-stack.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b263913d459ca3e3f33111174d53aeab4453dcd3",
+    "size": 8220,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/b263913d459ca3e3f33111174d53aeab4453dcd3"
+  },
+  {
+    "path": "metrics-server.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e838a30b787f49954a2bc81ab9318baedd2d4566",
+    "size": 4610,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/e838a30b787f49954a2bc81ab9318baedd2d4566"
+  },
+  {
+    "path": "modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70c9381427caedce13f4effcb15793db9d905727",
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/trees/70c9381427caedce13f4effcb15793db9d905727"
+  },
+  {
+    "path": "node-problem-detector.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa315ce41c4e8410afc78b2c712ce041209b0b8b",
+    "size": 3387,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/fa315ce41c4e8410afc78b2c712ce041209b0b8b"
+  },
+  {
+    "path": "priority-class.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d9f011ef2091395f65b9d392bcf75b174495cd7b",
+    "size": 739,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/d9f011ef2091395f65b9d392bcf75b174495cd7b"
+  },
+  {
+    "path": "prometheus-adapter.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0af915e991c58c97e513aa6003ba408a5d14e650",
+    "size": 4231,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/0af915e991c58c97e513aa6003ba408a5d14e650"
+  },
+  {
+    "path": "prometheus-blackbox-exporter.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31a464fc3f16445cdbd91a8075870fb62cc42968",
+    "size": 4740,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/31a464fc3f16445cdbd91a8075870fb62cc42968"
+  },
+  {
+    "path": "promtail.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ac2e69c61674b33ff7585b8a01c0453e4fc3ffc",
+    "size": 6321,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/6ac2e69c61674b33ff7585b8a01c0453e4fc3ffc"
+  },
+  {
+    "path": "reloader.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f59dc1620d92abcf57fa1d882dff1536278334e",
+    "size": 3374,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/6f59dc1620d92abcf57fa1d882dff1536278334e"
+  },
+  {
+    "path": "sealed-secrets.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4df44b5ed04b47de25e310b991584e42c010124",
+    "size": 3665,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/e4df44b5ed04b47de25e310b991584e42c010124"
+  },
+  {
+    "path": "secrets-store-csi-driver.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e6882a2e427a239d94f6abde5f3c35a867a2a3b",
+    "size": 4321,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/1e6882a2e427a239d94f6abde5f3c35a867a2a3b"
+  },
+  {
+    "path": "templates",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04d20b307ebba48ecb3410a4635944286d420a0a",
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/trees/04d20b307ebba48ecb3410a4635944286d420a0a"
+  },
+  {
+    "path": "tigera-operator.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da7cd887248be706cfc2b3c37a3fdf7254e93414",
+    "size": 6395,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/da7cd887248be706cfc2b3c37a3fdf7254e93414"
+  },
+  {
+    "path": "traefik.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51a48d8640aedb1bae54920186ce6771bd8d3274",
+    "size": 4940,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/51a48d8640aedb1bae54920186ce6771bd8d3274"
+  },
+  {
+    "path": "variables.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f91677bdc18c44289107e1cd89e9dcc3ccada329",
+    "size": 6836,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/f91677bdc18c44289107e1cd89e9dcc3ccada329"
+  },
+  {
+    "path": "versions.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3410a7331e5d88c8454a9bef8439396257cb0607",
+    "size": 521,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/3410a7331e5d88c8454a9bef8439396257cb0607"
+  },
+  {
+    "path": "victoria-metrics-k8s-stack.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ebecb9a9548ddad136db64b12a436fb7252d17a",
+    "size": 7134,
+    "url": "https://api.github.com/repos/particuleio/terraform-kubernetes-addons/git/blobs/8ebecb9a9548ddad136db64b12a436fb7252d17a"
+  }
+]

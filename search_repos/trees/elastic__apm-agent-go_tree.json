@@ -1,0 +1,660 @@
+[
+  {
+    "path": ".ci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aff378c1951d7a1279801cde6a5e8f4327d93219",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/aff378c1951d7a1279801cde6a5e8f4327d93219"
+  },
+  {
+    "path": ".dockerignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25e074c25134dfa63e6328f9992c57010dbdc0f8",
+    "size": 32,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/25e074c25134dfa63e6328f9992c57010dbdc0f8"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0eeae56ca7de93d55a7c3348046aa7e5cfa770c8",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/0eeae56ca7de93d55a7c3348046aa7e5cfa770c8"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "197f804cced2b35188f0c4286cbff5bdf8bf02fc",
+    "size": 46,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/197f804cced2b35188f0c4286cbff5bdf8bf02fc"
+  },
+  {
+    "path": ".updatecli-version",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c5d557118763b64ec7dbc03bb72520626405544",
+    "size": 8,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/5c5d557118763b64ec7dbc03bb72520626405544"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e118c79191a7c0ef6dcf1abb7c4dc9002d9a09ee",
+    "size": 144,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/e118c79191a7c0ef6dcf1abb7c4dc9002d9a09ee"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c286a3152c459c7782c5e01b9b7f37a671146a60",
+    "size": 72,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/c286a3152c459c7782c5e01b9b7f37a671146a60"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b6c575ffa554bd972396bc64cae7b8ff6394e33",
+    "size": 5080,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/7b6c575ffa554bd972396bc64cae7b8ff6394e33"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1a731fb5a36d277683a2f2714d7d7c6969f1ac1",
+    "size": 11346,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/b1a731fb5a36d277683a2f2714d7d7c6969f1ac1"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f2be03a6e56dd75ed8fd6566fbf9736ef5fd418",
+    "size": 2125,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/9f2be03a6e56dd75ed8fd6566fbf9736ef5fd418"
+  },
+  {
+    "path": "NOTICE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "147618ca4f961b27626c3efb72fa7c2e75addb8a",
+    "size": 5023,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/147618ca4f961b27626c3efb72fa7c2e75addb8a"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e13fa512f4bd7f883770c4462be4622db77850a",
+    "size": 2076,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/7e13fa512f4bd7f883770c4462be4622db77850a"
+  },
+  {
+    "path": "apmconfig",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "394a7f3bd40af0c9eea317c9a3ae7784239d4c86",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/394a7f3bd40af0c9eea317c9a3ae7784239d4c86"
+  },
+  {
+    "path": "apmtest",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ab3e5edb39aebbc6b625235d9c8d4a7dba6d0ba7",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/ab3e5edb39aebbc6b625235d9c8d4a7dba6d0ba7"
+  },
+  {
+    "path": "breakdown.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "060499c1d34793ba4d20e4a152fc2971766adee8",
+    "size": 9077,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/060499c1d34793ba4d20e4a152fc2971766adee8"
+  },
+  {
+    "path": "breakdown_internal_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d31ad3701b5d42e71a795fbd096db2aa94c489b2",
+    "size": 4097,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/d31ad3701b5d42e71a795fbd096db2aa94c489b2"
+  },
+  {
+    "path": "breakdown_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a3d6b3396671b968f6bbada2724893c2477dc73",
+    "size": 19433,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/5a3d6b3396671b968f6bbada2724893c2477dc73"
+  },
+  {
+    "path": "builtin_metrics.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebf65e72b4ea41673a6ba35454f7b0eb9c07048e",
+    "size": 5050,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/ebf65e72b4ea41673a6ba35454f7b0eb9c07048e"
+  },
+  {
+    "path": "capturebody.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a21ec8d1e9bb4eca623793771fbfa6af4bb3d1a",
+    "size": 6104,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/8a21ec8d1e9bb4eca623793771fbfa6af4bb3d1a"
+  },
+  {
+    "path": "capturebody_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea4b3ed88549cf13ef50511c60497f20ceae23e3",
+    "size": 1378,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/ea4b3ed88549cf13ef50511c60497f20ceae23e3"
+  },
+  {
+    "path": "config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d376427937088ddb50ee86a4dc741850243ea4c",
+    "size": 22059,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/2d376427937088ddb50ee86a4dc741850243ea4c"
+  },
+  {
+    "path": "config_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef4780245d08bb7fdb3e721b656a76798a004451",
+    "size": 12499,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/ef4780245d08bb7fdb3e721b656a76798a004451"
+  },
+  {
+    "path": "context.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "997109a0c7db32ed1e9b045dc7c5cdc86501399d",
+    "size": 8589,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/997109a0c7db32ed1e9b045dc7c5cdc86501399d"
+  },
+  {
+    "path": "context_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff4bb005af85149b0a7118115ede824501f1cc7e",
+    "size": 4438,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/ff4bb005af85149b0a7118115ede824501f1cc7e"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f175aa369d3ac05920bc2eaba1f875237c0bf21e",
+    "size": 956,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/f175aa369d3ac05920bc2eaba1f875237c0bf21e"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91815b755764fc02682163891571d6b857817c61",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/91815b755764fc02682163891571d6b857817c61"
+  },
+  {
+    "path": "env_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8406f228edaaeb8457c63558341578e0fd80c8c",
+    "size": 15168,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/c8406f228edaaeb8457c63558341578e0fd80c8c"
+  },
+  {
+    "path": "error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb87a5fb00ecee98af37283e971d1e99a5210092",
+    "size": 20517,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/eb87a5fb00ecee98af37283e971d1e99a5210092"
+  },
+  {
+    "path": "error_syscall.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d286bcb6ee571984db47382aa6eeb4a3790bd39",
+    "size": 1192,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/0d286bcb6ee571984db47382aa6eeb4a3790bd39"
+  },
+  {
+    "path": "error_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "636cbb8232b49772fad215f8bff558781f24fd19",
+    "size": 20354,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/636cbb8232b49772fad215f8bff558781f24fd19"
+  },
+  {
+    "path": "error_unix.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2a8a4aecc743a62773f6c2870909a5f40f0409a",
+    "size": 979,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/c2a8a4aecc743a62773f6c2870909a5f40f0409a"
+  },
+  {
+    "path": "error_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7655179e112e4c7632ac56d0980b7080ea55f1a2",
+    "size": 1006,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/7655179e112e4c7632ac56d0980b7080ea55f1a2"
+  },
+  {
+    "path": "example_context_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a8c16c8f718ff7fc1589f88e7a5ac85731f9604",
+    "size": 1489,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/0a8c16c8f718ff7fc1589f88e7a5ac85731f9604"
+  },
+  {
+    "path": "example_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8844fab7813a2dac4c498a73cbc7325c56291343",
+    "size": 5298,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/8844fab7813a2dac4c498a73cbc7325c56291343"
+  },
+  {
+    "path": "example_tracecontext_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "965935b671e2fd3a66c330cb2b4344d9e4967451",
+    "size": 2993,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/965935b671e2fd3a66c330cb2b4344d9e4967451"
+  },
+  {
+    "path": "features",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "354e70801a2c34aa49c73838af1e8350c02ee793",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/354e70801a2c34aa49c73838af1e8350c02ee793"
+  },
+  {
+    "path": "fmt.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69bb6816394d8ae144544345e24eac58006da9a2",
+    "size": 2735,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/69bb6816394d8ae144544345e24eac58006da9a2"
+  },
+  {
+    "path": "fmt_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb20368c756157bdb8f4a9feadc6d5cdf1464ecd",
+    "size": 3032,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/eb20368c756157bdb8f4a9feadc6d5cdf1464ecd"
+  },
+  {
+    "path": "fnv.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8719a56b32bad9ca4307ad9c7cce8fd65c62ab19",
+    "size": 1273,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/8719a56b32bad9ca4307ad9c7cce8fd65c62ab19"
+  },
+  {
+    "path": "fnv_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f8b2684c0ca4d7df170acdb6ae4146540c3ebf0",
+    "size": 1169,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/3f8b2684c0ca4d7df170acdb6ae4146540c3ebf0"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf23902e6c5a257b1ae7c64e1914ee2bd97148d6",
+    "size": 765,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/cf23902e6c5a257b1ae7c64e1914ee2bd97148d6"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed02bd240e838ac2ac7beb6b37de9894d727b287",
+    "size": 4280,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/ed02bd240e838ac2ac7beb6b37de9894d727b287"
+  },
+  {
+    "path": "gocontext.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd049fe99c54dee31f2369013461f24a19ab9f16",
+    "size": 9174,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/bd049fe99c54dee31f2369013461f24a19ab9f16"
+  },
+  {
+    "path": "gocontext_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ec881c7ced8e5cc65102e680ad08ad9ca456c45",
+    "size": 5362,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/3ec881c7ced8e5cc65102e680ad08ad9ca456c45"
+  },
+  {
+    "path": "internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f627a64e05c4cd660a11b8dd589dc2240a58f1f",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/4f627a64e05c4cd660a11b8dd589dc2240a58f1f"
+  },
+  {
+    "path": "logger.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "929c2f91492925325227f13bebd8677dcbdad98e",
+    "size": 1244,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/929c2f91492925325227f13bebd8677dcbdad98e"
+  },
+  {
+    "path": "metrics.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "560a07ecbc8f623ad6599cc47cfd2af5bccdb292",
+    "size": 4884,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/560a07ecbc8f623ad6599cc47cfd2af5bccdb292"
+  },
+  {
+    "path": "metrics_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d20e236c80b38b9c0ce4cdb974787328ca071b30",
+    "size": 10565,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/d20e236c80b38b9c0ce4cdb974787328ca071b30"
+  },
+  {
+    "path": "model",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c776fa54232aa87df8867b1d5e3040505942d202",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/c776fa54232aa87df8867b1d5e3040505942d202"
+  },
+  {
+    "path": "modelwriter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d7d2825bc6ca1aca3447b66fe6c0973aab8636b",
+    "size": 9545,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/2d7d2825bc6ca1aca3447b66fe6c0973aab8636b"
+  },
+  {
+    "path": "module",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ef30fe31b08c5c50e4ba848820499d9d264d37bd",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/ef30fe31b08c5c50e4ba848820499d9d264d37bd"
+  },
+  {
+    "path": "profiling.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7705324f28d61601c8cbb7a8e14d874fae0f3198",
+    "size": 4925,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/7705324f28d61601c8cbb7a8e14d874fae0f3198"
+  },
+  {
+    "path": "profiling_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0852b68423d865f3cdde45896363e6792df07880",
+    "size": 3365,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/0852b68423d865f3cdde45896363e6792df07880"
+  },
+  {
+    "path": "sampler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbfa0ba033f4f0b909286b15ce6118038caaccf1",
+    "size": 3638,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/bbfa0ba033f4f0b909286b15ce6118038caaccf1"
+  },
+  {
+    "path": "sampler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9823ad53fd2ef099e73cdb9462a0051deb783f6",
+    "size": 3054,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/c9823ad53fd2ef099e73cdb9462a0051deb783f6"
+  },
+  {
+    "path": "sanitizer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "812df9b8093e0c0a0c4e78520f766350d3557518",
+    "size": 2273,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/812df9b8093e0c0a0c4e78520f766350d3557518"
+  },
+  {
+    "path": "sanitizer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9acc213a4c24368d154cb014fa5604a775f41dd2",
+    "size": 4138,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/9acc213a4c24368d154cb014fa5604a775f41dd2"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5aed55fc1484fe84a3871f5a6d9e28595574e9a1",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/5aed55fc1484fe84a3871f5a6d9e28595574e9a1"
+  },
+  {
+    "path": "span.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7495fec3690c8bb61e4397679c5997b00cdefaed",
+    "size": 21728,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/7495fec3690c8bb61e4397679c5997b00cdefaed"
+  },
+  {
+    "path": "span_compressed.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c23be644c09510a387b85510f4116e79a7c4743",
+    "size": 10674,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/8c23be644c09510a387b85510f4116e79a7c4743"
+  },
+  {
+    "path": "span_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b79e1d67d122c01c5551f435ae9ca1c51c5ef82",
+    "size": 51514,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/4b79e1d67d122c01c5551f435ae9ca1c51c5ef82"
+  },
+  {
+    "path": "spancontext.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90390d0044c4fa20b395162bd11a10278cfd6ddd",
+    "size": 10049,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/90390d0044c4fa20b395162bd11a10278cfd6ddd"
+  },
+  {
+    "path": "spancontext_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c3805bc15a11309b88ee2bf559cb8c18547aeb7",
+    "size": 4611,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/2c3805bc15a11309b88ee2bf559cb8c18547aeb7"
+  },
+  {
+    "path": "sqlutil",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94f30aacffa6d404313ea972844cdab3fa7edf5a",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/94f30aacffa6d404313ea972844cdab3fa7edf5a"
+  },
+  {
+    "path": "stacktrace.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c9eb67846ddd833c4b9c82199df6a2f23b8a898",
+    "size": 1629,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/0c9eb67846ddd833c4b9c82199df6a2f23b8a898"
+  },
+  {
+    "path": "stacktrace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "26c42f55d71a00ad639f5af43276d6b64f4f682e",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/26c42f55d71a00ad639f5af43276d6b64f4f682e"
+  },
+  {
+    "path": "testmain_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d283fdc7695a5369b8e776739db53ecdf49721cb",
+    "size": 2512,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/d283fdc7695a5369b8e776739db53ecdf49721cb"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "081d9d07e522e9b7ef52195451a2f7d0a4805814",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/081d9d07e522e9b7ef52195451a2f7d0a4805814"
+  },
+  {
+    "path": "tracecontext.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85042c5f35f72a9de8f669978800aead9a7a78fa",
+    "size": 9425,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/85042c5f35f72a9de8f669978800aead9a7a78fa"
+  },
+  {
+    "path": "tracecontext_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68b3b45a7bf67727ca160a7737f1c8d92046c5a4",
+    "size": 5160,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/68b3b45a7bf67727ca160a7737f1c8d92046c5a4"
+  },
+  {
+    "path": "tracer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "126d5bfb505eaed1c6be520601c965c75353e666",
+    "size": 46133,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/126d5bfb505eaed1c6be520601c965c75353e666"
+  },
+  {
+    "path": "tracer_stats.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fc86e0d82fc069b43fb425795308de4b9a1d5aa",
+    "size": 2429,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/0fc86e0d82fc069b43fb425795308de4b9a1d5aa"
+  },
+  {
+    "path": "tracer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a32716d6e297ac203a16c496276113c279ad05e",
+    "size": 26889,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/0a32716d6e297ac203a16c496276113c279ad05e"
+  },
+  {
+    "path": "transaction.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18c41cbe4927c941d23d8c26536c7ec147f177a3",
+    "size": 14704,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/18c41cbe4927c941d23d8c26536c7ec147f177a3"
+  },
+  {
+    "path": "transaction_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7892cc9c2ce7f4db3edaadda78a8cb12f5ea84b9",
+    "size": 22203,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/7892cc9c2ce7f4db3edaadda78a8cb12f5ea84b9"
+  },
+  {
+    "path": "transport",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99996697b2e4f26fe9858a246a1108ff0616c221",
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/trees/99996697b2e4f26fe9858a246a1108ff0616c221"
+  },
+  {
+    "path": "updatecli-compose.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95d68ff8ba04da4deffa44bad1f601d395e50526",
+    "size": 1136,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/95d68ff8ba04da4deffa44bad1f601d395e50526"
+  },
+  {
+    "path": "utils.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7bf93a011fa50968a457dd247b53d2385be0544",
+    "size": 7553,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/f7bf93a011fa50968a457dd247b53d2385be0544"
+  },
+  {
+    "path": "utils_linux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf897b0d3317252556ec4baaee7b840adf4f5b8a",
+    "size": 1399,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/bf897b0d3317252556ec4baaee7b840adf4f5b8a"
+  },
+  {
+    "path": "utils_linux_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19308425469d2d5f1e5e8a3b32b521fb66370348",
+    "size": 1492,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/19308425469d2d5f1e5e8a3b32b521fb66370348"
+  },
+  {
+    "path": "utils_other.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e764b8dc7cb439e283b819d75e30b8d548c4fc5c",
+    "size": 1240,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/e764b8dc7cb439e283b819d75e30b8d548c4fc5c"
+  },
+  {
+    "path": "utils_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "802f8aabb153ef5929df10c94a14c82eae85923c",
+    "size": 2055,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/802f8aabb153ef5929df10c94a14c82eae85923c"
+  },
+  {
+    "path": "version.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "734d6431c8895d13a0e4240558bef03de6a1db9c",
+    "size": 928,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/734d6431c8895d13a0e4240558bef03de6a1db9c"
+  },
+  {
+    "path": "version_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2db60b36fef3a00a4e62687b0a94667db3759c20",
+    "size": 1239,
+    "url": "https://api.github.com/repos/elastic/apm-agent-go/git/blobs/2db60b36fef3a00a4e62687b0a94667db3759c20"
+  }
+]

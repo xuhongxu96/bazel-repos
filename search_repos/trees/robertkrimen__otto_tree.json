@@ -1,0 +1,950 @@
+[
+  {
+    "path": ".clog.toml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74e370292a921dc7a02b0086a8cbb829fe3d66e3",
+    "size": 340,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/74e370292a921dc7a02b0086a8cbb829fe3d66e3"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a789dabf4271151ac0dc09b5ac6a5103df10ad07",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/a789dabf4271151ac0dc09b5ac6a5103df10ad07"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea050b8b921fac2ebf1fc8d63db6ef2e39c1b2c5",
+    "size": 148,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/ea050b8b921fac2ebf1fc8d63db6ef2e39c1b2c5"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16a53009b89d89369d3c30f6884ca53fedecc746",
+    "size": 1306,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/16a53009b89d89369d3c30f6884ca53fedecc746"
+  },
+  {
+    "path": ".goreleaser.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56f72d9db614e051f6a26ef50105f2a417c010b0",
+    "size": 2015,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/56f72d9db614e051f6a26ef50105f2a417c010b0"
+  },
+  {
+    "path": "DESIGN.markdown",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28875298781778b4577270ee58e132168fde314d",
+    "size": 81,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/28875298781778b4577270ee58e132168fde314d"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6179fe3870884ebd38f02aa54dcf02e5c1d9ffa",
+    "size": 1057,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/b6179fe3870884ebd38f02aa54dcf02e5c1d9ffa"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f51b160977dca145fbd7a660b40d1272fc2970d",
+    "size": 20340,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/0f51b160977dca145fbd7a660b40d1272fc2970d"
+  },
+  {
+    "path": "array_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a33a86bd999f02c806c245dd2d7632e7ee92767",
+    "size": 18911,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/1a33a86bd999f02c806c245dd2d7632e7ee92767"
+  },
+  {
+    "path": "ast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "968bcc3bc4f9f5ab5ca9c235d93c2fbc21a57518",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/968bcc3bc4f9f5ab5ca9c235d93c2fbc21a57518"
+  },
+  {
+    "path": "builtin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfb15621afeda013ce8c452ce4338e69896c37e6",
+    "size": 8054,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/bfb15621afeda013ce8c452ce4338e69896c37e6"
+  },
+  {
+    "path": "builtin_array.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4c30e1b7ec295ed93a7e607645c970210d6ef55",
+    "size": 19657,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/c4c30e1b7ec295ed93a7e607645c970210d6ef55"
+  },
+  {
+    "path": "builtin_boolean.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54f02028fb473dcf34051f45d0fc34744ce502aa",
+    "size": 719,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/54f02028fb473dcf34051f45d0fc34744ce502aa"
+  },
+  {
+    "path": "builtin_date.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01822edaf0556f462156aafc25c30793d4ecfd94",
+    "size": 15480,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/01822edaf0556f462156aafc25c30793d4ecfd94"
+  },
+  {
+    "path": "builtin_error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d524f548db10c9b7a2683da6cad05055b9c0d1c",
+    "size": 3566,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/9d524f548db10c9b7a2683da6cad05055b9c0d1c"
+  },
+  {
+    "path": "builtin_function.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4149ce4f262a957f13fca78e8537c432cc68f456",
+    "size": 3775,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/4149ce4f262a957f13fca78e8537c432cc68f456"
+  },
+  {
+    "path": "builtin_json.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f66315d85999f569febe50b3ea40f70827828a24",
+    "size": 7721,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/f66315d85999f569febe50b3ea40f70827828a24"
+  },
+  {
+    "path": "builtin_math.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6429aa5a51e72550485bf349db0300c440d887cb",
+    "size": 5044,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/6429aa5a51e72550485bf349db0300c440d887cb"
+  },
+  {
+    "path": "builtin_number.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acdeb501bbaee50dae1dea8da59b5656521216ee",
+    "size": 3127,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/acdeb501bbaee50dae1dea8da59b5656521216ee"
+  },
+  {
+    "path": "builtin_object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "803c451cd760d9a67057157898f962088ed86fc1",
+    "size": 8945,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/803c451cd760d9a67057157898f962088ed86fc1"
+  },
+  {
+    "path": "builtin_regexp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04303447240d20f690f047cf7e1383cbf10920a0",
+    "size": 2496,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/04303447240d20f690f047cf7e1383cbf10920a0"
+  },
+  {
+    "path": "builtin_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48ef2038739d28c32b74e0188a8c682a8265413f",
+    "size": 14090,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/48ef2038739d28c32b74e0188a8c682a8265413f"
+  },
+  {
+    "path": "builtin_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6adc3047ed2278af78bab9f8fcf3ebbc64b25b7",
+    "size": 3865,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/f6adc3047ed2278af78bab9f8fcf3ebbc64b25b7"
+  },
+  {
+    "path": "call_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f239200eaf023a7e9469af639ea0cdf322dc1914",
+    "size": 33147,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/f239200eaf023a7e9469af639ea0cdf322dc1914"
+  },
+  {
+    "path": "clone.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "edc284594e1da37c75e92559f6dc57370c074262",
+    "size": 3953,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/edc284594e1da37c75e92559f6dc57370c074262"
+  },
+  {
+    "path": "clone_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f069022bd68799cbd2a4e3b2bdcd6d0a301a47c6",
+    "size": 332,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/f069022bd68799cbd2a4e3b2bdcd6d0a301a47c6"
+  },
+  {
+    "path": "cmpl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e81cd50b4cd2ba2273eb4fa24e079ed2ec574d2a",
+    "size": 166,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/e81cd50b4cd2ba2273eb4fa24e079ed2ec574d2a"
+  },
+  {
+    "path": "cmpl_evaluate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a29b7d880f42b66992bd230a7fada4313012c613",
+    "size": 2506,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/a29b7d880f42b66992bd230a7fada4313012c613"
+  },
+  {
+    "path": "cmpl_evaluate_expression.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69c673a8a3acfa186a7e762b23f639a90c3da718",
+    "size": 12400,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/69c673a8a3acfa186a7e762b23f639a90c3da718"
+  },
+  {
+    "path": "cmpl_evaluate_statement.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "724120ac32b8aec23a8a2eb7a095424e196946a9",
+    "size": 10403,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/724120ac32b8aec23a8a2eb7a095424e196946a9"
+  },
+  {
+    "path": "cmpl_parse.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3fe8da553a6130d6f7ddcde9b76c78536d8fc39",
+    "size": 15053,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/d3fe8da553a6130d6f7ddcde9b76c78536d8fc39"
+  },
+  {
+    "path": "cmpl_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad8ccfd34d32f50765f06f37f33efa51de629f17",
+    "size": 872,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/ad8ccfd34d32f50765f06f37f33efa51de629f17"
+  },
+  {
+    "path": "console.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8d99cf7d09a46390d7b252de0c59770a290da77",
+    "size": 1007,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/e8d99cf7d09a46390d7b252de0c59770a290da77"
+  },
+  {
+    "path": "consts.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f82aebc13b2bda43a783401e5537664c253f38e9",
+    "size": 906,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/f82aebc13b2bda43a783401e5537664c253f38e9"
+  },
+  {
+    "path": "date_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "755cfd94f968b6b691e9bdf683ec48d12d78844a",
+    "size": 12911,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/755cfd94f968b6b691e9bdf683ec48d12d78844a"
+  },
+  {
+    "path": "dbg.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51fbdc2063d4e38ddb5dfd8e438c7a40fc12bfa5",
+    "size": 190,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/51fbdc2063d4e38ddb5dfd8e438c7a40fc12bfa5"
+  },
+  {
+    "path": "dbg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba2297720a14d9a61d43ded3032776e4fb0ea3dc",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/ba2297720a14d9a61d43ded3032776e4fb0ea3dc"
+  },
+  {
+    "path": "documentation_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3a6d8a9382ee1d8d7ac0bba1ec5d817482cebea",
+    "size": 2545,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/b3a6d8a9382ee1d8d7ac0bba1ec5d817482cebea"
+  },
+  {
+    "path": "error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebbfc69fae595b6d557a8553530fc68bc85688ad",
+    "size": 5039,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/ebbfc69fae595b6d557a8553530fc68bc85688ad"
+  },
+  {
+    "path": "error_native_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9fcce79b130218640b86f2cdec7efbf593310ff1",
+    "size": 1123,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/9fcce79b130218640b86f2cdec7efbf593310ff1"
+  },
+  {
+    "path": "error_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3811fcb7f40a1e8bdb9ffd305a08a723b5e54967",
+    "size": 10255,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/3811fcb7f40a1e8bdb9ffd305a08a723b5e54967"
+  },
+  {
+    "path": "evaluate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "269b9dd0a0dc2b72b90a347f44aed5126e1a995e",
+    "size": 7451,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/269b9dd0a0dc2b72b90a347f44aed5126e1a995e"
+  },
+  {
+    "path": "file",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fbcf27bd1df7cc0e4698030756068d0d096ce368",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/fbcf27bd1df7cc0e4698030756068d0d096ce368"
+  },
+  {
+    "path": "function_stack_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "092fa81e74c97589d5587953ec2c96a63535777e",
+    "size": 2055,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/092fa81e74c97589d5587953ec2c96a63535777e"
+  },
+  {
+    "path": "function_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28c64e69c6509f281ceb81587a8ac7960ab43cc4",
+    "size": 9072,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/28c64e69c6509f281ceb81587a8ac7960ab43cc4"
+  },
+  {
+    "path": "functional_benchmark_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ca6802b72357641151062a4c55ea7747e2a8b10",
+    "size": 24000,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/2ca6802b72357641151062a4c55ea7747e2a8b10"
+  },
+  {
+    "path": "generate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "767091e8e6aa842777414a1e748d61ad1e0c9b35",
+    "size": 155,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/767091e8e6aa842777414a1e748d61ad1e0c9b35"
+  },
+  {
+    "path": "global.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a46e6bcfb32ef255713297f323484175c76cf86b",
+    "size": 5460,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/a46e6bcfb32ef255713297f323484175c76cf86b"
+  },
+  {
+    "path": "global_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6169a715a61e594c96722e42e05d4ceb3fc9c09d",
+    "size": 11281,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/6169a715a61e594c96722e42e05d4ceb3fc9c09d"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eac329bd57b0e456687e95f63f67305097d6bbfd",
+    "size": 385,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/eac329bd57b0e456687e95f63f67305097d6bbfd"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67a9e023bd3d8c5cbc0c5c2878200e4585d4cdd3",
+    "size": 2375,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/67a9e023bd3d8c5cbc0c5c2878200e4585d4cdd3"
+  },
+  {
+    "path": "inline.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a1e3d80702e1947d3a80ede9e4ae370196bd894",
+    "size": 183729,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/0a1e3d80702e1947d3a80ede9e4ae370196bd894"
+  },
+  {
+    "path": "inline_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "849804a8d46a8f437aafc1d5f34e63e1a40142d0",
+    "size": 5031,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/849804a8d46a8f437aafc1d5f34e63e1a40142d0"
+  },
+  {
+    "path": "issue_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6366f4efdf39e41104b306007180b3fda4c6f333",
+    "size": 28043,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/6366f4efdf39e41104b306007180b3fda4c6f333"
+  },
+  {
+    "path": "json_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99eb064a322025908558b8756d5fd1ffb6ffdd7b",
+    "size": 4577,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/99eb064a322025908558b8756d5fd1ffb6ffdd7b"
+  },
+  {
+    "path": "locale.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c92fe896453267e16174a10b47623f090ad5933e",
+    "size": 101,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/c92fe896453267e16174a10b47623f090ad5933e"
+  },
+  {
+    "path": "math_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a4cd9b1586b3cb51241239aaf5a3c09f824d9b3",
+    "size": 10875,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/1a4cd9b1586b3cb51241239aaf5a3c09f824d9b3"
+  },
+  {
+    "path": "native_stack_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e53ea597b1ee600fb9dbf8921cb2e16c1305bf2",
+    "size": 2836,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/5e53ea597b1ee600fb9dbf8921cb2e16c1305bf2"
+  },
+  {
+    "path": "number_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cb4e3a718d4583d4622028ef7011bf0da977ad0",
+    "size": 4341,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/6cb4e3a718d4583d4622028ef7011bf0da977ad0"
+  },
+  {
+    "path": "object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "40da58f7608cab6d3f3e0a05c9c401292e68a27c",
+    "size": 3485,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/40da58f7608cab6d3f3e0a05c9c401292e68a27c"
+  },
+  {
+    "path": "object_class.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e77ad8d92c7178eebaf67086b1f04880e3923b35",
+    "size": 11684,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/e77ad8d92c7178eebaf67086b1f04880e3923b35"
+  },
+  {
+    "path": "object_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "140a6b949ad9584493158a78052e9cdf1e5be541",
+    "size": 19552,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/140a6b949ad9584493158a78052e9cdf1e5be541"
+  },
+  {
+    "path": "otto.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31b7e3013bb98ca72d74e6fe8058bd399a7efaef",
+    "size": 20880,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/31b7e3013bb98ca72d74e6fe8058bd399a7efaef"
+  },
+  {
+    "path": "otto",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d0d7516febd5547468420fa4d0c74d2b7fe2c6c6",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/d0d7516febd5547468420fa4d0c74d2b7fe2c6c6"
+  },
+  {
+    "path": "otto_.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bf06d27d530f0bc9b8a2af161c9467d51d72c86",
+    "size": 3566,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/2bf06d27d530f0bc9b8a2af161c9467d51d72c86"
+  },
+  {
+    "path": "otto_error_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77ea3f67d63be7c043f8cc55d21801b4f2d2a0bb",
+    "size": 913,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/77ea3f67d63be7c043f8cc55d21801b4f2d2a0bb"
+  },
+  {
+    "path": "otto_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ad71569f82a583e2134a3486f3dd0d30be97d5a",
+    "size": 38283,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/2ad71569f82a583e2134a3486f3dd0d30be97d5a"
+  },
+  {
+    "path": "panic_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43da0468619e46ea0bbc01f871ee8308c47842f2",
+    "size": 1123,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/43da0468619e46ea0bbc01f871ee8308c47842f2"
+  },
+  {
+    "path": "parser",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "162e111d5936839d14234c906675e812574b3881",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/162e111d5936839d14234c906675e812574b3881"
+  },
+  {
+    "path": "parser_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7db43d239d78c3d43f7e2814ecf302faa7dade94",
+    "size": 846,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/7db43d239d78c3d43f7e2814ecf302faa7dade94"
+  },
+  {
+    "path": "property.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "768d6e567d6a2ef7897fdc70f52690353e5da074",
+    "size": 5306,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/768d6e567d6a2ef7897fdc70f52690353e5da074"
+  },
+  {
+    "path": "reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "afa3e64b73ca6590b1406e585da24cdfad133bc9",
+    "size": 18130,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/afa3e64b73ca6590b1406e585da24cdfad133bc9"
+  },
+  {
+    "path": "regexp_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4f9fbdf7a66c9bd16b2b4d8b96f327c55227743",
+    "size": 8017,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/e4f9fbdf7a66c9bd16b2b4d8b96f327c55227743"
+  },
+  {
+    "path": "registry",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "120d27955be1f580ba7c1be56093152910d733d0",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/120d27955be1f580ba7c1be56093152910d733d0"
+  },
+  {
+    "path": "repl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9cd408c2a1007147b688fd9fc9f5d9f6eafd7f9d",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/9cd408c2a1007147b688fd9fc9f5d9f6eafd7f9d"
+  },
+  {
+    "path": "result.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abda3353c16406bf0538862741c4c8efa6dc443c",
+    "size": 526,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/abda3353c16406bf0538862741c4c8efa6dc443c"
+  },
+  {
+    "path": "runtime.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "702623673db0290b956f86970675164ec84b3f9d",
+    "size": 22688,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/702623673db0290b956f86970675164ec84b3f9d"
+  },
+  {
+    "path": "runtime_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7b861e8c78caa5a09022b5780d73aaeb1384af8",
+    "size": 17734,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/d7b861e8c78caa5a09022b5780d73aaeb1384af8"
+  },
+  {
+    "path": "scope.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c535c3166338cd80d93d22c01f47306af511af17",
+    "size": 340,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/c535c3166338cd80d93d22c01f47306af511af17"
+  },
+  {
+    "path": "script.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "077a916df25560b44b109967d5ada76e39d35ee4",
+    "size": 2867,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/077a916df25560b44b109967d5ada76e39d35ee4"
+  },
+  {
+    "path": "script_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0396b0e09e067cebca4be574e2bf207dca0e972d",
+    "size": 1969,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/0396b0e09e067cebca4be574e2bf207dca0e972d"
+  },
+  {
+    "path": "sourcemap_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11724317dba8e0aaceaa8cb8d818581fb911abc6",
+    "size": 4425,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/11724317dba8e0aaceaa8cb8d818581fb911abc6"
+  },
+  {
+    "path": "stash.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85ee26d815f5866646c0ad3ef100f27c77b7b1be",
+    "size": 6300,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/85ee26d815f5866646c0ad3ef100f27c77b7b1be"
+  },
+  {
+    "path": "string_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cfcc5069b27fcd999ed518baad10ece60975008",
+    "size": 13269,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/0cfcc5069b27fcd999ed518baad10ece60975008"
+  },
+  {
+    "path": "terst",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35ce25ef619a2fd2f1bc96a5d22433d4f9142fe2",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/35ce25ef619a2fd2f1bc96a5d22433d4f9142fe2"
+  },
+  {
+    "path": "testing_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1f35a2df64eb353e0118fc1e1994b254fcf7de4",
+    "size": 2468,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/e1f35a2df64eb353e0118fc1e1994b254fcf7de4"
+  },
+  {
+    "path": "token",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b5adb72e0e84f8b77a2b8d706ac0fe3442ce658d",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/b5adb72e0e84f8b77a2b8d706ac0fe3442ce658d"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "78ebb14ca11f8706c155771328068e7de74dc0ef",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/78ebb14ca11f8706c155771328068e7de74dc0ef"
+  },
+  {
+    "path": "type_arguments.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f2a83dc77a9604eb32bce4553eac335e069a4e9",
+    "size": 2723,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/7f2a83dc77a9604eb32bce4553eac335e069a4e9"
+  },
+  {
+    "path": "type_array.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb673544c2ee0115dfc278cbf25de2f8d5e7fc44",
+    "size": 3225,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/cb673544c2ee0115dfc278cbf25de2f8d5e7fc44"
+  },
+  {
+    "path": "type_boolean.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3620553cd301a7225b89b15a417b2b49a3d42292",
+    "size": 148,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/3620553cd301a7225b89b15a417b2b49a3d42292"
+  },
+  {
+    "path": "type_date.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d35d1e69dfcbcee731a1e062f3c62f12a725a919",
+    "size": 5962,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/d35d1e69dfcbcee731a1e062f3c62f12a725a919"
+  },
+  {
+    "path": "type_error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ad9d6bda915ef0fb8358ed8221cf1910af691fd",
+    "size": 1676,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/3ad9d6bda915ef0fb8358ed8221cf1910af691fd"
+  },
+  {
+    "path": "type_function.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41e63933e2c1d5760d80360fe547609ffdfcafd1",
+    "size": 8485,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/41e63933e2c1d5760d80360fe547609ffdfcafd1"
+  },
+  {
+    "path": "type_go_array.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "397c017ff96919040e98755f06324b79baa5a1f1",
+    "size": 3643,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/397c017ff96919040e98755f06324b79baa5a1f1"
+  },
+  {
+    "path": "type_go_map.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4953bfde33973aa2b7ed995a7eb3bd0501a8bb7",
+    "size": 2797,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/d4953bfde33973aa2b7ed995a7eb3bd0501a8bb7"
+  },
+  {
+    "path": "type_go_map_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dcd306c6e5cd0d0ee27d845f5d2efec9170d4f53",
+    "size": 839,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/dcd306c6e5cd0d0ee27d845f5d2efec9170d4f53"
+  },
+  {
+    "path": "type_go_slice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9acfa335d7dbf9ab62c12bb258c690eb85c3ec7",
+    "size": 3498,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/e9acfa335d7dbf9ab62c12bb258c690eb85c3ec7"
+  },
+  {
+    "path": "type_go_slice_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b604aae82040ac454e6c6e6ce29213ef58339150",
+    "size": 395,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/b604aae82040ac454e6c6e6ce29213ef58339150"
+  },
+  {
+    "path": "type_go_struct.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a61de82d259e42416756d29b2c51ddca88bdf2cc",
+    "size": 3717,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/a61de82d259e42416756d29b2c51ddca88bdf2cc"
+  },
+  {
+    "path": "type_go_struct_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0dd0ab7ddfed71359071a431cd54f08f344e2332",
+    "size": 1465,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/0dd0ab7ddfed71359071a431cd54f08f344e2332"
+  },
+  {
+    "path": "type_number.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4201c9268e443763dd33a5b453add7ceeddd38d3",
+    "size": 142,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/4201c9268e443763dd33a5b453add7ceeddd38d3"
+  },
+  {
+    "path": "type_reference.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d2d0d3e3840bb23001684aafbc7b46eba57abd9",
+    "size": 2064,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/1d2d0d3e3840bb23001684aafbc7b46eba57abd9"
+  },
+  {
+    "path": "type_regexp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1370e64e4653cb64f85ccea56a18ecb12a152df",
+    "size": 3717,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/c1370e64e4653cb64f85ccea56a18ecb12a152df"
+  },
+  {
+    "path": "type_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "252c1ae63cdb70895bb94a22346e949f39306cd6",
+    "size": 2195,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/252c1ae63cdb70895bb94a22346e949f39306cd6"
+  },
+  {
+    "path": "underscore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8178883a7c12d413c7e7a3d2759c16b6a8c380ce",
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/trees/8178883a7c12d413c7e7a3d2759c16b6a8c380ce"
+  },
+  {
+    "path": "underscore_arrays_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28516acc1f6a470b00d32dd41c778a2a51141fb4",
+    "size": 12083,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/28516acc1f6a470b00d32dd41c778a2a51141fb4"
+  },
+  {
+    "path": "underscore_chaining_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e064543b271948f9154977ea206332a77a344ff6",
+    "size": 2311,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/e064543b271948f9154977ea206332a77a344ff6"
+  },
+  {
+    "path": "underscore_collections_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cbbdaecd2eb66dedd0c9ea82fd767599347b74c",
+    "size": 20630,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/6cbbdaecd2eb66dedd0c9ea82fd767599347b74c"
+  },
+  {
+    "path": "underscore_functions_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98a0d326be52da60b7f8307d5e1553d22b2956aa",
+    "size": 5964,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/98a0d326be52da60b7f8307d5e1553d22b2956aa"
+  },
+  {
+    "path": "underscore_objects_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5601f29b91044ef7356bc5b707a8c03743289e29",
+    "size": 29632,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/5601f29b91044ef7356bc5b707a8c03743289e29"
+  },
+  {
+    "path": "underscore_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8abfb665375c9a22a061f882ea0198150627655a",
+    "size": 4048,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/8abfb665375c9a22a061f882ea0198150627655a"
+  },
+  {
+    "path": "underscore_utility_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a8886b377342292acf6c37c8defc7ab22ba718f",
+    "size": 12709,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/1a8886b377342292acf6c37c8defc7ab22ba718f"
+  },
+  {
+    "path": "value.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "183c2317164fb06dc9edf2df44d3e388bd646fb8",
+    "size": 26491,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/183c2317164fb06dc9edf2df44d3e388bd646fb8"
+  },
+  {
+    "path": "value_boolean.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "670ecab07bf9575feec9e9f156c6a7eec954a450",
+    "size": 754,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/670ecab07bf9575feec9e9f156c6a7eec954a450"
+  },
+  {
+    "path": "value_kind.gen.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf99c0a7fdbb18958bc55c4ace178dbf0ef7eba1",
+    "size": 908,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/cf99c0a7fdbb18958bc55c4ace178dbf0ef7eba1"
+  },
+  {
+    "path": "value_number.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f14b4bb56e6cee50c4f5a61b4c026d98bf673d4",
+    "size": 6157,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/6f14b4bb56e6cee50c4f5a61b4c026d98bf673d4"
+  },
+  {
+    "path": "value_primitive.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23f8e81d46ebf0d48a9394fffd60a43b366eedda",
+    "size": 494,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/23f8e81d46ebf0d48a9394fffd60a43b366eedda"
+  },
+  {
+    "path": "value_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2af5bc3a830fe197950c688c1cc6251f05ea1dc4",
+    "size": 2604,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/2af5bc3a830fe197950c688c1cc6251f05ea1dc4"
+  },
+  {
+    "path": "value_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "056fba0c20474174d235d2cece461aa4b0c8f948",
+    "size": 9253,
+    "url": "https://api.github.com/repos/robertkrimen/otto/git/blobs/056fba0c20474174d235d2cece461aa4b0c8f948"
+  }
+]

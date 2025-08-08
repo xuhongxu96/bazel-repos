@@ -1,0 +1,957 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9be358e3fe27d5a1a27effe95ef499c868f0f5d",
+    "size": 133,
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/blobs/c9be358e3fe27d5a1a27effe95ef499c868f0f5d"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b308e96777acb9afc5cd0f1f4854a5572740aca",
+    "size": 822,
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/blobs/4b308e96777acb9afc5cd0f1f4854a5572740aca"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93a093b59b97444b41bff78cd312b45f798bb1b4",
+    "size": 972,
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/blobs/93a093b59b97444b41bff78cd312b45f798bb1b4"
+  },
+  {
+    "path": "RaycastRay",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d711a0432dd4d4b2dba4d98ae7610790a62ce64e",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/d711a0432dd4d4b2dba4d98ae7610790a62ce64e"
+  },
+  {
+    "path": "ScreenToWorld_WorldToScreen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "efb7af24aaeca161e1634927a64e0525a3545d7c",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/efb7af24aaeca161e1634927a64e0525a3545d7c"
+  },
+  {
+    "path": "_material_tesselation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "acfa4b3c695de5863ab201691223bd571a641072",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/acfa4b3c695de5863ab201691223bd571a641072"
+  },
+  {
+    "path": "_vr_dino",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "64626b9ed3fb6946584b3ccda3562510a01f8003",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/64626b9ed3fb6946584b3ccda3562510a01f8003"
+  },
+  {
+    "path": "animation_actions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a8a90bfc3fe165d92896f1960cd775619ac1d9b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7a8a90bfc3fe165d92896f1960cd775619ac1d9b"
+  },
+  {
+    "path": "animation_blend",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0bbcf99d5a7f6d17942f844ebe4267c28bef93b2",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/0bbcf99d5a7f6d17942f844ebe4267c28bef93b2"
+  },
+  {
+    "path": "animation_bonechild",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3d28ce2ddecb0241b8fd1ab16291b35c3b45af05",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/3d28ce2ddecb0241b8fd1ab16291b35c3b45af05"
+  },
+  {
+    "path": "animation_instanced",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f9fe3b80234ef6ea8dbef8a85b56cdabb6c70d0b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/f9fe3b80234ef6ea8dbef8a85b56cdabb6c70d0b"
+  },
+  {
+    "path": "animation_movebone",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "151eae1572d018c7959fb51dc8609cf367ca609a",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/151eae1572d018c7959fb51dc8609cf367ca609a"
+  },
+  {
+    "path": "animation_timeline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f55095bbce1bad5bea71d7a1404ef65005204e84",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/f55095bbce1bad5bea71d7a1404ef65005204e84"
+  },
+  {
+    "path": "animation_uv",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "089fa97f475e694e1764918a9f609d7ca62b0885",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/089fa97f475e694e1764918a9f609d7ca62b0885"
+  },
+  {
+    "path": "call_hx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7f1c385821197e84e0be54c1fd03c93477fce2e",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/e7f1c385821197e84e0be54c1fd03c93477fce2e"
+  },
+  {
+    "path": "call_js",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f32e40228c0fa46ba038c220a4004c525674b736",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/f32e40228c0fa46ba038c220a4004c525674b736"
+  },
+  {
+    "path": "debug_draw",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9b6a048316822add36cded5a6418147026291776",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/9b6a048316822add36cded5a6418147026291776"
+  },
+  {
+    "path": "dev_logicnode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7831c65a7a8d76a420218ed258952198e2dd3c8a",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7831c65a7a8d76a420218ed258952198e2dd3c8a"
+  },
+  {
+    "path": "ease",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c5add54dab0f63b7008017ab432ae4af4f3917f",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/6c5add54dab0f63b7008017ab432ae4af4f3917f"
+  },
+  {
+    "path": "file_read",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e584204164fd92b1743732793200cc2085a85389",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/e584204164fd92b1743732793200cc2085a85389"
+  },
+  {
+    "path": "file_storage",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1d910d971ed8f02b0f980f69ba8d557d351cba47",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/1d910d971ed8f02b0f980f69ba8d557d351cba47"
+  },
+  {
+    "path": "file_write",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8846a09ec2def40a434cd3bf2d76545c62ba3c8b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/8846a09ec2def40a434cd3bf2d76545c62ba3c8b"
+  },
+  {
+    "path": "game_bowling",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6a741846315872138b6dc632ecaa0ae57e95b78",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/d6a741846315872138b6dc632ecaa0ae57e95b78"
+  },
+  {
+    "path": "game_endlessrun",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e9bbc5bbf996a6828e0df40cede66f2f3ec8663d",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/e9bbc5bbf996a6828e0df40cede66f2f3ec8663d"
+  },
+  {
+    "path": "graphics_settings",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2195c94577c59166951d941de8a0a3b5e27f9b3",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/a2195c94577c59166951d941de8a0a3b5e27f9b3"
+  },
+  {
+    "path": "input_mouselock",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a3536331670abd8d0bacf975ba31f093f901d6eb",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/a3536331670abd8d0bacf975ba31f093f901d6eb"
+  },
+  {
+    "path": "input_multitouch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6f081608c1aafdafb4d1149e102226aa929b1dc8",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/6f081608c1aafdafb4d1149e102226aa929b1dc8"
+  },
+  {
+    "path": "input_sensor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c932c0378b214cc23fea55af6b716693bb73ae6",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7c932c0378b214cc23fea55af6b716693bb73ae6"
+  },
+  {
+    "path": "instancing",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8254f86bbc495708c84dd3a2625de399c2ca6309",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/8254f86bbc495708c84dd3a2625de399c2ca6309"
+  },
+  {
+    "path": "light_area",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0a87db7ac7daafbf3470707a3d42e9f600cc5ce",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/a0a87db7ac7daafbf3470707a3d42e9f600cc5ce"
+  },
+  {
+    "path": "light_ies",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2772b932c18c45e06666c0dd19dd6310bcac7518",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/2772b932c18c45e06666c0dd19dd6310bcac7518"
+  },
+  {
+    "path": "light_probes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a7dacb790b1caaba9703326618d3bc92b9c5457",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7a7dacb790b1caaba9703326618d3bc92b9c5457"
+  },
+  {
+    "path": "light_probes_cubemap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67f2f880a7f6daf5301f47867a1c0d2043847103",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/67f2f880a7f6daf5301f47867a1c0d2043847103"
+  },
+  {
+    "path": "light_probes_plane",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b5b03daffa3d9904c22d29a7d08f17c3c5a65e3b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/b5b03daffa3d9904c22d29a7d08f17c3c5a65e3b"
+  },
+  {
+    "path": "light_volumetric",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e69552704a1e88d744b3c2765eccd5a5dc30d21",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/8e69552704a1e88d744b3c2765eccd5a5dc30d21"
+  },
+  {
+    "path": "load_screen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "239c9629bcf9ba8fa1247270fdc683bfadec21a7",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/239c9629bcf9ba8fa1247270fdc683bfadec21a7"
+  },
+  {
+    "path": "lod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b9e5bee626f9c742d93b979b00b52dd07ceca3e8",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/b9e5bee626f9c742d93b979b00b52dd07ceca3e8"
+  },
+  {
+    "path": "logic_Hello_World",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "47c45109dca6f0c7481a2f58e0bb2a146b8ab0e9",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/47c45109dca6f0c7481a2f58e0bb2a146b8ab0e9"
+  },
+  {
+    "path": "logic_break",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89177fb7d6618abbe1e632a4d0952f2f030cc5be",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/89177fb7d6618abbe1e632a4d0952f2f030cc5be"
+  },
+  {
+    "path": "logic_callgroup",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a831f8dd563d46a810b0e5847c830076191266e3",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/a831f8dd563d46a810b0e5847c830076191266e3"
+  },
+  {
+    "path": "logic_camera_pan",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f76f8f891e8ec074dd96c2d8c69a120f6be9ce96",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/f76f8f891e8ec074dd96c2d8c69a120f6be9ce96"
+  },
+  {
+    "path": "logic_camera_zoom",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ae5d94e6a0af06e9a85c3827df6b92aaf9c40765",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ae5d94e6a0af06e9a85c3827df6b92aaf9c40765"
+  },
+  {
+    "path": "logic_canvas",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8a11e07e8dbd1b4928ba527f444313ae20b96ca7",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/8a11e07e8dbd1b4928ba527f444313ae20b96ca7"
+  },
+  {
+    "path": "logic_event_fromhaxe",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3989796f0b9c87d6de688e96a617314c7010a7c8",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/3989796f0b9c87d6de688e96a617314c7010a7c8"
+  },
+  {
+    "path": "logic_event_global",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4976301aa54f2670e3c32222823076d818beba16",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/4976301aa54f2670e3c32222823076d818beba16"
+  },
+  {
+    "path": "logic_event_object",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba18f2687a3104d7cf8df30cd0219d00906cc731",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ba18f2687a3104d7cf8df30cd0219d00906cc731"
+  },
+  {
+    "path": "logic_gamepad",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d93579610e7840ce366f10e78ce48188dd06839b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/d93579610e7840ce366f10e78ce48188dd06839b"
+  },
+  {
+    "path": "logic_gate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "178296b3d71f925414adb6c8e5317e0dbde2ff25",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/178296b3d71f925414adb6c8e5317e0dbde2ff25"
+  },
+  {
+    "path": "logic_get_contacts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c6f5e7c01be7603c5dd311ad6c5017efd18d9486",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/c6f5e7c01be7603c5dd311ad6c5017efd18d9486"
+  },
+  {
+    "path": "logic_keyboard",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "74303ae167b8ce13e2ae737b18a286cb7e9d18cc",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/74303ae167b8ce13e2ae737b18a286cb7e9d18cc"
+  },
+  {
+    "path": "logic_linked_variable",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8317979891226bf1f2c741fda0e203273c76e14",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/e8317979891226bf1f2c741fda0e203273c76e14"
+  },
+  {
+    "path": "logic_loadurl",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e64ebf52329d3360d3818d89cd7b4230497de85a",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/e64ebf52329d3360d3818d89cd7b4230497de85a"
+  },
+  {
+    "path": "logic_mouselock",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0163369951cf8b9c9641469c04d42eae0e9ed1ef",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/0163369951cf8b9c9641469c04d42eae0e9ed1ef"
+  },
+  {
+    "path": "logic_object_rotate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "adb59f737043ef3cd90016a2e2f9123f099eb8a4",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/adb59f737043ef3cd90016a2e2f9123f099eb8a4"
+  },
+  {
+    "path": "logic_object_scale",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "69a12fa611ddcd417151ab9294175c8c4d0c67fa",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/69a12fa611ddcd417151ab9294175c8c4d0c67fa"
+  },
+  {
+    "path": "logic_object_translate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff0fbcba75fbb9025b7056f58c7a5c9c5b11bad1",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ff0fbcba75fbb9025b7056f58c7a5c9c5b11bad1"
+  },
+  {
+    "path": "logic_pause_trait",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c4f541af039a3cdda8e3dc039ccc79ea72ef59b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7c4f541af039a3cdda8e3dc039ccc79ea72ef59b"
+  },
+  {
+    "path": "logic_pong",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e3df300256ac6880a733baa3da476ee92d2f3765",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/e3df300256ac6880a733baa3da476ee92d2f3765"
+  },
+  {
+    "path": "logic_scenes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3dda00c4084ed59425d7c9e3005aee6e4d908e81",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/3dda00c4084ed59425d7c9e3005aee6e4d908e81"
+  },
+  {
+    "path": "logic_scenetree",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35bd08123116865e5c39dd4d9e5e15cccd301e21",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/35bd08123116865e5c39dd4d9e5e15cccd301e21"
+  },
+  {
+    "path": "logic_script",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1ad6fff0120aba510bb5d96f99b3dea2fdfd99ea",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/1ad6fff0120aba510bb5d96f99b3dea2fdfd99ea"
+  },
+  {
+    "path": "logic_set_property",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1813d98dc468d29c3d12ffd31cf97c804dac99ea",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/1813d98dc468d29c3d12ffd31cf97c804dac99ea"
+  },
+  {
+    "path": "logic_toy_car",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b65fdd2b717838c070c2d7aecfe66018572340c3",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/b65fdd2b717838c070c2d7aecfe66018572340c3"
+  },
+  {
+    "path": "logic_transform",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7552a0f7bd437e9f13c0eef48400d1a4428b57fe",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7552a0f7bd437e9f13c0eef48400d1a4428b57fe"
+  },
+  {
+    "path": "macro_armpack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "10938d70c0d9fb7cadb986bc61694d26147c2adc",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/10938d70c0d9fb7cadb986bc61694d26147c2adc"
+  },
+  {
+    "path": "material_alpha",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2875a24829211c8ad924dbb58c1d0a0a0350a38c",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/2875a24829211c8ad924dbb58c1d0a0a0350a38c"
+  },
+  {
+    "path": "material_bake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "81fccd04b22079197b29e62970506f43be5caffe",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/81fccd04b22079197b29e62970506f43be5caffe"
+  },
+  {
+    "path": "material_batch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2cbba9fb8999e313ac8bde00c76cb485c1103d87",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/2cbba9fb8999e313ac8bde00c76cb485c1103d87"
+  },
+  {
+    "path": "material_billboard",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "915e6989c8a15ba4be487c4d54b56c735ba1e3d7",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/915e6989c8a15ba4be487c4d54b56c735ba1e3d7"
+  },
+  {
+    "path": "material_bump",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f64a60745812167fc9cc38d06bd9f2e8c9584fe6",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/f64a60745812167fc9cc38d06bd9f2e8c9584fe6"
+  },
+  {
+    "path": "material_decal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "18c31a0d8da5e4278265de99ab6040b72c63fbd0",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/18c31a0d8da5e4278265de99ab6040b72c63fbd0"
+  },
+  {
+    "path": "material_decal_colors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ebc66544b1e7e0f1f132a4c42d8d2cd88b008bd1",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ebc66544b1e7e0f1f132a4c42d8d2cd88b008bd1"
+  },
+  {
+    "path": "material_depth_texture",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc7232ba5440af8306d9d07dfce6dc2509b8c95d",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/bc7232ba5440af8306d9d07dfce6dc2509b8c95d"
+  },
+  {
+    "path": "material_displace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03df99c0e771c66765126602a5046b5df262df65",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/03df99c0e771c66765126602a5046b5df262df65"
+  },
+  {
+    "path": "material_glossy_metallic",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c21638df1a3db64c5425b417821055336ab770a4",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/c21638df1a3db64c5425b417821055336ab770a4"
+  },
+  {
+    "path": "material_multiuvs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21f8a946d1dd38d74f0934e882726fc74caaf0bc",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/21f8a946d1dd38d74f0934e882726fc74caaf0bc"
+  },
+  {
+    "path": "material_normalmap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8b0306fcb1bd71a94868ba33bd057cd336f0edcb",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/8b0306fcb1bd71a94868ba33bd057cd336f0edcb"
+  },
+  {
+    "path": "material_params",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e1721c07c2b171fbef48991ee60c6bc6ff18df0",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/8e1721c07c2b171fbef48991ee60c6bc6ff18df0"
+  },
+  {
+    "path": "material_shadeless",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e538560d4d624109072e86d4a450d0e2bcfce8b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7e538560d4d624109072e86d4a450d0e2bcfce8b"
+  },
+  {
+    "path": "material_shaders",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c673d0bae97b3dfaaef633d03720fd81649569cb",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/c673d0bae97b3dfaaef633d03720fd81649569cb"
+  },
+  {
+    "path": "material_sss",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5e2df129234e11f1ea78f4c22b946a01a0c09f09",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/5e2df129234e11f1ea78f4c22b946a01a0c09f09"
+  },
+  {
+    "path": "material_translucent",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "88b0bd958f9fb8b17cc5e4ff2a2d0f4879fb47e4",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/88b0bd958f9fb8b17cc5e4ff2a2d0f4879fb47e4"
+  },
+  {
+    "path": "material_video",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce302faca015f8001cde89c14249950b6e21d106",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ce302faca015f8001cde89c14249950b6e21d106"
+  },
+  {
+    "path": "mesh_generate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7b58272862ac9bf8767e620dddd494a9083e1d6f",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7b58272862ac9bf8767e620dddd494a9083e1d6f"
+  },
+  {
+    "path": "mesh_geometry",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a42cc63f6e2be113668a255cfe4a35c90c7b3a35",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/a42cc63f6e2be113668a255cfe4a35c90c7b3a35"
+  },
+  {
+    "path": "mesh_import",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c68fbcad32eae5173326c6ca4c077e90240f7f2d",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/c68fbcad32eae5173326c6ca4c077e90240f7f2d"
+  },
+  {
+    "path": "mesh_terrain",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6128b26e1a39babdd0bb123ff662aeb66e877b9e",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/6128b26e1a39babdd0bb123ff662aeb66e877b9e"
+  },
+  {
+    "path": "navmesh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac5557ec075916058aa69dc3e3ec1e5f3b5e9c68",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ac5557ec075916058aa69dc3e3ec1e5f3b5e9c68"
+  },
+  {
+    "path": "navmesh_follow",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ecb64338997106ecfbf7158ed2d931b95ddf4314",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ecb64338997106ecfbf7158ed2d931b95ddf4314"
+  },
+  {
+    "path": "network_zui_chat",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cf3b16f63f46f94b5be20f61131d4416045185c4",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/cf3b16f63f46f94b5be20f61131d4416045185c4"
+  },
+  {
+    "path": "particle_bunny",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "16fe5828f9067399cef24d5c6b7b0c39eb0b94bc",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/16fe5828f9067399cef24d5c6b7b0c39eb0b94bc"
+  },
+  {
+    "path": "particle_hair",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2fc0f3a39f5da1ce5c2812493f14811d3d7b7206",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/2fc0f3a39f5da1ce5c2812493f14811d3d7b7206"
+  },
+  {
+    "path": "particle_hair_animated",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad1f8459e8a41fa8ac576eb561b9c7bb2b423d22",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ad1f8459e8a41fa8ac576eb561b9c7bb2b423d22"
+  },
+  {
+    "path": "particle_info",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "54987e6912cf5ab0bec1061c9365c6a1a9e8f710",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/54987e6912cf5ab0bec1061c9365c6a1a9e8f710"
+  },
+  {
+    "path": "particle_mesh",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee002aa57516a5f23c4f39167580c826b7e7af3e",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ee002aa57516a5f23c4f39167580c826b7e7af3e"
+  },
+  {
+    "path": "particle_smoke",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "feab280a2c05c103895100940b1e544d0a45a9ca",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/feab280a2c05c103895100940b1e544d0a45a9ca"
+  },
+  {
+    "path": "physics_break",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "19fbff9d9434d951e1f4208877002f60d2b2412b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/19fbff9d9434d951e1f4208877002f60d2b2412b"
+  },
+  {
+    "path": "physics_collision_groups",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c24534bc6494cc8fb0826434d1f4a11f44d950b3",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/c24534bc6494cc8fb0826434d1f4a11f44d950b3"
+  },
+  {
+    "path": "physics_constraints",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9db44743a643d44b33dee094b4603e4989261fd9",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/9db44743a643d44b33dee094b4603e4989261fd9"
+  },
+  {
+    "path": "physics_drag",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b88006a59b7a30f443d0daa15a698c120c9b28f6",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/b88006a59b7a30f443d0daa15a698c120c9b28f6"
+  },
+  {
+    "path": "physics_pick",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "720c5a20ee36a6d752dbe32390f5235fd0d74122",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/720c5a20ee36a6d752dbe32390f5235fd0d74122"
+  },
+  {
+    "path": "physics_ragdoll",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "092d86e664cd243cdfac1cbe0d439ddbd634b16b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/092d86e664cd243cdfac1cbe0d439ddbd634b16b"
+  },
+  {
+    "path": "physics_raycast",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "31f093a797a0c512e1948725cf4cc948184ee98f",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/31f093a797a0c512e1948725cf4cc948184ee98f"
+  },
+  {
+    "path": "physics_softbody",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0764ebea628b641055b12c0cab1720015bc7ad04",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/0764ebea628b641055b12c0cab1720015bc7ad04"
+  },
+  {
+    "path": "raycast_objects",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71e69faf21102e3d566d416c122ceef4c5ccab75",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/71e69faf21102e3d566d416c122ceef4c5ccab75"
+  },
+  {
+    "path": "render_bloom",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "268ffb76f59dce8b8717f91ae152c302f896471d",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/268ffb76f59dce8b8717f91ae152c302f896471d"
+  },
+  {
+    "path": "render_colorgrading",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c9e4f5b4fa1738a0522ae7be842907319dca88a",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/7c9e4f5b4fa1738a0522ae7be842907319dca88a"
+  },
+  {
+    "path": "render_splitscreen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "462be6b7149080de155f116c22edf8bd274031e7",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/462be6b7149080de155f116c22edf8bd274031e7"
+  },
+  {
+    "path": "render_to_texture",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "68ef231c7a1bdec752ecb9c248cc58f41b64d7ec",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/68ef231c7a1bdec752ecb9c248cc58f41b64d7ec"
+  },
+  {
+    "path": "render_voxelao_teapots",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a09a83d2e9dbd1a9fca193fb8de66e17c98d658e",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/a09a83d2e9dbd1a9fca193fb8de66e17c98d658e"
+  },
+  {
+    "path": "scene_stream",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "92dd202be782c86d6214ef4776131a6e95d4870e",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/92dd202be782c86d6214ef4776131a6e95d4870e"
+  },
+  {
+    "path": "screentex",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d8f3457578f3bd051aa5985b783dc1e415392e13",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/d8f3457578f3bd051aa5985b783dc1e415392e13"
+  },
+  {
+    "path": "script_camera_lerp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf49c61c99c5c31af3957d55d5a8e3dddbebeaa3",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/bf49c61c99c5c31af3957d55d5a8e3dddbebeaa3"
+  },
+  {
+    "path": "script_linkedgroup",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ae4c70a902274ae00ea389184ed7a868b8a65989",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/ae4c70a902274ae00ea389184ed7a868b8a65989"
+  },
+  {
+    "path": "script_logic_talk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "58c5a1a0f84d2968e2b843f5840627866fde0ff5",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/58c5a1a0f84d2968e2b843f5840627866fde0ff5"
+  },
+  {
+    "path": "script_properties",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "abd3cfac7df09a88bafcb272185e96a842b8cf59",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/abd3cfac7df09a88bafcb272185e96a842b8cf59"
+  },
+  {
+    "path": "script_properties_global",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c4caed202bb22d7c2f49b4ee55fdc1ed9c63344",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/4c4caed202bb22d7c2f49b4ee55fdc1ed9c63344"
+  },
+  {
+    "path": "script_rigidbody_trigger",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "953c27c79c5dcaa905b4d5698e57572082d03cb1",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/953c27c79c5dcaa905b4d5698e57572082d03cb1"
+  },
+  {
+    "path": "script_spawnobject",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9ed268edd137ef14d0ee4382d5a1658aae349b0e",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/9ed268edd137ef14d0ee4382d5a1658aae349b0e"
+  },
+  {
+    "path": "script_transform",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2b21f5dfa1c99fc730ed86958e3fdda28c26c07",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/a2b21f5dfa1c99fc730ed86958e3fdda28c26c07"
+  },
+  {
+    "path": "server_stream",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "30dd4bf2176a404f58498bc565a9ed621ea84a78",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/30dd4bf2176a404f58498bc565a9ed621ea84a78"
+  },
+  {
+    "path": "sound",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21893bc81c3092f443b378c92e8284423d579953",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/21893bc81c3092f443b378c92e8284423d579953"
+  },
+  {
+    "path": "spawn_from_scene",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "387dbdf93e1b2c797d8475aeb9a6e08e27f18509",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/387dbdf93e1b2c797d8475aeb9a6e08e27f18509"
+  },
+  {
+    "path": "text_area_string",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0e5681a9b51138bb5a0ac9e25d983b0419d402a",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/c0e5681a9b51138bb5a0ac9e25d983b0419d402a"
+  },
+  {
+    "path": "tilesheet",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f391f87aa9f6a7ab59f7bb629045ad3b7542e2e4",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/f391f87aa9f6a7ab59f7bb629045ad3b7542e2e4"
+  },
+  {
+    "path": "tilesheet_2d",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "60a5f0afc472aa70bf0a9fe2d1b0baef4b87bbf1",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/60a5f0afc472aa70bf0a9fe2d1b0baef4b87bbf1"
+  },
+  {
+    "path": "tilesheet_walkcycle",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0eb6030025266ccf62652864052a1371bccaad52",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/0eb6030025266ccf62652864052a1371bccaad52"
+  },
+  {
+    "path": "tween",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a407c6e3c968bd8c6f4c109d0101c54703fdb08d",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/a407c6e3c968bd8c6f4c109d0101c54703fdb08d"
+  },
+  {
+    "path": "ui_canvas",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9a744349186fe8a5b5fd82ca51b4c4b96e47f89",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/c9a744349186fe8a5b5fd82ca51b4c4b96e47f89"
+  },
+  {
+    "path": "ui_events",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5bbef6578e8b4f8d2572b21cdf105c04cfba2ead",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/5bbef6578e8b4f8d2572b21cdf105c04cfba2ead"
+  },
+  {
+    "path": "ui_script2d",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2082ffb8edbbf0206981497a5a4b61d20df99b80",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/2082ffb8edbbf0206981497a5a4b61d20df99b80"
+  },
+  {
+    "path": "ui_script3d",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "96d4ce96acb11a237819ca8608d7ec96f54c2cb9",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/96d4ce96acb11a237819ca8608d7ec96f54c2cb9"
+  },
+  {
+    "path": "wasm_call",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c3adff37b837e7b9d34836f53031b144857c06b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/0c3adff37b837e7b9d34836f53031b144857c06b"
+  },
+  {
+    "path": "wasm_trait_c",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "af42df47e4597a1aa92c42464101eca3e33cd07c",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/af42df47e4597a1aa92c42464101eca3e33cd07c"
+  },
+  {
+    "path": "wasm_trait_rust",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3fa49b831327ce02e2633a08f2e1a8b172546d34",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/3fa49b831327ce02e2633a08f2e1a8b172546d34"
+  },
+  {
+    "path": "world_sun_direction",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "067cc733416be65ade9ca1e80e4df27bf300402b",
+    "url": "https://api.github.com/repos/armory3d/armory_examples/git/trees/067cc733416be65ade9ca1e80e4df27bf300402b"
+  }
+]

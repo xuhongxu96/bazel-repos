@@ -1,0 +1,1516 @@
+[
+  {
+    "path": ".devcontainer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "342880df5664907bfe888ef59c2567a509c5b404",
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/trees/342880df5664907bfe888ef59c2567a509c5b404"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+    "size": 19,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "16fb19e50e702390e68bb6a09a54cf0076b58ee4",
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/trees/16fb19e50e702390e68bb6a09a54cf0076b58ee4"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b3c17ecdf0d932995861107215dc430bf5e6c8d",
+    "size": 239,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/1b3c17ecdf0d932995861107215dc430bf5e6c8d"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "025b685c5eb30f42277d4e2713e8ad21431d81a8",
+    "size": 596,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/025b685c5eb30f42277d4e2713e8ad21431d81a8"
+  },
+  {
+    "path": ".tflint.hcl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd7865f5241bd73c0d0801709b52616852a09426",
+    "size": 366,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/fd7865f5241bd73c0d0801709b52616852a09426"
+  },
+  {
+    "path": ".vscode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "14d99d63b6a022b13c5515d5a77f2edb217344f7",
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/trees/14d99d63b6a022b13c5515d5a77f2edb217344f7"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9ba8cf65f3e3104dd061c178066ec8247811f33",
+    "size": 444,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/f9ba8cf65f3e3104dd061c178066ec8247811f33"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8085ca7314835ebbe494aaf09f06d816a01b1ff9",
+    "size": 1066,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/8085ca7314835ebbe494aaf09f06d816a01b1ff9"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ee782818df4a3f446ebb8beb8c8ba82a513a37e",
+    "size": 2608,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/1ee782818df4a3f446ebb8beb8c8ba82a513a37e"
+  },
+  {
+    "path": "UPGRADE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e6c868fe01e492811c4ec24fa0442bbf9af18da",
+    "size": 8897,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/3e6c868fe01e492811c4ec24fa0442bbf9af18da"
+  },
+  {
+    "path": "aadb2c.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ebd0e7c6d2e071381220e61a57b1b46c6003a44",
+    "size": 709,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/1ebd0e7c6d2e071381220e61a57b1b46c6003a44"
+  },
+  {
+    "path": "active_directory_domain_service.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c274d0c85be12586c38e086fa805cfd2d6888d0d",
+    "size": 1811,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/c274d0c85be12586c38e086fa805cfd2d6888d0d"
+  },
+  {
+    "path": "api_management.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bb39eeb673837f5ae8887d7f5e2efe306567e3e",
+    "size": 19463,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/9bb39eeb673837f5ae8887d7f5e2efe306567e3e"
+  },
+  {
+    "path": "app_config.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "273f432f0640059c138b7d1bfd2b06b7f74e3018",
+    "size": 1024,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/273f432f0640059c138b7d1bfd2b06b7f74e3018"
+  },
+  {
+    "path": "app_service_environments.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00231ba3e58c96c9777ed7d7fb5cc3e54b0ded09",
+    "size": 3814,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/00231ba3e58c96c9777ed7d7fb5cc3e54b0ded09"
+  },
+  {
+    "path": "app_service_plans.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "080dc180b81c8329906f0ad491c056452b4e25ec",
+    "size": 1179,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/080dc180b81c8329906f0ad491c056452b4e25ec"
+  },
+  {
+    "path": "app_services.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e641216b5383903bb1c2d02c4ea1ac970632386",
+    "size": 3524,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/1e641216b5383903bb1c2d02c4ea1ac970632386"
+  },
+  {
+    "path": "application_gateway_applications.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24cefe43fab56288506e2485cdc0aae043e11d37",
+    "size": 1040,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/24cefe43fab56288506e2485cdc0aae043e11d37"
+  },
+  {
+    "path": "application_gateway_platforms.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20c9c1ce5b8eb45b573f4f1bb251c0abbd7339bd",
+    "size": 1784,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/20c9c1ce5b8eb45b573f4f1bb251c0abbd7339bd"
+  },
+  {
+    "path": "application_gateway_waf_policies.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed2c9f244f8ca078c0927a97f3765ece1f40e233",
+    "size": 881,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/ed2c9f244f8ca078c0927a97f3765ece1f40e233"
+  },
+  {
+    "path": "application_gateways.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "573f6c7027d1986a7106ebc39be16db2a0246b5c",
+    "size": 2312,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/573f6c7027d1986a7106ebc39be16db2a0246b5c"
+  },
+  {
+    "path": "application_security_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cad297a7954bf48b467dd8d026bb60422d38bee",
+    "size": 851,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/6cad297a7954bf48b467dd8d026bb60422d38bee"
+  },
+  {
+    "path": "automation_runbooks.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36487a3307e43092fa6ad0d804b939608384f1e0",
+    "size": 1122,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/36487a3307e43092fa6ad0d804b939608384f1e0"
+  },
+  {
+    "path": "automation_schedules.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a760eae763c0611e0de1740b9ea2a46d32e50f9a",
+    "size": 963,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/a760eae763c0611e0de1740b9ea2a46d32e50f9a"
+  },
+  {
+    "path": "automations.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae7e744ada9a399e70e71f1e01afebbe8fa2ffcc",
+    "size": 2447,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/ae7e744ada9a399e70e71f1e01afebbe8fa2ffcc"
+  },
+  {
+    "path": "azuread_administrative_units.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "337a5b63189fa72038ea29b3ddabc257b1723372",
+    "size": 992,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/337a5b63189fa72038ea29b3ddabc257b1723372"
+  },
+  {
+    "path": "azuread_applications.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f434593c7e76c54a26c2db0ebb48f187c6e9419e",
+    "size": 1244,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/f434593c7e76c54a26c2db0ebb48f187c6e9419e"
+  },
+  {
+    "path": "azuread_credential_policies.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f49a7b64b7fab718d43fb673dad923645145b818",
+    "size": 92,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/f49a7b64b7fab718d43fb673dad923645145b818"
+  },
+  {
+    "path": "azuread_credentials.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "046738c91b1b02f68579c3ddc05e9cac2ae666d0",
+    "size": 1216,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/046738c91b1b02f68579c3ddc05e9cac2ae666d0"
+  },
+  {
+    "path": "azuread_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acadabbd691727a7d6c0792e381a9d94a1269285",
+    "size": 1953,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/acadabbd691727a7d6c0792e381a9d94a1269285"
+  },
+  {
+    "path": "azuread_roles.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81334c95ca6a8302555ec373174935c2e3fc58b8",
+    "size": 2599,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/81334c95ca6a8302555ec373174935c2e3fc58b8"
+  },
+  {
+    "path": "azuread_service_principal_passwords.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6667eb81092fa481275e2fcf33e7e5814038aa36",
+    "size": 1191,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/6667eb81092fa481275e2fcf33e7e5814038aa36"
+  },
+  {
+    "path": "azuread_service_principals.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81c2531740eecfbf8394513846480c4e092b64df",
+    "size": 836,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/81c2531740eecfbf8394513846480c4e092b64df"
+  },
+  {
+    "path": "azuread_users.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac8d3d486031c2db008c07b71c472d5a0e37bd84",
+    "size": 465,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/ac8d3d486031c2db008c07b71c472d5a0e37bd84"
+  },
+  {
+    "path": "azurerm_application_insights.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09246cad34571a6b6d8dd795297cee3a804c2400",
+    "size": 5342,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/09246cad34571a6b6d8dd795297cee3a804c2400"
+  },
+  {
+    "path": "backend.azurerm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d026b233b11f214456398087107b12c5c36cad1",
+    "size": 43,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/5d026b233b11f214456398087107b12c5c36cad1"
+  },
+  {
+    "path": "backup_vaults.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0589d4e18d4f0d4e14beb22334d82bbb7bb071c5",
+    "size": 6735,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/0589d4e18d4f0d4e14beb22334d82bbb7bb071c5"
+  },
+  {
+    "path": "bastion_service.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31056c8dfc0da5f9f5c4664397e78eb5e0d28a5d",
+    "size": 3360,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/31056c8dfc0da5f9f5c4664397e78eb5e0d28a5d"
+  },
+  {
+    "path": "cdn.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "181f67c5989dd3728f08f329307271e750316991",
+    "size": 2240,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/181f67c5989dd3728f08f329307271e750316991"
+  },
+  {
+    "path": "cognitive_service.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b920b2146482f333dab071270de5ca1821d49676",
+    "size": 1597,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b920b2146482f333dab071270de5ca1821d49676"
+  },
+  {
+    "path": "communication_services.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0832a5063cffdc8a64bf0cc9b9802de15796e43",
+    "size": 1637,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b0832a5063cffdc8a64bf0cc9b9802de15796e43"
+  },
+  {
+    "path": "compute_aks_clusters.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa989af4c90cc4dd342a6a4cc64342ca3f7ccc59",
+    "size": 2368,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/aa989af4c90cc4dd342a6a4cc64342ca3f7ccc59"
+  },
+  {
+    "path": "compute_availability_sets.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e913e2c4f59e71e3a8259dda82fe95750d26dc3f",
+    "size": 1630,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/e913e2c4f59e71e3a8259dda82fe95750d26dc3f"
+  },
+  {
+    "path": "compute_azure_redhat_openshift.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e36444f0c085a827d22af8f8c57c4f321210832b",
+    "size": 2379,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/e36444f0c085a827d22af8f8c57c4f321210832b"
+  },
+  {
+    "path": "compute_batch_accounts.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad286f8f3db58e9787692d2eb0af8d86e3f4870b",
+    "size": 2106,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/ad286f8f3db58e9787692d2eb0af8d86e3f4870b"
+  },
+  {
+    "path": "compute_batch_applications.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08ce4a1aa52c5c56d069e331427ddb7132aad241",
+    "size": 476,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/08ce4a1aa52c5c56d069e331427ddb7132aad241"
+  },
+  {
+    "path": "compute_batch_certificates.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56f9797f046c44fc661f5eb4bb6b6dde4a7484cc",
+    "size": 567,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/56f9797f046c44fc661f5eb4bb6b6dde4a7484cc"
+  },
+  {
+    "path": "compute_batch_jobs.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64ce35e43f414d8a6b65893122e531ccab5ab7ce",
+    "size": 358,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/64ce35e43f414d8a6b65893122e531ccab5ab7ce"
+  },
+  {
+    "path": "compute_batch_pools.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70e1638aa2b861f3c88707d0894bb9943a27d935",
+    "size": 575,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/70e1638aa2b861f3c88707d0894bb9943a27d935"
+  },
+  {
+    "path": "compute_container_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2581d0c7da87012d5ec198ef0d2f7ab5f77f757",
+    "size": 2635,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/e2581d0c7da87012d5ec198ef0d2f7ab5f77f757"
+  },
+  {
+    "path": "compute_container_registry.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a3714c79b54b1bfec91c1d41d2712908f18ff66",
+    "size": 1640,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/8a3714c79b54b1bfec91c1d41d2712908f18ff66"
+  },
+  {
+    "path": "compute_dedicated_hosts.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75531daa12a68de9acaeeae261e4720a68202a71",
+    "size": 2403,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/75531daa12a68de9acaeeae261e4720a68202a71"
+  },
+  {
+    "path": "compute_proximity_placement_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43fd150d8df0eded425f6d17d643854e24ef6dee",
+    "size": 934,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/43fd150d8df0eded425f6d17d643854e24ef6dee"
+  },
+  {
+    "path": "compute_virtual_machines.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "267e87986af9ba8a45487c6fd7aed04036e7b3cf",
+    "size": 2831,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/267e87986af9ba8a45487c6fd7aed04036e7b3cf"
+  },
+  {
+    "path": "compute_virtual_machines_extensions.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a200bffdee562751b96bce31c2da31303d6c5dab",
+    "size": 8831,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/a200bffdee562751b96bce31c2da31303d6c5dab"
+  },
+  {
+    "path": "compute_virtual_machines_scale_sets.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da06e21d0a2acbcd22e993810f4a63e2dfa951eb",
+    "size": 2971,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/da06e21d0a2acbcd22e993810f4a63e2dfa951eb"
+  },
+  {
+    "path": "compute_virtual_machines_scale_sets_extensions.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "722f608979f161eec6c06927533b28d100aec248",
+    "size": 6363,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/722f608979f161eec6c06927533b28d100aec248"
+  },
+  {
+    "path": "compute_vmware_clusters.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "864a01c066c9ddf37df7c26ddd032ac8e1138487",
+    "size": 2285,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/864a01c066c9ddf37df7c26ddd032ac8e1138487"
+  },
+  {
+    "path": "compute_wvd_application_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89482ce291df61c5223b28e421d0a3c227cafda1",
+    "size": 1362,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/89482ce291df61c5223b28e421d0a3c227cafda1"
+  },
+  {
+    "path": "compute_wvd_applications.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7ec9501ba75528760620a1996fa3fc5b2155e17",
+    "size": 631,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b7ec9501ba75528760620a1996fa3fc5b2155e17"
+  },
+  {
+    "path": "compute_wvd_host_pools.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05ab51fee7ef624c85fbc91118ad5c7953d00749",
+    "size": 923,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/05ab51fee7ef624c85fbc91118ad5c7953d00749"
+  },
+  {
+    "path": "compute_wvd_workspaces.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87223c4a10384bbaad38f8fea48b2822b8c2600b",
+    "size": 900,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/87223c4a10384bbaad38f8fea48b2822b8c2600b"
+  },
+  {
+    "path": "consumption_budgets.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54f519dc634b496a36893b861c4a4fd740ef0ac7",
+    "size": 1746,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/54f519dc634b496a36893b861c4a4fd740ef0ac7"
+  },
+  {
+    "path": "container_app_dapr_components.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cf0342b17200e04897ec06f48488963d1df3a99",
+    "size": 753,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/0cf0342b17200e04897ec06f48488963d1df3a99"
+  },
+  {
+    "path": "container_app_environment_certificates.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65dc7832a224711759c155fc9b2d8bbce4966dc1",
+    "size": 798,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/65dc7832a224711759c155fc9b2d8bbce4966dc1"
+  },
+  {
+    "path": "container_app_environment_storages.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bc36024c30dcf1208d95c1137b72c396f98d943",
+    "size": 850,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/6bc36024c30dcf1208d95c1137b72c396f98d943"
+  },
+  {
+    "path": "container_app_environments.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15a7066b6a6690e326dcf3a909f3e003aef95c42",
+    "size": 1738,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/15a7066b6a6690e326dcf3a909f3e003aef95c42"
+  },
+  {
+    "path": "container_apps.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45164e946386a6384aef6dbfe6ec5a3e34a31c8e",
+    "size": 2162,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/45164e946386a6384aef6dbfe6ec5a3e34a31c8e"
+  },
+  {
+    "path": "cosmos_db.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c92b84d131358937662cc00e7015a29673a0d91",
+    "size": 1077,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/9c92b84d131358937662cc00e7015a29673a0d91"
+  },
+  {
+    "path": "cosmos_db_roles.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "973f5cc6a057612c61085ee95f3b476efe84176a",
+    "size": 15396,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/973f5cc6a057612c61085ee95f3b476efe84176a"
+  },
+  {
+    "path": "cosmosdb_sql_databases.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1ac7cfade53982f388bda1f2b5495b394768d83",
+    "size": 1147,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b1ac7cfade53982f388bda1f2b5495b394768d83"
+  },
+  {
+    "path": "data_explorer.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d4b408304ed786fb01174193edcb468ff2fcf90",
+    "size": 6793,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/7d4b408304ed786fb01174193edcb468ff2fcf90"
+  },
+  {
+    "path": "data_factory.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce240321c6e8074770c276c44d8e304aa46551a7",
+    "size": 5073,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/ce240321c6e8074770c276c44d8e304aa46551a7"
+  },
+  {
+    "path": "data_factory_datasets.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f99f14bcdee4be6f775a6763fde8d4431eeb6be0",
+    "size": 7318,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/f99f14bcdee4be6f775a6763fde8d4431eeb6be0"
+  },
+  {
+    "path": "data_factory_linked_services.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7121422ea68cc7cb4468140d4e09d1857dd237fe",
+    "size": 11607,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/7121422ea68cc7cb4468140d4e09d1857dd237fe"
+  },
+  {
+    "path": "database_migration_services.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb8a89af507aa96d6505af6d0309829d735ba8d8",
+    "size": 2992,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/eb8a89af507aa96d6505af6d0309829d735ba8d8"
+  },
+  {
+    "path": "databricks.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64af295dbd0a3fa3ecd8b7cdda4900b773a7db9c",
+    "size": 1209,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/64af295dbd0a3fa3ecd8b7cdda4900b773a7db9c"
+  },
+  {
+    "path": "databricks_access_connectors.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87975da0bbbf9603266d94ab15cfef0d2b2cf138",
+    "size": 607,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/87975da0bbbf9603266d94ab15cfef0d2b2cf138"
+  },
+  {
+    "path": "diagnostics.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bb98731acd2dce9eba7a33cf00540f18c8bfb23",
+    "size": 4735,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/7bb98731acd2dce9eba7a33cf00540f18c8bfb23"
+  },
+  {
+    "path": "digital_twins.tf",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "724a97331700f5844473f90b23994897012596f5",
+    "size": 6466,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/724a97331700f5844473f90b23994897012596f5"
+  },
+  {
+    "path": "disk_encryption_sets.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "171c149f63a0f63b74d344d14765e0de7615aefc",
+    "size": 3517,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/171c149f63a0f63b74d344d14765e0de7615aefc"
+  },
+  {
+    "path": "documentation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "baf2abb714c50e1f82899deaa494278d3142c66f",
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/trees/baf2abb714c50e1f82899deaa494278d3142c66f"
+  },
+  {
+    "path": "dynamic_secrets.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00e1c577ec42f27f40143235a517990e5458f1b4",
+    "size": 829,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/00e1c577ec42f27f40143235a517990e5458f1b4"
+  },
+  {
+    "path": "event_hubs.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "821acd542a281f84ce7365c767a856814ea7fb98",
+    "size": 6264,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/821acd542a281f84ce7365c767a856814ea7fb98"
+  },
+  {
+    "path": "eventgrid.tf",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "82e50f1178704184e3e8ee08eb2cdd94a1c4a782",
+    "size": 5348,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/82e50f1178704184e3e8ee08eb2cdd94a1c4a782"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5dcbe5a50bddc7505c4ea0e4b412ba269d2f086f",
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/trees/5dcbe5a50bddc7505c4ea0e4b412ba269d2f086f"
+  },
+  {
+    "path": "front_door_waf_policies.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b592c775f856857cdb9033de0beb5e29caa8fdfb",
+    "size": 964,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b592c775f856857cdb9033de0beb5e29caa8fdfb"
+  },
+  {
+    "path": "front_doors.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19b976b5e1adbe6f40512fee78a3a76b32b7a1b9",
+    "size": 4214,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/19b976b5e1adbe6f40512fee78a3a76b32b7a1b9"
+  },
+  {
+    "path": "function_app.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "991270f46316383eb69d119b8dc90855ff3d976b",
+    "size": 3406,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/991270f46316383eb69d119b8dc90855ff3d976b"
+  },
+  {
+    "path": "iot.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fed7755a0cbf30078f4140c33606a7d8711c9640",
+    "size": 8856,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/fed7755a0cbf30078f4140c33606a7d8711c9640"
+  },
+  {
+    "path": "keyvault.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30adbdf8d06539a57cf2deb13f01a20457da1ebb",
+    "size": 2678,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/30adbdf8d06539a57cf2deb13f01a20457da1ebb"
+  },
+  {
+    "path": "keyvault_certificate_issuers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a468eb07d8731bbcf0bbe6be4f7fa038e76d48c6",
+    "size": 2859,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/a468eb07d8731bbcf0bbe6be4f7fa038e76d48c6"
+  },
+  {
+    "path": "keyvault_certificate_requests.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ef559fa401691935bc88c0a463644c8a89025bf",
+    "size": 1717,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/5ef559fa401691935bc88c0a463644c8a89025bf"
+  },
+  {
+    "path": "keyvault_certificates.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0777a6f8b502f1e5b5e5dab31751c9532d1138bc",
+    "size": 441,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/0777a6f8b502f1e5b5e5dab31751c9532d1138bc"
+  },
+  {
+    "path": "keyvault_keys.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d44505ebf5f8de179324e236239b81ffec1b2317",
+    "size": 499,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/d44505ebf5f8de179324e236239b81ffec1b2317"
+  },
+  {
+    "path": "lb.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aaa48ef6b68ec2b9281e45e869bf71b69754c080",
+    "size": 6271,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/aaa48ef6b68ec2b9281e45e869bf71b69754c080"
+  },
+  {
+    "path": "lighthouse_definitions.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0068444748ddbaf739b549441abfaf801f87f562",
+    "size": 616,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/0068444748ddbaf739b549441abfaf801f87f562"
+  },
+  {
+    "path": "load_balancers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32ebdb72bed435054e1e49f53448a7c18d052785",
+    "size": 1725,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/32ebdb72bed435054e1e49f53448a7c18d052785"
+  },
+  {
+    "path": "load_test.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1b0c18b03fd53217b82269396574d293b03e5cb",
+    "size": 1281,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/d1b0c18b03fd53217b82269396574d293b03e5cb"
+  },
+  {
+    "path": "local.remote_objects.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76de44f2cd60a0298752d52faecf8cacba7ba1af",
+    "size": 15881,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/76de44f2cd60a0298752d52faecf8cacba7ba1af"
+  },
+  {
+    "path": "locals.combined_objects.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c2f27186a979c81cabf006d45048aabd244b323",
+    "size": 43835,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/8c2f27186a979c81cabf006d45048aabd244b323"
+  },
+  {
+    "path": "locals.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e81350b46f771e814395edcfb7a6974ee9d7dd6f",
+    "size": 35798,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/e81350b46f771e814395edcfb7a6974ee9d7dd6f"
+  },
+  {
+    "path": "log_analytics.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be28c7d50c36323977d4fa642470d3d9363c392b",
+    "size": 2568,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/be28c7d50c36323977d4fa642470d3d9363c392b"
+  },
+  {
+    "path": "logic_app.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47d15f8b1ea7257eb707b6a528d2dd0e9c94d769",
+    "size": 8473,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/47d15f8b1ea7257eb707b6a528d2dd0e9c94d769"
+  },
+  {
+    "path": "machine_learning.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "589e4bfe640f3c28e2c628882452885e9f62500d",
+    "size": 2881,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/589e4bfe640f3c28e2c628882452885e9f62500d"
+  },
+  {
+    "path": "main.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62592bce80234af9a25d7c74b14d065575e9ca20",
+    "size": 2500,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/62592bce80234af9a25d7c74b14d065575e9ca20"
+  },
+  {
+    "path": "maintenance.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "896772c45e7091e80fa0090934f26a1028ab4e45",
+    "size": 3126,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/896772c45e7091e80fa0090934f26a1028ab4e45"
+  },
+  {
+    "path": "managed_identities.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88a1c4ba9aef1b971efecddada73f3016091aa10",
+    "size": 1310,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/88a1c4ba9aef1b971efecddada73f3016091aa10"
+  },
+  {
+    "path": "maps_account.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d50006c27fd49636d352c50b2af6c08df8730ec1",
+    "size": 807,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/d50006c27fd49636d352c50b2af6c08df8730ec1"
+  },
+  {
+    "path": "mariadb_servers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24d71070ac6c27e3aea04e22dd8384fd07e669e8",
+    "size": 1785,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/24d71070ac6c27e3aea04e22dd8384fd07e669e8"
+  },
+  {
+    "path": "messaging_servicebus_namespaces.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dfcbfa09c373738de23fc3dba9fb0ddfe954906",
+    "size": 829,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/9dfcbfa09c373738de23fc3dba9fb0ddfe954906"
+  },
+  {
+    "path": "messaging_servicebus_queues.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee70ec7ab6925d315c662704f07854e5c8a4990e",
+    "size": 678,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/ee70ec7ab6925d315c662704f07854e5c8a4990e"
+  },
+  {
+    "path": "messaging_servicebus_topics.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "492a0aa4988f417790af0d2ad4f7686c27e3c914",
+    "size": 678,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/492a0aa4988f417790af0d2ad4f7686c27e3c914"
+  },
+  {
+    "path": "messaging_signalr_services.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d59ee481da1e4df17b569613164a8ec22e7e21e3",
+    "size": 448,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/d59ee481da1e4df17b569613164a8ec22e7e21e3"
+  },
+  {
+    "path": "modules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac758787fbd618ffd438b30b777358483de44f05",
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/trees/ac758787fbd618ffd438b30b777358483de44f05"
+  },
+  {
+    "path": "monitor_action_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5e01eeda5d96956709128eea0de980120f2ccaa",
+    "size": 781,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/a5e01eeda5d96956709128eea0de980120f2ccaa"
+  },
+  {
+    "path": "monitor_autoscale_settings.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "155fe0ef9573570223b9426d7ba6cd8084e97ee1",
+    "size": 1262,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/155fe0ef9573570223b9426d7ba6cd8084e97ee1"
+  },
+  {
+    "path": "monitoring.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "401fc8134e8cd905636add09a850e2bc5704b841",
+    "size": 2431,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/401fc8134e8cd905636add09a850e2bc5704b841"
+  },
+  {
+    "path": "mssql_databases.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8425244c0bb5eb175fcb0f0c5be8c0cad19a35ef",
+    "size": 3184,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/8425244c0bb5eb175fcb0f0c5be8c0cad19a35ef"
+  },
+  {
+    "path": "mssql_elastic_pools.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b511cdebb77cd0803d0069bc4474b315bea7d811",
+    "size": 2772,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b511cdebb77cd0803d0069bc4474b315bea7d811"
+  },
+  {
+    "path": "mssql_servers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d7cddad2e420e2733510dea6ddf15bbba3bfdc8",
+    "size": 3957,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/9d7cddad2e420e2733510dea6ddf15bbba3bfdc8"
+  },
+  {
+    "path": "msssql_managed_databases.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30df68f363ef0d0e307ad10453528ef2d3c98a08",
+    "size": 3828,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/30df68f363ef0d0e307ad10453528ef2d3c98a08"
+  },
+  {
+    "path": "msssql_managed_databases_v1.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df2c9f53f2990138b4832c2cfe858f588cb65c4f",
+    "size": 2058,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/df2c9f53f2990138b4832c2cfe858f588cb65c4f"
+  },
+  {
+    "path": "msssql_managed_instances.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "373d445ec97d54222a1f6fda1e9147602b78238a",
+    "size": 8977,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/373d445ec97d54222a1f6fda1e9147602b78238a"
+  },
+  {
+    "path": "msssql_managed_instances_v1.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93c0235fb49c24ff79c54e274af12ae010664ccc",
+    "size": 10471,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/93c0235fb49c24ff79c54e274af12ae010664ccc"
+  },
+  {
+    "path": "mysql_flexible_servers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "afdcc69bee9324f17eacd7f04e6d79ddedffe740",
+    "size": 2318,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/afdcc69bee9324f17eacd7f04e6d79ddedffe740"
+  },
+  {
+    "path": "mysql_servers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c993437907b90e451b6df3c1072bb1fc031d55d1",
+    "size": 2041,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/c993437907b90e451b6df3c1072bb1fc031d55d1"
+  },
+  {
+    "path": "netapp.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4228200ee988e127f2d18c5db6787775b27ee35f",
+    "size": 1305,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/4228200ee988e127f2d18c5db6787775b27ee35f"
+  },
+  {
+    "path": "network_interface.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfe05bf7a87089382d02a7f085f325142e808293",
+    "size": 1392,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/dfe05bf7a87089382d02a7f085f325142e808293"
+  },
+  {
+    "path": "network_security_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27f6a7a2f237e95b0698cee2af076c222f6343f3",
+    "size": 1251,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/27f6a7a2f237e95b0698cee2af076c222f6343f3"
+  },
+  {
+    "path": "network_security_security_rules.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bcd3f52df8ecb5442fc31427470112a781b043e",
+    "size": 745,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/6bcd3f52df8ecb5442fc31427470112a781b043e"
+  },
+  {
+    "path": "networking.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f906002385af799d0ef95840245e803fc3924936",
+    "size": 20866,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/f906002385af799d0ef95840245e803fc3924936"
+  },
+  {
+    "path": "networking_dns_zones.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ad6f431f9e47be28ac8c3486635fafcfd6b50cf",
+    "size": 1978,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/2ad6f431f9e47be28ac8c3486635fafcfd6b50cf"
+  },
+  {
+    "path": "networking_domain_name_registrations.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bde8a7bbebadc895e72c50d7dbc6142b16a7388",
+    "size": 1374,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/7bde8a7bbebadc895e72c50d7dbc6142b16a7388"
+  },
+  {
+    "path": "networking_express_route.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88b10636a771fdab12cebaa49949959f7e5d9311",
+    "size": 3218,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/88b10636a771fdab12cebaa49949959f7e5d9311"
+  },
+  {
+    "path": "networking_express_route_connections.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "282786fb95035b2e767213ab8207fa479eb1858a",
+    "size": 1596,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/282786fb95035b2e767213ab8207fa479eb1858a"
+  },
+  {
+    "path": "networking_firewall.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be92c6aa59d3c7d5af0ae62fb3e23c4220b73fb8",
+    "size": 5470,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/be92c6aa59d3c7d5af0ae62fb3e23c4220b73fb8"
+  },
+  {
+    "path": "networking_firewall_policy.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54c393ce8fed46bfbdee3a72a6c33bc8d8c80ae7",
+    "size": 3168,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/54c393ce8fed46bfbdee3a72a6c33bc8d8c80ae7"
+  },
+  {
+    "path": "networking_ip_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0528ec43b0b24f64ceda4fdd33c66510732426a8",
+    "size": 1620,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/0528ec43b0b24f64ceda4fdd33c66510732426a8"
+  },
+  {
+    "path": "networking_nat_gateways.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f2d84c8b5070acbadeac0c7e4903ee9ceac016e",
+    "size": 1880,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/9f2d84c8b5070acbadeac0c7e4903ee9ceac016e"
+  },
+  {
+    "path": "networking_private_dns.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f45fe5ccbd93c85aaad3b47255682d4721f2b0cd",
+    "size": 2494,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/f45fe5ccbd93c85aaad3b47255682d4721f2b0cd"
+  },
+  {
+    "path": "networking_private_dns_resolver_dns_forwarding_rules.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55db50a787985951180ae76e4c4ad12a57b06adc",
+    "size": 754,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/55db50a787985951180ae76e4c4ad12a57b06adc"
+  },
+  {
+    "path": "networking_private_dns_resolver_dns_forwarding_rulesets.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00f0270667ab6866f43ce4257e0f1036fc421ecc",
+    "size": 1076,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/00f0270667ab6866f43ce4257e0f1036fc421ecc"
+  },
+  {
+    "path": "networking_private_dns_resolver_inbound_endpoints.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35dfcfb0ff7839d4aa3e65c342ea48eeeeec23d7",
+    "size": 2004,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/35dfcfb0ff7839d4aa3e65c342ea48eeeeec23d7"
+  },
+  {
+    "path": "networking_private_dns_resolver_outbound_endpoints.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be6047e1898d4535044e0ccc58dc30f5ddecee39",
+    "size": 1985,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/be6047e1898d4535044e0ccc58dc30f5ddecee39"
+  },
+  {
+    "path": "networking_private_dns_resolver_virtual_network_links.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd6a297590515165a0ce71a0aec505f0929e9687",
+    "size": 845,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/fd6a297590515165a0ce71a0aec505f0929e9687"
+  },
+  {
+    "path": "networking_private_dns_resolvers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b259d61c17b7182c4edda839a390e6edfbea0109",
+    "size": 884,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b259d61c17b7182c4edda839a390e6edfbea0109"
+  },
+  {
+    "path": "networking_private_links.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2971f91eb5f4e8211ea8aac620687331b86e7a24",
+    "size": 2342,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/2971f91eb5f4e8211ea8aac620687331b86e7a24"
+  },
+  {
+    "path": "networking_virtual_hub_connection.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "507691dfef5810fd938506dbb3b2c1466e163a74",
+    "size": 4558,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/507691dfef5810fd938506dbb3b2c1466e163a74"
+  },
+  {
+    "path": "networking_virtual_hub_er_connection.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19454ad612a9200430324d6ce492e4ea528bd93a",
+    "size": 3961,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/19454ad612a9200430324d6ce492e4ea528bd93a"
+  },
+  {
+    "path": "networking_virtual_hub_route_table.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b87514bfa893db767ebc8c7091ed9e1475d772f0",
+    "size": 4897,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b87514bfa893db767ebc8c7091ed9e1475d772f0"
+  },
+  {
+    "path": "networking_virtual_hub_route_table_routes.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a56f6180e533912f098518dcee48e66d3659aee1",
+    "size": 1477,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/a56f6180e533912f098518dcee48e66d3659aee1"
+  },
+  {
+    "path": "networking_virtual_hubs.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5798210db149e0631602eb3923b21f65cd593057",
+    "size": 1774,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/5798210db149e0631602eb3923b21f65cd593057"
+  },
+  {
+    "path": "networking_virtual_wan.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9363cfde010f0d7a9090f54563df8cab32381b20",
+    "size": 1675,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/9363cfde010f0d7a9090f54563df8cab32381b20"
+  },
+  {
+    "path": "networking_vngw.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1a64f97d750b1b41b3022f8fe48bd6efa4a9b08",
+    "size": 4919,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/c1a64f97d750b1b41b3022f8fe48bd6efa4a9b08"
+  },
+  {
+    "path": "networking_vpn_gateway_connection.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa19169ef6d7abe8e40ce6519bd6cb338e2f5424",
+    "size": 1721,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/aa19169ef6d7abe8e40ce6519bd6cb338e2f5424"
+  },
+  {
+    "path": "networking_vpn_gateway_nat_rule.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bab061a19fc037862a7a2dfde380dd4a0ff9ce0",
+    "size": 1404,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/6bab061a19fc037862a7a2dfde380dd4a0ff9ce0"
+  },
+  {
+    "path": "networking_vpn_site.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27c7acd8010abbfb88a96e879369d0472d1d9672",
+    "size": 1602,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/27c7acd8010abbfb88a96e879369d0472d1d9672"
+  },
+  {
+    "path": "output.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1ba7138b369164f1b2cd6d971fd8ec9de259118",
+    "size": 274,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/a1ba7138b369164f1b2cd6d971fd8ec9de259118"
+  },
+  {
+    "path": "postgresql_flexible_servers.tf",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "68dbd2865f32d25b77fd48fe0dde8ff5e59aa993",
+    "size": 1850,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/68dbd2865f32d25b77fd48fe0dde8ff5e59aa993"
+  },
+  {
+    "path": "postgresql_servers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd484b1c6820f6cf84feb2b6ab4a03534b09acdf",
+    "size": 1948,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/fd484b1c6820f6cf84feb2b6ab4a03534b09acdf"
+  },
+  {
+    "path": "powerbi_embedded.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f60f3cc7f3c372b8406da38e5434332716f0f3d",
+    "size": 1414,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/5f60f3cc7f3c372b8406da38e5434332716f0f3d"
+  },
+  {
+    "path": "preview_features.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccb7285fa28543b2a13f21d5d26dbc727404a48d",
+    "size": 1078,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/ccb7285fa28543b2a13f21d5d26dbc727404a48d"
+  },
+  {
+    "path": "purview.tf",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ae654aea6f112438a219b4b8ca187149e1022827",
+    "size": 1002,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/ae654aea6f112438a219b4b8ca187149e1022827"
+  },
+  {
+    "path": "random_string.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "955c40d1e71ab918c6e090512178c63be6f1cebe",
+    "size": 472,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/955c40d1e71ab918c6e090512178c63be6f1cebe"
+  },
+  {
+    "path": "recovery_vaults.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88dc152315510b4498b00249ee0149692072ee71",
+    "size": 934,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/88dc152315510b4498b00249ee0149692072ee71"
+  },
+  {
+    "path": "redis_caches.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc42a43a6a882e7471ba4ca4e8e4853f81c9f71c",
+    "size": 1553,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/bc42a43a6a882e7471ba4ca4e8e4853f81c9f71c"
+  },
+  {
+    "path": "resource_groups.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8023f919f63797caa58b22c9193bf56efa6e8a96",
+    "size": 776,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/8023f919f63797caa58b22c9193bf56efa6e8a96"
+  },
+  {
+    "path": "resource_provider_registration.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "504f1c2751988471640f3eedb3e3732034863e74",
+    "size": 238,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/504f1c2751988471640f3eedb3e3732034863e74"
+  },
+  {
+    "path": "roles.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "987f4b8b54cd311c042a4d72fa1b3b200bffb157",
+    "size": 17559,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/987f4b8b54cd311c042a4d72fa1b3b200bffb157"
+  },
+  {
+    "path": "roles_scope.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d9300e7971753880737a59d063b719bff53f2e7",
+    "size": 1806,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/1d9300e7971753880737a59d063b719bff53f2e7"
+  },
+  {
+    "path": "rover_on_ssh_host.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ca008f2df6bb74dc74d9f407460b9687ac25208",
+    "size": 1198,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/3ca008f2df6bb74dc74d9f407460b9687ac25208"
+  },
+  {
+    "path": "runbooks.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "457dee14b62c6f7c2a952d24af35cb7a4e0c287e",
+    "size": 591,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/457dee14b62c6f7c2a952d24af35cb7a4e0c287e"
+  },
+  {
+    "path": "search_service.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da079ee11bcc6bc4369225312e045f0cca2b86f6",
+    "size": 1355,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/da079ee11bcc6bc4369225312e045f0cca2b86f6"
+  },
+  {
+    "path": "sentinel.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbfda69fcc976e3968647d0fe395c257e086b641",
+    "size": 12811,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/dbfda69fcc976e3968647d0fe395c257e086b641"
+  },
+  {
+    "path": "shared_image_gallery.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c8afaa8a8e18348ac3f6f91f24f08673cead7f2",
+    "size": 4472,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/9c8afaa8a8e18348ac3f6f91f24f08673cead7f2"
+  },
+  {
+    "path": "static_sites.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72d5d8766606cced855e6630306aece72869a490",
+    "size": 1757,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/72d5d8766606cced855e6630306aece72869a490"
+  },
+  {
+    "path": "storage_account_blobs.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4136b5a14e34071c3407bd63a9a2abed149ac246",
+    "size": 1013,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/4136b5a14e34071c3407bd63a9a2abed149ac246"
+  },
+  {
+    "path": "storage_account_file_shares.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eeb2e50b8cad055c9c486523d3355309eab81d2f",
+    "size": 1125,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/eeb2e50b8cad055c9c486523d3355309eab81d2f"
+  },
+  {
+    "path": "storage_account_queues.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "feaebe4d67423750823823aae8e38c4d344f4412",
+    "size": 357,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/feaebe4d67423750823823aae8e38c4d344f4412"
+  },
+  {
+    "path": "storage_accounts.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6a92fbfb0ee174d8039c0dfa3ca9c4869513086",
+    "size": 2995,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/b6a92fbfb0ee174d8039c0dfa3ca9c4869513086"
+  },
+  {
+    "path": "storage_container.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0664970160367d673427e1e3269e6a1b920229e4",
+    "size": 628,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/0664970160367d673427e1e3269e6a1b920229e4"
+  },
+  {
+    "path": "subscriptions.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd8bc0abbc3fabddf22d59cd65310ff0086c5c3d",
+    "size": 1120,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/fd8bc0abbc3fabddf22d59cd65310ff0086c5c3d"
+  },
+  {
+    "path": "synapses.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5fc9a6a8315356557833e89882dbfa6ff1273d2f",
+    "size": 1829,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/5fc9a6a8315356557833e89882dbfa6ff1273d2f"
+  },
+  {
+    "path": "traffic_managers.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf99f21dc042558cec9be106e1bfeb689380f204",
+    "size": 3305,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/bf99f21dc042558cec9be106e1bfeb689380f204"
+  },
+  {
+    "path": "variables.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c4d69c4a14032a5b6c1ef10a0963c59d797ed2b",
+    "size": 12336,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/4c4d69c4a14032a5b6c1ef10a0963c59d797ed2b"
+  },
+  {
+    "path": "versions.tf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c33431b4bb9343e417c3b2e1eb8ef9fbfd94684",
+    "size": 15,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/2c33431b4bb9343e417c3b2e1eb8ef9fbfd94684"
+  },
+  {
+    "path": "web_pubsubs.tf",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3047a6afb97b06c74a89a4525c185439ba9fe20d",
+    "size": 1710,
+    "url": "https://api.github.com/repos/aztfmod/terraform-azurerm-caf/git/blobs/3047a6afb97b06c74a89a4525c185439ba9fe20d"
+  }
+]

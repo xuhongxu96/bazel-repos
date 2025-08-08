@@ -1,0 +1,215 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "45312d850f2761b372d7005d7eb49b716dcdcae0",
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/trees/45312d850f2761b372d7005d7eb49b716dcdcae0"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "daf913b1b347aae6de6f48d599bc89ef8c8693d6",
+    "size": 266,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/daf913b1b347aae6de6f48d599bc89ef8c8693d6"
+  },
+  {
+    "path": ".goreleaser.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b695b62c3510b9ceb09faf62634dd4848ced631",
+    "size": 1022,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/1b695b62c3510b9ceb09faf62634dd4848ced631"
+  },
+  {
+    "path": "CONTRIBUTING.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ef4714f7165b56b6825b498f3d76103f018b44d",
+    "size": 1407,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/2ef4714f7165b56b6825b498f3d76103f018b44d"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5cec7ee949b1041ec1c2fc416f60c998a9abb40c",
+    "size": 1078,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/5cec7ee949b1041ec1c2fc416f60c998a9abb40c"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88d68d5286ff2b60c39d87e7eeff223167386274",
+    "size": 50585,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/88d68d5286ff2b60c39d87e7eeff223167386274"
+  },
+  {
+    "path": "cmd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de80edfcc154ca7fbce7008d6e3c9acb91759fc8",
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/trees/de80edfcc154ca7fbce7008d6e3c9acb91759fc8"
+  },
+  {
+    "path": "cpuid.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cf7738a9756845444fdce2efe173e4ba6606369",
+    "size": 58614,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/9cf7738a9756845444fdce2efe173e4ba6606369"
+  },
+  {
+    "path": "cpuid_386.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8587c3a1fc552f0eaadd8e713bc73339d41263aa",
+    "size": 1057,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/8587c3a1fc552f0eaadd8e713bc73339d41263aa"
+  },
+  {
+    "path": "cpuid_amd64.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc11f8942193fee838f3a5daef12797e1187f729",
+    "size": 1899,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/bc11f8942193fee838f3a5daef12797e1187f729"
+  },
+  {
+    "path": "cpuid_arm64.s",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b196f78eb447f974cc04b843b96ffe888bac790a",
+    "size": 1158,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/b196f78eb447f974cc04b843b96ffe888bac790a"
+  },
+  {
+    "path": "cpuid_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f082da8afe4614942d144ad16e6d200ca850b4f",
+    "size": 9723,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/0f082da8afe4614942d144ad16e6d200ca850b4f"
+  },
+  {
+    "path": "detect_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ae32d607dc1b3910b2562cad8d3fb9501ff9e47",
+    "size": 10241,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/9ae32d607dc1b3910b2562cad8d3fb9501ff9e47"
+  },
+  {
+    "path": "detect_ref.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "574f9389c07e4a23591563735c2113f396502590",
+    "size": 585,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/574f9389c07e4a23591563735c2113f396502590"
+  },
+  {
+    "path": "detect_x86.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14a56b9301ca7b5078598fcbebd5a4111b9d107b",
+    "size": 1482,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/14a56b9301ca7b5078598fcbebd5a4111b9d107b"
+  },
+  {
+    "path": "featureid_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2888bae8faa4477599945d20420be340a164620b",
+    "size": 9744,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/2888bae8faa4477599945d20420be340a164620b"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84cac4d745d3b6cd85b923ddbcdb36eabc2c3c07",
+    "size": 80,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/84cac4d745d3b6cd85b923ddbcdb36eabc2c3c07"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "241f4caf9c7f97cbf8df14f551e4f2609439411b",
+    "size": 153,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/241f4caf9c7f97cbf8df14f551e4f2609439411b"
+  },
+  {
+    "path": "mockcpu_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3cc3853306a08b33b7fe025643d5ddef13868b6",
+    "size": 5790,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/e3cc3853306a08b33b7fe025643d5ddef13868b6"
+  },
+  {
+    "path": "os_darwin_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da07522e7cba43b66cbc6916849e44158d4e443b",
+    "size": 5996,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/da07522e7cba43b66cbc6916849e44158d4e443b"
+  },
+  {
+    "path": "os_darwin_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7462816b4a9cd24d3b545d3a6eff19f9b3b84133",
+    "size": 1377,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/7462816b4a9cd24d3b545d3a6eff19f9b3b84133"
+  },
+  {
+    "path": "os_linux_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d96d24438b3eea8350d30fe903b0bc8eb0f983c1",
+    "size": 6323,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/d96d24438b3eea8350d30fe903b0bc8eb0f983c1"
+  },
+  {
+    "path": "os_other_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8733ba343638eb5560e5b3c51547b15ad982f605",
+    "size": 367,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/8733ba343638eb5560e5b3c51547b15ad982f605"
+  },
+  {
+    "path": "os_safe_linux_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8f201b5f7bb6b9a37061dc4a480e0fabd53ab3d",
+    "size": 151,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/f8f201b5f7bb6b9a37061dc4a480e0fabd53ab3d"
+  },
+  {
+    "path": "os_unsafe_linux_arm64.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92af622eb8ca65b77f6949d9c8e68655ee0da842",
+    "size": 237,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/92af622eb8ca65b77f6949d9c8e68655ee0da842"
+  },
+  {
+    "path": "test-architectures.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "471d986d2488aeb2885237e9f2733cd59c84eabd",
+    "size": 445,
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/blobs/471d986d2488aeb2885237e9f2733cd59c84eabd"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89a7f7d34e8c0e345c1305a518d4687c5ceb4dc2",
+    "url": "https://api.github.com/repos/klauspost/cpuid/git/trees/89a7f7d34e8c0e345c1305a518d4687c5ceb4dc2"
+  }
+]

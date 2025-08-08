@@ -1,0 +1,692 @@
+[
+  {
+    "path": ".bumpversion.cfg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2bac6df90e4ea50e55274b2a64b079955253edd",
+    "size": 91,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/d2bac6df90e4ea50e55274b2a64b079955253edd"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "44652ce102fb60dd4ac24ef026013872f3d5fc66",
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/trees/44652ce102fb60dd4ac24ef026013872f3d5fc66"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd770058ac34e90433226ca3582bf7959acd81e1",
+    "size": 597,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/fd770058ac34e90433226ca3582bf7959acd81e1"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d3e2842e198bbb9bfb7c1d6cd37c49180898f2b",
+    "size": 2694,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/6d3e2842e198bbb9bfb7c1d6cd37c49180898f2b"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c45240dd81c2d1e03c8238f73251f76a52c4547",
+    "size": 85063,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/1c45240dd81c2d1e03c8238f73251f76a52c4547"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ff7942e2030d9fa4bb1c8766d184abd9d45a695",
+    "size": 1066,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/8ff7942e2030d9fa4bb1c8766d184abd9d45a695"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "108cfa34464b4e9e46f29dec07afe715dd395a3e",
+    "size": 383,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/108cfa34464b4e9e46f29dec07afe715dd395a3e"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72b2b888c06051e3c4410a3614da9e7d7e69b1c4",
+    "size": 4769,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/72b2b888c06051e3c4410a3614da9e7d7e69b1c4"
+  },
+  {
+    "path": "auth.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd612e1169b278fe1caa0cc3a97fe85d89173d19",
+    "size": 22733,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/cd612e1169b278fe1caa0cc3a97fe85d89173d19"
+  },
+  {
+    "path": "auth_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fbbe4c53bbdc79c83567828d46d3674a4738beb",
+    "size": 17861,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/1fbbe4c53bbdc79c83567828d46d3674a4738beb"
+  },
+  {
+    "path": "batch.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acfa7786dc43b919c1c204867c2fe9fa20075da5",
+    "size": 12704,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/acfa7786dc43b919c1c204867c2fe9fa20075da5"
+  },
+  {
+    "path": "batch_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07abfbc018937f3fdab89e5c9a811dff301bc3f2",
+    "size": 12881,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/07abfbc018937f3fdab89e5c9a811dff301bc3f2"
+  },
+  {
+    "path": "bucket.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65995aeba7e24235ffc2ea6aec98e8cd16b434de",
+    "size": 11970,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/65995aeba7e24235ffc2ea6aec98e8cd16b434de"
+  },
+  {
+    "path": "bucket_accelerate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48192db2f72336f92d8cdb92c7826ec9ace62a51",
+    "size": 970,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/48192db2f72336f92d8cdb92c7826ec9ace62a51"
+  },
+  {
+    "path": "bucket_accelerate_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b77198d2ea30eddcd24f40dc6e7b81986a6929c8",
+    "size": 1739,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/b77198d2ea30eddcd24f40dc6e7b81986a6929c8"
+  },
+  {
+    "path": "bucket_acl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2069cfa3a5e08cad655731fd48a8dced936da8d",
+    "size": 2063,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/d2069cfa3a5e08cad655731fd48a8dced936da8d"
+  },
+  {
+    "path": "bucket_acl_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f57f1efbaabd97d9cd7b5369b71bb39e1340e5d",
+    "size": 4225,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/8f57f1efbaabd97d9cd7b5369b71bb39e1340e5d"
+  },
+  {
+    "path": "bucket_cors.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29f085fedfa64d8b23f179998f9a260cdf9e5a78",
+    "size": 2288,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/29f085fedfa64d8b23f179998f9a260cdf9e5a78"
+  },
+  {
+    "path": "bucket_cors_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3020f4977dd56e2085adc62059bdaad8764287dd",
+    "size": 3333,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/3020f4977dd56e2085adc62059bdaad8764287dd"
+  },
+  {
+    "path": "bucket_domain.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ada8e9c8f2125254b95a140f84e03d7c873ec49",
+    "size": 4265,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/5ada8e9c8f2125254b95a140f84e03d7c873ec49"
+  },
+  {
+    "path": "bucket_domain_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02394e0d103361a4475e32889fc76e2558fb27f2",
+    "size": 5588,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/02394e0d103361a4475e32889fc76e2558fb27f2"
+  },
+  {
+    "path": "bucket_encryption.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2fa2f98902bea7c0a51f6b9033762e5b80ff8c70",
+    "size": 1428,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/2fa2f98902bea7c0a51f6b9033762e5b80ff8c70"
+  },
+  {
+    "path": "bucket_encryption_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1dd3063d54af0a539770d24d4badd97e1aef93b",
+    "size": 2279,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/f1dd3063d54af0a539770d24d4badd97e1aef93b"
+  },
+  {
+    "path": "bucket_intelligenttiering.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5967a8a70c39243f1b5503adce87c60b12f2b9c",
+    "size": 4925,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/d5967a8a70c39243f1b5503adce87c60b12f2b9c"
+  },
+  {
+    "path": "bucket_intelligenttiering_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "765688ae12a61db18a1e19b1fd62ea0d9ce11871",
+    "size": 7586,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/765688ae12a61db18a1e19b1fd62ea0d9ce11871"
+  },
+  {
+    "path": "bucket_inventory.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "747086f4b51c795f46876bb4de784fe99cb8189f",
+    "size": 5737,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/747086f4b51c795f46876bb4de784fe99cb8189f"
+  },
+  {
+    "path": "bucket_inventory_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a03e19cd9de7815f7946b1eb0950aa0d56430c9",
+    "size": 10631,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/4a03e19cd9de7815f7946b1eb0950aa0d56430c9"
+  },
+  {
+    "path": "bucket_lifecycle.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64f4b06b04e8a51ac820afd1301259cb9d0f7bcf",
+    "size": 6063,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/64f4b06b04e8a51ac820afd1301259cb9d0f7bcf"
+  },
+  {
+    "path": "bucket_lifecycle_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b6a7480944426200dbcbc7996abac25569b2d2f",
+    "size": 4785,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/9b6a7480944426200dbcbc7996abac25569b2d2f"
+  },
+  {
+    "path": "bucket_location.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d449f96d251006328f7fb6dc400680cb54e81bb4",
+    "size": 750,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/d449f96d251006328f7fb6dc400680cb54e81bb4"
+  },
+  {
+    "path": "bucket_location_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea6e33a274a9322f15d5bbfebb989f1174b23c07",
+    "size": 818,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/ea6e33a274a9322f15d5bbfebb989f1174b23c07"
+  },
+  {
+    "path": "bucket_logging.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88a1a95432dbc695128d07f41cecbf55849e981b",
+    "size": 1442,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/88a1a95432dbc695128d07f41cecbf55849e981b"
+  },
+  {
+    "path": "bucket_logging_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec73603a5bdba1fb549ae7a319f9b20841dd68e2",
+    "size": 1737,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/ec73603a5bdba1fb549ae7a319f9b20841dd68e2"
+  },
+  {
+    "path": "bucket_object_lock.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "662181190cffa7e8fc5801dc37587e80c971414a",
+    "size": 2452,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/662181190cffa7e8fc5801dc37587e80c971414a"
+  },
+  {
+    "path": "bucket_object_lock_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff35a8f225c4a7ce271322c5c60d3f7c98b3a6dc",
+    "size": 3455,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/ff35a8f225c4a7ce271322c5c60d3f7c98b3a6dc"
+  },
+  {
+    "path": "bucket_origin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4af7214e48467e0fd86d9969a9021dfa72caffc",
+    "size": 5597,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/a4af7214e48467e0fd86d9969a9021dfa72caffc"
+  },
+  {
+    "path": "bucket_origin_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e0f972d545667d73422df296fcd4c7f81ca0f05",
+    "size": 5162,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/3e0f972d545667d73422df296fcd4c7f81ca0f05"
+  },
+  {
+    "path": "bucket_part.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85923cec7948790d76c6f73d825ebd0a21ffcca8",
+    "size": 2049,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/85923cec7948790d76c6f73d825ebd0a21ffcca8"
+  },
+  {
+    "path": "bucket_part_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bdf3e4aa7a5d316e030fcfc1b7960cfb640eae7",
+    "size": 3190,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/1bdf3e4aa7a5d316e030fcfc1b7960cfb640eae7"
+  },
+  {
+    "path": "bucket_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97c55509c80f41d7afa66334057682c72b4a2b49",
+    "size": 2077,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/97c55509c80f41d7afa66334057682c72b4a2b49"
+  },
+  {
+    "path": "bucket_policy_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6156c557d7f27c0ec6a8aaea2677fefb3bc8d02",
+    "size": 2897,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/b6156c557d7f27c0ec6a8aaea2677fefb3bc8d02"
+  },
+  {
+    "path": "bucket_referer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52e7a2473932e17245cd6df00a8e6e4fd02f3b62",
+    "size": 1613,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/52e7a2473932e17245cd6df00a8e6e4fd02f3b62"
+  },
+  {
+    "path": "bucket_referer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eac37d63c9b3fce029b6b9edd4da3466745b31f3",
+    "size": 2533,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/eac37d63c9b3fce029b6b9edd4da3466745b31f3"
+  },
+  {
+    "path": "bucket_replication.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3dc6235ff080922e5e2da959d0ab642fa3d16ab0",
+    "size": 2897,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/3dc6235ff080922e5e2da959d0ab642fa3d16ab0"
+  },
+  {
+    "path": "bucket_replication_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "675721336d414187b48ea129b8ad8162e26b6370",
+    "size": 2918,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/675721336d414187b48ea129b8ad8162e26b6370"
+  },
+  {
+    "path": "bucket_tagging.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e223ee10b70eb83bf62158c90f4d064ce3985cc1",
+    "size": 1975,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/e223ee10b70eb83bf62158c90f4d064ce3985cc1"
+  },
+  {
+    "path": "bucket_tagging_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9adf1d45fc0d8df898ff956d780910059f9ca8c1",
+    "size": 2188,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/9adf1d45fc0d8df898ff956d780910059f9ca8c1"
+  },
+  {
+    "path": "bucket_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92ac3317fa052032c8c35ed46a7969f76b3ccb51",
+    "size": 23252,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/92ac3317fa052032c8c35ed46a7969f76b3ccb51"
+  },
+  {
+    "path": "bucket_version.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c540af89d52d15bf9477c64299ef090ab167b70c",
+    "size": 1196,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/c540af89d52d15bf9477c64299ef090ab167b70c"
+  },
+  {
+    "path": "bucket_version_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "370f2c2b6f410afba6652be3166d6f3938e24ce9",
+    "size": 1560,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/370f2c2b6f410afba6652be3166d6f3938e24ce9"
+  },
+  {
+    "path": "bucket_website.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a97e9c7aaa64e799cd16215c9ec7ed61d42e78c",
+    "size": 2346,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/9a97e9c7aaa64e799cd16215c9ec7ed61d42e78c"
+  },
+  {
+    "path": "bucket_website_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2ccd46ff967fdffa7a7c6cd75a975920eca74ab",
+    "size": 3861,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/d2ccd46ff967fdffa7a7c6cd75a975920eca74ab"
+  },
+  {
+    "path": "ci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13d862e4d2c6b335f88abbe6efc15da1e41945f0",
+    "size": 102852,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/13d862e4d2c6b335f88abbe6efc15da1e41945f0"
+  },
+  {
+    "path": "ci_doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9746a4d81c2aed65313f33d4907e6bed295173da",
+    "size": 16882,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/9746a4d81c2aed65313f33d4907e6bed295173da"
+  },
+  {
+    "path": "ci_doc_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "111836c7fca4a38fdd5a4ade6f09a40cfa309658",
+    "size": 7818,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/111836c7fca4a38fdd5a4ade6f09a40cfa309658"
+  },
+  {
+    "path": "ci_fileprocess.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d737cae05f5f9dbb02ca2c5ef8b7ec61a2a5f917",
+    "size": 7512,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/d737cae05f5f9dbb02ca2c5ef8b7ec61a2a5f917"
+  },
+  {
+    "path": "ci_fileprocess_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8de78e75e70c22272a2c33d78205224f2ebda19",
+    "size": 2604,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/a8de78e75e70c22272a2c33d78205224f2ebda19"
+  },
+  {
+    "path": "ci_media.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24b2fe0748e565ffc5261478d264cfd37e59e630",
+    "size": 170518,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/24b2fe0748e565ffc5261478d264cfd37e59e630"
+  },
+  {
+    "path": "ci_media_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ab952a688a07f1e900d86662ae3736f97e52798",
+    "size": 121199,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/5ab952a688a07f1e900d86662ae3736f97e52798"
+  },
+  {
+    "path": "ci_metainsight.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15d6b22504f230ab72190c65ebd8782eed4f7266",
+    "size": 41756,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/15d6b22504f230ab72190c65ebd8782eed4f7266"
+  },
+  {
+    "path": "ci_metainsight_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "844e1c72b0f03d4cc8070c9a0d7611f23c2570c1",
+    "size": 19646,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/844e1c72b0f03d4cc8070c9a0d7611f23c2570c1"
+  },
+  {
+    "path": "ci_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59d130d9d57f34ee73e456d3e801b2ef623c5873",
+    "size": 80030,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/59d130d9d57f34ee73e456d3e801b2ef623c5873"
+  },
+  {
+    "path": "cos.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "612148b44a5a6fb94f1e72bb7836fd0d56935be3",
+    "size": 20455,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/612148b44a5a6fb94f1e72bb7836fd0d56935be3"
+  },
+  {
+    "path": "cos_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f44575eb5f8f18b015af16095d3a42ab9d2e0333",
+    "size": 11400,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/f44575eb5f8f18b015af16095d3a42ab9d2e0333"
+  },
+  {
+    "path": "costesting",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e310937df924a5840316869762e86b7196d86252",
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/trees/e310937df924a5840316869762e86b7196d86252"
+  },
+  {
+    "path": "crypto",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f056ef5c07cdd0a532c1f7bb5adfdfb72435c2d",
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/trees/4f056ef5c07cdd0a532c1f7bb5adfdfb72435c2d"
+  },
+  {
+    "path": "debug",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "56b13133c95b398342287e339f662f2dd18e7db4",
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/trees/56b13133c95b398342287e339f662f2dd18e7db4"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99005ab3a1c28d153f1892a2f3198af4b16942ee",
+    "size": 167,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/99005ab3a1c28d153f1892a2f3198af4b16942ee"
+  },
+  {
+    "path": "error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3a20e44ecc8344ed4969ea43bd6367607f154da",
+    "size": 2634,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/d3a20e44ecc8344ed4969ea43bd6367607f154da"
+  },
+  {
+    "path": "error_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed2908999a70484b29f011fc70e89a93c6721045",
+    "size": 5854,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/ed2908999a70484b29f011fc70e89a93c6721045"
+  },
+  {
+    "path": "example",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0e404c48c4d80303e4d7524a267bc87dcf8e346",
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/trees/c0e404c48c4d80303e4d7524a267bc87dcf8e346"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1780aecf9db275663ef170133c90246bceb1476d",
+    "size": 609,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/1780aecf9db275663ef170133c90246bceb1476d"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a0294afa695b9ab5512a3125c5ea47d339b2d3f",
+    "size": 2843,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/3a0294afa695b9ab5512a3125c5ea47d339b2d3f"
+  },
+  {
+    "path": "helper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4f08b644342eb56aa21b48c560dc1aafa9852e5",
+    "size": 11639,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/e4f08b644342eb56aa21b48c560dc1aafa9852e5"
+  },
+  {
+    "path": "helper_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acbf59374b99e7c3ed043b1d599e82b74dab2a4a",
+    "size": 9398,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/acbf59374b99e7c3ed043b1d599e82b74dab2a4a"
+  },
+  {
+    "path": "object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3c40568d984b1b039eb292d676508cdc89437d2",
+    "size": 71818,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/c3c40568d984b1b039eb292d676508cdc89437d2"
+  },
+  {
+    "path": "object_acl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a55cf4ac9cf30993c091638c01c1e332f46fda19",
+    "size": 2692,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/a55cf4ac9cf30993c091638c01c1e332f46fda19"
+  },
+  {
+    "path": "object_acl_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "def64e79cba1bd3fc29ecad37d57e64c670c3016",
+    "size": 6675,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/def64e79cba1bd3fc29ecad37d57e64c670c3016"
+  },
+  {
+    "path": "object_part.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "185d5f25d750b46d57e016a551503fff52fd3eb6",
+    "size": 23390,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/185d5f25d750b46d57e016a551503fff52fd3eb6"
+  },
+  {
+    "path": "object_part_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bff2718e337e9a7e23609a0fcc8bb4e817efbe62",
+    "size": 23518,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/bff2718e337e9a7e23609a0fcc8bb4e817efbe62"
+  },
+  {
+    "path": "object_select.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64a4e2fd2761b3b96f8e91e0702b490d767bd1f0",
+    "size": 11983,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/64a4e2fd2761b3b96f8e91e0702b490d767bd1f0"
+  },
+  {
+    "path": "object_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd4420db1cc802f48425732d091d99d91cd71a4e",
+    "size": 71434,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/fd4420db1cc802f48425732d091d99d91cd71a4e"
+  },
+  {
+    "path": "progress.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3fae1fe98c592153083e1a981d25e12e7e0bc184",
+    "size": 3840,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/3fae1fe98c592153083e1a981d25e12e7e0bc184"
+  },
+  {
+    "path": "retry_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c50aa741cfcdb9537a8ad926de173ce32fe73cf",
+    "size": 27261,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/4c50aa741cfcdb9537a8ad926de173ce32fe73cf"
+  },
+  {
+    "path": "service.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "483af72af16fb4e2736f34df1abdf11a6958fa21",
+    "size": 1492,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/483af72af16fb4e2736f34df1abdf11a6958fa21"
+  },
+  {
+    "path": "service_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eff6e67fbf87e124ecf0dc705c859943fb348bb9",
+    "size": 1457,
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/blobs/eff6e67fbf87e124ecf0dc705c859943fb348bb9"
+  },
+  {
+    "path": "vendor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "19fbc7c27ba20b0856a421869c8a6dd9295934e9",
+    "url": "https://api.github.com/repos/tencentyun/cos-go-sdk-v5/git/trees/19fbc7c27ba20b0856a421869c8a6dd9295934e9"
+  }
+]

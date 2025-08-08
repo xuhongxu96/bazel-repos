@@ -1,0 +1,160 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b48a2ab14375970f051f32a9509398639ca2195",
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/trees/6b48a2ab14375970f051f32a9509398639ca2195"
+  },
+  {
+    "path": "00-create-cluster.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5db54395c49ee54c3357f0b035b479cce13e110",
+    "size": 1082,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/c5db54395c49ee54c3357f0b035b479cce13e110"
+  },
+  {
+    "path": "01-deny-all-traffic-to-an-application.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c9b33ca0332a160c6c61c00a0a7481aa93eac79",
+    "size": 2075,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/1c9b33ca0332a160c6c61c00a0a7481aa93eac79"
+  },
+  {
+    "path": "02-limit-traffic-to-an-application.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32b56d6446e3ab88e43d1d29f26a645fe7d84d6a",
+    "size": 1767,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/32b56d6446e3ab88e43d1d29f26a645fe7d84d6a"
+  },
+  {
+    "path": "02a-allow-all-traffic-to-an-application.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7114867e99c70a44365ffa1b669f8acda599b43f",
+    "size": 1829,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/7114867e99c70a44365ffa1b669f8acda599b43f"
+  },
+  {
+    "path": "03-deny-all-non-whitelisted-traffic-in-the-namespace.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b99b6a22f3f216041e699369610c057dcca42cb",
+    "size": 1506,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/7b99b6a22f3f216041e699369610c057dcca42cb"
+  },
+  {
+    "path": "04-deny-traffic-from-other-namespaces.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1238669e2a4f2cde5b2b57abcb39d1d59a424ad",
+    "size": 2305,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/d1238669e2a4f2cde5b2b57abcb39d1d59a424ad"
+  },
+  {
+    "path": "05-allow-traffic-from-all-namespaces.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ff02979f0c90bb4648c4b9ef4c94cbe1a2c2461",
+    "size": 2468,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/9ff02979f0c90bb4648c4b9ef4c94cbe1a2c2461"
+  },
+  {
+    "path": "06-allow-traffic-from-a-namespace.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11a4e8a14d7d37265b01c73062e1071e253a264b",
+    "size": 2390,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/11a4e8a14d7d37265b01c73062e1071e253a264b"
+  },
+  {
+    "path": "07-allow-traffic-from-some-pods-in-another-namespace.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5fa5a374bb6c1459bc70f0028e25d3db1dc61bd",
+    "size": 4168,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/d5fa5a374bb6c1459bc70f0028e25d3db1dc61bd"
+  },
+  {
+    "path": "08-allow-external-traffic.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6698df0af1188cf3a2c697043d9a1053a47d81eb",
+    "size": 1753,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/6698df0af1188cf3a2c697043d9a1053a47d81eb"
+  },
+  {
+    "path": "09-allow-traffic-only-to-a-port.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67a3e3b5decc54f6df24f5631008fcdef492ef69",
+    "size": 3198,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/67a3e3b5decc54f6df24f5631008fcdef492ef69"
+  },
+  {
+    "path": "10-allowing-traffic-with-multiple-selectors.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61f2b9da9feb9c9c6dc908c0b6c56fc81041ed7e",
+    "size": 2168,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/61f2b9da9feb9c9c6dc908c0b6c56fc81041ed7e"
+  },
+  {
+    "path": "11-deny-egress-traffic-from-an-application.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5df0724fbf4d8de7e0e8a7690964e43387d6516",
+    "size": 3104,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/b5df0724fbf4d8de7e0e8a7690964e43387d6516"
+  },
+  {
+    "path": "12-deny-all-non-whitelisted-traffic-from-the-namespace.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf5614fc681002b3078af08bd49e9320ffcf2f95",
+    "size": 1524,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/cf5614fc681002b3078af08bd49e9320ffcf2f95"
+  },
+  {
+    "path": "14-deny-external-egress-traffic.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa7312db9de476ad7e32f08c69229dde6af9359a",
+    "size": 2999,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/aa7312db9de476ad7e32f08c69229dde6af9359a"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae319c70aca8c8b148045aa1fd0c3ecfae85cb8a",
+    "size": 969,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/ae319c70aca8c8b148045aa1fd0c3ecfae85cb8a"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1c6dc618e99cd66099c5bc0b2d7b3c32d243853",
+    "size": 11341,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/a1c6dc618e99cd66099c5bc0b2d7b3c32d243853"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6397eda311fef27ff6e988a9640eab2c821f6792",
+    "size": 4431,
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/blobs/6397eda311fef27ff6e988a9640eab2c821f6792"
+  },
+  {
+    "path": "img",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "97f204ae39843ca9682b6c13ce75774b7c3d9c99",
+    "url": "https://api.github.com/repos/ahmetb/kubernetes-network-policy-recipes/git/trees/97f204ae39843ca9682b6c13ce75774b7c3d9c99"
+  }
+]

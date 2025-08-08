@@ -1,0 +1,854 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "402ce97db54f32a45455ca9c2e758592e46a03d8",
+    "url": "https://api.github.com/repos/folbricht/desync/git/trees/402ce97db54f32a45455ca9c2e758592e46a03d8"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "849ddff3b7ec917b5f4563e9a6d3ea63ea512a70",
+    "size": 6,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/849ddff3b7ec917b5f4563e9a6d3ea63ea512a70"
+  },
+  {
+    "path": ".goreleaser.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "110b8ad3ebfa3530021fc5e23c80077ca2d05ec5",
+    "size": 397,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/110b8ad3ebfa3530021fc5e23c80077ca2d05ec5"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da4cd0988e5db6e3ac6308e53db0e4fe6a7879d5",
+    "size": 456,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/da4cd0988e5db6e3ac6308e53db0e4fe6a7879d5"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50418a94a276eb7eae117ccdc0a922b955310086",
+    "size": 1509,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/50418a94a276eb7eae117ccdc0a922b955310086"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bef0d46bc57524838549d405e0f5d0702f4acb50",
+    "size": 43354,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/bef0d46bc57524838549d405e0f5d0702f4acb50"
+  },
+  {
+    "path": "archive.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e186a28a94b76e231dee79ba0c2a12bf00a92ea",
+    "size": 4374,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/9e186a28a94b76e231dee79ba0c2a12bf00a92ea"
+  },
+  {
+    "path": "archive_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c23a60f95d781c31141aa37d882a7fdcf18959c3",
+    "size": 2334,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/c23a60f95d781c31141aa37d882a7fdcf18959c3"
+  },
+  {
+    "path": "assemble.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0e5d278c23024dcd94670549d289318114e42dc",
+    "size": 9090,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/c0e5d278c23024dcd94670549d289318114e42dc"
+  },
+  {
+    "path": "assemble_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75f91ff50c65350508af692a2412969b20b250e4",
+    "size": 9251,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/75f91ff50c65350508af692a2412969b20b250e4"
+  },
+  {
+    "path": "blocksize.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81c078f0d6517f3d4e6907dc4d3b0ce598233031",
+    "size": 310,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/81c078f0d6517f3d4e6907dc4d3b0ce598233031"
+  },
+  {
+    "path": "blocksize_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b227794245beadaf92326e98ef2cd63e0d312fd7",
+    "size": 235,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/b227794245beadaf92326e98ef2cd63e0d312fd7"
+  },
+  {
+    "path": "cache.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d7de6edc4721aee058ad403e092fc858fa179f5",
+    "size": 2725,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/5d7de6edc4721aee058ad403e092fc858fa179f5"
+  },
+  {
+    "path": "chop.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a641759440b876818ef2b6a856dc0e6ba89957a",
+    "size": 1722,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/9a641759440b876818ef2b6a856dc0e6ba89957a"
+  },
+  {
+    "path": "chunk.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6421b969b06dcf5696729396f5bfda1d46ca077c",
+    "size": 2911,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/6421b969b06dcf5696729396f5bfda1d46ca077c"
+  },
+  {
+    "path": "chunkadditionalinfo.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22daffd4d52c17b9ce12b6cca9512bd440687b9a",
+    "size": 457,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/22daffd4d52c17b9ce12b6cca9512bd440687b9a"
+  },
+  {
+    "path": "chunker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "802386f2f0d4784b978a3576226dd7bd4821c12d",
+    "size": 9569,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/802386f2f0d4784b978a3576226dd7bd4821c12d"
+  },
+  {
+    "path": "chunker_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af2040b574b7ca47140c665f6f3e0eaa5330f743",
+    "size": 8826,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/af2040b574b7ca47140c665f6f3e0eaa5330f743"
+  },
+  {
+    "path": "chunkstorage.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4de76bbe058883402c17eb6e13170964b2996e7f",
+    "size": 1939,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/4de76bbe058883402c17eb6e13170964b2996e7f"
+  },
+  {
+    "path": "cmd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "14117498d430672f76d79384989a56e1564784f6",
+    "url": "https://api.github.com/repos/folbricht/desync/git/trees/14117498d430672f76d79384989a56e1564784f6"
+  },
+  {
+    "path": "compress.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a841710b53f8c21bfdf8682e6f25e9197bc6879e",
+    "size": 652,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/a841710b53f8c21bfdf8682e6f25e9197bc6879e"
+  },
+  {
+    "path": "compress_datadog.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab5db1c7d85dc066dd6b03657f13a4b9c8ddb58b",
+    "size": 486,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/ab5db1c7d85dc066dd6b03657f13a4b9c8ddb58b"
+  },
+  {
+    "path": "consoleindex.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da6527b9a4064825c16c86a54ae195879ea61fd7",
+    "size": 1010,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/da6527b9a4064825c16c86a54ae195879ea61fd7"
+  },
+  {
+    "path": "const.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d756443d40c32ae7405efb037b5d3b5030dde3bb",
+    "size": 5141,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/d756443d40c32ae7405efb037b5d3b5030dde3bb"
+  },
+  {
+    "path": "copy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "940d4c8878de610406c60d69a0e0f50f4e89d033",
+    "size": 1267,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/940d4c8878de610406c60d69a0e0f50f4e89d033"
+  },
+  {
+    "path": "coverter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4692eae69b93595081c8bfb5b29078f0c1424b8",
+    "size": 2347,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/a4692eae69b93595081c8bfb5b29078f0c1424b8"
+  },
+  {
+    "path": "dedupqueue.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a012934b0b3dff7b73b477fed282474bdf23d917",
+    "size": 3569,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/a012934b0b3dff7b73b477fed282474bdf23d917"
+  },
+  {
+    "path": "dedupqueue_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2b71cb052634c063b1abace65dcfbffc4994e8b",
+    "size": 1963,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/a2b71cb052634c063b1abace65dcfbffc4994e8b"
+  },
+  {
+    "path": "digest.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9de163302c781d72986ce711f5b4ce8107719279",
+    "size": 785,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/9de163302c781d72986ce711f5b4ce8107719279"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d56f42b91568fcf600476931d39a6c853bdf5be",
+    "size": 427,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/2d56f42b91568fcf600476931d39a6c853bdf5be"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17d4a2c7f5bb307e8125c8a1164ccd2edd2fdefb",
+    "url": "https://api.github.com/repos/folbricht/desync/git/trees/17d4a2c7f5bb307e8125c8a1164ccd2edd2fdefb"
+  },
+  {
+    "path": "errors.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45425c6f1f6b0f4fd4ab936091923f67fbdbd3dc",
+    "size": 1168,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/45425c6f1f6b0f4fd4ab936091923f67fbdbd3dc"
+  },
+  {
+    "path": "extractstats.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9deefcf9b14e16684a59cdf4365d86c2d4d3a342",
+    "size": 1100,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/9deefcf9b14e16684a59cdf4365d86c2d4d3a342"
+  },
+  {
+    "path": "failover.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c507bf4fbde920863ab284d7dfe733793fb922d2",
+    "size": 2920,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/c507bf4fbde920863ab284d7dfe733793fb922d2"
+  },
+  {
+    "path": "failover_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "970e5ed197e0de9fedfe2d54d50e9a8ee9379356",
+    "size": 2750,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/970e5ed197e0de9fedfe2d54d50e9a8ee9379356"
+  },
+  {
+    "path": "fileseed.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6962a8ff6b56a772d7c3da1b04fb13f2fe1f415b",
+    "size": 6817,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/6962a8ff6b56a772d7c3da1b04fb13f2fe1f415b"
+  },
+  {
+    "path": "filesystem.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "074dad3b99b7e64cc16bc838204f30424fd1e1c8",
+    "size": 3140,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/074dad3b99b7e64cc16bc838204f30424fd1e1c8"
+  },
+  {
+    "path": "format.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7e9676ca519b00c78f10271864ee810fbbde62f",
+    "size": 14155,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/f7e9676ca519b00c78f10271864ee810fbbde62f"
+  },
+  {
+    "path": "format_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad5eb2a3142e7ee086fc9b92425948f332702a79",
+    "size": 5078,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/ad5eb2a3142e7ee086fc9b92425948f332702a79"
+  },
+  {
+    "path": "gcs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93e8fab3c9479fe91b6221d6f33cad305a13854d",
+    "size": 7435,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/93e8fab3c9479fe91b6221d6f33cad305a13854d"
+  },
+  {
+    "path": "gcs_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09f01aadc708d4b2f69c12d0904d7dbe68379db3",
+    "size": 1076,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/09f01aadc708d4b2f69c12d0904d7dbe68379db3"
+  },
+  {
+    "path": "gcsindex.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0952bc0a8735642a77b3e1c20be88ff88573894e",
+    "size": 2534,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/0952bc0a8735642a77b3e1c20be88ff88573894e"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fc62b277c5a0296f150fddd9b00bd18c09f8161",
+    "size": 2718,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/8fc62b277c5a0296f150fddd9b00bd18c09f8161"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cff400b063a26f446b77236d3409df2553197bf",
+    "size": 24241,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/9cff400b063a26f446b77236d3409df2553197bf"
+  },
+  {
+    "path": "httphandler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06e9d50f966343b772055a030efc0e51ce8891f4",
+    "size": 3888,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/06e9d50f966343b772055a030efc0e51ce8891f4"
+  },
+  {
+    "path": "httphandler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86068cceb5280049530a72e0eb9a6e642e798650",
+    "size": 3244,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/86068cceb5280049530a72e0eb9a6e642e798650"
+  },
+  {
+    "path": "httphandlerbase.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a18365abc2a696b19702e781a8aae52d38bef616",
+    "size": 1108,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/a18365abc2a696b19702e781a8aae52d38bef616"
+  },
+  {
+    "path": "httpindexhandler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65fd95c3240c341b2a6f3ba2d9d0efa879712920",
+    "size": 2244,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/65fd95c3240c341b2a6f3ba2d9d0efa879712920"
+  },
+  {
+    "path": "index.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02d74f54bc8e110f1953517bb553229c11b66103",
+    "size": 5959,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/02d74f54bc8e110f1953517bb553229c11b66103"
+  },
+  {
+    "path": "index_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4348c11266b5842f90d406ac2f5b0ad1b7d333ce",
+    "size": 4956,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/4348c11266b5842f90d406ac2f5b0ad1b7d333ce"
+  },
+  {
+    "path": "ioctl_linux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "206584e03be0739b97d83bdbd8398d9ca05f5552",
+    "size": 2537,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/206584e03be0739b97d83bdbd8398d9ca05f5552"
+  },
+  {
+    "path": "ioctl_nonlinux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6392b3dc36ebe57c0304c381aef4781b16d01e9",
+    "size": 657,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/b6392b3dc36ebe57c0304c381aef4781b16d01e9"
+  },
+  {
+    "path": "local.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cae7957564ae4f2f1d5cfbe72a64b9afe238d797",
+    "size": 6700,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/cae7957564ae4f2f1d5cfbe72a64b9afe238d797"
+  },
+  {
+    "path": "local_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f956f98edc74be83cdc114de21b4fc3db1e24e6",
+    "size": 3788,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/0f956f98edc74be83cdc114de21b4fc3db1e24e6"
+  },
+  {
+    "path": "localfs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2aac13490a83fe73f62be07fbbc5f4aca3f6cd6f",
+    "size": 2496,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/2aac13490a83fe73f62be07fbbc5f4aca3f6cd6f"
+  },
+  {
+    "path": "localfs_other.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1199293f33e1022e67844fed7771d174d92d2669",
+    "size": 5746,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/1199293f33e1022e67844fed7771d174d92d2669"
+  },
+  {
+    "path": "localfs_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a26efac61d78841417baff09b751f01f5aa0976a",
+    "size": 2277,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/a26efac61d78841417baff09b751f01f5aa0976a"
+  },
+  {
+    "path": "localindex.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c766d4722a1cd49ad9bc0f8d982492c17ae7970",
+    "size": 1723,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/7c766d4722a1cd49ad9bc0f8d982492c17ae7970"
+  },
+  {
+    "path": "log.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4174be1d478857b6579e820f8decc5660eaedae9",
+    "size": 143,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/4174be1d478857b6579e820f8decc5660eaedae9"
+  },
+  {
+    "path": "make.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfd48209f30a1949bbcdf706629f671dc6666d40",
+    "size": 8961,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/dfd48209f30a1949bbcdf706629f671dc6666d40"
+  },
+  {
+    "path": "make_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cac332929ad95bd091c8659e77189a812257e0f8",
+    "size": 2197,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/cac332929ad95bd091c8659e77189a812257e0f8"
+  },
+  {
+    "path": "mount-index.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea44f286e65abe34222a0721134aedb207e011b2",
+    "size": 3415,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/ea44f286e65abe34222a0721134aedb207e011b2"
+  },
+  {
+    "path": "mount-index_linux_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "932247389e29ea24d1b9b0a62c58587a98f7b9c5",
+    "size": 1453,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/932247389e29ea24d1b9b0a62c58587a98f7b9c5"
+  },
+  {
+    "path": "mount-sparse.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbf1209ce5d97f7fe43684e191a650e671e659c3",
+    "size": 2634,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/dbf1209ce5d97f7fe43684e191a650e671e659c3"
+  },
+  {
+    "path": "mtreefs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e09b638be36c7ade3e45ca7e3ff9dfe15f4558bc",
+    "size": 3545,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/e09b638be36c7ade3e45ca7e3ff9dfe15f4558bc"
+  },
+  {
+    "path": "nullchunk.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d04c555086d19c7adf58a597759a18a4a8a9227e",
+    "size": 821,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/d04c555086d19c7adf58a597759a18a4a8a9227e"
+  },
+  {
+    "path": "nullprogressbar.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a4c11a4db4a73c2bddc2c842d4fbee052755b9a",
+    "size": 598,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/0a4c11a4db4a73c2bddc2c842d4fbee052755b9a"
+  },
+  {
+    "path": "nullseed.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26033e717290fecbbae21bf6c8de9e4a600ba2b0",
+    "size": 4095,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/26033e717290fecbbae21bf6c8de9e4a600ba2b0"
+  },
+  {
+    "path": "progress.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a2a2c3e11b6b6fcc5e827b006a9020ce21afda2",
+    "size": 318,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/8a2a2c3e11b6b6fcc5e827b006a9020ce21afda2"
+  },
+  {
+    "path": "progressbar.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "adf12cea95b3c748e3c24a31d14d9a60e8aa51fe",
+    "size": 1685,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/adf12cea95b3c748e3c24a31d14d9a60e8aa51fe"
+  },
+  {
+    "path": "protocol.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b45ff62922121973cff0a6bf65b97da867d71856",
+    "size": 5512,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/b45ff62922121973cff0a6bf65b97da867d71856"
+  },
+  {
+    "path": "protocol_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "edabb86eb21766c536120d5ec6910bc57bd5dde9",
+    "size": 1319,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/edabb86eb21766c536120d5ec6910bc57bd5dde9"
+  },
+  {
+    "path": "protocolserver.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74161755e419398fd78a863721a3f3ddd552ad2f",
+    "size": 2154,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/74161755e419398fd78a863721a3f3ddd552ad2f"
+  },
+  {
+    "path": "protocolserver_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c663db8177ca78eb3d26209861c3303e4239f62e",
+    "size": 971,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/c663db8177ca78eb3d26209861c3303e4239f62e"
+  },
+  {
+    "path": "reader.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e210609017287dabc58ca1b7a1ae28df33bd2990",
+    "size": 1099,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/e210609017287dabc58ca1b7a1ae28df33bd2990"
+  },
+  {
+    "path": "readseeker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1d5064f20c1e536f296fd528c9277d60cdd0443",
+    "size": 4735,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/b1d5064f20c1e536f296fd528c9277d60cdd0443"
+  },
+  {
+    "path": "remotehttp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "557e7953863410661318571a851260cc484a81da",
+    "size": 7361,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/557e7953863410661318571a851260cc484a81da"
+  },
+  {
+    "path": "remotehttp_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bdce8762ea0f247514862576876a9228a5b52a0",
+    "size": 13357,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/0bdce8762ea0f247514862576876a9228a5b52a0"
+  },
+  {
+    "path": "remotehttpindex.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0ce0a3ca0205cb07ffc2b805f072f1e713f4159",
+    "size": 1363,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/e0ce0a3ca0205cb07ffc2b805f072f1e713f4159"
+  },
+  {
+    "path": "remotessh.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ea79cd91f860915a59bda8ef2cb4c1b3b2691b8",
+    "size": 3091,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/6ea79cd91f860915a59bda8ef2cb4c1b3b2691b8"
+  },
+  {
+    "path": "s3.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e89e7679a327a79247eca63a368d3cb9308fa6f6",
+    "size": 6233,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/e89e7679a327a79247eca63a368d3cb9308fa6f6"
+  },
+  {
+    "path": "s3_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebe8d0491a01b7dc8a52eeb7aee4ccd80f36dd4c",
+    "size": 6925,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/ebe8d0491a01b7dc8a52eeb7aee4ccd80f36dd4c"
+  },
+  {
+    "path": "s3index.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2941eb970fabffda71c142621c22aa97b9b3b32c",
+    "size": 1827,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/2941eb970fabffda71c142621c22aa97b9b3b32c"
+  },
+  {
+    "path": "seed.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffc49f335078fcf937c803fc31d470e82b121506",
+    "size": 1646,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/ffc49f335078fcf937c803fc31d470e82b121506"
+  },
+  {
+    "path": "selfseed.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38feacf259d1251eb04deff091d183de989fcb0e",
+    "size": 2825,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/38feacf259d1251eb04deff091d183de989fcb0e"
+  },
+  {
+    "path": "selfseed_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6753b85efd55d967ba291a0b0318e9eab74d7513",
+    "size": 3459,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/6753b85efd55d967ba291a0b0318e9eab74d7513"
+  },
+  {
+    "path": "sequencer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57d7a071540fa26358e2ad5a24ed136334eaaf97",
+    "size": 4569,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/57d7a071540fa26358e2ad5a24ed136334eaaf97"
+  },
+  {
+    "path": "sftp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f27522cc955ab9440cc26b2fa8c2f1b6de1bafbc",
+    "size": 7121,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/f27522cc955ab9440cc26b2fa8c2f1b6de1bafbc"
+  },
+  {
+    "path": "sftpindex.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f637d0469ec3802b50fb2a19b3399248853f3128",
+    "size": 1487,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/f637d0469ec3802b50fb2a19b3399248853f3128"
+  },
+  {
+    "path": "sip.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ca44ab52943aecfc13eed669ab2ae682f89ffde",
+    "size": 252,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/9ca44ab52943aecfc13eed669ab2ae682f89ffde"
+  },
+  {
+    "path": "sparse-file.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "464bc9c9deced0d82270ce9437c35f318392b2e5",
+    "size": 8830,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/464bc9c9deced0d82270ce9437c35f318392b2e5"
+  },
+  {
+    "path": "sparse-file_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9eac7c0b56115bb412063dbb10d360bb8c174a04",
+    "size": 3034,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/9eac7c0b56115bb412063dbb10d360bb8c174a04"
+  },
+  {
+    "path": "store.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4d985d92c5da641bf9e85c199adb93e6a7dfe2f",
+    "size": 4522,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/d4d985d92c5da641bf9e85c199adb93e6a7dfe2f"
+  },
+  {
+    "path": "store_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76951dbd608652eef3c823e112f76071c954e679",
+    "size": 1021,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/76951dbd608652eef3c823e112f76071c954e679"
+  },
+  {
+    "path": "storerouter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a866fe4c35aa78e8765a2227f466c435a244c67",
+    "size": 1773,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/8a866fe4c35aa78e8765a2227f466c435a244c67"
+  },
+  {
+    "path": "swapstore.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b0ef813ae36e37ffc3abfb1c4175af8cda842ef",
+    "size": 2215,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/4b0ef813ae36e37ffc3abfb1c4175af8cda842ef"
+  },
+  {
+    "path": "tar.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3777918e1405d5a23ab9e9716335a956cf3dda5d",
+    "size": 5338,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/3777918e1405d5a23ab9e9716335a956cf3dda5d"
+  },
+  {
+    "path": "tar_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbd49d55213901d9184ba461aa6625a2f60dd3ae",
+    "size": 1994,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/dbd49d55213901d9184ba461aa6625a2f60dd3ae"
+  },
+  {
+    "path": "tarfs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdda66774a0f2070329aef8c9b6923b9e5461a9e",
+    "size": 3466,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/fdda66774a0f2070329aef8c9b6923b9e5461a9e"
+  },
+  {
+    "path": "tarfs_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47372f17b5b887568ca17d65a92c518d2d364ee0",
+    "size": 654,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/47372f17b5b887568ca17d65a92c518d2d364ee0"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "679456e883cba3af30234c7c4c0aa93d384946b7",
+    "url": "https://api.github.com/repos/folbricht/desync/git/trees/679456e883cba3af30234c7c4c0aa93d384946b7"
+  },
+  {
+    "path": "types.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8df06d94d1fbede150618fa15bd6d3eafdbe594",
+    "size": 1120,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/c8df06d94d1fbede150618fa15bd6d3eafdbe594"
+  },
+  {
+    "path": "untar.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f176a09ce82ca02247e437361ac9c15b7f32489a",
+    "size": 3648,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/f176a09ce82ca02247e437361ac9c15b7f32489a"
+  },
+  {
+    "path": "verifyindex.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2cd7ee48745b36e26dbd9d4dd1201cc546a03022",
+    "size": 2099,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/2cd7ee48745b36e26dbd9d4dd1201cc546a03022"
+  },
+  {
+    "path": "writededupqueue.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "894916b09ac04dd8e6bc60deffdd3ed622860bdf",
+    "size": 2241,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/894916b09ac04dd8e6bc60deffdd3ed622860bdf"
+  },
+  {
+    "path": "writededupqueue_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cd5fdb61ee86d01173b9fa0024e4c8c2abb6e15",
+    "size": 762,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/3cd5fdb61ee86d01173b9fa0024e4c8c2abb6e15"
+  },
+  {
+    "path": "writer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2bd9bd762a99c21456e099e92b493c85b3279fe",
+    "size": 648,
+    "url": "https://api.github.com/repos/folbricht/desync/git/blobs/e2bd9bd762a99c21456e099e92b493c85b3279fe"
+  }
+]

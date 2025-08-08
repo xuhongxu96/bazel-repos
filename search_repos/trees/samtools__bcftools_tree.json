@@ -1,0 +1,937 @@
+[
+  {
+    "path": ".appveyor.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca4d5049b66472841df02a73421f33bb8f35b77a",
+    "size": 2548,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/ca4d5049b66472841df02a73421f33bb8f35b77a"
+  },
+  {
+    "path": ".ci_helpers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "81078dd8331ef45f62cd2d9dca72e426f8f3f093",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/81078dd8331ef45f62cd2d9dca72e426f8f3f093"
+  },
+  {
+    "path": ".cirrus.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2979c7bfba4ec7b68d8f133651ece25523dd19fc",
+    "size": 5701,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/2979c7bfba4ec7b68d8f133651ece25523dd19fc"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d765010ac1c278545d3f267824df6f570c8fb637",
+    "size": 539,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/d765010ac1c278545d3f267824df6f570c8fb637"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f82d824374abb70f29edfab7a6ad5a1dbbc2f0f8",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/f82d824374abb70f29edfab7a6ad5a1dbbc2f0f8"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37dd6058546f027ab97fcabf27c411437933a9ee",
+    "size": 337,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/37dd6058546f027ab97fcabf27c411437933a9ee"
+  },
+  {
+    "path": "AUTHORS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8128b3fa234dec1bbd8b9c7a5b2ffa7bb4e479e",
+    "size": 449,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/a8128b3fa234dec1bbd8b9c7a5b2ffa7bb4e479e"
+  },
+  {
+    "path": "HMM.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2d302f4b26f79a26e87f974408e3d11addc3409",
+    "size": 18249,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/c2d302f4b26f79a26e87f974408e3d11addc3409"
+  },
+  {
+    "path": "HMM.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75d3f8b49b8c69817c2c4e6055804ed7a7725ee8",
+    "size": 5022,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/75d3f8b49b8c69817c2c4e6055804ed7a7725ee8"
+  },
+  {
+    "path": "INSTALL",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "379c5aa7e08f4dc20678266bef23213b6101ccd3",
+    "size": 9567,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/379c5aa7e08f4dc20678266bef23213b6101ccd3"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbe9739eaabfb196620fbbe5b4b353b5ec451add",
+    "size": 41065,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/dbe9739eaabfb196620fbbe5b4b353b5ec451add"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b5ff85fcb705c7fe6268b068a76cbbba3d57a1e",
+    "size": 18442,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/1b5ff85fcb705c7fe6268b068a76cbbba3d57a1e"
+  },
+  {
+    "path": "NEWS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95015eb6b411cd0c9fab640132dec6afc65b2003",
+    "size": 80139,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/95015eb6b411cd0c9fab640132dec6afc65b2003"
+  },
+  {
+    "path": "README",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fff0cb73e0438858945e7a968a602c442a336247",
+    "size": 2192,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/fff0cb73e0438858945e7a968a602c442a336247"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32c2750a460f4a061fb819f2560e49546b46ac30",
+    "size": 3097,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/32c2750a460f4a061fb819f2560e49546b46ac30"
+  },
+  {
+    "path": "abuf.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b125679b9b7ab07aea78422d40a2436f66e4aa65",
+    "size": 33557,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/b125679b9b7ab07aea78422d40a2436f66e4aa65"
+  },
+  {
+    "path": "abuf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5fc1e0099ba0f935fd2f104d876024d6c862d8ba",
+    "size": 2521,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/5fc1e0099ba0f935fd2f104d876024d6c862d8ba"
+  },
+  {
+    "path": "bam2bcf.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55c20812200407c8e540c7eff1deacd8fe80a0be",
+    "size": 51505,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/55c20812200407c8e540c7eff1deacd8fe80a0be"
+  },
+  {
+    "path": "bam2bcf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f8f8db5a21f4b987f4d2f8dd107cd5076188912",
+    "size": 9473,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/8f8f8db5a21f4b987f4d2f8dd107cd5076188912"
+  },
+  {
+    "path": "bam2bcf_edlib.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e0a38c33e6981191aa151f0c1820435a83845fb",
+    "size": 67346,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/4e0a38c33e6981191aa151f0c1820435a83845fb"
+  },
+  {
+    "path": "bam2bcf_iaux.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3fe4fdea74d1687910a803da4e31121c57eeb97d",
+    "size": 28411,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/3fe4fdea74d1687910a803da4e31121c57eeb97d"
+  },
+  {
+    "path": "bam2bcf_indel.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "975504f8aea3d70f5cf2eff5e91f5d2503908cb6",
+    "size": 34927,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/975504f8aea3d70f5cf2eff5e91f5d2503908cb6"
+  },
+  {
+    "path": "bam_sample.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d8c10b8b395e13e7a1f0167a1e16f1e9364ddce3",
+    "size": 13718,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/d8c10b8b395e13e7a1f0167a1e16f1e9364ddce3"
+  },
+  {
+    "path": "bam_sample.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5cbcc3917f4ec8e70805498d08baa37356ec760a",
+    "size": 2030,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/5cbcc3917f4ec8e70805498d08baa37356ec760a"
+  },
+  {
+    "path": "bcftools.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a4071d9610052a9975118920a72b382ce0ca3e3",
+    "size": 6732,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/5a4071d9610052a9975118920a72b382ce0ca3e3"
+  },
+  {
+    "path": "bin.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "645012ec8e5f2f7b73a882c25c281e5b09d07d28",
+    "size": 3469,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/645012ec8e5f2f7b73a882c25c281e5b09d07d28"
+  },
+  {
+    "path": "bin.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab9e5b1b6ddc39ecb8483606d34a3b6a9469894c",
+    "size": 2188,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/ab9e5b1b6ddc39ecb8483606d34a3b6a9469894c"
+  },
+  {
+    "path": "call.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "090ac019a20a57db62f7916ebe04d9a67bfb04a7",
+    "size": 5333,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/090ac019a20a57db62f7916ebe04d9a67bfb04a7"
+  },
+  {
+    "path": "ccall.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bf987b69519164578fed570dd57d9390c9c3e9d",
+    "size": 13188,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/6bf987b69519164578fed570dd57d9390c9c3e9d"
+  },
+  {
+    "path": "cigar_state.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dacac14acc035674e81b141dc11bcf3eb9a55285",
+    "size": 6736,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/dacac14acc035674e81b141dc11bcf3eb9a55285"
+  },
+  {
+    "path": "cols.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30ca3657b368ab37d70db16fc665728958d63a8e",
+    "size": 3339,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/30ca3657b368ab37d70db16fc665728958d63a8e"
+  },
+  {
+    "path": "cols.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "577f2d148bd42a21f4f03cf536aa93f94fde36af",
+    "size": 1808,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/577f2d148bd42a21f4f03cf536aa93f94fde36af"
+  },
+  {
+    "path": "config.mk.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b2715e5f3f63a7c1e37ac52cfb631c0ba353a5e",
+    "size": 2635,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/8b2715e5f3f63a7c1e37ac52cfb631c0ba353a5e"
+  },
+  {
+    "path": "configure.ac",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "066f3e7ebbde8857c2b56889d25be093b27e407a",
+    "size": 11598,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/066f3e7ebbde8857c2b56889d25be093b27e407a"
+  },
+  {
+    "path": "consensus.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11d6a0340f11cf0c5dafaf8ba9f3e819b6a77bc1",
+    "size": 54752,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/11d6a0340f11cf0c5dafaf8ba9f3e819b6a77bc1"
+  },
+  {
+    "path": "convert.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9faaded6edc531e82025b082904f36163df63825",
+    "size": 74814,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/9faaded6edc531e82025b082904f36163df63825"
+  },
+  {
+    "path": "convert.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "150751481c197934de154db66e2d613b823f8ce6",
+    "size": 2494,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/150751481c197934de154db66e2d613b823f8ce6"
+  },
+  {
+    "path": "csq.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a3da5dfaa691a00eb5d55e2e61363f1d3ea22d0",
+    "size": 165428,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/0a3da5dfaa691a00eb5d55e2e61363f1d3ea22d0"
+  },
+  {
+    "path": "dbuf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80b5958efde7224c2d717b92e6d3b63531b5f829",
+    "size": 1851,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/80b5958efde7224c2d717b92e6d3b63531b5f829"
+  },
+  {
+    "path": "dist.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "094fc73d2cc105b44a66bd8d14b1b7fbfeccc431",
+    "size": 3406,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/094fc73d2cc105b44a66bd8d14b1b7fbfeccc431"
+  },
+  {
+    "path": "dist.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c9c571811c825c2f336a83c193147cc6f0deb3d",
+    "size": 2850,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/5c9c571811c825c2f336a83c193147cc6f0deb3d"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f94a9ebbf12e1f3c800b89002591d2ad28fbe5a9",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/f94a9ebbf12e1f3c800b89002591d2ad28fbe5a9"
+  },
+  {
+    "path": "edlib.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5421fee48d98d6e2f617a48806249446c2c20187",
+    "size": 26684,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/5421fee48d98d6e2f617a48806249446c2c20187"
+  },
+  {
+    "path": "edlib.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f5eca1920fcbec38575b65907871e98241a0844",
+    "size": 11042,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/1f5eca1920fcbec38575b65907871e98241a0844"
+  },
+  {
+    "path": "em.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baa34907d0b94e3fc4d3e0e0e7d7662fe4872bbb",
+    "size": 8861,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/baa34907d0b94e3fc4d3e0e0e7d7662fe4872bbb"
+  },
+  {
+    "path": "extsort.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "014e03b6ceba83981e79018176b26850a5dd36cb",
+    "size": 7945,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/014e03b6ceba83981e79018176b26850a5dd36cb"
+  },
+  {
+    "path": "extsort.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba6282e23daf42c5aab362c14512881c387978ba",
+    "size": 2180,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/ba6282e23daf42c5aab362c14512881c387978ba"
+  },
+  {
+    "path": "filter.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f837f5dd16b5b2dadb4d51253f64c2326f0b082d",
+    "size": 167222,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/f837f5dd16b5b2dadb4d51253f64c2326f0b082d"
+  },
+  {
+    "path": "filter.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6a8e089309f77cc290d4c8e60fed82f36d4f6d7",
+    "size": 4217,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/d6a8e089309f77cc290d4c8e60fed82f36d4f6d7"
+  },
+  {
+    "path": "gff.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "119a6912b2b532a38d4cc55bc70578c186281bf0",
+    "size": 44561,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/119a6912b2b532a38d4cc55bc70578c186281bf0"
+  },
+  {
+    "path": "gff.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ddde687d4adfc05a30ab5d3a482a489eaa25d88e",
+    "size": 12913,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/ddde687d4adfc05a30ab5d3a482a489eaa25d88e"
+  },
+  {
+    "path": "gvcf.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "137194a44c85b41dae9f4315132e7dc358ac2a39",
+    "size": 8120,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/137194a44c85b41dae9f4315132e7dc358ac2a39"
+  },
+  {
+    "path": "gvcf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "784e1f6d8c6d3cb1e7b9596aa475a1276f48e9fa",
+    "size": 1561,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/784e1f6d8c6d3cb1e7b9596aa475a1276f48e9fa"
+  },
+  {
+    "path": "hclust.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "945c70e0e01ae5608eb31fb1845e45178344f74e",
+    "size": 12759,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/945c70e0e01ae5608eb31fb1845e45178344f74e"
+  },
+  {
+    "path": "hclust.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43d333f3b1dd3daed62043a0912a863893454c52",
+    "size": 2781,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/43d333f3b1dd3daed62043a0912a863893454c52"
+  },
+  {
+    "path": "hex.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95210e3cf8372f3cc45a1be01ca25beec5501a49",
+    "size": 3021,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/95210e3cf8372f3cc45a1be01ca25beec5501a49"
+  },
+  {
+    "path": "install-sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0b0fdcbba69ab6dd05ca162a5328828d46ab1d54",
+    "size": 14675,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/0b0fdcbba69ab6dd05ca162a5328828d46ab1d54"
+  },
+  {
+    "path": "khash_str2str.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a5bd12789196a1160eedce189f1b1506ffeb7bf",
+    "size": 3163,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/4a5bd12789196a1160eedce189f1b1506ffeb7bf"
+  },
+  {
+    "path": "kheap.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb5dda40cd6f7155ea8fb266935d09ec0c52b2e5",
+    "size": 7726,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/cb5dda40cd6f7155ea8fb266935d09ec0c52b2e5"
+  },
+  {
+    "path": "kmin.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b8193be95bdd9007a1e75eaa033591e474b1640",
+    "size": 7269,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/5b8193be95bdd9007a1e75eaa033591e474b1640"
+  },
+  {
+    "path": "kmin.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6feba45eee7e757953a9472bc91effad6ff0810d",
+    "size": 1619,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/6feba45eee7e757953a9472bc91effad6ff0810d"
+  },
+  {
+    "path": "m4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7dd60b8e0338a6c8f3eee4728324526d4bfba10b",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/7dd60b8e0338a6c8f3eee4728324526d4bfba10b"
+  },
+  {
+    "path": "main.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6de5368038a979252880fa930a77bafe2b81b033",
+    "size": 9972,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/6de5368038a979252880fa930a77bafe2b81b033"
+  },
+  {
+    "path": "mcall.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13383787e217d29a3b13db7cc80fee467d71020c",
+    "size": 65106,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/13383787e217d29a3b13db7cc80fee467d71020c"
+  },
+  {
+    "path": "misc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a90bd9aca83d98751e51dd7f04b2db90c5cc7539",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/a90bd9aca83d98751e51dd7f04b2db90c5cc7539"
+  },
+  {
+    "path": "mpileup.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00d21dbe5c93a034bdbe4ededb91231c4bdb9f59",
+    "size": 83263,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/00d21dbe5c93a034bdbe4ededb91231c4bdb9f59"
+  },
+  {
+    "path": "mpileup2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f50ffb76c9fcaa019afbfda37349adbe90e0ff3",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/8f50ffb76c9fcaa019afbfda37349adbe90e0ff3"
+  },
+  {
+    "path": "mpileup_bench",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "39bd9836bf5dbd0b529f85b7c07bafb35c37cb78",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/39bd9836bf5dbd0b529f85b7c07bafb35c37cb78"
+  },
+  {
+    "path": "mw.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e68cbf14b13844a334b2ed7948d1ed162fd855e",
+    "size": 62247,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/3e68cbf14b13844a334b2ed7948d1ed162fd855e"
+  },
+  {
+    "path": "peakfit.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8094b5d52b86dd675a9d8fec5542906e9ef9f28b",
+    "size": 18029,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/8094b5d52b86dd675a9d8fec5542906e9ef9f28b"
+  },
+  {
+    "path": "peakfit.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a9e4fab2d6a1c232763890fc1902a3cbef17807",
+    "size": 2131,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/8a9e4fab2d6a1c232763890fc1902a3cbef17807"
+  },
+  {
+    "path": "ploidy.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0884dcc4edc4245bb26057a63cae6cf1c4cb864",
+    "size": 8670,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/d0884dcc4edc4245bb26057a63cae6cf1c4cb864"
+  },
+  {
+    "path": "ploidy.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7625bd064896bb5b8baf2cda91bd104a46200e2e",
+    "size": 4531,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/7625bd064896bb5b8baf2cda91bd104a46200e2e"
+  },
+  {
+    "path": "plugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6eb04585d935d6a51903e061c48c984dc62e5c76",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/6eb04585d935d6a51903e061c48c984dc62e5c76"
+  },
+  {
+    "path": "polysomy.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df2bc6a26e8e79b1f1fb2687235966a4023c9489",
+    "size": 33991,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/df2bc6a26e8e79b1f1fb2687235966a4023c9489"
+  },
+  {
+    "path": "prob1.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d298d6a4f2cc0895e4bb2850eed3b7b9234a4d84",
+    "size": 20275,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/d298d6a4f2cc0895e4bb2850eed3b7b9234a4d84"
+  },
+  {
+    "path": "prob1.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5622656ce285fe6f71a60001383a20189eaa4aa",
+    "size": 3556,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/a5622656ce285fe6f71a60001383a20189eaa4aa"
+  },
+  {
+    "path": "rbuf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef2e206322dbcafdc51d0118d118847b0423da6d",
+    "size": 7544,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/ef2e206322dbcafdc51d0118d118847b0423da6d"
+  },
+  {
+    "path": "read_consensus.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f66cc7dc106d5c3662cc94ca68a1603234d2ae87",
+    "size": 29407,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/f66cc7dc106d5c3662cc94ca68a1603234d2ae87"
+  },
+  {
+    "path": "read_consensus.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f5cb7979faff3440fddf70c7815ec3e38e1d0f5",
+    "size": 2357,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/9f5cb7979faff3440fddf70c7815ec3e38e1d0f5"
+  },
+  {
+    "path": "regidx.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "445d7d5853c43d72253315806fe225222bf3dba5",
+    "size": 19620,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/445d7d5853c43d72253315806fe225222bf3dba5"
+  },
+  {
+    "path": "regidx.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6d76bdf463d5e3dd250ccfc9abea1eae36ebb6a",
+    "size": 7826,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/e6d76bdf463d5e3dd250ccfc9abea1eae36ebb6a"
+  },
+  {
+    "path": "reheader.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df631aae352d40a87b094ad3a15c5ec12632fb8f",
+    "size": 27150,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/df631aae352d40a87b094ad3a15c5ec12632fb8f"
+  },
+  {
+    "path": "smpl_ilist.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bc4cec2e7488c51a40f2640720b1e0079ffac87",
+    "size": 5231,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/4bc4cec2e7488c51a40f2640720b1e0079ffac87"
+  },
+  {
+    "path": "smpl_ilist.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e273ac4174991b844c8b6284d47152434b8c57b5",
+    "size": 2249,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/e273ac4174991b844c8b6284d47152434b8c57b5"
+  },
+  {
+    "path": "str_finder.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9281d81164869f3a4898cb970c2141300d90fee",
+    "size": 10709,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/a9281d81164869f3a4898cb970c2141300d90fee"
+  },
+  {
+    "path": "str_finder.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22f9f59416d047034529036560a386e4ecad8455",
+    "size": 2412,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/22f9f59416d047034529036560a386e4ecad8455"
+  },
+  {
+    "path": "tabix.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "639d954c9c32bb6bf531aa634a3c1cd690ad130b",
+    "size": 5696,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/639d954c9c32bb6bf531aa634a3c1cd690ad130b"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a4aa73a3e89a21fcc987b00d35f0d8d205c9861",
+    "url": "https://api.github.com/repos/samtools/bcftools/git/trees/1a4aa73a3e89a21fcc987b00d35f0d8d205c9861"
+  },
+  {
+    "path": "tsv2vcf.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22dec30654742bdfd3edb36d32783c0f72353cb8",
+    "size": 3926,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/22dec30654742bdfd3edb36d32783c0f72353cb8"
+  },
+  {
+    "path": "tsv2vcf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68757d45958638ed0798fb80e8ab88c294dd9970",
+    "size": 2722,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/68757d45958638ed0798fb80e8ab88c294dd9970"
+  },
+  {
+    "path": "utlist.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28cf8a381399c225297f4f39707debbf8a8fd655",
+    "size": 55978,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/28cf8a381399c225297f4f39707debbf8a8fd655"
+  },
+  {
+    "path": "variantkey.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c7959674c51f3248c95eb8c90c0152c902b0eca",
+    "size": 22024,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/3c7959674c51f3248c95eb8c90c0152c902b0eca"
+  },
+  {
+    "path": "vcfannotate.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e19fe0f1dff6e32d8e57c7269ba75869cfb02aa",
+    "size": 170704,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/7e19fe0f1dff6e32d8e57c7269ba75869cfb02aa"
+  },
+  {
+    "path": "vcfbuf.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4dee727e88e7d309f1c1bdba279e37375af4caf3",
+    "size": 32931,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/4dee727e88e7d309f1c1bdba279e37375af4caf3"
+  },
+  {
+    "path": "vcfbuf.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15054ff3cf7dc41bc6746d2fee464d12d28c2819",
+    "size": 6365,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/15054ff3cf7dc41bc6746d2fee464d12d28c2819"
+  },
+  {
+    "path": "vcfcall.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ea1436663c5b8a7498d95de0a1c052f4a5f3387",
+    "size": 51949,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/7ea1436663c5b8a7498d95de0a1c052f4a5f3387"
+  },
+  {
+    "path": "vcfcnv.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e44a8e5b0ee820e2aec73a88ec8ae7d1eaebaeb",
+    "size": 59655,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/2e44a8e5b0ee820e2aec73a88ec8ae7d1eaebaeb"
+  },
+  {
+    "path": "vcfconcat.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48afd20f2cd059b46b7f794c83b1119dcfa3bdfb",
+    "size": 51982,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/48afd20f2cd059b46b7f794c83b1119dcfa3bdfb"
+  },
+  {
+    "path": "vcfconvert.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b01742ae6fc6fab75cea4dfcf37f01937cc2cb6c",
+    "size": 74595,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/b01742ae6fc6fab75cea4dfcf37f01937cc2cb6c"
+  },
+  {
+    "path": "vcffilter.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52d85ea77d1fb3f8c4b8128b59fa270ec4fe6efc",
+    "size": 31827,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/52d85ea77d1fb3f8c4b8128b59fa270ec4fe6efc"
+  },
+  {
+    "path": "vcfgtcheck.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4999f1d40c64067c1de149d7a1d20a52cc4b5ac",
+    "size": 67222,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/d4999f1d40c64067c1de149d7a1d20a52cc4b5ac"
+  },
+  {
+    "path": "vcfhead.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1815744510ec66b0bc1efaf5de02b5d104d7025",
+    "size": 5275,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/a1815744510ec66b0bc1efaf5de02b5d104d7025"
+  },
+  {
+    "path": "vcfindex.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6029832dd58a76a0dce37275501cebd3faa39f4",
+    "size": 12278,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/d6029832dd58a76a0dce37275501cebd3faa39f4"
+  },
+  {
+    "path": "vcfisec.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51750c1709e780073dad327dfa7d5e13dfa6bf72",
+    "size": 31165,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/51750c1709e780073dad327dfa7d5e13dfa6bf72"
+  },
+  {
+    "path": "vcfmerge.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce6a71c9c946f44ee01cf2cc7065e20b524b44ca",
+    "size": 154527,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/ce6a71c9c946f44ee01cf2cc7065e20b524b44ca"
+  },
+  {
+    "path": "vcfnorm.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "641a7395e49410a677520769894a117505af88e8",
+    "size": 115164,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/641a7395e49410a677520769894a117505af88e8"
+  },
+  {
+    "path": "vcfplugin.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3cbcbbf73956300e08375ac180c7256cb44027f",
+    "size": 28942,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/b3cbcbbf73956300e08375ac180c7256cb44027f"
+  },
+  {
+    "path": "vcfquery.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eefb2a2d0070dd4ccdf2ffe043e990f35b4447a7",
+    "size": 19716,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/eefb2a2d0070dd4ccdf2ffe043e990f35b4447a7"
+  },
+  {
+    "path": "vcfroh.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b3eff91fb71a34e741d9ca096d22700955bdddd",
+    "size": 51774,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/1b3eff91fb71a34e741d9ca096d22700955bdddd"
+  },
+  {
+    "path": "vcfsom.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7a5dbe6e1d434e79769bc5119947821c2b7ceee",
+    "size": 24523,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/f7a5dbe6e1d434e79769bc5119947821c2b7ceee"
+  },
+  {
+    "path": "vcfsort.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c333b761e321b5f5bb973591ca148b81ad1280e1",
+    "size": 26178,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/c333b761e321b5f5bb973591ca148b81ad1280e1"
+  },
+  {
+    "path": "vcfstats.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b04871260aa457445fbf7ddba23b095097b85a30",
+    "size": 86808,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/b04871260aa457445fbf7ddba23b095097b85a30"
+  },
+  {
+    "path": "vcfview.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17b9b70ca54a465dc79339c460e9c096aecbd216",
+    "size": 40689,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/17b9b70ca54a465dc79339c460e9c096aecbd216"
+  },
+  {
+    "path": "vcmp.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbdc4b7ac7404d52da1d166919fac5c81bafb4de",
+    "size": 4537,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/dbdc4b7ac7404d52da1d166919fac5c81bafb4de"
+  },
+  {
+    "path": "vcmp.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03234b4b2008209e1ff8c6f80e6b2368b3fcde49",
+    "size": 2438,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/03234b4b2008209e1ff8c6f80e6b2368b3fcde49"
+  },
+  {
+    "path": "version.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbfd1c4e5a039287f4d172fda6ce6f06617ff065",
+    "size": 6273,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/bbfd1c4e5a039287f4d172fda6ce6f06617ff065"
+  },
+  {
+    "path": "version.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6355d1eade3571fa32c36283022ea33fa3cbed78",
+    "size": 1490,
+    "url": "https://api.github.com/repos/samtools/bcftools/git/blobs/6355d1eade3571fa32c36283022ea33fa3cbed78"
+  }
+]

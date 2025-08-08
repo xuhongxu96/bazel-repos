@@ -1,0 +1,576 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7fd1752315408629e7559773071ebd811f879fd5",
+    "size": 20,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/7fd1752315408629e7559773071ebd811f879fd5"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33b7cdd2dbaeddce1e35aa1a13f63d71154dc42f",
+    "size": 1084,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/33b7cdd2dbaeddce1e35aa1a13f63d71154dc42f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97870280ac29217ed404dc83cb70a1282c441fe7",
+    "size": 803,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/97870280ac29217ed404dc83cb70a1282c441fe7"
+  },
+  {
+    "path": "backward_references.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "008c054d1c03efa32ee66fca8b70044a57ba2f53",
+    "size": 6553,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/008c054d1c03efa32ee66fca8b70044a57ba2f53"
+  },
+  {
+    "path": "backward_references_hq.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21629c1cdb718d729ddd8be1ff8b0aca9c20fccb",
+    "size": 27554,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/21629c1cdb718d729ddd8be1ff8b0aca9c20fccb"
+  },
+  {
+    "path": "bit_cost.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0005fc15e63b7e2a10e6ade24feba81c8225d195",
+    "size": 10917,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/0005fc15e63b7e2a10e6ade24feba81c8225d195"
+  },
+  {
+    "path": "bit_reader.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fba8687c69f385e35fb3f6601ee306a12da018ac",
+    "size": 6769,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/fba8687c69f385e35fb3f6601ee306a12da018ac"
+  },
+  {
+    "path": "bitwriter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfc60360f360680b58dd38e9eba80e7ec1498be0",
+    "size": 961,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/dfc60360f360680b58dd38e9eba80e7ec1498be0"
+  },
+  {
+    "path": "block_splitter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "978a1314748dbab2dc8ae1c2c7b422d1bf01cc9f",
+    "size": 4108,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/978a1314748dbab2dc8ae1c2c7b422d1bf01cc9f"
+  },
+  {
+    "path": "block_splitter_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dec13e4d907c1efd0afa7f95ea5bace891a08ce",
+    "size": 13798,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/9dec13e4d907c1efd0afa7f95ea5bace891a08ce"
+  },
+  {
+    "path": "block_splitter_distance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "953530d518e5dec91f1a12553eee329f0880c09f",
+    "size": 13838,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/953530d518e5dec91f1a12553eee329f0880c09f"
+  },
+  {
+    "path": "block_splitter_literal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c895cf38895d66d67a33c2abb5386707393ff4f",
+    "size": 13770,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/1c895cf38895d66d67a33c2abb5386707393ff4f"
+  },
+  {
+    "path": "brotli_bit_stream.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d098d3200c0452fcbd754a0c35552bfff1422ac8",
+    "size": 45641,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/d098d3200c0452fcbd754a0c35552bfff1422ac8"
+  },
+  {
+    "path": "brotli_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42efee72d1a0718af0159a150ca423184b13131f",
+    "size": 25986,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/42efee72d1a0718af0159a150ca423184b13131f"
+  },
+  {
+    "path": "cluster.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df8a32822456d17224cf3e28b807e7a8fea06b4f",
+    "size": 839,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/df8a32822456d17224cf3e28b807e7a8fea06b4f"
+  },
+  {
+    "path": "cluster_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45b569bb2a59cd79a82a65c2a5a8ec73906421e0",
+    "size": 4663,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/45b569bb2a59cd79a82a65c2a5a8ec73906421e0"
+  },
+  {
+    "path": "cluster_distance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1aaa86e6ed836a83ecb03e48d209f79a00c0a22e",
+    "size": 9927,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/1aaa86e6ed836a83ecb03e48d209f79a00c0a22e"
+  },
+  {
+    "path": "cluster_literal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ba66f31b2ccf3eca7ae0e09e7a25e90d1d8fee6",
+    "size": 9889,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/6ba66f31b2ccf3eca7ae0e09e7a25e90d1d8fee6"
+  },
+  {
+    "path": "command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1662a55552f2884625f6fd58e842add76c9d0f1",
+    "size": 5458,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/b1662a55552f2884625f6fd58e842add76c9d0f1"
+  },
+  {
+    "path": "compress_fragment.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9bd05770565d2669c2d1a1c7890ebc16a433bb2",
+    "size": 27145,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/c9bd05770565d2669c2d1a1c7890ebc16a433bb2"
+  },
+  {
+    "path": "compress_fragment_two_pass.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5c663a556f298b4ffc7ceaf56d296e3fb32fa7e",
+    "size": 22436,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/c5c663a556f298b4ffc7ceaf56d296e3fb32fa7e"
+  },
+  {
+    "path": "constants.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a880dff789d064170d8a52fe4b79912c69ef6b86",
+    "size": 1898,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/a880dff789d064170d8a52fe4b79912c69ef6b86"
+  },
+  {
+    "path": "context.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "884ff8a2d6964e6481ff6c5d32c093b81574e7bd",
+    "size": 13481,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/884ff8a2d6964e6481ff6c5d32c093b81574e7bd"
+  },
+  {
+    "path": "decode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d9513b7cfbc9958faebe7b50bbb3ad0cf8207a9",
+    "size": 69014,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/9d9513b7cfbc9958faebe7b50bbb3ad0cf8207a9"
+  },
+  {
+    "path": "dictionary.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79148c904d6f01777f316c3006ee4e6d702b4f27",
+    "size": 711303,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/79148c904d6f01777f316c3006ee4e6d702b4f27"
+  },
+  {
+    "path": "dictionary_hash.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a06203016ccd9fa0668077e0de8963dadbf259b3",
+    "size": 153144,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/a06203016ccd9fa0668077e0de8963dadbf259b3"
+  },
+  {
+    "path": "encode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e25a4ec78ab1ee96f51797db223a0f39788c7d8",
+    "size": 41067,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/8e25a4ec78ab1ee96f51797db223a0f39788c7d8"
+  },
+  {
+    "path": "encoder.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd541b3531f0d6080e95f98dba06a0bfd8b5b45f",
+    "size": 4614,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/cd541b3531f0d6080e95f98dba06a0bfd8b5b45f"
+  },
+  {
+    "path": "encoder_dict.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55c051c6238b1817810db927dea9ee5c24998f39",
+    "size": 629,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/55c051c6238b1817810db927dea9ee5c24998f39"
+  },
+  {
+    "path": "encoder_fast.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e790930259b68c783f33ee1bf3a7907759515b67",
+    "size": 6319,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/e790930259b68c783f33ee1bf3a7907759515b67"
+  },
+  {
+    "path": "entropy_encode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f469a3dd94a5e2536696fefd82b0129ca93cbe3",
+    "size": 14058,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/3f469a3dd94a5e2536696fefd82b0129ca93cbe3"
+  },
+  {
+    "path": "entropy_encode_static.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "294aff4f4e67e3829ca48866ccf492284197b643",
+    "size": 34351,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/294aff4f4e67e3829ca48866ccf492284197b643"
+  },
+  {
+    "path": "example_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43ebe9fee34d7771ab6c0393b90b217a37a3c47b",
+    "size": 1213,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/43ebe9fee34d7771ab6c0393b90b217a37a3c47b"
+  },
+  {
+    "path": "fast_log.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d6607f7e2ff086f43ec19ab73530889cd564ae6",
+    "size": 6128,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/9d6607f7e2ff086f43ec19ab73530889cd564ae6"
+  },
+  {
+    "path": "find_match_length.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b46f88e8f2fa7cee5be24be4b1fe0bef3458f603",
+    "size": 1113,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/b46f88e8f2fa7cee5be24be4b1fe0bef3458f603"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00f08352e7d25f7cc1e3f9a99fa20fce22c1a445",
+    "size": 151,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/00f08352e7d25f7cc1e3f9a99fa20fce22c1a445"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "505973dbe3c0d1deef426e278ae2dc0ea933b854",
+    "size": 181,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/505973dbe3c0d1deef426e278ae2dc0ea933b854"
+  },
+  {
+    "path": "h10.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5662fbbbb52c21d5adc91f4d575717c4dcaa1201",
+    "size": 9741,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/5662fbbbb52c21d5adc91f4d575717c4dcaa1201"
+  },
+  {
+    "path": "h5.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f391b73fdd78829661b4a9e13c2322acf5e34d5b",
+    "size": 6983,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/f391b73fdd78829661b4a9e13c2322acf5e34d5b"
+  },
+  {
+    "path": "h6.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80bb224aa87590a3ec1387cbbfd34e65e16c03dd",
+    "size": 7135,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/80bb224aa87590a3ec1387cbbfd34e65e16c03dd"
+  },
+  {
+    "path": "hash.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00f812e87ec86712ea67174484fadd46cc1b459f",
+    "size": 9413,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/00f812e87ec86712ea67174484fadd46cc1b459f"
+  },
+  {
+    "path": "hash_composite.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a65fe2e6a9a229429de70f0929287bcf43f0ca6a",
+    "size": 2966,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/a65fe2e6a9a229429de70f0929287bcf43f0ca6a"
+  },
+  {
+    "path": "hash_forgetful_chain.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "306e46d3dba957f81fd5700430fadd9eb9b7733c",
+    "size": 7762,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/306e46d3dba957f81fd5700430fadd9eb9b7733c"
+  },
+  {
+    "path": "hash_longest_match_quickly.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9375dc155398bee6c1e2339cffe7e462d2a7f01e",
+    "size": 6999,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/9375dc155398bee6c1e2339cffe7e462d2a7f01e"
+  },
+  {
+    "path": "hash_rolling.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6630fc07e4bbd6a07a519e8e3b48fec39ec07d15",
+    "size": 4952,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/6630fc07e4bbd6a07a519e8e3b48fec39ec07d15"
+  },
+  {
+    "path": "histogram.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0346622beb31019d27a07e52fb7ae94abe2f9cee",
+    "size": 5530,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/0346622beb31019d27a07e52fb7ae94abe2f9cee"
+  },
+  {
+    "path": "http.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d3a8a06fdb469346697079d1ea4116d93f1a175",
+    "size": 4294,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/3d3a8a06fdb469346697079d1ea4116d93f1a175"
+  },
+  {
+    "path": "huffman.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "182f3d2a5520cad73b93a091b1d96e54399eb4d2",
+    "size": 11831,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/182f3d2a5520cad73b93a091b1d96e54399eb4d2"
+  },
+  {
+    "path": "literal_cost.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a9ace94ee0794706a039cceb7105f23a45e1760",
+    "size": 4666,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/5a9ace94ee0794706a039cceb7105f23a45e1760"
+  },
+  {
+    "path": "matchfinder",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cdcf4111813e175fb2c081bba4396c8a831cafbc",
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/trees/cdcf4111813e175fb2c081bba4396c8a831cafbc"
+  },
+  {
+    "path": "memory.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a07c7050a07f9fc8f61f734f763c6ac3faba0539",
+    "size": 1126,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/a07c7050a07f9fc8f61f734f763c6ac3faba0539"
+  },
+  {
+    "path": "metablock.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3014df8cdf100c0e08347c211ca2da5f2c33ca8c",
+    "size": 21302,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/3014df8cdf100c0e08347c211ca2da5f2c33ca8c"
+  },
+  {
+    "path": "metablock_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14c7b77135dab0fd9044f6d930fa89820ee3c796",
+    "size": 6227,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/14c7b77135dab0fd9044f6d930fa89820ee3c796"
+  },
+  {
+    "path": "metablock_distance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5110a810e96ded3257d798c9bcd07491ccee0de4",
+    "size": 6245,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/5110a810e96ded3257d798c9bcd07491ccee0de4"
+  },
+  {
+    "path": "metablock_literal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "307f8da88f48f48f277cc928cdfd91ce39ba1227",
+    "size": 6225,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/307f8da88f48f48f277cc928cdfd91ce39ba1227"
+  },
+  {
+    "path": "params.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a4c6875212a77dbda4052cf9f6cfee7dc2df403",
+    "size": 1087,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/0a4c6875212a77dbda4052cf9f6cfee7dc2df403"
+  },
+  {
+    "path": "platform.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ebfb1528ba9776a5c64a3e98763286a07f44e9e",
+    "size": 1375,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/4ebfb1528ba9776a5c64a3e98763286a07f44e9e"
+  },
+  {
+    "path": "prefix.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "484df0d61ec0ba86ba3e9704d46c2100fed4d389",
+    "size": 1295,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/484df0d61ec0ba86ba3e9704d46c2100fed4d389"
+  },
+  {
+    "path": "prefix_dec.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "183f0d53fed55742aad81cc412f6be3540d82898",
+    "size": 38325,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/183f0d53fed55742aad81cc412f6be3540d82898"
+  },
+  {
+    "path": "quality.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49709a382390842c494b46b4fe4c6680a2d9fbff",
+    "size": 5448,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/49709a382390842c494b46b4fe4c6680a2d9fbff"
+  },
+  {
+    "path": "reader.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e22789350e07b1c4f2fd843d928c0a8ae3757de",
+    "size": 2635,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/3e22789350e07b1c4f2fd843d928c0a8ae3757de"
+  },
+  {
+    "path": "ringbuffer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c8f86feece36b406d5f7cf295676a0984cd7ec4",
+    "size": 4455,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/1c8f86feece36b406d5f7cf295676a0984cd7ec4"
+  },
+  {
+    "path": "state.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38d753ebe4d0de35d68595c5debc073b29a08088",
+    "size": 7815,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/38d753ebe4d0de35d68595c5debc073b29a08088"
+  },
+  {
+    "path": "static_dict.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc05566d6f8550b118158c4180b96455c0879293",
+    "size": 17114,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/bc05566d6f8550b118158c4180b96455c0879293"
+  },
+  {
+    "path": "static_dict_lut.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b33963e967a3c73bc8c61c91ad644abd31a28217",
+    "size": 935931,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/b33963e967a3c73bc8c61c91ad644abd31a28217"
+  },
+  {
+    "path": "symbol_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5cb49e5a9dd76f51983254a65c6a0ddfde9c376",
+    "size": 471,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/c5cb49e5a9dd76f51983254a65c6a0ddfde9c376"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "76719dc0382229c76a17d617c7ae65282ae0feb9",
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/trees/76719dc0382229c76a17d617c7ae65282ae0feb9"
+  },
+  {
+    "path": "transform.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2c043a6227b695d4c70ba5e93a5c85e99816040",
+    "size": 10269,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/d2c043a6227b695d4c70ba5e93a5c85e99816040"
+  },
+  {
+    "path": "utf8_util.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3244247eecc13ae669af5ffc396a587669216b03",
+    "size": 1936,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/3244247eecc13ae669af5ffc396a587669216b03"
+  },
+  {
+    "path": "util.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a84553a639671d0d6c153c844370de21937021a1",
+    "size": 87,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/a84553a639671d0d6c153c844370de21937021a1"
+  },
+  {
+    "path": "write_bits.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87299011985a0f3ae4ff32dfb9c004077e8287d1",
+    "size": 1533,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/87299011985a0f3ae4ff32dfb9c004077e8287d1"
+  },
+  {
+    "path": "writer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4431a0d18a3bcf846e962fc181d429d726841456",
+    "size": 4509,
+    "url": "https://api.github.com/repos/andybalholm/brotli/git/blobs/4431a0d18a3bcf846e962fc181d429d726841456"
+  }
+]

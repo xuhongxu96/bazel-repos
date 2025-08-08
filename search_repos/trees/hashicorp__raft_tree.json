@@ -1,0 +1,509 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e503bf66cb506196d0d68458ff0ac813b9e39bc",
+    "url": "https://api.github.com/repos/hashicorp/raft/git/trees/2e503bf66cb506196d0d68458ff0ac813b9e39bc"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4c546b39a7bcd31e028d9e275d8d1899cfac067",
+    "size": 279,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/c4c546b39a7bcd31e028d9e275d8d1899cfac067"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbcd5cc91bddcc85220d4bd60da4b53deb581e43",
+    "size": 125,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/cbcd5cc91bddcc85220d4bd60da4b53deb581e43"
+  },
+  {
+    "path": ".golangci-lint.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "654d05e1becdab3a2d6dda42ce807a6d8483f6dd",
+    "size": 2359,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/654d05e1becdab3a2d6dda42ce807a6d8483f6dd"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f214436caa6a35a5755774cee0904eb0b04e575e",
+    "size": 616,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/f214436caa6a35a5755774cee0904eb0b04e575e"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f88d1621662029d43fdb2995bb581cf2fb77bd98",
+    "size": 8997,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/f88d1621662029d43fdb2995bb581cf2fb77bd98"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c72625e4cc88b8b6e4f600a4227b52c14df587b1",
+    "size": 16013,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/c72625e4cc88b8b6e4f600a4227b52c14df587b1"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c988f0ab2f4aa6363904bc0749d2e65ad9d55a2f",
+    "size": 1325,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/c988f0ab2f4aa6363904bc0749d2e65ad9d55a2f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb66dd112766b09a41b4dc7115adde1ab419cb0e",
+    "size": 8492,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/fb66dd112766b09a41b4dc7115adde1ab419cb0e"
+  },
+  {
+    "path": "api.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6aea63eb7e503fe87f1d0db7a44ec4e4c19578df",
+    "size": 44828,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/6aea63eb7e503fe87f1d0db7a44ec4e4c19578df"
+  },
+  {
+    "path": "bench",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f33daddc43fedf7f2e0807d85afa204b95f403e",
+    "url": "https://api.github.com/repos/hashicorp/raft/git/trees/3f33daddc43fedf7f2e0807d85afa204b95f403e"
+  },
+  {
+    "path": "bench_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1dd6f7e3e81385aba971d69a40766b3d17eac832",
+    "size": 1084,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/1dd6f7e3e81385aba971d69a40766b3d17eac832"
+  },
+  {
+    "path": "commands.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ec76cb27d6a2370257612b46650f2baff3b9d3c",
+    "size": 5514,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/1ec76cb27d6a2370257612b46650f2baff3b9d3c"
+  },
+  {
+    "path": "commitment.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d100a63e06bafe7ae059935fe4c88fb74a5ad9f",
+    "size": 3322,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/7d100a63e06bafe7ae059935fe4c88fb74a5ad9f"
+  },
+  {
+    "path": "commitment_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "458ab3022adbdbbb4f7a2c1e880b9287c1918f6e",
+    "size": 6074,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/458ab3022adbdbbb4f7a2c1e880b9287c1918f6e"
+  },
+  {
+    "path": "config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f5869737da3b07cd113f6df05a597d3a7cf3e50",
+    "size": 16212,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/0f5869737da3b07cd113f6df05a597d3a7cf3e50"
+  },
+  {
+    "path": "configuration.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e3ece34db45b2ef56eccb6490710df73fe93219",
+    "size": 12028,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/3e3ece34db45b2ef56eccb6490710df73fe93219"
+  },
+  {
+    "path": "configuration_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7eab9929047c2e3584e64b445ef3446ceff64b6",
+    "size": 9806,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/a7eab9929047c2e3584e64b445ef3446ceff64b6"
+  },
+  {
+    "path": "discard_snapshot.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa148fb78fca2d83b4107c1a84dc63d0e5b32566",
+    "size": 2108,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/aa148fb78fca2d83b4107c1a84dc63d0e5b32566"
+  },
+  {
+    "path": "discard_snapshot_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bf2d972cd9d17b1461eb0f52480649c1c86d91b",
+    "size": 496,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/7bf2d972cd9d17b1461eb0f52480649c1c86d91b"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f4990cd7cd72c2eb8758233dcfebdacc208b6a5d",
+    "url": "https://api.github.com/repos/hashicorp/raft/git/trees/f4990cd7cd72c2eb8758233dcfebdacc208b6a5d"
+  },
+  {
+    "path": "file_snapshot.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5b1ed187136d090ba1168f0bec4c9294cd9f327",
+    "size": 13510,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/d5b1ed187136d090ba1168f0bec4c9294cd9f327"
+  },
+  {
+    "path": "file_snapshot_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c8b007a428904ff37904436a43f566923862a2e",
+    "size": 7741,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/0c8b007a428904ff37904436a43f566923862a2e"
+  },
+  {
+    "path": "fsm.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5487dde8f4870711e873a1cde1f21a36f0dbf427",
+    "size": 8417,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/5487dde8f4870711e873a1cde1f21a36f0dbf427"
+  },
+  {
+    "path": "future.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5d56cafdc55cc60ee9c3ad04b89b84af834a901",
+    "size": 7711,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/e5d56cafdc55cc60ee9c3ad04b89b84af834a901"
+  },
+  {
+    "path": "future_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ed42877605248388d645f751112573ad499e5c1",
+    "size": 993,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/5ed42877605248388d645f751112573ad499e5c1"
+  },
+  {
+    "path": "fuzzy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a8754e0abefdd90adb4e76f9af915e95352fa26b",
+    "url": "https://api.github.com/repos/hashicorp/raft/git/trees/a8754e0abefdd90adb4e76f9af915e95352fa26b"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "619226eea16a543c483f20c98d70c5b21d42bb9b",
+    "size": 819,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/619226eea16a543c483f20c98d70c5b21d42bb9b"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ea4a76848e28058559f4814c6b60dbb745727c3",
+    "size": 17306,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/5ea4a76848e28058559f4814c6b60dbb745727c3"
+  },
+  {
+    "path": "inmem_snapshot.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d23bc209990366446d63eb9a1f7b41a94b05b707",
+    "size": 2818,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/d23bc209990366446d63eb9a1f7b41a94b05b707"
+  },
+  {
+    "path": "inmem_snapshot_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebf2e50aead15ab57314d60276306f008c10baff",
+    "size": 4141,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/ebf2e50aead15ab57314d60276306f008c10baff"
+  },
+  {
+    "path": "inmem_store.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "730d03f288e3b402e5c6b021eea4fa0a9cee4354",
+    "size": 2897,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/730d03f288e3b402e5c6b021eea4fa0a9cee4354"
+  },
+  {
+    "path": "inmem_transport.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4937e9825f6a5eaa214076bd16349d69c2533278",
+    "size": 9359,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/4937e9825f6a5eaa214076bd16349d69c2533278"
+  },
+  {
+    "path": "inmem_transport_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa4b889b0347e655d3ef90be53320b97b63a5bf0",
+    "size": 2106,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/fa4b889b0347e655d3ef90be53320b97b63a5bf0"
+  },
+  {
+    "path": "integ_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98f2afea35d53f3793eca306841ce812b97fb280",
+    "size": 16757,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/98f2afea35d53f3793eca306841ce812b97fb280"
+  },
+  {
+    "path": "log.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a6dc47b3624514b37cea269938407fa893bc65c",
+    "size": 7078,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/4a6dc47b3624514b37cea269938407fa893bc65c"
+  },
+  {
+    "path": "log_cache.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b61f817684b7540c2f5b33a99e633745deb7ca7b",
+    "size": 2213,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/b61f817684b7540c2f5b33a99e633745deb7ca7b"
+  },
+  {
+    "path": "log_cache_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37fa06ef339b2d4aa24e1bd57ba2d8d87ea7b1c6",
+    "size": 2843,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/37fa06ef339b2d4aa24e1bd57ba2d8d87ea7b1c6"
+  },
+  {
+    "path": "log_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1724e86faf2be2798ee34c7ad84502e677875c16",
+    "size": 3215,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/1724e86faf2be2798ee34c7ad84502e677875c16"
+  },
+  {
+    "path": "membership.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df1f83e27f695a2364712d7dae04effdf1c4de66",
+    "size": 7121,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/df1f83e27f695a2364712d7dae04effdf1c4de66"
+  },
+  {
+    "path": "net_transport.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e9171fc3910b7bdfe4636636396d9b438cae86d",
+    "size": 26509,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/5e9171fc3910b7bdfe4636636396d9b438cae86d"
+  },
+  {
+    "path": "net_transport_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6612091271b4630408294adb1b67a1452552f8b8",
+    "size": 23189,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/6612091271b4630408294adb1b67a1452552f8b8"
+  },
+  {
+    "path": "observer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "400a381ede4c20fce4d732d8ca17f0a68acc03c9",
+    "size": 4339,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/400a381ede4c20fce4d732d8ca17f0a68acc03c9"
+  },
+  {
+    "path": "peersjson.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d81d5ec4c59a2c82efaf554db119d4906f62926e",
+    "size": 2906,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/d81d5ec4c59a2c82efaf554db119d4906f62926e"
+  },
+  {
+    "path": "peersjson_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc48d3acccdec211f2fb6e209fd57503d4074427",
+    "size": 3142,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/bc48d3acccdec211f2fb6e209fd57503d4074427"
+  },
+  {
+    "path": "progress.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b4df53f508d3516ede612fcda7ff073510302e0",
+    "size": 2757,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/6b4df53f508d3516ede612fcda7ff073510302e0"
+  },
+  {
+    "path": "raft-compat",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3377bda6598894c15936d502fd6239e96578e907",
+    "url": "https://api.github.com/repos/hashicorp/raft/git/trees/3377bda6598894c15936d502fd6239e96578e907"
+  },
+  {
+    "path": "raft.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60c811c09394ed329fcb55e99b3b8a295f3220f4",
+    "size": 70351,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/60c811c09394ed329fcb55e99b3b8a295f3220f4"
+  },
+  {
+    "path": "raft_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "543a1981de5df16d12f7664ae4d48c20c0ce2306",
+    "size": 90823,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/543a1981de5df16d12f7664ae4d48c20c0ce2306"
+  },
+  {
+    "path": "replication.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ab9b68794be00f83d7813c75c0915da2e21a791",
+    "size": 20670,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/6ab9b68794be00f83d7813c75c0915da2e21a791"
+  },
+  {
+    "path": "saturation.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94c98278a6ef84e01efba6bdb994a8a08068f163",
+    "size": 3311,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/94c98278a6ef84e01efba6bdb994a8a08068f163"
+  },
+  {
+    "path": "saturation_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec3731ad20b6dc79052c8518d83815cd1aeb5957",
+    "size": 3949,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/ec3731ad20b6dc79052c8518d83815cd1aeb5957"
+  },
+  {
+    "path": "snapshot.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70e0461797459bc5f0c3d28d60e8f924bb713dc1",
+    "size": 9023,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/70e0461797459bc5f0c3d28d60e8f924bb713dc1"
+  },
+  {
+    "path": "stable.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d5a576445ecd745e383d11c2530158cd845a393",
+    "size": 513,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/3d5a576445ecd745e383d11c2530158cd845a393"
+  },
+  {
+    "path": "state.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "edbccae722211291aabe5a0b91cbe5b909f791b5",
+    "size": 3938,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/edbccae722211291aabe5a0b91cbe5b909f791b5"
+  },
+  {
+    "path": "tag.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c6eb8a066745d9897c707dfd56fe5acd3f5b8d4b",
+    "size": 465,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/c6eb8a066745d9897c707dfd56fe5acd3f5b8d4b"
+  },
+  {
+    "path": "tcp_transport.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14905747cdc554d092038b305b28223cd652eff2",
+    "size": 3201,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/14905747cdc554d092038b305b28223cd652eff2"
+  },
+  {
+    "path": "tcp_transport_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "131dec27c45e7160b19adc9cdb2610d268cb4420",
+    "size": 998,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/131dec27c45e7160b19adc9cdb2610d268cb4420"
+  },
+  {
+    "path": "testing.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "026812ff50cff0cd17e9cc64d13735af8c128590",
+    "size": 23769,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/026812ff50cff0cd17e9cc64d13735af8c128590"
+  },
+  {
+    "path": "testing_batch.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3903d95a58b883c245ab114b4616fdff16f60bde",
+    "size": 689,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/3903d95a58b883c245ab114b4616fdff16f60bde"
+  },
+  {
+    "path": "transport.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c64fff6ec6edb55fe1215150479eb0c61f91b22b",
+    "size": 5351,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/c64fff6ec6edb55fe1215150479eb0c61f91b22b"
+  },
+  {
+    "path": "transport_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32f11f3beaa8d2490c98fba0599ede1dee0ac850",
+    "size": 7327,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/32f11f3beaa8d2490c98fba0599ede1dee0ac850"
+  },
+  {
+    "path": "util.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b46261101447f6fed1bf905c960e59d870f90e3",
+    "size": 3614,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/4b46261101447f6fed1bf905c960e59d870f90e3"
+  },
+  {
+    "path": "util_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a21b95aee3ea0dbfc72541a316d3ec80376158f",
+    "size": 3567,
+    "url": "https://api.github.com/repos/hashicorp/raft/git/blobs/3a21b95aee3ea0dbfc72541a316d3ec80376158f"
+  }
+]

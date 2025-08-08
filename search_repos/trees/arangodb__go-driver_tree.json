@@ -1,0 +1,934 @@
+[
+  {
+    "path": ".circleci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "78458f6a18bfde05f021252e085095e436eec364",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/78458f6a18bfde05f021252e085095e436eec364"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed9965c6044aad0d284cf9858c7936556d14cdcf",
+    "size": 167,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/ed9965c6044aad0d284cf9858c7936556d14cdcf"
+  },
+  {
+    "path": ".golangci.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc4770926d65e1b09cd73ec5b4ac388c363c3c04",
+    "size": 793,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/dc4770926d65e1b09cd73ec5b4ac388c363c3c04"
+  },
+  {
+    "path": ".vscode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3041d206cec891f10160f3efd02d860c24b63e8",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/f3041d206cec891f10160f3efd02d860c24b63e8"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b5dc8f9849a1ea97bf9b641f042f0b7d7125fba",
+    "size": 7007,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/4b5dc8f9849a1ea97bf9b641f042f0b7d7125fba"
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09f301439d274271e397624f82e7b811b60c0a77",
+    "size": 67,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/09f301439d274271e397624f82e7b811b60c0a77"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a0faffc2358336e50034f55bf5ac047944c6c10",
+    "size": 2474,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/6a0faffc2358336e50034f55bf5ac047944c6c10"
+  },
+  {
+    "path": "Dockerfile.debug",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1acacfdb0f24b109f8565adbfeb39850d822c86",
+    "size": 394,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a1acacfdb0f24b109f8565adbfeb39850d822c86"
+  },
+  {
+    "path": "HEADER",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1fa386cc83edfb4282f82a8c383de564eb153cb",
+    "size": 633,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/d1fa386cc83edfb4282f82a8c383de564eb153cb"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8ff39b5ad4e76611a15d7786770c7255a8791f0",
+    "size": 11343,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/b8ff39b5ad4e76611a15d7786770c7255a8791f0"
+  },
+  {
+    "path": "MAINTAINERS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5edb55a4cca5de301212633f4315852d19a4d142",
+    "size": 1672,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/5edb55a4cca5de301212633f4315852d19a4d142"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96b1713f1afbaee219257511f9ddd8e1fc7eaf3f",
+    "size": 22890,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/96b1713f1afbaee219257511f9ddd8e1fc7eaf3f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eba00e044fbc67adc77481e5f2bce122699a2aa5",
+    "size": 1938,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/eba00e044fbc67adc77481e5f2bce122699a2aa5"
+  },
+  {
+    "path": "Tutorial_v1.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "456671a55bbc6dbd007d5e7bbaff64e6f214c2e9",
+    "size": 19643,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/456671a55bbc6dbd007d5e7bbaff64e6f214c2e9"
+  },
+  {
+    "path": "VERSION",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e51296642aff65f1718f0cea521fb7833b17acf",
+    "size": 9,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/9e51296642aff65f1718f0cea521fb7833b17acf"
+  },
+  {
+    "path": "agency",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1fffb8e82214aa914b187bf072ec7dfea5b8a832",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/1fffb8e82214aa914b187bf072ec7dfea5b8a832"
+  },
+  {
+    "path": "asyncjob.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a144035f1929dfdd7639716c3c360ef9a9200c9",
+    "size": 2232,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/9a144035f1929dfdd7639716c3c360ef9a9200c9"
+  },
+  {
+    "path": "asyncjob_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "216a1a61ab165fbb0fd44634fb004b92b1b62917",
+    "size": 3980,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/216a1a61ab165fbb0fd44634fb004b92b1b62917"
+  },
+  {
+    "path": "authentication.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7fb7fac704a6f9351b67a26b87f7c84be1fef028",
+    "size": 3444,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/7fb7fac704a6f9351b67a26b87f7c84be1fef028"
+  },
+  {
+    "path": "client.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d634c8ad721822a83fbf548089883e634a721ad",
+    "size": 6714,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/5d634c8ad721822a83fbf548089883e634a721ad"
+  },
+  {
+    "path": "client_admin_backup.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35ddd53fabf7170bbb78a65a24fdaf4f2ef8d51c",
+    "size": 5701,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/35ddd53fabf7170bbb78a65a24fdaf4f2ef8d51c"
+  },
+  {
+    "path": "client_admin_backup_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "956d474e9323c2ae27e712db6533e298253748fb",
+    "size": 8721,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/956d474e9323c2ae27e712db6533e298253748fb"
+  },
+  {
+    "path": "client_cluster.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6c879d2cc3c033b0606bdef29b96eceacd6105f",
+    "size": 1131,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a6c879d2cc3c033b0606bdef29b96eceacd6105f"
+  },
+  {
+    "path": "client_cluster_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ac0ee62a7acdc8a9eab8e69cf15f3c25c8f65ae",
+    "size": 1439,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/5ac0ee62a7acdc8a9eab8e69cf15f3c25c8f65ae"
+  },
+  {
+    "path": "client_databases.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22e429c7b6be346686cf5c8bcc4b3c6d83682d2f",
+    "size": 4338,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/22e429c7b6be346686cf5c8bcc4b3c6d83682d2f"
+  },
+  {
+    "path": "client_databases_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98e32337305f5ffa687ceb542b9cb041c709d0bf",
+    "size": 4543,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/98e32337305f5ffa687ceb542b9cb041c709d0bf"
+  },
+  {
+    "path": "client_foxx.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2201111bba48db8f766712a13bd7737931d678e4",
+    "size": 1253,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/2201111bba48db8f766712a13bd7737931d678e4"
+  },
+  {
+    "path": "client_foxx_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3868731366ad804071b1c4ce665de57b37e4c613",
+    "size": 842,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/3868731366ad804071b1c4ce665de57b37e4c613"
+  },
+  {
+    "path": "client_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "868f599f74a22c5e672487ca412e503e273acbad",
+    "size": 6837,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/868f599f74a22c5e672487ca412e503e273acbad"
+  },
+  {
+    "path": "client_replication.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf6e7fea5bbe46a69a178db3d35e731db48bafe6",
+    "size": 958,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/bf6e7fea5bbe46a69a178db3d35e731db48bafe6"
+  },
+  {
+    "path": "client_replication_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03db2a4ad67b9f902efbf24b4055b28eec2d8ccb",
+    "size": 854,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/03db2a4ad67b9f902efbf24b4055b28eec2d8ccb"
+  },
+  {
+    "path": "client_server_admin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2a3ea1c2b6a2a84ce82c763907644a099b76469",
+    "size": 7698,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a2a3ea1c2b6a2a84ce82c763907644a099b76469"
+  },
+  {
+    "path": "client_server_admin_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8fead958ef83190a071f40deb1fa136ab0cbb8a",
+    "size": 7420,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/c8fead958ef83190a071f40deb1fa136ab0cbb8a"
+  },
+  {
+    "path": "client_server_info.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cb3fdcbd5e970163c3396e18d2243be80eff383",
+    "size": 2527,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/0cb3fdcbd5e970163c3396e18d2243be80eff383"
+  },
+  {
+    "path": "client_server_info_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73b22f83aa83e4bc2579b234c0419ae5d0452635",
+    "size": 4262,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/73b22f83aa83e4bc2579b234c0419ae5d0452635"
+  },
+  {
+    "path": "client_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a24d78fa9984526c7f7fa2c1c850b1ba89d49f26",
+    "size": 1670,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a24d78fa9984526c7f7fa2c1c850b1ba89d49f26"
+  },
+  {
+    "path": "client_users.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b891b44caf898fb17372a2ecb1e8ae1e79455b90",
+    "size": 2188,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/b891b44caf898fb17372a2ecb1e8ae1e79455b90"
+  },
+  {
+    "path": "client_users_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a17194da746071b7059812d923f359c3365abf9",
+    "size": 3784,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/0a17194da746071b7059812d923f359c3365abf9"
+  },
+  {
+    "path": "cluster.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69222e584c2ce971022cebc0781c2e68bd981837",
+    "size": 13606,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/69222e584c2ce971022cebc0781c2e68bd981837"
+  },
+  {
+    "path": "cluster",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c10ab6acab78ab5fcf6e2874a12f2c04e910131",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/0c10ab6acab78ab5fcf6e2874a12f2c04e910131"
+  },
+  {
+    "path": "cluster_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f206d18ed3b8c73d894a4a6e6299c279fa528d9e",
+    "size": 16542,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/f206d18ed3b8c73d894a4a6e6299c279fa528d9e"
+  },
+  {
+    "path": "collection.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c019d82e743288c074b018ee8c71f7ac1ad713b7",
+    "size": 15735,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/c019d82e743288c074b018ee8c71f7ac1ad713b7"
+  },
+  {
+    "path": "collection_document_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "450741cbb5573e9db52cfa6c81de1ec754ed2ad8",
+    "size": 23616,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/450741cbb5573e9db52cfa6c81de1ec754ed2ad8"
+  },
+  {
+    "path": "collection_documents.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9535588bca0cb3d025e9f2790a990b0565f3f23",
+    "size": 11365,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a9535588bca0cb3d025e9f2790a990b0565f3f23"
+  },
+  {
+    "path": "collection_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2ecf16292e91910a3909a23da0e30acea0edb26",
+    "size": 11855,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/e2ecf16292e91910a3909a23da0e30acea0edb26"
+  },
+  {
+    "path": "collection_indexes.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1457c516ee4731289521518e917a8570a49a8771",
+    "size": 21723,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/1457c516ee4731289521518e917a8570a49a8771"
+  },
+  {
+    "path": "collection_indexes_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "716fe7c4e44babcfad3bf5aaf1c147d4e3e06c25",
+    "size": 15162,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/716fe7c4e44babcfad3bf5aaf1c147d4e3e06c25"
+  },
+  {
+    "path": "connection.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3bb5e48fec0cda933fb35fb8a41d4891b7b0344",
+    "size": 7171,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/c3bb5e48fec0cda933fb35fb8a41d4891b7b0344"
+  },
+  {
+    "path": "content_type.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe4b0ada7763b47cbf27a55fdc1f2f8516e0607f",
+    "size": 1239,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/fe4b0ada7763b47cbf27a55fdc1f2f8516e0607f"
+  },
+  {
+    "path": "context.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbaa2feed6a9080fbfde309743a97e282ecec885",
+    "size": 23824,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/bbaa2feed6a9080fbfde309743a97e282ecec885"
+  },
+  {
+    "path": "context_read.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f35f3a28c1d8aa35efb27c3dd58c887d9bf88df6",
+    "size": 2037,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/f35f3a28c1d8aa35efb27c3dd58c887d9bf88df6"
+  },
+  {
+    "path": "cursor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f349c5798cbba5c86504baf5a60af44d29b7a7af",
+    "size": 3884,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/f349c5798cbba5c86504baf5a60af44d29b7a7af"
+  },
+  {
+    "path": "cursor_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a0d2558d62c53200eb6c748c377de1a9e3c5760",
+    "size": 13615,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/5a0d2558d62c53200eb6c748c377de1a9e3c5760"
+  },
+  {
+    "path": "database.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38d48747c8d6362c4faa469875cfdacab2ea4075",
+    "size": 5008,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/38d48747c8d6362c4faa469875cfdacab2ea4075"
+  },
+  {
+    "path": "database_arangosearch_analyzers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4f25cb5e0de2c8abd37d7a4fafea7031435985b",
+    "size": 2339,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/e4f25cb5e0de2c8abd37d7a4fafea7031435985b"
+  },
+  {
+    "path": "database_arangosearch_analyzers_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90538e831c1158a40b0d64f0c55e799c3257f306",
+    "size": 6060,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/90538e831c1158a40b0d64f0c55e799c3257f306"
+  },
+  {
+    "path": "database_collections.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ab6cd6cc4067124ba50eb372bbb523cf3ca61e0",
+    "size": 12251,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/0ab6cd6cc4067124ba50eb372bbb523cf3ca61e0"
+  },
+  {
+    "path": "database_collections_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "758b17fabff57322c30cd174bceb5c13ff525bf8",
+    "size": 7013,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/758b17fabff57322c30cd174bceb5c13ff525bf8"
+  },
+  {
+    "path": "database_collections_schema.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a022a27e91213f7a71fd90c7d89d7ddc776390fa",
+    "size": 1510,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a022a27e91213f7a71fd90c7d89d7ddc776390fa"
+  },
+  {
+    "path": "database_graphs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21b1c94f04c91bac984a781f5f2f34198a195705",
+    "size": 4103,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/21b1c94f04c91bac984a781f5f2f34198a195705"
+  },
+  {
+    "path": "database_graphs_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e1c08d0b0efce8a61f764a5f944cec8fbf01581",
+    "size": 8804,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/5e1c08d0b0efce8a61f764a5f944cec8fbf01581"
+  },
+  {
+    "path": "database_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d9538b985fcc3da40fad2b7c00f8b5df612202bc",
+    "size": 8425,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/d9538b985fcc3da40fad2b7c00f8b5df612202bc"
+  },
+  {
+    "path": "database_pregel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6ed80deddad6fcce887af8dd327a3782f97d2a1",
+    "size": 9653,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/e6ed80deddad6fcce887af8dd327a3782f97d2a1"
+  },
+  {
+    "path": "database_pregel_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "897da5d48a450c93f0388d5968770c37a0396c97",
+    "size": 2973,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/897da5d48a450c93f0388d5968770c37a0396c97"
+  },
+  {
+    "path": "database_transactions.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7fed317bf3dc74fc233980bc882862a3517a6a99",
+    "size": 2520,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/7fed317bf3dc74fc233980bc882862a3517a6a99"
+  },
+  {
+    "path": "database_transactions_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "813db1d58e6ffc2296ef3f7e476dd43dea3b2ba5",
+    "size": 3331,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/813db1d58e6ffc2296ef3f7e476dd43dea3b2ba5"
+  },
+  {
+    "path": "database_views.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66117d4b7740027f0145c4f758df4c55ac72e50a",
+    "size": 2329,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/66117d4b7740027f0145c4f758df4c55ac72e50a"
+  },
+  {
+    "path": "database_views_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a0217d877cf2d75d87e9d62dd25fc7e56ce50b9",
+    "size": 5677,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/2a0217d877cf2d75d87e9d62dd25fc7e56ce50b9"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69cde6d3c22618c7581d00c92932355af5621008",
+    "size": 1206,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/69cde6d3c22618c7581d00c92932355af5621008"
+  },
+  {
+    "path": "edge.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f82fd500c2742c0639abfb88ce5b74f8a6a9e56",
+    "size": 1061,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/5f82fd500c2742c0639abfb88ce5b74f8a6a9e56"
+  },
+  {
+    "path": "edge_collection_documents_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9fe076661f6c5b636c1841826655569a4980cee",
+    "size": 21225,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a9fe076661f6c5b636c1841826655569a4980cee"
+  },
+  {
+    "path": "edge_collection_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efbc1fee333927ff03336be8187995165c6cb73b",
+    "size": 5793,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/efbc1fee333927ff03336be8187995165c6cb73b"
+  },
+  {
+    "path": "edge_collection_indexes_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75422df79bfbdad2270889d23fe4231a01d03e61",
+    "size": 7554,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/75422df79bfbdad2270889d23fe4231a01d03e61"
+  },
+  {
+    "path": "encode-go_1_8.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8f8f30095f97e46f49e9a27dd370dadc0d337ac",
+    "size": 1042,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a8f8f30095f97e46f49e9a27dd370dadc0d337ac"
+  },
+  {
+    "path": "encode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a539eea8aa56ce16aa96097dfb7bd71f26e52eea",
+    "size": 1042,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a539eea8aa56ce16aa96097dfb7bd71f26e52eea"
+  },
+  {
+    "path": "encode_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25539ce08482ec607d1c6108772c6a0e89ce1932",
+    "size": 1094,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/25539ce08482ec607d1c6108772c6a0e89ce1932"
+  },
+  {
+    "path": "error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "893e1ca653a3c96a959a4ddb424d5dd8630046af",
+    "size": 29105,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/893e1ca653a3c96a959a4ddb424d5dd8630046af"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b5aea766634fee86489fc8035837ca80cbd8c251",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/b5aea766634fee86489fc8035837ca80cbd8c251"
+  },
+  {
+    "path": "foxx.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aad80862f4e0db26a05788f207931d368e697eff",
+    "size": 2039,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/aad80862f4e0db26a05788f207931d368e697eff"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b3fde2038cb690a67dc254192719c88f03e3d1e",
+    "size": 738,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/3b3fde2038cb690a67dc254192719c88f03e3d1e"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a088dc0471a4874339db4abde3f29d0ad4d097f3",
+    "size": 4169,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a088dc0471a4874339db4abde3f29d0ad4d097f3"
+  },
+  {
+    "path": "graph.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93c72466d2f07af9939020843ee1067ab5418747",
+    "size": 2576,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/93c72466d2f07af9939020843ee1067ab5418747"
+  },
+  {
+    "path": "graph_edge_collections.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecb8cf0ba9e8e900f193ea7e324dd3c3a4de0ce4",
+    "size": 3348,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/ecb8cf0ba9e8e900f193ea7e324dd3c3a4de0ce4"
+  },
+  {
+    "path": "graph_edge_collections_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81076f217d4920946be407c16fbd0b99630a9561",
+    "size": 7560,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/81076f217d4920946be407c16fbd0b99630a9561"
+  },
+  {
+    "path": "graph_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2662e915c7c58312c72e829835abc7540485503",
+    "size": 3971,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/b2662e915c7c58312c72e829835abc7540485503"
+  },
+  {
+    "path": "graph_vertex_collections.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a13894937caacbcb3d2f2e0d15b52555321adae",
+    "size": 2516,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/3a13894937caacbcb3d2f2e0d15b52555321adae"
+  },
+  {
+    "path": "graph_vertex_collections_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03f4cf7cb29be8b4ee4d593b386808a2b1443fec",
+    "size": 5140,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/03f4cf7cb29be8b4ee4d593b386808a2b1443fec"
+  },
+  {
+    "path": "http",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "209bf536593c0f0d3116237d94b792a7c6fff8da",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/209bf536593c0f0d3116237d94b792a7c6fff8da"
+  },
+  {
+    "path": "id.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a57b8376377499474e0e50a1d70a4ac4c58cfd44",
+    "size": 2635,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a57b8376377499474e0e50a1d70a4ac4c58cfd44"
+  },
+  {
+    "path": "index.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de72395e420828625fde29ae0c566efba365ae00",
+    "size": 3556,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/de72395e420828625fde29ae0c566efba365ae00"
+  },
+  {
+    "path": "index_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb452c2dc11f0934aef2ba3f9ca9f91ffe5b504f",
+    "size": 7766,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/bb452c2dc11f0934aef2ba3f9ca9f91ffe5b504f"
+  },
+  {
+    "path": "jwt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "92c8c465c0655d024ca1edd26e036032337b16ef",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/92c8c465c0655d024ca1edd26e036032337b16ef"
+  },
+  {
+    "path": "meta.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f87fc3a4a08cf16d052b52903cab5a593f452760",
+    "size": 1857,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/f87fc3a4a08cf16d052b52903cab5a593f452760"
+  },
+  {
+    "path": "protocol.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62702b26be0c3408ab6d8ba5933772775edd7a36",
+    "size": 1380,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/62702b26be0c3408ab6d8ba5933772775edd7a36"
+  },
+  {
+    "path": "query.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cffaa746b6d67a24ba615f5747596544acc4992",
+    "size": 15448,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/6cffaa746b6d67a24ba615f5747596544acc4992"
+  },
+  {
+    "path": "query_explain.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7df4af1b9251a1ef52f683153880e64eddcc03e",
+    "size": 3675,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/d7df4af1b9251a1ef52f683153880e64eddcc03e"
+  },
+  {
+    "path": "replication.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f0f8d26bc78598c06f7e0eeeb040c8d5e113cb0",
+    "size": 2684,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/5f0f8d26bc78598c06f7e0eeeb040c8d5e113cb0"
+  },
+  {
+    "path": "replication_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3adbe4f4cf7300dbd562f32811abd924dda7e04",
+    "size": 4728,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/c3adbe4f4cf7300dbd562f32811abd924dda7e04"
+  },
+  {
+    "path": "revision.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1dbe90d43b50382a9531cc7d44866b5542bdcb3f",
+    "size": 8224,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/1dbe90d43b50382a9531cc7d44866b5542bdcb3f"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "02e80555f85144a6945e0c19ec84e7398547a16a",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/02e80555f85144a6945e0c19ec84e7398547a16a"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b400dc4206638c65f1ddc06ff8e711b2cc7deb2",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/2b400dc4206638c65f1ddc06ff8e711b2cc7deb2"
+  },
+  {
+    "path": "transaction.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0ade482d379341ec28c4cffc3a4c39ae01fa5e1",
+    "size": 3023,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/f0ade482d379341ec28c4cffc3a4c39ae01fa5e1"
+  },
+  {
+    "path": "user.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "987628a9762c986586aa0d5bc11811732181fec0",
+    "size": 5672,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/987628a9762c986586aa0d5bc11811732181fec0"
+  },
+  {
+    "path": "user_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e57f435c269a30864700aa7cc0de02d455cc7d8c",
+    "size": 11983,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/e57f435c269a30864700aa7cc0de02d455cc7d8c"
+  },
+  {
+    "path": "util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8c8c02abbb7269fe2c12f3f20a249e4708edf2c2",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/8c8c02abbb7269fe2c12f3f20a249e4708edf2c2"
+  },
+  {
+    "path": "v2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "355e5fac7ef0db1b3d0600d4b596eed3d131ed48",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/355e5fac7ef0db1b3d0600d4b596eed3d131ed48"
+  },
+  {
+    "path": "version-driver.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd6a952696dc22adc7b88000971539e5b0bab96e",
+    "size": 819,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/fd6a952696dc22adc7b88000971539e5b0bab96e"
+  },
+  {
+    "path": "version.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f52e85daebc15a8759a13fc1fdd800278d71b04f",
+    "size": 2598,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/f52e85daebc15a8759a13fc1fdd800278d71b04f"
+  },
+  {
+    "path": "vertex_collection_documents_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3319e5678cdc1990d4ace6b88f4997483a184e1b",
+    "size": 20164,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/3319e5678cdc1990d4ace6b88f4997483a184e1b"
+  },
+  {
+    "path": "vertex_collection_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a56c6d0ffe02b18a153db9f91893716dc751f82f",
+    "size": 5852,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/a56c6d0ffe02b18a153db9f91893716dc751f82f"
+  },
+  {
+    "path": "vertex_collection_indexes_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8528b4e2f118daafd3c5dd48a54d1919765f1e70",
+    "size": 7580,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/8528b4e2f118daafd3c5dd48a54d1919765f1e70"
+  },
+  {
+    "path": "view.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e703132634b3397f23426d4b398ea1e26eb2143",
+    "size": 1706,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/0e703132634b3397f23426d4b398ea1e26eb2143"
+  },
+  {
+    "path": "view_arangosearch.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59dfcde9940afbc54e677b6e85b4ec0aa0414345",
+    "size": 26371,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/59dfcde9940afbc54e677b6e85b4ec0aa0414345"
+  },
+  {
+    "path": "view_arangosearch_alias.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e701196798f737685af064b3ea34d1e3b171296",
+    "size": 1686,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/0e701196798f737685af064b3ea34d1e3b171296"
+  },
+  {
+    "path": "view_arangosearch_alias_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af82e18e5086a829882a9a79beb49000ba0fccc9",
+    "size": 2510,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/af82e18e5086a829882a9a79beb49000ba0fccc9"
+  },
+  {
+    "path": "view_arangosearch_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90da75e62278f6f29de40137c5c59be7d1c9772f",
+    "size": 2114,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/90da75e62278f6f29de40137c5c59be7d1c9772f"
+  },
+  {
+    "path": "view_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "153e69262b2db957ad7226810557aa15bc32a973",
+    "size": 3719,
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/blobs/153e69262b2db957ad7226810557aa15bc32a973"
+  },
+  {
+    "path": "vst",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "68af8fdb46b650ea59e9e5b68c480aabab291554",
+    "url": "https://api.github.com/repos/arangodb/go-driver/git/trees/68af8fdb46b650ea59e9e5b68c480aabab291554"
+  }
+]

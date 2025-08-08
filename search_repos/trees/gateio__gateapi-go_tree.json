@@ -1,0 +1,2256 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "daf913b1b347aae6de6f48d599bc89ef8c8693d6",
+    "size": 266,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/daf913b1b347aae6de6f48d599bc89ef8c8693d6"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5cb2ce9a5aad73c57eed886e845d2e79c2899d1",
+    "size": 71,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f5cb2ce9a5aad73c57eed886e845d2e79c2899d1"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7995be2affc6fae7d9cd09f3e8e21e284240c8b5",
+    "size": 60435,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7995be2affc6fae7d9cd09f3e8e21e284240c8b5"
+  },
+  {
+    "path": "_example",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "47192570d9f7696404a51502b1000024ec29b321",
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/trees/47192570d9f7696404a51502b1000024ec29b321"
+  },
+  {
+    "path": "api_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d956c9d9cd1e1f7c7c3430b2ce4e476a251726c",
+    "size": 30314,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7d956c9d9cd1e1f7c7c3430b2ce4e476a251726c"
+  },
+  {
+    "path": "api_collateral_loan.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8b38dd892425a90e5e2331599ea7003f7d3beb0",
+    "size": 38402,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/c8b38dd892425a90e5e2331599ea7003f7d3beb0"
+  },
+  {
+    "path": "api_delivery.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "269c4331f27d34df3cb9b53df1ac1e163c9c3cf8",
+    "size": 115920,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/269c4331f27d34df3cb9b53df1ac1e163c9c3cf8"
+  },
+  {
+    "path": "api_earn.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09b480ecf7867b46bbd014eb186fdbd976bd8321",
+    "size": 35070,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/09b480ecf7867b46bbd014eb186fdbd976bd8321"
+  },
+  {
+    "path": "api_earn_uni.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90903b5ea7eb0c8d8a4e4e29c2e5645fd2097558",
+    "size": 41357,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/90903b5ea7eb0c8d8a4e4e29c2e5645fd2097558"
+  },
+  {
+    "path": "api_flash_swap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ec665a3f682157eb1cab98b9ba8bb0818a949d7",
+    "size": 20261,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/1ec665a3f682157eb1cab98b9ba8bb0818a949d7"
+  },
+  {
+    "path": "api_futures.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72094ef4cd9003409bec3d1710fade4327d1198c",
+    "size": 213602,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/72094ef4cd9003409bec3d1710fade4327d1198c"
+  },
+  {
+    "path": "api_margin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb7117f4a13a7d6b279d684472195846fe539cf6",
+    "size": 46359,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/eb7117f4a13a7d6b279d684472195846fe539cf6"
+  },
+  {
+    "path": "api_margin_uni.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "443105fcb1fb365178cea94d56a881a79d02f5be",
+    "size": 31018,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/443105fcb1fb365178cea94d56a881a79d02f5be"
+  },
+  {
+    "path": "api_multi_collateral_loan.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4b963dc414af142691727c982b00a2a3a7877bf",
+    "size": 45477,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d4b963dc414af142691727c982b00a2a3a7877bf"
+  },
+  {
+    "path": "api_options.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9dbfafff80edad7c094416c195b4ca2aa177ae9",
+    "size": 108514,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e9dbfafff80edad7c094416c195b4ca2aa177ae9"
+  },
+  {
+    "path": "api_rebate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d543d18da628d1172e4ad1063f836fab094f689a",
+    "size": 42173,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d543d18da628d1172e4ad1063f836fab094f689a"
+  },
+  {
+    "path": "api_spot.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7b63e489d19e03aedeeb8d8d2df6184749c3367",
+    "size": 136478,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e7b63e489d19e03aedeeb8d8d2df6184749c3367"
+  },
+  {
+    "path": "api_sub_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b0e6af5745d153d26b279f2949056098a69ed4c",
+    "size": 36009,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/8b0e6af5745d153d26b279f2949056098a69ed4c"
+  },
+  {
+    "path": "api_unified.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e91ca72bde7ee8ddd9a36f2878cba0d196e575c",
+    "size": 80881,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9e91ca72bde7ee8ddd9a36f2878cba0d196e575c"
+  },
+  {
+    "path": "api_wallet.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f07d6e0936aec44afff4d2879adf3b839cfa6fa",
+    "size": 84724,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/0f07d6e0936aec44afff4d2879adf3b839cfa6fa"
+  },
+  {
+    "path": "api_withdrawal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4991a155ec6f6f9667087f6f15cc3b67f722b091",
+    "size": 10487,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4991a155ec6f6f9667087f6f15cc3b67f722b091"
+  },
+  {
+    "path": "client.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "099bcabe1f99df096935e7603b6572226c189137",
+    "size": 15987,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/099bcabe1f99df096935e7603b6572226c189137"
+  },
+  {
+    "path": "configuration.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49f12dd219f11352002a4b7b61089357b5e56cf3",
+    "size": 4378,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/49f12dd219f11352002a4b7b61089357b5e56cf3"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d72fe8ed4ff41c6682920c4af19e4667108f56c",
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/trees/2d72fe8ed4ff41c6682920c4af19e4667108f56c"
+  },
+  {
+    "path": "git_push.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ceb9d8b52ec623b57c61bebd1c5e80dd7eb4a8a5",
+    "size": 1821,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ceb9d8b52ec623b57c61bebd1c5e80dd7eb4a8a5"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da363b1d8e806d55eb640439bb640560ea4f87f1",
+    "size": 92,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/da363b1d8e806d55eb640439bb640560ea4f87f1"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83988064580983131e3344cfdeb4cecb5932cccb",
+    "size": 173,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/83988064580983131e3344cfdeb4cecb5932cccb"
+  },
+  {
+    "path": "model_account_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8048c88acf5e9c7fc5c72dd468ffb293289907b1",
+    "size": 888,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/8048c88acf5e9c7fc5c72dd468ffb293289907b1"
+  },
+  {
+    "path": "model_account_detail.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4242c34f434a2012cf301298039772198cf6cbbc",
+    "size": 907,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4242c34f434a2012cf301298039772198cf6cbbc"
+  },
+  {
+    "path": "model_account_detail_key.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7856e5f42b41ba957f2601dd1f3d1c1bdabbc851",
+    "size": 517,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7856e5f42b41ba957f2601dd1f3d1c1bdabbc851"
+  },
+  {
+    "path": "model_account_rate_limit.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70eaac3482f0be736aa65f84a250fdddeb50d548",
+    "size": 786,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/70eaac3482f0be736aa65f84a250fdddeb50d548"
+  },
+  {
+    "path": "model_agency_commission.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a04611f542a1db3aa2f9a288d8abd5637e0ca28b",
+    "size": 914,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/a04611f542a1db3aa2f9a288d8abd5637e0ca28b"
+  },
+  {
+    "path": "model_agency_commission_history.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33cddfdf6152d78a31aa7c9437c1d3a2731c47ec",
+    "size": 617,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/33cddfdf6152d78a31aa7c9437c1d3a2731c47ec"
+  },
+  {
+    "path": "model_agency_transaction.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9124699963203949c2ec42f39223b295b18db853",
+    "size": 1057,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9124699963203949c2ec42f39223b295b18db853"
+  },
+  {
+    "path": "model_agency_transaction_history.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6adaffa2d913111390e7663ac4a5589bf2b2c68",
+    "size": 620,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/a6adaffa2d913111390e7663ac4a5589bf2b2c68"
+  },
+  {
+    "path": "model_auto_repay_setting.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "edd765589dd061c31ee7a602c5108d185b530c74",
+    "size": 511,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/edd765589dd061c31ee7a602c5108d185b530c74"
+  },
+  {
+    "path": "model_batch_amend_item.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb7d6a5aa20c90c33f5b188349e01ef27823e02d",
+    "size": 1450,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/bb7d6a5aa20c90c33f5b188349e01ef27823e02d"
+  },
+  {
+    "path": "model_batch_amend_order_req.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2ea23ed7638a6b93e765bf7369bbec2aa005994",
+    "size": 1312,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f2ea23ed7638a6b93e765bf7369bbec2aa005994"
+  },
+  {
+    "path": "model_batch_futures_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f402904c14fbe182328340475b163a618ecbff1e",
+    "size": 4844,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f402904c14fbe182328340475b163a618ecbff1e"
+  },
+  {
+    "path": "model_batch_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11bdf5dc30a31810951af4d00b6f276aa9e96c38",
+    "size": 5406,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/11bdf5dc30a31810951af4d00b6f276aa9e96c38"
+  },
+  {
+    "path": "model_borrow_currency_info.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2838ff77aa55d14df4d70f217901f768f598e591",
+    "size": 841,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/2838ff77aa55d14df4d70f217901f768f598e591"
+  },
+  {
+    "path": "model_broker_commission.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "491123dfbd2571a0121ad0af9e4614a9f720f039",
+    "size": 539,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/491123dfbd2571a0121ad0af9e4614a9f720f039"
+  },
+  {
+    "path": "model_broker_commission_1.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a6023ea86ac77a47a88cc5ba442105eadb0e73f",
+    "size": 1283,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9a6023ea86ac77a47a88cc5ba442105eadb0e73f"
+  },
+  {
+    "path": "model_broker_commission_sub_broker_info.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "520c6d39616337cc1375c4564058f02cbafe587a",
+    "size": 839,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/520c6d39616337cc1375c4564058f02cbafe587a"
+  },
+  {
+    "path": "model_broker_transaction.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e4540e08d0cc3439fc1fe47cf3ed651b4cb60e9",
+    "size": 542,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5e4540e08d0cc3439fc1fe47cf3ed651b4cb60e9"
+  },
+  {
+    "path": "model_broker_transaction_1.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "abe4a7e84738deb5b1a80f6dff7ad7e5ab8ac081",
+    "size": 1188,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/abe4a7e84738deb5b1a80f6dff7ad7e5ab8ac081"
+  },
+  {
+    "path": "model_cancel_batch_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ef9b64ea0a473f3d157c4a4048ca21866140063",
+    "size": 1126,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5ef9b64ea0a473f3d157c4a4048ca21866140063"
+  },
+  {
+    "path": "model_cancel_order_result.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2cba136602a3e85666ae4358d9d3d3402ff2c95",
+    "size": 1004,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f2cba136602a3e85666ae4358d9d3d3402ff2c95"
+  },
+  {
+    "path": "model_collateral_adjust.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd046bc9ead2ca8a57415cc56f7236480e797118",
+    "size": 651,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/dd046bc9ead2ca8a57415cc56f7236480e797118"
+  },
+  {
+    "path": "model_collateral_adjust_res.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94b082cc7bfb3182d8feaaed1305ae507d7bf37f",
+    "size": 630,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/94b082cc7bfb3182d8feaaed1305ae507d7bf37f"
+  },
+  {
+    "path": "model_collateral_align.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e02485887f0f83fba5454ed62c2439d2f3583f54",
+    "size": 710,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e02485887f0f83fba5454ed62c2439d2f3583f54"
+  },
+  {
+    "path": "model_collateral_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "652e1788253f9e5564de26e32e716b04ec0958cf",
+    "size": 520,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/652e1788253f9e5564de26e32e716b04ec0958cf"
+  },
+  {
+    "path": "model_collateral_currency_info.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "127c9ed76b982cec26c6bbca2bb00d189c509c76",
+    "size": 755,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/127c9ed76b982cec26c6bbca2bb00d189c509c76"
+  },
+  {
+    "path": "model_collateral_currency_res.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "837e7ac8fef10a27465ac326d8c7208369be7f8f",
+    "size": 868,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/837e7ac8fef10a27465ac326d8c7208369be7f8f"
+  },
+  {
+    "path": "model_collateral_current_rate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e08921a11f9924735b2ac613513196ca78ab2115",
+    "size": 602,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e08921a11f9924735b2ac613513196ca78ab2115"
+  },
+  {
+    "path": "model_collateral_fix_rate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61328eebed3763b799c41d14b7a6babe6f8bea86",
+    "size": 781,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/61328eebed3763b799c41d14b7a6babe6f8bea86"
+  },
+  {
+    "path": "model_collateral_loan_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0e915ee80251aa4d4e7018d544a9c37c03e501c",
+    "size": 653,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d0e915ee80251aa4d4e7018d544a9c37c03e501c"
+  },
+  {
+    "path": "model_collateral_ltv.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdc092ec5eab0b5b55cb3177c7af4ce6acb069e4",
+    "size": 686,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/cdc092ec5eab0b5b55cb3177c7af4ce6acb069e4"
+  },
+  {
+    "path": "model_collateral_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "febc95638eea10ec70c3df055e6bdb37af65467a",
+    "size": 2128,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/febc95638eea10ec70c3df055e6bdb37af65467a"
+  },
+  {
+    "path": "model_collateral_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cafb3618fdfef31182b854c61e1efcdcf1f3e52d",
+    "size": 1265,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/cafb3618fdfef31182b854c61e1efcdcf1f3e52d"
+  },
+  {
+    "path": "model_contract.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8d93c34a54f4cc4c068394e5c0ad36be2a4a3cc",
+    "size": 4466,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/a8d93c34a54f4cc4c068394e5c0ad36be2a4a3cc"
+  },
+  {
+    "path": "model_contract_stat.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b198d78f7540e7b1b17ec1c7033d9f13640bb738",
+    "size": 1603,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b198d78f7540e7b1b17ec1c7033d9f13640bb738"
+  },
+  {
+    "path": "model_convert_small_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c89caf60e8b1f486d9628eeaf5d795464776154",
+    "size": 582,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9c89caf60e8b1f486d9628eeaf5d795464776154"
+  },
+  {
+    "path": "model_countdown_cancel_all_futures_task.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61be41172c431cff65b559f16d4b3c7f16021fb1",
+    "size": 629,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/61be41172c431cff65b559f16d4b3c7f16021fb1"
+  },
+  {
+    "path": "model_countdown_cancel_all_options_task.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b08a4b9c264f86c9eb52c4a5e041efec3d75c4f",
+    "size": 698,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/2b08a4b9c264f86c9eb52c4a5e041efec3d75c4f"
+  },
+  {
+    "path": "model_countdown_cancel_all_spot_task.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e0ee068b154003b7217e668911e3ae12e9e0efd",
+    "size": 632,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/2e0ee068b154003b7217e668911e3ae12e9e0efd"
+  },
+  {
+    "path": "model_create_collateral_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "696d3fa70e13904d5229e0262ef8d3459c9da949",
+    "size": 703,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/696d3fa70e13904d5229e0262ef8d3459c9da949"
+  },
+  {
+    "path": "model_create_multi_collateral_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af12a16ef9ca1aae8e9a6c0d8fa501f36807232d",
+    "size": 1270,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/af12a16ef9ca1aae8e9a6c0d8fa501f36807232d"
+  },
+  {
+    "path": "model_create_uni_lend.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c51c192d6e70f873832c7772dc7c995c393152d",
+    "size": 809,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4c51c192d6e70f873832c7772dc7c995c393152d"
+  },
+  {
+    "path": "model_create_uni_loan.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45428d6f2339a94bf7c607b9a5be21392c862521",
+    "size": 826,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/45428d6f2339a94bf7c607b9a5be21392c862521"
+  },
+  {
+    "path": "model_cross_margin_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2870a7fca20bff4eb40664885bfa848780b6711",
+    "size": 672,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/c2870a7fca20bff4eb40664885bfa848780b6711"
+  },
+  {
+    "path": "model_cross_margin_loan.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7411e791570b6d6de3a56729f8c1396d1554e2a5",
+    "size": 1233,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7411e791570b6d6de3a56729f8c1396d1554e2a5"
+  },
+  {
+    "path": "model_cross_margin_repayment.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bec37540da0da73e2d10c9186f2ee8dfbb6da5e",
+    "size": 978,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/1bec37540da0da73e2d10c9186f2ee8dfbb6da5e"
+  },
+  {
+    "path": "model_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8f6441c776b00bdacebe70d33b1b8cb7181110c",
+    "size": 1352,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b8f6441c776b00bdacebe70d33b1b8cb7181110c"
+  },
+  {
+    "path": "model_currency_chain.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab35ddbda382c6f936136e06c437eff2db72895a",
+    "size": 1149,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ab35ddbda382c6f936136e06c437eff2db72895a"
+  },
+  {
+    "path": "model_currency_pair.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1b88ff4e0282232fff331e9670eeb1e75e5b2ef",
+    "size": 2196,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b1b88ff4e0282232fff331e9670eeb1e75e5b2ef"
+  },
+  {
+    "path": "model_currency_quota.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7723edcae0e5201bb1739ab76b9218a87c53f96a",
+    "size": 870,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7723edcae0e5201bb1739ab76b9218a87c53f96a"
+  },
+  {
+    "path": "model_debit_fee.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "893db932fd71e6ef6c85a1231522fc36cd9eae0e",
+    "size": 473,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/893db932fd71e6ef6c85a1231522fc36cd9eae0e"
+  },
+  {
+    "path": "model_delivery_candlestick.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4b0ced052f95cd32ac53556e315293702262a34",
+    "size": 873,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b4b0ced052f95cd32ac53556e315293702262a34"
+  },
+  {
+    "path": "model_delivery_contract.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5567100131bcce40b383455aa929160e470edc36",
+    "size": 3974,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5567100131bcce40b383455aa929160e470edc36"
+  },
+  {
+    "path": "model_delivery_settlement.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ac0d2a7ef1da9b88fcbfc48570630f07f6dbf0f",
+    "size": 965,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3ac0d2a7ef1da9b88fcbfc48570630f07f6dbf0f"
+  },
+  {
+    "path": "model_delivery_ticker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0308e7c42a3ef9262c6fd25e449846a5ebd4558",
+    "size": 2634,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/a0308e7c42a3ef9262c6fd25e449846a5ebd4558"
+  },
+  {
+    "path": "model_deposit_address.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91c59da08b01da5741204ac001b9727f322b2fef",
+    "size": 630,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/91c59da08b01da5741204ac001b9727f322b2fef"
+  },
+  {
+    "path": "model_deposit_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a70e71b5065825c1c0272f3d2f5b45eed5c9a5b8",
+    "size": 1483,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/a70e71b5065825c1c0272f3d2f5b45eed5c9a5b8"
+  },
+  {
+    "path": "model_dual_get_orders.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd837aa883c9af6366b6343b2133292102dc6454",
+    "size": 1744,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/dd837aa883c9af6366b6343b2133292102dc6454"
+  },
+  {
+    "path": "model_dual_get_plans.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d706725f046f67296e757888f444114884f10eb",
+    "size": 1331,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3d706725f046f67296e757888f444114884f10eb"
+  },
+  {
+    "path": "model_eth2_rate_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db1d8d136b81f138284bf7f7e23b17d2ce19588a",
+    "size": 573,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/db1d8d136b81f138284bf7f7e23b17d2ce19588a"
+  },
+  {
+    "path": "model_eth2_swap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "838a35ca9dc1ca91b3d87b5fcb80a63b6c8cb7db",
+    "size": 554,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/838a35ca9dc1ca91b3d87b5fcb80a63b6c8cb7db"
+  },
+  {
+    "path": "model_find_coin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b21de89e76019d331e1a8b752137ecba21ebad6b",
+    "size": 539,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b21de89e76019d331e1a8b752137ecba21ebad6b"
+  },
+  {
+    "path": "model_flash_swap_currency_pair.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f797d3018a2cf09b6a19398a5f5fa35556d975f7",
+    "size": 1062,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f797d3018a2cf09b6a19398a5f5fa35556d975f7"
+  },
+  {
+    "path": "model_flash_swap_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "580881eae3929b712f3d5b39d7cf5bd5f586185a",
+    "size": 1059,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/580881eae3929b712f3d5b39d7cf5bd5f586185a"
+  },
+  {
+    "path": "model_flash_swap_order_preview.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd06639dcd4db194517cc38ff06e330082a117a1",
+    "size": 1092,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/fd06639dcd4db194517cc38ff06e330082a117a1"
+  },
+  {
+    "path": "model_flash_swap_order_request.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d6a6f5b72a05a3c027e9446ba53899410eaa1b9",
+    "size": 1085,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9d6a6f5b72a05a3c027e9446ba53899410eaa1b9"
+  },
+  {
+    "path": "model_flash_swap_preview_request.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f4d3e3058e70b41665c62385cc9ca4f27731166",
+    "size": 1165,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9f4d3e3058e70b41665c62385cc9ca4f27731166"
+  },
+  {
+    "path": "model_funding_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2996f1d265640eee20fb218f64e46bafa9bcf7dc",
+    "size": 869,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/2996f1d265640eee20fb218f64e46bafa9bcf7dc"
+  },
+  {
+    "path": "model_funding_rate_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6732e39ea7c3ce2fb176e5d12dfca272bd8ef12",
+    "size": 519,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d6732e39ea7c3ce2fb176e5d12dfca272bd8ef12"
+  },
+  {
+    "path": "model_future_cancel_order_result.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7aa44b0f2bcd4f2fd8fb835b60f051b4cd965ae3",
+    "size": 735,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7aa44b0f2bcd4f2fd8fb835b60f051b4cd965ae3"
+  },
+  {
+    "path": "model_futures_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e1c754c0ea359b4058b38a32fd397902f238206b",
+    "size": 3716,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e1c754c0ea359b4058b38a32fd397902f238206b"
+  },
+  {
+    "path": "model_futures_account_book.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef6ed4f68f8c2820b1d52191079023f2a7810e8a",
+    "size": 1178,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ef6ed4f68f8c2820b1d52191079023f2a7810e8a"
+  },
+  {
+    "path": "model_futures_account_history.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "895c1968e95733a96dc53ce3fb77d4efdbb2484e",
+    "size": 1268,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/895c1968e95733a96dc53ce3fb77d4efdbb2484e"
+  },
+  {
+    "path": "model_futures_auto_deleverage.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9136026bd45f922e1e9015332926380ca4c8f3e8",
+    "size": 1185,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9136026bd45f922e1e9015332926380ca4c8f3e8"
+  },
+  {
+    "path": "model_futures_batch_amend_order_request.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8b39eea24075cb8e0298fc1fa12209cf4521848",
+    "size": 1323,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/c8b39eea24075cb8e0298fc1fa12209cf4521848"
+  },
+  {
+    "path": "model_futures_candlestick.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21978ea738385bc3c79fbf2c65f8060f32b3d4ee",
+    "size": 949,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/21978ea738385bc3c79fbf2c65f8060f32b3d4ee"
+  },
+  {
+    "path": "model_futures_fee.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bb74a3401bb287437003cfc9a2eb53b28a23ae9",
+    "size": 628,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6bb74a3401bb287437003cfc9a2eb53b28a23ae9"
+  },
+  {
+    "path": "model_futures_index_constituents.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4871a27361485fadd8a3beff58ed24f761d56b9",
+    "size": 554,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d4871a27361485fadd8a3beff58ed24f761d56b9"
+  },
+  {
+    "path": "model_futures_initial_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "959b13ecbcc5b763d891d41906637eb23acd0528",
+    "size": 2034,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/959b13ecbcc5b763d891d41906637eb23acd0528"
+  },
+  {
+    "path": "model_futures_limit_risk_tiers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7035f49b02c1b23bfd340db75617b68abd03cb1b",
+    "size": 1065,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7035f49b02c1b23bfd340db75617b68abd03cb1b"
+  },
+  {
+    "path": "model_futures_liq_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6012d9f95f604aed0b4559773b5a335446831fc3",
+    "size": 922,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6012d9f95f604aed0b4559773b5a335446831fc3"
+  },
+  {
+    "path": "model_futures_liquidate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15e65ea709750a8e5c1e4c5d5c01f422b60d0359",
+    "size": 1429,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/15e65ea709750a8e5c1e4c5d5c01f422b60d0359"
+  },
+  {
+    "path": "model_futures_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5593e9051ecd2713a78d9b190dc2fd2f7b98d5ad",
+    "size": 5406,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5593e9051ecd2713a78d9b190dc2fd2f7b98d5ad"
+  },
+  {
+    "path": "model_futures_order_amendment.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc409a3e46236b753b055ac173c4c8e49c338e47",
+    "size": 1058,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/cc409a3e46236b753b055ac173c4c8e49c338e47"
+  },
+  {
+    "path": "model_futures_order_book.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0da394ee61f099a2d920234ca960473e1a3166b0",
+    "size": 829,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/0da394ee61f099a2d920234ca960473e1a3166b0"
+  },
+  {
+    "path": "model_futures_order_book_item.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "583334b95cde9b23fe2e5013aa3769b54b0173bf",
+    "size": 511,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/583334b95cde9b23fe2e5013aa3769b54b0173bf"
+  },
+  {
+    "path": "model_futures_position_cross_mode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12317465854e39ef2d56aeedb6a3eecc401f6d7d",
+    "size": 600,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/12317465854e39ef2d56aeedb6a3eecc401f6d7d"
+  },
+  {
+    "path": "model_futures_premium_index.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b17dab3a84e13c8774b6bbf62254e7ddf0bc424",
+    "size": 698,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5b17dab3a84e13c8774b6bbf62254e7ddf0bc424"
+  },
+  {
+    "path": "model_futures_price_trigger.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe3d3b5209495f15c72c6d01bb26cfb8d1359dec",
+    "size": 1489,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/fe3d3b5209495f15c72c6d01bb26cfb8d1359dec"
+  },
+  {
+    "path": "model_futures_price_triggered_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "df593b6e86a5b9167246acb20c12d0992131043b",
+    "size": 2210,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/df593b6e86a5b9167246acb20c12d0992131043b"
+  },
+  {
+    "path": "model_futures_risk_limit_tier.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34f708287a043aebc8d87488782e5c533c0a4e79",
+    "size": 935,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/34f708287a043aebc8d87488782e5c533c0a4e79"
+  },
+  {
+    "path": "model_futures_ticker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eccfae1fbb2cbe5e82f92ab4a295b1b9351cc0e5",
+    "size": 2504,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/eccfae1fbb2cbe5e82f92ab4a295b1b9351cc0e5"
+  },
+  {
+    "path": "model_futures_trade.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "954f4be73ffdacd133f5f66f440292294535aec5",
+    "size": 1214,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/954f4be73ffdacd133f5f66f440292294535aec5"
+  },
+  {
+    "path": "model_index_constituent.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "faefb0c0da1382dcc7c9668324866270638fdc22",
+    "size": 529,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/faefb0c0da1382dcc7c9668324866270638fdc22"
+  },
+  {
+    "path": "model_inline_object.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc523391f007b384870128611460f72c80ef14c6",
+    "size": 588,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/dc523391f007b384870128611460f72c80ef14c6"
+  },
+  {
+    "path": "model_inline_response_200.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d4b74898422eeb925767ffc5688b53ad97bd9df",
+    "size": 488,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7d4b74898422eeb925767ffc5688b53ad97bd9df"
+  },
+  {
+    "path": "model_inline_response_200_1.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa6195eb2249e32db02b4b1e8b2b196cc5afaa46",
+    "size": 528,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/aa6195eb2249e32db02b4b1e8b2b196cc5afaa46"
+  },
+  {
+    "path": "model_insurance_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5911f86d32fdf925614ade67062bec00cce67a92",
+    "size": 522,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5911f86d32fdf925614ade67062bec00cce67a92"
+  },
+  {
+    "path": "model_ledger_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3747be5ff2cfb30c616ebf80cbea82b801172b0e",
+    "size": 2063,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3747be5ff2cfb30c616ebf80cbea82b801172b0e"
+  },
+  {
+    "path": "model_liquidate_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28bfa78602d100f39ea5f0e01ac5c7a9617ed7f2",
+    "size": 1249,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/28bfa78602d100f39ea5f0e01ac5c7a9617ed7f2"
+  },
+  {
+    "path": "model_margin_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d17e6084b5456c58cb1bb8248f255bbcbd37c1bb",
+    "size": 1359,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d17e6084b5456c58cb1bb8248f255bbcbd37c1bb"
+  },
+  {
+    "path": "model_margin_account_book.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b17d7aa88d11df4a4d8ef216451f244e9e35bb67",
+    "size": 1092,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b17d7aa88d11df4a4d8ef216451f244e9e35bb67"
+  },
+  {
+    "path": "model_margin_account_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3374e3305f6b4c5e6cd61f2a556a4301229de052",
+    "size": 882,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3374e3305f6b4c5e6cd61f2a556a4301229de052"
+  },
+  {
+    "path": "model_margin_leverage_tier.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b04043b89112a9a9528035158e72139067bff3e",
+    "size": 654,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/2b04043b89112a9a9528035158e72139067bff3e"
+  },
+  {
+    "path": "model_margin_market_leverage.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c13de830a3840980d409933d59fcf9146dcfa66",
+    "size": 564,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6c13de830a3840980d409933d59fcf9146dcfa66"
+  },
+  {
+    "path": "model_margin_tiers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a31faa2b8542307bcf3c4df0875df99c6d59fed",
+    "size": 758,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/8a31faa2b8542307bcf3c4df0875df99c6d59fed"
+  },
+  {
+    "path": "model_margin_transferable.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01526993da2bfbe9ee3af0d46a490fed610a5c28",
+    "size": 618,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/01526993da2bfbe9ee3af0d46a490fed610a5c28"
+  },
+  {
+    "path": "model_max_uni_borrowable.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "898c69907869e60356a997dc01c503c9fa81e9ec",
+    "size": 592,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/898c69907869e60356a997dc01c503c9fa81e9ec"
+  },
+  {
+    "path": "model_mock_futures_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e049cddf3d3f72e87737a058f6568a8d6be9817",
+    "size": 760,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/0e049cddf3d3f72e87737a058f6568a8d6be9817"
+  },
+  {
+    "path": "model_mock_futures_position.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f75a80d0464f68c36aa64e19091204075ff0951",
+    "size": 628,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6f75a80d0464f68c36aa64e19091204075ff0951"
+  },
+  {
+    "path": "model_mock_margin_result.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0e58cff28adeb796a1d0e6fc6c6c2d8a474be64",
+    "size": 1088,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e0e58cff28adeb796a1d0e6fc6c6c2d8a474be64"
+  },
+  {
+    "path": "model_mock_options_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31e03dacaf0439cc55ed35e89c490c37971de5e4",
+    "size": 719,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/31e03dacaf0439cc55ed35e89c490c37971de5e4"
+  },
+  {
+    "path": "model_mock_options_position.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47ac11be0732c9a5ce5cdea5474773ec338ebe52",
+    "size": 622,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/47ac11be0732c9a5ce5cdea5474773ec338ebe52"
+  },
+  {
+    "path": "model_mock_risk_unit.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57417aa2748cca1df6f392a6e9635f640f542863",
+    "size": 1058,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/57417aa2748cca1df6f392a6e9635f640f542863"
+  },
+  {
+    "path": "model_mock_spot_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1cac29346c65d17c68e8cecc6f36770f31abf22b",
+    "size": 674,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/1cac29346c65d17c68e8cecc6f36770f31abf22b"
+  },
+  {
+    "path": "model_mock_spot_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c9cd997e694b4ab4836a2697e1cfb509e06d366",
+    "size": 901,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/2c9cd997e694b4ab4836a2697e1cfb509e06d366"
+  },
+  {
+    "path": "model_multi_chain_address_item.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc3521f1efc578495974e884f84be8ae85a22978",
+    "size": 888,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/bc3521f1efc578495974e884f84be8ae85a22978"
+  },
+  {
+    "path": "model_multi_collateral_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0ce8af6187b8788116ecf1092bf1ac4352ea9a0",
+    "size": 726,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/c0ce8af6187b8788116ecf1092bf1ac4352ea9a0"
+  },
+  {
+    "path": "model_multi_collateral_item.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4284f213bb4e1e920bd6100c23b997bfdf03329",
+    "size": 604,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e4284f213bb4e1e920bd6100c23b997bfdf03329"
+  },
+  {
+    "path": "model_multi_collateral_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d98cb411189ce38ca071f63a6bd34525df4f0bf6",
+    "size": 2076,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d98cb411189ce38ca071f63a6bd34525df4f0bf6"
+  },
+  {
+    "path": "model_multi_collateral_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15aa120c79f2c03993ff726a3c8f0a53c1e7c1e7",
+    "size": 1082,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/15aa120c79f2c03993ff726a3c8f0a53c1e7c1e7"
+  },
+  {
+    "path": "model_multi_collateral_record_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d901b546f4748f2cbfec1b38d88a59fa91ae870",
+    "size": 922,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/2d901b546f4748f2cbfec1b38d88a59fa91ae870"
+  },
+  {
+    "path": "model_multi_loan_item.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8be831d2833ae7d7fb75ef37634541d40ab391b9",
+    "size": 537,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/8be831d2833ae7d7fb75ef37634541d40ab391b9"
+  },
+  {
+    "path": "model_multi_loan_repay_item.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7bf334d9c9cd19fedea98f87525da891543db28d",
+    "size": 658,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7bf334d9c9cd19fedea98f87525da891543db28d"
+  },
+  {
+    "path": "model_multi_repay_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e77c993ac7155394cb1baede45ce0acdd55e6334",
+    "size": 1564,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e77c993ac7155394cb1baede45ce0acdd55e6334"
+  },
+  {
+    "path": "model_multi_repay_resp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04534dbcceb9b9f154e01d73f6964be619e6df2d",
+    "size": 601,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/04534dbcceb9b9f154e01d73f6964be619e6df2d"
+  },
+  {
+    "path": "model_my_futures_trade.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "028dd1445c69f604f63a0c1a98bc24831f7b07ba",
+    "size": 1510,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/028dd1445c69f604f63a0c1a98bc24831f7b07ba"
+  },
+  {
+    "path": "model_my_futures_trade_time_range.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5013979b49e44b6a5e67b3dea6167e340ed0f0d",
+    "size": 1531,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e5013979b49e44b6a5e67b3dea6167e340ed0f0d"
+  },
+  {
+    "path": "model_open_orders.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74df682256663c350fee36d8276a937866ad9296",
+    "size": 633,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/74df682256663c350fee36d8276a937866ad9296"
+  },
+  {
+    "path": "model_options_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5443c6b362407920afbe3ae79ee8a9fb2877a897",
+    "size": 2200,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5443c6b362407920afbe3ae79ee8a9fb2877a897"
+  },
+  {
+    "path": "model_options_account_book.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9fd7b4925ba061f7f35c8f3c5cf320f58c2de38",
+    "size": 897,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f9fd7b4925ba061f7f35c8f3c5cf320f58c2de38"
+  },
+  {
+    "path": "model_options_candlestick.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f174350f5914a3498fb52d480f2c37d4d302e5e4",
+    "size": 1052,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f174350f5914a3498fb52d480f2c37d4d302e5e4"
+  },
+  {
+    "path": "model_options_contract.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e22002c2a282f4aadd6ea4992dd3e3165eace2ec",
+    "size": 2852,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e22002c2a282f4aadd6ea4992dd3e3165eace2ec"
+  },
+  {
+    "path": "model_options_mmp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3978e743fabcd45cfd96805e125f9c54a854efab",
+    "size": 1255,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3978e743fabcd45cfd96805e125f9c54a854efab"
+  },
+  {
+    "path": "model_options_mmp_reset.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca27df58f962378baffb280e73ed0991c4cfb570",
+    "size": 1297,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ca27df58f962378baffb280e73ed0991c4cfb570"
+  },
+  {
+    "path": "model_options_my_settlements.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e71722e2acdb2ce21c995e9ce36a097659e4351",
+    "size": 1177,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9e71722e2acdb2ce21c995e9ce36a097659e4351"
+  },
+  {
+    "path": "model_options_my_trade.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8f8abe819f2f25265bc9af2c4afd9c1be35761a",
+    "size": 957,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b8f8abe819f2f25265bc9af2c4afd9c1be35761a"
+  },
+  {
+    "path": "model_options_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "894589cdbbd6302e2ad489bf860b25fb8067e1b8",
+    "size": 3527,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/894589cdbbd6302e2ad489bf860b25fb8067e1b8"
+  },
+  {
+    "path": "model_options_position.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "671f0639857649fb692e08e0c25e54d2cea06703",
+    "size": 1609,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/671f0639857649fb692e08e0c25e54d2cea06703"
+  },
+  {
+    "path": "model_options_position_close.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad502de820993ece0be8c55ea5c6c7e07e5e68c9",
+    "size": 873,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ad502de820993ece0be8c55ea5c6c7e07e5e68c9"
+  },
+  {
+    "path": "model_options_position_close_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e89302248346a21d9e058015e4adb75275fb4730",
+    "size": 686,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e89302248346a21d9e058015e4adb75275fb4730"
+  },
+  {
+    "path": "model_options_settlement.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7fcc007562f60bf5d6499dc77a11dd2692a74b91",
+    "size": 908,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7fcc007562f60bf5d6499dc77a11dd2692a74b91"
+  },
+  {
+    "path": "model_options_ticker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3860d3ed63d4affb0659ac89de8e07e3a2f67912",
+    "size": 1724,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3860d3ed63d4affb0659ac89de8e07e3a2f67912"
+  },
+  {
+    "path": "model_options_underlying.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d091a9505b66a44ed6e77869442441781d03daf6",
+    "size": 556,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d091a9505b66a44ed6e77869442441781d03daf6"
+  },
+  {
+    "path": "model_options_underlying_ticker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4c7f8f657cb416b367279ae85ba48f6570ab561",
+    "size": 718,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b4c7f8f657cb416b367279ae85ba48f6570ab561"
+  },
+  {
+    "path": "model_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c36a911bbfb98b1d7a2f4b32f00d0cd20475c4c",
+    "size": 6524,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6c36a911bbfb98b1d7a2f4b32f00d0cd20475c4c"
+  },
+  {
+    "path": "model_order_book.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba826c4019ff7ef0214ac721e80f77b3d2caa6bc",
+    "size": 866,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ba826c4019ff7ef0214ac721e80f77b3d2caa6bc"
+  },
+  {
+    "path": "model_order_cancel.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "888e278bad3c96fc4e418449fd76327817bce6b6",
+    "size": 6458,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/888e278bad3c96fc4e418449fd76327817bce6b6"
+  },
+  {
+    "path": "model_order_patch.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74f9a59141489952a5cf9b1227018fa1d1af6813",
+    "size": 1210,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/74f9a59141489952a5cf9b1227018fa1d1af6813"
+  },
+  {
+    "path": "model_order_resp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9bb0969b7309c6990634932171b8f367fa48ea4",
+    "size": 459,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b9bb0969b7309c6990634932171b8f367fa48ea4"
+  },
+  {
+    "path": "model_partner_commission_history.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15082d8fa255860eee9f24e71812ef3eab4e1adf",
+    "size": 546,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/15082d8fa255860eee9f24e71812ef3eab4e1adf"
+  },
+  {
+    "path": "model_partner_sub.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c6041d2bbe076d194474d69ac73fe6c5851b4a0",
+    "size": 686,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4c6041d2bbe076d194474d69ac73fe6c5851b4a0"
+  },
+  {
+    "path": "model_partner_sub_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a6d3ada08f7bf31e263804b7f40e25652cecf0d",
+    "size": 520,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/1a6d3ada08f7bf31e263804b7f40e25652cecf0d"
+  },
+  {
+    "path": "model_partner_transaction_history.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34ae8939884f14084911236dbc51ba48b0f29ddc",
+    "size": 549,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/34ae8939884f14084911236dbc51ba48b0f29ddc"
+  },
+  {
+    "path": "model_patch_uni_lend.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6dd544e7d4d88fa6a82afd4ae7b9d3e3ff4f7d6",
+    "size": 539,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/c6dd544e7d4d88fa6a82afd4ae7b9d3e3ff4f7d6"
+  },
+  {
+    "path": "model_place_dual_investment_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "749374faf4da27e25e3d8877c1e9f733f82e7678",
+    "size": 888,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/749374faf4da27e25e3d8877c1e9f733f82e7678"
+  },
+  {
+    "path": "model_position.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2b05c9b8c490af1b4d063a7d8974e4005980858",
+    "size": 3551,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d2b05c9b8c490af1b4d063a7d8974e4005980858"
+  },
+  {
+    "path": "model_position_close.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b473a7c5b06b2a0a85db3ffa2c4fc46fe0dad0b",
+    "size": 1567,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6b473a7c5b06b2a0a85db3ffa2c4fc46fe0dad0b"
+  },
+  {
+    "path": "model_position_close_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8bc04747eecaa69e7323e544a918c34fbe1561d",
+    "size": 662,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b8bc04747eecaa69e7323e544a918c34fbe1561d"
+  },
+  {
+    "path": "model_profit_loss_range.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "852eadb75ebb9220d8f51be9885f4843a28538d4",
+    "size": 712,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/852eadb75ebb9220d8f51be9885f4843a28538d4"
+  },
+  {
+    "path": "model_rebate_user_info.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c74393e5046206dfa4d017f59fbf85fa61c146b",
+    "size": 512,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4c74393e5046206dfa4d017f59fbf85fa61c146b"
+  },
+  {
+    "path": "model_repay_currency_res.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffe1b7a54a8b9c663fbee1e5b528a069f80d2e9d",
+    "size": 925,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ffe1b7a54a8b9c663fbee1e5b528a069f80d2e9d"
+  },
+  {
+    "path": "model_repay_loan.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ee0009fd90380087875b6427033efba8a6c32fc",
+    "size": 817,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/8ee0009fd90380087875b6427033efba8a6c32fc"
+  },
+  {
+    "path": "model_repay_multi_loan.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c6955f1931f3455da52369943be90d96aa3b2fc",
+    "size": 571,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4c6955f1931f3455da52369943be90d96aa3b2fc"
+  },
+  {
+    "path": "model_repay_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c198dbf7e4cf34c2956422f7078c1fcac793d736",
+    "size": 1545,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/c198dbf7e4cf34c2956422f7078c1fcac793d736"
+  },
+  {
+    "path": "model_repay_record_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "003adb4ea52fb48399dcb33cce2da6d9c53499b9",
+    "size": 912,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/003adb4ea52fb48399dcb33cce2da6d9c53499b9"
+  },
+  {
+    "path": "model_repay_record_left_interest.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6270db0c0b4cafafb8e8bc7f765b28cccadb8660",
+    "size": 966,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6270db0c0b4cafafb8e8bc7f765b28cccadb8660"
+  },
+  {
+    "path": "model_repay_record_repaid_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f1f041b7c9981f2b966520cd58bd934d2c00036",
+    "size": 884,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3f1f041b7c9981f2b966520cd58bd934d2c00036"
+  },
+  {
+    "path": "model_repay_record_total_interest.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a9302fe60e6961a650775824a17fbbd85951148",
+    "size": 700,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/1a9302fe60e6961a650775824a17fbbd85951148"
+  },
+  {
+    "path": "model_repay_resp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb4a95866351ea03d725b4f34d2bb035d619b827",
+    "size": 557,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/cb4a95866351ea03d725b4f34d2bb035d619b827"
+  },
+  {
+    "path": "model_risk_units.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af836e5c1dad73e3485de89cb5f14f0f8ba18bfa",
+    "size": 998,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/af836e5c1dad73e3485de89cb5f14f0f8ba18bfa"
+  },
+  {
+    "path": "model_saved_address.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43ef2dffff40e645be14f26a4b8e74ee718f63dd",
+    "size": 769,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/43ef2dffff40e645be14f26a4b8e74ee718f63dd"
+  },
+  {
+    "path": "model_small_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "718cfd5e9ea24c52877f4e21dece29ad4292f454",
+    "size": 748,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/718cfd5e9ea24c52877f4e21dece29ad4292f454"
+  },
+  {
+    "path": "model_small_balance_history.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "465f5ec2669bccf00f3d2d7a0cb02381f154ef14",
+    "size": 742,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/465f5ec2669bccf00f3d2d7a0cb02381f154ef14"
+  },
+  {
+    "path": "model_spot_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93cd27ee1d6320a66f428b91d1799b13641a7410",
+    "size": 678,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/93cd27ee1d6320a66f428b91d1799b13641a7410"
+  },
+  {
+    "path": "model_spot_account_book.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5c30d6798b0a61fab569e20225ec5c816e314d5",
+    "size": 1110,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d5c30d6798b0a61fab569e20225ec5c816e314d5"
+  },
+  {
+    "path": "model_spot_currency_chain.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3818e1b7b4e3b3aed1234c3f8c1240aee9648345",
+    "size": 833,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3818e1b7b4e3b3aed1234c3f8c1240aee9648345"
+  },
+  {
+    "path": "model_spot_fee.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc3051db0a769397c29a6f9492f3ee26ac577c96",
+    "size": 1344,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/dc3051db0a769397c29a6f9492f3ee26ac577c96"
+  },
+  {
+    "path": "model_spot_insurance_history.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1dc4d39919a24932a7d4db0d0295ab23594fe4ef",
+    "size": 606,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/1dc4d39919a24932a7d4db0d0295ab23594fe4ef"
+  },
+  {
+    "path": "model_spot_price_put_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36c03ebee45db90687f7644514d7b4ddca8bf8b4",
+    "size": 1641,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/36c03ebee45db90687f7644514d7b4ddca8bf8b4"
+  },
+  {
+    "path": "model_spot_price_trigger.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "312e17cd339d53a2dfc50f2161ca06016ab036e5",
+    "size": 785,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/312e17cd339d53a2dfc50f2161ca06016ab036e5"
+  },
+  {
+    "path": "model_spot_price_triggered_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c22b9c8011fc71cd5f29bba76803ee92459cb1dc",
+    "size": 1151,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/c22b9c8011fc71cd5f29bba76803ee92459cb1dc"
+  },
+  {
+    "path": "model_stp_group.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94fb5d92d21367766c331e152a41e53a881a8997",
+    "size": 625,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/94fb5d92d21367766c331e152a41e53a881a8997"
+  },
+  {
+    "path": "model_stp_group_user.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8c46448efbea72c75d55adfd343fd12b6e1eb1d",
+    "size": 581,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f8c46448efbea72c75d55adfd343fd12b6e1eb1d"
+  },
+  {
+    "path": "model_structured_buy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d251eb9da634991aa23ee26a54f570db1e26b21",
+    "size": 538,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9d251eb9da634991aa23ee26a54f570db1e26b21"
+  },
+  {
+    "path": "model_structured_get_project_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58c3988fa8f8857893a9f9a62bf58a2ebea669c7",
+    "size": 1553,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/58c3988fa8f8857893a9f9a62bf58a2ebea669c7"
+  },
+  {
+    "path": "model_structured_order_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79c1ff5f7a93facef287bcfac47934dfdb98b60f",
+    "size": 869,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/79c1ff5f7a93facef287bcfac47934dfdb98b60f"
+  },
+  {
+    "path": "model_sub_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "829cb06687a78194b40cd6f07429fd2a4e9076ad",
+    "size": 1164,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/829cb06687a78194b40cd6f07429fd2a4e9076ad"
+  },
+  {
+    "path": "model_sub_account_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0aff34fce83d0a1023c196481b33fe7ca1b7d445",
+    "size": 553,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/0aff34fce83d0a1023c196481b33fe7ca1b7d445"
+  },
+  {
+    "path": "model_sub_account_cross_margin_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0886b58c2377d6775e1a6e18cbf571bb8cb94899",
+    "size": 554,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/0886b58c2377d6775e1a6e18cbf571bb8cb94899"
+  },
+  {
+    "path": "model_sub_account_futures_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae82ead028cb71f62ad082f9d2387c85a3682995",
+    "size": 560,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ae82ead028cb71f62ad082f9d2387c85a3682995"
+  },
+  {
+    "path": "model_sub_account_key.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "159289390b1ed85fb8bb5a0bb88e7db4f9c492a5",
+    "size": 1104,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/159289390b1ed85fb8bb5a0bb88e7db4f9c492a5"
+  },
+  {
+    "path": "model_sub_account_key_perms.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2aec4877e0d9a1059ce2bf00198a9881b30f24f3",
+    "size": 823,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/2aec4877e0d9a1059ce2bf00198a9881b30f24f3"
+  },
+  {
+    "path": "model_sub_account_margin_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca610154b0828d22d3c5389755a91ed3919e791b",
+    "size": 548,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ca610154b0828d22d3c5389755a91ed3919e791b"
+  },
+  {
+    "path": "model_sub_account_to_sub_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4df35d55c2116cfe4f6861a154125c1c52b8335b",
+    "size": 1264,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4df35d55c2116cfe4f6861a154125c1c52b8335b"
+  },
+  {
+    "path": "model_sub_account_transfer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffb60d17d31b8c30e9486015b5a38ce773fb2ba0",
+    "size": 1219,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ffb60d17d31b8c30e9486015b5a38ce773fb2ba0"
+  },
+  {
+    "path": "model_sub_account_transfer_record_item.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d0ce8e0a679f4242cf4c5c35299100f092cc510",
+    "size": 1537,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5d0ce8e0a679f4242cf4c5c35299100f092cc510"
+  },
+  {
+    "path": "model_sub_cross_margin_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "865ad591e5a085c78d27363a52310bddf135d57e",
+    "size": 2147,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/865ad591e5a085c78d27363a52310bddf135d57e"
+  },
+  {
+    "path": "model_sub_user_mode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6743a8986acb09163b79b5162ba1b24ab49650a6",
+    "size": 721,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6743a8986acb09163b79b5162ba1b24ab49650a6"
+  },
+  {
+    "path": "model_swap_coin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e2626c325b4d1cf78307c92f21631538767b309",
+    "size": 630,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7e2626c325b4d1cf78307c92f21631538767b309"
+  },
+  {
+    "path": "model_swap_coin_struct.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3f2a8976df054146f24d3fc895d56ee838a9f2d",
+    "size": 1343,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d3f2a8976df054146f24d3fc895d56ee838a9f2d"
+  },
+  {
+    "path": "model_system_time.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3bb1ef106b4ebc1e59be62119e5cc3480946cd9",
+    "size": 481,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b3bb1ef106b4ebc1e59be62119e5cc3480946cd9"
+  },
+  {
+    "path": "model_ticker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cc747e81ccba27548c676f7f36e246ebcb2bfeb",
+    "size": 2087,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/3cc747e81ccba27548c676f7f36e246ebcb2bfeb"
+  },
+  {
+    "path": "model_total_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e72919965790f986d2898b44d502316ee7939e0f",
+    "size": 850,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e72919965790f986d2898b44d502316ee7939e0f"
+  },
+  {
+    "path": "model_trade.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "391cb660423c7d0724f5a060cb569e8b30d5df55",
+    "size": 1812,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/391cb660423c7d0724f5a060cb569e8b30d5df55"
+  },
+  {
+    "path": "model_trade_fee.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "176ec34fda0d81b91bd1fe48992964bd86de3cc3",
+    "size": 1671,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/176ec34fda0d81b91bd1fe48992964bd86de3cc3"
+  },
+  {
+    "path": "model_transaction_id.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbf67c1b3aaab6156e82e7df3cad33d06234d5e9",
+    "size": 457,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/bbf67c1b3aaab6156e82e7df3cad33d06234d5e9"
+  },
+  {
+    "path": "model_transfer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34a194b9cb58e75f88dd64631705384542318a9c",
+    "size": 1199,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/34a194b9cb58e75f88dd64631705384542318a9c"
+  },
+  {
+    "path": "model_transfer_order_status.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85588096b48f61aeac6353deeeda09e740d500bc",
+    "size": 703,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/85588096b48f61aeac6353deeeda09e740d500bc"
+  },
+  {
+    "path": "model_transferables_result.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4aa67c592b9d65df9fdca42b166fd2f65f62c053",
+    "size": 611,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4aa67c592b9d65df9fdca42b166fd2f65f62c053"
+  },
+  {
+    "path": "model_trigger_order_response.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "110412d9955c5402530301e4a323bcfb355dd5ac",
+    "size": 464,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/110412d9955c5402530301e4a323bcfb355dd5ac"
+  },
+  {
+    "path": "model_trigger_time.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd8216f63f2815ad29d20cbff03894d7cc92efe4",
+    "size": 506,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/dd8216f63f2815ad29d20cbff03894d7cc92efe4"
+  },
+  {
+    "path": "model_uid_push_order.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e41a0b75d4ef9fdbc9e1395d5e687efaebd6da0",
+    "size": 1248,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/0e41a0b75d4ef9fdbc9e1395d5e687efaebd6da0"
+  },
+  {
+    "path": "model_uid_push_withdrawal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c8a751a2004d2257cc2b44c94798d9948f1b762",
+    "size": 572,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5c8a751a2004d2257cc2b44c94798d9948f1b762"
+  },
+  {
+    "path": "model_uid_push_withdrawal_resp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a0e3470e146849054d00aac5b3fe8b177e1eb43",
+    "size": 460,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6a0e3470e146849054d00aac5b3fe8b177e1eb43"
+  },
+  {
+    "path": "model_uni_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9efbb998b17009166c055cba30412e9867c55499",
+    "size": 847,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/9efbb998b17009166c055cba30412e9867c55499"
+  },
+  {
+    "path": "model_uni_currency_interest.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7eddefb0676b7775796ab00c7fc4c795e2a62e6c",
+    "size": 629,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7eddefb0676b7775796ab00c7fc4c795e2a62e6c"
+  },
+  {
+    "path": "model_uni_currency_pair.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "593d25db93bd8c163bd2dbaa4967044b0e5a84c7",
+    "size": 806,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/593d25db93bd8c163bd2dbaa4967044b0e5a84c7"
+  },
+  {
+    "path": "model_uni_interest_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f4a510aee9ebabd367f00c6e39cdb0d88e67abc",
+    "size": 910,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/1f4a510aee9ebabd367f00c6e39cdb0d88e67abc"
+  },
+  {
+    "path": "model_uni_lend.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d18ec6bb3c56b0a4549466d1dc01753a54bc3af",
+    "size": 1251,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/0d18ec6bb3c56b0a4549466d1dc01753a54bc3af"
+  },
+  {
+    "path": "model_uni_lend_interest.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6de030b7156bfe8a59ec680791bd2230c41a44c7",
+    "size": 532,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/6de030b7156bfe8a59ec680791bd2230c41a44c7"
+  },
+  {
+    "path": "model_uni_lend_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab2f24e60a1b4411424572480b7f1e29f394e18b",
+    "size": 964,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ab2f24e60a1b4411424572480b7f1e29f394e18b"
+  },
+  {
+    "path": "model_uni_loan.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95cc4afef44e5105cbd20ffc04afee6589b31622",
+    "size": 850,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/95cc4afef44e5105cbd20ffc04afee6589b31622"
+  },
+  {
+    "path": "model_uni_loan_interest_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02b03ff9667588f78f8692acafc7e538e8d4021e",
+    "size": 947,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/02b03ff9667588f78f8692acafc7e538e8d4021e"
+  },
+  {
+    "path": "model_uni_loan_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "586f69fb1c60b4913728195908f214f77c774596",
+    "size": 778,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/586f69fb1c60b4913728195908f214f77c774596"
+  },
+  {
+    "path": "model_unified_account.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bf869cbba6a685ce7f38296f215e0ec55b57f7e",
+    "size": 3814,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4bf869cbba6a685ce7f38296f215e0ec55b57f7e"
+  },
+  {
+    "path": "model_unified_balance.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2fefca8019603ee37acd30cf268b6a0691b75c0",
+    "size": 3703,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/e2fefca8019603ee37acd30cf268b6a0691b75c0"
+  },
+  {
+    "path": "model_unified_borrowable.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f827e919b09554eac3239d4b55565ed968629fd0",
+    "size": 543,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f827e919b09554eac3239d4b55565ed968629fd0"
+  },
+  {
+    "path": "model_unified_borrowable_1.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69dc687b5213752eaa4e3609f249f3597d0d13c9",
+    "size": 606,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/69dc687b5213752eaa4e3609f249f3597d0d13c9"
+  },
+  {
+    "path": "model_unified_collateral_req.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "adca472f2fd67281d604c2a94a6212167650e21b",
+    "size": 898,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/adca472f2fd67281d604c2a94a6212167650e21b"
+  },
+  {
+    "path": "model_unified_collateral_res.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "912af88a242ec8d0c60e424a5b0244e3e3e5f221",
+    "size": 552,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/912af88a242ec8d0c60e424a5b0244e3e3e5f221"
+  },
+  {
+    "path": "model_unified_currency.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e013517e42c90550cf0a43b27c542fad5db2066",
+    "size": 1004,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/0e013517e42c90550cf0a43b27c542fad5db2066"
+  },
+  {
+    "path": "model_unified_discount.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffd9a067a9ce35c1839eb00d9ad484f0da8fde0d",
+    "size": 599,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ffd9a067a9ce35c1839eb00d9ad484f0da8fde0d"
+  },
+  {
+    "path": "model_unified_discount_tiers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80e9b161538dee1108e4a632d42b4005f482b8a2",
+    "size": 748,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/80e9b161538dee1108e4a632d42b4005f482b8a2"
+  },
+  {
+    "path": "model_unified_history_loan_rate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab54c2406edb3958e66eb3768251286223b577b4",
+    "size": 904,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ab54c2406edb3958e66eb3768251286223b577b4"
+  },
+  {
+    "path": "model_unified_history_loan_rate_rates.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9c4cd5a00260fe3ecc4149310a838c1cae64a2f",
+    "size": 611,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f9c4cd5a00260fe3ecc4149310a838c1cae64a2f"
+  },
+  {
+    "path": "model_unified_leverage_config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "583948c697ed746806a3e00c7eab54668a27209c",
+    "size": 1094,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/583948c697ed746806a3e00c7eab54668a27209c"
+  },
+  {
+    "path": "model_unified_leverage_setting.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f8df2be6d676e5f032ff5ecfc15a1a9bcab562e",
+    "size": 565,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/4f8df2be6d676e5f032ff5ecfc15a1a9bcab562e"
+  },
+  {
+    "path": "model_unified_loan.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88185db49b0aabcc923c116c54e5119f698412ce",
+    "size": 847,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/88185db49b0aabcc923c116c54e5119f698412ce"
+  },
+  {
+    "path": "model_unified_loan_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "814717b733c27a1212947a435eab183fd23af395",
+    "size": 1289,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/814717b733c27a1212947a435eab183fd23af395"
+  },
+  {
+    "path": "model_unified_loan_result.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7401cac9893045cd8f03cfc74102c223cc3d89d0",
+    "size": 530,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7401cac9893045cd8f03cfc74102c223cc3d89d0"
+  },
+  {
+    "path": "model_unified_margin_tiers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8739913cc323cdfbe614f03c6fff575f8aa8902",
+    "size": 594,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/f8739913cc323cdfbe614f03c6fff575f8aa8902"
+  },
+  {
+    "path": "model_unified_mode_set.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad3b073e3a761bfdb905861a7d3ef081d17f456a",
+    "size": 696,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/ad3b073e3a761bfdb905861a7d3ef081d17f456a"
+  },
+  {
+    "path": "model_unified_portfolio_input.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b03749ea95f13cd8be08ff00a63bbe7aa16b2439",
+    "size": 1052,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b03749ea95f13cd8be08ff00a63bbe7aa16b2439"
+  },
+  {
+    "path": "model_unified_portfolio_output.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e683163bf8de2ef78940a4eaa45304fcc16b4be",
+    "size": 1120,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7e683163bf8de2ef78940a4eaa45304fcc16b4be"
+  },
+  {
+    "path": "model_unified_risk_units.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7250ad771a6eae1d1fcf4a91e84413e2bb2fb558",
+    "size": 634,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/7250ad771a6eae1d1fcf4a91e84413e2bb2fb558"
+  },
+  {
+    "path": "model_unified_settings.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11cbaab068ab3d5ef01ef56234668faefbfb32f4",
+    "size": 905,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/11cbaab068ab3d5ef01ef56234668faefbfb32f4"
+  },
+  {
+    "path": "model_unified_transferable.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5acca4c36e751e4c0f81bf26bca9d8e5cc5a01b9",
+    "size": 551,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/5acca4c36e751e4c0f81bf26bca9d8e5cc5a01b9"
+  },
+  {
+    "path": "model_user_ltv_info.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "372d19ec0bee1a70c39a29131d598f812f03fe84",
+    "size": 1101,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/372d19ec0bee1a70c39a29131d598f812f03fe84"
+  },
+  {
+    "path": "model_user_sub.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da3e45701b7b223c5270350fb7ecd292d773913d",
+    "size": 825,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/da3e45701b7b223c5270350fb7ecd292d773913d"
+  },
+  {
+    "path": "model_user_sub_relation.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d02ac396df6b79260d90d4a1528a240ac8b3d68e",
+    "size": 483,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/d02ac396df6b79260d90d4a1528a240ac8b3d68e"
+  },
+  {
+    "path": "model_user_total_amount.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88a2eb85d947d22b62ab866dea0e46e6fd02edc2",
+    "size": 644,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/88a2eb85d947d22b62ab866dea0e46e6fd02edc2"
+  },
+  {
+    "path": "model_withdraw_status.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c20416e12c9859cd6d83a2c4281bbca961652e86",
+    "size": 1500,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/c20416e12c9859cd6d83a2c4281bbca961652e86"
+  },
+  {
+    "path": "model_withdrawal_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "def601b726f2b11f19aea744d5bd3a5d3bad2a03",
+    "size": 2092,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/def601b726f2b11f19aea744d5bd3a5d3bad2a03"
+  },
+  {
+    "path": "response.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0855eba69482032675b5798523e016007e728ab",
+    "size": 1596,
+    "url": "https://api.github.com/repos/gateio/gateapi-go/git/blobs/b0855eba69482032675b5798523e016007e728ab"
+  }
+]

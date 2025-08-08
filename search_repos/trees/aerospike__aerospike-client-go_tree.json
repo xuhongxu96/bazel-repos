@@ -1,0 +1,1944 @@
+[
+  {
+    "path": ".build.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c74ee5284432b58b31a3d38021e208e7e1ad130",
+    "size": 544,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4c74ee5284432b58b31a3d38021e208e7e1ad130"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0c75b5b523daed349942605b88f6b7fa7c8f8b3",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/b0c75b5b523daed349942605b88f6b7fa7c8f8b3"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a81cd81ebee0033fe1f13a3fb662fbbf3d882644",
+    "size": 403,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a81cd81ebee0033fe1f13a3fb662fbbf3d882644"
+  },
+  {
+    "path": ".testcoverage.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bfdc732d6c6f35c4f0495be128408f04b90e0e4",
+    "size": 2209,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/0bfdc732d6c6f35c4f0495be128408f04b90e0e4"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80fef1b401217689767c9f4237d1817e5fb8446d",
+    "size": 95425,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/80fef1b401217689767c9f4237d1817e5fb8446d"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d76ea4a698d95c523913504a284aec0814cc709f",
+    "size": 11351,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d76ea4a698d95c523913504a284aec0814cc709f"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d8802439ae84d0588d1779f35f869fc739025370",
+    "size": 6128,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d8802439ae84d0588d1779f35f869fc739025370"
+  },
+  {
+    "path": "abort_status.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e8451d9b049f1462a89bd23cba56518587cfcc0",
+    "size": 1172,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9e8451d9b049f1462a89bd23cba56518587cfcc0"
+  },
+  {
+    "path": "admin_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b681558ca183cfa7bddf63bbb76d9393f790f97",
+    "size": 19854,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7b681558ca183cfa7bddf63bbb76d9393f790f97"
+  },
+  {
+    "path": "admin_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31a8bc6d2f4e63a32789a61d7976a670d7be72c7",
+    "size": 1279,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/31a8bc6d2f4e63a32789a61d7976a670d7be72c7"
+  },
+  {
+    "path": "aerospike.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "819b7766d52b6722f5b0353ecb73f83816fa3078",
+    "size": 175,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/819b7766d52b6722f5b0353ecb73f83816fa3078"
+  },
+  {
+    "path": "aerospike_bench_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a9f3f5cb3ce2966ee3550a5600c448b412726cd",
+    "size": 1995,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9a9f3f5cb3ce2966ee3550a5600c448b412726cd"
+  },
+  {
+    "path": "aerospike_bench_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7fb680ca7430b239a6cf5be5962baeab0a4285a5",
+    "size": 2854,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7fb680ca7430b239a6cf5be5962baeab0a4285a5"
+  },
+  {
+    "path": "aerospike_suite_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05993a65d7a4f0d2abe79676e3192b245d19e5b3",
+    "size": 12273,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/05993a65d7a4f0d2abe79676e3192b245d19e5b3"
+  },
+  {
+    "path": "anonymous_fields_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d26292707e36ffd88ec0cc14e5c812a2f24b2a0",
+    "size": 3455,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4d26292707e36ffd88ec0cc14e5c812a2f24b2a0"
+  },
+  {
+    "path": "auth_mode.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fcf28c09d042b830ddf9f727e0f9da0fb2057484",
+    "size": 1413,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/fcf28c09d042b830ddf9f727e0f9da0fb2057484"
+  },
+  {
+    "path": "base_read_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "107536207930c1ee7f249d835153acb858c894ca",
+    "size": 2471,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/107536207930c1ee7f249d835153acb858c894ca"
+  },
+  {
+    "path": "base_write_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0d78bfc417291dcad1d974c0994d122452c0093",
+    "size": 2457,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c0d78bfc417291dcad1d974c0994d122452c0093"
+  },
+  {
+    "path": "batch_attr.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16ebd5f6d4840616a1e84f33f6c12118c1bde459",
+    "size": 6865,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/16ebd5f6d4840616a1e84f33f6c12118c1bde459"
+  },
+  {
+    "path": "batch_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a000c4bb08a4877564f60255340688c941919d82",
+    "size": 3454,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a000c4bb08a4877564f60255340688c941919d82"
+  },
+  {
+    "path": "batch_command_delete.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da04409dfa65c92b2528df329da320fdd0a1459f",
+    "size": 6139,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/da04409dfa65c92b2528df329da320fdd0a1459f"
+  },
+  {
+    "path": "batch_command_exists.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6774b6aa5b94d134fae8166360a58ffbcf1f3152",
+    "size": 4704,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/6774b6aa5b94d134fae8166360a58ffbcf1f3152"
+  },
+  {
+    "path": "batch_command_get.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc6db7f487fc90fc74ad67280ddd3851197bcef2",
+    "size": 7857,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/dc6db7f487fc90fc74ad67280ddd3851197bcef2"
+  },
+  {
+    "path": "batch_command_get_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "515de5b0026fb73301eb7e862db65578abf8e927",
+    "size": 2184,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/515de5b0026fb73301eb7e862db65578abf8e927"
+  },
+  {
+    "path": "batch_command_operate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01f3d667ed16dd5e48926a3a5d3d51075bb8d299",
+    "size": 8890,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/01f3d667ed16dd5e48926a3a5d3d51075bb8d299"
+  },
+  {
+    "path": "batch_command_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec5b9c8d579120c8e555edf9636924c777d931a7",
+    "size": 2602,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/ec5b9c8d579120c8e555edf9636924c777d931a7"
+  },
+  {
+    "path": "batch_command_udf.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e5a89c1fb24adb8e1a56d4f0f43608b59ad094a",
+    "size": 6373,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7e5a89c1fb24adb8e1a56d4f0f43608b59ad094a"
+  },
+  {
+    "path": "batch_delete.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d058755f800ea1694fb1836f45f81a46782fcdab",
+    "size": 2608,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d058755f800ea1694fb1836f45f81a46782fcdab"
+  },
+  {
+    "path": "batch_delete_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e3d256e79bf1f97e6330de87a96f3ae3a473748",
+    "size": 2846,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/0e3d256e79bf1f97e6330de87a96f3ae3a473748"
+  },
+  {
+    "path": "batch_executer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58ca1abe7f753c755d5556da4136ec9e0e7d9bb1",
+    "size": 1906,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/58ca1abe7f753c755d5556da4136ec9e0e7d9bb1"
+  },
+  {
+    "path": "batch_index_command_get.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a7d00124c5a02b620779ed5bddb7bb9d3736338",
+    "size": 7356,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/0a7d00124c5a02b620779ed5bddb7bb9d3736338"
+  },
+  {
+    "path": "batch_node.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa45997947dd67da23f24d2a5ca1dd3131259011",
+    "size": 1074,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/fa45997947dd67da23f24d2a5ca1dd3131259011"
+  },
+  {
+    "path": "batch_node_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01fe7f821162fbbf1c506a9721e54a561e61909f",
+    "size": 8529,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/01fe7f821162fbbf1c506a9721e54a561e61909f"
+  },
+  {
+    "path": "batch_offsets.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46df4fc8c5b64d1bde678212be298dfecbfe3658",
+    "size": 1065,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/46df4fc8c5b64d1bde678212be298dfecbfe3658"
+  },
+  {
+    "path": "batch_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d20d3b998e2c578bf85d8d616e2038578484e6ca",
+    "size": 5515,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d20d3b998e2c578bf85d8d616e2038578484e6ca"
+  },
+  {
+    "path": "batch_read.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f638f87e6ff931bfbcb4eac6b95f9769035fec0a",
+    "size": 4668,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/f638f87e6ff931bfbcb4eac6b95f9769035fec0a"
+  },
+  {
+    "path": "batch_read_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a65b4b9ac091e55e2642ba71683e6c89dbd9dc27",
+    "size": 2711,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a65b4b9ac091e55e2642ba71683e6c89dbd9dc27"
+  },
+  {
+    "path": "batch_record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42315b80d8a1979f4376b1d6077a9e153f994f15",
+    "size": 4746,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/42315b80d8a1979f4376b1d6077a9e153f994f15"
+  },
+  {
+    "path": "batch_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58dd723f01f3c75804f9d5642b3f2855ecf88381",
+    "size": 31628,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/58dd723f01f3c75804f9d5642b3f2855ecf88381"
+  },
+  {
+    "path": "batch_udf.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73be35061cf15063af269d3bf86da080acc7f318",
+    "size": 3557,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/73be35061cf15063af269d3bf86da080acc7f318"
+  },
+  {
+    "path": "batch_udf_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59b3802624011aaef8de2c4b8bc01e7f7071c7f6",
+    "size": 3332,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/59b3802624011aaef8de2c4b8bc01e7f7071c7f6"
+  },
+  {
+    "path": "batch_write.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d94143c344289a3b292196b0406525f9b950091c",
+    "size": 3104,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d94143c344289a3b292196b0406525f9b950091c"
+  },
+  {
+    "path": "batch_write_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83ea260bc4e3a792a46d8dcd980cfa5a59c6daab",
+    "size": 4685,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/83ea260bc4e3a792a46d8dcd980cfa5a59c6daab"
+  },
+  {
+    "path": "bench_batchget_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18c97721a8775a79463049d6d0917a0ef0b6de56",
+    "size": 4404,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/18c97721a8775a79463049d6d0917a0ef0b6de56"
+  },
+  {
+    "path": "bench_cdt_list_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8966c4a531d6e1b315ea8a16771c189614ecc56c",
+    "size": 2773,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8966c4a531d6e1b315ea8a16771c189614ecc56c"
+  },
+  {
+    "path": "bench_get_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "883a15be0836263d394fd412be5deee5ac2e36f4",
+    "size": 4260,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/883a15be0836263d394fd412be5deee5ac2e36f4"
+  },
+  {
+    "path": "bench_interface_allocs_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "209a2eb9ad7f9f658fcf106363044681ee6d7aae",
+    "size": 2090,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/209a2eb9ad7f9f658fcf106363044681ee6d7aae"
+  },
+  {
+    "path": "bench_key_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5437d66cd4c27c83316acf8f11d8ea503557f4f4",
+    "size": 1789,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5437d66cd4c27c83316acf8f11d8ea503557f4f4"
+  },
+  {
+    "path": "bench_packing_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c57d3c5305bef82d3fa309c561fcb115cc4f513c",
+    "size": 6056,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c57d3c5305bef82d3fa309c561fcb115cc4f513c"
+  },
+  {
+    "path": "bench_rand_gen_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3384005a23c5302acb365f424fff730ccb1a0fb5",
+    "size": 1456,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/3384005a23c5302acb365f424fff730ccb1a0fb5"
+  },
+  {
+    "path": "bench_read_command_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c49d6229d07afdc1cfcf7c10a55302b35e126bc2",
+    "size": 4132,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c49d6229d07afdc1cfcf7c10a55302b35e126bc2"
+  },
+  {
+    "path": "bench_recordset_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a4a7e4ebf936e3410be670dadfa53262664ee1b",
+    "size": 1618,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/3a4a7e4ebf936e3410be670dadfa53262664ee1b"
+  },
+  {
+    "path": "bench_values_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc9ab143ce2ba5c5415de2e4b023501a75c43123",
+    "size": 3144,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/cc9ab143ce2ba5c5415de2e4b023501a75c43123"
+  },
+  {
+    "path": "bench_write_command_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f95f995d5ecf3ed0747d15e7564f5aed7d3aa53",
+    "size": 3946,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9f95f995d5ecf3ed0747d15e7564f5aed7d3aa53"
+  },
+  {
+    "path": "bin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92a3abc522b99939c1129d60c2b2d2330fbbe303",
+    "size": 1233,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/92a3abc522b99939c1129d60c2b2d2330fbbe303"
+  },
+  {
+    "path": "bit_overflow_action.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e1998ae7a39a42a782bed56dfe6c5ae193af7cd",
+    "size": 1227,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7e1998ae7a39a42a782bed56dfe6c5ae193af7cd"
+  },
+  {
+    "path": "bit_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63bd91998b823a31a579fe76f69f54c670171419",
+    "size": 967,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/63bd91998b823a31a579fe76f69f54c670171419"
+  },
+  {
+    "path": "bit_resize_flags.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d9f3f3ce819a8ef4625dd57082e2561cc8f3679d",
+    "size": 1178,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d9f3f3ce819a8ef4625dd57082e2561cc8f3679d"
+  },
+  {
+    "path": "bit_write_flags.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ad2e165d2a10c9b055979a22f1d6415ba3ad9d4",
+    "size": 1410,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7ad2e165d2a10c9b055979a22f1d6415ba3ad9d4"
+  },
+  {
+    "path": "buffered_connection.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f217a45d177a5e98b341b149252881fb9e97fc2",
+    "size": 3560,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/0f217a45d177a5e98b341b149252881fb9e97fc2"
+  },
+  {
+    "path": "bytes_buffer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c10fab889e437425a386b1723907807aa8d36481",
+    "size": 4208,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c10fab889e437425a386b1723907807aa8d36481"
+  },
+  {
+    "path": "cdt.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48021e515b3118cfa4d7b494ac99b5ae0f76646c",
+    "size": 4811,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/48021e515b3118cfa4d7b494ac99b5ae0f76646c"
+  },
+  {
+    "path": "cdt_bitwise.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17202baeb95956df094c9cac3b4e3d217906ecf0",
+    "size": 17515,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/17202baeb95956df094c9cac3b4e3d217906ecf0"
+  },
+  {
+    "path": "cdt_bitwise_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a5547fba2820e409a7c529c657474efd16c6211",
+    "size": 29903,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5a5547fba2820e409a7c529c657474efd16c6211"
+  },
+  {
+    "path": "cdt_context.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f7fb9fcc20b5c5f19064e825f0007277fabd4a1",
+    "size": 5474,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9f7fb9fcc20b5c5f19064e825f0007277fabd4a1"
+  },
+  {
+    "path": "cdt_context_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "960951538d46aaf50e1a55d20b9f415979753f12",
+    "size": 1183,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/960951538d46aaf50e1a55d20b9f415979753f12"
+  },
+  {
+    "path": "cdt_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cacef3957547b8fa53d9d3af68967c105aad016",
+    "size": 41193,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4cacef3957547b8fa53d9d3af68967c105aad016"
+  },
+  {
+    "path": "cdt_list_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e41cc526c35407cf0f6656a7ad3b2757d5f5ee6c",
+    "size": 34786,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/e41cc526c35407cf0f6656a7ad3b2757d5f5ee6c"
+  },
+  {
+    "path": "cdt_map.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e3c84c42d3c31d525a223aa5bebfa85adabe964",
+    "size": 33257,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5e3c84c42d3c31d525a223aa5bebfa85adabe964"
+  },
+  {
+    "path": "cdt_map_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7765ca73352659f7d23b815027104dc0a5e5f348",
+    "size": 33574,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7765ca73352659f7d23b815027104dc0a5e5f348"
+  },
+  {
+    "path": "client.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e7f830e391f20fe162418f9e6d5114c93c1a69e",
+    "size": 70357,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9e7f830e391f20fe162418f9e6d5114c93c1a69e"
+  },
+  {
+    "path": "client_appengine_exclusions.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93ba5e144e4d83d3bebaba0e71a23af3ac45a9c3",
+    "size": 4509,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/93ba5e144e4d83d3bebaba0e71a23af3ac45a9c3"
+  },
+  {
+    "path": "client_object_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88a220e50b8262953b860ea51b5572b43f9ac27b",
+    "size": 41141,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/88a220e50b8262953b860ea51b5572b43f9ac27b"
+  },
+  {
+    "path": "client_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b4ad8651aa94e3a5494dbb79e6e968f3a56c896",
+    "size": 9371,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1b4ad8651aa94e3a5494dbb79e6e968f3a56c896"
+  },
+  {
+    "path": "client_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aaac279d16faca9ca24a62887298de61f5994fb6",
+    "size": 11017,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/aaac279d16faca9ca24a62887298de61f5994fb6"
+  },
+  {
+    "path": "client_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e83fdeb908c311694bc73bc1cee3ee65141efb1",
+    "size": 12468,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4e83fdeb908c311694bc73bc1cee3ee65141efb1"
+  },
+  {
+    "path": "client_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5be238b1e8b01a57dad625eb717fcc5f5763741d",
+    "size": 69062,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5be238b1e8b01a57dad625eb717fcc5f5763741d"
+  },
+  {
+    "path": "cluster.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c70a9508cf8783597e151539750df4d6d616547",
+    "size": 27609,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4c70a9508cf8783597e151539750df4d6d616547"
+  },
+  {
+    "path": "command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75a228c39d369e08dc885d2953fd89b53f99f765",
+    "size": 103281,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/75a228c39d369e08dc885d2953fd89b53f99f765"
+  },
+  {
+    "path": "commit_error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20990e2e81333e9b59318970f008f18c6e232f8c",
+    "size": 1270,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/20990e2e81333e9b59318970f008f18c6e232f8c"
+  },
+  {
+    "path": "commit_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9215f07d1ca25ecc6191a3cf3bcbbfe638703ab",
+    "size": 1093,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c9215f07d1ca25ecc6191a3cf3bcbbfe638703ab"
+  },
+  {
+    "path": "commit_status.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "367ba7dd306e65c84ab05f29fc92980aae199f11",
+    "size": 1317,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/367ba7dd306e65c84ab05f29fc92980aae199f11"
+  },
+  {
+    "path": "complex_index_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f15986117a17115886dd5410b994fb8ee3600d3",
+    "size": 3258,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9f15986117a17115886dd5410b994fb8ee3600d3"
+  },
+  {
+    "path": "complex_query_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da9bf0a10c596b7a5f0f266847bf38781f14580f",
+    "size": 7540,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/da9bf0a10c596b7a5f0f266847bf38781f14580f"
+  },
+  {
+    "path": "connection.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5925757ead3bd0f28046c2b25c19de40ded1caca",
+    "size": 15781,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5925757ead3bd0f28046c2b25c19de40ded1caca"
+  },
+  {
+    "path": "connection_heap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab0a8fe7fa6e49bbdc18d9ea91cbc50536974b62",
+    "size": 7462,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/ab0a8fe7fa6e49bbdc18d9ea91cbc50536974b62"
+  },
+  {
+    "path": "connection_heap_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8986d98156793ab3c6831e5b13bed593e29895df",
+    "size": 2832,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8986d98156793ab3c6831e5b13bed593e29895df"
+  },
+  {
+    "path": "connection_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a15e159d8deae47c172bb566f860bf40c1578c34",
+    "size": 2770,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a15e159d8deae47c172bb566f860bf40c1578c34"
+  },
+  {
+    "path": "delete_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a80425f9edcffe661a7355b74dc1606f9145948",
+    "size": 1906,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9a80425f9edcffe661a7355b74dc1606f9145948"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87de76176c81077c493e70ca59dba24a1be0cca4",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/87de76176c81077c493e70ca59dba24a1be0cca4"
+  },
+  {
+    "path": "error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db265a0c51a41c7b9534aa21ec131f4a6c8b0af2",
+    "size": 14194,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/db265a0c51a41c7b9534aa21ec131f4a6c8b0af2"
+  },
+  {
+    "path": "error_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e4d807da22c95fb27ef0d8bee69222243409ab9",
+    "size": 4123,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7e4d807da22c95fb27ef0d8bee69222243409ab9"
+  },
+  {
+    "path": "example_client_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bdae322f57d463d60eb5548fdd48557f4bc4aaba",
+    "size": 2292,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/bdae322f57d463d60eb5548fdd48557f4bc4aaba"
+  },
+  {
+    "path": "example_listiter_int_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8363a8539cdaf32f45504d5dd076b4dabe8dca2d",
+    "size": 1578,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8363a8539cdaf32f45504d5dd076b4dabe8dca2d"
+  },
+  {
+    "path": "example_listiter_string_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4b21f37733f49a9be7f3b5af3791654cf92ec45",
+    "size": 1607,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a4b21f37733f49a9be7f3b5af3791654cf92ec45"
+  },
+  {
+    "path": "example_listiter_time_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d21432c4ffd5fb6c60cfcba1ca682e4d5d8cbb5",
+    "size": 1773,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8d21432c4ffd5fb6c60cfcba1ca682e4d5d8cbb5"
+  },
+  {
+    "path": "example_mapiter_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8bdeeda20860c5190069573f9bc592f8626d2fb7",
+    "size": 1808,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8bdeeda20860c5190069573f9bc592f8626d2fb7"
+  },
+  {
+    "path": "example_pagination_cursor_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88b004f6c750db6e1092a749d5697abd8dbcc40e",
+    "size": 1823,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/88b004f6c750db6e1092a749d5697abd8dbcc40e"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "697a93e8e45a1ebb7582290e8c067d44703915bc",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/697a93e8e45a1ebb7582290e8c067d44703915bc"
+  },
+  {
+    "path": "execute_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f270c4b8b5f5cb9cf45aabce5fd0412d08bbbf51",
+    "size": 2818,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/f270c4b8b5f5cb9cf45aabce5fd0412d08bbbf51"
+  },
+  {
+    "path": "execute_task.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "459d66dcd0abf914413d6ebb84fc9b23eeb1c00c",
+    "size": 4036,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/459d66dcd0abf914413d6ebb84fc9b23eeb1c00c"
+  },
+  {
+    "path": "exists_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f050daf2134e0a684de3184b8b7e03f3081e15bb",
+    "size": 1900,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/f050daf2134e0a684de3184b8b7e03f3081e15bb"
+  },
+  {
+    "path": "exp_bit.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c3929157c993c6f624b31a0620bcac82a85dec5",
+    "size": 10068,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9c3929157c993c6f624b31a0620bcac82a85dec5"
+  },
+  {
+    "path": "exp_bit_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f5053abe98249b2efa062989b6d10b33e608ee8",
+    "size": 8902,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/3f5053abe98249b2efa062989b6d10b33e608ee8"
+  },
+  {
+    "path": "exp_hll.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "277645138c34d522f846b8c3bd2ef1036d713949",
+    "size": 5859,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/277645138c34d522f846b8c3bd2ef1036d713949"
+  },
+  {
+    "path": "exp_hll_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c7de539fde590441124b392ecf2bf729bdcfb2a",
+    "size": 4411,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/2c7de539fde590441124b392ecf2bf729bdcfb2a"
+  },
+  {
+    "path": "exp_list.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "610e00b21f3572f865f1adcbe5a5e5d2b7d90b35",
+    "size": 18409,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/610e00b21f3572f865f1adcbe5a5e5d2b7d90b35"
+  },
+  {
+    "path": "exp_list_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64aea581c5dc8a5920936f9f72df30ea7583e190",
+    "size": 11834,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/64aea581c5dc8a5920936f9f72df30ea7583e190"
+  },
+  {
+    "path": "exp_map.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3789d28b7f5e3f15e41092e8b5996ec40f2fd8b",
+    "size": 26150,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/b3789d28b7f5e3f15e41092e8b5996ec40f2fd8b"
+  },
+  {
+    "path": "exp_map_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54d872dfb04e8c836b15f92b2736ff6fb62145d1",
+    "size": 13971,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/54d872dfb04e8c836b15f92b2736ff6fb62145d1"
+  },
+  {
+    "path": "exp_operation.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3d5d2915f1c1d48603fa122e3e6879841e5e9aa",
+    "size": 3552,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/e3d5d2915f1c1d48603fa122e3e6879841e5e9aa"
+  },
+  {
+    "path": "exp_ops_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70c765b473ba279902a1c37ea0832a92b10d1462",
+    "size": 11560,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/70c765b473ba279902a1c37ea0832a92b10d1462"
+  },
+  {
+    "path": "expression.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb36384079fbb7f10f797fccbb92be2e8adfe83a",
+    "size": 35813,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/cb36384079fbb7f10f797fccbb92be2e8adfe83a"
+  },
+  {
+    "path": "expression_ops_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4642a8434960adc3405840809c2498fa4c0feb67",
+    "size": 11489,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4642a8434960adc3405840809c2498fa4c0feb67"
+  },
+  {
+    "path": "expression_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04926a954d699a98bbaa4fd4abd1c7a0fc2406bd",
+    "size": 28540,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/04926a954d699a98bbaa4fd4abd1c7a0fc2406bd"
+  },
+  {
+    "path": "field_type.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1227a80ad7e081d2949c5c4f6855e0236239e4bd",
+    "size": 1729,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1227a80ad7e081d2949c5c4f6855e0236239e4bd"
+  },
+  {
+    "path": "filter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e4d95c7b4d68a2a33aef7b32c7bc7f9ffb1e7f5",
+    "size": 7533,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5e4d95c7b4d68a2a33aef7b32c7bc7f9ffb1e7f5"
+  },
+  {
+    "path": "generation_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "94efbc8dead17830fc39dc38c869318ca4747d50",
+    "size": 1154,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/94efbc8dead17830fc39dc38c869318ca4747d50"
+  },
+  {
+    "path": "generics.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a396479806d721daf4332abf7f38fc8d6418bf49",
+    "size": 66091,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a396479806d721daf4332abf7f38fc8d6418bf49"
+  },
+  {
+    "path": "geo_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ee2a6291665e0e5a5eb1bc527ce79a65bef38e3",
+    "size": 5905,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8ee2a6291665e0e5a5eb1bc527ce79a65bef38e3"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fec62d629410a71978a2c7395c93ae3ceb52801",
+    "size": 843,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1fec62d629410a71978a2c7395c93ae3ceb52801"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b740b01f4924605403b12b0371a8ce77fd21d29",
+    "size": 4342,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4b740b01f4924605403b12b0371a8ce77fd21d29"
+  },
+  {
+    "path": "helper_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57e752e16a963074aef4310900f1d9ce3df0c88f",
+    "size": 2857,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/57e752e16a963074aef4310900f1d9ce3df0c88f"
+  },
+  {
+    "path": "hll_operation.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc1f5d38624a61ac7f5fe253182b650acc9d5268",
+    "size": 9257,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/cc1f5d38624a61ac7f5fe253182b650acc9d5268"
+  },
+  {
+    "path": "hll_operation_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01ebab4329ef833c967534f2f6f7edb6c1fb57fb",
+    "size": 26991,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/01ebab4329ef833c967534f2f6f7edb6c1fb57fb"
+  },
+  {
+    "path": "hll_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12a24acdc9636da489de0835a1256ecd2177bf6f",
+    "size": 1013,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/12a24acdc9636da489de0835a1256ecd2177bf6f"
+  },
+  {
+    "path": "hll_write_flags.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4719044fbf9789eab3b84d7de2c625478d279107",
+    "size": 1518,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4719044fbf9789eab3b84d7de2c625478d279107"
+  },
+  {
+    "path": "host.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd95ade49cbc7bfccc65250d64b9ed2d6f98bd22",
+    "size": 2043,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/dd95ade49cbc7bfccc65250d64b9ed2d6f98bd22"
+  },
+  {
+    "path": "host_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50721da8b0fd668e04fd1eb5cd7f058abd428ff4",
+    "size": 1578,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/50721da8b0fd668e04fd1eb5cd7f058abd428ff4"
+  },
+  {
+    "path": "index_collection_type.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc85253da331287d40a8173cc49dee6a989d3408",
+    "size": 1652,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/dc85253da331287d40a8173cc49dee6a989d3408"
+  },
+  {
+    "path": "index_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd130b0e79be0b45c7f30450caf61175843fa98f",
+    "size": 3417,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/dd130b0e79be0b45c7f30450caf61175843fa98f"
+  },
+  {
+    "path": "index_type.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3e060c16b8c09c82c4b52f8ae3a135d68f1f3e2",
+    "size": 1050,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/f3e060c16b8c09c82c4b52f8ae3a135d68f1f3e2"
+  },
+  {
+    "path": "info.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3e5b76d77b618072d80e4e9235bb85337794b71",
+    "size": 3071,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d3e5b76d77b618072d80e4e9235bb85337794b71"
+  },
+  {
+    "path": "info_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1442e0102fa20121d8093c66595a3e2f06bf396a",
+    "size": 1250,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1442e0102fa20121d8093c66595a3e2f06bf396a"
+  },
+  {
+    "path": "internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e52342c271d4d716674f775fca65bcf924ea4ab1",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/e52342c271d4d716674f775fca65bcf924ea4ab1"
+  },
+  {
+    "path": "key.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dddb6fe83872a4c8dd08fd7499023fe49a153d57",
+    "size": 5288,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/dddb6fe83872a4c8dd08fd7499023fe49a153d57"
+  },
+  {
+    "path": "key_bench_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "487829d22b2168055c7c52b86ad8ce8fc51699de",
+    "size": 3889,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/487829d22b2168055c7c52b86ad8ce8fc51699de"
+  },
+  {
+    "path": "key_helper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ed1af0290cc6f62480450d6f6efc7af36c1366e",
+    "size": 3593,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7ed1af0290cc6f62480450d6f6efc7af36c1366e"
+  },
+  {
+    "path": "key_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87e0d40fac788dba9d1ec4af24c41b2e91f1079f",
+    "size": 1384,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/87e0d40fac788dba9d1ec4af24c41b2e91f1079f"
+  },
+  {
+    "path": "key_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cb777eddd6c14da930371aea89fa046e964ae1a",
+    "size": 6103,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/3cb777eddd6c14da930371aea89fa046e964ae1a"
+  },
+  {
+    "path": "language.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1bbfaa71952b03a7fa9c6295b48547efbc2c7d9",
+    "size": 762,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/b1bbfaa71952b03a7fa9c6295b48547efbc2c7d9"
+  },
+  {
+    "path": "load_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9d2897bf932e9b963b5e6e14f69f92a6be54f95",
+    "size": 2391,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c9d2897bf932e9b963b5e6e14f69f92a6be54f95"
+  },
+  {
+    "path": "logger",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "96d706971e0dd1e366f9db5a2918e9a7a5929757",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/96d706971e0dd1e366f9db5a2918e9a7a5929757"
+  },
+  {
+    "path": "login_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecdbbba73ef64db9dbe72f7c6f934bdb161a9dc9",
+    "size": 5921,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/ecdbbba73ef64db9dbe72f7c6f934bdb161a9dc9"
+  },
+  {
+    "path": "marshal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7f23d11054041392699e791bb0e254a6dcf3c33",
+    "size": 9374,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/e7f23d11054041392699e791bb0e254a6dcf3c33"
+  },
+  {
+    "path": "metrics_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a55f20cf53277d0b45e9689c9f1d1ba723163f2a",
+    "size": 1901,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a55f20cf53277d0b45e9689c9f1d1ba723163f2a"
+  },
+  {
+    "path": "multi_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21b02dfdfd40b8b0b72dc10b0264b2424d46c58f",
+    "size": 13331,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/21b02dfdfd40b8b0b72dc10b0264b2424d46c58f"
+  },
+  {
+    "path": "multi_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff575d988a6040739baca46cea5cfe739de9256e",
+    "size": 3781,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/ff575d988a6040739baca46cea5cfe739de9256e"
+  },
+  {
+    "path": "node.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cf9bdea0ab95916066826a95d2f22fd83b888ab",
+    "size": 26763,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8cf9bdea0ab95916066826a95d2f22fd83b888ab"
+  },
+  {
+    "path": "node_stats.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b9748152fe7e51066e6aaf6c8db52694629c875",
+    "size": 19183,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5b9748152fe7e51066e6aaf6c8db52694629c875"
+  },
+  {
+    "path": "node_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28484f2beadccf58124a4931cbb51410a42f6e73",
+    "size": 11125,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/28484f2beadccf58124a4931cbb51410a42f6e73"
+  },
+  {
+    "path": "node_validator.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bf27f6f0c3ee4b2d4d33de927cc174ae201b7c2",
+    "size": 9077,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/0bf27f6f0c3ee4b2d4d33de927cc174ae201b7c2"
+  },
+  {
+    "path": "operate_args.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61f32ed562b3594029b5cbf96af1ae621d476923",
+    "size": 2681,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/61f32ed562b3594029b5cbf96af1ae621d476923"
+  },
+  {
+    "path": "operate_command_read.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "193e457e2a613e4e1921ed68171cfcaf30fa1b1a",
+    "size": 1341,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/193e457e2a613e4e1921ed68171cfcaf30fa1b1a"
+  },
+  {
+    "path": "operate_command_write.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed62241cb600a94669ebe72d14432da60ef346f5",
+    "size": 2020,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/ed62241cb600a94669ebe72d14432da60ef346f5"
+  },
+  {
+    "path": "operation.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc0221ed8916583a2bae4790b14f3c2a15ad5f9d",
+    "size": 4128,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/fc0221ed8916583a2bae4790b14f3c2a15ad5f9d"
+  },
+  {
+    "path": "packer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3e92017711460594f2db94061475758bd18a612",
+    "size": 14965,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/b3e92017711460594f2db94061475758bd18a612"
+  },
+  {
+    "path": "packer_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c0f178b156de9a89a694603354a9ecd27534f75",
+    "size": 2655,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5c0f178b156de9a89a694603354a9ecd27534f75"
+  },
+  {
+    "path": "packing_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd485d7cc1a43f44f48f76cf49116f4e331ca112",
+    "size": 12810,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/fd485d7cc1a43f44f48f76cf49116f4e331ca112"
+  },
+  {
+    "path": "partition.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1121dc7c202384a120f65bf06ede6b7b00343af5",
+    "size": 8879,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1121dc7c202384a120f65bf06ede6b7b00343af5"
+  },
+  {
+    "path": "partition_filter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84c3db5580858949cd4d19b690995edc9aa94c82",
+    "size": 4124,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/84c3db5580858949cd4d19b690995edc9aa94c82"
+  },
+  {
+    "path": "partition_parser.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5eed6233a904178397a5bdc29f413b1b08b4c9e",
+    "size": 7467,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/b5eed6233a904178397a5bdc29f413b1b08b4c9e"
+  },
+  {
+    "path": "partition_status.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f541aa8ff80b3756175ee4a5e3b39d77a74e72e",
+    "size": 1429,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7f541aa8ff80b3756175ee4a5e3b39d77a74e72e"
+  },
+  {
+    "path": "partition_tracker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd45c91c8e88f10c50b4b5e3ea37427e8960e104",
+    "size": 14230,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/bd45c91c8e88f10c50b4b5e3ea37427e8960e104"
+  },
+  {
+    "path": "partitions.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16d5504660a49a58e5f6911fed8423c64d5d1f2b",
+    "size": 5381,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/16d5504660a49a58e5f6911fed8423c64d5d1f2b"
+  },
+  {
+    "path": "peers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9eeb6c6fbfe376687a39cf5384533699eeece263",
+    "size": 2191,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9eeb6c6fbfe376687a39cf5384533699eeece263"
+  },
+  {
+    "path": "peers_parser.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a644dc70a7112068e3020df058d1d7402208be5",
+    "size": 5411,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/3a644dc70a7112068e3020df058d1d7402208be5"
+  },
+  {
+    "path": "pkg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c48da8f8fc0fe2dbb4a3a3971bee5a6eae3f6aa",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/5c48da8f8fc0fe2dbb4a3a3971bee5a6eae3f6aa"
+  },
+  {
+    "path": "policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "455bd2bf9a9f808d6bf302c8b461a6b1fa03ead4",
+    "size": 8605,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/455bd2bf9a9f808d6bf302c8b461a6b1fa03ead4"
+  },
+  {
+    "path": "privilege.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a99fb06ca7ed386dc83e8a0cf8f1c00db618bd2",
+    "size": 3889,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8a99fb06ca7ed386dc83e8a0cf8f1c00db618bd2"
+  },
+  {
+    "path": "query_aggregate_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "321819ca37508b927c1547882de4dd4ebef94906",
+    "size": 4584,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/321819ca37508b927c1547882de4dd4ebef94906"
+  },
+  {
+    "path": "query_aggregate_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2429b4bdc10c42ef01aa2ef0fafffa3cc95e93f",
+    "size": 4303,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d2429b4bdc10c42ef01aa2ef0fafffa3cc95e93f"
+  },
+  {
+    "path": "query_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b2479b8ea1afb40491400f473177818d08bc832",
+    "size": 1862,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9b2479b8ea1afb40491400f473177818d08bc832"
+  },
+  {
+    "path": "query_context_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d47ae87e6b80ab7aad6ce7bea832d2411924bbf",
+    "size": 2422,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8d47ae87e6b80ab7aad6ce7bea832d2411924bbf"
+  },
+  {
+    "path": "query_duration.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b4dc8a6f840518479455e92884cbfe3e629548c",
+    "size": 2228,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/0b4dc8a6f840518479455e92884cbfe3e629548c"
+  },
+  {
+    "path": "query_executor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbf515181679bbbc054a77a8a1aa093e4360cc43",
+    "size": 2022,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/dbf515181679bbbc054a77a8a1aa093e4360cc43"
+  },
+  {
+    "path": "query_objects_executor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a7e4f0d755c689b975317787600659c3a46e56e",
+    "size": 3016,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/0a7e4f0d755c689b975317787600659c3a46e56e"
+  },
+  {
+    "path": "query_partition_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f85e708f654a9619df197cc0bdb0dd172cf1ecd",
+    "size": 2086,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7f85e708f654a9619df197cc0bdb0dd172cf1ecd"
+  },
+  {
+    "path": "query_partitiopn_objects_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11684760bbaf345c6178758b0a021dfa01ded2c1",
+    "size": 2121,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/11684760bbaf345c6178758b0a021dfa01ded2c1"
+  },
+  {
+    "path": "query_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4309bd7b3cb2963de772df85e872c7f2d80df3bd",
+    "size": 2537,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4309bd7b3cb2963de772df85e872c7f2d80df3bd"
+  },
+  {
+    "path": "query_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7ca6d6be613bc7fecabd5928c20b6cc06da54d3",
+    "size": 17694,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/b7ca6d6be613bc7fecabd5928c20b6cc06da54d3"
+  },
+  {
+    "path": "random_operation_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2b32e0eb30dc2ccd4aff19a2a92f0130567bb04",
+    "size": 3473,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d2b32e0eb30dc2ccd4aff19a2a92f0130567bb04"
+  },
+  {
+    "path": "read_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1839e7d5865e31bdf62ef2b0edd9129acb94402e",
+    "size": 2206,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1839e7d5865e31bdf62ef2b0edd9129acb94402e"
+  },
+  {
+    "path": "read_command_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e2771900184840f9cefa57ca6f8f9c41be1833c",
+    "size": 13176,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5e2771900184840f9cefa57ca6f8f9c41be1833c"
+  },
+  {
+    "path": "read_command_reflect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48a65a4fabbb6df2403b493b9b5f5fec69f722b5",
+    "size": 4236,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/48a65a4fabbb6df2403b493b9b5f5fec69f722b5"
+  },
+  {
+    "path": "read_header_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2f81fc77582222c0e485fa270645c258f37550c",
+    "size": 1954,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c2f81fc77582222c0e485fa270645c258f37550c"
+  },
+  {
+    "path": "read_mode_ap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca5af3699f454431adf00b601589009050a106ad",
+    "size": 1201,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/ca5af3699f454431adf00b601589009050a106ad"
+  },
+  {
+    "path": "read_mode_sc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38ea6c6ece40ea931f8252e94eab52612ff12248",
+    "size": 1653,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/38ea6c6ece40ea931f8252e94eab52612ff12248"
+  },
+  {
+    "path": "record.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe123e6ddb9d18331b70e6b67da690fa6c7d4614",
+    "size": 2041,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/fe123e6ddb9d18331b70e6b67da690fa6c7d4614"
+  },
+  {
+    "path": "record_exists_action.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3c81f11d482b4b0859cc088b40105f8bf0516a4",
+    "size": 1570,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d3c81f11d482b4b0859cc088b40105f8bf0516a4"
+  },
+  {
+    "path": "record_parser.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54d19a9ebdc5236e6c6e85da21ee9a86fee93f2e",
+    "size": 5989,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/54d19a9ebdc5236e6c6e85da21ee9a86fee93f2e"
+  },
+  {
+    "path": "recordset.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9648411faeadeea60bfc6c786dc447c7f86e2bb",
+    "size": 5731,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/f9648411faeadeea60bfc6c786dc447c7f86e2bb"
+  },
+  {
+    "path": "recordset_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "773db9b9850f511e52685ff4413acae561593782",
+    "size": 1276,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/773db9b9850f511e52685ff4413acae561593782"
+  },
+  {
+    "path": "replica_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "766d844cd876d53c556d4e7ca7d6f059bd60d4fa",
+    "size": 1782,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/766d844cd876d53c556d4e7ca7d6f059bd60d4fa"
+  },
+  {
+    "path": "role.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f55813437e4de7c99f3c04d90ecce687a67839d",
+    "size": 2180,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4f55813437e4de7c99f3c04d90ecce687a67839d"
+  },
+  {
+    "path": "scan_executor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b9c21af60d6cc92de1b15f016be1e57a3d92ab1",
+    "size": 2058,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/5b9c21af60d6cc92de1b15f016be1e57a3d92ab1"
+  },
+  {
+    "path": "scan_objects_executor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2cccf718ebaddedf70b9750b0b7252827b270a6a",
+    "size": 3017,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/2cccf718ebaddedf70b9750b0b7252827b270a6a"
+  },
+  {
+    "path": "scan_partition_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c34366ad524368e48033e6b872cd19dd726ae63c",
+    "size": 2225,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c34366ad524368e48033e6b872cd19dd726ae63c"
+  },
+  {
+    "path": "scan_partition_objects_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "054a5ffbac3541dd9ffbcc37093fe4cd09ac7720",
+    "size": 2424,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/054a5ffbac3541dd9ffbcc37093fe4cd09ac7720"
+  },
+  {
+    "path": "scan_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbb1f26720680ef2403e39e4d7e7f3aacc615d58",
+    "size": 1609,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/cbb1f26720680ef2403e39e4d7e7f3aacc615d58"
+  },
+  {
+    "path": "scan_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f71cc2ade7449ecf8bacbd59adc2aef3f4f2e45e",
+    "size": 14949,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/f71cc2ade7449ecf8bacbd59adc2aef3f4f2e45e"
+  },
+  {
+    "path": "security_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8400968e255b880bbd83b76ac64f175b6b3a91a9",
+    "size": 10875,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8400968e255b880bbd83b76ac64f175b6b3a91a9"
+  },
+  {
+    "path": "server_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6595e5e669cfff416e011f6920eeca83f7de940d",
+    "size": 2859,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/6595e5e669cfff416e011f6920eeca83f7de940d"
+  },
+  {
+    "path": "single_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0e2b07923ddfbfe259ee9366482f7bb23446cf5",
+    "size": 1864,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d0e2b07923ddfbfe259ee9366482f7bb23446cf5"
+  },
+  {
+    "path": "statement.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f077265c0fc4d6f62d91d58afccc134a0e2fb49",
+    "size": 3317,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1f077265c0fc4d6f62d91d58afccc134a0e2fb49"
+  },
+  {
+    "path": "task.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6d9631b9e333799eb0458d251dd2fefc09a81a7",
+    "size": 1989,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a6d9631b9e333799eb0458d251dd2fefc09a81a7"
+  },
+  {
+    "path": "task_drop_index.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f648ae0b4b2c255e3b69f5f496ed0343b1a1178",
+    "size": 1871,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9f648ae0b4b2c255e3b69f5f496ed0343b1a1178"
+  },
+  {
+    "path": "task_index.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9149629bd082f1bd6937886c4b9aa66fe9d25db5",
+    "size": 2196,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9149629bd082f1bd6937886c4b9aa66fe9d25db5"
+  },
+  {
+    "path": "task_register.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49ae21190dfa818246555b72ff5e2cc4da7ccd6f",
+    "size": 1828,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/49ae21190dfa818246555b72ff5e2cc4da7ccd6f"
+  },
+  {
+    "path": "task_remove.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17d86a7c626556f8c42e22ff02470478dea1fe8e",
+    "size": 1809,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/17d86a7c626556f8c42e22ff02470478dea1fe8e"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bda97e1253b15e5d0293c35b8f996ae48a1b3b87",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/bda97e1253b15e5d0293c35b8f996ae48a1b3b87"
+  },
+  {
+    "path": "test_utils_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a46c87916405f2708bef352a32af054859342288",
+    "size": 3042,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a46c87916405f2708bef352a32af054859342288"
+  },
+  {
+    "path": "tools.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "636354cee4a0193673bd37aa577d34be0f945fd1",
+    "size": 795,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/636354cee4a0193673bd37aa577d34be0f945fd1"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c7cc18b219f1fa37ae99b02b08138447180424e4",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/c7cc18b219f1fa37ae99b02b08138447180424e4"
+  },
+  {
+    "path": "touch_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fcd2389332b6d18d6606475c89d9161a3091489",
+    "size": 1825,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/4fcd2389332b6d18d6606475c89d9161a3091489"
+  },
+  {
+    "path": "truncate_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1929e2081d3cd1528696ba0f90000adc225cd2e",
+    "size": 3225,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d1929e2081d3cd1528696ba0f90000adc225cd2e"
+  },
+  {
+    "path": "txn.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4a8d4fda2abc25dc6191d35aae70c7977b4739c",
+    "size": 10591,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d4a8d4fda2abc25dc6191d35aae70c7977b4739c"
+  },
+  {
+    "path": "txn_add_keys_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8401202737131e8072c07fc9cd2624ff285c1bfd",
+    "size": 1744,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/8401202737131e8072c07fc9cd2624ff285c1bfd"
+  },
+  {
+    "path": "txn_close.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d7e5cad61e75dc0b8dd9aa85407666da33f4196",
+    "size": 1768,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1d7e5cad61e75dc0b8dd9aa85407666da33f4196"
+  },
+  {
+    "path": "txn_error.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db4a3afd489202abbc3921b34b0dc6f31d359fce",
+    "size": 1784,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/db4a3afd489202abbc3921b34b0dc6f31d359fce"
+  },
+  {
+    "path": "txn_mark_roll_forward.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e58c2395959a50135b97542fc15dd0fbfbf42b7",
+    "size": 1777,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/9e58c2395959a50135b97542fc15dd0fbfbf42b7"
+  },
+  {
+    "path": "txn_monitor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cfe0d71ef87c228db9eb8fc0531f4831e366581b",
+    "size": 5012,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/cfe0d71ef87c228db9eb8fc0531f4831e366581b"
+  },
+  {
+    "path": "txn_roll.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8f224a071f407a7b63ca56a5666ebca59671b34",
+    "size": 6495,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/e8f224a071f407a7b63ca56a5666ebca59671b34"
+  },
+  {
+    "path": "txn_roll_batch.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "071e6ba94b1826b8384ecef21943b9626a7fedbc",
+    "size": 5498,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/071e6ba94b1826b8384ecef21943b9626a7fedbc"
+  },
+  {
+    "path": "txn_roll_batch_single.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20c2bb4ceb85e1bfdfae3f06c0d10e92073e9379",
+    "size": 2887,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/20c2bb4ceb85e1bfdfae3f06c0d10e92073e9379"
+  },
+  {
+    "path": "txn_roll_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70a4529d453c0d483c9c65048c16a9c3cda1f99b",
+    "size": 1202,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/70a4529d453c0d483c9c65048c16a9c3cda1f99b"
+  },
+  {
+    "path": "txn_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ae829cf9e96f4a99e4790e06a95fd1d0fbdf28d",
+    "size": 23685,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7ae829cf9e96f4a99e4790e06a95fd1d0fbdf28d"
+  },
+  {
+    "path": "txn_verify_batch.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "025590a1cda14775d55e46679334363a064d51b8",
+    "size": 5203,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/025590a1cda14775d55e46679334363a064d51b8"
+  },
+  {
+    "path": "txn_verify_batch_single.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4c1c29eed9b215fdae292f347ca018699338e49",
+    "size": 5143,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c4c1c29eed9b215fdae292f347ca018699338e49"
+  },
+  {
+    "path": "txn_verify_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0754340acbd727285ecfed2e1e110b30cd6e09e",
+    "size": 1207,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c0754340acbd727285ecfed2e1e110b30cd6e09e"
+  },
+  {
+    "path": "types",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d230f445b4483810e44ff2c679629bf79bf52f56",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/d230f445b4483810e44ff2c679629bf79bf52f56"
+  },
+  {
+    "path": "udf.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "366d5a625d4d08840d53f7da8cbfd8e4bb40bbba",
+    "size": 211,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/366d5a625d4d08840d53f7da8cbfd8e4bb40bbba"
+  },
+  {
+    "path": "udf_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1afdca3143864cf56098ca164b107d8cc0223d02",
+    "size": 13407,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1afdca3143864cf56098ca164b107d8cc0223d02"
+  },
+  {
+    "path": "unpacker.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f89808d93f62bef1990e1dbc5d5e0fab8ea4201f",
+    "size": 10486,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/f89808d93f62bef1990e1dbc5d5e0fab8ea4201f"
+  },
+  {
+    "path": "user_roles.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c4ccdde712de70e5ed67356c3b7e26d29e045b8",
+    "size": 1696,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1c4ccdde712de70e5ed67356c3b7e26d29e045b8"
+  },
+  {
+    "path": "utils",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80642f5bb0d34a5ff8b8bc7029083faa270f238b",
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/trees/80642f5bb0d34a5ff8b8bc7029083faa270f238b"
+  },
+  {
+    "path": "value.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff35f300293565e20c58da05e8da46f8a3d3cc25",
+    "size": 36607,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/ff35f300293565e20c58da05e8da46f8a3d3cc25"
+  },
+  {
+    "path": "value_helpers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d06c1cdfc07244b8bfe45c35a7574c18acbe0ed5",
+    "size": 1836,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/d06c1cdfc07244b8bfe45c35a7574c18acbe0ed5"
+  },
+  {
+    "path": "value_reflect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2387b40ef31467c03111dffe6d9f36694ff4c18",
+    "size": 1611,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/c2387b40ef31467c03111dffe6d9f36694ff4c18"
+  },
+  {
+    "path": "value_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d16eb5b237cd59d3e862b36f5d4b1d851b8afcd",
+    "size": 5789,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/2d16eb5b237cd59d3e862b36f5d4b1d851b8afcd"
+  },
+  {
+    "path": "werrgroup.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1cc7e18f238ab9159b71ab1285991d1c5d6f74e2",
+    "size": 1626,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/1cc7e18f238ab9159b71ab1285991d1c5d6f74e2"
+  },
+  {
+    "path": "write_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15d611769f24123b5c9086ae011ed6c2c1774d4c",
+    "size": 1987,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/15d611769f24123b5c9086ae011ed6c2c1774d4c"
+  },
+  {
+    "path": "write_payload_command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a269b44a7da8a017684930729e058377907de07f",
+    "size": 2972,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/a269b44a7da8a017684930729e058377907de07f"
+  },
+  {
+    "path": "write_policy.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7eea7481767ad2f1bbfa7e853dd95197d8e0d40f",
+    "size": 4547,
+    "url": "https://api.github.com/repos/aerospike/aerospike-client-go/git/blobs/7eea7481767ad2f1bbfa7e853dd95197d8e0d40f"
+  }
+]

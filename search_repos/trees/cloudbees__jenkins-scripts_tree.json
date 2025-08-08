@@ -1,0 +1,971 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e85cd914e404fae2173eee3ea0b3a1de051c5278",
+    "size": 15,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e85cd914e404fae2173eee3ea0b3a1de051c5278"
+  },
+  {
+    "path": "Check-Item-Permission-perUser.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9442cebbd09a9ac2c50f9d4ab7b87b7efed2868c",
+    "size": 1073,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/9442cebbd09a9ac2c50f9d4ab7b87b7efed2868c"
+  },
+  {
+    "path": "CleanBuildHistory.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffb9948eb2d16ff6d354a9f5837ed84ec0552202",
+    "size": 1634,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/ffb9948eb2d16ff6d354a9f5837ed84ec0552202"
+  },
+  {
+    "path": "FindAllGroupsInFolders.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33361a29c602c765a415b8021ab9f760d6f0bc94",
+    "size": 1397,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/33361a29c602c765a415b8021ab9f760d6f0bc94"
+  },
+  {
+    "path": "GroupsFromLDAP.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae3c627500056cf23f22e16a640f4691cbdcea08",
+    "size": 2572,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/ae3c627500056cf23f22e16a640f4691cbdcea08"
+  },
+  {
+    "path": "JenkinsSharedSSHAgent",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "885ef3bfada16a46be9d910900699b9d66948930",
+    "size": 2608,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/885ef3bfada16a46be9d910900699b9d66948930"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d0e58b6d9a04c7e80c83fb8e9c0a84d36c5a41c",
+    "size": 1073,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/5d0e58b6d9a04c7e80c83fb8e9c0a84d36c5a41c"
+  },
+  {
+    "path": "Node-token-report.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "524095979eb3ebdde7ffed08954df3ed68e69222",
+    "size": 536,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/524095979eb3ebdde7ffed08954df3ed68e69222"
+  },
+  {
+    "path": "PrintSCMPollingSpecs.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a59704fc79da557e8a6ae53d8000774b11f0850",
+    "size": 733,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/3a59704fc79da557e8a6ae53d8000774b11f0850"
+  },
+  {
+    "path": "ProperlyStopOnlyRunningPipelines.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0d904b5af08c24fee70573fb48fdd64b5209361",
+    "size": 3454,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/d0d904b5af08c24fee70573fb48fdd64b5209361"
+  },
+  {
+    "path": "ProperlyStopRunningPipelines.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f4512ab93dd353e517173321f664cceca0d87ad",
+    "size": 3225,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/0f4512ab93dd353e517173321f664cceca0d87ad"
+  },
+  {
+    "path": "RBAC_Example.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79d73c625f2b6300aa2e19602c28cbbd8e9405f5",
+    "size": 2883,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/79d73c625f2b6300aa2e19602c28cbbd8e9405f5"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6dd83f6279785e414f8d903512674cde177ee82f",
+    "size": 450,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/6dd83f6279785e414f8d903512674cde177ee82f"
+  },
+  {
+    "path": "ReloadAllJobsByFolder.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fd8fc2c4d702ecd9b48032c40128374e059e680",
+    "size": 931,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/1fd8fc2c4d702ecd9b48032c40128374e059e680"
+  },
+  {
+    "path": "TriggerRestrictionsAudit.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a44d8fe5d090f7406e3880d93a77da45303fe4d",
+    "size": 995,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/6a44d8fe5d090f7406e3880d93a77da45303fe4d"
+  },
+  {
+    "path": "UpdateLivenessReadiness.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d83d043ece972d409f6bb971969bb5ab9b2125e2",
+    "size": 1583,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/d83d043ece972d409f6bb971969bb5ab9b2125e2"
+  },
+  {
+    "path": "abort-pending-builds-based-on-string-searched-on-logs.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f1fb5da6c4f2d93b2b858fef2fab49f1a605e1b",
+    "size": 1719,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/4f1fb5da6c4f2d93b2b858fef2fab49f1a605e1b"
+  },
+  {
+    "path": "add-templates2folders.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "627c08ae01cd85e5c3782184297d405a7e2d3877",
+    "size": 2379,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/627c08ae01cd85e5c3782184297d405a7e2d3877"
+  },
+  {
+    "path": "addClientMasterPlus.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c40abb08802e728b6a4c913c1ffe0b93c1fa6885",
+    "size": 3763,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/c40abb08802e728b6a4c913c1ffe0b93c1fa6885"
+  },
+  {
+    "path": "approve-pending-signatures.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "658a5718907d613791aa88f6a9253c9ab51c986d",
+    "size": 1201,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/658a5718907d613791aa88f6a9253c9ab51c986d"
+  },
+  {
+    "path": "audit-user-permissions.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29f8ac6cc08d042d518cb7529c772777dad01bc3",
+    "size": 12251,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/29f8ac6cc08d042d518cb7529c772777dad01bc3"
+  },
+  {
+    "path": "auth-project-report.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88390c78041ca6cd8f919f5056bfff7d79193b1a",
+    "size": 1124,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/88390c78041ca6cd8f919f5056bfff7d79193b1a"
+  },
+  {
+    "path": "builds-running-more-than-24h.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc3824d7e04c4d453d5ba5b5ab1fc723f5885a2c",
+    "size": 535,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/cc3824d7e04c4d453d5ba5b5ab1fc723f5885a2c"
+  },
+  {
+    "path": "bulk-update-node-owner-properties.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "371dacacd9e087ce1d0f046cbc4370d82177c2c5",
+    "size": 792,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/371dacacd9e087ce1d0f046cbc4370d82177c2c5"
+  },
+  {
+    "path": "cancel-builds-same-job.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ddb7e56e5d836ec52f9dc18ace3f3facf0c6cdbe",
+    "size": 547,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/ddb7e56e5d836ec52f9dc18ace3f3facf0c6cdbe"
+  },
+  {
+    "path": "cancel-running-builds.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "588c7b32fd80b0de9eaa8eec647dc1621a799b44",
+    "size": 1010,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/588c7b32fd80b0de9eaa8eec647dc1621a799b44"
+  },
+  {
+    "path": "classpath-utils",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9271f34628929710596f32395df2e42a9b0cea20",
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/trees/9271f34628929710596f32395df2e42a9b0cea20"
+  },
+  {
+    "path": "cleanNodes.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "636cd285f5f5093e45167925c13f39d01a122d41",
+    "size": 2554,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/636cd285f5f5093e45167925c13f39d01a122d41"
+  },
+  {
+    "path": "cleanupAgentWorkspacesForDisabledJobs.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c73eb218365f58cd3e998cc0affccdce50d41563",
+    "size": 1682,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/c73eb218365f58cd3e998cc0affccdce50d41563"
+  },
+  {
+    "path": "cleanupAgentWorkspacesForSpecificAgents.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7d09d4a80b76d055b7104855e215bde9e3f9e37",
+    "size": 1691,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/a7d09d4a80b76d055b7104855e215bde9e3f9e37"
+  },
+  {
+    "path": "cleanupIdleFlyweightExecutor.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "444537c44166e9d5c9444251dd827007f3a9e922",
+    "size": 1509,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/444537c44166e9d5c9444251dd827007f3a9e922"
+  },
+  {
+    "path": "cli-disable-enable",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "62e24a1ba969df7e3f11ecf3c28c63a6a52e1790",
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/trees/62e24a1ba969df7e3f11ecf3c28c63a6a52e1790"
+  },
+  {
+    "path": "copy-move-diagnosis.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "469a39b10a658cc166e6fc1c41a333195254dad0",
+    "size": 1886,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/469a39b10a658cc166e6fc1c41a333195254dad0"
+  },
+  {
+    "path": "copyGrpsBetweenFolders.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4cb2bba37c05773ceb690caa7c6d1dd686ccc43",
+    "size": 1986,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/d4cb2bba37c05773ceb690caa7c6d1dd686ccc43"
+  },
+  {
+    "path": "copyGrpsBetweenNodes.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e27bc935d0ecdb6509b7cbe729e6d3d7159bb028",
+    "size": 1730,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e27bc935d0ecdb6509b7cbe729e6d3d7159bb028"
+  },
+  {
+    "path": "copyRestrictionsBetweenFolders.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e5d542d79cc630d7dc58ba6d2f5256edf74ae7e",
+    "size": 1528,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/3e5d542d79cc630d7dc58ba6d2f5256edf74ae7e"
+  },
+  {
+    "path": "copyRestrictionsBetweenFolders2.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "778d74df79805186a7b1bbb09bbe9a0434d18b56",
+    "size": 1427,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/778d74df79805186a7b1bbb09bbe9a0434d18b56"
+  },
+  {
+    "path": "count-cje-json.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b016b18870931e3c1a303697b0f085d89857e6f6",
+    "size": 940,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/b016b18870931e3c1a303697b0f085d89857e6f6"
+  },
+  {
+    "path": "count-cjoc-json.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e56f9e58b433a90945da66d53ae7390c9f5936bf",
+    "size": 2728,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e56f9e58b433a90945da66d53ae7390c9f5936bf"
+  },
+  {
+    "path": "count-executors.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c78c3315edfb3bf792cd3dd80850994740c4c400",
+    "size": 2281,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/c78c3315edfb3bf792cd3dd80850994740c4c400"
+  },
+  {
+    "path": "create-controlled-agent.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a91e14ec6af803e1e506bd16a7280ec6c4be63ae",
+    "size": 1831,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/a91e14ec6af803e1e506bd16a7280ec6c4be63ae"
+  },
+  {
+    "path": "create-controlled-folder.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f773b99cef4a68ba8efb06a967d15b961e8428a",
+    "size": 1047,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/9f773b99cef4a68ba8efb06a967d15b961e8428a"
+  },
+  {
+    "path": "create-group4template.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3896b28bb7e16c80aea678ed14b6d3f4b51b9040",
+    "size": 5623,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/3896b28bb7e16c80aea678ed14b6d3f4b51b9040"
+  },
+  {
+    "path": "create-palace-template.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69183e39d7fe71972bb8db7a775a5c70915135d2",
+    "size": 1259,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/69183e39d7fe71972bb8db7a775a5c70915135d2"
+  },
+  {
+    "path": "create-shared-agent.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "177cb68fa00e8b792e5e09a967b892b9814c84e7",
+    "size": 1651,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/177cb68fa00e8b792e5e09a967b892b9814c84e7"
+  },
+  {
+    "path": "createAgentsScript.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de0e6ff03fa7d20db6268fdb3720297dea51ca74",
+    "size": 3381,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/de0e6ff03fa7d20db6268fdb3720297dea51ca74"
+  },
+  {
+    "path": "createGlobalSharedLibrary.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c42dbe315fc18363ef7be4460ba88bd5639b37e",
+    "size": 2144,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/3c42dbe315fc18363ef7be4460ba88bd5639b37e"
+  },
+  {
+    "path": "createManagedMasterK8s.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cab36e495f25a2ca6298b5904b1902be14f70cd",
+    "size": 8166,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/0cab36e495f25a2ca6298b5904b1902be14f70cd"
+  },
+  {
+    "path": "createTeamMasterK8s.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a32df2feb0d6893a812f8af30dbd4c2883b01be",
+    "size": 12254,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/0a32df2feb0d6893a812f8af30dbd4c2883b01be"
+  },
+  {
+    "path": "createUpdateCenter.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2474cb8edbd264aa46338bd788f543ca993486f7",
+    "size": 3400,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/2474cb8edbd264aa46338bd788f543ca993486f7"
+  },
+  {
+    "path": "credentials-migration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b4f95b36d16fd8d8d29e83f331b8c6c6c356da3a",
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/trees/b4f95b36d16fd8d8d29e83f331b8c6c6c356da3a"
+  },
+  {
+    "path": "deleteAgents.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d79d07549722b86295faadcc0a783a2e29c65fe4",
+    "size": 1767,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/d79d07549722b86295faadcc0a783a2e29c65fe4"
+  },
+  {
+    "path": "deleteClienteMaster.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "122e9d46fa650d5af2d9111d896313f6d4a56ca8",
+    "size": 351,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/122e9d46fa650d5af2d9111d896313f6d4a56ca8"
+  },
+  {
+    "path": "deleteTemplateAssociation.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3789ab84c445741f9d4ee4e7ba0f631697731abd",
+    "size": 641,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/3789ab84c445741f9d4ee4e7ba0f631697731abd"
+  },
+  {
+    "path": "disableAgents.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b6c66634d2036560ed0d80213da30d972a309f5",
+    "size": 1827,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/4b6c66634d2036560ed0d80213da30d972a309f5"
+  },
+  {
+    "path": "disableBuildPeriodicalyTriggerFreestyleProjects.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e04dd356e32424e436bfb88142500ba048973e9",
+    "size": 1140,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/7e04dd356e32424e436bfb88142500ba048973e9"
+  },
+  {
+    "path": "disableInactiveItems.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e1074458ce49d860df06ef0484e85693862a76d",
+    "size": 705,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/3e1074458ce49d860df06ef0484e85693862a76d"
+  },
+  {
+    "path": "display-connected-managed-controllers.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c5f982bd306c7dd1a319fd82bbd788fbe4600a5",
+    "size": 439,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/8c5f982bd306c7dd1a319fd82bbd788fbe4600a5"
+  },
+  {
+    "path": "dump-copy-move-error-history.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db893cc9ca301cd6f5a7193a55cc98e4900f967f",
+    "size": 838,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/db893cc9ca301cd6f5a7193a55cc98e4900f967f"
+  },
+  {
+    "path": "exportLoadStatistics.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4bd23e72099d380311ac671075d0ecd96023a10",
+    "size": 550,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e4bd23e72099d380311ac671075d0ecd96023a10"
+  },
+  {
+    "path": "fetch-builds-by-date-range-for-specific-job.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c19b060679e43ca63437ffb86922006c6074e2fa",
+    "size": 464,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/c19b060679e43ca63437ffb86922006c6074e2fa"
+  },
+  {
+    "path": "fetch-builds-by-date-range-from-all-connected-controllers.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "345639e392f6265402bc82ee9e5f17665bad7685",
+    "size": 913,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/345639e392f6265402bc82ee9e5f17665bad7685"
+  },
+  {
+    "path": "fetch-number-of-jobs-from-all-connected-controllers.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec92d7a53b620a8edde1f12c70b0a1fc3317c67e",
+    "size": 1029,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/ec92d7a53b620a8edde1f12c70b0a1fc3317c67e"
+  },
+  {
+    "path": "findAllBuildsThatAreOver24Hours.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0b82e6f634df83e45e6676930dd58b2224431f7",
+    "size": 705,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e0b82e6f634df83e45e6676930dd58b2224431f7"
+  },
+  {
+    "path": "findAllTemplatizedJobs.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "956c4ce2d22c7f602564bc363771e706d7dcad43",
+    "size": 732,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/956c4ce2d22c7f602564bc363771e706d7dcad43"
+  },
+  {
+    "path": "findAllTemplatizedJobsByFolder.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48494cb836fa43b0d12e713505ea6b448701b764",
+    "size": 1619,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/48494cb836fa43b0d12e713505ea6b448701b764"
+  },
+  {
+    "path": "findAllViewsWithGroupsDefined.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ae29763fe78e1e6b4bb2a26d80ee1946c086910",
+    "size": 1647,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/9ae29763fe78e1e6b4bb2a26d80ee1946c086910"
+  },
+  {
+    "path": "findJobHistory.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "828937847ede5f845efc2e3e18e8bef68ab1d015",
+    "size": 954,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/828937847ede5f845efc2e3e18e8bef68ab1d015"
+  },
+  {
+    "path": "findStaleFolders.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6336eead242870b21234f08f04ece906930549b",
+    "size": 1352,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/d6336eead242870b21234f08f04ece906930549b"
+  },
+  {
+    "path": "folder-remove-healthmetrics.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d6208f082a9f1eeec502e43bc598cb79cc92335",
+    "size": 486,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/0d6208f082a9f1eeec502e43bc598cb79cc92335"
+  },
+  {
+    "path": "get-License-report.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "430545d9a1dd7bdbc08a2393e6b4abb556b21c96",
+    "size": 1453,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/430545d9a1dd7bdbc08a2393e6b4abb556b21c96"
+  },
+  {
+    "path": "get-build-information.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3eec88b5d77d2517adc566f802772bb1d1bb0d0e",
+    "size": 1289,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/3eec88b5d77d2517adc566f802772bb1d1bb0d0e"
+  },
+  {
+    "path": "get-current-queue-state.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bae8d961dbe00bdbd6601f85a10294135d28eb37",
+    "size": 644,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/bae8d961dbe00bdbd6601f85a10294135d28eb37"
+  },
+  {
+    "path": "get-failed-alerts.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8fcc07a291a80ff77c1032715e0d14d6973028de",
+    "size": 2023,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/8fcc07a291a80ff77c1032715e0d14d6973028de"
+  },
+  {
+    "path": "get-groups-cjoc-master.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8f9f683813d2669e086ea6ca2049715edc73a82",
+    "size": 499,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/f8f9f683813d2669e086ea6ca2049715edc73a82"
+  },
+  {
+    "path": "get-human-redable-permissions-for-RBAC-groups.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6c0d7efc828b13375da34e56eadb5ec1ddd3fb6d",
+    "size": 363,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/6c0d7efc828b13375da34e56eadb5ec1ddd3fb6d"
+  },
+  {
+    "path": "get-lastlogin-users.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30d844792686dd6bf2f8d4f453e2b881d7d72ee5",
+    "size": 891,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/30d844792686dd6bf2f8d4f453e2b881d7d72ee5"
+  },
+  {
+    "path": "get-shared-clouds-json.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7232fb3751487fa4767c6893097ac3e1f92aa3ee",
+    "size": 1202,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/7232fb3751487fa4767c6893097ac3e1f92aa3ee"
+  },
+  {
+    "path": "github-enterprise-api-endpoint.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54fa7f2fb3ce730d4a6de8bd769078df968ce110",
+    "size": 790,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/54fa7f2fb3ce730d4a6de8bd769078df968ce110"
+  },
+  {
+    "path": "identifyAvailableParameters.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99adae3ebdb93331d624decd9507b6d3dd05846d",
+    "size": 329,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/99adae3ebdb93331d624decd9507b6d3dd05846d"
+  },
+  {
+    "path": "identifyAvailablePermissions.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f5d141549f1b65480b55d4eb34a64340318f94c",
+    "size": 304,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/8f5d141549f1b65480b55d4eb34a64340318f94c"
+  },
+  {
+    "path": "installAvailablePlugins.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e32d4f9c3a27ea22cd98cd5abbbcb9d5df22048d",
+    "size": 1075,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e32d4f9c3a27ea22cd98cd5abbbcb9d5df22048d"
+  },
+  {
+    "path": "job-add-dockerhub-trigger.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "016549befa36a24ae4f72c2ed70b1a05f41aec2b",
+    "size": 668,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/016549befa36a24ae4f72c2ed70b1a05f41aec2b"
+  },
+  {
+    "path": "killing-hanging-polling",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebd862738614a55cf5c561bc41215bb22d410532",
+    "size": 1245,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/ebd862738614a55cf5c561bc41215bb22d410532"
+  },
+  {
+    "path": "license-upgrade",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "19a943053339212d9589cc35a9a9ebd6c8674d6e",
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/trees/19a943053339212d9589cc35a9a9ebd6c8674d6e"
+  },
+  {
+    "path": "list-all-controller-with-plugin.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4332086fa4b6f6a4f6105db3618f8b899b872c5",
+    "size": 961,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/f4332086fa4b6f6a4f6105db3618f8b899b872c5"
+  },
+  {
+    "path": "list-credential.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82fd61637112923e0c97d8c3d00fa827550f4721",
+    "size": 1205,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/82fd61637112923e0c97d8c3d00fa827550f4721"
+  },
+  {
+    "path": "listControlledAgentsFolders.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fdc99c9e8b43e309d9d5357babd95f4b5eb549d",
+    "size": 809,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/4fdc99c9e8b43e309d9d5357babd95f4b5eb549d"
+  },
+  {
+    "path": "listEC2InstancesOnAccount.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04727706a0cba0a520f85bad4d523f9d00d358d7",
+    "size": 1549,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/04727706a0cba0a520f85bad4d523f9d00d358d7"
+  },
+  {
+    "path": "listNamesMachinesVmwarePool.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bf7a4be9c95e614571238820d523929b89b180e",
+    "size": 666,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/2bf7a4be9c95e614571238820d523929b89b180e"
+  },
+  {
+    "path": "logrotator-config.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42e213c2ae3b84d29cc5f3f3b9d82606b79c8dfa",
+    "size": 769,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/42e213c2ae3b84d29cc5f3f3b9d82606b79c8dfa"
+  },
+  {
+    "path": "mark-login-users.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0275a24b335870749e213860bcad49f6b1ff45d6",
+    "size": 1492,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/0275a24b335870749e213860bcad49f6b1ff45d6"
+  },
+  {
+    "path": "maven-to-pipeline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87d478dfda73a642750ec034309d883eb55dcf13",
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/trees/87d478dfda73a642750ec034309d883eb55dcf13"
+  },
+  {
+    "path": "messaging-dump-cluster-database-CJOC.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ef7ffdb5aadc152204d71f354ff547e9f9ae0a8",
+    "size": 6119,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/0ef7ffdb5aadc152204d71f354ff547e9f9ae0a8"
+  },
+  {
+    "path": "messaging-dump-local-database-CJE-and-CJOC.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9728b63f60dd8754a660b67c1f08fe351e92fe3f",
+    "size": 3332,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/9728b63f60dd8754a660b67c1f08fe351e92fe3f"
+  },
+  {
+    "path": "modifiedAnalyticsConfig.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ee706daff375b57bbf135735e4ea4415d110371",
+    "size": 1510,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/8ee706daff375b57bbf135735e4ea4415d110371"
+  },
+  {
+    "path": "move-copy-promote-simulation.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c62ee8547c158ce49c3beb909fa8d927b6f7f6a1",
+    "size": 1169,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/c62ee8547c158ce49c3beb909fa8d927b6f7f6a1"
+  },
+  {
+    "path": "pipeline-approval-scripts.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86067cd7f39191cff6776f9e7f91840ff20913b4",
+    "size": 2040,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/86067cd7f39191cff6776f9e7f91840ff20913b4"
+  },
+  {
+    "path": "pom.xml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e74972f3662c765841a35e4e3811f9873df1e1e2",
+    "size": 3595,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e74972f3662c765841a35e4e3811f9873df1e1e2"
+  },
+  {
+    "path": "print-available-metrics.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52922158b04d40f85cc8c76df3b6ebc2f9db12d4",
+    "size": 182,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/52922158b04d40f85cc8c76df3b6ebc2f9db12d4"
+  },
+  {
+    "path": "print-masters-plugins.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a37a130c31b4265ceca8a831d422baaeef2ecc3d",
+    "size": 3557,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/a37a130c31b4265ceca8a831d422baaeef2ecc3d"
+  },
+  {
+    "path": "print-rbac-report.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83b3986209e2b5d9de39daa506d82bafc36805b7",
+    "size": 5846,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/83b3986209e2b5d9de39daa506d82bafc36805b7"
+  },
+  {
+    "path": "proxy-configuration.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "769f348eb303b615c8ba6dead4580553355a17bf",
+    "size": 686,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/769f348eb303b615c8ba6dead4580553355a17bf"
+  },
+  {
+    "path": "pruneOldSamlUsers.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00172ecf18bdddac14096251412a509a5ccbb9d8",
+    "size": 2356,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/00172ecf18bdddac14096251412a509a5ccbb9d8"
+  },
+  {
+    "path": "purge-build-queue-by-name.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2f33fafdf93e556ec8820a205f4c0c30279d527",
+    "size": 166,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/a2f33fafdf93e556ec8820a205f4c0c30279d527"
+  },
+  {
+    "path": "rbac-report.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e971e4d34b61abae38941e05191dfe5aa799e749",
+    "size": 1882,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e971e4d34b61abae38941e05191dfe5aa799e749"
+  },
+  {
+    "path": "rbacOnItems.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11b573ea925ef94ea6e14b1b81af808b9f6045fb",
+    "size": 7358,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/11b573ea925ef94ea6e14b1b81af808b9f6045fb"
+  },
+  {
+    "path": "restart-tcpagentlistener.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bad70b84fe034eaaa1ed659da197af7b30e01567",
+    "size": 590,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/bad70b84fe034eaaa1ed659da197af7b30e01567"
+  },
+  {
+    "path": "run-script-on-controller-as-system-user.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8435c24669869cedeeed9a265a74b02343417958",
+    "size": 1131,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/8435c24669869cedeeed9a265a74b02343417958"
+  },
+  {
+    "path": "run-script-on-controller-as-user.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e42dbbe4af891da33c96d75f48c1fe87ecf9b5f2",
+    "size": 1014,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/e42dbbe4af891da33c96d75f48c1fe87ecf9b5f2"
+  },
+  {
+    "path": "schedule-templatized-jobs.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b35f1d8b260286fdb21f65e97b508f4c64295ea1",
+    "size": 1276,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/b35f1d8b260286fdb21f65e97b508f4c64295ea1"
+  },
+  {
+    "path": "set-License-activation.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fc9eb065938831a41924ab1942964e401f2f9d6",
+    "size": 984,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/0fc9eb065938831a41924ab1942964e401f2f9d6"
+  },
+  {
+    "path": "setCjocSecurity.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46a1ec147b5ef8478622f8f2a0e83b48040af2b4",
+    "size": 1938,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/46a1ec147b5ef8478622f8f2a0e83b48040af2b4"
+  },
+  {
+    "path": "setOrgFolderIndex.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "420876ed0926c16f564a9d96e5b88da064d80da0",
+    "size": 1878,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/420876ed0926c16f564a9d96e5b88da064d80da0"
+  },
+  {
+    "path": "shared-agent-report-online-busy.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "738eac6579df707081336c717c0d975ed97069c9",
+    "size": 1056,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/738eac6579df707081336c717c0d975ed97069c9"
+  },
+  {
+    "path": "sharedConfigFileProviderConfig.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c6a2d33020db1419e8bad034fe54c87c9874ce3",
+    "size": 2192,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/1c6a2d33020db1419e8bad034fe54c87c9874ce3"
+  },
+  {
+    "path": "skipInitiBuildIndex-multibranch.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c8bdb9bb8f409f24a260a6de0ea5e7302b11f83",
+    "size": 3642,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/5c8bdb9bb8f409f24a260a6de0ea5e7302b11f83"
+  },
+  {
+    "path": "token-utils",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b5ed2e4593cf6a9e699143092ebb5d53a00808c7",
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/trees/b5ed2e4593cf6a9e699143092ebb5d53a00808c7"
+  },
+  {
+    "path": "uc-certificate-fix",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03fc88913b43d747ee4c904558c630e7a7562975",
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/trees/03fc88913b43d747ee4c904558c630e7a7562975"
+  },
+  {
+    "path": "ucStoreAndPromoteWithDependencies.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28568eeb985a024f2fbe04ad4f8ef1d36b365159",
+    "size": 15485,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/28568eeb985a024f2fbe04ad4f8ef1d36b365159"
+  },
+  {
+    "path": "updateJobs-fromTemplateA2TemplateB.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d81c4f21267b675909f7ba0ed73b5e1f0f9d4189",
+    "size": 3773,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/d81c4f21267b675909f7ba0ed73b5e1f0f9d4189"
+  },
+  {
+    "path": "webhooks-reregister-github.groovy",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f10288537ba349dc9555a5221658969c0cfec53b",
+    "size": 2575,
+    "url": "https://api.github.com/repos/cloudbees/jenkins-scripts/git/blobs/f10288537ba349dc9555a5221658969c0cfec53b"
+  }
+]

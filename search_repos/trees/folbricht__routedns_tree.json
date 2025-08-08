@@ -1,0 +1,942 @@
+[
+  {
+    "path": ".dockerignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97c83f87bb96a6b67e973380a338be5d43f512a5",
+    "size": 73,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/97c83f87bb96a6b67e973380a338be5d43f512a5"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad4e023ab69fdc43cdc76d97bd4fe6f2b2520bb2",
+    "url": "https://api.github.com/repos/folbricht/routedns/git/trees/ad4e023ab69fdc43cdc76d97bd4fe6f2b2520bb2"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5444d1199d85011bb650a1f029b65cd0d3d8e854",
+    "size": 13,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/5444d1199d85011bb650a1f029b65cd0d3d8e854"
+  },
+  {
+    "path": ".goreleaser.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e77bfd0fe04b713b3718fe47021f3a546075b8b",
+    "size": 1623,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/2e77bfd0fe04b713b3718fe47021f3a546075b8b"
+  },
+  {
+    "path": "Dockerfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f106903bdce565d2f6d47b47633410845ec8533",
+    "size": 354,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/9f106903bdce565d2f6d47b47633410845ec8533"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25d962035edcf7f892e398e7260e8c76345a3fba",
+    "size": 1522,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/25d962035edcf7f892e398e7260e8c76345a3fba"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30e7160b0899eac3cee6f9186e470876ebc78873",
+    "size": 10581,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/30e7160b0899eac3cee6f9186e470876ebc78873"
+  },
+  {
+    "path": "adminlistener.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b7cbf32470a864f166ffd08e27ab281ff27856f",
+    "size": 2521,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/1b7cbf32470a864f166ffd08e27ab281ff27856f"
+  },
+  {
+    "path": "asn-db.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2471ca3eeba0e32e20cba2e898cefcff68b2ee5b",
+    "size": 2253,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/2471ca3eeba0e32e20cba2e898cefcff68b2ee5b"
+  },
+  {
+    "path": "blocklist.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "849377b7b2a075eb847f013a324422427f611f68",
+    "size": 6131,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/849377b7b2a075eb847f013a324422427f611f68"
+  },
+  {
+    "path": "blocklist_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26382effa0a63eaaeacdd7f138ce7ba0f8629d47",
+    "size": 2158,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/26382effa0a63eaaeacdd7f138ce7ba0f8629d47"
+  },
+  {
+    "path": "blocklistdb-domain.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96cfecbea532fac94230a1d46e40789b7544625e",
+    "size": 2879,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/96cfecbea532fac94230a1d46e40789b7544625e"
+  },
+  {
+    "path": "blocklistdb-domain_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1f5e1bb00e41289dc91cdcc3cf6540afa9b3042",
+    "size": 1637,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/c1f5e1bb00e41289dc91cdcc3cf6540afa9b3042"
+  },
+  {
+    "path": "blocklistdb-hosts.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bff0f696c3bd85ea6765b880fef026f4d672d2e8",
+    "size": 2754,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/bff0f696c3bd85ea6765b880fef026f4d672d2e8"
+  },
+  {
+    "path": "blocklistdb-hosts_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "047d815cca49a6f0d6e5b0b682ee0ed5eda3d317",
+    "size": 1446,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/047d815cca49a6f0d6e5b0b682ee0ed5eda3d317"
+  },
+  {
+    "path": "blocklistdb-multi.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "811aeeb4997ffdfbf0b15a245f49d9cd24c92dbb",
+    "size": 881,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/811aeeb4997ffdfbf0b15a245f49d9cd24c92dbb"
+  },
+  {
+    "path": "blocklistdb-regexp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56afc62d33fdb2a07b01962befe59f12a87a50b5",
+    "size": 1254,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/56afc62d33fdb2a07b01962befe59f12a87a50b5"
+  },
+  {
+    "path": "blocklistdb.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b783fa504f1d88b42ff857904b6746b1802a9a3",
+    "size": 1009,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/4b783fa504f1d88b42ff857904b6746b1802a9a3"
+  },
+  {
+    "path": "blocklistloader-http.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9419799088d0b0f0a15b4fcd85a094572259c63",
+    "size": 3745,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/b9419799088d0b0f0a15b4fcd85a094572259c63"
+  },
+  {
+    "path": "blocklistloader-local.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd27c3e125894025b79c1b871838cbe1c644cb0b",
+    "size": 1278,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/cd27c3e125894025b79c1b871838cbe1c644cb0b"
+  },
+  {
+    "path": "blocklistloader-static.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d7f5e64e01052b38e25c3fe81ac5a197d767afb",
+    "size": 397,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/0d7f5e64e01052b38e25c3fe81ac5a197d767afb"
+  },
+  {
+    "path": "blocklistloader.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "342037acc18c71ab153957029d47f1c6a368cfd0",
+    "size": 148,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/342037acc18c71ab153957029d47f1c6a368cfd0"
+  },
+  {
+    "path": "cache-memory.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13b5ea017eef9df91febf20caca2ccf976e77325",
+    "size": 4707,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/13b5ea017eef9df91febf20caca2ccf976e77325"
+  },
+  {
+    "path": "cache-redis.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3498c8beadb6a2aa9915d99db98b05059fe5421",
+    "size": 3692,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/a3498c8beadb6a2aa9915d99db98b05059fe5421"
+  },
+  {
+    "path": "cache.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b388215e715c001815a7b941a0b2993ef857737",
+    "size": 11186,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/4b388215e715c001815a7b941a0b2993ef857737"
+  },
+  {
+    "path": "cache_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a9d5fb8bef31a9a4d8feff5538fd7bc6adc24e4",
+    "size": 5249,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/8a9d5fb8bef31a9a4d8feff5538fd7bc6adc24e4"
+  },
+  {
+    "path": "cidr-db.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b63a973f9c1cbc39af3ec10fdff939a69143755d",
+    "size": 1667,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/b63a973f9c1cbc39af3ec10fdff939a69143755d"
+  },
+  {
+    "path": "cidr-db_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "134f3cea780d9b03770e7dc539b6e6d7f8e1edd2",
+    "size": 692,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/134f3cea780d9b03770e7dc539b6e6d7f8e1edd2"
+  },
+  {
+    "path": "client-blocklist.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6727fe38ec169c594e48b4098d7cd86540f720e4",
+    "size": 3050,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/6727fe38ec169c594e48b4098d7cd86540f720e4"
+  },
+  {
+    "path": "cmd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "635311523cb9826a7422f2b2217f03e69b9232cb",
+    "url": "https://api.github.com/repos/folbricht/routedns/git/trees/635311523cb9826a7422f2b2217f03e69b9232cb"
+  },
+  {
+    "path": "dnsclient.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d70b4320b0a602c858375539b650be3b259b322",
+    "size": 4359,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/7d70b4320b0a602c858375539b650be3b259b322"
+  },
+  {
+    "path": "dnsclient_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb09d79dd98c567bac64d4637244b4105be632a2",
+    "size": 652,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/bb09d79dd98c567bac64d4637244b4105be632a2"
+  },
+  {
+    "path": "dnslistener.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed36aa2e7215ad933d8feb157646adf6eba510a0",
+    "size": 3060,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/ed36aa2e7215ad933d8feb157646adf6eba510a0"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6697c98da74d5e02b24384313451636c9f9eba6b",
+    "size": 1564,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/6697c98da74d5e02b24384313451636c9f9eba6b"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d4d2c7ce0dd2896242bcde65a580e86fd2942baa",
+    "url": "https://api.github.com/repos/folbricht/routedns/git/trees/d4d2c7ce0dd2896242bcde65a580e86fd2942baa"
+  },
+  {
+    "path": "dohclient.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a98a06eae4e4e3f828406ac780076ba1d94ab2d",
+    "size": 8493,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/4a98a06eae4e4e3f828406ac780076ba1d94ab2d"
+  },
+  {
+    "path": "dohclient_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bfd18beab7eabda848dfca4fe10cec4f64fe912",
+    "size": 781,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/1bfd18beab7eabda848dfca4fe10cec4f64fe912"
+  },
+  {
+    "path": "dohlistener.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83da4012248dfc10f6150ce76713f918b6909ed9",
+    "size": 7808,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/83da4012248dfc10f6150ce76713f918b6909ed9"
+  },
+  {
+    "path": "dohlistener_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "206f92917c6a88d7d1d5049336b1c51164bfbfad",
+    "size": 9386,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/206f92917c6a88d7d1d5049336b1c51164bfbfad"
+  },
+  {
+    "path": "doqclient.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c12673b18fff72495c6f58f6ffd6ce31e1161ee",
+    "size": 8710,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/9c12673b18fff72495c6f58f6ffd6ce31e1161ee"
+  },
+  {
+    "path": "doqclient_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47ca24666c4f9d1fc453f1a4078264847bef19fa",
+    "size": 780,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/47ca24666c4f9d1fc453f1a4078264847bef19fa"
+  },
+  {
+    "path": "doqlistener.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab8b99e30914fd6776bdf32c84751262a7cbacdf",
+    "size": 5358,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/ab8b99e30914fd6776bdf32c84751262a7cbacdf"
+  },
+  {
+    "path": "dotclient.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11b8ed45083f58c19cab57beeb4665f5fa46311a",
+    "size": 2293,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/11b8ed45083f58c19cab57beeb4665f5fa46311a"
+  },
+  {
+    "path": "dotclient_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ad0e1e948c845c2be19678ff66763550b93eb99",
+    "size": 1550,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/1ad0e1e948c845c2be19678ff66763550b93eb99"
+  },
+  {
+    "path": "dotlistener.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c86068c0ac7d3f84ddad67bfc8d950e2d9cd7d18",
+    "size": 1264,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/c86068c0ac7d3f84ddad67bfc8d950e2d9cd7d18"
+  },
+  {
+    "path": "dotlistener_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb441c7dcac50afb320c3769fff2f26d3ffb7cd1",
+    "size": 4566,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/eb441c7dcac50afb320c3769fff2f26d3ffb7cd1"
+  },
+  {
+    "path": "drop.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2597b01b9700cb1f35004e375d67a962fbb80ca5",
+    "size": 696,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/2597b01b9700cb1f35004e375d67a962fbb80ca5"
+  },
+  {
+    "path": "dtls.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8db4bc407be3db57e4280cf7eda513a758a474e",
+    "size": 1853,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/f8db4bc407be3db57e4280cf7eda513a758a474e"
+  },
+  {
+    "path": "dtlsclient.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d85a09a2d9e034a8385497cd52035b27de4f7c62",
+    "size": 3007,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/d85a09a2d9e034a8385497cd52035b27de4f7c62"
+  },
+  {
+    "path": "dtlslistener.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d22886887cd0d6fd966f5d3fd9f3e85fc8767b51",
+    "size": 2696,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/d22886887cd0d6fd966f5d3fd9f3e85fc8767b51"
+  },
+  {
+    "path": "dtlslistener_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90f63f8b2460b66d40fec97bef3e8a0f0f5f65a8",
+    "size": 1161,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/90f63f8b2460b66d40fec97bef3e8a0f0f5f65a8"
+  },
+  {
+    "path": "ecs-modifier.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5f019da87b19e1a7c47142a0d9c75912c5e8c49",
+    "size": 4499,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/d5f019da87b19e1a7c47142a0d9c75912c5e8c49"
+  },
+  {
+    "path": "edns0-modifier.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f83f98faea83a98b266f430e9b9578ced9af698",
+    "size": 1962,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/6f83f98faea83a98b266f430e9b9578ced9af698"
+  },
+  {
+    "path": "edns0ede.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ae82e9531164bfa97f4dad7b18b116d3e778a5b",
+    "size": 1396,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/3ae82e9531164bfa97f4dad7b18b116d3e778a5b"
+  },
+  {
+    "path": "errors.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd64e38528a5be012ce7391ac1d2e57dc86f09ba",
+    "size": 276,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/cd64e38528a5be012ce7391ac1d2e57dc86f09ba"
+  },
+  {
+    "path": "example_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d8cf1004d1b4baae3980c2a0d8bfffe7b1f5b8e",
+    "size": 1665,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/3d8cf1004d1b4baae3980c2a0d8bfffe7b1f5b8e"
+  },
+  {
+    "path": "failback.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "303026e488f5a846f8647f64c89b4e4623c916d0",
+    "size": 6413,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/303026e488f5a846f8647f64c89b4e4623c916d0"
+  },
+  {
+    "path": "failback_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "049bfbc448fc27423ed0a9a5d432139b802caa6c",
+    "size": 3795,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/049bfbc448fc27423ed0a9a5d432139b802caa6c"
+  },
+  {
+    "path": "failrotate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "10a2a9bbf88daeb0244506a1483a06d686239af9",
+    "size": 3702,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/10a2a9bbf88daeb0244506a1483a06d686239af9"
+  },
+  {
+    "path": "failrotate_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23f87355ef43ea7811b33ec44acdd6a2f2010a9c",
+    "size": 3057,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/23f87355ef43ea7811b33ec44acdd6a2f2010a9c"
+  },
+  {
+    "path": "fastest-tcp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c6035f6a5631804491cdbf0040088710e9c1d77",
+    "size": 5676,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/3c6035f6a5631804491cdbf0040088710e9c1d77"
+  },
+  {
+    "path": "fastest.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a594a6f70dc42251d932d094bd82687c759d79b",
+    "size": 1905,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/6a594a6f70dc42251d932d094bd82687c759d79b"
+  },
+  {
+    "path": "fastest_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "326e1197818396987bac45607ec930f18b2aa328",
+    "size": 2964,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/326e1197818396987bac45607ec930f18b2aa328"
+  },
+  {
+    "path": "geoip-db.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "298b260fb448bb54cdf10cc630b6f84b2a36c5ae",
+    "size": 2752,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/298b260fb448bb54cdf10cc630b6f84b2a36c5ae"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85560cbb4be0d2aab1f80dde63218b1e0e0aa173",
+    "size": 1898,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/85560cbb4be0d2aab1f80dde63218b1e0e0aa173"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3dd1611a795549e027c54fd45a5dca8d093ab7d9",
+    "size": 14142,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/3dd1611a795549e027c54fd45a5dca8d093ab7d9"
+  },
+  {
+    "path": "ip-blocklist-trie.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70064222e0f17bff49f2512d74b63a906c897fd5",
+    "size": 2394,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/70064222e0f17bff49f2512d74b63a906c897fd5"
+  },
+  {
+    "path": "ip-db-multi.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35284fffb9cf928158bfab866481bea2a08ab034",
+    "size": 1024,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/35284fffb9cf928158bfab866481bea2a08ab034"
+  },
+  {
+    "path": "listener.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9201193ccc1dddec3fb3209c9b7d49f6e9a6d11",
+    "size": 1283,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/c9201193ccc1dddec3fb3209c9b7d49f6e9a6d11"
+  },
+  {
+    "path": "logger.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c48a6d2815b7e00c82c33d1fc98c4d68425abdd",
+    "size": 482,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/9c48a6d2815b7e00c82c33d1fc98c4d68425abdd"
+  },
+  {
+    "path": "lru-cache.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8852ee4f63c7ccbf05070bb0e83bc7cb6ddaa839",
+    "size": 4578,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/8852ee4f63c7ccbf05070bb0e83bc7cb6ddaa839"
+  },
+  {
+    "path": "lru-cache_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e501a2cf6cfc1dc8226cb5a4ab40f9e4f284f28b",
+    "size": 1442,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/e501a2cf6cfc1dc8226cb5a4ab40f9e4f284f28b"
+  },
+  {
+    "path": "mac-db.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9deb3715936f85114efd0c48de6ce7fc18dce36a",
+    "size": 2872,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/9deb3715936f85114efd0c48de6ce7fc18dce36a"
+  },
+  {
+    "path": "mac-db_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b23e9882685d00a230468fa38b11b00536d0f995",
+    "size": 1583,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/b23e9882685d00a230468fa38b11b00536d0f995"
+  },
+  {
+    "path": "message.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85e0b5f8a32b9d4a28108837c580687e894b634c",
+    "size": 2083,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/85e0b5f8a32b9d4a28108837c580687e894b634c"
+  },
+  {
+    "path": "net-resolver.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5322825fe48bc77bdc010d0f0b3a991c8c452d52",
+    "size": 2333,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/5322825fe48bc77bdc010d0f0b3a991c8c452d52"
+  },
+  {
+    "path": "net-resolver_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d8a3e1c4b827bec2f47a09187ec9f2d09a0cec5",
+    "size": 634,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/8d8a3e1c4b827bec2f47a09187ec9f2d09a0cec5"
+  },
+  {
+    "path": "odohclient.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c516832909dd622cd3869de77b2e3ea176ee589d",
+    "size": 5832,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/c516832909dd622cd3869de77b2e3ea176ee589d"
+  },
+  {
+    "path": "odohclient_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b2c4ee4e2600b7db0fe1ffadab6889b60f7b91e",
+    "size": 479,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/4b2c4ee4e2600b7db0fe1ffadab6889b60f7b91e"
+  },
+  {
+    "path": "odohlistener.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b12c9713cad74673b2a7bc16db94eac13558ed4c",
+    "size": 7238,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/b12c9713cad74673b2a7bc16db94eac13558ed4c"
+  },
+  {
+    "path": "padding.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6f641f40ae069bfad1c76424b87e5033b79ea93",
+    "size": 3149,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/d6f641f40ae069bfad1c76424b87e5033b79ea93"
+  },
+  {
+    "path": "padding_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99fa38b4e3a14e8cc20824e5acc142645585ee5e",
+    "size": 2766,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/99fa38b4e3a14e8cc20824e5acc142645585ee5e"
+  },
+  {
+    "path": "pipeline.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbb484dae3cc50daa20ecc39f54d14836da5b452",
+    "size": 8033,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/cbb484dae3cc50daa20ecc39f54d14836da5b452"
+  },
+  {
+    "path": "pipeline_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e0f5692d1ee13a012c6f46131f4935d52e32209",
+    "size": 970,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/4e0f5692d1ee13a012c6f46131f4935d52e32209"
+  },
+  {
+    "path": "query-log.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "278b3bd787b47ad1781dc883245c681392681534",
+    "size": 2371,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/278b3bd787b47ad1781dc883245c681392681534"
+  },
+  {
+    "path": "random.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed377a28a53dc80a99e2f8f5031bbb3b4c5923f7",
+    "size": 3958,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/ed377a28a53dc80a99e2f8f5031bbb3b4c5923f7"
+  },
+  {
+    "path": "rate-limiter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17ad2c9d97454a12118a155a3ac1776e7d72debc",
+    "size": 3102,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/17ad2c9d97454a12118a155a3ac1776e7d72debc"
+  },
+  {
+    "path": "replace.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "538da87281cb04e33cf77b8c5dd3b0fee28878cc",
+    "size": 2330,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/538da87281cb04e33cf77b8c5dd3b0fee28878cc"
+  },
+  {
+    "path": "replace_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbd4a06b88e8617f4daeaf73fcaa00f04c7840ba",
+    "size": 1420,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/fbd4a06b88e8617f4daeaf73fcaa00f04c7840ba"
+  },
+  {
+    "path": "request-dedup.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "376f0d2111d94761caa9759f969cfede26cb1c84",
+    "size": 3145,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/376f0d2111d94761caa9759f969cfede26cb1c84"
+  },
+  {
+    "path": "request-dedup_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6ee8df04aece647edbb95a19ed7de507414b050",
+    "size": 746,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/d6ee8df04aece647edbb95a19ed7de507414b050"
+  },
+  {
+    "path": "resolver.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbe21190b7f5f4a4df2d78efadc2e75ebf1dfcd3",
+    "size": 201,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/dbe21190b7f5f4a4df2d78efadc2e75ebf1dfcd3"
+  },
+  {
+    "path": "resolver_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ba46cf43fb97795fb0f980a4ced98119ad77e96",
+    "size": 918,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/4ba46cf43fb97795fb0f980a4ced98119ad77e96"
+  },
+  {
+    "path": "response-blocklist-ip.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08aa4ae4eddd4fa1e3a79f694d905e395d301d7e",
+    "size": 5267,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/08aa4ae4eddd4fa1e3a79f694d905e395d301d7e"
+  },
+  {
+    "path": "response-blocklist-name.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33771bab731cd9cbdd0f9fe920aa3c630e286c22",
+    "size": 3969,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/33771bab731cd9cbdd0f9fe920aa3c630e286c22"
+  },
+  {
+    "path": "response-collapse.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7d0a2bcaa1346c38c583ba64c070fc96ac73211",
+    "size": 1701,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/e7d0a2bcaa1346c38c583ba64c070fc96ac73211"
+  },
+  {
+    "path": "response-minimize.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c1aa1a8a160d89e4eb100a0e45432108ca7d0ac",
+    "size": 946,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/5c1aa1a8a160d89e4eb100a0e45432108ca7d0ac"
+  },
+  {
+    "path": "roundrobin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c37fee6a09e82bcaee360dca743fd365826fba64",
+    "size": 1151,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/c37fee6a09e82bcaee360dca743fd365826fba64"
+  },
+  {
+    "path": "roundrobin_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33314a50078ff9c2ca43f7d8a39ccd9f8ae542de",
+    "size": 591,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/33314a50078ff9c2ca43f7d8a39ccd9f8ae542de"
+  },
+  {
+    "path": "route.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a544b62c1bd6cf452f19b6be5be9dc6b24724a7b",
+    "size": 7163,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/a544b62c1bd6cf452f19b6be5be9dc6b24724a7b"
+  },
+  {
+    "path": "route_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a691fa7432121b0c09972bcad1945f3a06f9c92f",
+    "size": 1786,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/a691fa7432121b0c09972bcad1945f3a06f9c92f"
+  },
+  {
+    "path": "router.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9fc0ac2de8aeb83e85eddf7ec41acd6188df0c2",
+    "size": 2309,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/f9fc0ac2de8aeb83e85eddf7ec41acd6188df0c2"
+  },
+  {
+    "path": "router_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c97693abecbabf268d86da95bf51ccdc11cfe082",
+    "size": 3189,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/c97693abecbabf268d86da95bf51ccdc11cfe082"
+  },
+  {
+    "path": "socks5.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd0f2b9933f5d073f2771fd30cbe87bb5b074b2d",
+    "size": 2305,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/dd0f2b9933f5d073f2771fd30cbe87bb5b074b2d"
+  },
+  {
+    "path": "static-template.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "611101d9d9761776ad59fba1269b02ceeeea2f4c",
+    "size": 2976,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/611101d9d9761776ad59fba1269b02ceeeea2f4c"
+  },
+  {
+    "path": "static.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d38c50a0b0c383e18f401476d6d74fc18135a8d",
+    "size": 2355,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/9d38c50a0b0c383e18f401476d6d74fc18135a8d"
+  },
+  {
+    "path": "static_default_ports.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3187a74cc818af872519773833bb169ff6cf7b04",
+    "size": 1185,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/3187a74cc818af872519773833bb169ff6cf7b04"
+  },
+  {
+    "path": "static_default_ports_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39de801c208c0a30596c6c0b630d66a3fac5a803",
+    "size": 1147,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/39de801c208c0a30596c6c0b630d66a3fac5a803"
+  },
+  {
+    "path": "static_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58b02d83d8da087248c67172833097918dd636b9",
+    "size": 893,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/58b02d83d8da087248c67172833097918dd636b9"
+  },
+  {
+    "path": "syslog.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04446f3f12c1b08dee3f174a71d9d3331166076e",
+    "size": 3232,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/04446f3f12c1b08dee3f174a71d9d3331166076e"
+  },
+  {
+    "path": "template.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5fb3d00f997f0d1fc850900bd4c00df3f55654a",
+    "size": 1160,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/b5fb3d00f997f0d1fc850900bd4c00df3f55654a"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1cb51418542445c900ba8bf4f277acb3b20e3f53",
+    "url": "https://api.github.com/repos/folbricht/routedns/git/trees/1cb51418542445c900ba8bf4f277acb3b20e3f53"
+  },
+  {
+    "path": "tls.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90846ed9cae35183dbb050ed051445f2d46cfadd",
+    "size": 1944,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/90846ed9cae35183dbb050ed051445f2d46cfadd"
+  },
+  {
+    "path": "truncate-retry.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b7ee9e4cde1a7962551d7cb8fb1aaa3f5ae434d",
+    "size": 1413,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/3b7ee9e4cde1a7962551d7cb8fb1aaa3f5ae434d"
+  },
+  {
+    "path": "ttl-modifier.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6532a7ae697b703781bb74dac64417dc21152ba8",
+    "size": 4787,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/6532a7ae697b703781bb74dac64417dc21152ba8"
+  },
+  {
+    "path": "validate.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea22ecf5f359061020540dbd6e9cc3026a80caa9",
+    "size": 1639,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/ea22ecf5f359061020540dbd6e9cc3026a80caa9"
+  },
+  {
+    "path": "vars.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc4efda2530fed0b19264c5895399265d174ff7e",
+    "size": 594,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/bc4efda2530fed0b19264c5895399265d174ff7e"
+  },
+  {
+    "path": "version.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f9ea558e00250e48f502769dd8b0bd86b2b7aab",
+    "size": 142,
+    "url": "https://api.github.com/repos/folbricht/routedns/git/blobs/7f9ea558e00250e48f502769dd8b0bd86b2b7aab"
+  }
+]

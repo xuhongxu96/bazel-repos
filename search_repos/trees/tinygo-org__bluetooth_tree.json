@@ -1,0 +1,606 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bef406c1dc2db133a249af417527403264410810",
+    "size": 37,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/bef406c1dc2db133a249af417527403264410810"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e6e79df5540fa977955d57a2e4652df56e38d9bf",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/e6e79df5540fa977955d57a2e4652df56e38d9bf"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ebfcb8fd868814da3217e3393243a1908fee457",
+    "size": 18,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/0ebfcb8fd868814da3217e3393243a1908fee457"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "332fde56b4364b685221bd59be7548438420f92e",
+    "size": 153,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/332fde56b4364b685221bd59be7548438420f92e"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50c468b735edd2cbd997e5d8c18368052eafb070",
+    "size": 13961,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/50c468b735edd2cbd997e5d8c18368052eafb070"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cf15eefb25f4f6aa08b41a200d970fd7c3582c8",
+    "size": 2589,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/9cf15eefb25f4f6aa08b41a200d970fd7c3582c8"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da2b83a1c49fa73fbc801176970e8a4ca4a5834d",
+    "size": 1731,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/da2b83a1c49fa73fbc801176970e8a4ca4a5834d"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "247ec221f2bfaf9936a5c6fd7cd86398ec8940df",
+    "size": 3942,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/247ec221f2bfaf9936a5c6fd7cd86398ec8940df"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1252c51a4d46c79090290302b0c40ffbce898c9d",
+    "size": 18992,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/1252c51a4d46c79090290302b0c40ffbce898c9d"
+  },
+  {
+    "path": "adapter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2efe4e62f8f35d69cca691e06e896ea79d276f55",
+    "size": 362,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/2efe4e62f8f35d69cca691e06e896ea79d276f55"
+  },
+  {
+    "path": "adapter_cyw43439.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07c12910bcd5ec5f7b67fa0b62327bbe0d174233",
+    "size": 2057,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/07c12910bcd5ec5f7b67fa0b62327bbe0d174233"
+  },
+  {
+    "path": "adapter_darwin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c4acc0d18c69a510273244d6e9d3f64d93a4d65",
+    "size": 5636,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/9c4acc0d18c69a510273244d6e9d3f64d93a4d65"
+  },
+  {
+    "path": "adapter_hci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f36bc09ed11f8361e222f19444b86d35bbcc15b0",
+    "size": 4415,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/f36bc09ed11f8361e222f19444b86d35bbcc15b0"
+  },
+  {
+    "path": "adapter_hci_uart.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ab2b14e4f23cd364ee9d43544f63aacf8360330",
+    "size": 2442,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/7ab2b14e4f23cd364ee9d43544f63aacf8360330"
+  },
+  {
+    "path": "adapter_linux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e49b80dcff0144b8015437e599e24126a49f688",
+    "size": 2104,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/2e49b80dcff0144b8015437e599e24126a49f688"
+  },
+  {
+    "path": "adapter_ninafw.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8686031bd4b84dcff58d2a56e377e1c3426ff064",
+    "size": 2786,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/8686031bd4b84dcff58d2a56e377e1c3426ff064"
+  },
+  {
+    "path": "adapter_nrf51.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2208ecc226313aa6adb8a28ddd0a5ede36f546c6",
+    "size": 4231,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/2208ecc226313aa6adb8a28ddd0a5ede36f546c6"
+  },
+  {
+    "path": "adapter_nrf528xx-full.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bdeaacf4ffb0a11a975d1298973f996ce4169176",
+    "size": 10579,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/bdeaacf4ffb0a11a975d1298973f996ce4169176"
+  },
+  {
+    "path": "adapter_nrf528xx-peripheral.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00860df6a3ecff1b46da877b28c4c47024065f8f",
+    "size": 3965,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/00860df6a3ecff1b46da877b28c4c47024065f8f"
+  },
+  {
+    "path": "adapter_nrf528xx.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "557699d8cccc937ebf44d64f89fe4ea3a7a56dfb",
+    "size": 1606,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/557699d8cccc937ebf44d64f89fe4ea3a7a56dfb"
+  },
+  {
+    "path": "adapter_s110.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4a036680861591b7b7f7d238d320967d47c8206c",
+    "size": 222,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/4a036680861591b7b7f7d238d320967d47c8206c"
+  },
+  {
+    "path": "adapter_s113v7.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ada240d1ce215c530f4bc68744e96234772cbe62",
+    "size": 284,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/ada240d1ce215c530f4bc68744e96234772cbe62"
+  },
+  {
+    "path": "adapter_s132.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bc924faf42db044ee6909fda3483c16a67ecc79",
+    "size": 284,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/0bc924faf42db044ee6909fda3483c16a67ecc79"
+  },
+  {
+    "path": "adapter_s140v6.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "764932fae097a75d1de5ad890b2f25c303f2ecd1",
+    "size": 284,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/764932fae097a75d1de5ad890b2f25c303f2ecd1"
+  },
+  {
+    "path": "adapter_s140v7.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ded15c3b2cab72c82ce12d0c21c5dd1b19f5e494",
+    "size": 284,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/ded15c3b2cab72c82ce12d0c21c5dd1b19f5e494"
+  },
+  {
+    "path": "adapter_sd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4037ed9bf23ad0d4fd9fd08348e0d652d232aa77",
+    "size": 4519,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/4037ed9bf23ad0d4fd9fd08348e0d652d232aa77"
+  },
+  {
+    "path": "adapter_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "726a45e0bbc4dab885c8e077505ef0987967dc2a",
+    "size": 2082,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/726a45e0bbc4dab885c8e077505ef0987967dc2a"
+  },
+  {
+    "path": "att_hci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aeaa9e4d67d36af177921a6c48139ebf41a01313",
+    "size": 27418,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/aeaa9e4d67d36af177921a6c48139ebf41a01313"
+  },
+  {
+    "path": "bluetooth-numbers-database",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "90cfdc83d721af081ba6be9b807a059a9c6b79bf"
+  },
+  {
+    "path": "bluetooth.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a3bff52eb26c81a1729efaa376c5b9bc54682ee",
+    "size": 412,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/5a3bff52eb26c81a1729efaa376c5b9bc54682ee"
+  },
+  {
+    "path": "characteristic_uuids.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a178be3a4a82e7609551b1d7a1b8887b3c93ab2a",
+    "size": 103043,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/a178be3a4a82e7609551b1d7a1b8887b3c93ab2a"
+  },
+  {
+    "path": "debug.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12b22ac5b8a2b0ce8b54654b3f49c6f23b091f71",
+    "size": 57,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/12b22ac5b8a2b0ce8b54654b3f49c6f23b091f71"
+  },
+  {
+    "path": "error_sd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad1f37195454cef94ef5c7c57e394354de2154da",
+    "size": 2618,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/ad1f37195454cef94ef5c7c57e394354de2154da"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1aa44648007e6dede3e20bf5b42b989d7878b9f2",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/1aa44648007e6dede3e20bf5b42b989d7878b9f2"
+  },
+  {
+    "path": "gap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bec57503b4025dbfca9efd96dcb46463f8842ba",
+    "size": 18734,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/6bec57503b4025dbfca9efd96dcb46463f8842ba"
+  },
+  {
+    "path": "gap_darwin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "542535c4c10536859c15cd324be2e48851764199",
+    "size": 6903,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/542535c4c10536859c15cd324be2e48851764199"
+  },
+  {
+    "path": "gap_hci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7110dc45455f1aa69da3e6dd7d2bb8bb9ad230a9",
+    "size": 15972,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/7110dc45455f1aa69da3e6dd7d2bb8bb9ad230a9"
+  },
+  {
+    "path": "gap_linux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2323b44f071d6bdd55c45c786a2467410c9afc09",
+    "size": 21362,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/2323b44f071d6bdd55c45c786a2467410c9afc09"
+  },
+  {
+    "path": "gap_nrf51.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "655e75323264dbc1dfa3713d5c1a8b502fd01ae4",
+    "size": 2981,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/655e75323264dbc1dfa3713d5c1a8b502fd01ae4"
+  },
+  {
+    "path": "gap_nrf528xx-advertisement.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e19ae075fa94950a22cab37dce1f5542e0786a0c",
+    "size": 3226,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/e19ae075fa94950a22cab37dce1f5542e0786a0c"
+  },
+  {
+    "path": "gap_nrf528xx-central.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0c8db787c2b753f90caed7a923783d6a788f10a",
+    "size": 7959,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/a0c8db787c2b753f90caed7a923783d6a788f10a"
+  },
+  {
+    "path": "gap_sd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2147db42cb5e21962a26d5feed88f52ca378e87d",
+    "size": 212,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/2147db42cb5e21962a26d5feed88f52ca378e87d"
+  },
+  {
+    "path": "gap_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4e8b851e61da7792afa197487b19b60473b0322",
+    "size": 3756,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/b4e8b851e61da7792afa197487b19b60473b0322"
+  },
+  {
+    "path": "gap_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a884b46d8cadd3742f8bd27616fa309e33fbee05",
+    "size": 11884,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/a884b46d8cadd3742f8bd27616fa309e33fbee05"
+  },
+  {
+    "path": "gattc_darwin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d737dad52de50942e739c4316e6532413818724",
+    "size": 7343,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/2d737dad52de50942e739c4316e6532413818724"
+  },
+  {
+    "path": "gattc_hci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08fc9070b78c4cca50ab148e1b679427f5a21db8",
+    "size": 9005,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/08fc9070b78c4cca50ab148e1b679427f5a21db8"
+  },
+  {
+    "path": "gattc_linux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0202e985171185639d6c3d003325b7f2024acb41",
+    "size": 9247,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/0202e985171185639d6c3d003325b7f2024acb41"
+  },
+  {
+    "path": "gattc_sd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b3029b9f5dfade40cdc768ec5cd0300533e7c57",
+    "size": 13520,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/5b3029b9f5dfade40cdc768ec5cd0300533e7c57"
+  },
+  {
+    "path": "gattc_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0f2dc5d0f2d45b9386a2b2e0a35f20eb6b64d6f",
+    "size": 14011,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/a0f2dc5d0f2d45b9386a2b2e0a35f20eb6b64d6f"
+  },
+  {
+    "path": "gatts.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70e55186353c6cc864ca0208562fa75a225e6309",
+    "size": 2276,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/70e55186353c6cc864ca0208562fa75a225e6309"
+  },
+  {
+    "path": "gatts_hci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f90199002fe6f4382db7db4407e4bdcea01507d4",
+    "size": 3852,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/f90199002fe6f4382db7db4407e4bdcea01507d4"
+  },
+  {
+    "path": "gatts_linux.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dad88b1b7f0cbbc9aa87b5f9fcc8344236b33e91",
+    "size": 5051,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/dad88b1b7f0cbbc9aa87b5f9fcc8344236b33e91"
+  },
+  {
+    "path": "gatts_other.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "849fd1e60870a161e8c19881b9c75308f550b706",
+    "size": 210,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/849fd1e60870a161e8c19881b9c75308f550b706"
+  },
+  {
+    "path": "gatts_sd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "602aa24d496899ac7d6b4c9f8bbb62071fa91aa4",
+    "size": 5285,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/602aa24d496899ac7d6b4c9f8bbb62071fa91aa4"
+  },
+  {
+    "path": "gatts_windows.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5bc3a0ccd4f0bace8ad79c23177e0507c8e5b535",
+    "size": 8137,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/5bc3a0ccd4f0bace8ad79c23177e0507c8e5b535"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65c36752062d010a9a89f52257257f981d7ec346",
+    "size": 856,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/65c36752062d010a9a89f52257257f981d7ec346"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb19b5e15f9040337afa387e282bb4235ee5879c",
+    "size": 4627,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/fb19b5e15f9040337afa387e282bb4235ee5879c"
+  },
+  {
+    "path": "hci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80bd6140d87c70215962d5a1dcf1bee7faa4c855",
+    "size": 20447,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/80bd6140d87c70215962d5a1dcf1bee7faa4c855"
+  },
+  {
+    "path": "hci_cyw43439.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3213f730f3c9f5e6afcee537906432a85b9df8ea",
+    "size": 578,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/3213f730f3c9f5e6afcee537906432a85b9df8ea"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "40e6c3f942d6c3dfc88d395eb532ac46e7b9f4da",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/40e6c3f942d6c3dfc88d395eb532ac46e7b9f4da"
+  },
+  {
+    "path": "l2cap_hci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4267ff5a4825531ceced3e217aa58d0cc19852d",
+    "size": 3713,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/c4267ff5a4825531ceced3e217aa58d0cc19852d"
+  },
+  {
+    "path": "mac.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "168bca3b1962b4553b7a2b51882e6c893f621a32",
+    "size": 2900,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/168bca3b1962b4553b7a2b51882e6c893f621a32"
+  },
+  {
+    "path": "mac_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9ac951e621d3117d6d2f29acb3edfd2636f719e",
+    "size": 5675,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/e9ac951e621d3117d6d2f29acb3edfd2636f719e"
+  },
+  {
+    "path": "nodebug.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e06d800bab433720a2fdc4aa333dd556c8c5bb59",
+    "size": 59,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/e06d800bab433720a2fdc4aa333dd556c8c5bb59"
+  },
+  {
+    "path": "rawterm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b15ddf89d670f0912bb3102839df5e62b3f28aa",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/5b15ddf89d670f0912bb3102839df5e62b3f28aa"
+  },
+  {
+    "path": "s110_nrf51_8.0.0",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c2b83d38b6730875b9e88c1ada5ec38178986f2b",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/c2b83d38b6730875b9e88c1ada5ec38178986f2b"
+  },
+  {
+    "path": "s113_nrf52_7.0.1",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "446c9d732d09d78695f75ba2d3eec4ca27657e56",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/446c9d732d09d78695f75ba2d3eec4ca27657e56"
+  },
+  {
+    "path": "s132_nrf52_6.1.1",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "519b491113f284ad2ecfd0b792136bb796710db5",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/519b491113f284ad2ecfd0b792136bb796710db5"
+  },
+  {
+    "path": "s140_nrf52_6.1.1",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e88a7efd9b645bb56196112f29a60e5efe6dfc58",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/e88a7efd9b645bb56196112f29a60e5efe6dfc58"
+  },
+  {
+    "path": "s140_nrf52_7.3.0",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d4605da6cec86c9085b1c69a149c5ad3b1a4d62d",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/d4605da6cec86c9085b1c69a149c5ad3b1a4d62d"
+  },
+  {
+    "path": "service_uuids.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f0690fe50d633b0f356086d1f1e0d003c32a856",
+    "size": 18814,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/9f0690fe50d633b0f356086d1f1e0d003c32a856"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "197d156f4ab3b57900135856857f3737560774b5",
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/trees/197d156f4ab3b57900135856857f3737560774b5"
+  },
+  {
+    "path": "uuid.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0ad7a1b66448e4864f6bf1eafad5814c5a1e6b3",
+    "size": 11814,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/c0ad7a1b66448e4864f6bf1eafad5814c5a1e6b3"
+  },
+  {
+    "path": "uuid_hci.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "202870612eeb2c20b15363bf3cf72799697cfdc8",
+    "size": 405,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/202870612eeb2c20b15363bf3cf72799697cfdc8"
+  },
+  {
+    "path": "uuid_sd.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e9deb8bafe3b1c6b84f38e384839a61b7bc1eb14",
+    "size": 998,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/e9deb8bafe3b1c6b84f38e384839a61b7bc1eb14"
+  },
+  {
+    "path": "uuid_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93af1b2e702a8d73d6ccea32f98930bde99bf1ed",
+    "size": 6900,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/93af1b2e702a8d73d6ccea32f98930bde99bf1ed"
+  },
+  {
+    "path": "version.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c77abc5668325a6fae3b8f495ebe7796445bbe15",
+    "size": 217,
+    "url": "https://api.github.com/repos/tinygo-org/bluetooth/git/blobs/c77abc5668325a6fae3b8f495ebe7796445bbe15"
+  }
+]

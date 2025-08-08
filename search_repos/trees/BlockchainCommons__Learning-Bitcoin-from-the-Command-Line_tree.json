@@ -1,0 +1,938 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a614969d3252c118f61290b4ae1fea17e839ed3",
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/trees/6a614969d3252c118f61290b4ae1fea17e839ed3"
+  },
+  {
+    "path": "01_0_Introduction.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae78733f404a039f74079203d5d95f06677c6918",
+    "size": 8179,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/ae78733f404a039f74079203d5d95f06677c6918"
+  },
+  {
+    "path": "01_1_Introducing_Bitcoin.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8e9bcb0c05a60115a3dad296650550b0ae83f5a",
+    "size": 17942,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/e8e9bcb0c05a60115a3dad296650550b0ae83f5a"
+  },
+  {
+    "path": "02_0_Setting_Up_a_Bitcoin-Core_VPS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7690e62934372f882c28944a4fe595ae9d794a2c",
+    "size": 1485,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/7690e62934372f882c28944a4fe595ae9d794a2c"
+  },
+  {
+    "path": "02_1_Setting_Up_a_Bitcoin-Core_VPS_with_StackScript.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85ac12b332cbd0015ae7151ab782407e48259b62",
+    "size": 20590,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/85ac12b332cbd0015ae7151ab782407e48259b62"
+  },
+  {
+    "path": "02_2_Setting_Up_Bitcoin_Core_Other.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc8346c1399cc820fee9aa42b4e3e1fd384a33c7",
+    "size": 2104,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/cc8346c1399cc820fee9aa42b4e3e1fd384a33c7"
+  },
+  {
+    "path": "03_0_Understanding_Your_Bitcoin_Setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbbbeba81309de394324246caa2097165077599e",
+    "size": 1845,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/cbbbeba81309de394324246caa2097165077599e"
+  },
+  {
+    "path": "03_1_Verifying_Your_Bitcoin_Setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe5f49e0349d620b30ff776f1debdd6690864788",
+    "size": 6330,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/fe5f49e0349d620b30ff776f1debdd6690864788"
+  },
+  {
+    "path": "03_2_Knowing_Your_Bitcoin_Setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d625f198a71c14da9545d7e1a68fce6e1acca7b",
+    "size": 12129,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/6d625f198a71c14da9545d7e1a68fce6e1acca7b"
+  },
+  {
+    "path": "03_3_Setting_Up_Your_Wallet.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7d623168239e7c1c15884f5825bf1392bd152ac",
+    "size": 14714,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/a7d623168239e7c1c15884f5825bf1392bd152ac"
+  },
+  {
+    "path": "03_3__Interlude_Using_Command-Line_Variables.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2b02125b655ceb285b854b6fc9524877cdb1c716",
+    "size": 2670,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/2b02125b655ceb285b854b6fc9524877cdb1c716"
+  },
+  {
+    "path": "03_4_Receiving_a_Transaction.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42a2e142532bbe6da58a963db0abb8ab045fa997",
+    "size": 17342,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/42a2e142532bbe6da58a963db0abb8ab045fa997"
+  },
+  {
+    "path": "03_5_Understanding_the_Descriptor.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04c6c6e6c3914c902352a9dccbcade0a02f4eb8b",
+    "size": 11205,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/04c6c6e6c3914c902352a9dccbcade0a02f4eb8b"
+  },
+  {
+    "path": "04_0_Sending_Bitcoin_Transactions.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b09831912cd9d196431212cc649b28f5dd9fb1b",
+    "size": 1444,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/3b09831912cd9d196431212cc649b28f5dd9fb1b"
+  },
+  {
+    "path": "04_1_Sending_Coins_The_Easy_Way.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e099b50b366acbe78eaa228ce475ee930286c86",
+    "size": 8647,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/5e099b50b366acbe78eaa228ce475ee930286c86"
+  },
+  {
+    "path": "04_2_Creating_a_Raw_Transaction.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29e274f5a9305a8a953839418065356574a63029",
+    "size": 16770,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/29e274f5a9305a8a953839418065356574a63029"
+  },
+  {
+    "path": "04_2__Interlude_Using_JQ.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b516fe2a424fcb3ba45a6887dda5a656e07a4a40",
+    "size": 21506,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/b516fe2a424fcb3ba45a6887dda5a656e07a4a40"
+  },
+  {
+    "path": "04_3_Creating_a_Raw_Transaction_with_Named_Arguments.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16f71b66bcc54f6b7bb4629352604f93e6d7f951",
+    "size": 4456,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/16f71b66bcc54f6b7bb4629352604f93e6d7f951"
+  },
+  {
+    "path": "04_4_Sending_Coins_with_a_Raw_Transaction.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1a8f0f127a0ad7324bb8831c0727e4b2535e68f",
+    "size": 10571,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/b1a8f0f127a0ad7324bb8831c0727e4b2535e68f"
+  },
+  {
+    "path": "04_4__Interlude_Using_Curl.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "575e3fb03fb9ed1797c02804dc28af8db6ae0c82",
+    "size": 19850,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/575e3fb03fb9ed1797c02804dc28af8db6ae0c82"
+  },
+  {
+    "path": "04_5_Sending_Coins_with_Automated_Raw_Transactions.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22e029edac6c0eca0cb28780d781380ba16ff5bb",
+    "size": 7741,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/22e029edac6c0eca0cb28780d781380ba16ff5bb"
+  },
+  {
+    "path": "04_6_Creating_a_Segwit_Transaction.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "932b67277697d5c7af010746f9331ba6681a52f8",
+    "size": 15561,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/932b67277697d5c7af010746f9331ba6681a52f8"
+  },
+  {
+    "path": "05_0_Controlling_Bitcoin_Transactions.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81ccb123c7426bdd991acba79f05d943911194bb",
+    "size": 1102,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/81ccb123c7426bdd991acba79f05d943911194bb"
+  },
+  {
+    "path": "05_1_Watching_for_Stuck_Transactions.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a49c0792fe175a7392a21a9df7e346392236e9db",
+    "size": 4851,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/a49c0792fe175a7392a21a9df7e346392236e9db"
+  },
+  {
+    "path": "05_2_Resending_a_Transaction_with_RBF.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c9b9ae82000686a902f318c431263fe0f7753ae",
+    "size": 15528,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/4c9b9ae82000686a902f318c431263fe0f7753ae"
+  },
+  {
+    "path": "05_3_Funding_a_Transaction_with_CPFP.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ec05b9d89cb29b256d4f22dd3d6f156fdadb671",
+    "size": 8285,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/9ec05b9d89cb29b256d4f22dd3d6f156fdadb671"
+  },
+  {
+    "path": "06_0_Expanding_Bitcoin_Transactions_Multisigs.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22272404cee3c6006708602f1a7c2980c620ef63",
+    "size": 1192,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/22272404cee3c6006708602f1a7c2980c620ef63"
+  },
+  {
+    "path": "06_1_Sending_a_Transaction_to_a_Multisig.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9e0a0d013d8574f0fe4348c6b302f22136114dc",
+    "size": 16107,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/b9e0a0d013d8574f0fe4348c6b302f22136114dc"
+  },
+  {
+    "path": "06_2_Spending_a_Transaction_to_a_Multisig.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9da2fbe38a0f4430d066195e6212fa79f3f3ad0",
+    "size": 14503,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/f9da2fbe38a0f4430d066195e6212fa79f3f3ad0"
+  },
+  {
+    "path": "06_3_Sending_an_Automated_Multisig.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30749129e1f4abdf75eb3f602434307271ae80a3",
+    "size": 8257,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/30749129e1f4abdf75eb3f602434307271ae80a3"
+  },
+  {
+    "path": "07_0_Expanding_Bitcoin_Transactions_PSBTs.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9e7ed999093aa282556c4457c1fa092a76264a8",
+    "size": 1259,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/f9e7ed999093aa282556c4457c1fa092a76264a8"
+  },
+  {
+    "path": "07_1_Creating_a_Partially_Signed_Bitcoin_Transaction.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b143ca4352af1f4697dfecbf90f225d2a0f7ee8c",
+    "size": 23403,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/b143ca4352af1f4697dfecbf90f225d2a0f7ee8c"
+  },
+  {
+    "path": "07_2_Using_a_Partially_Signed_Bitcoin_Transaction.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bf860009c9f7cb2aaea5002f0ef327410e5b217",
+    "size": 29053,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/9bf860009c9f7cb2aaea5002f0ef327410e5b217"
+  },
+  {
+    "path": "07_3_Integrating_with_Hardware_Wallets.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4093ab4c1264fc7d7d868a9e4bacd33631c0acad",
+    "size": 27107,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/4093ab4c1264fc7d7d868a9e4bacd33631c0acad"
+  },
+  {
+    "path": "08_0_Expanding_Bitcoin_Transactions_Other.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d10106f8131e67007e5a224597b48ad63b2f2e8d",
+    "size": 978,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/d10106f8131e67007e5a224597b48ad63b2f2e8d"
+  },
+  {
+    "path": "08_1_Sending_a_Transaction_with_a_Locktime.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1db607cd1e5378a47066ca0dabc3b4313e2a8bb9",
+    "size": 11326,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/1db607cd1e5378a47066ca0dabc3b4313e2a8bb9"
+  },
+  {
+    "path": "08_2_Sending_a_Transaction_with_Data.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83fbe46ddb9fb642059fcaa2e25682986bcd5534",
+    "size": 6134,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/83fbe46ddb9fb642059fcaa2e25682986bcd5534"
+  },
+  {
+    "path": "09_0_Introducing_Bitcoin_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "273adf8e11de8dd2641e80826dc477240e73d9bc",
+    "size": 1454,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/273adf8e11de8dd2641e80826dc477240e73d9bc"
+  },
+  {
+    "path": "09_1_Understanding_the_Foundation_of_Transactions.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91e89e67af2a617dea1d401f7a3381939eb9550c",
+    "size": 9593,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/91e89e67af2a617dea1d401f7a3381939eb9550c"
+  },
+  {
+    "path": "09_2_Running_a_Bitcoin_Script.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33937348820ff97dbb58122ad8ea7a6cd88f931b",
+    "size": 6193,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/33937348820ff97dbb58122ad8ea7a6cd88f931b"
+  },
+  {
+    "path": "09_3_Testing_a_Bitcoin_Script.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6f5b32527b7e2d80ed36214c75059ee9977a110",
+    "size": 9297,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/d6f5b32527b7e2d80ed36214c75059ee9977a110"
+  },
+  {
+    "path": "09_4_Scripting_a_P2PKH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2512eb303e47bd271bcfce425fdcbef4674f615a",
+    "size": 22553,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/2512eb303e47bd271bcfce425fdcbef4674f615a"
+  },
+  {
+    "path": "09_5_Scripting_a_P2WPKH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d67022f5e9318739e50eb7f6229aee6019c99f3",
+    "size": 8490,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/8d67022f5e9318739e50eb7f6229aee6019c99f3"
+  },
+  {
+    "path": "10_0_Embedding_Bitcoin_Scripts_in_P2SH_Transactions.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "461651d6df98e65bc3f7211432616a6a0232d00d",
+    "size": 1299,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/461651d6df98e65bc3f7211432616a6a0232d00d"
+  },
+  {
+    "path": "10_1_Understanding_the_Foundation_of_P2SH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3b5c49d6515fcab0f2d1d58da4c3969540ddb08",
+    "size": 8529,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/d3b5c49d6515fcab0f2d1d58da4c3969540ddb08"
+  },
+  {
+    "path": "10_2_Building_the_Structure_of_P2SH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d74afe05e7c39098342a829cfd1def123c43bdf",
+    "size": 11679,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/7d74afe05e7c39098342a829cfd1def123c43bdf"
+  },
+  {
+    "path": "10_3_Running_a_Bitcoin_Script_with_P2SH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86436900e7015ee0c55069f077f0d9c5e4cc058e",
+    "size": 3562,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/86436900e7015ee0c55069f077f0d9c5e4cc058e"
+  },
+  {
+    "path": "10_4_Scripting_a_Multisig.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4aab0a13dab9174ecb16e30f17c3c8dca0b5c37d",
+    "size": 8954,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/4aab0a13dab9174ecb16e30f17c3c8dca0b5c37d"
+  },
+  {
+    "path": "10_5_Scripting_a_Segwit_Script.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6be865a3872bddc7c5c44dfa244c92a0f0092e89",
+    "size": 8610,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/6be865a3872bddc7c5c44dfa244c92a0f0092e89"
+  },
+  {
+    "path": "10_6_Spending_a_P2SH_Transaction.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c66ec3183c4c37670774af4c200159ba8e95c0c",
+    "size": 3338,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/7c66ec3183c4c37670774af4c200159ba8e95c0c"
+  },
+  {
+    "path": "11_0_Empowering_Timelock_with_Bitcoin_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5c34053f89cc688ffe1bbd08ebc5cb2a2356d78",
+    "size": 850,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/a5c34053f89cc688ffe1bbd08ebc5cb2a2356d78"
+  },
+  {
+    "path": "11_1_Understanding_Timelock_Options.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "978eaa59ce194a6f97b7a6ceaa63d3c576343daa",
+    "size": 3884,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/978eaa59ce194a6f97b7a6ceaa63d3c576343daa"
+  },
+  {
+    "path": "11_2_Using_CLTV_in_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9847ff9008b722e3b44499a9b0ee1b5938dda5c3",
+    "size": 10011,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/9847ff9008b722e3b44499a9b0ee1b5938dda5c3"
+  },
+  {
+    "path": "11_3_Using_CSV_in_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "745f9b99a2b24087e389f3c12ce7ed8ff87db4c0",
+    "size": 10696,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/745f9b99a2b24087e389f3c12ce7ed8ff87db4c0"
+  },
+  {
+    "path": "12_0_Expanding_Bitcoin_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01f99647e5f78c3e68f82838bc80f1d7709b7c94",
+    "size": 728,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/01f99647e5f78c3e68f82838bc80f1d7709b7c94"
+  },
+  {
+    "path": "12_1_Using_Script_Conditionals.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7634de7b93b1079dd4965facca02dd69bb922e0d",
+    "size": 11412,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/7634de7b93b1079dd4965facca02dd69bb922e0d"
+  },
+  {
+    "path": "12_2_Using_Other_Script_Commands.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af30e4e120c3da3e5ec5e21a6d5d4d3a0048bc67",
+    "size": 3650,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/af30e4e120c3da3e5ec5e21a6d5d4d3a0048bc67"
+  },
+  {
+    "path": "13_0_Designing_Real_Bitcoin_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b24a4d1489e16ccb5894399de487d57283d6cd35",
+    "size": 911,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/b24a4d1489e16ccb5894399de487d57283d6cd35"
+  },
+  {
+    "path": "13_1_Writing_Puzzle_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "293e5714c80f15941da06d875ed58115c0b9c93d",
+    "size": 15985,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/293e5714c80f15941da06d875ed58115c0b9c93d"
+  },
+  {
+    "path": "13_2_Writing_Complex_Multisig_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67c78938a7241c3a76a2f964340d3dce630b47ff",
+    "size": 9446,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/67c78938a7241c3a76a2f964340d3dce630b47ff"
+  },
+  {
+    "path": "13_3_Empowering_Bitcoin_with_Scripts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1aff7872efe528c8ec5ac75c5899ee2bc6673368",
+    "size": 15332,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/1aff7872efe528c8ec5ac75c5899ee2bc6673368"
+  },
+  {
+    "path": "14_0_Using_Tor.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee3e3b53a62b6c063a9276a42ba198edd478fe35",
+    "size": 925,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/ee3e3b53a62b6c063a9276a42ba198edd478fe35"
+  },
+  {
+    "path": "14_1_Verifying_Your_Tor_Setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4ce2a75e7ddd628ca8cef7759e81c33f7026bf0",
+    "size": 16909,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/d4ce2a75e7ddd628ca8cef7759e81c33f7026bf0"
+  },
+  {
+    "path": "14_2_Changing_Your_Bitcoin_Hidden_Services.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b63a2ad9fb9da5c86e6b4cfc83f9d209f39e8e1b",
+    "size": 3793,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/b63a2ad9fb9da5c86e6b4cfc83f9d209f39e8e1b"
+  },
+  {
+    "path": "14_3_Adding_SSH_Hidden_Services.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6477daa58492ffc1149c0cb5439acca237a6e1d",
+    "size": 3155,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/b6477daa58492ffc1149c0cb5439acca237a6e1d"
+  },
+  {
+    "path": "15_0_Using_i2p.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d7246933555f54021fe50613b259d4fc62b2197",
+    "size": 1292,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/8d7246933555f54021fe50613b259d4fc62b2197"
+  },
+  {
+    "path": "15_1_i2p_service.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ac4be4086a7e3846b15c9f5a4769966284dffe2",
+    "size": 6722,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/0ac4be4086a7e3846b15c9f5a4769966284dffe2"
+  },
+  {
+    "path": "16_0_Talking_to_Bitcoind.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eea4faee5c9d57a15b4e554498e961bfa1b8489e",
+    "size": 1687,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/eea4faee5c9d57a15b4e554498e961bfa1b8489e"
+  },
+  {
+    "path": "16_1_Accessing_Bitcoind_with_C.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eff28bc70159c4940c24393304ab54ae1df64ac3",
+    "size": 14068,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/eff28bc70159c4940c24393304ab54ae1df64ac3"
+  },
+  {
+    "path": "16_2_Programming_Bitcoind_with_C.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9680adc39cf570bf871fcf9822b56aad13f5a89b",
+    "size": 14528,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/9680adc39cf570bf871fcf9822b56aad13f5a89b"
+  },
+  {
+    "path": "16_3_Receiving_Bitcoind_Notifications_with_C.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "113b42829c8e92a66aa687efb736f0366f4f6c25",
+    "size": 8312,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/113b42829c8e92a66aa687efb736f0366f4f6c25"
+  },
+  {
+    "path": "17_0_Programming_with_Libwally.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06b3acf199985c3098703feedd23b67df399325d",
+    "size": 2317,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/06b3acf199985c3098703feedd23b67df399325d"
+  },
+  {
+    "path": "17_1_Setting_Up_Libwally.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bbe833b234458f63dec01447fed12cdfd2d2d65",
+    "size": 7748,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/0bbe833b234458f63dec01447fed12cdfd2d2d65"
+  },
+  {
+    "path": "17_2_Using_BIP39_in_Libwally.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "657197a958111fa417874320da8ffb92d5baf1f9",
+    "size": 7371,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/657197a958111fa417874320da8ffb92d5baf1f9"
+  },
+  {
+    "path": "17_3_Using_BIP32_in_Libwally.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95ff3f0edc3d9aced7c7000d0ef54b66927de46a",
+    "size": 8776,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/95ff3f0edc3d9aced7c7000d0ef54b66927de46a"
+  },
+  {
+    "path": "17_4_Using_PSBTs_in_Libwally.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25be3c8fe87ca306c608a9b1a5ab51834237cfff",
+    "size": 14697,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/25be3c8fe87ca306c608a9b1a5ab51834237cfff"
+  },
+  {
+    "path": "17_5_Using_Scripts_in_Libwally.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc350c075d81ee2f56e34d68a57bbc86e0fe68c2",
+    "size": 8582,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/dc350c075d81ee2f56e34d68a57bbc86e0fe68c2"
+  },
+  {
+    "path": "17_6_Using_Other_Functions_in_Libwally.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "982d6815584cee448012f1324de508878d87802b",
+    "size": 6404,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/982d6815584cee448012f1324de508878d87802b"
+  },
+  {
+    "path": "17_7_Integrating_Libwally_and_Bitcoin-CLI.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "643a8b9cca1589bff404c6220d1e704b70392d8c",
+    "size": 16728,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/643a8b9cca1589bff404c6220d1e704b70392d8c"
+  },
+  {
+    "path": "18_0_Talking_to_Bitcoind_Other.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dcf6a766fdd35280af51bb87fd168359ccbf77e9",
+    "size": 2066,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/dcf6a766fdd35280af51bb87fd168359ccbf77e9"
+  },
+  {
+    "path": "18_1_Accessing_Bitcoind_with_Go.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c10c7167815ce3536a2482a88d2daf98a895d16",
+    "size": 14719,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/2c10c7167815ce3536a2482a88d2daf98a895d16"
+  },
+  {
+    "path": "18_2_Accessing_Bitcoind_with_Java.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee435188c8f696c4e935995373075ed74c7f039d",
+    "size": 14138,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/ee435188c8f696c4e935995373075ed74c7f039d"
+  },
+  {
+    "path": "18_3_Accessing_Bitcoind_with_NodeJS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26216cc3c82e4b7c0ddf8aecb83e1de9ebee781c",
+    "size": 9575,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/26216cc3c82e4b7c0ddf8aecb83e1de9ebee781c"
+  },
+  {
+    "path": "18_4_Accessing_Bitcoind_with_Python.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5f8f259cec6a7ae24862eea3708a5685f6db454",
+    "size": 20806,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/a5f8f259cec6a7ae24862eea3708a5685f6db454"
+  },
+  {
+    "path": "18_5_Accessing_Bitcoind_with_Rust.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5204265b5ba0f3b41aab3b93491a9d9e4eae101a",
+    "size": 14399,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/5204265b5ba0f3b41aab3b93491a9d9e4eae101a"
+  },
+  {
+    "path": "18_6_Accessing_Bitcoind_with_Swift.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd662d1e114107d1e848903be1b8303e824bfea2",
+    "size": 18164,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/bd662d1e114107d1e848903be1b8303e824bfea2"
+  },
+  {
+    "path": "19_0_Understanding_Your_Lightning_Setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff1891354c0f4bd640476f0a4cec94cdc69fa8fa",
+    "size": 1462,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/ff1891354c0f4bd640476f0a4cec94cdc69fa8fa"
+  },
+  {
+    "path": "19_1_Verifying_Your_Lightning_Setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab14bf4d6d7445d00a6631c6f5fa63c4c649af24",
+    "size": 14820,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/ab14bf4d6d7445d00a6631c6f5fa63c4c649af24"
+  },
+  {
+    "path": "19_2_Knowing_Your_lightning_Setup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0650db2ae42a993f656a5b2a050eec1926220980",
+    "size": 13537,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/0650db2ae42a993f656a5b2a050eec1926220980"
+  },
+  {
+    "path": "19_2__Interlude_Accessing_a_Second_Lightning_Node.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b03a7a3e73ea30041940a4bd995a74b98bf7a6f",
+    "size": 11250,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/8b03a7a3e73ea30041940a4bd995a74b98bf7a6f"
+  },
+  {
+    "path": "19_3_Setting_Up_a_Channel.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19259aae1b306eb821287780f862b153827bf32e",
+    "size": 11515,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/19259aae1b306eb821287780f862b153827bf32e"
+  },
+  {
+    "path": "20_0_Using_Lightning.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44c7e5e3f93f8dca00e343cd67c544e116c010ff",
+    "size": 1099,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/44c7e5e3f93f8dca00e343cd67c544e116c010ff"
+  },
+  {
+    "path": "20_1_Generate_a_Payment_Request.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8047bd0fb0c4cbf1f8a6457aee69c5b2d4f789cd",
+    "size": 11650,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/8047bd0fb0c4cbf1f8a6457aee69c5b2d4f789cd"
+  },
+  {
+    "path": "20_2_Paying_a_Invoice.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9975a7e0124d5fd1ff3f8a7f5238c9f89dfd8de4",
+    "size": 10158,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/9975a7e0124d5fd1ff3f8a7f5238c9f89dfd8de4"
+  },
+  {
+    "path": "20_3_Closing_a_Channel.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cda0cd39e1c8c5f288db4eac4743fbad53b0975c",
+    "size": 12776,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/cda0cd39e1c8c5f288db4eac4743fbad53b0975c"
+  },
+  {
+    "path": "20_4_Lightning_Network_Review.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6f4d279289945e97d61fc9e8150fc8e411fcedd",
+    "size": 4758,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/c6f4d279289945e97d61fc9e8150fc8e411fcedd"
+  },
+  {
+    "path": "A0_Appendices.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c957acf1ce7c37bb1f6abbbab6a530e9c5e2bd7",
+    "size": 865,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/2c957acf1ce7c37bb1f6abbbab6a530e9c5e2bd7"
+  },
+  {
+    "path": "A1_0_Understanding_Bitcoin_Standup.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "722d00679e05b7fe34fb71f6c0270d0349b9b839",
+    "size": 3405,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/722d00679e05b7fe34fb71f6c0270d0349b9b839"
+  },
+  {
+    "path": "A2_0_Compiling_Bitcoin_from_Source.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "532c4f4b12e0b269d11e4435f0df35436d3385e1",
+    "size": 6278,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/532c4f4b12e0b269d11e4435f0df35436d3385e1"
+  },
+  {
+    "path": "A3_0_Using_Bitcoin_Regtest.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4039e7eb54eec78f7661dfcd2cea5507800358a5",
+    "size": 13332,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/4039e7eb54eec78f7661dfcd2cea5507800358a5"
+  },
+  {
+    "path": "CLA-signed",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "48bc578c169923f50da2d69375cf8fd8f8ff0369",
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/trees/48bc578c169923f50da2d69375cf8fd8f8ff0369"
+  },
+  {
+    "path": "CLA.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc23cb6b6ed32d1a0b6afce65d776f82f11fa723",
+    "size": 3556,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/bc23cb6b6ed32d1a0b6afce65d776f82f11fa723"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2aff51a54d58f658c86d677d60e805ac3971cd58",
+    "size": 4162,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/2aff51a54d58f658c86d677d60e805ac3971cd58"
+  },
+  {
+    "path": "Chapter_word_counts.ipynb",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c85721a92328705292f19fd3b6eb688a6fe4d63",
+    "size": 25782,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/0c85721a92328705292f19fd3b6eb688a6fe4d63"
+  },
+  {
+    "path": "Chapter_word_counts.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "406c1ee6cb3a97f89351e3461eb4999f13862761",
+    "size": 4289,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/406c1ee6cb3a97f89351e3461eb4999f13862761"
+  },
+  {
+    "path": "LICENSE-CC-BY-4.0.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22b8534c65c1b54df5a8ff61b2e14f5be4108472",
+    "size": 19664,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/22b8534c65c1b54df5a8ff61b2e14f5be4108472"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a3ce99ce3f364da620f2fc21d6a523563e68fa1",
+    "size": 18639,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/8a3ce99ce3f364da620f2fc21d6a523563e68fa1"
+  },
+  {
+    "path": "TODO-20.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdc8847e50dde8723b581544bdb45e93dfb6cb8d",
+    "size": 7719,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/fdc8847e50dde8723b581544bdb45e93dfb6cb8d"
+  },
+  {
+    "path": "TODO-23.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96e2ce9f7e3fce0d424fb097d1ef67f7f2bdff6d",
+    "size": 5713,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/96e2ce9f7e3fce0d424fb097d1ef67f7f2bdff6d"
+  },
+  {
+    "path": "TODO-30.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "034148af8c5ee538afb388e240c66227d326b789",
+    "size": 5767,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/034148af8c5ee538afb388e240c66227d326b789"
+  },
+  {
+    "path": "TRANSLATING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d506e8cf05df14115a1f0be1e82846635e1bfc8",
+    "size": 9891,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/8d506e8cf05df14115a1f0be1e82846635e1bfc8"
+  },
+  {
+    "path": "bitcoin.conf-annotated.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66d0f21565bf54f6e4581713b0103e23227bd6e5",
+    "size": 10198,
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/blobs/66d0f21565bf54f6e4581713b0103e23227bd6e5"
+  },
+  {
+    "path": "es",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "082cfb58f3e4b007714c34f47ec64ec28d77afda",
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/trees/082cfb58f3e4b007714c34f47ec64ec28d77afda"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0e40fe1ef236e3acf7595b4a4af3b09f5a78d5be",
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/trees/0e40fe1ef236e3acf7595b4a4af3b09f5a78d5be"
+  },
+  {
+    "path": "pt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63171904d7a05215e67624fffe617878c04c3e27",
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/trees/63171904d7a05215e67624fffe617878c04c3e27"
+  },
+  {
+    "path": "public",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d5a2c2775590ece796293ca539d6ad5699d91cf",
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/trees/7d5a2c2775590ece796293ca539d6ad5699d91cf"
+  },
+  {
+    "path": "signed-cla",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e73a73e1ca577dfeb5fd15c4daaece952071060",
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/trees/1e73a73e1ca577dfeb5fd15c4daaece952071060"
+  },
+  {
+    "path": "src",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d3fccee0bd026763a842527585d09bab146982fa",
+    "url": "https://api.github.com/repos/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/git/trees/d3fccee0bd026763a842527585d09bab146982fa"
+  }
+]

@@ -1,0 +1,947 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ff0c423042b46cb1d617b81efb715defbe8054d",
+    "size": 2518,
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/blobs/1ff0c423042b46cb1d617b81efb715defbe8054d"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34f281073950423af8ed64f6fb0da30ea623ce9c",
+    "size": 5785,
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/blobs/34f281073950423af8ed64f6fb0da30ea623ce9c"
+  },
+  {
+    "path": "AICustomization",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6601d33bc47160f9b3fb78c38aa3be0f8c5aa602",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/6601d33bc47160f9b3fb78c38aa3be0f8c5aa602"
+  },
+  {
+    "path": "AdvancedSigns",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3fe7a942a42c48384821cf1a4077c1696553db81",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/3fe7a942a42c48384821cf1a4077c1696553db81"
+  },
+  {
+    "path": "AedenthornUtils",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a6c82bbea1dfb1e0455c0ca1caa4d3a0239abb88",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/a6c82bbea1dfb1e0455c0ca1caa4d3a0239abb88"
+  },
+  {
+    "path": "AmmoCount",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b5ba45a54c1bad26735b311ceeadd68c70e2e5aa",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/b5ba45a54c1bad26735b311ceeadd68c70e2e5aa"
+  },
+  {
+    "path": "AnimationSpeed",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "724e0a82a5c83ccc141e42a0e0f8422cde97078c",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/724e0a82a5c83ccc141e42a0e0f8422cde97078c"
+  },
+  {
+    "path": "AutoFeed",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "302509cc397398cfbd1685ba3fbd23da7f7b6d67",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/302509cc397398cfbd1685ba3fbd23da7f7b6d67"
+  },
+  {
+    "path": "AutoFuel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ae431e612322ea88277ec05cedb84d551d142720",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/ae431e612322ea88277ec05cedb84d551d142720"
+  },
+  {
+    "path": "AutoSplitStack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f171cba851e28e14296fd9957718d79fba559de",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/4f171cba851e28e14296fd9957718d79fba559de"
+  },
+  {
+    "path": "AutoStore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "13e52970fe9f04845a26e6b77c508ceda0768e3b",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/13e52970fe9f04845a26e6b77c508ceda0768e3b"
+  },
+  {
+    "path": "Backpack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "321362ea69cd7f7b8ac718606fe7c326c5f61810",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/321362ea69cd7f7b8ac718606fe7c326c5f61810"
+  },
+  {
+    "path": "BackpackRedux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e44b212ae0983bd70ddc3637b19da132b33a4443",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/e44b212ae0983bd70ddc3637b19da132b33a4443"
+  },
+  {
+    "path": "BuildOnTrees",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad796e8c75a3d9ca519d7cd12a72f37204c83317",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/ad796e8c75a3d9ca519d7cd12a72f37204c83317"
+  },
+  {
+    "path": "BuildPieceReplace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c6e0c5330a57c52f467a24433808acbe792392c",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/4c6e0c5330a57c52f467a24433808acbe792392c"
+  },
+  {
+    "path": "BuildPieceTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "655d4a189a3689d758a2f60ed4cd18dbd570697e",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/655d4a189a3689d758a2f60ed4cd18dbd570697e"
+  },
+  {
+    "path": "BuildRestrictionTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a1d2a8aa3247ba25a088259504aaa3f79ac3fb1e",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/a1d2a8aa3247ba25a088259504aaa3f79ac3fb1e"
+  },
+  {
+    "path": "BuildingDamageMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2247e7382b27d1bd58a8a4d4f5ff48592ca8c6d7",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/2247e7382b27d1bd58a8a4d4f5ff48592ca8c6d7"
+  },
+  {
+    "path": "BuildingDemolish",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "32da9f302b7441213d813dc3eb71d640c8d158fd",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/32da9f302b7441213d813dc3eb71d640c8d158fd"
+  },
+  {
+    "path": "BuildingHealthDisplay",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6392ebe32ddc7038e7aeeff11eb506c5ac8db37",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/d6392ebe32ddc7038e7aeeff11eb506c5ac8db37"
+  },
+  {
+    "path": "BuildingRepair",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2543f687bb8c112727c10fff5a1d59ebb34a1e5b",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/2543f687bb8c112727c10fff5a1d59ebb34a1e5b"
+  },
+  {
+    "path": "BuildingRepairRequiresMats",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d902835c274e057b8704f53c87f0644d14258b8c",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/d902835c274e057b8704f53c87f0644d14258b8c"
+  },
+  {
+    "path": "CartSupport",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9a6052707d77b6e37996e8dc37fe71e25bafcca6",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/9a6052707d77b6e37996e8dc37fe71e25bafcca6"
+  },
+  {
+    "path": "CartographyTableMapRestrict",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "98b466f8923e33d0699a3d755c45fda07464d5a1",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/98b466f8923e33d0699a3d755c45fda07464d5a1"
+  },
+  {
+    "path": "CharacterEdit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7af3f6cbd1633ebc09123328cdec4d95dce40f12",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/7af3f6cbd1633ebc09123328cdec4d95dce40f12"
+  },
+  {
+    "path": "ClockMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "269c79e6011b0d9b664da90e06c3a403ff0d9659",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/269c79e6011b0d9b664da90e06c3a403ff0d9659"
+  },
+  {
+    "path": "CombatMusic",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5192b112ce279bc632e4df31337f23b497225d89",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/5192b112ce279bc632e4df31337f23b497225d89"
+  },
+  {
+    "path": "Compass",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce9ec0a0a84a1331990d3a676b7e0ce47070c769",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/ce9ec0a0a84a1331990d3a676b7e0ce47070c769"
+  },
+  {
+    "path": "ConfigurationManager",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a26c9d80d59c0fc4b787049ba0702351b3a8c38f",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/a26c9d80d59c0fc4b787049ba0702351b3a8c38f"
+  },
+  {
+    "path": "ConsoleTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e98b8cd321af600f1d755e4f3561393b2424fcbf",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/e98b8cd321af600f1d755e4f3561393b2424fcbf"
+  },
+  {
+    "path": "ContainerMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7480fc9a77c0b542670b1b89e46b67ebca4ee2f8",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/7480fc9a77c0b542670b1b89e46b67ebca4ee2f8"
+  },
+  {
+    "path": "ContainersAnywhere",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f98e301e3ba66c38ea4fb75afc1086dd2ec9c9c7",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/f98e301e3ba66c38ea4fb75afc1086dd2ec9c9c7"
+  },
+  {
+    "path": "ControllerButtonSwitch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "19b5e4bb99abe6d1db7731f759997681baa90798",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/19b5e4bb99abe6d1db7731f759997681baa90798"
+  },
+  {
+    "path": "CookingStationTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a045ff60a74f397b14a31131537bb9713f1535f5",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/a045ff60a74f397b14a31131537bb9713f1535f5"
+  },
+  {
+    "path": "CraftFromContainers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89a2625a0f2e3c69e582db0ab785c087f84e3184",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/89a2625a0f2e3c69e582db0ab785c087f84e3184"
+  },
+  {
+    "path": "CraftingFilter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e9d1cf84758502f69677d42879b55dcf3c28fb3",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/7e9d1cf84758502f69677d42879b55dcf3c28fb3"
+  },
+  {
+    "path": "CustomArmorStats",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea998c13b0bac463f9d27540ad2ec67c01d8eea3",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/ea998c13b0bac463f9d27540ad2ec67c01d8eea3"
+  },
+  {
+    "path": "CustomAudio",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "712344fc74c691efa0c26cdc1448d1d2aeb5f65c",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/712344fc74c691efa0c26cdc1448d1d2aeb5f65c"
+  },
+  {
+    "path": "CustomContainerSizes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75231cf48e04a215a5a988456221bcd966c3ad8a",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/75231cf48e04a215a5a988456221bcd966c3ad8a"
+  },
+  {
+    "path": "CustomDreamTexts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "69fefc981d57e3a7e39550f1ac3e89172dee332d",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/69fefc981d57e3a7e39550f1ac3e89172dee332d"
+  },
+  {
+    "path": "CustomGraphicsSettings",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1f9c84558e626f5f3701126050be364538a31d08",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/1f9c84558e626f5f3701126050be364538a31d08"
+  },
+  {
+    "path": "CustomItemInfoDisplay",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f8c7e41791da855b902035183106e151dd5933b2",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/f8c7e41791da855b902035183106e151dd5933b2"
+  },
+  {
+    "path": "CustomItems",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cec09f4a4767ffea067c87c515a06e449af680d3",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/cec09f4a4767ffea067c87c515a06e449af680d3"
+  },
+  {
+    "path": "CustomLoadingScreens",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "243d30e4fb4c6b83b774aa366b1f18881095a362",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/243d30e4fb4c6b83b774aa366b1f18881095a362"
+  },
+  {
+    "path": "CustomMeshes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bd69e0dcb309898c95cca2cd44727fa6bbbfa62",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/1bd69e0dcb309898c95cca2cd44727fa6bbbfa62"
+  },
+  {
+    "path": "CustomServerLoadingScreen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d678dd2ad83cfe76eb0cff99ed32ca3365f3514a",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/d678dd2ad83cfe76eb0cff99ed32ca3365f3514a"
+  },
+  {
+    "path": "CustomTextures",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "641009757e1082c018cbd0b1a954112c5eac4dba",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/641009757e1082c018cbd0b1a954112c5eac4dba"
+  },
+  {
+    "path": "CustomToolbarHotkeys",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2867a6664471a34ed2386392467f68869cb22f5e",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/2867a6664471a34ed2386392467f68869cb22f5e"
+  },
+  {
+    "path": "CustomUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "93fd3e8d2b4839ce75f2bb3b08b9b70a345adf7b",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/93fd3e8d2b4839ce75f2bb3b08b9b70a345adf7b"
+  },
+  {
+    "path": "CustomWeapons",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a3694b161b50f0d81bc152e01ebccdf51da34491",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/a3694b161b50f0d81bc152e01ebccdf51da34491"
+  },
+  {
+    "path": "CustomizableToolbar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a078b3310b889c9722e97ee2d17e46b8718d85ef",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/a078b3310b889c9722e97ee2d17e46b8718d85ef"
+  },
+  {
+    "path": "DamageMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5fef3be2cb0fd4a25a109decef03238c1a9da08e",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/5fef3be2cb0fd4a25a109decef03238c1a9da08e"
+  },
+  {
+    "path": "DayCycle",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63cdd6ebc9d39c92be18b5a4c9154e7e9d6776c1",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/63cdd6ebc9d39c92be18b5a4c9154e7e9d6776c1"
+  },
+  {
+    "path": "DeathTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6746997e3c1a9badc59209842ca8e211ab8b651",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/d6746997e3c1a9badc59209842ca8e211ab8b651"
+  },
+  {
+    "path": "DeleteThis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5539dbad8f0773234ce3b14a5096c2658cdbf733",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/5539dbad8f0773234ce3b14a5096c2658cdbf733"
+  },
+  {
+    "path": "DemolishRestrictions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2373bb24e59672090a1df2fb82415729a4f3e92b",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/2373bb24e59672090a1df2fb82415729a4f3e92b"
+  },
+  {
+    "path": "DespawnTrader",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4a1eb05812360622a2666bb02e7ae951fab07ed2",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/4a1eb05812360622a2666bb02e7ae951fab07ed2"
+  },
+  {
+    "path": "DisableEnvParticles",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3e7b1c51c7f0e92ea1ad0d43bcd0d6b100f890fc",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/3e7b1c51c7f0e92ea1ad0d43bcd0d6b100f890fc"
+  },
+  {
+    "path": "DiscardDroppedItems",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8844f7a9ed58eabc67dbb03e8478b60266170e10",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/8844f7a9ed58eabc67dbb03e8478b60266170e10"
+  },
+  {
+    "path": "DiscardInventoryItem",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f82fe4c987240e653c48a3024ab16b84ed2101f7",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/f82fe4c987240e653c48a3024ab16b84ed2101f7"
+  },
+  {
+    "path": "DungeonRegen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ed59536ff427bfd537d026b2610c56073998a9c",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/8ed59536ff427bfd537d026b2610c56073998a9c"
+  },
+  {
+    "path": "Durability",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1e71600a6e6d74b36646079e5331be51b5aa495",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/d1e71600a6e6d74b36646079e5331be51b5aa495"
+  },
+  {
+    "path": "EitrRegenRate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "551819c1821bb4262b97826b8532f88f9b506717",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/551819c1821bb4262b97826b8532f88f9b506717"
+  },
+  {
+    "path": "EmoteKeys",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d57a107569dab8b30ae49a3ec84fce78d150032",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/7d57a107569dab8b30ae49a3ec84fce78d150032"
+  },
+  {
+    "path": "EnableConsole",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0a2d13f15616826e75cf6dbd358d102b88ff7a3d",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/0a2d13f15616826e75cf6dbd358d102b88ff7a3d"
+  },
+  {
+    "path": "EquipMultipleUtilityItems",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d477f340cad1ed22745cab27d318064b6654a7ac",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/d477f340cad1ed22745cab27d318064b6654a7ac"
+  },
+  {
+    "path": "ExtendedPlayerInventory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fe26094e5495e627bb671b253edbc0221e896b97",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/fe26094e5495e627bb671b253edbc0221e896b97"
+  },
+  {
+    "path": "GrassTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e96ebb2560663694a1f5588db7d75e12c653c6f",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/1e96ebb2560663694a1f5588db7d75e12c653c6f"
+  },
+  {
+    "path": "HaldorFetchQuests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c5758482fc5b7bd3239189632bd930e06717be48",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/c5758482fc5b7bd3239189632bd930e06717be48"
+  },
+  {
+    "path": "HeadlightSwitch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac76a77cfa333eb15214e16015ab1f1a10e1c336",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/ac76a77cfa333eb15214e16015ab1f1a10e1c336"
+  },
+  {
+    "path": "HelmetHairToggle",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a46ab3e72447226c3d57b5e325b23ac0ae38881c",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/a46ab3e72447226c3d57b5e325b23ac0ae38881c"
+  },
+  {
+    "path": "HereFishy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "818ca16a1252d3ff0c78c94877b8c83fa1f0b36f",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/818ca16a1252d3ff0c78c94877b8c83fa1f0b36f"
+  },
+  {
+    "path": "HoeRadius",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "be44d6b1034ad729aeac33271b8ddb77ecf0ac7d",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/be44d6b1034ad729aeac33271b8ddb77ecf0ac7d"
+  },
+  {
+    "path": "HotbarSwitch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dac882f9512e64bd6b7cc380530678ab7c870306",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/dac882f9512e64bd6b7cc380530678ab7c870306"
+  },
+  {
+    "path": "HuginQuestFramework",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e5335845b41b91d10bd659d843b92c05ae362d82",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/e5335845b41b91d10bd659d843b92c05ae362d82"
+  },
+  {
+    "path": "InstantMonsterDrop",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80dcebe8daa9113e85fb47c8e702296f5f531469",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/80dcebe8daa9113e85fb47c8e702296f5f531469"
+  },
+  {
+    "path": "InventoryHUD",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9a6ba6ba04f5f09ee062bd8960fa8d0a1ebda778",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/9a6ba6ba04f5f09ee062bd8960fa8d0a1ebda778"
+  },
+  {
+    "path": "ItemStorageComponent",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "93f1ebf989f32d48146ed9bce88c35d3e7c1fe43",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/93f1ebf989f32d48146ed9bce88c35d3e7c1fe43"
+  },
+  {
+    "path": "JumpAndRun",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c2987cac91f9edb3a0adce2249d81b3aca44727",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/7c2987cac91f9edb3a0adce2249d81b3aca44727"
+  },
+  {
+    "path": "JumpRunDodgeSneakWalk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5c2b70e60b3bd651b3093af104d7ce2c0a316ab3",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/5c2b70e60b3bd651b3093af104d7ce2c0a316ab3"
+  },
+  {
+    "path": "LICENSE.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5b2fc5afb31a1b4fc0ef4a41a8085a93e55ae19",
+    "size": 295,
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/blobs/e5b2fc5afb31a1b4fc0ef4a41a8085a93e55ae19"
+  },
+  {
+    "path": "LODTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e72a1afd8270228f87ab14f320a88dec2f3a89ea",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/e72a1afd8270228f87ab14f320a88dec2f3a89ea"
+  },
+  {
+    "path": "LevelOfDetailTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e1a417d9c9c03646570741bf3a208304d36c70bb",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/e1a417d9c9c03646570741bf3a208304d36c70bb"
+  },
+  {
+    "path": "LockableDoors",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c765d42797917778af1b4bb6fd22f7c024e06a3b",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/c765d42797917778af1b4bb6fd22f7c024e06a3b"
+  },
+  {
+    "path": "MapCoordinateDisplay",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "58db90e44b1a1df342e3f7a66dd40e044eec805a",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/58db90e44b1a1df342e3f7a66dd40e044eec805a"
+  },
+  {
+    "path": "MapDetails",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e4773183be713e609a1d1da22f9eee416d1ed00c",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/e4773183be713e609a1d1da22f9eee416d1ed00c"
+  },
+  {
+    "path": "MapPinExport",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c599210c291b33bcc07a8275ec52ba415b8c3152",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/c599210c291b33bcc07a8275ec52ba415b8c3152"
+  },
+  {
+    "path": "MapTeleport",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "915dd6bf38a014b810e6cce27244266190b24ab8",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/915dd6bf38a014b810e6cce27244266190b24ab8"
+  },
+  {
+    "path": "MerchantSpawnTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8d118736658e40853518a9854d400f72bd570d0b",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/8d118736658e40853518a9854d400f72bd570d0b"
+  },
+  {
+    "path": "MiningMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2f7a8e86752fdf218e9fcadb964e5c17325c3bb",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/e2f7a8e86752fdf218e9fcadb964e5c17325c3bb"
+  },
+  {
+    "path": "Mods.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aff37c4d6b7e40f1c119b49f62facee68f058eea",
+    "size": 6321,
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/blobs/aff37c4d6b7e40f1c119b49f62facee68f058eea"
+  },
+  {
+    "path": "MonsterAITweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "64eb709ab0676be3deb616486dbbb4bcf79293cb",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/64eb709ab0676be3deb616486dbbb4bcf79293cb"
+  },
+  {
+    "path": "MovableChestInventory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "382238c2055a2b5e25a10b131d74444c69436b09",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/382238c2055a2b5e25a10b131d74444c69436b09"
+  },
+  {
+    "path": "MovableInventoryWindows",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aae1e9705100f1446d098ffd0e95fa604d3d69c5",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/aae1e9705100f1446d098ffd0e95fa604d3d69c5"
+  },
+  {
+    "path": "Movement",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3ce2b0fbae72c2f7984b67d76021df79587ad434",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/3ce2b0fbae72c2f7984b67d76021df79587ad434"
+  },
+  {
+    "path": "NexusUpdate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "403f1405d75740876ac27c16915a65339c9f9bdc",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/403f1405d75740876ac27c16915a65339c9f9bdc"
+  },
+  {
+    "path": "NexusUpdateCheck",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c587694681d49d0e7737cfce6593b675d146b63a",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/c587694681d49d0e7737cfce6593b675d146b63a"
+  },
+  {
+    "path": "NotificationTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2dc85aebe5fd6d1186fd1c24b9d80408e63f5c00",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/2dc85aebe5fd6d1186fd1c24b9d80408e63f5c00"
+  },
+  {
+    "path": "PlantMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bec2b825f55f1fa279ff85f827aeb6771bcc3fc1",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/bec2b825f55f1fa279ff85f827aeb6771bcc3fc1"
+  },
+  {
+    "path": "PlayerInventory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4e6722b8457ab0f14f355b30dfa1ae5ea112185e",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/4e6722b8457ab0f14f355b30dfa1ae5ea112185e"
+  },
+  {
+    "path": "PlayerModelSwitch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "555b46d938108a916a731362cae5f7ec99547dff",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/555b46d938108a916a731362cae5f7ec99547dff"
+  },
+  {
+    "path": "PostProcessing",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6fed9b9543f2eb9107ae867763bae8c48b1410cb",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/6fed9b9543f2eb9107ae867763bae8c48b1410cb"
+  },
+  {
+    "path": "PreventBabySlaughter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ccb7752a8fe7cef4ba44ad24506553dc7df41f89",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/ccb7752a8fe7cef4ba44ad24506553dc7df41f89"
+  },
+  {
+    "path": "QuestFramework",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e46624df273bca05527eb06cf4ca9ca397b5014",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/1e46624df273bca05527eb06cf4ca9ca397b5014"
+  },
+  {
+    "path": "QuickCart",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8d26cfd766ddb0dd0261a6082853e6b2b1c6f59",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/c8d26cfd766ddb0dd0261a6082853e6b2b1c6f59"
+  },
+  {
+    "path": "QuickLoad",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5f1e625525b2dcad2c108d07418a4f64c77a09ce",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/5f1e625525b2dcad2c108d07418a4f64c77a09ce"
+  },
+  {
+    "path": "QuickStore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1660a41896b3d679c7c94c834fad13c1eb6fc7bb",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/1660a41896b3d679c7c94c834fad13c1eb6fc7bb"
+  },
+  {
+    "path": "RealClockMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2133b116fb4238b57ed5df0a9fadb494358f315",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/e2133b116fb4238b57ed5df0a9fadb494358f315"
+  },
+  {
+    "path": "RecipeCustomization",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5eababc66a0f4c4c8e8604a59e1271ec1ead63b5",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/5eababc66a0f4c4c8e8604a59e1271ec1ead63b5"
+  },
+  {
+    "path": "Recycle",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "735637ed115ff0cbe1498a57ccd852b673d313ff",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/735637ed115ff0cbe1498a57ccd852b673d313ff"
+  },
+  {
+    "path": "Regeneration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a24d89de294f40e184f2b9f710c191d009a81a8",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/3a24d89de294f40e184f2b9f710c191d009a81a8"
+  },
+  {
+    "path": "RememberIP",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c598460b8b46288eba2c6eb76115dc9d6d9d812",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/0c598460b8b46288eba2c6eb76115dc9d6d9d812"
+  },
+  {
+    "path": "RemoveBossTrophy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0137f325ebee7e35d914a2fc7d445ae0cd841509",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/0137f325ebee7e35d914a2fc7d445ae0cd841509"
+  },
+  {
+    "path": "RepairRequiresMats",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "933d947265ce5bab6725a17399dcd60515f1856c",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/933d947265ce5bab6725a17399dcd60515f1856c"
+  },
+  {
+    "path": "RepairSpecificItems",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d4a41763336c7dcde2e545879fc743049cb7b5fd",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/d4a41763336c7dcde2e545879fc743049cb7b5fd"
+  },
+  {
+    "path": "RepeatActions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c2b181312b3c9e2c864b608316a26816156a08b",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/4c2b181312b3c9e2c864b608316a26816156a08b"
+  },
+  {
+    "path": "RequirementCheck",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8072909cd6b491034732cf5d3962f3bfc2074754",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/8072909cd6b491034732cf5d3962f3bfc2074754"
+  },
+  {
+    "path": "ServerRewards",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9289c2f907c00afc76734e1960402b4d574e4ded",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/9289c2f907c00afc76734e1960402b4d574e4ded"
+  },
+  {
+    "path": "ShipSpeed",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1769e202aeb5f0335191e43b81c422aa7c695c5f",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/1769e202aeb5f0335191e43b81c422aa7c695c5f"
+  },
+  {
+    "path": "ShowContainerContents",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9b9b5e78a5dac304773b38aef73a02c5517e0e5b",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/9b9b5e78a5dac304773b38aef73a02c5517e0e5b"
+  },
+  {
+    "path": "SimpleSort",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "791c4e3e7d8d30be9a0c79fa71f4aeaf90a9cfa6",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/791c4e3e7d8d30be9a0c79fa71f4aeaf90a9cfa6"
+  },
+  {
+    "path": "SleepWithoutSpawn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "46610c8614270f65136793f17dc60d82abc28b31",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/46610c8614270f65136793f17dc60d82abc28b31"
+  },
+  {
+    "path": "SpawnLocations",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5558db035c4849780920668fae024f895b0dccb2",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/5558db035c4849780920668fae024f895b0dccb2"
+  },
+  {
+    "path": "SuperJump",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "681265b3e29a952a477f2fce4abb0bdf25073b98",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/681265b3e29a952a477f2fce4abb0bdf25073b98"
+  },
+  {
+    "path": "TerraformTweaks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3987eaffdb2807482f9222a62840532c35f6e19",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/f3987eaffdb2807482f9222a62840532c35f6e19"
+  },
+  {
+    "path": "TerrainReset",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91862fde39529c568a0a3bc38c90e77a7b8c0b81",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/91862fde39529c568a0a3bc38c90e77a7b8c0b81"
+  },
+  {
+    "path": "TimeMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "32d7372f7b6323efc528f7b2fcd1b3453af7c012",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/32d7372f7b6323efc528f7b2fcd1b3453af7c012"
+  },
+  {
+    "path": "TimeScale",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd0b0af6051d708e090acf5891f3da19df17f613",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/bd0b0af6051d708e090acf5891f3da19df17f613"
+  },
+  {
+    "path": "TorchMod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1efe6a4405f53090ff6d6f0c0b1ade1c5fc95225",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/1efe6a4405f53090ff6d6f0c0b1ade1c5fc95225"
+  },
+  {
+    "path": "TreasureChests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bad3f39f5a277d5ee8cbf4eea23292f486d1cd3f",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/bad3f39f5a277d5ee8cbf4eea23292f486d1cd3f"
+  },
+  {
+    "path": "TreeRespawn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5dcac61d1689ab484ce8d31103859cc76108e790",
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/trees/5dcac61d1689ab484ce8d31103859cc76108e790"
+  },
+  {
+    "path": "ValheimMods.sln",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2a3068152566bb4220993c72e69dcf46798a41a",
+    "size": 56551,
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/blobs/e2a3068152566bb4220993c72e69dcf46798a41a"
+  },
+  {
+    "path": "library.targets",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c40073da80ddc1ab61af175abb9abc3977109c7",
+    "size": 11168,
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/blobs/7c40073da80ddc1ab61af175abb9abc3977109c7"
+  },
+  {
+    "path": "valheim.targets",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86e5b4aeeab8bbe6f1134179ab2c0451aa3cbbfc",
+    "size": 12132,
+    "url": "https://api.github.com/repos/aedenthorn/ValheimMods/git/blobs/86e5b4aeeab8bbe6f1134179ab2c0451aa3cbbfc"
+  }
+]

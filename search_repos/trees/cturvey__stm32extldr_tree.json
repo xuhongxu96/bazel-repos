@@ -1,0 +1,660 @@
+[
+  {
+    "path": "ExternalLoader.ld",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bed47a76bace71bd0ec253b195f42b2df11134b",
+    "size": 2921,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/4bed47a76bace71bd0ec253b195f42b2df11134b"
+  },
+  {
+    "path": "ExternalLoader_F7.ld",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a32eddcd729d2e7fe786b2f872aa57ec0afc94a0",
+    "size": 3434,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/a32eddcd729d2e7fe786b2f872aa57ec0afc94a0"
+  },
+  {
+    "path": "ExternalLoader_G4.ld",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "349ca6a439caf0cb60fe52c058cab0ecd8d33222",
+    "size": 3453,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/349ca6a439caf0cb60fe52c058cab0ecd8d33222"
+  },
+  {
+    "path": "ExternalLoader_H5.ld",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79d0b6ed1215fa979a3620e0da8d246f3c914d7f",
+    "size": 3303,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/79d0b6ed1215fa979a3620e0da8d246f3c914d7f"
+  },
+  {
+    "path": "KeilFLMSetRamSize.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a24acf432146dba3ea7698e375af43b661bc618",
+    "size": 81441,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/7a24acf432146dba3ea7698e375af43b661bc618"
+  },
+  {
+    "path": "LICENSE.MD",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24ecb7e6d9094af64a000fb6c1214a75fa047aef",
+    "size": 1093,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/24ecb7e6d9094af64a000fb6c1214a75fa047aef"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab8af670aca1c8d8150f3afbebe02c0eda09a4ba",
+    "size": 6677,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/ab8af670aca1c8d8150f3afbebe02c0eda09a4ba"
+  },
+  {
+    "path": "f4_w25q64",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "26a8735d31284061e5a0ab027a2a44e62beff7d6",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/26a8735d31284061e5a0ab027a2a44e62beff7d6"
+  },
+  {
+    "path": "f4_w25q80",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25e413afb599b37aeb8be439fcf4cefd307ee3ec",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/25e413afb599b37aeb8be439fcf4cefd307ee3ec"
+  },
+  {
+    "path": "f7_mt25q256a",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91b78115a87361f8a58bbcb8df8beecf318d6234",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/91b78115a87361f8a58bbcb8df8beecf318d6234"
+  },
+  {
+    "path": "f7_mt25ql512a",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e89c924fdab73ef06045467cecf5301702c2a09",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/8e89c924fdab73ef06045467cecf5301702c2a09"
+  },
+  {
+    "path": "f7_mx25l512g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a7afd012caaa544c4404e7201601862849227aba",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/a7afd012caaa544c4404e7201601862849227aba"
+  },
+  {
+    "path": "f7_n25q128a",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d62e2ecdeb3a7c6ec800590cb44d7463ad60a438",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/d62e2ecdeb3a7c6ec800590cb44d7463ad60a438"
+  },
+  {
+    "path": "f7_w25q01",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d7531a41c5ae669b5686533e733be7a4cdd85444",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/d7531a41c5ae669b5686533e733be7a4cdd85444"
+  },
+  {
+    "path": "f7_w25q02",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bedc0a22e87050d6bc710183341f457a42b1f447",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/bedc0a22e87050d6bc710183341f457a42b1f447"
+  },
+  {
+    "path": "f7_w25q128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee3b263701f51a088ba18375b140d5960352860a",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/ee3b263701f51a088ba18375b140d5960352860a"
+  },
+  {
+    "path": "f7_w25q256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e230af7b508977879e485f960c9c0d227a05af3",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/1e230af7b508977879e485f960c9c0d227a05af3"
+  },
+  {
+    "path": "f7_w25q512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca9c003f240929627c561745b877a442e10abcc5",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/ca9c003f240929627c561745b877a442e10abcc5"
+  },
+  {
+    "path": "f7_w25q64",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b861cf9b611412dcab9f8a0ef03b749ee197fc3",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/3b861cf9b611412dcab9f8a0ef03b749ee197fc3"
+  },
+  {
+    "path": "f7_w25q80",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f2f5b8213ae7a4cc856e59309d08fa96fda07be8",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/f2f5b8213ae7a4cc856e59309d08fa96fda07be8"
+  },
+  {
+    "path": "g0_mx25l6433f",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1aa87a24af33eb347438eb245e0214db4c26a462",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/1aa87a24af33eb347438eb245e0214db4c26a462"
+  },
+  {
+    "path": "g4_w25q128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "55fc63aebfee455e5886859b0d0e184670ccb557",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/55fc63aebfee455e5886859b0d0e184670ccb557"
+  },
+  {
+    "path": "g4_w25q16",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80dfe7969eeda1e491b6ba240b9310fd91d2bc35",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/80dfe7969eeda1e491b6ba240b9310fd91d2bc35"
+  },
+  {
+    "path": "g4_w25q64",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6907fd7ae5d6e6213689c2f130a34efb1be86636",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/6907fd7ae5d6e6213689c2f130a34efb1be86636"
+  },
+  {
+    "path": "gfx01m2_mx25l6433f",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99c412c983cfae47e07ead04faaa199e06461426",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/99c412c983cfae47e07ead04faaa199e06461426"
+  },
+  {
+    "path": "gfx02z1_mx25l6433f",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c25eab1fe073c2d06b939c896bf8fbe0a4978f89",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/c25eab1fe073c2d06b939c896bf8fbe0a4978f89"
+  },
+  {
+    "path": "h563_octo_pins.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bb24efa51b3be14a73d228a6eb7ac04a801647e",
+    "size": 2244,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/3bb24efa51b3be14a73d228a6eb7ac04a801647e"
+  },
+  {
+    "path": "h5_mx25l25645g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "19fe1b7698bf3110059a67eedc9bd23cb323abf9",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/19fe1b7698bf3110059a67eedc9bd23cb323abf9"
+  },
+  {
+    "path": "h5_mx25l51245g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00a37c460d3afd11985ac2c8b254e77e25c90b87",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/00a37c460d3afd11985ac2c8b254e77e25c90b87"
+  },
+  {
+    "path": "h5_mx25l6433f",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3f74dfd71265366cf34954ef81644dda51a0cc9",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/b3f74dfd71265366cf34954ef81644dda51a0cc9"
+  },
+  {
+    "path": "h5_mx25lm51245g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6db39a73991233af3b298cf7379eb920fe07130",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/d6db39a73991233af3b298cf7379eb920fe07130"
+  },
+  {
+    "path": "h5_w25q128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1376f326f53b692e5ea0c67287bdbe842859795b",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/1376f326f53b692e5ea0c67287bdbe842859795b"
+  },
+  {
+    "path": "h5_w25q256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21c993b32c5c4e0a1f393b9d87220192b86629d9",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/21c993b32c5c4e0a1f393b9d87220192b86629d9"
+  },
+  {
+    "path": "h5_w25q32",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94ac748b0d689da9518b36f105b6720803710422",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/94ac748b0d689da9518b36f105b6720803710422"
+  },
+  {
+    "path": "h5_w25q512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2511e6f5892947b56225e109643cd2e2f1d61b1f",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/2511e6f5892947b56225e109643cd2e2f1d61b1f"
+  },
+  {
+    "path": "h5_w25q64",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0bc428f4f96e1c0025848e38e368d6b3f2f080e6",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/0bc428f4f96e1c0025848e38e368d6b3f2f080e6"
+  },
+  {
+    "path": "h7_is25lp128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a1420b7c79fbeb6f531565a14d7797fc7e6f9bcb",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/a1420b7c79fbeb6f531565a14d7797fc7e6f9bcb"
+  },
+  {
+    "path": "h7_is25lp256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "923f142f03f79c6d4db2c553d8f1ef2c9b548685",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/923f142f03f79c6d4db2c553d8f1ef2c9b548685"
+  },
+  {
+    "path": "h7_mt25q032",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "237254aa6a51358f6a4652a07c6a0e49a4cfbb02",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/237254aa6a51358f6a4652a07c6a0e49a4cfbb02"
+  },
+  {
+    "path": "h7_mt25q064",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c226ba42420aff0128080694fb343dcac79ec03f",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/c226ba42420aff0128080694fb343dcac79ec03f"
+  },
+  {
+    "path": "h7_mt25q128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "974d305b3e9bfaf58f54f391ad9aec8ba3ae252b",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/974d305b3e9bfaf58f54f391ad9aec8ba3ae252b"
+  },
+  {
+    "path": "h7_mt25q256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a98e9ab1b12738ee82d873baa162673aa04e322",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/5a98e9ab1b12738ee82d873baa162673aa04e322"
+  },
+  {
+    "path": "h7_mt25ql02g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "28637c82ef8ef319a218ea6cd366f4b46f182ca4",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/28637c82ef8ef319a218ea6cd366f4b46f182ca4"
+  },
+  {
+    "path": "h7_mt25ql512a",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b53d253e4696db4f933093de286cd3d4b7f2c7b",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/5b53d253e4696db4f933093de286cd3d4b7f2c7b"
+  },
+  {
+    "path": "h7_mt25tl01g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3e79a094022d8a17237f42ba305f27234be1acf",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/f3e79a094022d8a17237f42ba305f27234be1acf"
+  },
+  {
+    "path": "h7_mt35xl01g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aaf8ab889c3d2eba4c403e3575be89a5d94f29f5",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/aaf8ab889c3d2eba4c403e3575be89a5d94f29f5"
+  },
+  {
+    "path": "h7_mt35xl02g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4a5b9cfad0c6e2c26d998076137709726b52f314",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/4a5b9cfad0c6e2c26d998076137709726b52f314"
+  },
+  {
+    "path": "h7_mt35xl256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "72d3eb7748ac76cfe55d0bb3e830c410ffe82e17",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/72d3eb7748ac76cfe55d0bb3e830c410ffe82e17"
+  },
+  {
+    "path": "h7_mt35xl512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a3d55593194379bcbbc56dda430d0daeb7608ee",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/5a3d55593194379bcbbc56dda430d0daeb7608ee"
+  },
+  {
+    "path": "h7_mx25l12835f",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8c0a88110ff37bd326d461173a3fb3a17f16332d",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/8c0a88110ff37bd326d461173a3fb3a17f16332d"
+  },
+  {
+    "path": "h7_mx25l1g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87182c494156b0db41578c17c47c209e6d6b3078",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/87182c494156b0db41578c17c47c209e6d6b3078"
+  },
+  {
+    "path": "h7_mx25l25645g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7f55b785b30846c984bebcf66cdf940c0b86c47a",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/7f55b785b30846c984bebcf66cdf940c0b86c47a"
+  },
+  {
+    "path": "h7_mx25l3233f",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d0924bbdfbe34116ffa7a01cd8feb3c3eac40c4e",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/d0924bbdfbe34116ffa7a01cd8feb3c3eac40c4e"
+  },
+  {
+    "path": "h7_mx25l51245g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6d6ad71c4e55f747c780f4602a452fd6f5707f16",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/6d6ad71c4e55f747c780f4602a452fd6f5707f16"
+  },
+  {
+    "path": "h7_mx25l6433f",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2125fca686fead2dd234b8e5afa4d11b9398de80",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/2125fca686fead2dd234b8e5afa4d11b9398de80"
+  },
+  {
+    "path": "h7_mx25lm51245g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "faa11d59f7a70466775c19fc418548f154cc75a5",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/faa11d59f7a70466775c19fc418548f154cc75a5"
+  },
+  {
+    "path": "h7_mx66l1g45g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ecb23a03149a60130cf8e6ed486a9abc80868b27",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/ecb23a03149a60130cf8e6ed486a9abc80868b27"
+  },
+  {
+    "path": "h7_mx66lm1g45g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "baada29c9cc20b99cf12433647460c9996a34ae5",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/baada29c9cc20b99cf12433647460c9996a34ae5"
+  },
+  {
+    "path": "h7_n25q00aa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37d1830bbccf2e04c23409a8d53f401cd85697a4",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/37d1830bbccf2e04c23409a8d53f401cd85697a4"
+  },
+  {
+    "path": "h7_qspi_pin.cfg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b3e4f0a8dc0f22e79ffddf1e75f4c01ad7200d5",
+    "size": 10983,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/3b3e4f0a8dc0f22e79ffddf1e75f4c01ad7200d5"
+  },
+  {
+    "path": "h7_s25fl128s",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "13a79e8efb76347e053890b08a5fb6ece4b16e73",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/13a79e8efb76347e053890b08a5fb6ece4b16e73"
+  },
+  {
+    "path": "h7_s25hl01g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "22e35f383493663ec473b25d8120d969260c489f",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/22e35f383493663ec473b25d8120d969260c489f"
+  },
+  {
+    "path": "h7_s25hl02g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "be26169b9fcc4e692505611f0c481c0e606e5c3e",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/be26169b9fcc4e692505611f0c481c0e606e5c3e"
+  },
+  {
+    "path": "h7_s25hl512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4c0b47cb6356fbb6d3992b7c08e027c7832c7ba0",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/4c0b47cb6356fbb6d3992b7c08e027c7832c7ba0"
+  },
+  {
+    "path": "h7_s25sl256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71dcf73b9c5f534dd82051dd86e5371be0d99958",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/71dcf73b9c5f534dd82051dd86e5371be0d99958"
+  },
+  {
+    "path": "h7_w25q01",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a524f86456d6ccd338f2fd8efec6ace650802afa",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/a524f86456d6ccd338f2fd8efec6ace650802afa"
+  },
+  {
+    "path": "h7_w25q02",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35089fc53f07c976f4e88149141402562248ff6a",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/35089fc53f07c976f4e88149141402562248ff6a"
+  },
+  {
+    "path": "h7_w25q128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4cb9150252dc39990c6c7de0bd78a0974a71484b",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/4cb9150252dc39990c6c7de0bd78a0974a71484b"
+  },
+  {
+    "path": "h7_w25q16",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ea02da3beb0e816d44fdd286f50d144814b2e08d",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/ea02da3beb0e816d44fdd286f50d144814b2e08d"
+  },
+  {
+    "path": "h7_w25q256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0ca9b08e63ce05db82355489193c7958058f48e",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/b0ca9b08e63ce05db82355489193c7958058f48e"
+  },
+  {
+    "path": "h7_w25q512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "581aa1cf92150f337b4db2c08079533793dd7442",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/581aa1cf92150f337b4db2c08079533793dd7442"
+  },
+  {
+    "path": "h7_w25q64",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1722706f6a9148ce661f3642bd6c5bc6a36da869",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/1722706f6a9148ce661f3642bd6c5bc6a36da869"
+  },
+  {
+    "path": "h7a3_octo_pins.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b375328e6d08a7da7a787d204b39554b1c3f47e9",
+    "size": 1063,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/b375328e6d08a7da7a787d204b39554b1c3f47e9"
+  },
+  {
+    "path": "h7pins.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf0a489814414bb31753c15e6a72c49fa0d449f4",
+    "size": 536,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/bf0a489814414bb31753c15e6a72c49fa0d449f4"
+  },
+  {
+    "path": "l4_mt25ql128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "becafd7aadb60a4fffea40aa2649b0fb138fa1f8",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/becafd7aadb60a4fffea40aa2649b0fb138fa1f8"
+  },
+  {
+    "path": "l4_mx25l32",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "60b639ecce7316d145f59c25d3166dda8106f1e5",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/60b639ecce7316d145f59c25d3166dda8106f1e5"
+  },
+  {
+    "path": "l4_mx25l512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a862f06fae7795e1333fcf7eafa0950776fa415f",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/a862f06fae7795e1333fcf7eafa0950776fa415f"
+  },
+  {
+    "path": "l4_mx25l64",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a352c534e0454e853063414c42b16bfe386c9a56",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/a352c534e0454e853063414c42b16bfe386c9a56"
+  },
+  {
+    "path": "l4_mx25lm512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0606b29da8fa6e5c485dd5cfee2e3f5e53eab28a",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/0606b29da8fa6e5c485dd5cfee2e3f5e53eab28a"
+  },
+  {
+    "path": "l4_w25q512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "71a525bd43524d34e387670d3fc76d44d1320840",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/71a525bd43524d34e387670d3fc76d44d1320840"
+  },
+  {
+    "path": "l5_mt25q256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3cc02b75d2b6e98c225c9f8cb8802527268195e0",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/3cc02b75d2b6e98c225c9f8cb8802527268195e0"
+  },
+  {
+    "path": "l5_w25q256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a86a4df362027e1ec0145ca038b06bcafbe54292",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/a86a4df362027e1ec0145ca038b06bcafbe54292"
+  },
+  {
+    "path": "micronbgacodes.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e161e230151019b6d1f8d48748712b7be49289a",
+    "size": 429520,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/7e161e230151019b6d1f8d48748712b7be49289a"
+  },
+  {
+    "path": "ospi_qspi_read.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91d9f27854777e1ca3dedf7c02a28a8d24be81d9",
+    "size": 1811,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/91d9f27854777e1ca3dedf7c02a28a8d24be81d9"
+  },
+  {
+    "path": "ospi_qspi_readid.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d52d123b6564ba60ee7e88da2f3afbd0285e1e3b",
+    "size": 1402,
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/blobs/d52d123b6564ba60ee7e88da2f3afbd0285e1e3b"
+  },
+  {
+    "path": "u5_mt25q128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "313f34470a610828127bc313bf378374e8897cc8",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/313f34470a610828127bc313bf378374e8897cc8"
+  },
+  {
+    "path": "u5_mx25lm51245g",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fa27572c370677577122cdcc9252a9d85c9b4a27",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/fa27572c370677577122cdcc9252a9d85c9b4a27"
+  },
+  {
+    "path": "u5_w25q128",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4725b6e749a38288884e96128cd249a68f343388",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/4725b6e749a38288884e96128cd249a68f343388"
+  },
+  {
+    "path": "u5_w25q256",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e5407ca1cfe3a6bfbca474d119939f5c48b19aae",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/e5407ca1cfe3a6bfbca474d119939f5c48b19aae"
+  },
+  {
+    "path": "u5_w25q32",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5edd919aa500f734a24355cc2fc0ab08cecea6fd",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/5edd919aa500f734a24355cc2fc0ab08cecea6fd"
+  },
+  {
+    "path": "u5_w25q512",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c2a7c31072e202c32d051bd39f63724050a143f0",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/c2a7c31072e202c32d051bd39f63724050a143f0"
+  },
+  {
+    "path": "u5_w25q64",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6988d9ac19bcf8e2b2c2337ebd382fb0c15b4a0a",
+    "url": "https://api.github.com/repos/cturvey/stm32extldr/git/trees/6988d9ac19bcf8e2b2c2337ebd382fb0c15b4a0a"
+  }
+]

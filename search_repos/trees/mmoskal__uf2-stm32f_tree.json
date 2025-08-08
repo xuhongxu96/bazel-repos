@@ -1,0 +1,392 @@
+[
+  {
+    "path": ".clang-format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3715edfd5e207857b1cea0dfc848e46a040e1571",
+    "size": 126,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/3715edfd5e207857b1cea0dfc848e46a040e1571"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52d428b515ed24f1692abf0480c3017871ae588f",
+    "size": 150,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/52d428b515ed24f1692abf0480c3017871ae588f"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "808adedda12f2f675c8d8445d884da1c17802814",
+    "size": 163,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/808adedda12f2f675c8d8445d884da1c17802814"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2dd0cecd4a18e36d97ded3689081d5fa5a6f3000",
+    "size": 3008,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/2dd0cecd4a18e36d97ded3689081d5fa5a6f3000"
+  },
+  {
+    "path": "Bootloader.sublime-project",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d6c4d8849bf37b05b1768852553ce918cf53de4",
+    "size": 330,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/9d6c4d8849bf37b05b1768852553ce918cf53de4"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82e2b0b77f469593ad498bafb811157ec5743315",
+    "size": 2144,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/82e2b0b77f469593ad498bafb811157ec5743315"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e76d5d137801b4a4b8b91c2fb274639552d9cde",
+    "size": 3269,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/0e76d5d137801b4a4b8b91c2fb274639552d9cde"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2a9cac2cad5678058df528e7ba60d10ccebfd3d",
+    "size": 1854,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/c2a9cac2cad5678058df528e7ba60d10ccebfd3d"
+  },
+  {
+    "path": "Tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c01af88e70dff1ef5665d4668ecdd0cd1cd4dcc",
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/trees/6c01af88e70dff1ef5665d4668ecdd0cd1cd4dcc"
+  },
+  {
+    "path": "bl.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3de55d123d88ebe4d84a50a095df9fabcd3fb56b",
+    "size": 7115,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/3de55d123d88ebe4d84a50a095df9fabcd3fb56b"
+  },
+  {
+    "path": "bl.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ab670c582e073e0f5171611d41791c96ccb9e99",
+    "size": 5076,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/4ab670c582e073e0f5171611d41791c96ccb9e99"
+  },
+  {
+    "path": "boards",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3067fa84252649e06fc7b28638343d17569e8a4c",
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/trees/3067fa84252649e06fc7b28638343d17569e8a4c"
+  },
+  {
+    "path": "dmesg.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d7cef8419b2f179f32e99d137874faa3e5416cf",
+    "size": 4406,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/5d7cef8419b2f179f32e99d137874faa3e5416cf"
+  },
+  {
+    "path": "dmesg.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3b5b81035dd6435ca2c06792d9d4bd4a75100f6",
+    "size": 2412,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/e3b5b81035dd6435ca2c06792d9d4bd4a75100f6"
+  },
+  {
+    "path": "flasher.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fa087bcb0fb5b83d54aeddfdcaf13631aa2b006",
+    "size": 2428,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/0fa087bcb0fb5b83d54aeddfdcaf13631aa2b006"
+  },
+  {
+    "path": "flashwarning.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee74f22dc2f7305bddbfc1a57a42759878a3efb5",
+    "size": 2699,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/ee74f22dc2f7305bddbfc1a57a42759878a3efb5"
+  },
+  {
+    "path": "ghostfat.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "042bcba0a7c9e73c47bed4376116a30c0abdc508",
+    "size": 11179,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/042bcba0a7c9e73c47bed4376116a30c0abdc508"
+  },
+  {
+    "path": "hf2.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d8ffecdd870ac5baf02d29cf45128c30cb28935",
+    "size": 6174,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/2d8ffecdd870ac5baf02d29cf45128c30cb28935"
+  },
+  {
+    "path": "hw_config.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "609fab3c219f34d00b58ee29858f7f261e21dedd",
+    "size": 617,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/609fab3c219f34d00b58ee29858f7f261e21dedd"
+  },
+  {
+    "path": "images.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0df91efe561b4379a0442dc5fd2933be97d4873",
+    "size": 5253,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/d0df91efe561b4379a0442dc5fd2933be97d4873"
+  },
+  {
+    "path": "libopencm3",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "364ee72d0c05844c703c86e0bf4f407443a7370a"
+  },
+  {
+    "path": "linker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c233da48a619fabe594edd48c5002b01b9a988b",
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/trees/6c233da48a619fabe594edd48c5002b01b9a988b"
+  },
+  {
+    "path": "main_f1.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21b7f1d1e2d9bb7e0b4a03f1ef6c4c1f18a55d47",
+    "size": 7732,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/21b7f1d1e2d9bb7e0b4a03f1ef6c4c1f18a55d47"
+  },
+  {
+    "path": "main_f3.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc48cda08b8a4f27112c00e369d09ee5ca7c7003",
+    "size": 10296,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/dc48cda08b8a4f27112c00e369d09ee5ca7c7003"
+  },
+  {
+    "path": "main_f4.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc34134bb73f0c4cc3672b3b1c75a9e4d74ce289",
+    "size": 18236,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/dc34134bb73f0c4cc3672b3b1c75a9e4d74ce289"
+  },
+  {
+    "path": "main_f7.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f1b3a7b40a690836caaeec2803cc378e0c8fcf5",
+    "size": 21372,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/0f1b3a7b40a690836caaeec2803cc378e0c8fcf5"
+  },
+  {
+    "path": "map-file-stats.js",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a19900ae9f47cf82ae5f28e67d0191e3472fea10",
+    "size": 1372,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/a19900ae9f47cf82ae5f28e67d0191e3472fea10"
+  },
+  {
+    "path": "ocd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5bd2e08524558c50091c141d8f68254ef4899128",
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/trees/5bd2e08524558c50091c141d8f68254ef4899128"
+  },
+  {
+    "path": "pins.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6999d59f9ab742e60f365fe611875a87826e00c4",
+    "size": 4983,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/6999d59f9ab742e60f365fe611875a87826e00c4"
+  },
+  {
+    "path": "rules.mk",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d59aff85ff67e3cc9f72d914d4a71ccc3df6186",
+    "size": 1732,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/5d59aff85ff67e3cc9f72d914d4a71ccc3df6186"
+  },
+  {
+    "path": "screen.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3687de69d65f83e493f2b59e15f1b9598e88f35",
+    "size": 16335,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/f3687de69d65f83e493f2b59e15f1b9598e88f35"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a3648d7d42dbbfe4d94d2a088d0e93b54f458cb5",
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/trees/a3648d7d42dbbfe4d94d2a088d0e93b54f458cb5"
+  },
+  {
+    "path": "settings.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1e427a91b02dbe06403de98710279c9a4dbd779",
+    "size": 428,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/c1e427a91b02dbe06403de98710279c9a4dbd779"
+  },
+  {
+    "path": "settings.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66f62c088ad1c9d280848473baaeb9757098fab0",
+    "size": 482,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/66f62c088ad1c9d280848473baaeb9757098fab0"
+  },
+  {
+    "path": "support.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "905ada583c364242de713afb3704c5a81e1947fb",
+    "size": 914,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/905ada583c364242de713afb3704c5a81e1947fb"
+  },
+  {
+    "path": "tmp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "629638f7c96b635056b7d69c413474d88e94dd87",
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/trees/629638f7c96b635056b7d69c413474d88e94dd87"
+  },
+  {
+    "path": "uf2",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "84444ddb9d2914edf7f6d9e89a7ce41b53d64d98"
+  },
+  {
+    "path": "uf2.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f97e9a69c4c94449b9139817c6bdeaa9fa0e702",
+    "size": 4749,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/9f97e9a69c4c94449b9139817c6bdeaa9fa0e702"
+  },
+  {
+    "path": "uf2cfg.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d1d2aba16f38699477706872da7e926801e6c0a",
+    "size": 446,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/4d1d2aba16f38699477706872da7e926801e6c0a"
+  },
+  {
+    "path": "uf2hid.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f5bf880c6181065fdc70c11f388074c8feb3fd5",
+    "size": 2797,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/0f5bf880c6181065fdc70c11f388074c8feb3fd5"
+  },
+  {
+    "path": "usb.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7469c0760f5eb8b17d04c4b00ca22d5e9853adba",
+    "size": 9955,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/7469c0760f5eb8b17d04c4b00ca22d5e9853adba"
+  },
+  {
+    "path": "usb.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "238e5ffffd34bbbba6a05380a2758a39fd8f1443",
+    "size": 1844,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/238e5ffffd34bbbba6a05380a2758a39fd8f1443"
+  },
+  {
+    "path": "usb_msc.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a10ee92b85140fcf8132491852aa332736fb26f5",
+    "size": 23881,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/a10ee92b85140fcf8132491852aa332736fb26f5"
+  },
+  {
+    "path": "util.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9000b45a029c7ca97df49949658f4c66d064623a",
+    "size": 3162,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/9000b45a029c7ca97df49949658f4c66d064623a"
+  },
+  {
+    "path": "webusb.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7902c46087426d5414a56d2f17b1b028d19e25f7",
+    "size": 1235,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/7902c46087426d5414a56d2f17b1b028d19e25f7"
+  },
+  {
+    "path": "webusb.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "787303f0677210b01f0a5af7f5d15e67e120a2d8",
+    "size": 1025,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/787303f0677210b01f0a5af7f5d15e67e120a2d8"
+  },
+  {
+    "path": "webusb_defs.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd699e996e8ad7c7ad3e832dac12aac6011d9692",
+    "size": 1680,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/fd699e996e8ad7c7ad3e832dac12aac6011d9692"
+  },
+  {
+    "path": "winusb.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5defd9f45bc67360180a6b598fe0fd87c8dd306c",
+    "size": 4670,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/5defd9f45bc67360180a6b598fe0fd87c8dd306c"
+  },
+  {
+    "path": "winusb.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bfb4cee6bc139a40d91ba4d408a32129bcbae93",
+    "size": 1052,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/3bfb4cee6bc139a40d91ba4d408a32129bcbae93"
+  },
+  {
+    "path": "winusb_defs.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0245550afbba78318ee259ecd8b7eebae37ab20b",
+    "size": 5449,
+    "url": "https://api.github.com/repos/mmoskal/uf2-stm32f/git/blobs/0245550afbba78318ee259ecd8b7eebae37ab20b"
+  }
+]

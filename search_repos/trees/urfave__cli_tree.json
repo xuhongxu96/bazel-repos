@@ -1,0 +1,628 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "33531c27d0fb242af3f5ed88b4b0e7e57ec72c98",
+    "url": "https://api.github.com/repos/urfave/cli/git/trees/33531c27d0fb242af3f5ed88b4b0e7e57ec72c98"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b1914904641262c43d6dfd5b1719d5de64b0c64",
+    "size": 110,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/6b1914904641262c43d6dfd5b1719d5de64b0c64"
+  },
+  {
+    "path": ".golangci.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "473a221ab9a3505f4c7cb45a785c8d3e87d7c494",
+    "size": 154,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/473a221ab9a3505f4c7cb45a785c8d3e87d7c494"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9fee14807edf0a0dab6546e1aeee0b83c70533e7",
+    "size": 3268,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/9fee14807edf0a0dab6546e1aeee0b83c70533e7"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a23fc53dea9a346122bd9cf780cfd4e8db752bff",
+    "size": 1079,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/a23fc53dea9a346122bd9cf780cfd4e8db752bff"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e4af30679294d46ba7ed6176ac314de4b0603b9",
+    "size": 819,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/2e4af30679294d46ba7ed6176ac314de4b0603b9"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e04c7295b568f9f5f5dd1a7fbdbd3801d8abd680",
+    "size": 2380,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/e04c7295b568f9f5f5dd1a7fbdbd3801d8abd680"
+  },
+  {
+    "path": "args.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "918afb2ed03858f99bb7dbe4b5d2564c31243460",
+    "size": 10490,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/918afb2ed03858f99bb7dbe4b5d2564c31243460"
+  },
+  {
+    "path": "args_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7a2545ea13f59207c47bc072960f02ea6cceb28",
+    "size": 12801,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/f7a2545ea13f59207c47bc072960f02ea6cceb28"
+  },
+  {
+    "path": "autocomplete",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2baf3150696bec79d31bb11e6177c7f2992b182",
+    "url": "https://api.github.com/repos/urfave/cli/git/trees/e2baf3150696bec79d31bb11e6177c7f2992b182"
+  },
+  {
+    "path": "category.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14e3649ca7478a8af43951d8499520d2bdc7931b",
+    "size": 4403,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/14e3649ca7478a8af43951d8499520d2bdc7931b"
+  },
+  {
+    "path": "cli.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d833aff51794f6c01b91399da153501e6f1a1360",
+    "size": 1192,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/d833aff51794f6c01b91399da153501e6f1a1360"
+  },
+  {
+    "path": "cli_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c2c4b26dc2f156c135718b46e5323fb4373f8d0",
+    "size": 1216,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/4c2c4b26dc2f156c135718b46e5323fb4373f8d0"
+  },
+  {
+    "path": "command.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "541081a59c3046eb6586f9e1181a70fbb5c326db",
+    "size": 15978,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/541081a59c3046eb6586f9e1181a70fbb5c326db"
+  },
+  {
+    "path": "command_parse.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1130658005887c94ed7902b332b2a6b3035aca0d",
+    "size": 6088,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/1130658005887c94ed7902b332b2a6b3035aca0d"
+  },
+  {
+    "path": "command_run.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44ffc22349a405ac50270c865a7706259efb0bf2",
+    "size": 9361,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/44ffc22349a405ac50270c865a7706259efb0bf2"
+  },
+  {
+    "path": "command_setup.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09df4a3084108b105df30f65233cf1317204a7fb",
+    "size": 5681,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/09df4a3084108b105df30f65233cf1317204a7fb"
+  },
+  {
+    "path": "command_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6df83cdb757414f60f2f49ff3064a42fd9f595ba",
+    "size": 126796,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/6df83cdb757414f60f2f49ff3064a42fd9f595ba"
+  },
+  {
+    "path": "completion.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d97ade6e49d7f8e2fa41ac447926514c033a4a09",
+    "size": 2624,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/d97ade6e49d7f8e2fa41ac447926514c033a4a09"
+  },
+  {
+    "path": "completion_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0323764e59ec3af96f61ba7af308b2ad13478db8",
+    "size": 5447,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/0323764e59ec3af96f61ba7af308b2ad13478db8"
+  },
+  {
+    "path": "docs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42cad718b1c771e20bc23ee9631ab90e0b97620e",
+    "size": 2782,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/42cad718b1c771e20bc23ee9631ab90e0b97620e"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ba48f53f95000de86ebeaa9340b015de2ccd7fa",
+    "url": "https://api.github.com/repos/urfave/cli/git/trees/2ba48f53f95000de86ebeaa9340b015de2ccd7fa"
+  },
+  {
+    "path": "errors.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b377f1097651bd2918b6d7bb3aaa44b9de6dc7a",
+    "size": 4444,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/6b377f1097651bd2918b6d7bb3aaa44b9de6dc7a"
+  },
+  {
+    "path": "errors_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35aaab54d435cd6a3354ff2ee2d59e1cdc00980f",
+    "size": 4775,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/35aaab54d435cd6a3354ff2ee2d59e1cdc00980f"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "873e6ce6c9b477ccc29069bb57865f73966e9ec0",
+    "url": "https://api.github.com/repos/urfave/cli/git/trees/873e6ce6c9b477ccc29069bb57865f73966e9ec0"
+  },
+  {
+    "path": "examples_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "727b58359df931ab00ab819e0e22146791b669b4",
+    "size": 14226,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/727b58359df931ab00ab819e0e22146791b669b4"
+  },
+  {
+    "path": "fish.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "320dfc6c69d56b30a1d742b9b472b356dd2121f8",
+    "size": 4246,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/320dfc6c69d56b30a1d742b9b472b356dd2121f8"
+  },
+  {
+    "path": "fish_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "492b516b75f57573f747ab2ea267217b09cdd62e",
+    "size": 813,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/492b516b75f57573f747ab2ea267217b09cdd62e"
+  },
+  {
+    "path": "flag.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a5bd54748317c8318cd3425f422d63a3295e9e0e",
+    "size": 6013,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/a5bd54748317c8318cd3425f422d63a3295e9e0e"
+  },
+  {
+    "path": "flag_bool.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5764482405235c2ce51cd968724a8b3d3f6edd5",
+    "size": 1694,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/d5764482405235c2ce51cd968724a8b3d3f6edd5"
+  },
+  {
+    "path": "flag_bool_with_inverse.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "272dd98fec3e62c5b13779ee0ef9fc3a3e43b190",
+    "size": 7682,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/272dd98fec3e62c5b13779ee0ef9fc3a3e43b190"
+  },
+  {
+    "path": "flag_bool_with_inverse_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "981494586ba8a93cd18af3018268347b7684453b",
+    "size": 10185,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/981494586ba8a93cd18af3018268347b7684453b"
+  },
+  {
+    "path": "flag_duration.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "37b4cb642f1d390fd76891827cac323293d24bba",
+    "size": 1122,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/37b4cb642f1d390fd76891827cac323293d24bba"
+  },
+  {
+    "path": "flag_ext.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9972af7c56003bac7a359f86441a9800582977c3",
+    "size": 926,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/9972af7c56003bac7a359f86441a9800582977c3"
+  },
+  {
+    "path": "flag_float.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71aa0c27b9d0254503bb2aefecb1240fa1d8d4aa",
+    "size": 1844,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/71aa0c27b9d0254503bb2aefecb1240fa1d8d4aa"
+  },
+  {
+    "path": "flag_float_slice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a6a46d8ac58d451e6540417d9d382342248154b",
+    "size": 1225,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/9a6a46d8ac58d451e6540417d9d382342248154b"
+  },
+  {
+    "path": "flag_float_slice_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "299d8e9270125920bdea90a32ae57d9b8ea1b976",
+    "size": 3112,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/299d8e9270125920bdea90a32ae57d9b8ea1b976"
+  },
+  {
+    "path": "flag_float_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2402580ffaf595ff97226e19bac1622568972e90",
+    "size": 3274,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/2402580ffaf595ff97226e19bac1622568972e90"
+  },
+  {
+    "path": "flag_generic.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9618409ee8bbfbf0347229fd434564bf0ea32021",
+    "size": 1296,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/9618409ee8bbfbf0347229fd434564bf0ea32021"
+  },
+  {
+    "path": "flag_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2495b6efac830cf8b3bf03b2253b3192d90b4d5a",
+    "size": 9841,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/2495b6efac830cf8b3bf03b2253b3192d90b4d5a"
+  },
+  {
+    "path": "flag_int.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e082221e40c15faa3770dc12e89e56a24111e06",
+    "size": 2405,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/0e082221e40c15faa3770dc12e89e56a24111e06"
+  },
+  {
+    "path": "flag_int_slice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22dcb5a24c8f8cf787877b6c65926310ad1eb46e",
+    "size": 1923,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/22dcb5a24c8f8cf787877b6c65926310ad1eb46e"
+  },
+  {
+    "path": "flag_int_slice_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c85e2ece93dbedd17b70771712ffd83430e5d3e",
+    "size": 5020,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/7c85e2ece93dbedd17b70771712ffd83430e5d3e"
+  },
+  {
+    "path": "flag_int_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "47b8f69052867e45206e7f0827f282731501e7c7",
+    "size": 7323,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/47b8f69052867e45206e7f0827f282731501e7c7"
+  },
+  {
+    "path": "flag_map_impl.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b03514b7d1a527d1ab2cf08fcdae73782b80e4a3",
+    "size": 2656,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/b03514b7d1a527d1ab2cf08fcdae73782b80e4a3"
+  },
+  {
+    "path": "flag_mutex.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "247bcb569b3c4b54ca02b6c42d97ecfbea55ddad",
+    "size": 1106,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/247bcb569b3c4b54ca02b6c42d97ecfbea55ddad"
+  },
+  {
+    "path": "flag_mutex_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69ceec232874305445feb8c7b9625f7cb77b6cfe",
+    "size": 2226,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/69ceec232874305445feb8c7b9625f7cb77b6cfe"
+  },
+  {
+    "path": "flag_number_slice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77e317020e506588c96e47d4a176f02d70e7c596",
+    "size": 436,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/77e317020e506588c96e47d4a176f02d70e7c596"
+  },
+  {
+    "path": "flag_number_slice_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72572c052a9fe23648454b5e0eb237994bd3b6c9",
+    "size": 841,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/72572c052a9fe23648454b5e0eb237994bd3b6c9"
+  },
+  {
+    "path": "flag_slice_base.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b97c4ff4f2af1d8d73961ae3a0752d8eac9873a5",
+    "size": 2189,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/b97c4ff4f2af1d8d73961ae3a0752d8eac9873a5"
+  },
+  {
+    "path": "flag_string.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bdc1ec65fc64507aa1850251ba274d91ed473d8e",
+    "size": 1343,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/bdc1ec65fc64507aa1850251ba274d91ed473d8e"
+  },
+  {
+    "path": "flag_string_map.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "52fd7362afa01d9a69075f8ca09ca88408699372",
+    "size": 637,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/52fd7362afa01d9a69075f8ca09ca88408699372"
+  },
+  {
+    "path": "flag_string_slice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cb6c5a0628e407ff8887571b62ccd4121137792",
+    "size": 632,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/4cb6c5a0628e407ff8887571b62ccd4121137792"
+  },
+  {
+    "path": "flag_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6b0578334d047f7f8616ac37930e99e5dbe27e7",
+    "size": 97904,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/f6b0578334d047f7f8616ac37930e99e5dbe27e7"
+  },
+  {
+    "path": "flag_timestamp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "413a2f0e48600e397b7b45aca0c9611d027bc885",
+    "size": 3197,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/413a2f0e48600e397b7b45aca0c9611d027bc885"
+  },
+  {
+    "path": "flag_uint.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64ee231926e672ea43c6699ef9d027e02741e14c",
+    "size": 2385,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/64ee231926e672ea43c6699ef9d027e02741e14c"
+  },
+  {
+    "path": "flag_uint_slice.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18c5b4d232487811435724a1c2309f1f359d9a6c",
+    "size": 2344,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/18c5b4d232487811435724a1c2309f1f359d9a6c"
+  },
+  {
+    "path": "flag_uint_slice_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "023de5c2daeafd8749ae25fd61eb45e7b607691f",
+    "size": 5060,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/023de5c2daeafd8749ae25fd61eb45e7b607691f"
+  },
+  {
+    "path": "flag_uint_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99557fd6e58121bdc3bf1bff762904c41ebb3cd4",
+    "size": 7068,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/99557fd6e58121bdc3bf1bff762904c41ebb3cd4"
+  },
+  {
+    "path": "flag_validation_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27fd4ae3a5ab997509a98d8dc9515745037f41d2",
+    "size": 3113,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/27fd4ae3a5ab997509a98d8dc9515745037f41d2"
+  },
+  {
+    "path": "funcs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe1224c44e346206502e04952521e32eb03f0c5b",
+    "size": 2440,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/fe1224c44e346206502e04952521e32eb03f0c5b"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "911955912cb4fb041fe440dae050826869ad45cc",
+    "size": 233,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/911955912cb4fb041fe440dae050826869ad45cc"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "713a0b4f0a3a96de8c80584f4384a0e385f462eb",
+    "size": 883,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/713a0b4f0a3a96de8c80584f4384a0e385f462eb"
+  },
+  {
+    "path": "godoc-current.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa3ca2d73cbcf0cb7cf888cb90dbe0eb6389f24c",
+    "size": 54293,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/aa3ca2d73cbcf0cb7cf888cb90dbe0eb6389f24c"
+  },
+  {
+    "path": "help.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42e14a854d526fd7c5b22217b8b9a95ae4c92f5b",
+    "size": 16278,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/42e14a854d526fd7c5b22217b8b9a95ae4c92f5b"
+  },
+  {
+    "path": "help_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1decf8899a6a56a7c61cb332aaf44f4ad7b1baa3",
+    "size": 45805,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/1decf8899a6a56a7c61cb332aaf44f4ad7b1baa3"
+  },
+  {
+    "path": "helpers_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d76e9def52a264f2cef8c8905d2e18e632111900",
+    "size": 91,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/d76e9def52a264f2cef8c8905d2e18e632111900"
+  },
+  {
+    "path": "mkdocs-reqs.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "365d864c7d4bc60cf8bb6c1972296f6a5b7f9b42",
+    "size": 117,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/365d864c7d4bc60cf8bb6c1972296f6a5b7f9b42"
+  },
+  {
+    "path": "mkdocs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97bc4ad58968a8b2b017a10bf3b7fd6b2abb6898",
+    "size": 4945,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/97bc4ad58968a8b2b017a10bf3b7fd6b2abb6898"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6e9a764d617a9673656810c0722c9cba59dfd8c0",
+    "url": "https://api.github.com/repos/urfave/cli/git/trees/6e9a764d617a9673656810c0722c9cba59dfd8c0"
+  },
+  {
+    "path": "sort.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23d1c2f77207192fa9cc21add5c44aaffdb5d452",
+    "size": 520,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/23d1c2f77207192fa9cc21add5c44aaffdb5d452"
+  },
+  {
+    "path": "sort_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23cce96d0efcbae8388c86b4196a6d820ead5bde",
+    "size": 565,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/23cce96d0efcbae8388c86b4196a6d820ead5bde"
+  },
+  {
+    "path": "staticcheck.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "233d9e73a8a0061f594306834afcf1a8c2264db2",
+    "size": 15,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/233d9e73a8a0061f594306834afcf1a8c2264db2"
+  },
+  {
+    "path": "suggestions.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f29f12213e55fee0f3eb3e2d35b84573ec58b53",
+    "size": 3437,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/6f29f12213e55fee0f3eb3e2d35b84573ec58b53"
+  },
+  {
+    "path": "suggestions_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1e962104e56fcda457653545ea46e7e04b93381",
+    "size": 2818,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/b1e962104e56fcda457653545ea46e7e04b93381"
+  },
+  {
+    "path": "template.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29c8e8c71e351e5eb023d800c91f856b5d356a67",
+    "size": 4833,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/29c8e8c71e351e5eb023d800c91f856b5d356a67"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac91f249357a5ace01ae00ae48118b0664547317",
+    "url": "https://api.github.com/repos/urfave/cli/git/trees/ac91f249357a5ace01ae00ae48118b0664547317"
+  },
+  {
+    "path": "value_source.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44b0173b413dc96e637dc96bd77f873348362e91",
+    "size": 5909,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/44b0173b413dc96e637dc96bd77f873348362e91"
+  },
+  {
+    "path": "value_source_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3aca91b824e51d4c345295d0bd29077eb9a812a2",
+    "size": 7221,
+    "url": "https://api.github.com/repos/urfave/cli/git/blobs/3aca91b824e51d4c345295d0bd29077eb9a812a2"
+  }
+]

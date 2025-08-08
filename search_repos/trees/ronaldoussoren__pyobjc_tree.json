@@ -1,0 +1,1358 @@
+[
+  {
+    "path": ".clang-format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "403101658e99c48ed26c83b452dc93e71b674f7f",
+    "size": 3777,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/403101658e99c48ed26c83b452dc93e71b674f7f"
+  },
+  {
+    "path": ".codespellrc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e5760af3a3c2f324965962648b58bef2575a0fa",
+    "size": 215,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/7e5760af3a3c2f324965962648b58bef2575a0fa"
+  },
+  {
+    "path": ".flake8",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe2e8b01cff09357c1ef42f392743b0fe6e3f209",
+    "size": 207,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/fe2e8b01cff09357c1ef42f392743b0fe6e3f209"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79c2ee31c54e3661550b621dedb959ee7d19ce07",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/79c2ee31c54e3661550b621dedb959ee7d19ce07"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14ef589e6f8ad71d79e00fd5ba2d20567b9a5154",
+    "size": 321,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/14ef589e6f8ad71d79e00fd5ba2d20567b9a5154"
+  },
+  {
+    "path": ".isort.cfg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba2778dc8ca7ca3268816639a2ea3c69df3405d8",
+    "size": 113,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/ba2778dc8ca7ca3268816639a2ea3c69df3405d8"
+  },
+  {
+    "path": ".mypy.ini",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54003851b2c8f3acae4a0c284e3a3c7621772b76",
+    "size": 68,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/54003851b2c8f3acae4a0c284e3a3c7621772b76"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2f440b1781dc693bb45e37e7524b25dbe00a657",
+    "size": 2169,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/c2f440b1781dc693bb45e37e7524b25dbe00a657"
+  },
+  {
+    "path": ".readthedocs.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e80e6b4016bb495a9681b2d6549afcf3c37cc2f",
+    "size": 166,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/7e80e6b4016bb495a9681b2d6549afcf3c37cc2f"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "259311c1562326dc762a2ed2e4956f17b4f8f4a2",
+    "size": 384,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/259311c1562326dc762a2ed2e4956f17b4f8f4a2"
+  },
+  {
+    "path": "ReadMe.rst",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46f5b9387fe2c604eea1452231275530c1d3e82e",
+    "size": 1292,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/46f5b9387fe2c604eea1452231275530c1d3e82e"
+  },
+  {
+    "path": "develop.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3287a96a022683b9c9c054f5735ee9bb3b6e0cb",
+    "size": 317,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/e3287a96a022683b9c9c054f5735ee9bb3b6e0cb"
+  },
+  {
+    "path": "development-support",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5d8ad8d46111064ca88a9bf3565f6e183560f155",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/5d8ad8d46111064ca88a9bf3565f6e183560f155"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aac249a566ad9268fe0c1a770804dae0af0ca060",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/aac249a566ad9268fe0c1a770804dae0af0ca060"
+  },
+  {
+    "path": "install.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc16db0fb0783b08a4ec98c8cce8c0de6a859d64",
+    "size": 276,
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/blobs/bc16db0fb0783b08a4ec98c8cce8c0de6a859d64"
+  },
+  {
+    "path": "pyobjc-core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "22abba9025c7f6f1df5834107cd5bd7c5e9b113a",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/22abba9025c7f6f1df5834107cd5bd7c5e9b113a"
+  },
+  {
+    "path": "pyobjc-framework-AVFoundation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b9610d7763328c73ca7263f28c0c20ed4f844485",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/b9610d7763328c73ca7263f28c0c20ed4f844485"
+  },
+  {
+    "path": "pyobjc-framework-AVKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e67778f83200d1b32bbc6ed4f9add5fc13ff66b3",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/e67778f83200d1b32bbc6ed4f9add5fc13ff66b3"
+  },
+  {
+    "path": "pyobjc-framework-AVRouting",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21852eea505e7a1d4fa37b2536d65e0af537cc65",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/21852eea505e7a1d4fa37b2536d65e0af537cc65"
+  },
+  {
+    "path": "pyobjc-framework-Accessibility",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "beae901fd5dd524593e1898e3575c6380af203ef",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/beae901fd5dd524593e1898e3575c6380af203ef"
+  },
+  {
+    "path": "pyobjc-framework-Accounts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "10f0939e8ec00d4beb9af0c9b4de343da3481749",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/10f0939e8ec00d4beb9af0c9b4de343da3481749"
+  },
+  {
+    "path": "pyobjc-framework-AdServices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e81a8497dfbdb406a420b71aff6fdec54feee523",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/e81a8497dfbdb406a420b71aff6fdec54feee523"
+  },
+  {
+    "path": "pyobjc-framework-AdSupport",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ad94111e4670532c87f36b74b26d2989527de04",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/8ad94111e4670532c87f36b74b26d2989527de04"
+  },
+  {
+    "path": "pyobjc-framework-AddressBook",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f19cbd0aec5fd35bd7707e520b9d37113d8357c5",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/f19cbd0aec5fd35bd7707e520b9d37113d8357c5"
+  },
+  {
+    "path": "pyobjc-framework-AppTrackingTransparency",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "59b58529fe047138934eeb561acba6dc65f813a5",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/59b58529fe047138934eeb561acba6dc65f813a5"
+  },
+  {
+    "path": "pyobjc-framework-AppleScriptKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a1e83627b7b32eb057afba30e923de086852fd3",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/5a1e83627b7b32eb057afba30e923de086852fd3"
+  },
+  {
+    "path": "pyobjc-framework-AppleScriptObjC",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04bde24046c586920d5c3e9750eaa9c7453a9fdf",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/04bde24046c586920d5c3e9750eaa9c7453a9fdf"
+  },
+  {
+    "path": "pyobjc-framework-ApplicationServices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "03a399d1aaea8ef33ba454150b9126815d7af4a4",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/03a399d1aaea8ef33ba454150b9126815d7af4a4"
+  },
+  {
+    "path": "pyobjc-framework-AudioVideoBridging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "175c967e76820f62eaa94b4dea19202f522e3231",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/175c967e76820f62eaa94b4dea19202f522e3231"
+  },
+  {
+    "path": "pyobjc-framework-AuthenticationServices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fe0d834ea478a422a7ac61ec059d41b660c402a5",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/fe0d834ea478a422a7ac61ec059d41b660c402a5"
+  },
+  {
+    "path": "pyobjc-framework-AutomaticAssessmentConfiguration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9b475c09ca172cc4604315c054228d1d6ee838c1",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9b475c09ca172cc4604315c054228d1d6ee838c1"
+  },
+  {
+    "path": "pyobjc-framework-Automator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "57512fbc6ab64be4bbea76c4b3010e95d0938ea7",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/57512fbc6ab64be4bbea76c4b3010e95d0938ea7"
+  },
+  {
+    "path": "pyobjc-framework-BackgroundAssets",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8878eca6c1feeb51798be9a4994e6dee7e8f5d9a",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/8878eca6c1feeb51798be9a4994e6dee7e8f5d9a"
+  },
+  {
+    "path": "pyobjc-framework-BrowserEngineKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2fa0c99285a4b4afe38062884a6b2ccea7f37c9",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/e2fa0c99285a4b4afe38062884a6b2ccea7f37c9"
+  },
+  {
+    "path": "pyobjc-framework-BusinessChat",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cd5418b6141e54e9e30f399d98703f7cea7c066e",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/cd5418b6141e54e9e30f399d98703f7cea7c066e"
+  },
+  {
+    "path": "pyobjc-framework-CFNetwork",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "14fd5fe5600c00d89ecfb0dc35ffb4683ff0c799",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/14fd5fe5600c00d89ecfb0dc35ffb4683ff0c799"
+  },
+  {
+    "path": "pyobjc-framework-CalendarStore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "716c147e9f1e9eb8f82c98032442428aea64edd7",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/716c147e9f1e9eb8f82c98032442428aea64edd7"
+  },
+  {
+    "path": "pyobjc-framework-CallKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8879f40c7d561940216aa0d40bb6e87e0e433d03",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/8879f40c7d561940216aa0d40bb6e87e0e433d03"
+  },
+  {
+    "path": "pyobjc-framework-Carbon",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d87cebf673789b95342ef8ef3181c08b68fc989a",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d87cebf673789b95342ef8ef3181c08b68fc989a"
+  },
+  {
+    "path": "pyobjc-framework-Cinematic",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fe06700113b06295e2ac855f60e29bb713d8d54c",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/fe06700113b06295e2ac855f60e29bb713d8d54c"
+  },
+  {
+    "path": "pyobjc-framework-ClassKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "78a12d838b7ff9326e49c5d69e95c32fd744cca0",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/78a12d838b7ff9326e49c5d69e95c32fd744cca0"
+  },
+  {
+    "path": "pyobjc-framework-CloudKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ea13d6079572b5419e3cec0a1c6c5c1931237db",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/2ea13d6079572b5419e3cec0a1c6c5c1931237db"
+  },
+  {
+    "path": "pyobjc-framework-Cocoa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "adc485ceddc5096c3b0f6cd26f703a2b5f3b9af8",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/adc485ceddc5096c3b0f6cd26f703a2b5f3b9af8"
+  },
+  {
+    "path": "pyobjc-framework-Collaboration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6452d43dbff92f15160ab5dd0b6e65c714fcf185",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/6452d43dbff92f15160ab5dd0b6e65c714fcf185"
+  },
+  {
+    "path": "pyobjc-framework-ColorSync",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d7bbb270aca37aca8abfccb1fd17637b331d3804",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d7bbb270aca37aca8abfccb1fd17637b331d3804"
+  },
+  {
+    "path": "pyobjc-framework-Contacts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2a4388bcfaf26319efc486236805527b572b9fc9",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/2a4388bcfaf26319efc486236805527b572b9fc9"
+  },
+  {
+    "path": "pyobjc-framework-ContactsUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5dbc577c3fb6ddacbc4e97393768d24b5ef0ad36",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/5dbc577c3fb6ddacbc4e97393768d24b5ef0ad36"
+  },
+  {
+    "path": "pyobjc-framework-CoreAudio",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "560bc6440bd78bac3c44620e23848a7cff299da8",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/560bc6440bd78bac3c44620e23848a7cff299da8"
+  },
+  {
+    "path": "pyobjc-framework-CoreAudioKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7343e42915f328ee177c2a581b103eefe7150223",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7343e42915f328ee177c2a581b103eefe7150223"
+  },
+  {
+    "path": "pyobjc-framework-CoreBluetooth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d104a3d7fa3a93055898128518613450fd4af3bc",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d104a3d7fa3a93055898128518613450fd4af3bc"
+  },
+  {
+    "path": "pyobjc-framework-CoreData",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5787b1e77e4b781e6deca5aa84bbde8cdc368636",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/5787b1e77e4b781e6deca5aa84bbde8cdc368636"
+  },
+  {
+    "path": "pyobjc-framework-CoreHaptics",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c2f208764cc10ff9f949f9b1a79826f069499243",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/c2f208764cc10ff9f949f9b1a79826f069499243"
+  },
+  {
+    "path": "pyobjc-framework-CoreLocation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2aa9d414e2f2ad54c2b4921dfec63d4fbeffdc64",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/2aa9d414e2f2ad54c2b4921dfec63d4fbeffdc64"
+  },
+  {
+    "path": "pyobjc-framework-CoreMIDI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7749fb536e72f10547fac35a13e2005e4acd183d",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7749fb536e72f10547fac35a13e2005e4acd183d"
+  },
+  {
+    "path": "pyobjc-framework-CoreML",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba84d09e48c382cf83df8bfdbd412f526f07e1e1",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/ba84d09e48c382cf83df8bfdbd412f526f07e1e1"
+  },
+  {
+    "path": "pyobjc-framework-CoreMedia",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7443d2c72b32682df5dd191a8863f7df910c5dc4",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7443d2c72b32682df5dd191a8863f7df910c5dc4"
+  },
+  {
+    "path": "pyobjc-framework-CoreMediaIO",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82a8623a3b62f38beeebdccc7b9c84add99951d6",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/82a8623a3b62f38beeebdccc7b9c84add99951d6"
+  },
+  {
+    "path": "pyobjc-framework-CoreMotion",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c1052c4792f23014c2667a18c2fda44cf1de4ec",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/2c1052c4792f23014c2667a18c2fda44cf1de4ec"
+  },
+  {
+    "path": "pyobjc-framework-CoreServices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e7b04802ee87032f9b13c65624d96b5f38ed453",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/1e7b04802ee87032f9b13c65624d96b5f38ed453"
+  },
+  {
+    "path": "pyobjc-framework-CoreSpotlight",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6ad3870e99404ed0cdcc422386aecaa6edd4d82",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d6ad3870e99404ed0cdcc422386aecaa6edd4d82"
+  },
+  {
+    "path": "pyobjc-framework-CoreText",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "22d7d224e32ec276d35d4c2e48f7c95113cc5f1c",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/22d7d224e32ec276d35d4c2e48f7c95113cc5f1c"
+  },
+  {
+    "path": "pyobjc-framework-CoreWLAN",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "23bb46568a554afde7b3853f9761c17d50deaa30",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/23bb46568a554afde7b3853f9761c17d50deaa30"
+  },
+  {
+    "path": "pyobjc-framework-CryptoTokenKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "173a3f15d0fdc2385a6f803167e6f22767f9a7dd",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/173a3f15d0fdc2385a6f803167e6f22767f9a7dd"
+  },
+  {
+    "path": "pyobjc-framework-DVDPlayback",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "48a8a2d5694db4db11ac6b15c7d2ce5eff4b5c05",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/48a8a2d5694db4db11ac6b15c7d2ce5eff4b5c05"
+  },
+  {
+    "path": "pyobjc-framework-DataDetection",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b12aef6e1896b2621b4bf314c42ba12569af7374",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/b12aef6e1896b2621b4bf314c42ba12569af7374"
+  },
+  {
+    "path": "pyobjc-framework-DeviceCheck",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "39e28f51d1ffe9c64dc5830431f97233546cf260",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/39e28f51d1ffe9c64dc5830431f97233546cf260"
+  },
+  {
+    "path": "pyobjc-framework-DeviceDiscoveryExtension",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8dd1fb56f52861bac21928c222f619e5b4805b11",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/8dd1fb56f52861bac21928c222f619e5b4805b11"
+  },
+  {
+    "path": "pyobjc-framework-DictionaryServices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3ec6a01d91149dc3ac9d0506b814bc755eccc4ff",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/3ec6a01d91149dc3ac9d0506b814bc755eccc4ff"
+  },
+  {
+    "path": "pyobjc-framework-DiscRecording",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5006d5cf1e52f433a0710981d6835bb842a08946",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/5006d5cf1e52f433a0710981d6835bb842a08946"
+  },
+  {
+    "path": "pyobjc-framework-DiscRecordingUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7f02f297a186f8ba15719b86507ee2b35a5aa6f8",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7f02f297a186f8ba15719b86507ee2b35a5aa6f8"
+  },
+  {
+    "path": "pyobjc-framework-DiskArbitration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "966177a67b79b3876429ee83f340cda06dd5f9f5",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/966177a67b79b3876429ee83f340cda06dd5f9f5"
+  },
+  {
+    "path": "pyobjc-framework-EventKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cd18be7525af3eb8d22ace4118fc47483bed8766",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/cd18be7525af3eb8d22ace4118fc47483bed8766"
+  },
+  {
+    "path": "pyobjc-framework-ExceptionHandling",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "06569f92607b2618460eeea31584fad7059346c6",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/06569f92607b2618460eeea31584fad7059346c6"
+  },
+  {
+    "path": "pyobjc-framework-ExecutionPolicy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c75c584846958cd6f1c9a3f98c569c70a1f0038",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7c75c584846958cd6f1c9a3f98c569c70a1f0038"
+  },
+  {
+    "path": "pyobjc-framework-ExtensionKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9012c4f2ea8e401d9478df9c5662e52a4b273d85",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9012c4f2ea8e401d9478df9c5662e52a4b273d85"
+  },
+  {
+    "path": "pyobjc-framework-ExternalAccessory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e927114731ee1e7cd37bd19739551c6ed6a165a",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7e927114731ee1e7cd37bd19739551c6ed6a165a"
+  },
+  {
+    "path": "pyobjc-framework-FSEvents",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c46c15a4dea5304a3d389cdb10d2da5d887f8ed",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9c46c15a4dea5304a3d389cdb10d2da5d887f8ed"
+  },
+  {
+    "path": "pyobjc-framework-FSKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9e8035e75c79e93f807f3d5059d7ffe2280e4092",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9e8035e75c79e93f807f3d5059d7ffe2280e4092"
+  },
+  {
+    "path": "pyobjc-framework-FileProvider",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9f6c14819c95ee637044e30de1f035b501816417",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9f6c14819c95ee637044e30de1f035b501816417"
+  },
+  {
+    "path": "pyobjc-framework-FileProviderUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0b9ec4d6a6070933dcd850dc5c517c5149437d65",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/0b9ec4d6a6070933dcd850dc5c517c5149437d65"
+  },
+  {
+    "path": "pyobjc-framework-FinderSync",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7799cbce55a04a24c3ced13255a41f9ce2b03f8",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/e7799cbce55a04a24c3ced13255a41f9ce2b03f8"
+  },
+  {
+    "path": "pyobjc-framework-GameCenter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "db21c8025c808c9d9af9f7d84d66b9715d5f41e7",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/db21c8025c808c9d9af9f7d84d66b9715d5f41e7"
+  },
+  {
+    "path": "pyobjc-framework-GameController",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "625a2c6ef0c4cbc0f529cfa9040292eaf28ad588",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/625a2c6ef0c4cbc0f529cfa9040292eaf28ad588"
+  },
+  {
+    "path": "pyobjc-framework-GameKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b700fbfb3af6bf19e0f27c6730be9173499daf1",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/5b700fbfb3af6bf19e0f27c6730be9173499daf1"
+  },
+  {
+    "path": "pyobjc-framework-GameplayKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "240679b2602d0b2144275cab3b1bee07e12e34ad",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/240679b2602d0b2144275cab3b1bee07e12e34ad"
+  },
+  {
+    "path": "pyobjc-framework-HealthKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79bbcb1d0ed02fc7f1fc42c6a0c956ca1450d6d0",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/79bbcb1d0ed02fc7f1fc42c6a0c956ca1450d6d0"
+  },
+  {
+    "path": "pyobjc-framework-IOBluetooth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "af8b3e732a4f5073f61a949eccc633662910797d",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/af8b3e732a4f5073f61a949eccc633662910797d"
+  },
+  {
+    "path": "pyobjc-framework-IOBluetoothUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "28ce898ac5f347b4bd1d927a635fad4a61b9377c",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/28ce898ac5f347b4bd1d927a635fad4a61b9377c"
+  },
+  {
+    "path": "pyobjc-framework-IOSurface",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d9b38dc8681234cad5602a987d409cb0e7bcf80d",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d9b38dc8681234cad5602a987d409cb0e7bcf80d"
+  },
+  {
+    "path": "pyobjc-framework-ImageCaptureCore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8dbeeed3b989b4a3bd8c6db50a897dfe47696063",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/8dbeeed3b989b4a3bd8c6db50a897dfe47696063"
+  },
+  {
+    "path": "pyobjc-framework-InputMethodKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9d2d9d0fe1cc20f843778cbfa32183331b6fe28f",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9d2d9d0fe1cc20f843778cbfa32183331b6fe28f"
+  },
+  {
+    "path": "pyobjc-framework-InstallerPlugins",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e6fd529d6ea5cb15fd83a2c1e80917c01304e10",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7e6fd529d6ea5cb15fd83a2c1e80917c01304e10"
+  },
+  {
+    "path": "pyobjc-framework-InstantMessage",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3251fee71a832b54c8ed32521a20e6f7248295f8",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/3251fee71a832b54c8ed32521a20e6f7248295f8"
+  },
+  {
+    "path": "pyobjc-framework-Intents",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70440d29f0b68a359e1dadb625117ccf467395a9",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/70440d29f0b68a359e1dadb625117ccf467395a9"
+  },
+  {
+    "path": "pyobjc-framework-IntentsUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c238759a8794bbb49ac7f64916979e03820a0f3f",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/c238759a8794bbb49ac7f64916979e03820a0f3f"
+  },
+  {
+    "path": "pyobjc-framework-KernelManagement",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b583e739085282fcec51fbf1b0e5f2ced4718fb0",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/b583e739085282fcec51fbf1b0e5f2ced4718fb0"
+  },
+  {
+    "path": "pyobjc-framework-LatentSemanticMapping",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7bcebcd4f2642793d2647303af437c6ebb08b93f",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7bcebcd4f2642793d2647303af437c6ebb08b93f"
+  },
+  {
+    "path": "pyobjc-framework-LaunchServices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "01244420c421dfed108889b6527f921c3e8b70d9",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/01244420c421dfed108889b6527f921c3e8b70d9"
+  },
+  {
+    "path": "pyobjc-framework-LinkPresentation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87bf8faec85b74ec0d5db3f6f94178e240f11c6e",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/87bf8faec85b74ec0d5db3f6f94178e240f11c6e"
+  },
+  {
+    "path": "pyobjc-framework-LocalAuthentication",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b2052bd54ebd60980649f252dc6bfcc0e475941",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/1b2052bd54ebd60980649f252dc6bfcc0e475941"
+  },
+  {
+    "path": "pyobjc-framework-LocalAuthenticationEmbeddedUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d167483ef20b8b1a488e23b9cf09210b2db35947",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d167483ef20b8b1a488e23b9cf09210b2db35947"
+  },
+  {
+    "path": "pyobjc-framework-MLCompute",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc29e3c6db45380d9f039b4ba9515c39e4ace5ad",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/cc29e3c6db45380d9f039b4ba9515c39e4ace5ad"
+  },
+  {
+    "path": "pyobjc-framework-MailKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fda0d94b435377072cbcfe0b96ec12c2855e2b2b",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/fda0d94b435377072cbcfe0b96ec12c2855e2b2b"
+  },
+  {
+    "path": "pyobjc-framework-MapKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "400dc3e15b63d2d855533a7b457abd465f2221fb",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/400dc3e15b63d2d855533a7b457abd465f2221fb"
+  },
+  {
+    "path": "pyobjc-framework-MediaAccessibility",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3f7785da0759aea6c1dc64006fe9e0231f4d77f7",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/3f7785da0759aea6c1dc64006fe9e0231f4d77f7"
+  },
+  {
+    "path": "pyobjc-framework-MediaExtension",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c1e2ce1aa6acf38da790d2b8277c3880f5459de0",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/c1e2ce1aa6acf38da790d2b8277c3880f5459de0"
+  },
+  {
+    "path": "pyobjc-framework-MediaLibrary",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "294e6c4ed12cbb6c091bbcc1612b604f51608a42",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/294e6c4ed12cbb6c091bbcc1612b604f51608a42"
+  },
+  {
+    "path": "pyobjc-framework-MediaPlayer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "629ecd06fcab80eac9b22e0361909ca38e7b9b92",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/629ecd06fcab80eac9b22e0361909ca38e7b9b92"
+  },
+  {
+    "path": "pyobjc-framework-MediaToolbox",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b6b7e671864a24a412a245d219f213a0c4d70ed",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/3b6b7e671864a24a412a245d219f213a0c4d70ed"
+  },
+  {
+    "path": "pyobjc-framework-Metal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c708bd3a2ea277607d7ad7aa5df14239cd0757e",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9c708bd3a2ea277607d7ad7aa5df14239cd0757e"
+  },
+  {
+    "path": "pyobjc-framework-MetalFX",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "486ce075879939c391ba7fdca3375dd87efd1573",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/486ce075879939c391ba7fdca3375dd87efd1573"
+  },
+  {
+    "path": "pyobjc-framework-MetalKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "32422a2f834524ccdc15e679655aa7a68667f3e7",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/32422a2f834524ccdc15e679655aa7a68667f3e7"
+  },
+  {
+    "path": "pyobjc-framework-MetalPerformanceShaders",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "08d9b90bde815ae657f82aec107e25f5324a6b31",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/08d9b90bde815ae657f82aec107e25f5324a6b31"
+  },
+  {
+    "path": "pyobjc-framework-MetalPerformanceShadersGraph",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91727c8cccfcd26e1d3faa9e742276faec0bf90e",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/91727c8cccfcd26e1d3faa9e742276faec0bf90e"
+  },
+  {
+    "path": "pyobjc-framework-MetricKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3e33009596c23e2790acec9b98d3f1a67f26f60e",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/3e33009596c23e2790acec9b98d3f1a67f26f60e"
+  },
+  {
+    "path": "pyobjc-framework-ModelIO",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "036101a2f47c2243f6c86ac513d0062200804495",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/036101a2f47c2243f6c86ac513d0062200804495"
+  },
+  {
+    "path": "pyobjc-framework-MultipeerConnectivity",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd5bee8e4749693a03f602120f025cd1bad9d115",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/bd5bee8e4749693a03f602120f025cd1bad9d115"
+  },
+  {
+    "path": "pyobjc-framework-NaturalLanguage",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fadcb8089c0cfe6baee9243c486b5cdb854338b9",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/fadcb8089c0cfe6baee9243c486b5cdb854338b9"
+  },
+  {
+    "path": "pyobjc-framework-NetFS",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "91cb24e5cacb328ed2c0f15bb5854f046530b07f",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/91cb24e5cacb328ed2c0f15bb5854f046530b07f"
+  },
+  {
+    "path": "pyobjc-framework-Network",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6ebb629308e574d15fa75cfff0ef500754f4a4c4",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/6ebb629308e574d15fa75cfff0ef500754f4a4c4"
+  },
+  {
+    "path": "pyobjc-framework-NetworkExtension",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d64259d69fdfb40529fdbaa5201d0414145e99fd",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d64259d69fdfb40529fdbaa5201d0414145e99fd"
+  },
+  {
+    "path": "pyobjc-framework-NotificationCenter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a90f779328d1c368a8c3671eedf77dcd50e4486",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7a90f779328d1c368a8c3671eedf77dcd50e4486"
+  },
+  {
+    "path": "pyobjc-framework-OSAKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d8dab73d1f48f792cfe8c959e247e4172990ad34",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d8dab73d1f48f792cfe8c959e247e4172990ad34"
+  },
+  {
+    "path": "pyobjc-framework-OSLog",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a992f520038e3a9186805aac681b1df22682ff60",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/a992f520038e3a9186805aac681b1df22682ff60"
+  },
+  {
+    "path": "pyobjc-framework-OpenDirectory",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e8973fbd639c93ec45b97f241c6b6f5975116fe",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7e8973fbd639c93ec45b97f241c6b6f5975116fe"
+  },
+  {
+    "path": "pyobjc-framework-PHASE",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "048d3fad261cedebf29aa6a05845844236d08a08",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/048d3fad261cedebf29aa6a05845844236d08a08"
+  },
+  {
+    "path": "pyobjc-framework-PassKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aa3c11748c333712651959bad5d45118c3b80d64",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/aa3c11748c333712651959bad5d45118c3b80d64"
+  },
+  {
+    "path": "pyobjc-framework-PencilKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ad899ce3545387e96a9241c0f3fc58d5f8e7c302",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/ad899ce3545387e96a9241c0f3fc58d5f8e7c302"
+  },
+  {
+    "path": "pyobjc-framework-Photos",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b949ef7c5b2606119e843588fe7ee674b394c8ef",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/b949ef7c5b2606119e843588fe7ee674b394c8ef"
+  },
+  {
+    "path": "pyobjc-framework-PhotosUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fe1c011993702a9d6ee2c60efea4bbedb303a48d",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/fe1c011993702a9d6ee2c60efea4bbedb303a48d"
+  },
+  {
+    "path": "pyobjc-framework-PreferencePanes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cb13cb74e4ffa48f902fc27056c5d49f3c9c7bcc",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/cb13cb74e4ffa48f902fc27056c5d49f3c9c7bcc"
+  },
+  {
+    "path": "pyobjc-framework-PubSub",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bacd42a0568c62ae70f536a96d947beb262ed00",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/1bacd42a0568c62ae70f536a96d947beb262ed00"
+  },
+  {
+    "path": "pyobjc-framework-PushKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "34a5d39be514cc519ed618c5c00332594b8742e6",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/34a5d39be514cc519ed618c5c00332594b8742e6"
+  },
+  {
+    "path": "pyobjc-framework-Quartz",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c6a0bb51c74717149c45ca487dff5bcc0315e4b3",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/c6a0bb51c74717149c45ca487dff5bcc0315e4b3"
+  },
+  {
+    "path": "pyobjc-framework-QuickLookThumbnailing",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "83b322227520b61e1326ec068ca5841e6fa5eecd",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/83b322227520b61e1326ec068ca5841e6fa5eecd"
+  },
+  {
+    "path": "pyobjc-framework-ReplayKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ecff0e540cdd838fc53c2b98da3ed7b362ecde25",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/ecff0e540cdd838fc53c2b98da3ed7b362ecde25"
+  },
+  {
+    "path": "pyobjc-framework-SafariServices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "689b5033ae28af7e686aeac036d713bebf63245b",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/689b5033ae28af7e686aeac036d713bebf63245b"
+  },
+  {
+    "path": "pyobjc-framework-SafetyKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfac4aaf3164c3860ea77a378ca1304e44c1ab8e",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/cfac4aaf3164c3860ea77a378ca1304e44c1ab8e"
+  },
+  {
+    "path": "pyobjc-framework-SceneKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2e82407c0ce3044cd811c8d8a0dfff822e5a8ccc",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/2e82407c0ce3044cd811c8d8a0dfff822e5a8ccc"
+  },
+  {
+    "path": "pyobjc-framework-ScreenCaptureKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "633d2773936abf2854bf08f6f3f92189447d4af5",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/633d2773936abf2854bf08f6f3f92189447d4af5"
+  },
+  {
+    "path": "pyobjc-framework-ScreenSaver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5b8b2bbff27b3180860825a913d198a9e09b0b26",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/5b8b2bbff27b3180860825a913d198a9e09b0b26"
+  },
+  {
+    "path": "pyobjc-framework-ScreenTime",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b63032bbf732ead8fb0838e7357f7ca1ccc1c59",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/1b63032bbf732ead8fb0838e7357f7ca1ccc1c59"
+  },
+  {
+    "path": "pyobjc-framework-ScriptingBridge",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c85381af932821fe590d1391c86190df4bfd254f",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/c85381af932821fe590d1391c86190df4bfd254f"
+  },
+  {
+    "path": "pyobjc-framework-SearchKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "79183f9fc8d196f932ac28220ee7c572c01d097c",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/79183f9fc8d196f932ac28220ee7c572c01d097c"
+  },
+  {
+    "path": "pyobjc-framework-Security",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eac65a66f2aed2953b68114a90891fbc462be719",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/eac65a66f2aed2953b68114a90891fbc462be719"
+  },
+  {
+    "path": "pyobjc-framework-SecurityFoundation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8b39a111bfb39f0a050424be360f3178341ef515",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/8b39a111bfb39f0a050424be360f3178341ef515"
+  },
+  {
+    "path": "pyobjc-framework-SecurityInterface",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1f084341380f8962af485d9ddd951020fe285a2b",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/1f084341380f8962af485d9ddd951020fe285a2b"
+  },
+  {
+    "path": "pyobjc-framework-SecurityUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2148b349811c00392124cf1cdad8979bc53a6f15",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/2148b349811c00392124cf1cdad8979bc53a6f15"
+  },
+  {
+    "path": "pyobjc-framework-SensitiveContentAnalysis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "204f500eba787df099bfb5793893ec0c1492115e",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/204f500eba787df099bfb5793893ec0c1492115e"
+  },
+  {
+    "path": "pyobjc-framework-ServiceManagement",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8cc56af6233d1670b4f46750d9ab086126d608fa",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/8cc56af6233d1670b4f46750d9ab086126d608fa"
+  },
+  {
+    "path": "pyobjc-framework-SharedWithYou",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c4a24c5f1da7194a0bbe594c6846d68e02fed50c",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/c4a24c5f1da7194a0bbe594c6846d68e02fed50c"
+  },
+  {
+    "path": "pyobjc-framework-SharedWithYouCore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "58106f30d97bada3e818cb2ec8a834255c5d36d0",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/58106f30d97bada3e818cb2ec8a834255c5d36d0"
+  },
+  {
+    "path": "pyobjc-framework-ShazamKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "98ec52f02e781c9d2ea1c8fcb5068ad0f6012a78",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/98ec52f02e781c9d2ea1c8fcb5068ad0f6012a78"
+  },
+  {
+    "path": "pyobjc-framework-Social",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6dad63f83b81bee4a5efa3a4a94a1bcb04d2d740",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/6dad63f83b81bee4a5efa3a4a94a1bcb04d2d740"
+  },
+  {
+    "path": "pyobjc-framework-SoundAnalysis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "470aa726404eba92a76fe30e9ca4fe38e73bd3b7",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/470aa726404eba92a76fe30e9ca4fe38e73bd3b7"
+  },
+  {
+    "path": "pyobjc-framework-Speech",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "692fced2818e97025f43d5c6ea516b6ca89620a5",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/692fced2818e97025f43d5c6ea516b6ca89620a5"
+  },
+  {
+    "path": "pyobjc-framework-SpriteKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "01039d477841854877090b5fcbfe689db4b1d561",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/01039d477841854877090b5fcbfe689db4b1d561"
+  },
+  {
+    "path": "pyobjc-framework-StoreKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "abfe421a43f4484c1ef74d267de1fb48ea5bda82",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/abfe421a43f4484c1ef74d267de1fb48ea5bda82"
+  },
+  {
+    "path": "pyobjc-framework-Symbols",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "30d11cf62e890b7a6642cb22a7e7827a570300ed",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/30d11cf62e890b7a6642cb22a7e7827a570300ed"
+  },
+  {
+    "path": "pyobjc-framework-SyncServices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc16ff8c5cbad10e2a681e33c9ca2ff3c762c4fb",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/cc16ff8c5cbad10e2a681e33c9ca2ff3c762c4fb"
+  },
+  {
+    "path": "pyobjc-framework-SystemConfiguration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "36ec7cda758390a9274cfe7890f47d22333b0b3b",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/36ec7cda758390a9274cfe7890f47d22333b0b3b"
+  },
+  {
+    "path": "pyobjc-framework-SystemExtensions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e96fb809a3d3d9dae0124c88e5e93545d04ca4cf",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/e96fb809a3d3d9dae0124c88e5e93545d04ca4cf"
+  },
+  {
+    "path": "pyobjc-framework-ThreadNetwork",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d78ea8d1f2418628cec53a38e639a3288f6248dc",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/d78ea8d1f2418628cec53a38e639a3288f6248dc"
+  },
+  {
+    "path": "pyobjc-framework-UniformTypeIdentifiers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "11bbec5f336d77ddc082fcd547a9a004b997b878",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/11bbec5f336d77ddc082fcd547a9a004b997b878"
+  },
+  {
+    "path": "pyobjc-framework-UserNotifications",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "86f36fe208a8a5302585fc66d077e86f0c49c6ab",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/86f36fe208a8a5302585fc66d077e86f0c49c6ab"
+  },
+  {
+    "path": "pyobjc-framework-UserNotificationsUI",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "baf10e3799b61c17350327e051365f4761763540",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/baf10e3799b61c17350327e051365f4761763540"
+  },
+  {
+    "path": "pyobjc-framework-VideoSubscriberAccount",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce8c2066bf4512cd56447618222081a88e65bc42",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/ce8c2066bf4512cd56447618222081a88e65bc42"
+  },
+  {
+    "path": "pyobjc-framework-VideoToolbox",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5f70e3b9407282fd1bb0b91bef9d004e09cd194c",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/5f70e3b9407282fd1bb0b91bef9d004e09cd194c"
+  },
+  {
+    "path": "pyobjc-framework-Virtualization",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "18b20ed28f1a1474e3d0ac7d230c06dc2bf3dba5",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/18b20ed28f1a1474e3d0ac7d230c06dc2bf3dba5"
+  },
+  {
+    "path": "pyobjc-framework-Vision",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "daa936ccd4308f4948c805e480a532933741a629",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/daa936ccd4308f4948c805e480a532933741a629"
+  },
+  {
+    "path": "pyobjc-framework-WebKit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c081cf9374a6e64c160423f5849a347fd18057c",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9c081cf9374a6e64c160423f5849a347fd18057c"
+  },
+  {
+    "path": "pyobjc-framework-authenticationservices",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c1586776572a42cdc271c2a03e56e61db68fb02",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/7c1586776572a42cdc271c2a03e56e61db68fb02"
+  },
+  {
+    "path": "pyobjc-framework-avfoundation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3103921b9aa189fdd404c8b7d1995a528e5e1e49",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/3103921b9aa189fdd404c8b7d1995a528e5e1e49"
+  },
+  {
+    "path": "pyobjc-framework-avkit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "99e6f3a21a7743a9b4a9a8ec0d325b0f249afbac",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/99e6f3a21a7743a9b4a9a8ec0d325b0f249afbac"
+  },
+  {
+    "path": "pyobjc-framework-cocoa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2de27bdc360f0218f5928cd45350503390474b8",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/a2de27bdc360f0218f5928cd45350503390474b8"
+  },
+  {
+    "path": "pyobjc-framework-coreaudio",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "52e6e49e597660e35c2292813e0469d207534469",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/52e6e49e597660e35c2292813e0469d207534469"
+  },
+  {
+    "path": "pyobjc-framework-coredata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3831139d94678bf41ac31d369bdad01cef70c68d",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/3831139d94678bf41ac31d369bdad01cef70c68d"
+  },
+  {
+    "path": "pyobjc-framework-discrecording",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bb8cfde3a5ab64a7e579bf91eecf686b295fbf95",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/bb8cfde3a5ab64a7e579bf91eecf686b295fbf95"
+  },
+  {
+    "path": "pyobjc-framework-extensionkit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f98fc5af253b8f269284ed080b85ed342a801d31",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/f98fc5af253b8f269284ed080b85ed342a801d31"
+  },
+  {
+    "path": "pyobjc-framework-healthkit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a9f5d6f1e31dc7ff2b48612198603f81f9c7d44f",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/a9f5d6f1e31dc7ff2b48612198603f81f9c7d44f"
+  },
+  {
+    "path": "pyobjc-framework-iTunesLibrary",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1b370379ac61758b840bb5a9e075f23551b734c3",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/1b370379ac61758b840bb5a9e075f23551b734c3"
+  },
+  {
+    "path": "pyobjc-framework-libdispatch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "666384cb1ec891f5c6d979725fb6c3850eb76553",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/666384cb1ec891f5c6d979725fb6c3850eb76553"
+  },
+  {
+    "path": "pyobjc-framework-libxpc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1d4d5b33488c2ee7fb8a5d4c06e8284873b89082",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/1d4d5b33488c2ee7fb8a5d4c06e8284873b89082"
+  },
+  {
+    "path": "pyobjc-framework-mediatoolbox",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0afb392c6d99d2f3826bde44160940d62cb4afde",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/0afb392c6d99d2f3826bde44160940d62cb4afde"
+  },
+  {
+    "path": "pyobjc-framework-metal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c69b0113621d4e22c6efc66634a8898ed456abb",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9c69b0113621d4e22c6efc66634a8898ed456abb"
+  },
+  {
+    "path": "pyobjc-framework-metalperformanceshadersgraph",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c01c9ded02fb735155a751d7cc95b36663f0d0fd",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/c01c9ded02fb735155a751d7cc95b36663f0d0fd"
+  },
+  {
+    "path": "pyobjc-framework-networkextension",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6f1f6e659ba6e278ab21a9245b2a2305a065ce01",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/6f1f6e659ba6e278ab21a9245b2a2305a065ce01"
+  },
+  {
+    "path": "pyobjc-framework-passkit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a0ed96919fe962239c8457484a3ff9fa99915ba5",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/a0ed96919fe962239c8457484a3ff9fa99915ba5"
+  },
+  {
+    "path": "pyobjc-framework-photosui",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9d0ed55cb10182c241d1bdc7bb014de692ffee92",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/9d0ed55cb10182c241d1bdc7bb014de692ffee92"
+  },
+  {
+    "path": "pyobjc-framework-quartz",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d6ca82a65c4656759215cbf25c614f848839a02",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/4d6ca82a65c4656759215cbf25c614f848839a02"
+  },
+  {
+    "path": "pyobjc-framework-systemconfiguration",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8beb10aaecebf1a1daf452c91727d9a35086f8a6",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/8beb10aaecebf1a1daf452c91727d9a35086f8a6"
+  },
+  {
+    "path": "pyobjc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eb873e3a343a8f00b944eb48cbb898cb2092a777",
+    "url": "https://api.github.com/repos/ronaldoussoren/pyobjc/git/trees/eb873e3a343a8f00b944eb48cbb898cb2092a777"
+  }
+]

@@ -1,0 +1,832 @@
+[
+  {
+    "path": ".devcontainer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a518481da7465d4a546dfaf7e3fb56f53c47ac9",
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/trees/5a518481da7465d4a546dfaf7e3fb56f53c47ac9"
+  },
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6c8b3621938a4691225a870a59bf382af1883dd",
+    "size": 147,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/c6c8b3621938a4691225a870a59bf382af1883dd"
+  },
+  {
+    "path": ".eslintrc.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34616bc8c272ce671ac440239d4dad3501bc77fd",
+    "size": 4100,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/34616bc8c272ce671ac440239d4dad3501bc77fd"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d03ce53fdec41c972143aaf622abcddf651790af",
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/trees/d03ce53fdec41c972143aaf622abcddf651790af"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1ca5165c58d200f7142d75780bda6a98521669e",
+    "size": 76,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/f1ca5165c58d200f7142d75780bda6a98521669e"
+  },
+  {
+    "path": ".prettierrc.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b49424dec139f96933b788585e8d0cae093502a6",
+    "size": 160,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/b49424dec139f96933b788585e8d0cae093502a6"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c577b03e4bdf5bb5419c424394cb9b502a8ed62",
+    "size": 1210,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/3c577b03e4bdf5bb5419c424394cb9b502a8ed62"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2867b1ab6a97052ac99c9b14d7ed0106184023e",
+    "size": 11147,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/e2867b1ab6a97052ac99c9b14d7ed0106184023e"
+  },
+  {
+    "path": "abstract-pool.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04d6cf917d8cd537753051a65c7c92b40e6ef1a5",
+    "size": 9349,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/04d6cf917d8cd537753051a65c7c92b40e6ef1a5"
+  },
+  {
+    "path": "abstract-relay.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "320e5798e1abe3c6be9f1327d829dbdf6df4583c",
+    "size": 15375,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/320e5798e1abe3c6be9f1327d829dbdf6df4583c"
+  },
+  {
+    "path": "benchmarks.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d76a634a82d73bdfee15aef37106d7e93417bbce",
+    "size": 1923,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/d76a634a82d73bdfee15aef37106d7e93417bbce"
+  },
+  {
+    "path": "build.js",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "863c3c2526e36217384b17e04836e2c2f06c0564",
+    "size": 1276,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/863c3c2526e36217384b17e04836e2c2f06c0564"
+  },
+  {
+    "path": "bun.lockb",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "313447761b824dbc740cfdba458f755a9362cc82",
+    "size": 137897,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/313447761b824dbc740cfdba458f755a9362cc82"
+  },
+  {
+    "path": "core.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60475ad5dbd73f218a52a4ee96da2581c295bb6f",
+    "size": 879,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/60475ad5dbd73f218a52a4ee96da2581c295bb6f"
+  },
+  {
+    "path": "core.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4583dbeb71fb723693c568217cfc0da7acf6605d",
+    "size": 2034,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/4583dbeb71fb723693c568217cfc0da7acf6605d"
+  },
+  {
+    "path": "fakejson.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7936ffc0d506841d7922ed2e4e417277cc02d2b5",
+    "size": 3298,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/7936ffc0d506841d7922ed2e4e417277cc02d2b5"
+  },
+  {
+    "path": "fakejson.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0eda78c6d6caf0ff66cfc779fa326f59321429ee",
+    "size": 1257,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/0eda78c6d6caf0ff66cfc779fa326f59321429ee"
+  },
+  {
+    "path": "filter.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb07079362643d6149de8dc7e80afecc811274d4",
+    "size": 7688,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/eb07079362643d6149de8dc7e80afecc811274d4"
+  },
+  {
+    "path": "filter.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a469b311ca10472763a5650017bc7219525ce0cf",
+    "size": 3436,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/a469b311ca10472763a5650017bc7219525ce0cf"
+  },
+  {
+    "path": "helpers.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3457fdad5fae054f1f5e1aff0eb3b8cfed858cc3",
+    "size": 784,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/3457fdad5fae054f1f5e1aff0eb3b8cfed858cc3"
+  },
+  {
+    "path": "index.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69aef00bf6e9c0953efb402cb1fbc3fe498d5e08",
+    "size": 1026,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/69aef00bf6e9c0953efb402cb1fbc3fe498d5e08"
+  },
+  {
+    "path": "jsr.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eaef35e78fedeb6826ae8c0bf7e34e3417361921",
+    "size": 1387,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/eaef35e78fedeb6826ae8c0bf7e34e3417361921"
+  },
+  {
+    "path": "justfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2dec0fce2115054e2a50ed0acb91338d7ad6aed1",
+    "size": 764,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/2dec0fce2115054e2a50ed0acb91338d7ad6aed1"
+  },
+  {
+    "path": "kinds.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f64914cc65e0e4585e5d4ad0108e8b0e6e73cf3",
+    "size": 1404,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/9f64914cc65e0e4585e5d4ad0108e8b0e6e73cf3"
+  },
+  {
+    "path": "kinds.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b61797c4e218658e49d002d9e45b2d56cc63ef5a",
+    "size": 8220,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/b61797c4e218658e49d002d9e45b2d56cc63ef5a"
+  },
+  {
+    "path": "nip04.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc947465b6a518257f13b7084b7d02ff3288d9da",
+    "size": 2472,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/bc947465b6a518257f13b7084b7d02ff3288d9da"
+  },
+  {
+    "path": "nip04.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83a279f830c58c50a8a047a43fa2e7a6a61844ca",
+    "size": 1441,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/83a279f830c58c50a8a047a43fa2e7a6a61844ca"
+  },
+  {
+    "path": "nip05.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c60ca1456729c41452f72d6b7eaebd42fdfeea7d",
+    "size": 1730,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/c60ca1456729c41452f72d6b7eaebd42fdfeea7d"
+  },
+  {
+    "path": "nip05.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c1545fef53bb385958cb5b5489058c00a05fe33",
+    "size": 1813,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/2c1545fef53bb385958cb5b5489058c00a05fe33"
+  },
+  {
+    "path": "nip06.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f463d9b0f0a765d6203b3d93035fc0b94a909596",
+    "size": 3547,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/f463d9b0f0a765d6203b3d93035fc0b94a909596"
+  },
+  {
+    "path": "nip06.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b20c7bfe41a027caaf9217e6940d3051fa9f59eb",
+    "size": 2544,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/b20c7bfe41a027caaf9217e6940d3051fa9f59eb"
+  },
+  {
+    "path": "nip07.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20dad8ac44816575284acb124168b6b5aa5f74b0",
+    "size": 473,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/20dad8ac44816575284acb124168b6b5aa5f74b0"
+  },
+  {
+    "path": "nip10.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0acf2ac1fafaa0417aba49a4fc1c13740bf9fc4a",
+    "size": 9463,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/0acf2ac1fafaa0417aba49a4fc1c13740bf9fc4a"
+  },
+  {
+    "path": "nip10.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f5087e505201e6fe518710a5369807cad579909",
+    "size": 3591,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/6f5087e505201e6fe518710a5369807cad579909"
+  },
+  {
+    "path": "nip11.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d7f4380fce82ab244b1e617a166f16699c5203d",
+    "size": 723,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/5d7f4380fce82ab244b1e617a166f16699c5203d"
+  },
+  {
+    "path": "nip11.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48547264376d0d06db6c35f804879d4b1ff2c9d9",
+    "size": 10307,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/48547264376d0d06db6c35f804879d4b1ff2c9d9"
+  },
+  {
+    "path": "nip13.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c4a805f5f60c52b69aab0603134ea560d67ed01",
+    "size": 1060,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/7c4a805f5f60c52b69aab0603134ea560d67ed01"
+  },
+  {
+    "path": "nip13.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45003a7716275c9edd436459dfe6566d6ae6ded8",
+    "size": 1489,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/45003a7716275c9edd436459dfe6566d6ae6ded8"
+  },
+  {
+    "path": "nip17.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac7eaf09198f7e2fb4880008da4c308ac72627c0",
+    "size": 3086,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/ac7eaf09198f7e2fb4880008da4c308ac72627c0"
+  },
+  {
+    "path": "nip17.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63ae36c289d0997a2c2a7c01b0e932cdc3dcf24a",
+    "size": 2014,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/63ae36c289d0997a2c2a7c01b0e932cdc3dcf24a"
+  },
+  {
+    "path": "nip18.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2630fdb84bd7079f32437c4463adb0046ee8a33",
+    "size": 5759,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/a2630fdb84bd7079f32437c4463adb0046ee8a33"
+  },
+  {
+    "path": "nip18.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12ffadbaa9e7fd9179c707b2841d0cdf9fe2d9ec",
+    "size": 2750,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/12ffadbaa9e7fd9179c707b2841d0cdf9fe2d9ec"
+  },
+  {
+    "path": "nip19.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7648d69e4275bd57c443113ee8b5c7c90d25dedc",
+    "size": 9013,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/7648d69e4275bd57c443113ee8b5c7c90d25dedc"
+  },
+  {
+    "path": "nip19.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56424714b02a2018f552335f4eacc0e4e7f2bf90",
+    "size": 8039,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/56424714b02a2018f552335f4eacc0e4e7f2bf90"
+  },
+  {
+    "path": "nip21.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1ac4fb3ea37a9f9d0c286353e280068cfccf968",
+    "size": 1062,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/d1ac4fb3ea37a9f9d0c286353e280068cfccf968"
+  },
+  {
+    "path": "nip21.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd79123d8efc1c4eedb8e2129f31a419750b32df",
+    "size": 1403,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/fd79123d8efc1c4eedb8e2129f31a419750b32df"
+  },
+  {
+    "path": "nip25.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1d86bc3272e64789e431363f7b643695c8f67f1",
+    "size": 2756,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/f1d86bc3272e64789e431363f7b643695c8f67f1"
+  },
+  {
+    "path": "nip25.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92d16996c73ec79c8e82d51a787137a04e517d39",
+    "size": 1618,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/92d16996c73ec79c8e82d51a787137a04e517d39"
+  },
+  {
+    "path": "nip27.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "141a8add492ae2b9d350c7a6877eab80111709ad",
+    "size": 4130,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/141a8add492ae2b9d350c7a6877eab80111709ad"
+  },
+  {
+    "path": "nip27.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c5d61c99f029d1cf766fa3dc0f3f92a1feff183",
+    "size": 4634,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/7c5d61c99f029d1cf766fa3dc0f3f92a1feff183"
+  },
+  {
+    "path": "nip28.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "446d28dc55bf1b535f472a70edadef8b796b031e",
+    "size": 4944,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/446d28dc55bf1b535f472a70edadef8b796b031e"
+  },
+  {
+    "path": "nip28.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5677befea97076e75238e12aba334914a5da044b",
+    "size": 3952,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/5677befea97076e75238e12aba334914a5da044b"
+  },
+  {
+    "path": "nip29.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbc525568abbcc51d8bf6a451dec60fb6bf7421d",
+    "size": 18370,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/bbc525568abbcc51d8bf6a451dec60fb6bf7421d"
+  },
+  {
+    "path": "nip30.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76ec9f4ee96650a902d0c3588c8bca8a4f7dd15c",
+    "size": 788,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/76ec9f4ee96650a902d0c3588c8bca8a4f7dd15c"
+  },
+  {
+    "path": "nip30.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31257ff4c41d528338dd92ad35ac73859b4de7e6",
+    "size": 1456,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/31257ff4c41d528338dd92ad35ac73859b4de7e6"
+  },
+  {
+    "path": "nip39.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b480fa28d6ae72c9eb9e8a865e16f91bba0d5774",
+    "size": 422,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/b480fa28d6ae72c9eb9e8a865e16f91bba0d5774"
+  },
+  {
+    "path": "nip39.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73237f8c2caa03691ae2067f2ab28b9659700f8a",
+    "size": 488,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/73237f8c2caa03691ae2067f2ab28b9659700f8a"
+  },
+  {
+    "path": "nip40.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95272ab4adc2867a99818ede5a123d526fb1ef93",
+    "size": 1545,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/95272ab4adc2867a99818ede5a123d526fb1ef93"
+  },
+  {
+    "path": "nip40.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "333f3334ca437e4b46337a3a2469ac6fbb4ed9f7",
+    "size": 1351,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/333f3334ca437e4b46337a3a2469ac6fbb4ed9f7"
+  },
+  {
+    "path": "nip42.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "550cfe48f13c7394a3c5f1f0f752c7fcae1ddb22",
+    "size": 529,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/550cfe48f13c7394a3c5f1f0f752c7fcae1ddb22"
+  },
+  {
+    "path": "nip42.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "88e41909bbbca3b94b8456d10a0f0dae2ee5f1e8",
+    "size": 416,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/88e41909bbbca3b94b8456d10a0f0dae2ee5f1e8"
+  },
+  {
+    "path": "nip44.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a21801eee13db67dbf989d06572ab44ed2397150",
+    "size": 1625,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/a21801eee13db67dbf989d06572ab44ed2397150"
+  },
+  {
+    "path": "nip44.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6af484d3a05e157d046455785e50dff5a8cc2186",
+    "size": 4909,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/6af484d3a05e157d046455785e50dff5a8cc2186"
+  },
+  {
+    "path": "nip44.vectors.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c2eaa805909724b6386b297ceb10696fdc3b174",
+    "size": 35314,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/2c2eaa805909724b6386b297ceb10696fdc3b174"
+  },
+  {
+    "path": "nip46.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4102f19b0cf17a87f7e6a41ad7a8fbc2c6f8f23",
+    "size": 11507,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/c4102f19b0cf17a87f7e6a41ad7a8fbc2c6f8f23"
+  },
+  {
+    "path": "nip47.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2aecc67f890bb44415a4fd647bef99b6a3f7d048",
+    "size": 3655,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/2aecc67f890bb44415a4fd647bef99b6a3f7d048"
+  },
+  {
+    "path": "nip47.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5fe4618fc193bbec6a824dc10274412a40e5fcb",
+    "size": 1140,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/c5fe4618fc193bbec6a824dc10274412a40e5fcb"
+  },
+  {
+    "path": "nip49.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "429b539cdc5a3e4e6cb27eeb020e9d3b84700e27",
+    "size": 3748,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/429b539cdc5a3e4e6cb27eeb020e9d3b84700e27"
+  },
+  {
+    "path": "nip49.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0021163bc34e7e07b3885cdc2ba25b96ae4b8c9d",
+    "size": 1660,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/0021163bc34e7e07b3885cdc2ba25b96ae4b8c9d"
+  },
+  {
+    "path": "nip54.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f01a90d310aeb3911821cac22fc19ad5358bfa6e",
+    "size": 1677,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/f01a90d310aeb3911821cac22fc19ad5358bfa6e"
+  },
+  {
+    "path": "nip54.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "badcc86db2d3d0e42cdffabd41cdebbbdfccc90b",
+    "size": 491,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/badcc86db2d3d0e42cdffabd41cdebbbdfccc90b"
+  },
+  {
+    "path": "nip55.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71f1460ceaa1473287c619835d2a18025d122a8d",
+    "size": 5517,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/71f1460ceaa1473287c619835d2a18025d122a8d"
+  },
+  {
+    "path": "nip55.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68481f5ddd81a498555fe897b41417a7b9c460da",
+    "size": 3302,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/68481f5ddd81a498555fe897b41417a7b9c460da"
+  },
+  {
+    "path": "nip57.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87bb24e17c9264d91eb5b1b5401b3c2fa28a709d",
+    "size": 7773,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/87bb24e17c9264d91eb5b1b5401b3c2fa28a709d"
+  },
+  {
+    "path": "nip57.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9aebf22f4268ff4db14ccea43d21e6c2d0b09578",
+    "size": 4768,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/9aebf22f4268ff4db14ccea43d21e6c2d0b09578"
+  },
+  {
+    "path": "nip58.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55e7db4b7701fa2dc67aa037747858e0b3436c81",
+    "size": 10432,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/55e7db4b7701fa2dc67aa037747858e0b3436c81"
+  },
+  {
+    "path": "nip58.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6e7aa422ec96125ba01985f2e48acd617672065",
+    "size": 7540,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/e6e7aa422ec96125ba01985f2e48acd617672065"
+  },
+  {
+    "path": "nip59.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e1b4ad53d7332e9b1873421fdc8030e38e72228",
+    "size": 3824,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/1e1b4ad53d7332e9b1873421fdc8030e38e72228"
+  },
+  {
+    "path": "nip59.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3db94fa036909e07cfe9c1bbc45eded22ae8212f",
+    "size": 3280,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/3db94fa036909e07cfe9c1bbc45eded22ae8212f"
+  },
+  {
+    "path": "nip75.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "787b460d202006d71956d607655df4cf40d413a7",
+    "size": 7223,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/787b460d202006d71956d607655df4cf40d413a7"
+  },
+  {
+    "path": "nip75.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "020d7b06eac7c1a33793d3ab05919f5f99b80255",
+    "size": 3525,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/020d7b06eac7c1a33793d3ab05919f5f99b80255"
+  },
+  {
+    "path": "nip94.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d5f3ab139f44fc8df562bacbde5a39d3556a5a6",
+    "size": 12039,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/4d5f3ab139f44fc8df562bacbde5a39d3556a5a6"
+  },
+  {
+    "path": "nip94.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76ea69cd1a9e979e2b0ffd07cd4535a1f6f248d8",
+    "size": 5364,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/76ea69cd1a9e979e2b0ffd07cd4535a1f6f248d8"
+  },
+  {
+    "path": "nip98.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b05868b8dc5e44d9d614f8a5774a900860fe91a",
+    "size": 13743,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/4b05868b8dc5e44d9d614f8a5774a900860fe91a"
+  },
+  {
+    "path": "nip98.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5800d657c10f007fd45ccde2e892373ea3205783",
+    "size": 6032,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/5800d657c10f007fd45ccde2e892373ea3205783"
+  },
+  {
+    "path": "nip99.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2aa2d18edeeb0e37ed3bda6a108b67339e7065c",
+    "size": 19167,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/f2aa2d18edeeb0e37ed3bda6a108b67339e7065c"
+  },
+  {
+    "path": "nip99.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa89a41d0f790f558f063206e829828a71377888",
+    "size": 5988,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/fa89a41d0f790f558f063206e829828a71377888"
+  },
+  {
+    "path": "nipb7.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2088cd7cfbedf90861e60827480f61a7ef40cfcc",
+    "size": 1910,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/2088cd7cfbedf90861e60827480f61a7ef40cfcc"
+  },
+  {
+    "path": "nipb7.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "15bc2c52f9ecc1185c481ec5ccc539b862f72664",
+    "size": 5027,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/15bc2c52f9ecc1185c481ec5ccc539b862f72664"
+  },
+  {
+    "path": "package.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99612512e99261a206aff9bfa9eadf051574e9b9",
+    "size": 7631,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/99612512e99261a206aff9bfa9eadf051574e9b9"
+  },
+  {
+    "path": "pool.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "458b573cea7334e4e1e707863c59f76fefa03123",
+    "size": 6127,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/458b573cea7334e4e1e707863c59f76fefa03123"
+  },
+  {
+    "path": "pool.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb457e8345c20d7a35662a7a4c2375a9d2b4ff35",
+    "size": 538,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/fb457e8345c20d7a35662a7a4c2375a9d2b4ff35"
+  },
+  {
+    "path": "pure.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72f21532e22f8c0d14113fe99a42f4e1240cd932",
+    "size": 8016,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/72f21532e22f8c0d14113fe99a42f4e1240cd932"
+  },
+  {
+    "path": "pure.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca192f0ef6ab3dba4e0a1879a8e7fe9bca4a64f0",
+    "size": 1993,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/ca192f0ef6ab3dba4e0a1879a8e7fe9bca4a64f0"
+  },
+  {
+    "path": "references.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "233868a932776c2ad97eb6713b46a9cf1a36976f",
+    "size": 1625,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/233868a932776c2ad97eb6713b46a9cf1a36976f"
+  },
+  {
+    "path": "references.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c6acb9fbf26e0fd3c7a60c2eab52932b20289b5",
+    "size": 2593,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/5c6acb9fbf26e0fd3c7a60c2eab52932b20289b5"
+  },
+  {
+    "path": "relay.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "052229728832a14c16acf1e0e2f6307229d469a9",
+    "size": 2603,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/052229728832a14c16acf1e0e2f6307229d469a9"
+  },
+  {
+    "path": "relay.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "753902223ffa232dedcaffa61f5c2d3da0897dd2",
+    "size": 707,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/753902223ffa232dedcaffa61f5c2d3da0897dd2"
+  },
+  {
+    "path": "signer.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c8d8761ac164e827c2063fe0356ec0a94938c71",
+    "size": 598,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/8c8d8761ac164e827c2063fe0356ec0a94938c71"
+  },
+  {
+    "path": "test-helpers.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c7267ec5b41d6265629252e9824b4926566a698",
+    "size": 3099,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/9c7267ec5b41d6265629252e9824b4926566a698"
+  },
+  {
+    "path": "tsconfig.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb1b7466bf847747177b5f9b706a55a81b0a2270",
+    "size": 441,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/fb1b7466bf847747177b5f9b706a55a81b0a2270"
+  },
+  {
+    "path": "utils.test.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac39e9f1e0e2147c83a90ea9b7479737663776aa",
+    "size": 7792,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/ac39e9f1e0e2147c83a90ea9b7479737663776aa"
+  },
+  {
+    "path": "utils.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2e68b333852c487df7cf049991a74b82e3db758",
+    "size": 3113,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/a2e68b333852c487df7cf049991a74b82e3db758"
+  },
+  {
+    "path": "wasm.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ae4de7a94e0e3440e006ba5a11fb32894f6e3ce",
+    "size": 1049,
+    "url": "https://api.github.com/repos/nbd-wtf/nostr-tools/git/blobs/3ae4de7a94e0e3440e006ba5a11fb32894f6e3ce"
+  }
+]

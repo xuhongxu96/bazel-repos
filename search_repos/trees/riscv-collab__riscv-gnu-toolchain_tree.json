@@ -1,0 +1,172 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a607fa72749e92d676a626bdd09e699227d5507",
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/trees/1a607fa72749e92d676a626bdd09e699227d5507"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a1eeb513f53fbfcda0950969ea8dfe091c8516e",
+    "size": 128,
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/blobs/5a1eeb513f53fbfcda0950969ea8dfe091c8516e"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65f0232bb8e8f9129d38be521120a3a21cbb2abf",
+    "size": 1550,
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/blobs/65f0232bb8e8f9129d38be521120a3a21cbb2abf"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "293b2efc5964c0b6c7906a9997686e55c952b341",
+    "size": 41355,
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/blobs/293b2efc5964c0b6c7906a9997686e55c952b341"
+  },
+  {
+    "path": "Makefile.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6fc8ec822499e78d483146883a4e7f586525114",
+    "size": 49949,
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/blobs/e6fc8ec822499e78d483146883a4e7f586525114"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8dc1910937a5ec34633377a180027d3a6b9b9966",
+    "size": 20722,
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/blobs/8dc1910937a5ec34633377a180027d3a6b9b9966"
+  },
+  {
+    "path": "binutils",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "2bc7af1ff7732451b6a7b09462a815c3284f9613"
+  },
+  {
+    "path": "configure",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "2fc589e7db6685cab44604fee0204b651fb809d2",
+    "size": 157400,
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/blobs/2fc589e7db6685cab44604fee0204b651fb809d2"
+  },
+  {
+    "path": "configure.ac",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80ca038bbe0a1798bbe045d237987b6e74759738",
+    "size": 10443,
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/blobs/80ca038bbe0a1798bbe045d237987b6e74759738"
+  },
+  {
+    "path": "contrib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "585d95fc75d479ccf38bbfc903c9bd6d8e6abfce",
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/trees/585d95fc75d479ccf38bbfc903c9bd6d8e6abfce"
+  },
+  {
+    "path": "dejagnu",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "98d75813f06ff2b0bb0d721558fce51db7e9ca6e"
+  },
+  {
+    "path": "gcc",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "1b306039ac49f8ad91ca71d3de3150a3c9fa792a"
+  },
+  {
+    "path": "gdb",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "800169229d1c69a6d9ad4a6f7b7481aca75eeefb"
+  },
+  {
+    "path": "glibc",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "d2097651cc57834dbfcaa102ddfacae0d86cfb66"
+  },
+  {
+    "path": "linux-headers",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce6424dafcd50409fb4c88ece5cb5fc9dda76ad0",
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/trees/ce6424dafcd50409fb4c88ece5cb5fc9dda76ad0"
+  },
+  {
+    "path": "llvm",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "87f0227cb60147a26a1eeb4fb06e3b505e9c7261"
+  },
+  {
+    "path": "musl",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "0784374d561435f7c787a555aeab8ede699ed298"
+  },
+  {
+    "path": "newlib",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "26f7004bf73c421c3fd5e5a6ccf470d05337b435"
+  },
+  {
+    "path": "pk",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "abadfdc507d5a75b6272dc360e70a80a510c758a"
+  },
+  {
+    "path": "qemu",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "7c949c53e936aa3a658d84ab53bae5cadaa5d59c"
+  },
+  {
+    "path": "regression",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f68e363470e316fca9fd4ff0de120b26cb2ed18c",
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/trees/f68e363470e316fca9fd4ff0de120b26cb2ed18c"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5513c619438ac380a67b401bedc3ef04eee32313",
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/trees/5513c619438ac380a67b401bedc3ef04eee32313"
+  },
+  {
+    "path": "spike",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "88fc84ded155a9e01987c4dfb7a77800e69b232b"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "590fa48624f41a2bd918e56175e8f7142e529ae0",
+    "url": "https://api.github.com/repos/riscv-collab/riscv-gnu-toolchain/git/trees/590fa48624f41a2bd918e56175e8f7142e529ae0"
+  },
+  {
+    "path": "uclibc-ng",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "ecbc412d0d93c8b7b77bec6539b290c9da5401cf"
+  }
+]

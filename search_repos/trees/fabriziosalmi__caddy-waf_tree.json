@@ -1,0 +1,550 @@
+[
+  {
+    "path": ".dockerignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f395337ed74468bea9dff28f9ed51986a5aed6d5",
+    "size": 14,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/f395337ed74468bea9dff28f9ed51986a5aed6d5"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "92203b5cc2940b7218293a42b7465d73d53d4b92",
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/trees/92203b5cc2940b7218293a42b7465d73d53d4b92"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4a3b533198e149099fce28f4061922423f70d25",
+    "size": 326,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/d4a3b533198e149099fce28f4061922423f70d25"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "011d4bfa29df6e78710a1596b21eadd781a37a86",
+    "size": 5226,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/011d4bfa29df6e78710a1596b21eadd781a37a86"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcc1824f348882b41c31c11979708021b315228a",
+    "size": 780,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/bcc1824f348882b41c31c11979708021b315228a"
+  },
+  {
+    "path": "Caddyfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab3da6a5506003e642fbf95393e7ccb6533fa112",
+    "size": 1672,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/ab3da6a5506003e642fbf95393e7ccb6533fa112"
+  },
+  {
+    "path": "Dockerfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a5f1b5b1bca90f9f271f97381eaefe095eebe2d",
+    "size": 1671,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/6a5f1b5b1bca90f9f271f97381eaefe095eebe2d"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+    "size": 34523,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "009060c6c8eabee3b74f5dcaf0eccf75072b7fdc",
+    "size": 10336,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/009060c6c8eabee3b74f5dcaf0eccf75072b7fdc"
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "136882f38fa8fc4f396b4790d9a8ccbba379f81d",
+    "size": 296,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/136882f38fa8fc4f396b4790d9a8ccbba379f81d"
+  },
+  {
+    "path": "benchmark.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe56ae15127a3999fd6418e7426c2dd2f351eb26",
+    "size": 19968,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/fe56ae15127a3999fd6418e7426c2dd2f351eb26"
+  },
+  {
+    "path": "blacklist.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5628ae82f2020dcf42d0c4ae6ca7a3b214a104f",
+    "size": 6302,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/c5628ae82f2020dcf42d0c4ae6ca7a3b214a104f"
+  },
+  {
+    "path": "blacklist_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba389e2af5d3f94941d376ea78f119b715f3599e",
+    "size": 3316,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/ba389e2af5d3f94941d376ea78f119b715f3599e"
+  },
+  {
+    "path": "caddytest.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d8bc1222c6f619d32c4f2d66f5ba226c81dae74",
+    "size": 24821,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/8d8bc1222c6f619d32c4f2d66f5ba226c81dae74"
+  },
+  {
+    "path": "caddywaf.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03dcb3a15707cf1bf3bc88531b6e132c0eb68425",
+    "size": 18070,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/03dcb3a15707cf1bf3bc88531b6e132c0eb68425"
+  },
+  {
+    "path": "caddywaf_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a18973c889e9e0456d0fce5fc2e3eddc631f34f",
+    "size": 4717,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/5a18973c889e9e0456d0fce5fc2e3eddc631f34f"
+  },
+  {
+    "path": "check_waf_config.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98dc94ccef1f97cc7816e8d50d92851a91c03a48",
+    "size": 13592,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/98dc94ccef1f97cc7816e8d50d92851a91c03a48"
+  },
+  {
+    "path": "config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fdeb26b447251881cce1797eb32310b955c935b8",
+    "size": 16349,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/fdeb26b447251881cce1797eb32310b955c935b8"
+  },
+  {
+    "path": "config_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b6c94bed03d1cc9616a5514ae32e4622072d590",
+    "size": 9499,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/7b6c94bed03d1cc9616a5514ae32e4622072d590"
+  },
+  {
+    "path": "debug_test_results.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ab5031c2058ed8f530fe6580618cb5a4a9b421d",
+    "size": 6235,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/1ab5031c2058ed8f530fe6580618cb5a4a9b421d"
+  },
+  {
+    "path": "debug_waf.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4535020381ba84242f49e61c77ea92eaca415784",
+    "size": 2327,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/4535020381ba84242f49e61c77ea92eaca415784"
+  },
+  {
+    "path": "debug_waf.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7db518a969fbede6555caa087a6ac70513190374",
+    "size": 9136,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/7db518a969fbede6555caa087a6ac70513190374"
+  },
+  {
+    "path": "dns_blacklist.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ea3904ec832de104a576be7d60d175acab9842c",
+    "size": 18811845,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/3ea3904ec832de104a576be7d60d175acab9842c"
+  },
+  {
+    "path": "docker-compose.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75d87e51c0386f298f3ef335c1484d7a2a770a12",
+    "size": 425,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/75d87e51c0386f298f3ef335c1484d7a2a770a12"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e8e08edc34e2cc63964ecca1cd9a96a5f5ccdbb",
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/trees/8e8e08edc34e2cc63964ecca1cd9a96a5f5ccdbb"
+  },
+  {
+    "path": "e2e.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83234c5466829bb72c91e7c0a1678a6fb991990d",
+    "size": 7751,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/83234c5466829bb72c91e7c0a1678a6fb991990d"
+  },
+  {
+    "path": "error.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccf975342e230bdd3d12c5848d548698bac6e820",
+    "size": 83,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/ccf975342e230bdd3d12c5848d548698bac6e820"
+  },
+  {
+    "path": "geoip.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de04d01dc41749087d17787652f912e2d210024c",
+    "size": 7249,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/de04d01dc41749087d17787652f912e2d210024c"
+  },
+  {
+    "path": "geoip_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee796892d86bf4425e3061609deb6c480ff64da6",
+    "size": 3755,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/ee796892d86bf4425e3061609deb6c480ff64da6"
+  },
+  {
+    "path": "get_blacklisted_dns.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7844e9ae9f8f5e093090726adcb4df371c88f255",
+    "size": 4332,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/7844e9ae9f8f5e093090726adcb4df371c88f255"
+  },
+  {
+    "path": "get_blacklisted_ip.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f06a1faf1237eb714c8ebeb2dfb137632537b6b",
+    "size": 6260,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/8f06a1faf1237eb714c8ebeb2dfb137632537b6b"
+  },
+  {
+    "path": "get_caddy_feeds.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "056e867e2233b2f08a735675302510b7996328a4",
+    "size": 1184,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/056e867e2233b2f08a735675302510b7996328a4"
+  },
+  {
+    "path": "get_owasp_rules.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efd673346497f317359b18a71a8068ab0f7b498b",
+    "size": 5285,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/efd673346497f317359b18a71a8068ab0f7b498b"
+  },
+  {
+    "path": "get_spiderlabs_rules.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f93facdce97e9a6a84043943f0186d2d65368a7",
+    "size": 4520,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/8f93facdce97e9a6a84043943f0186d2d65368a7"
+  },
+  {
+    "path": "get_vulnerability_rules.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dad6bb89b645402d1265d8c9fe33e083b0f6a11e",
+    "size": 2369,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/dad6bb89b645402d1265d8c9fe33e083b0f6a11e"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6517d928bc5b0ac045b4ccdf8deb653c4c83c2b4",
+    "size": 5719,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/6517d928bc5b0ac045b4ccdf8deb653c4c83c2b4"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5daeb2a616687c8fbce06395e9c6b7e5ca0dcaa9",
+    "size": 70004,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/5daeb2a616687c8fbce06395e9c6b7e5ca0dcaa9"
+  },
+  {
+    "path": "handler.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb7a3b0bea1a7a000a848eeb00b4f15d8a30ece2",
+    "size": 13875,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/fb7a3b0bea1a7a000a848eeb00b4f15d8a30ece2"
+  },
+  {
+    "path": "handler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb55fbbb091d7a70a3604ecf113015cf2de03260",
+    "size": 54377,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/bb55fbbb091d7a70a3604ecf113015cf2de03260"
+  },
+  {
+    "path": "helpers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1604a4c957c87629963bd68c3ea9af9c4af449a",
+    "size": 257,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/f1604a4c957c87629963bd68c3ea9af9c4af449a"
+  },
+  {
+    "path": "helpers_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbf860257f163f2c4e3694dc6f8f63cf6184c438",
+    "size": 785,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/fbf860257f163f2c4e3694dc6f8f63cf6184c438"
+  },
+  {
+    "path": "install.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a1ce2255dda704d4b348638f8146ab8ba2390e6",
+    "size": 6882,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/6a1ce2255dda704d4b348638f8146ab8ba2390e6"
+  },
+  {
+    "path": "install_with_modules.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5edb11a8b96f9acf390e4dad7896bc350acb502e",
+    "size": 6825,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/5edb11a8b96f9acf390e4dad7896bc350acb502e"
+  },
+  {
+    "path": "ip_blacklist.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96cce9d49c804279905c5e5bfb063dde091c122c",
+    "size": 3206166,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/96cce9d49c804279905c5e5bfb063dde091c122c"
+  },
+  {
+    "path": "log.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66deadaa6fad576d18f6840f910b9cbe7fa4631c",
+    "size": 62861,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/66deadaa6fad576d18f6840f910b9cbe7fa4631c"
+  },
+  {
+    "path": "logging.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "371444179d5f898c872a3100c9d9d2cbc55e8d8c",
+    "size": 6725,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/371444179d5f898c872a3100c9d9d2cbc55e8d8c"
+  },
+  {
+    "path": "logging_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d35822c42324f10acdd0413569b167accc608a9",
+    "size": 3670,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/8d35822c42324f10acdd0413569b167accc608a9"
+  },
+  {
+    "path": "ratelimiter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "67875c978c571c134285f88241a39a680489d47e",
+    "size": 5415,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/67875c978c571c134285f88241a39a680489d47e"
+  },
+  {
+    "path": "ratelimiter_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "220a8bdd706da5f66b254fbf7bab7151d7a94fb0",
+    "size": 10162,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/220a8bdd706da5f66b254fbf7bab7151d7a94fb0"
+  },
+  {
+    "path": "request.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b353b6b3d308bb02634c750316e3849f7f71c37",
+    "size": 18501,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/1b353b6b3d308bb02634c750316e3849f7f71c37"
+  },
+  {
+    "path": "request_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6957251afbc62bf13066b64da0a67dea0660de0c",
+    "size": 14284,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/6957251afbc62bf13066b64da0a67dea0660de0c"
+  },
+  {
+    "path": "response.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99b3ca74b496c9aa73458da1e8e907597f9c20f5",
+    "size": 2651,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/99b3ca74b496c9aa73458da1e8e907597f9c20f5"
+  },
+  {
+    "path": "response_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d22fd95fe2ecb8208b8b5beae56df0a676afed2",
+    "size": 2269,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/2d22fd95fe2ecb8208b8b5beae56df0a676afed2"
+  },
+  {
+    "path": "rules-browser-friendly.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0ef1745d24acbbe02e84614bc5f910228798858",
+    "size": 18098,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/e0ef1745d24acbbe02e84614bc5f910228798858"
+  },
+  {
+    "path": "rules.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f148ab333a6552ee72f332843db68d71ca919a5a",
+    "size": 9850,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/f148ab333a6552ee72f332843db68d71ca919a5a"
+  },
+  {
+    "path": "rules.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f21159989f4339370a1bad0fcfaf2b85cb06332",
+    "size": 18184,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/0f21159989f4339370a1bad0fcfaf2b85cb06332"
+  },
+  {
+    "path": "rules",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1020044bfce9823d71d1970b43311a8fa5edcdad",
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/trees/1020044bfce9823d71d1970b43311a8fa5edcdad"
+  },
+  {
+    "path": "rules_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74460ea2edf200c64702d8766608b63329125213",
+    "size": 4566,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/74460ea2edf200c64702d8766608b63329125213"
+  },
+  {
+    "path": "rules_test.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8eea190cb70dd373b6e6e4760743887bcf611b41",
+    "size": 11011,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/8eea190cb70dd373b6e6e4760743887bcf611b41"
+  },
+  {
+    "path": "sample_rules.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "906d9b093f0f2dbf6f93d643503afcfd957ccc08",
+    "size": 2483,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/906d9b093f0f2dbf6f93d643503afcfd957ccc08"
+  },
+  {
+    "path": "test.caddyfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0619366d87576c95508cc65d037c453a598a88f1",
+    "size": 242,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/0619366d87576c95508cc65d037c453a598a88f1"
+  },
+  {
+    "path": "test.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "793aea5837b544566379cc9a28c0dd04626c9850",
+    "size": 102386,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/793aea5837b544566379cc9a28c0dd04626c9850"
+  },
+  {
+    "path": "test_anomalythreshold.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "048813a4b791faa55d417572997fa367029163f2",
+    "size": 20829,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/048813a4b791faa55d417572997fa367029163f2"
+  },
+  {
+    "path": "tor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db78ecddceb59c1a61fd5567c09f75e658110061",
+    "size": 5243,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/db78ecddceb59c1a61fd5567c09f75e658110061"
+  },
+  {
+    "path": "tor_blacklist.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c03c052123c2b0946275bab88e751dcb0e18d70",
+    "size": 15499,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/7c03c052123c2b0946275bab88e751dcb0e18d70"
+  },
+  {
+    "path": "tor_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e00a4cfef01f3396a88c2ee284c465c96fb967fc",
+    "size": 2811,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/e00a4cfef01f3396a88c2ee284c465c96fb967fc"
+  },
+  {
+    "path": "types.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "35e01159bb61cdabdf4be69f86e9162d830a37e8",
+    "size": 7846,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/35e01159bb61cdabdf4be69f86e9162d830a37e8"
+  },
+  {
+    "path": "types_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d164d2535b2641a57273eb92e29338702c126e4",
+    "size": 2573,
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/blobs/5d164d2535b2641a57273eb92e29338702c126e4"
+  },
+  {
+    "path": "ui",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43e7758d8a53c6cb9c166b284d9d1ba58daf9096",
+    "url": "https://api.github.com/repos/fabriziosalmi/caddy-waf/git/trees/43e7758d8a53c6cb9c166b284d9d1ba58daf9096"
+  }
+]

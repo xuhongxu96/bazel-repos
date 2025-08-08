@@ -1,0 +1,431 @@
+[
+  {
+    "path": ".clang-format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d451dc8687a457baadbf861b20982294a1a82af",
+    "size": 5308,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/0d451dc8687a457baadbf861b20982294a1a82af"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9bee88ee50a618643b5e360f96ff14beb4188b21",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/9bee88ee50a618643b5e360f96ff14beb4188b21"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d524cdb184e59824241183ceea2b535281c06d7",
+    "size": 411,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/6d524cdb184e59824241183ceea2b535281c06d7"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1706b4a8fc8bf121f9fda22afa9f514f66e5575b",
+    "size": 80,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/1706b4a8fc8bf121f9fda22afa9f514f66e5575b"
+  },
+  {
+    "path": "01-hello-world",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3428452ef7f67f0dd61def272734bf187afe6d70",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/3428452ef7f67f0dd61def272734bf187afe6d70"
+  },
+  {
+    "path": "02-perf-buf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "50d830c0ffe24a0de1f2771149e95c5bfac578c1",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/50d830c0ffe24a0de1f2771149e95c5bfac578c1"
+  },
+  {
+    "path": "03-ring-buf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1ec65f043860d156c196d278a18a758972ab8024",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/1ec65f043860d156c196d278a18a758972ab8024"
+  },
+  {
+    "path": "04-tracepoint",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "227643c6c3e0de87e3324b71fee32d3d617c3104",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/227643c6c3e0de87e3324b71fee32d3d617c3104"
+  },
+  {
+    "path": "05-get-process-info",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c6f630de76c879c39ec05deb8c21e632b50dc862",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/c6f630de76c879c39ec05deb8c21e632b50dc862"
+  },
+  {
+    "path": "06-get-container-info-1",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75c87fb1ede9fbbcb8d6f79e2f6be668aa166759",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/75c87fb1ede9fbbcb8d6f79e2f6be668aa166759"
+  },
+  {
+    "path": "07-tracepoint-args",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4d92edf2dfce896ae1841b2c01827dd2d0616271",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/4d92edf2dfce896ae1841b2c01827dd2d0616271"
+  },
+  {
+    "path": "08-map-map-type-hash-kernel",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b59997a78decd02f6c59a97850a3f7c8f8d10417",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/b59997a78decd02f6c59a97850a3f7c8f8d10417"
+  },
+  {
+    "path": "09-map-map-type-hash-userspace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17923ada22695e328696710d19de217795b25e83",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/17923ada22695e328696710d19de217795b25e83"
+  },
+  {
+    "path": "10-map-map-type-array",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "05b6409eb6736d71b1d79252b942b4ce6fba3847",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/05b6409eb6736d71b1d79252b942b4ce6fba3847"
+  },
+  {
+    "path": "11-map-pin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6722e117f5b0c29f11070092b87cb020ba335e87",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/6722e117f5b0c29f11070092b87cb020ba335e87"
+  },
+  {
+    "path": "12-raw-tracepoint-args",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e677f1e417549357eb958328c1251d00be65977",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/8e677f1e417549357eb958328c1251d00be65977"
+  },
+  {
+    "path": "13-raw-tracepoint-args-sched_switch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5cf18b62a9a9175a7c606cc47d641740731455e4",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/5cf18b62a9a9175a7c606cc47d641740731455e4"
+  },
+  {
+    "path": "14-tracepoint-args-sched_switch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4450d24664279e89ce2bdd6e84f37750d0bc6274",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/4450d24664279e89ce2bdd6e84f37750d0bc6274"
+  },
+  {
+    "path": "15-get-container-info-2-via-task_struct",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b6b2ac2a1e2020efbc5b43d9cc8b71622e0eb4ed",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/b6b2ac2a1e2020efbc5b43d9cc8b71622e0eb4ed"
+  },
+  {
+    "path": "16-btf-raw-tracepoint-args",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8397159e96e7c1235b2eadda8f455bd7038769f",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/c8397159e96e7c1235b2eadda8f455bd7038769f"
+  },
+  {
+    "path": "17-btf-raw-tracepoint-args-sched_switch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bb7c0a15596665fc66b8abf10b9dfd4413eae9f8",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/bb7c0a15596665fc66b8abf10b9dfd4413eae9f8"
+  },
+  {
+    "path": "18-socket-filter-capture-icmp-traffic-kernel-parse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "02daa8a240132c7de6b9b47ca6a79a5da6e08220",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/02daa8a240132c7de6b9b47ca6a79a5da6e08220"
+  },
+  {
+    "path": "19-socket-filter-capture-icmp-traffic-userspace-parse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aabad669f6e8d616c897d0afdb1ac4e6f7947ecb",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/aabad669f6e8d616c897d0afdb1ac4e6f7947ecb"
+  },
+  {
+    "path": "20-socket-filter-capture-icmp-traffic-kernel-parse-without-llvm-load",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "110b36a57cdecb49ed4e87fe5a12e31464570ce3",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/110b36a57cdecb49ed4e87fe5a12e31464570ce3"
+  },
+  {
+    "path": "21-tc-parse-packet-with-bpf_skb_load_bytes",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f273283bece9e768161e1a1d6df2eda704997b77",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/f273283bece9e768161e1a1d6df2eda704997b77"
+  },
+  {
+    "path": "22-tail-calls",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ef7bacadcdda273ace27a904bdb0a55ad0a3d5d3",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/ef7bacadcdda273ace27a904bdb0a55ad0a3d5d3"
+  },
+  {
+    "path": "23-rewriting-bcc-libbpf-tools-with-libbpfgo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "881bfd654b3747280323e10ac3cb9203d4cf4bf1",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/881bfd654b3747280323e10ac3cb9203d4cf4bf1"
+  },
+  {
+    "path": "25-tc-parse-packet-with-direct-memory-access",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "40d41bae6a605339e402e879b6677eaf38831996",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/40d41bae6a605339e402e879b6677eaf38831996"
+  },
+  {
+    "path": "26-lsm-path_chmod",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f80998b1a95aa37367490b235fa9d75f27598dc0",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/f80998b1a95aa37367490b235fa9d75f27598dc0"
+  },
+  {
+    "path": "27-attach-tracepoint-with-syscall",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "191a2b983c791a12f8c8719d54f198979879efc3",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/191a2b983c791a12f8c8719d54f198979879efc3"
+  },
+  {
+    "path": "28-kprobe-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ca95646dca8fe9671a65ac9dacc70e4afe891793",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/ca95646dca8fe9671a65ac9dacc70e4afe891793"
+  },
+  {
+    "path": "29-kprobe-hello-with-macro",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17a2f124407ae3830a04139c5465c630a6f92072",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/17a2f124407ae3830a04139c5465c630a6f92072"
+  },
+  {
+    "path": "30-ksyscall-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61529bd41f00cde7626c5b6dfd0210c481f7c736",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/61529bd41f00cde7626c5b6dfd0210c481f7c736"
+  },
+  {
+    "path": "31-ksyscall-hello-with-macro",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a60de0faddf5fce8e40c79e6f2e2ff6f49029807",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/a60de0faddf5fce8e40c79e6f2e2ff6f49029807"
+  },
+  {
+    "path": "32-fentry-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f29f848e2fdadf386d582c4ca853ea6e32e7138a",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/f29f848e2fdadf386d582c4ca853ea6e32e7138a"
+  },
+  {
+    "path": "33-xdp-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd305a86f2d04439c64746da756943707c62e365",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/bd305a86f2d04439c64746da756943707c62e365"
+  },
+  {
+    "path": "34-iter-task-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dbbc97e518c11420de16b56224c0836f8e122e85",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/dbbc97e518c11420de16b56224c0836f8e122e85"
+  },
+  {
+    "path": "35-tracepoint-args-use-custom-struct",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b3898587b9fd4b654d701b32191cb22a3994aeda",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/b3898587b9fd4b654d701b32191cb22a3994aeda"
+  },
+  {
+    "path": "36-tracepoint-args-sched_switch-use-custom-struct",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "433545c1e21ebb93135ae00e61ec67062e3be11f",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/433545c1e21ebb93135ae00e61ec67062e3be11f"
+  },
+  {
+    "path": "37-tracepoint-sched_process_exec",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f2b954be9a4d15cfef395bcff15c8ed97a691be",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/2f2b954be9a4d15cfef395bcff15c8ed97a691be"
+  },
+  {
+    "path": "38-raw-tracepoint-sched_wakeup",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b201bb289f9737d7d01534492e9f88b4b2e023ce",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/b201bb289f9737d7d01534492e9f88b4b2e023ce"
+  },
+  {
+    "path": "39-socket-filter-tcp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "12b3b44a02311c169c8ea133e4b31880c83d7990",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/12b3b44a02311c169c8ea133e4b31880c83d7990"
+  },
+  {
+    "path": "40-lsm-block-path_unlink",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ef53cd5fd4d1298ed7e543686423832b1292d8c6",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/ef53cd5fd4d1298ed7e543686423832b1292d8c6"
+  },
+  {
+    "path": "41-raw-tracepoint-args-with-macro",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "92dc37beda23f46207cf8710163966095120c50f",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/92dc37beda23f46207cf8710163966095120c50f"
+  },
+  {
+    "path": "42-btf-raw-tracepoint-args-with-macro",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "85a0097f9d927c3fb22bd5c7d91b8262e17db688",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/85a0097f9d927c3fb22bd5c7d91b8262e17db688"
+  },
+  {
+    "path": "43-tcx-ingress-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a945531fa2105608c64ff65cca9b2f1810e7d997",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/a945531fa2105608c64ff65cca9b2f1810e7d997"
+  },
+  {
+    "path": "44-tcx-egress-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "930d14d03e55e44fd1fa864138403a6d8b2c05eb",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/930d14d03e55e44fd1fa864138403a6d8b2c05eb"
+  },
+  {
+    "path": "45-iter-task-write-struct",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6d10dff97b518e986689b12561876aeb14fb6bc5",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/6d10dff97b518e986689b12561876aeb14fb6bc5"
+  },
+  {
+    "path": "46-iter-sleepable-task",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6d8ab668fe2c03d0369838cce1476a49e4c8072f",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/6d8ab668fe2c03d0369838cce1476a49e4c8072f"
+  },
+  {
+    "path": "47-iter-task-file-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8537e36e8d5092040a50fab1dbda1ff6610bb55d",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/8537e36e8d5092040a50fab1dbda1ff6610bb55d"
+  },
+  {
+    "path": "48-iter-tcp-hello",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c5645ccc23811336c9464e931214abf804a6533",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/0c5645ccc23811336c9464e931214abf804a6533"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3c9120633bfd1a0c09eb4807bcbab804da6520c1",
+    "size": 1066,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/3c9120633bfd1a0c09eb4807bcbab804da6520c1"
+  },
+  {
+    "path": "README.rst",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01a179009a9ff8845bd42c4c1f8f66ac6392f51f",
+    "size": 33251,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/01a179009a9ff8845bd42c4c1f8f66ac6392f51f"
+  },
+  {
+    "path": "Vagrantfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "696f6ffcc868b2558c46c35567f43fa33dfae140",
+    "size": 1957,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/696f6ffcc868b2558c46c35567f43fa33dfae140"
+  },
+  {
+    "path": "ci.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1717ddbb996ee83ebd84e7df428b4249bb87490f",
+    "size": 403,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/1717ddbb996ee83ebd84e7df428b4249bb87490f"
+  },
+  {
+    "path": "common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ae0cf76ac5152d190042d6ea82038ec4815e0b7",
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/trees/2ae0cf76ac5152d190042d6ea82038ec4815e0b7"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0aafbe86f326c51058b3b2044ed21d1d1d6199ff",
+    "size": 577,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/0aafbe86f326c51058b3b2044ed21d1d1d6199ff"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec2d2d46f9bce9dd5063d6321ff9dfa3d15d6a04",
+    "size": 14838,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/ec2d2d46f9bce9dd5063d6321ff9dfa3d15d6a04"
+  },
+  {
+    "path": "init.sh",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "277c976d7c111d66edc4bf025b84741d5d308345",
+    "size": 1835,
+    "url": "https://api.github.com/repos/mozillazg/hello-libbpfgo/git/blobs/277c976d7c111d66edc4bf025b84741d5d308345"
+  },
+  {
+    "path": "libbpf",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "09b9e83102eb8ab9e540d36b4559c55f3bcdb95d"
+  }
+]

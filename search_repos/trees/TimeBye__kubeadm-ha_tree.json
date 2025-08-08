@@ -1,0 +1,324 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "24dfd8bd521d0852364b95a89f8d9f508cee9cf8",
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/trees/24dfd8bd521d0852364b95a89f8d9f508cee9cf8"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6c6489fd9046ceeb3d26e6c64e8b48eb64043b8",
+    "size": 38,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/b6c6489fd9046ceeb3d26e6c64e8b48eb64043b8"
+  },
+  {
+    "path": "00-kernel.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1484184461e53daec3ac73fad2668dce8d21ccc3",
+    "size": 623,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/1484184461e53daec3ac73fad2668dce8d21ccc3"
+  },
+  {
+    "path": "01-base.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "130ff0669c268fb667ed524c778ab7807c290854",
+    "size": 637,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/130ff0669c268fb667ed524c778ab7807c290854"
+  },
+  {
+    "path": "02-container-engine.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8aaf19a14077899a93a923dabd9e10d775e7d59a",
+    "size": 617,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/8aaf19a14077899a93a923dabd9e10d775e7d59a"
+  },
+  {
+    "path": "03-kubernetes-component.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "21201530f915d5c3470320b83478416919b4f0ea",
+    "size": 622,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/21201530f915d5c3470320b83478416919b4f0ea"
+  },
+  {
+    "path": "04-chrony.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1f4f3a65ada01504407ce6de3f4f7f2efb554bd",
+    "size": 59,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/b1f4f3a65ada01504407ce6de3f4f7f2efb554bd"
+  },
+  {
+    "path": "05-load-balancer.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccc8b1b81424df68171f758730f8d1b2a9f4a8ea",
+    "size": 131,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/ccc8b1b81424df68171f758730f8d1b2a9f4a8ea"
+  },
+  {
+    "path": "06-etcd.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f5cc9fa09908ed48e3b18d29a7425e3bd3189f8",
+    "size": 182,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/4f5cc9fa09908ed48e3b18d29a7425e3bd3189f8"
+  },
+  {
+    "path": "07-kubernetes-certificates.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66b77df6bb9cbf90fdbc351282058138f85101f2",
+    "size": 155,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/66b77df6bb9cbf90fdbc351282058138f85101f2"
+  },
+  {
+    "path": "08-kubernetes-master.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06fc6783397e4f31e41f5114ec55ec950714251e",
+    "size": 111,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/06fc6783397e4f31e41f5114ec55ec950714251e"
+  },
+  {
+    "path": "09-kubernetes-worker.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49bac2d7691fab89927113e3b5dfa8b032ed9c6e",
+    "size": 111,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/49bac2d7691fab89927113e3b5dfa8b032ed9c6e"
+  },
+  {
+    "path": "10-post.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7da5e9c39ef9dee748c9dc28fa0e994a0e7a11c",
+    "size": 135,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/b7da5e9c39ef9dee748c9dc28fa0e994a0e7a11c"
+  },
+  {
+    "path": "21-network-plugin.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2ea4f94efde7c178fcd448876717ee140893979",
+    "size": 108,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/c2ea4f94efde7c178fcd448876717ee140893979"
+  },
+  {
+    "path": "22-ingress-controller.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e91bd36b98b1160cecc88bb68f69b6a46af52d4",
+    "size": 111,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/2e91bd36b98b1160cecc88bb68f69b6a46af52d4"
+  },
+  {
+    "path": "23-kubernetes-dashboard.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4fa61e6666e802c0d26531ef64c160ca434e16d",
+    "size": 113,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/f4fa61e6666e802c0d26531ef64c160ca434e16d"
+  },
+  {
+    "path": "24-metrics-server.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe668ddcb0fa2fb0f13894f36a3575a4b4525c44",
+    "size": 107,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/fe668ddcb0fa2fb0f13894f36a3575a4b4525c44"
+  },
+  {
+    "path": "25-cert-manager.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3557ce83a5f657c50ef55d40f6a3aa5b3f59e9e9",
+    "size": 105,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/3557ce83a5f657c50ef55d40f6a3aa5b3f59e9e9"
+  },
+  {
+    "path": "31-docker-to-containerd.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecf74a2e098743986c7cec46249628cfb67cc356",
+    "size": 1353,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/ecf74a2e098743986c7cec46249628cfb67cc356"
+  },
+  {
+    "path": "81-add-worker.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07606f2ec57f36116e88fe14c460a899924cec93",
+    "size": 1189,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/07606f2ec57f36116e88fe14c460a899924cec93"
+  },
+  {
+    "path": "82-add-master.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf51c684965002fe7208ab0c41f5b1541f8017a5",
+    "size": 1346,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/bf51c684965002fe7208ab0c41f5b1541f8017a5"
+  },
+  {
+    "path": "83-add-etcd.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce1029eb72350c511bb4cb30beab72d4f53d441f",
+    "size": 1796,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/ce1029eb72350c511bb4cb30beab72d4f53d441f"
+  },
+  {
+    "path": "84-remove-worker.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d9139ca6778b6b99c785b24a1944b969d6c315b",
+    "size": 395,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/7d9139ca6778b6b99c785b24a1944b969d6c315b"
+  },
+  {
+    "path": "85-remove-master.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56597d9d54884c4b834b97764d4c4df1b000d1ee",
+    "size": 395,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/56597d9d54884c4b834b97764d4c4df1b000d1ee"
+  },
+  {
+    "path": "86-remove-etcd.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ff243af0b7fb562500168e4535e7978a8dbb5f7",
+    "size": 1177,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/8ff243af0b7fb562500168e4535e7978a8dbb5f7"
+  },
+  {
+    "path": "87-remove-node.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed5b13118c5bdb22c631ea0d02d1d2aad94dd0a4",
+    "size": 385,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/ed5b13118c5bdb22c631ea0d02d1d2aad94dd0a4"
+  },
+  {
+    "path": "90-init-cluster.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea71f592688c04faa02dd7bc9e8b931bb599f01f",
+    "size": 1842,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/ea71f592688c04faa02dd7bc9e8b931bb599f01f"
+  },
+  {
+    "path": "91-upgrade-cluster.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac83853430edab899d7071ca5992bf0cbab07efa",
+    "size": 1578,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/ac83853430edab899d7071ca5992bf0cbab07efa"
+  },
+  {
+    "path": "92-certificates-renew.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "707a5939c155951590d6fb16d2bd5d62847d5411",
+    "size": 168,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/707a5939c155951590d6fb16d2bd5d62847d5411"
+  },
+  {
+    "path": "93-backup-cluster.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e165cda016f72c01c65df43b27c853ac40fdb2b",
+    "size": 416,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/1e165cda016f72c01c65df43b27c853ac40fdb2b"
+  },
+  {
+    "path": "94-restore-cluster.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dabd407392e774dfe25821b1c6ac5312d6e7b6f3",
+    "size": 1279,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/dabd407392e774dfe25821b1c6ac5312d6e7b6f3"
+  },
+  {
+    "path": "99-reset-cluster.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d7655a98d72e6de124911339bbb6a7d842ab50a",
+    "size": 396,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/0d7655a98d72e6de124911339bbb6a7d842ab50a"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6111fd59d2ff9f42bdbffa2307efd43969a80445",
+    "size": 2585,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/6111fd59d2ff9f42bdbffa2307efd43969a80445"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d923f9f4fcd79eb6bc47a48bb247ab034bf856f",
+    "size": 6836,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/6d923f9f4fcd79eb6bc47a48bb247ab034bf856f"
+  },
+  {
+    "path": "Vagrantfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "182446f6d99b74d3db97526c69826808c50a72f9",
+    "size": 3373,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/182446f6d99b74d3db97526c69826808c50a72f9"
+  },
+  {
+    "path": "ansible.cfg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b23487862288f281af1bedbc101110f54439172",
+    "size": 10506,
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/blobs/4b23487862288f281af1bedbc101110f54439172"
+  },
+  {
+    "path": "ansible",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c821b52ee668f9b5c58c6e010b19d57c658d51cb",
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/trees/c821b52ee668f9b5c58c6e010b19d57c658d51cb"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "509d00511c65367a868f098a7a10ec5d49bfbd43",
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/trees/509d00511c65367a868f098a7a10ec5d49bfbd43"
+  },
+  {
+    "path": "example",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61c2afe6d064f9782175845a34bff4e572faf447",
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/trees/61c2afe6d064f9782175845a34bff4e572faf447"
+  },
+  {
+    "path": "offline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "552311cfc43edd77bf8988a1b79cdb6d0b691ca8",
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/trees/552311cfc43edd77bf8988a1b79cdb6d0b691ca8"
+  },
+  {
+    "path": "roles",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80fd6a825fe51f91678807144de45fc28d3a41dc",
+    "url": "https://api.github.com/repos/TimeBye/kubeadm-ha/git/trees/80fd6a825fe51f91678807144de45fc28d3a41dc"
+  }
+]

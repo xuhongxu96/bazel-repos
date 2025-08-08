@@ -1,0 +1,624 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d207b1802b2045fcb33fd5566b1fc0afc6020177",
+    "size": 17,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/d207b1802b2045fcb33fd5566b1fc0afc6020177"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e4e2349c1396a95f635d602466d2b12a6fcd2469",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/e4e2349c1396a95f635d602466d2b12a6fcd2469"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90dc0ce1873543daed4cf3fd4731d1b34b4229e4",
+    "size": 318,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/90dc0ce1873543daed4cf3fd4731d1b34b4229e4"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b29d19d62b53eea5e01715a0fdcd12131c57bd78",
+    "size": 266,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/b29d19d62b53eea5e01715a0fdcd12131c57bd78"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb9f85b7b32ee1da92e61c6a4cdf1b58728cabd8",
+    "size": 40279,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/eb9f85b7b32ee1da92e61c6a4cdf1b58728cabd8"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4734e2c1194d69dfc5a432c485f961cb3ae3546",
+    "size": 415,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/f4734e2c1194d69dfc5a432c485f961cb3ae3546"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51910cf0b1a9bde524722ac648466b6530045e26",
+    "size": 10141,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/51910cf0b1a9bde524722ac648466b6530045e26"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59679515eabc2ec9317bbc8ecc17b3a9da4a083d",
+    "size": 3792,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/59679515eabc2ec9317bbc8ecc17b3a9da4a083d"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2585d39ed7b4692275f800cbbf77a5891c0616b2",
+    "size": 6186,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/2585d39ed7b4692275f800cbbf77a5891c0616b2"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36abe7efe7470ed0882a9f6e8a3db819f5b6b22c",
+    "size": 4852,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/36abe7efe7470ed0882a9f6e8a3db819f5b6b22c"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9bbcc0bc416ebde87005faf02ed2abf95abd111",
+    "size": 29261,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/a9bbcc0bc416ebde87005faf02ed2abf95abd111"
+  },
+  {
+    "path": "mackerel-plugin-accesslog",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d8ca1e744ffed18383a50f8e7060140603d9f65d",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/d8ca1e744ffed18383a50f8e7060140603d9f65d"
+  },
+  {
+    "path": "mackerel-plugin-apache2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "90e9ea18a2b2a5ab12d36841a894a16dc33d2779",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/90e9ea18a2b2a5ab12d36841a894a16dc33d2779"
+  },
+  {
+    "path": "mackerel-plugin-aws-cloudfront",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0863fdde8e3ca54eb9a81de3bc6b25ef6b3a29f1",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/0863fdde8e3ca54eb9a81de3bc6b25ef6b3a29f1"
+  },
+  {
+    "path": "mackerel-plugin-aws-dynamodb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c53ca99a7e185ffd73493b560d0c7e3059bd20e9",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/c53ca99a7e185ffd73493b560d0c7e3059bd20e9"
+  },
+  {
+    "path": "mackerel-plugin-aws-ec2-cpucredit",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c4d7dc68347357ab7c7a1b88d552ae86d2a81b8a",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/c4d7dc68347357ab7c7a1b88d552ae86d2a81b8a"
+  },
+  {
+    "path": "mackerel-plugin-aws-ec2-ebs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7485a76418e13dc273c2b5c56b5934bcb1d5326a",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/7485a76418e13dc273c2b5c56b5934bcb1d5326a"
+  },
+  {
+    "path": "mackerel-plugin-aws-ec2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9048059daec6eb21798f624b21c162c76042e947",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/9048059daec6eb21798f624b21c162c76042e947"
+  },
+  {
+    "path": "mackerel-plugin-aws-elasticache",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "38be013d34fa9a9d1637ce3840ac8a28c088ff10",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/38be013d34fa9a9d1637ce3840ac8a28c088ff10"
+  },
+  {
+    "path": "mackerel-plugin-aws-elasticsearch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5665f30d288b4ad75d8b52e41e77aec95a384055",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/5665f30d288b4ad75d8b52e41e77aec95a384055"
+  },
+  {
+    "path": "mackerel-plugin-aws-elb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cf82e815bfec6a6eae5624092ba3ca9ba80caef5",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/cf82e815bfec6a6eae5624092ba3ca9ba80caef5"
+  },
+  {
+    "path": "mackerel-plugin-aws-kinesis-firehose",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "92fc826f046eb103331ec176e85a7cc717f85894",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/92fc826f046eb103331ec176e85a7cc717f85894"
+  },
+  {
+    "path": "mackerel-plugin-aws-kinesis-streams",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f04ca39bf2f8c9c0f1c25f31720d2a4b07c61e2",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/4f04ca39bf2f8c9c0f1c25f31720d2a4b07c61e2"
+  },
+  {
+    "path": "mackerel-plugin-aws-lambda",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "24a75684615bb9553bac025ca0712d90c49d7dd1",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/24a75684615bb9553bac025ca0712d90c49d7dd1"
+  },
+  {
+    "path": "mackerel-plugin-aws-rds",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a505574adee38558f2cdaed3afe30b09305bce74",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/a505574adee38558f2cdaed3afe30b09305bce74"
+  },
+  {
+    "path": "mackerel-plugin-aws-rekognition",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a04e7448d361c4abd2382b7cae57991173d2d0fb",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/a04e7448d361c4abd2382b7cae57991173d2d0fb"
+  },
+  {
+    "path": "mackerel-plugin-aws-s3-requests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec2a948a34e4a95eccd75ebfb7373a432062da4a",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/ec2a948a34e4a95eccd75ebfb7373a432062da4a"
+  },
+  {
+    "path": "mackerel-plugin-aws-ses",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2c97028af25d221f185cac889f41970a59f834b4",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/2c97028af25d221f185cac889f41970a59f834b4"
+  },
+  {
+    "path": "mackerel-plugin-aws-waf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "da20d6eae202f9ee821b5dff000c78610714ab04",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/da20d6eae202f9ee821b5dff000c78610714ab04"
+  },
+  {
+    "path": "mackerel-plugin-conntrack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6475cf7d280348a1c09680e3237198cc46d3c424",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/6475cf7d280348a1c09680e3237198cc46d3c424"
+  },
+  {
+    "path": "mackerel-plugin-docker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8710412c823be4c505eb5429d0a78fe3e422fa12",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/8710412c823be4c505eb5429d0a78fe3e422fa12"
+  },
+  {
+    "path": "mackerel-plugin-elasticsearch",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d09118480f354a14eb40b6989d8ceffcc460f942",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/d09118480f354a14eb40b6989d8ceffcc460f942"
+  },
+  {
+    "path": "mackerel-plugin-fluentd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e685cd959a532b588ebc9f5147717d1ad5d3ae35",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/e685cd959a532b588ebc9f5147717d1ad5d3ae35"
+  },
+  {
+    "path": "mackerel-plugin-flume",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d0b809a47e671150c7a8e8dd8b16a9dc066cbac3",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/d0b809a47e671150c7a8e8dd8b16a9dc066cbac3"
+  },
+  {
+    "path": "mackerel-plugin-gcp-compute-engine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d8459c860cef991ea02a2f17e3cb8a1bd8519d35",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/d8459c860cef991ea02a2f17e3cb8a1bd8519d35"
+  },
+  {
+    "path": "mackerel-plugin-gearmand",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21eb65f3a6ead6489a2d5c995b43266216810b14",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/21eb65f3a6ead6489a2d5c995b43266216810b14"
+  },
+  {
+    "path": "mackerel-plugin-gostats",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "97d1bec9d1f7f8ff8e8d67570c31b43b1e9c1f16",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/97d1bec9d1f7f8ff8e8d67570c31b43b1e9c1f16"
+  },
+  {
+    "path": "mackerel-plugin-graphite",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ab9ae4fb2c89cb424025b3f37d134b23467440af",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/ab9ae4fb2c89cb424025b3f37d134b23467440af"
+  },
+  {
+    "path": "mackerel-plugin-h2o",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a6e76d747e60816fe87356156a9e90af84594c9a",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/a6e76d747e60816fe87356156a9e90af84594c9a"
+  },
+  {
+    "path": "mackerel-plugin-haproxy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b20297dbd0756c4c29dfbc7bc783e3a9c333c95e",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/b20297dbd0756c4c29dfbc7bc783e3a9c333c95e"
+  },
+  {
+    "path": "mackerel-plugin-inode",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "329f69c405cd4c9f795d50abfcb21a97ed7a4ac1",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/329f69c405cd4c9f795d50abfcb21a97ed7a4ac1"
+  },
+  {
+    "path": "mackerel-plugin-jmx-jolokia",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfb032b9eee50656a9e49ea5170d3a89e8da8f7a",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/cfb032b9eee50656a9e49ea5170d3a89e8da8f7a"
+  },
+  {
+    "path": "mackerel-plugin-json",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "88ecd069891b3d5ecf90e66674ee465f8286fe9a",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/88ecd069891b3d5ecf90e66674ee465f8286fe9a"
+  },
+  {
+    "path": "mackerel-plugin-jvm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d7b66f9932624210ff9a4d279903cd63537f15c9",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/d7b66f9932624210ff9a4d279903cd63537f15c9"
+  },
+  {
+    "path": "mackerel-plugin-linux",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d60ea3adf26f1096e6177465911f0fa365189408",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/d60ea3adf26f1096e6177465911f0fa365189408"
+  },
+  {
+    "path": "mackerel-plugin-mailq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b775b5a0f0a80f7e318869e692707b60a4851df",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/6b775b5a0f0a80f7e318869e692707b60a4851df"
+  },
+  {
+    "path": "mackerel-plugin-mcrouter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "682194ff6d93372a376c5d9d4f29fc64630b94a1",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/682194ff6d93372a376c5d9d4f29fc64630b94a1"
+  },
+  {
+    "path": "mackerel-plugin-memcached",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fa5cc930a7d6f4b7ca18bcfff203fc0937c52e52",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/fa5cc930a7d6f4b7ca18bcfff203fc0937c52e52"
+  },
+  {
+    "path": "mackerel-plugin-mongodb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b7b7a6b1c46dc7bb503b90a76114ce9875969cc9",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/b7b7a6b1c46dc7bb503b90a76114ce9875969cc9"
+  },
+  {
+    "path": "mackerel-plugin-mssql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2a36805bc837320ca53ed8fa1308ad7656a790c",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/e2a36805bc837320ca53ed8fa1308ad7656a790c"
+  },
+  {
+    "path": "mackerel-plugin-multicore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "95e9a437d767fc194cbfdb21fcc3410859bbc043",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/95e9a437d767fc194cbfdb21fcc3410859bbc043"
+  },
+  {
+    "path": "mackerel-plugin-munin",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d20b461dd3426a4c0560e1865f7507c44a42a7c",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/2d20b461dd3426a4c0560e1865f7507c44a42a7c"
+  },
+  {
+    "path": "mackerel-plugin-murmur",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c0b0be432723cc3ea49d4a6551b09d3c114e277",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/0c0b0be432723cc3ea49d4a6551b09d3c114e277"
+  },
+  {
+    "path": "mackerel-plugin-mysql",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f0f43f5db3a4ec1d6dacb42251f979167c526cf7",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/f0f43f5db3a4ec1d6dacb42251f979167c526cf7"
+  },
+  {
+    "path": "mackerel-plugin-nginx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc84d6000734a4f40e043a31d25960d41f0c4bab",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/bc84d6000734a4f40e043a31d25960d41f0c4bab"
+  },
+  {
+    "path": "mackerel-plugin-nvidia-smi",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80bc0d40277c359052a9c0785d2b2388f40cc41b",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/80bc0d40277c359052a9c0785d2b2388f40cc41b"
+  },
+  {
+    "path": "mackerel-plugin-openldap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4cb469c353dcb5338f0e24761cf1658466b9cf01",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/4cb469c353dcb5338f0e24761cf1658466b9cf01"
+  },
+  {
+    "path": "mackerel-plugin-php-apc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f0e2e03d5dc08d00ecdc743bedf5ac1249d667b0",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/f0e2e03d5dc08d00ecdc743bedf5ac1249d667b0"
+  },
+  {
+    "path": "mackerel-plugin-php-fpm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee923b0129317bdad1948525b8c4ae29bc673452",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/ee923b0129317bdad1948525b8c4ae29bc673452"
+  },
+  {
+    "path": "mackerel-plugin-php-opcache",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "10fe64a20c01c677a624de87931c0535bbdfc5be",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/10fe64a20c01c677a624de87931c0535bbdfc5be"
+  },
+  {
+    "path": "mackerel-plugin-plack",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e5ecaf86a7e0ad0645faa592e127e1ea279db068",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/e5ecaf86a7e0ad0645faa592e127e1ea279db068"
+  },
+  {
+    "path": "mackerel-plugin-postgres",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c881ed35f3d9a4cfc7aeb45e16c655aa6a3dbd56",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/c881ed35f3d9a4cfc7aeb45e16c655aa6a3dbd56"
+  },
+  {
+    "path": "mackerel-plugin-proc-fd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a4d8060139fcb53764ff282cca056d65bc94de42",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/a4d8060139fcb53764ff282cca056d65bc94de42"
+  },
+  {
+    "path": "mackerel-plugin-rabbitmq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6657e24192ca0166c2c7e7cd40d6e94a1cccd875",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/6657e24192ca0166c2c7e7cd40d6e94a1cccd875"
+  },
+  {
+    "path": "mackerel-plugin-rack-stats",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "266bf173712c5a8a40eca8bb500d8fc0d14e7bc1",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/266bf173712c5a8a40eca8bb500d8fc0d14e7bc1"
+  },
+  {
+    "path": "mackerel-plugin-redash",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c6dd2b6555cce3b5a6d5ca156154f19b9ec86086",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/c6dd2b6555cce3b5a6d5ca156154f19b9ec86086"
+  },
+  {
+    "path": "mackerel-plugin-redis",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09a7e170278fd1b6643849c4c8e5d659402e10bc",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/09a7e170278fd1b6643849c4c8e5d659402e10bc"
+  },
+  {
+    "path": "mackerel-plugin-sidekiq",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7bdf295cfc6973b963833c5bcf69abf1f8e540ec",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/7bdf295cfc6973b963833c5bcf69abf1f8e540ec"
+  },
+  {
+    "path": "mackerel-plugin-snmp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7e8267efbda12a13e3948769924cc4da14fe8fd8",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/7e8267efbda12a13e3948769924cc4da14fe8fd8"
+  },
+  {
+    "path": "mackerel-plugin-solr",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "51fcd76a2da9f2b1875b45efba92f1a6a6c2560e",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/51fcd76a2da9f2b1875b45efba92f1a6a6c2560e"
+  },
+  {
+    "path": "mackerel-plugin-squid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "31ca6fa2b22bab686b1af748f425e0ec6808a1c0",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/31ca6fa2b22bab686b1af748f425e0ec6808a1c0"
+  },
+  {
+    "path": "mackerel-plugin-td-table-count",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1e92ae259771347de310172f193bc957c63e8237",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/1e92ae259771347de310172f193bc957c63e8237"
+  },
+  {
+    "path": "mackerel-plugin-trafficserver",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "66f3fb31a227d3e312ca7e0b87d138522b38c54d",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/66f3fb31a227d3e312ca7e0b87d138522b38c54d"
+  },
+  {
+    "path": "mackerel-plugin-twemproxy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a4e015d789552346c12441d2891e601d894f8900",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/a4e015d789552346c12441d2891e601d894f8900"
+  },
+  {
+    "path": "mackerel-plugin-unicorn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82807aed389b0b033ec422d272d87509c5eefaf7",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/82807aed389b0b033ec422d272d87509c5eefaf7"
+  },
+  {
+    "path": "mackerel-plugin-uptime",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3358021936348e5316efa51953661d0afedbe48",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/f3358021936348e5316efa51953661d0afedbe48"
+  },
+  {
+    "path": "mackerel-plugin-uwsgi-vassal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e1998c47a8da3bb86fddda8113fde2879d95ead3",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/e1998c47a8da3bb86fddda8113fde2879d95ead3"
+  },
+  {
+    "path": "mackerel-plugin-varnish",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "11ef97bbebd2ddfbe71531a8a46e4680d3175910",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/11ef97bbebd2ddfbe71531a8a46e4680d3175910"
+  },
+  {
+    "path": "mackerel-plugin-windows-process-stats",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "db825cccc47916a86b5f1c0f0aa20dc465ea3ec3",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/db825cccc47916a86b5f1c0f0aa20dc465ea3ec3"
+  },
+  {
+    "path": "mackerel-plugin-windows-server-sessions",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f57c59fc220da565a63eacf5e1e2da7b6cf330da",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/f57c59fc220da565a63eacf5e1e2da7b6cf330da"
+  },
+  {
+    "path": "mackerel-plugin-xentop",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35982e1f874e4f65877e5c6e4afa5d8a5cf20e27",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/35982e1f874e4f65877e5c6e4afa5d8a5cf20e27"
+  },
+  {
+    "path": "mackerel-plugin.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e7d5f506c8b1d10a78757579d333ae18011d104",
+    "size": 1764,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/4e7d5f506c8b1d10a78757579d333ae18011d104"
+  },
+  {
+    "path": "mackerel-plugin_gen.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb5d33711392ff5f8643acda8ae084f947a8ebe3",
+    "size": 5257,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/eb5d33711392ff5f8643acda8ae084f947a8ebe3"
+  },
+  {
+    "path": "packaging",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "084b404461a5c109f56183fb6fb7c55e87a2d9b4",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/084b404461a5c109f56183fb6fb7c55e87a2d9b4"
+  },
+  {
+    "path": "t",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "af9e82636f55bb31a282af81c19f0ab38165ad5f",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/af9e82636f55bb31a282af81c19f0ab38165ad5f"
+  },
+  {
+    "path": "test.bash",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ec0dcf1de74f76766c3a13b8de936a0660103f2c",
+    "size": 677,
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/blobs/ec0dcf1de74f76766c3a13b8de936a0660103f2c"
+  },
+  {
+    "path": "tool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7165324fe93cec43beb9375dde06e40a2db245a4",
+    "url": "https://api.github.com/repos/mackerelio/mackerel-agent-plugins/git/trees/7165324fe93cec43beb9375dde06e40a2db245a4"
+  }
+]

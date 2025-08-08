@@ -1,0 +1,502 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "625da2459614d590f488d9cb33a9117a060b3ece",
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/trees/625da2459614d590f488d9cb33a9117a060b3ece"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "165772f0329dcc58d1dc5c9c71dd4424e7647cac",
+    "size": 188,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/165772f0329dcc58d1dc5c9c71dd4424e7647cac"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be02cdc07db4c0efd0ac1851cdda803c4b81e0dc",
+    "size": 114,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/be02cdc07db4c0efd0ac1851cdda803c4b81e0dc"
+  },
+  {
+    "path": "CMakeLists.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "745b404044497fd2e61b543206d01b198af61766",
+    "size": 7108,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/745b404044497fd2e61b543206d01b198af61766"
+  },
+  {
+    "path": "ConditionalHelpers.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17a2e039e0749bb74213ac9aa148e3c9f35d288b",
+    "size": 6872,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/17a2e039e0749bb74213ac9aa148e3c9f35d288b"
+  },
+  {
+    "path": "ConditionalHelpers.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d4dc0be6c98b63bcff004fcc1d224bbe05e2f85",
+    "size": 1609,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/0d4dc0be6c98b63bcff004fcc1d224bbe05e2f85"
+  },
+  {
+    "path": "ImporterContext.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef3998124db0e7511caac5cbe1c6070240d9dd2b",
+    "size": 10144,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/ef3998124db0e7511caac5cbe1c6070240d9dd2b"
+  },
+  {
+    "path": "ImporterContext.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5bcbdef761285e965639f26d11a7b670892f6792",
+    "size": 13190,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/5bcbdef761285e965639f26d11a7b670892f6792"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dc751e90f2b67b6b8f5d2b9aaea57a30a06808ab",
+    "size": 12609,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/dc751e90f2b67b6b8f5d2b9aaea57a30a06808ab"
+  },
+  {
+    "path": "LoopHelpers.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3dbac69b73d0b0c13e6614bd1b1a2d85bc39f96d",
+    "size": 849,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/3dbac69b73d0b0c13e6614bd1b1a2d85bc39f96d"
+  },
+  {
+    "path": "LoopHelpers.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c9308fd263289849bc05d8b85f659588ecab9a9",
+    "size": 263,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/7c9308fd263289849bc05d8b85f659588ecab9a9"
+  },
+  {
+    "path": "ModelImporter.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64e2dab3ce87e005fcaeadae64c5f1926bdc11c7",
+    "size": 41874,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/64e2dab3ce87e005fcaeadae64c5f1926bdc11c7"
+  },
+  {
+    "path": "ModelImporter.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9161e3f7092e08c49c656cf867eb1f419b4488d4",
+    "size": 5725,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/9161e3f7092e08c49c656cf867eb1f419b4488d4"
+  },
+  {
+    "path": "ModelRefitter.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b79d580f437cc9685dd59be9ed690c800e0ea865",
+    "size": 17886,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/b79d580f437cc9685dd59be9ed690c800e0ea865"
+  },
+  {
+    "path": "ModelRefitter.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5eff48f6e2504f5a43fa620bbb04830cbe2dc486",
+    "size": 4765,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/5eff48f6e2504f5a43fa620bbb04830cbe2dc486"
+  },
+  {
+    "path": "NvOnnxParser.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baf5c359ffbe7a906d6c738fc954f8189e984b27",
+    "size": 841,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/baf5c359ffbe7a906d6c738fc954f8189e984b27"
+  },
+  {
+    "path": "NvOnnxParser.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c121a5c78ad238e8613bce49217ab293c2a9f28",
+    "size": 23775,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/7c121a5c78ad238e8613bce49217ab293c2a9f28"
+  },
+  {
+    "path": "OnnxAttrs.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d37735f23b9ae1d12555d39ec3150da39a07d8f8",
+    "size": 11262,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/d37735f23b9ae1d12555d39ec3150da39a07d8f8"
+  },
+  {
+    "path": "OnnxAttrs.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2f2126589be51311388b327995c0dfdf1788c3e",
+    "size": 1391,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/f2f2126589be51311388b327995c0dfdf1788c3e"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f5daca643cc6ce6f9ea6c1d3be8d4bc40937f4a",
+    "size": 5170,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/4f5daca643cc6ce6f9ea6c1d3be8d4bc40937f4a"
+  },
+  {
+    "path": "RNNHelpers.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53efb5571659f8e6f20c5ff80d76f57ba9e7d049",
+    "size": 8451,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/53efb5571659f8e6f20c5ff80d76f57ba9e7d049"
+  },
+  {
+    "path": "RNNHelpers.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be890c3d78379d506a5943d324f885110d5df1d1",
+    "size": 1897,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/be890c3d78379d506a5943d324f885110d5df1d1"
+  },
+  {
+    "path": "ShapeTensor.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e47cf8b8041ecf386e91ad755f4300fc42ca7ec",
+    "size": 19424,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/1e47cf8b8041ecf386e91ad755f4300fc42ca7ec"
+  },
+  {
+    "path": "ShapeTensor.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62a25f120a09b0d323d78202b6cfbbffd79d8bec",
+    "size": 8748,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/62a25f120a09b0d323d78202b6cfbbffd79d8bec"
+  },
+  {
+    "path": "ShapedWeights.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79fceb830a5137dbf94e3300c479799c9a44ac88",
+    "size": 1563,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/79fceb830a5137dbf94e3300c479799c9a44ac88"
+  },
+  {
+    "path": "ShapedWeights.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a289653a9903d6af7d89c32af72f3c3c435c0b8",
+    "size": 1710,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/2a289653a9903d6af7d89c32af72f3c3c435c0b8"
+  },
+  {
+    "path": "Status.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bca6c4e5e8d81bd987151704b9caa0a2d17adb04",
+    "size": 1599,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/bca6c4e5e8d81bd987151704b9caa0a2d17adb04"
+  },
+  {
+    "path": "Status.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3a54dd13aa3762b23f12f899744216a77259ab1",
+    "size": 15753,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/e3a54dd13aa3762b23f12f899744216a77259ab1"
+  },
+  {
+    "path": "TensorOrWeights.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "001cb741f1e1c01798b2fde679afd77f2dea3498",
+    "size": 4391,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/001cb741f1e1c01798b2fde679afd77f2dea3498"
+  },
+  {
+    "path": "TensorOrWeights.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "850864800fb1762d30d0c7cd5c77143e79ee3cb6",
+    "size": 4838,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/850864800fb1762d30d0c7cd5c77143e79ee3cb6"
+  },
+  {
+    "path": "WeightsContext.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8bc18b0154e856809a5b2f60d3663ff83edcf362",
+    "size": 20210,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/8bc18b0154e856809a5b2f60d3663ff83edcf362"
+  },
+  {
+    "path": "WeightsContext.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a019edb51b662e5270381b21c6e51703fc5e3b8b",
+    "size": 5480,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/a019edb51b662e5270381b21c6e51703fc5e3b8b"
+  },
+  {
+    "path": "WeightsContextMemoryMap.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45b88b73cc214a658465166dd3bf9fc5dad029c5",
+    "size": 3704,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/45b88b73cc214a658465166dd3bf9fc5dad029c5"
+  },
+  {
+    "path": "bfloat16.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7514137cb2211a569c80ad144b2dca8a9ac41c2a",
+    "size": 960,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/7514137cb2211a569c80ad144b2dca8a9ac41c2a"
+  },
+  {
+    "path": "bfloat16.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e52f904b0e105c280d84d188722ffda1a3434ae",
+    "size": 490,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/2e52f904b0e105c280d84d188722ffda1a3434ae"
+  },
+  {
+    "path": "common.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c7cf665434a8263a96e66cbda4aa766f6ce7656",
+    "size": 4673,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/9c7cf665434a8263a96e66cbda4aa766f6ce7656"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a7633a4548025bdff76746a79dd67fad9a451ad6",
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/trees/a7633a4548025bdff76746a79dd67fad9a451ad6"
+  },
+  {
+    "path": "errorHelpers.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39708259998fecd0ae425891edbb1ef55943a887",
+    "size": 1429,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/39708259998fecd0ae425891edbb1ef55943a887"
+  },
+  {
+    "path": "errorHelpers.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e5f94e4863857b7c5bc3f2d902fadd568849930",
+    "size": 6518,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/1e5f94e4863857b7c5bc3f2d902fadd568849930"
+  },
+  {
+    "path": "getSupportedAPITest.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a1180ce09a06e1e727dee969b7411bb3767d1ea",
+    "size": 5486,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/1a1180ce09a06e1e727dee969b7411bb3767d1ea"
+  },
+  {
+    "path": "half.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7497459a9628d352331ed39714373c4b6fae26c6",
+    "size": 1250,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/7497459a9628d352331ed39714373c4b6fae26c6"
+  },
+  {
+    "path": "ieee_half.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "071aee098b31272bde6fbf4a339222dab117a90f",
+    "size": 147358,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/071aee098b31272bde6fbf4a339222dab117a90f"
+  },
+  {
+    "path": "importerUtils.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cd2389ccf77aae8340684f08210702f3d8cb16b",
+    "size": 96319,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/9cd2389ccf77aae8340684f08210702f3d8cb16b"
+  },
+  {
+    "path": "importerUtils.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76339deab1aadb060c8ed3928c6f053ef9d8936a",
+    "size": 24178,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/76339deab1aadb060c8ed3928c6f053ef9d8936a"
+  },
+  {
+    "path": "libnvonnxparser.version",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78f4e15ccba21c5f4f34449477eb8728420d0127",
+    "size": 189,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/78f4e15ccba21c5f4f34449477eb8728420d0127"
+  },
+  {
+    "path": "onnx2trt_common.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a071a339e52fcdf430668cd7fbb088b891a61a5",
+    "size": 1818,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/3a071a339e52fcdf430668cd7fbb088b891a61a5"
+  },
+  {
+    "path": "onnx2trt_runtime.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d5091e09ac6b91d32da445fc1dc498cb7d6f220",
+    "size": 225,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/5d5091e09ac6b91d32da445fc1dc498cb7d6f220"
+  },
+  {
+    "path": "onnxErrorRecorder.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e78e11da3f75ad50ce19617e52d562f93f6307d2",
+    "size": 2559,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/e78e11da3f75ad50ce19617e52d562f93f6307d2"
+  },
+  {
+    "path": "onnxErrorRecorder.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3fbca14c1b9e46fed0e14d4f4b61942e1d9b155",
+    "size": 3226,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/b3fbca14c1b9e46fed0e14d4f4b61942e1d9b155"
+  },
+  {
+    "path": "onnxOpCheckers.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "433e7724089bd36f9f0c659d9214a0804f59c1e3",
+    "size": 37279,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/433e7724089bd36f9f0c659d9214a0804f59c1e3"
+  },
+  {
+    "path": "onnxOpCheckers.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07ec673d9fb6cb255fa576a27d30dae630bb2185",
+    "size": 203,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/07ec673d9fb6cb255fa576a27d30dae630bb2185"
+  },
+  {
+    "path": "onnxOpImporters.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0971f5fb67c34e40d9157c40f465fd9ea47db35f",
+    "size": 332773,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/0971f5fb67c34e40d9157c40f465fd9ea47db35f"
+  },
+  {
+    "path": "onnxOpImporters.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4423bae0cee133848d055957cb971edbb9b8fb4",
+    "size": 192,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/c4423bae0cee133848d055957cb971edbb9b8fb4"
+  },
+  {
+    "path": "onnxProtoUtils.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dcd868bd97aa3201b270dfbe4e50cbd85dd06827",
+    "size": 1930,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/dcd868bd97aa3201b270dfbe4e50cbd85dd06827"
+  },
+  {
+    "path": "onnxProtoUtils.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "710a5ae520c1d01209b6b4e4fd090fcedf7e3a35",
+    "size": 3693,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/710a5ae520c1d01209b6b4e4fd090fcedf7e3a35"
+  },
+  {
+    "path": "onnx_backend_test.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f62004ad64a91ddd5f986aecabeaab453cc3b6dd",
+    "size": 7508,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/f62004ad64a91ddd5f986aecabeaab453cc3b6dd"
+  },
+  {
+    "path": "onnx_tensorrt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "29997dea1be1b6bc10e04089c53d455e521195d7",
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/trees/29997dea1be1b6bc10e04089c53d455e521195d7"
+  },
+  {
+    "path": "onnx_trt_backend.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a81c3a5def1ab03d216dbd482d1397e77512c33",
+    "size": 38038,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/8a81c3a5def1ab03d216dbd482d1397e77512c33"
+  },
+  {
+    "path": "setup.py",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad101a9383ef9c84af42b5c7fe14f179e65b0bd8",
+    "size": 1035,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/ad101a9383ef9c84af42b5c7fe14f179e65b0bd8"
+  },
+  {
+    "path": "third_party",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "233b690c001541ccd9a51c6ddf50b66c460fd6ae",
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/trees/233b690c001541ccd9a51c6ddf50b66c460fd6ae"
+  },
+  {
+    "path": "toposort.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7e213b9c628fab2c44e50bf6619b8d8f144f681",
+    "size": 2780,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/b7e213b9c628fab2c44e50bf6619b8d8f144f681"
+  },
+  {
+    "path": "weightUtils.cpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d95f4ea30b280540509f8301b33438a912392c6",
+    "size": 5848,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/5d95f4ea30b280540509f8301b33438a912392c6"
+  },
+  {
+    "path": "weightUtils.hpp",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8adac86127df530b7ae49b2e3149f095b747b59",
+    "size": 2767,
+    "url": "https://api.github.com/repos/onnx/onnx-tensorrt/git/blobs/f8adac86127df530b7ae49b2e3149f095b747b59"
+  }
+]

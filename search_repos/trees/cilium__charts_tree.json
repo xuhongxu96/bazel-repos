@@ -1,0 +1,2384 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ed72cba5aa90725e298a931eaf2159dc982600d",
+    "url": "https://api.github.com/repos/cilium/charts/git/trees/0ed72cba5aa90725e298a931eaf2159dc982600d"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "521769db7ca57aa852f6599850f1718a2aa4c920",
+    "size": 16,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/521769db7ca57aa852f6599850f1718a2aa4c920"
+  },
+  {
+    "path": "CNAME",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96ab6f7ed3ebcabb5fabfb26bca9e5a4e82e0bd1",
+    "size": 15,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/96ab6f7ed3ebcabb5fabfb26bca9e5a4e82e0bd1"
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4f5ba55a911ab7ea75013c6bf567362cf426c2c",
+    "size": 27,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a4f5ba55a911ab7ea75013c6bf567362cf426c2c"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03f9f1b648a0098680f59ef5d1e3b0e49e9f80e4",
+    "size": 44609,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/03f9f1b648a0098680f59ef5d1e3b0e49e9f80e4"
+  },
+  {
+    "path": "RELEASE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8dfb0edd5f9d2917a5d6173468c5f361d3a6f87",
+    "size": 384,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f8dfb0edd5f9d2917a5d6173468c5f361d3a6f87"
+  },
+  {
+    "path": "artifacthub-repo.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "136793f41c35ecf051e9eef805f7e92793e2e42f",
+    "size": 159,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/136793f41c35ecf051e9eef805f7e92793e2e42f"
+  },
+  {
+    "path": "cilium-1.10.0-rc0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3564d8bc1c47e7ba14f4954dc4c3f857b8ac3ae4",
+    "size": 59059,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3564d8bc1c47e7ba14f4954dc4c3f857b8ac3ae4"
+  },
+  {
+    "path": "cilium-1.10.0-rc1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa7492898fce7999bbd9231b57183e77b2b39dc7",
+    "size": 61092,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/aa7492898fce7999bbd9231b57183e77b2b39dc7"
+  },
+  {
+    "path": "cilium-1.10.0-rc2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d527543ed381ae3be22c315893abe3023d9cbb33",
+    "size": 61135,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d527543ed381ae3be22c315893abe3023d9cbb33"
+  },
+  {
+    "path": "cilium-1.10.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a0acb10293339f8814fd1aa781247412cf66f4c",
+    "size": 61134,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3a0acb10293339f8814fd1aa781247412cf66f4c"
+  },
+  {
+    "path": "cilium-1.10.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92e091966d5854f1fcf16aa3decd4edbd61ec7fd",
+    "size": 61725,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/92e091966d5854f1fcf16aa3decd4edbd61ec7fd"
+  },
+  {
+    "path": "cilium-1.10.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9792d918b9b162bcc829925ad7bf0a4af5c8d1d",
+    "size": 66037,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b9792d918b9b162bcc829925ad7bf0a4af5c8d1d"
+  },
+  {
+    "path": "cilium-1.10.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99e5fdf658692420608374229b3339832fda198f",
+    "size": 67427,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/99e5fdf658692420608374229b3339832fda198f"
+  },
+  {
+    "path": "cilium-1.10.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3140764df0176e97f1d75e999c32efc916e8aa5c",
+    "size": 66914,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3140764df0176e97f1d75e999c32efc916e8aa5c"
+  },
+  {
+    "path": "cilium-1.10.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbabd874c40dcf4fee063903184f9530226fa8fa",
+    "size": 67374,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/bbabd874c40dcf4fee063903184f9530226fa8fa"
+  },
+  {
+    "path": "cilium-1.10.14.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be8adfa78ea1594dc25c1a5c756fa99a172fecd5",
+    "size": 67935,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/be8adfa78ea1594dc25c1a5c756fa99a172fecd5"
+  },
+  {
+    "path": "cilium-1.10.15.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "205955187c987461750628b250ed38cf58d1802c",
+    "size": 68188,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/205955187c987461750628b250ed38cf58d1802c"
+  },
+  {
+    "path": "cilium-1.10.16.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "24962c365531ff43a8eaeaf13fc8ff2063d3875f",
+    "size": 68186,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/24962c365531ff43a8eaeaf13fc8ff2063d3875f"
+  },
+  {
+    "path": "cilium-1.10.17.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf05a67586ea626395e55e02820414964f24b3e3",
+    "size": 68175,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/cf05a67586ea626395e55e02820414964f24b3e3"
+  },
+  {
+    "path": "cilium-1.10.18.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a669ff3ead570344692bf9ba50ab953f069eeaff",
+    "size": 68354,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a669ff3ead570344692bf9ba50ab953f069eeaff"
+  },
+  {
+    "path": "cilium-1.10.19.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a21827818377960cfa2c865be79e99667c5c051",
+    "size": 68338,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1a21827818377960cfa2c865be79e99667c5c051"
+  },
+  {
+    "path": "cilium-1.10.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0d7fba914027fcecd560ee89f575e6df2035ae6",
+    "size": 62475,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d0d7fba914027fcecd560ee89f575e6df2035ae6"
+  },
+  {
+    "path": "cilium-1.10.20.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e14892b39d8257e2ffd94362a253c9ac45382f67",
+    "size": 68341,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e14892b39d8257e2ffd94362a253c9ac45382f67"
+  },
+  {
+    "path": "cilium-1.10.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6968b8a1b4dea89b30837e034d9467194c6e101f",
+    "size": 63013,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6968b8a1b4dea89b30837e034d9467194c6e101f"
+  },
+  {
+    "path": "cilium-1.10.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "837188a7e2ca275d2a4506d68ca0cfedd945bad6",
+    "size": 62271,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/837188a7e2ca275d2a4506d68ca0cfedd945bad6"
+  },
+  {
+    "path": "cilium-1.10.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b3494ee5535240fb077848e2b42e919ce59ceeb",
+    "size": 62530,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/5b3494ee5535240fb077848e2b42e919ce59ceeb"
+  },
+  {
+    "path": "cilium-1.10.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9ca09fb23d99fcf96913701406d994b90d1d9a70",
+    "size": 63147,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/9ca09fb23d99fcf96913701406d994b90d1d9a70"
+  },
+  {
+    "path": "cilium-1.10.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7ec871681575148403ce6b99246e97a0bc5a5bc",
+    "size": 63154,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e7ec871681575148403ce6b99246e97a0bc5a5bc"
+  },
+  {
+    "path": "cilium-1.10.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6478d08801ee9ff81d988989729fd7bd67d797c7",
+    "size": 63242,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6478d08801ee9ff81d988989729fd7bd67d797c7"
+  },
+  {
+    "path": "cilium-1.10.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "836048808f268854e31b6530858d570eea618baa",
+    "size": 65669,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/836048808f268854e31b6530858d570eea618baa"
+  },
+  {
+    "path": "cilium-1.11.0-rc0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34a6e5fa1a70ecd1b3662ba299fed7c1457471df",
+    "size": 62532,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/34a6e5fa1a70ecd1b3662ba299fed7c1457471df"
+  },
+  {
+    "path": "cilium-1.11.0-rc1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d6c82ce8b50121a97ddaf94d47ab2e6058489b8",
+    "size": 66431,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3d6c82ce8b50121a97ddaf94d47ab2e6058489b8"
+  },
+  {
+    "path": "cilium-1.11.0-rc2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3047603885826ec9ed2082f8c22929aadef28dbd",
+    "size": 66474,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3047603885826ec9ed2082f8c22929aadef28dbd"
+  },
+  {
+    "path": "cilium-1.11.0-rc3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5bc1a8a15cf054976f57fefa75d256de7e4b2779",
+    "size": 67564,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/5bc1a8a15cf054976f57fefa75d256de7e4b2779"
+  },
+  {
+    "path": "cilium-1.11.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baecf73afe27b8aaba2d64b48a2fce8952a7c721",
+    "size": 67764,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/baecf73afe27b8aaba2d64b48a2fce8952a7c721"
+  },
+  {
+    "path": "cilium-1.11.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a787ed5d03c8bfb8ec749b61b00eff2183de921",
+    "size": 67779,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3a787ed5d03c8bfb8ec749b61b00eff2183de921"
+  },
+  {
+    "path": "cilium-1.11.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b44bbd975e13307ebc401ef54e412fbb1a82d262",
+    "size": 88615,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b44bbd975e13307ebc401ef54e412fbb1a82d262"
+  },
+  {
+    "path": "cilium-1.11.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ed7688f27f6220be74217bfe850055342d2fc36",
+    "size": 88617,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7ed7688f27f6220be74217bfe850055342d2fc36"
+  },
+  {
+    "path": "cilium-1.11.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c320f2c03b40ef905781950e5d09aeab205bbab",
+    "size": 88619,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/0c320f2c03b40ef905781950e5d09aeab205bbab"
+  },
+  {
+    "path": "cilium-1.11.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "496810aba000d91dee6dc8e402bd42e3d566a556",
+    "size": 88856,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/496810aba000d91dee6dc8e402bd42e3d566a556"
+  },
+  {
+    "path": "cilium-1.11.14.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be72e3f37aff22b279b1c5c2b059c4096467bdd1",
+    "size": 88863,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/be72e3f37aff22b279b1c5c2b059c4096467bdd1"
+  },
+  {
+    "path": "cilium-1.11.15.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf8e3768bfa7da56baa673b81067f39d18e6e2dd",
+    "size": 90365,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/cf8e3768bfa7da56baa673b81067f39d18e6e2dd"
+  },
+  {
+    "path": "cilium-1.11.16.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fca545fd7214134209cc9496ed9bf731098dd2e6",
+    "size": 90848,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/fca545fd7214134209cc9496ed9bf731098dd2e6"
+  },
+  {
+    "path": "cilium-1.11.17.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e57c0facaebbba162f203cfd45d99298c0555f37",
+    "size": 91449,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e57c0facaebbba162f203cfd45d99298c0555f37"
+  },
+  {
+    "path": "cilium-1.11.18.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1a5cc02c3d8877395de1bf883c006ae16bf1ebd",
+    "size": 91665,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f1a5cc02c3d8877395de1bf883c006ae16bf1ebd"
+  },
+  {
+    "path": "cilium-1.11.19.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2e00d2ac6c5ec6625cc3280ab95b150b1cb09d3",
+    "size": 91693,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a2e00d2ac6c5ec6625cc3280ab95b150b1cb09d3"
+  },
+  {
+    "path": "cilium-1.11.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "348c1ba090a5aa7050809f33a32912459c4e3c78",
+    "size": 69098,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/348c1ba090a5aa7050809f33a32912459c4e3c78"
+  },
+  {
+    "path": "cilium-1.11.20.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "023d871b7555f04681a7665d0575cac0e604ada6",
+    "size": 91694,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/023d871b7555f04681a7665d0575cac0e604ada6"
+  },
+  {
+    "path": "cilium-1.11.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d22483c22f311397d9e85c5dc51746dfd50772dc",
+    "size": 70092,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d22483c22f311397d9e85c5dc51746dfd50772dc"
+  },
+  {
+    "path": "cilium-1.11.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d054a35b01f54cdcc9384e595d4865f948e4aea0",
+    "size": 70331,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d054a35b01f54cdcc9384e595d4865f948e4aea0"
+  },
+  {
+    "path": "cilium-1.11.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5d417d08d77d637802e7fca0ed075f0b2694311",
+    "size": 71585,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f5d417d08d77d637802e7fca0ed075f0b2694311"
+  },
+  {
+    "path": "cilium-1.11.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f771c24ec4761727b1292121f885bddfcc1307e4",
+    "size": 87250,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f771c24ec4761727b1292121f885bddfcc1307e4"
+  },
+  {
+    "path": "cilium-1.11.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7effa6f3f32788a4bc8ae5b8ca6dfea748c953dd",
+    "size": 87582,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7effa6f3f32788a4bc8ae5b8ca6dfea748c953dd"
+  },
+  {
+    "path": "cilium-1.11.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "061ad6e67ef6b149e42ce2e44d1e962810b38dfb",
+    "size": 88309,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/061ad6e67ef6b149e42ce2e44d1e962810b38dfb"
+  },
+  {
+    "path": "cilium-1.11.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "614d06db33ef21279352b28b36fd399424b7db81",
+    "size": 88626,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/614d06db33ef21279352b28b36fd399424b7db81"
+  },
+  {
+    "path": "cilium-1.12.0-rc0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c1caa1d181e1d0f93eaeceda1b542da1604e22c",
+    "size": 72278,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1c1caa1d181e1d0f93eaeceda1b542da1604e22c"
+  },
+  {
+    "path": "cilium-1.12.0-rc1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d95d3b1a0e7510bbb993bfe5a419e2276210985d",
+    "size": 73849,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d95d3b1a0e7510bbb993bfe5a419e2276210985d"
+  },
+  {
+    "path": "cilium-1.12.0-rc2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e160e637f5f72a18458ba73e8a27b84d7c08866f",
+    "size": 78133,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e160e637f5f72a18458ba73e8a27b84d7c08866f"
+  },
+  {
+    "path": "cilium-1.12.0-rc3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58dd5a21e6b53213f8b402a72609a8d274af3fe0",
+    "size": 99804,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/58dd5a21e6b53213f8b402a72609a8d274af3fe0"
+  },
+  {
+    "path": "cilium-1.12.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c69e556cc66979a95d9ec0650ba9cd1f55eda5d",
+    "size": 101250,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/8c69e556cc66979a95d9ec0650ba9cd1f55eda5d"
+  },
+  {
+    "path": "cilium-1.12.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efb46941a6545533273f78fd9e0ec54bfcd41680",
+    "size": 101012,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/efb46941a6545533273f78fd9e0ec54bfcd41680"
+  },
+  {
+    "path": "cilium-1.12.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49e61e26db32ea6d18fe9bfaa196c9aea2a0d01d",
+    "size": 105571,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/49e61e26db32ea6d18fe9bfaa196c9aea2a0d01d"
+  },
+  {
+    "path": "cilium-1.12.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82f3906b90b0d7fef371cf195a1df0530876fef6",
+    "size": 105867,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/82f3906b90b0d7fef371cf195a1df0530876fef6"
+  },
+  {
+    "path": "cilium-1.12.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38a985765b4d5de876b5d6a0f937adf857897332",
+    "size": 105865,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/38a985765b4d5de876b5d6a0f937adf857897332"
+  },
+  {
+    "path": "cilium-1.12.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ab8e9b1ff900522d7667ee798aa87e23152122e",
+    "size": 105878,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4ab8e9b1ff900522d7667ee798aa87e23152122e"
+  },
+  {
+    "path": "cilium-1.12.14.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "863c4373074a1a0989ab17fa4910ed45eea52f79",
+    "size": 105880,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/863c4373074a1a0989ab17fa4910ed45eea52f79"
+  },
+  {
+    "path": "cilium-1.12.15.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf66455ac4c2a98634330e3b730f574df9f7dfeb",
+    "size": 106213,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/cf66455ac4c2a98634330e3b730f574df9f7dfeb"
+  },
+  {
+    "path": "cilium-1.12.16.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3727a1ad07b6627786b48637ba4b0ce21e4827f4",
+    "size": 106204,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3727a1ad07b6627786b48637ba4b0ce21e4827f4"
+  },
+  {
+    "path": "cilium-1.12.17.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b4be29ab7f0846eb46b5a7e5dfc3d29b9f5550b6",
+    "size": 106884,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b4be29ab7f0846eb46b5a7e5dfc3d29b9f5550b6"
+  },
+  {
+    "path": "cilium-1.12.18.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b424a563ca9f89d47963a8b56a74bdcd997e2d99",
+    "size": 107241,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b424a563ca9f89d47963a8b56a74bdcd997e2d99"
+  },
+  {
+    "path": "cilium-1.12.19.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f71b83520ad2c6e784ea2038e81a242e4602caf",
+    "size": 107241,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/9f71b83520ad2c6e784ea2038e81a242e4602caf"
+  },
+  {
+    "path": "cilium-1.12.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd6b089ad007a2f943e3639870084a3a98ab5204",
+    "size": 101869,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/bd6b089ad007a2f943e3639870084a3a98ab5204"
+  },
+  {
+    "path": "cilium-1.12.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04c4f1ffc9ad96b45d1f901ce854d74538053333",
+    "size": 102330,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/04c4f1ffc9ad96b45d1f901ce854d74538053333"
+  },
+  {
+    "path": "cilium-1.12.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2527b2b676250841030699003f02fa9947531830",
+    "size": 102339,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2527b2b676250841030699003f02fa9947531830"
+  },
+  {
+    "path": "cilium-1.12.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d39c739f9d48a54d510b9079b4c8e0e7bb793e7",
+    "size": 102658,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7d39c739f9d48a54d510b9079b4c8e0e7bb793e7"
+  },
+  {
+    "path": "cilium-1.12.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bef8a6091212391fba41d09d012da58d37ae5989",
+    "size": 103176,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/bef8a6091212391fba41d09d012da58d37ae5989"
+  },
+  {
+    "path": "cilium-1.12.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c32efdbdc8d24b37888fedd3ab3dbe6e8ef23ddc",
+    "size": 103170,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/c32efdbdc8d24b37888fedd3ab3dbe6e8ef23ddc"
+  },
+  {
+    "path": "cilium-1.12.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f28fb073735130eaff258a050334cdfe7d6b347e",
+    "size": 104689,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f28fb073735130eaff258a050334cdfe7d6b347e"
+  },
+  {
+    "path": "cilium-1.12.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "616c047e08ed3a0cc797a25e96b5699fc1ca52bf",
+    "size": 104944,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/616c047e08ed3a0cc797a25e96b5699fc1ca52bf"
+  },
+  {
+    "path": "cilium-1.13.0-rc0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd8f3aab617eacbd082df93ded136b13e630727a",
+    "size": 102126,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/bd8f3aab617eacbd082df93ded136b13e630727a"
+  },
+  {
+    "path": "cilium-1.13.0-rc1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed51446cd42da17d07eb63d81603e8d346c8f888",
+    "size": 109218,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ed51446cd42da17d07eb63d81603e8d346c8f888"
+  },
+  {
+    "path": "cilium-1.13.0-rc2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19971d785c7727134c887b59078707204b745a12",
+    "size": 111132,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/19971d785c7727134c887b59078707204b745a12"
+  },
+  {
+    "path": "cilium-1.13.0-rc3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2124b30decf6c3a88dbe7c15d5c2ae202a46b049",
+    "size": 112430,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2124b30decf6c3a88dbe7c15d5c2ae202a46b049"
+  },
+  {
+    "path": "cilium-1.13.0-rc4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f67105db111d1647cbffc281ad20a4ac954b764",
+    "size": 116131,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/0f67105db111d1647cbffc281ad20a4ac954b764"
+  },
+  {
+    "path": "cilium-1.13.0-rc5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e6d6d35321c97e39eb2ec438955ddc5aa9a0849",
+    "size": 116705,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/8e6d6d35321c97e39eb2ec438955ddc5aa9a0849"
+  },
+  {
+    "path": "cilium-1.13.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a007b9ee0dd882cf20bfef31c55bd0b7f07fba5a",
+    "size": 117098,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a007b9ee0dd882cf20bfef31c55bd0b7f07fba5a"
+  },
+  {
+    "path": "cilium-1.13.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17f8e8aafffafda9953fbf4d8fc3eb247c14f794",
+    "size": 118535,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/17f8e8aafffafda9953fbf4d8fc3eb247c14f794"
+  },
+  {
+    "path": "cilium-1.13.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "299f186146dbd45d78921ff670ab74d360903970",
+    "size": 122179,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/299f186146dbd45d78921ff670ab74d360903970"
+  },
+  {
+    "path": "cilium-1.13.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81c0351330d9d0dee13077f0504a2d718bcca942",
+    "size": 122373,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/81c0351330d9d0dee13077f0504a2d718bcca942"
+  },
+  {
+    "path": "cilium-1.13.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a461f3c2aecfb0cbe21f652089cadb0f2a73d098",
+    "size": 122375,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a461f3c2aecfb0cbe21f652089cadb0f2a73d098"
+  },
+  {
+    "path": "cilium-1.13.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a94aef15e69bcb8c0d8536126d2921f36854d9d",
+    "size": 122371,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1a94aef15e69bcb8c0d8536126d2921f36854d9d"
+  },
+  {
+    "path": "cilium-1.13.14.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a1dc8decfdbd0ffd74a937b424ee94100768d2d",
+    "size": 122371,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1a1dc8decfdbd0ffd74a937b424ee94100768d2d"
+  },
+  {
+    "path": "cilium-1.13.15.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fef29e293f07a966d64f4996499c4bbacb52d5a",
+    "size": 122517,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1fef29e293f07a966d64f4996499c4bbacb52d5a"
+  },
+  {
+    "path": "cilium-1.13.16.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99a85f52abb0daf1ac1e85d4ae37d608e75dc529",
+    "size": 122546,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/99a85f52abb0daf1ac1e85d4ae37d608e75dc529"
+  },
+  {
+    "path": "cilium-1.13.17.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a1132f8b6d49ea929da5f0941fafbbc5f79d1ff",
+    "size": 122562,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/9a1132f8b6d49ea929da5f0941fafbbc5f79d1ff"
+  },
+  {
+    "path": "cilium-1.13.18.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8015a3ee6bf383335f62693fee9cc9118e4de08b",
+    "size": 122578,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/8015a3ee6bf383335f62693fee9cc9118e4de08b"
+  },
+  {
+    "path": "cilium-1.13.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "452dd33661dc36142da1e2514a4f6916c2f11961",
+    "size": 118935,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/452dd33661dc36142da1e2514a4f6916c2f11961"
+  },
+  {
+    "path": "cilium-1.13.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "643e7fd4b5a6a6a82be02a11928444cb68e11344",
+    "size": 119472,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/643e7fd4b5a6a6a82be02a11928444cb68e11344"
+  },
+  {
+    "path": "cilium-1.13.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c1d797720860dd11758e6e4a2e91c356bb72a24",
+    "size": 119763,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4c1d797720860dd11758e6e4a2e91c356bb72a24"
+  },
+  {
+    "path": "cilium-1.13.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6fe3d1a03de6c87cf93d980d83279862420e704",
+    "size": 120868,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e6fe3d1a03de6c87cf93d980d83279862420e704"
+  },
+  {
+    "path": "cilium-1.13.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "923ddcf14a12d08ad76e0090611141102cb223ff",
+    "size": 120863,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/923ddcf14a12d08ad76e0090611141102cb223ff"
+  },
+  {
+    "path": "cilium-1.13.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f2ca9e2518804eccef45db1ca8bb75e4ac296fe",
+    "size": 120885,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2f2ca9e2518804eccef45db1ca8bb75e4ac296fe"
+  },
+  {
+    "path": "cilium-1.13.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d6f24e6901ae80f97695dded22059a3d14b35e5",
+    "size": 121364,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7d6f24e6901ae80f97695dded22059a3d14b35e5"
+  },
+  {
+    "path": "cilium-1.13.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57f73e54e2f49b8e3379199978337345121bc6d7",
+    "size": 121359,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/57f73e54e2f49b8e3379199978337345121bc6d7"
+  },
+  {
+    "path": "cilium-1.14.0-rc.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "022860e15a0ef4ddd95e08dc79570e9c4c11192b",
+    "size": 160447,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/022860e15a0ef4ddd95e08dc79570e9c4c11192b"
+  },
+  {
+    "path": "cilium-1.14.0-rc.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "98eb2ec871c644bc18f0fed97b0701a5a9932a1b",
+    "size": 163156,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/98eb2ec871c644bc18f0fed97b0701a5a9932a1b"
+  },
+  {
+    "path": "cilium-1.14.0-snapshot.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "add8eb6a7c3f697bfb5c18c6137c652947ebcf3b",
+    "size": 118631,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/add8eb6a7c3f697bfb5c18c6137c652947ebcf3b"
+  },
+  {
+    "path": "cilium-1.14.0-snapshot.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23ec14bd59df1f1a08f47fe9c3298afbd0d3db00",
+    "size": 136867,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/23ec14bd59df1f1a08f47fe9c3298afbd0d3db00"
+  },
+  {
+    "path": "cilium-1.14.0-snapshot.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69bc8727eee8d584b4a1696191818de6858683f8",
+    "size": 144241,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/69bc8727eee8d584b4a1696191818de6858683f8"
+  },
+  {
+    "path": "cilium-1.14.0-snapshot.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af1255c32067875a60cb7aeb5e283c2a08eb249c",
+    "size": 154377,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/af1255c32067875a60cb7aeb5e283c2a08eb249c"
+  },
+  {
+    "path": "cilium-1.14.0-snapshot.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf804a20f0f86c7cbe9dd155cada030cb6062d1e",
+    "size": 160213,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/cf804a20f0f86c7cbe9dd155cada030cb6062d1e"
+  },
+  {
+    "path": "cilium-1.14.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "950242fb1a0bf3f211d2eeb6f830ab0ec7e445fe",
+    "size": 162524,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/950242fb1a0bf3f211d2eeb6f830ab0ec7e445fe"
+  },
+  {
+    "path": "cilium-1.14.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "719e27caaf53dc9af7c90e3fc126928f6d3ad451",
+    "size": 162536,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/719e27caaf53dc9af7c90e3fc126928f6d3ad451"
+  },
+  {
+    "path": "cilium-1.14.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "536add00538c693d4f667f646e715b9d2aa17364",
+    "size": 165320,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/536add00538c693d4f667f646e715b9d2aa17364"
+  },
+  {
+    "path": "cilium-1.14.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "077c2e0c3579a482174ef0d3b27c95674e596069",
+    "size": 165725,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/077c2e0c3579a482174ef0d3b27c95674e596069"
+  },
+  {
+    "path": "cilium-1.14.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51eb0cc19021798e319e1a722f3ad087dc99a217",
+    "size": 165707,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/51eb0cc19021798e319e1a722f3ad087dc99a217"
+  },
+  {
+    "path": "cilium-1.14.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f21460ab49e047ceb2a25d4372eae9e9d47d50c",
+    "size": 165974,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7f21460ab49e047ceb2a25d4372eae9e9d47d50c"
+  },
+  {
+    "path": "cilium-1.14.14.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46e2ebea8d9b76a215b14a7abf1c8f847e7c2c82",
+    "size": 167659,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/46e2ebea8d9b76a215b14a7abf1c8f847e7c2c82"
+  },
+  {
+    "path": "cilium-1.14.15.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6eec36e275fb0f855a5efb286719d4799f1e7062",
+    "size": 166308,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6eec36e275fb0f855a5efb286719d4799f1e7062"
+  },
+  {
+    "path": "cilium-1.14.16.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecbb53b2381594c4935629f606f84c8417fb8100",
+    "size": 166227,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ecbb53b2381594c4935629f606f84c8417fb8100"
+  },
+  {
+    "path": "cilium-1.14.17.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4456a584760b01bea83044c4d578ecbd5944c480",
+    "size": 166301,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4456a584760b01bea83044c4d578ecbd5944c480"
+  },
+  {
+    "path": "cilium-1.14.18.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e513a1907ea282d4efc9b68a3fb200fd449b482",
+    "size": 166391,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2e513a1907ea282d4efc9b68a3fb200fd449b482"
+  },
+  {
+    "path": "cilium-1.14.19.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74c07f85d15c4d2886a9d322b936125b30fb765b",
+    "size": 166977,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/74c07f85d15c4d2886a9d322b936125b30fb765b"
+  },
+  {
+    "path": "cilium-1.14.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f38aee33a47fcf4ca6e42588043a24baa0306f7",
+    "size": 162620,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4f38aee33a47fcf4ca6e42588043a24baa0306f7"
+  },
+  {
+    "path": "cilium-1.14.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81c6ca3cd1485e4752d977ed5a3f59141d88944d",
+    "size": 162995,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/81c6ca3cd1485e4752d977ed5a3f59141d88944d"
+  },
+  {
+    "path": "cilium-1.14.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b76250f174389e90163de4d62915825f0ad647e6",
+    "size": 163324,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b76250f174389e90163de4d62915825f0ad647e6"
+  },
+  {
+    "path": "cilium-1.14.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8a0814f43cd40c1c90297b82c346106e999c358",
+    "size": 163934,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e8a0814f43cd40c1c90297b82c346106e999c358"
+  },
+  {
+    "path": "cilium-1.14.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ad79c48c78ecb84f5b3148bae619cff915630f41",
+    "size": 164647,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ad79c48c78ecb84f5b3148bae619cff915630f41"
+  },
+  {
+    "path": "cilium-1.14.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42289ea16c5776c09b51a86aea04a709223f5595",
+    "size": 164954,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/42289ea16c5776c09b51a86aea04a709223f5595"
+  },
+  {
+    "path": "cilium-1.14.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e6bc30da8527a395cac6c0f36550fdc6f1a6d5c",
+    "size": 164983,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6e6bc30da8527a395cac6c0f36550fdc6f1a6d5c"
+  },
+  {
+    "path": "cilium-1.14.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11676fd9c02db2f283c03dc649d010746eef8bf9",
+    "size": 165199,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/11676fd9c02db2f283c03dc649d010746eef8bf9"
+  },
+  {
+    "path": "cilium-1.15.0-pre.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "730d51dc6b8d3917b1c1abd299db375f5546a541",
+    "size": 163846,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/730d51dc6b8d3917b1c1abd299db375f5546a541"
+  },
+  {
+    "path": "cilium-1.15.0-pre.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f83c05e738eeaa8318147c302fb3f2fabeda36a9",
+    "size": 170265,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f83c05e738eeaa8318147c302fb3f2fabeda36a9"
+  },
+  {
+    "path": "cilium-1.15.0-pre.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39d650486acb2f318ccc2c931574d52f35702b17",
+    "size": 173736,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/39d650486acb2f318ccc2c931574d52f35702b17"
+  },
+  {
+    "path": "cilium-1.15.0-pre.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a6fa48a56088b951a06aa3d80c52bbaf582b63f",
+    "size": 177357,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2a6fa48a56088b951a06aa3d80c52bbaf582b63f"
+  },
+  {
+    "path": "cilium-1.15.0-rc.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27f4094311fc1c633685a74a924e8ce53b0911fa",
+    "size": 177715,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/27f4094311fc1c633685a74a924e8ce53b0911fa"
+  },
+  {
+    "path": "cilium-1.15.0-rc.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7c05c35427197be07931c8df9175530e66e4c61",
+    "size": 178478,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f7c05c35427197be07931c8df9175530e66e4c61"
+  },
+  {
+    "path": "cilium-1.15.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ec1c661e6498be8996709483baba47aeeaa549e",
+    "size": 178751,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3ec1c661e6498be8996709483baba47aeeaa549e"
+  },
+  {
+    "path": "cilium-1.15.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f8105312a4769070a8d97188b8edb6305f65a540",
+    "size": 178754,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f8105312a4769070a8d97188b8edb6305f65a540"
+  },
+  {
+    "path": "cilium-1.15.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed4c82fc52c2ee5f7a099e87375f60aae5dbd20d",
+    "size": 180660,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ed4c82fc52c2ee5f7a099e87375f60aae5dbd20d"
+  },
+  {
+    "path": "cilium-1.15.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c701caa992cdbd39649ba4b4b3eefcbe829f0890",
+    "size": 180681,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/c701caa992cdbd39649ba4b4b3eefcbe829f0890"
+  },
+  {
+    "path": "cilium-1.15.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "40563f3fcdfcbb3ba309076f0db150411ba17fb6",
+    "size": 180768,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/40563f3fcdfcbb3ba309076f0db150411ba17fb6"
+  },
+  {
+    "path": "cilium-1.15.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d137e55d29bc1ddb1c74c76c404fec93de8f54ee",
+    "size": 180297,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d137e55d29bc1ddb1c74c76c404fec93de8f54ee"
+  },
+  {
+    "path": "cilium-1.15.14.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa9f9f728ec2f5684d5168ddbc274a3785de2185",
+    "size": 180304,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/aa9f9f728ec2f5684d5168ddbc274a3785de2185"
+  },
+  {
+    "path": "cilium-1.15.15.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14a0431dfff118168c5c85fc9547c3a454e7799c",
+    "size": 180321,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/14a0431dfff118168c5c85fc9547c3a454e7799c"
+  },
+  {
+    "path": "cilium-1.15.16.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "335d828b00885c21f3735cbc5f4ecc1d5a417193",
+    "size": 180310,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/335d828b00885c21f3735cbc5f4ecc1d5a417193"
+  },
+  {
+    "path": "cilium-1.15.17.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b10f5355eea7455d030d1bf03f3805f0ad6ff7e5",
+    "size": 180301,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b10f5355eea7455d030d1bf03f3805f0ad6ff7e5"
+  },
+  {
+    "path": "cilium-1.15.18.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4960e3fbf477cbb72055ebc15337428c2ba836ee",
+    "size": 180293,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4960e3fbf477cbb72055ebc15337428c2ba836ee"
+  },
+  {
+    "path": "cilium-1.15.19.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6849f86985fe9662f7b2629cd5e518c34fc40762",
+    "size": 180316,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6849f86985fe9662f7b2629cd5e518c34fc40762"
+  },
+  {
+    "path": "cilium-1.15.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bf08bd03a9eef36222216546450eadad78ec7a2",
+    "size": 178800,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6bf08bd03a9eef36222216546450eadad78ec7a2"
+  },
+  {
+    "path": "cilium-1.15.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "330f3ff48834aae9cf512fdf6540359701496a65",
+    "size": 178985,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/330f3ff48834aae9cf512fdf6540359701496a65"
+  },
+  {
+    "path": "cilium-1.15.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a9b3694a443ab27a46ae5a223f4645819f4289b",
+    "size": 179222,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6a9b3694a443ab27a46ae5a223f4645819f4289b"
+  },
+  {
+    "path": "cilium-1.15.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66d3788d4956a3cda96cf924fbc4659225d47d3d",
+    "size": 180093,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/66d3788d4956a3cda96cf924fbc4659225d47d3d"
+  },
+  {
+    "path": "cilium-1.15.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2feaa8c12fe90b95cd899d0d755d0dfef8cc5958",
+    "size": 180087,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2feaa8c12fe90b95cd899d0d755d0dfef8cc5958"
+  },
+  {
+    "path": "cilium-1.15.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "912f182297607200dff62fd6ffb7f00737e1f89f",
+    "size": 180624,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/912f182297607200dff62fd6ffb7f00737e1f89f"
+  },
+  {
+    "path": "cilium-1.15.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50964043d0294dc4b38ca88fe4d23e2beb748e3d",
+    "size": 180502,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/50964043d0294dc4b38ca88fe4d23e2beb748e3d"
+  },
+  {
+    "path": "cilium-1.15.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bc3fe3163c8d07907fb5c846ee9133c576c00cd",
+    "size": 180612,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3bc3fe3163c8d07907fb5c846ee9133c576c00cd"
+  },
+  {
+    "path": "cilium-1.16.0-pre.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1df05c9d1ea66915b756d957cbd0e8fe21ed4eaa",
+    "size": 180649,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1df05c9d1ea66915b756d957cbd0e8fe21ed4eaa"
+  },
+  {
+    "path": "cilium-1.16.0-pre.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c66c3931a0b5dc8194f5cd4243d716163893b5d",
+    "size": 193322,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7c66c3931a0b5dc8194f5cd4243d716163893b5d"
+  },
+  {
+    "path": "cilium-1.16.0-pre.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "daac7efb8b06e1ea13c5344c3cd6913618c059e8",
+    "size": 197830,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/daac7efb8b06e1ea13c5344c3cd6913618c059e8"
+  },
+  {
+    "path": "cilium-1.16.0-pre.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00d040a6fa792db7fb5526ac56352712b32e373f",
+    "size": 200476,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/00d040a6fa792db7fb5526ac56352712b32e373f"
+  },
+  {
+    "path": "cilium-1.16.0-rc.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8514c64157110b413a29ce22783dbfbb63f19296",
+    "size": 200790,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/8514c64157110b413a29ce22783dbfbb63f19296"
+  },
+  {
+    "path": "cilium-1.16.0-rc.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85a0c06466fb37dc792311cd0be9d2944da45bb9",
+    "size": 201327,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/85a0c06466fb37dc792311cd0be9d2944da45bb9"
+  },
+  {
+    "path": "cilium-1.16.0-rc.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0248cf83f7fc4d244557ab1498ee6d222e884f2",
+    "size": 202060,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/c0248cf83f7fc4d244557ab1498ee6d222e884f2"
+  },
+  {
+    "path": "cilium-1.16.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a968fac73baa2d430118170b3435361dc6a8f522",
+    "size": 202840,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a968fac73baa2d430118170b3435361dc6a8f522"
+  },
+  {
+    "path": "cilium-1.16.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3560ba0a2ca28700d94a4c8df642ac7635e8dcdf",
+    "size": 203668,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3560ba0a2ca28700d94a4c8df642ac7635e8dcdf"
+  },
+  {
+    "path": "cilium-1.16.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c8b0bf454242e14431a17149cbac03b35f6606b",
+    "size": 205457,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/9c8b0bf454242e14431a17149cbac03b35f6606b"
+  },
+  {
+    "path": "cilium-1.16.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "297284b1eaff5c8f3b71332414b6d254dc993400",
+    "size": 173627,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/297284b1eaff5c8f3b71332414b6d254dc993400"
+  },
+  {
+    "path": "cilium-1.16.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e10c28ffedb45d021414fb3b283877805d5af934",
+    "size": 205456,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e10c28ffedb45d021414fb3b283877805d5af934"
+  },
+  {
+    "path": "cilium-1.16.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9602604afca158e060597037ca7440c6b6f3c665",
+    "size": 204482,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/9602604afca158e060597037ca7440c6b6f3c665"
+  },
+  {
+    "path": "cilium-1.16.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eaca333a4751cd3ce9cb43aa026a62aaf626ada3",
+    "size": 204585,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/eaca333a4751cd3ce9cb43aa026a62aaf626ada3"
+  },
+  {
+    "path": "cilium-1.16.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5fbe1cbe081a90de0f169529bb97e814448f3f3",
+    "size": 205122,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d5fbe1cbe081a90de0f169529bb97e814448f3f3"
+  },
+  {
+    "path": "cilium-1.16.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9125bfaf009e77d26ef95c2abe27b9bb0f5a3af2",
+    "size": 205209,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/9125bfaf009e77d26ef95c2abe27b9bb0f5a3af2"
+  },
+  {
+    "path": "cilium-1.16.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e99630f9fe6bdd8434f4a84901dda2c47fab012",
+    "size": 204717,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3e99630f9fe6bdd8434f4a84901dda2c47fab012"
+  },
+  {
+    "path": "cilium-1.16.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea7417ee24b3749ab94b93e228e9e6797a143c1f",
+    "size": 205285,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ea7417ee24b3749ab94b93e228e9e6797a143c1f"
+  },
+  {
+    "path": "cilium-1.16.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dff3ab3f9abb9150ba37a53df07ccea203957258",
+    "size": 205318,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/dff3ab3f9abb9150ba37a53df07ccea203957258"
+  },
+  {
+    "path": "cilium-1.16.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca3264730a3b318d0646e8155fd7351f64611c6b",
+    "size": 205305,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ca3264730a3b318d0646e8155fd7351f64611c6b"
+  },
+  {
+    "path": "cilium-1.17.0-pre.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d36f41b12b6ecb8b1b03fbdc05feb392be63b6e",
+    "size": 209965,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1d36f41b12b6ecb8b1b03fbdc05feb392be63b6e"
+  },
+  {
+    "path": "cilium-1.17.0-pre.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c746409a0d2d77cc090ccc30e85f13e4305c010",
+    "size": 210626,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/0c746409a0d2d77cc090ccc30e85f13e4305c010"
+  },
+  {
+    "path": "cilium-1.17.0-pre.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e80f90eb9c855e1efe439a266d061c980079d9c",
+    "size": 213259,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/8e80f90eb9c855e1efe439a266d061c980079d9c"
+  },
+  {
+    "path": "cilium-1.17.0-pre.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a36a0ce16a81e351547c2a01797d238779142cdf",
+    "size": 216335,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a36a0ce16a81e351547c2a01797d238779142cdf"
+  },
+  {
+    "path": "cilium-1.17.0-rc.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "446ce3247ea18de5401a3e82aff895c40bba0843",
+    "size": 217262,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/446ce3247ea18de5401a3e82aff895c40bba0843"
+  },
+  {
+    "path": "cilium-1.17.0-rc.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9598d254ca63780314a35758c8b3d7dd89a89a4",
+    "size": 217110,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a9598d254ca63780314a35758c8b3d7dd89a89a4"
+  },
+  {
+    "path": "cilium-1.17.0-rc.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8352efe1cb6c405ce1275506bc492419963bafc",
+    "size": 218495,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a8352efe1cb6c405ce1275506bc492419963bafc"
+  },
+  {
+    "path": "cilium-1.17.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9bcc1055048d437bc5e1e6b21ce60d236076f31c",
+    "size": 218508,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/9bcc1055048d437bc5e1e6b21ce60d236076f31c"
+  },
+  {
+    "path": "cilium-1.17.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d95b80cb41d32c7668b56856a226b83ee58dc55e",
+    "size": 218517,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d95b80cb41d32c7668b56856a226b83ee58dc55e"
+  },
+  {
+    "path": "cilium-1.17.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecd011dd7b72084423ee061df91fb6fd16d977b8",
+    "size": 219438,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ecd011dd7b72084423ee061df91fb6fd16d977b8"
+  },
+  {
+    "path": "cilium-1.17.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6410fec8b8a12e5aaba73e6a227932812b7c9d4d",
+    "size": 219428,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6410fec8b8a12e5aaba73e6a227932812b7c9d4d"
+  },
+  {
+    "path": "cilium-1.17.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06abb163c5ababce8c966d0f9077411a26a77299",
+    "size": 219592,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/06abb163c5ababce8c966d0f9077411a26a77299"
+  },
+  {
+    "path": "cilium-1.17.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46d8394c5f1441a5f5882f0d43e82ac50ab4293a",
+    "size": 219658,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/46d8394c5f1441a5f5882f0d43e82ac50ab4293a"
+  },
+  {
+    "path": "cilium-1.17.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a93ea11676ccfa8417021e0579925711e4fb6c1b",
+    "size": 219585,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a93ea11676ccfa8417021e0579925711e4fb6c1b"
+  },
+  {
+    "path": "cilium-1.18.0-pre.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5ebaddd820ea5f268a10844b4e63edeb9be6348",
+    "size": 223919,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e5ebaddd820ea5f268a10844b4e63edeb9be6348"
+  },
+  {
+    "path": "cilium-1.18.0-pre.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "449d2aedbeea200d41c6dbd37f3128bd4725012e",
+    "size": 225168,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/449d2aedbeea200d41c6dbd37f3128bd4725012e"
+  },
+  {
+    "path": "cilium-1.18.0-pre.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1dc2537a1c1f3625f7ea75b8a17d8442949193a",
+    "size": 226090,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f1dc2537a1c1f3625f7ea75b8a17d8442949193a"
+  },
+  {
+    "path": "cilium-1.18.0-pre.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1622d9aee0e0de8db395668f55b296ad8e3597c5",
+    "size": 227496,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1622d9aee0e0de8db395668f55b296ad8e3597c5"
+  },
+  {
+    "path": "cilium-1.18.0-rc.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "057c15a1cfe099954203394170daa2d1537f78a5",
+    "size": 228462,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/057c15a1cfe099954203394170daa2d1537f78a5"
+  },
+  {
+    "path": "cilium-1.18.0-rc.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "827b4896dceb904ae73115186b46ecc9f28b72bd",
+    "size": 228683,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/827b4896dceb904ae73115186b46ecc9f28b72bd"
+  },
+  {
+    "path": "cilium-1.18.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2cd296610ff4d68a9ff137f66b829b155340ad3b",
+    "size": 228829,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2cd296610ff4d68a9ff137f66b829b155340ad3b"
+  },
+  {
+    "path": "cilium-1.6.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e082294ede511be01381fcb274717afb4734660",
+    "size": 16720,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1e082294ede511be01381fcb274717afb4734660"
+  },
+  {
+    "path": "cilium-1.6.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "305d751c71cf8dbf08e9af3cd41a035c13884ade",
+    "size": 16923,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/305d751c71cf8dbf08e9af3cd41a035c13884ade"
+  },
+  {
+    "path": "cilium-1.6.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b70c117ef73fa96a9649ba6fc3f6cc4b35919306",
+    "size": 16466,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b70c117ef73fa96a9649ba6fc3f6cc4b35919306"
+  },
+  {
+    "path": "cilium-1.6.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f519dea781e47fbfb5606570e6f1ecd8fc33af6",
+    "size": 13439,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4f519dea781e47fbfb5606570e6f1ecd8fc33af6"
+  },
+  {
+    "path": "cilium-1.6.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75b27ee890a9ae5c29ac7ed1949209709831a3ff",
+    "size": 13460,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/75b27ee890a9ae5c29ac7ed1949209709831a3ff"
+  },
+  {
+    "path": "cilium-1.6.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efbe7fe8a06bbad30a08edbed27dc4f9c8ea7619",
+    "size": 15808,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/efbe7fe8a06bbad30a08edbed27dc4f9c8ea7619"
+  },
+  {
+    "path": "cilium-1.6.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "361b28d6cb8a0b43cb712c6f67ae063f422af0ee",
+    "size": 15589,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/361b28d6cb8a0b43cb712c6f67ae063f422af0ee"
+  },
+  {
+    "path": "cilium-1.6.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56dd05da17fd5bd619278b7e4a67cbe30d98c318",
+    "size": 16918,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/56dd05da17fd5bd619278b7e4a67cbe30d98c318"
+  },
+  {
+    "path": "cilium-1.7.0-rc3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58fc4b136efaac67ddccbb007e395f8cd015a85e",
+    "size": 14174,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/58fc4b136efaac67ddccbb007e395f8cd015a85e"
+  },
+  {
+    "path": "cilium-1.7.0-rc4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3beab70efa71664b0496ffbf62ade8098602729",
+    "size": 16061,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/c3beab70efa71664b0496ffbf62ade8098602729"
+  },
+  {
+    "path": "cilium-1.7.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ccbcbe72a32214a9c9dd55b577ac9cc75a7992d",
+    "size": 16308,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/8ccbcbe72a32214a9c9dd55b577ac9cc75a7992d"
+  },
+  {
+    "path": "cilium-1.7.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54eef42041b1da8243f8f00a27bb9e6d6361925e",
+    "size": 17410,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/54eef42041b1da8243f8f00a27bb9e6d6361925e"
+  },
+  {
+    "path": "cilium-1.7.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a4dc1dec8136a54eeb188dedb9e1e0bf1bc8c83",
+    "size": 19593,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/5a4dc1dec8136a54eeb188dedb9e1e0bf1bc8c83"
+  },
+  {
+    "path": "cilium-1.7.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68e254d321b551cf82660ea987b6b45b0ac370cf",
+    "size": 20109,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/68e254d321b551cf82660ea987b6b45b0ac370cf"
+  },
+  {
+    "path": "cilium-1.7.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0ac80807dab3b85529d24d3eebc7725e3cc5850",
+    "size": 19951,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b0ac80807dab3b85529d24d3eebc7725e3cc5850"
+  },
+  {
+    "path": "cilium-1.7.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e832d988ac3d9a4fa6a0faae8ded2799018b6717",
+    "size": 20110,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e832d988ac3d9a4fa6a0faae8ded2799018b6717"
+  },
+  {
+    "path": "cilium-1.7.14.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac0ec5110030b3ad3680f679059a315023291015",
+    "size": 19438,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ac0ec5110030b3ad3680f679059a315023291015"
+  },
+  {
+    "path": "cilium-1.7.15.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7ca811081e4ccd33a7b0fc5a2da645a92f9d770b",
+    "size": 19865,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7ca811081e4ccd33a7b0fc5a2da645a92f9d770b"
+  },
+  {
+    "path": "cilium-1.7.16.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07e9e3e2c0d9e7b1d22b9e7d34b9620060228c68",
+    "size": 19672,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/07e9e3e2c0d9e7b1d22b9e7d34b9620060228c68"
+  },
+  {
+    "path": "cilium-1.7.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44b9bd74a9fc0b2e597d2659370e7a99b65f9ce5",
+    "size": 17449,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/44b9bd74a9fc0b2e597d2659370e7a99b65f9ce5"
+  },
+  {
+    "path": "cilium-1.7.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fee9478ca7c821fe0399e14baaa0473d553338d",
+    "size": 18305,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/0fee9478ca7c821fe0399e14baaa0473d553338d"
+  },
+  {
+    "path": "cilium-1.7.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef76bd4ed83302dd4ba8fd182a1918a4583dc0a7",
+    "size": 18007,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ef76bd4ed83302dd4ba8fd182a1918a4583dc0a7"
+  },
+  {
+    "path": "cilium-1.7.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91b431b5df30d52ca65c5ea70ec768e17e318a56",
+    "size": 18793,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/91b431b5df30d52ca65c5ea70ec768e17e318a56"
+  },
+  {
+    "path": "cilium-1.7.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0ad0ea71007c8d2adb0b28ba5b3694a60be0ce7",
+    "size": 19237,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a0ad0ea71007c8d2adb0b28ba5b3694a60be0ce7"
+  },
+  {
+    "path": "cilium-1.7.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f062eb7fafb833fc06f1ef4b4f388980b4af75cc",
+    "size": 19254,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f062eb7fafb833fc06f1ef4b4f388980b4af75cc"
+  },
+  {
+    "path": "cilium-1.7.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51156f66fab051f33cc32331b4feba66b3ef3ced",
+    "size": 19578,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/51156f66fab051f33cc32331b4feba66b3ef3ced"
+  },
+  {
+    "path": "cilium-1.7.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f2290b63eb21026a2111f3a1dfa90847edf9bba",
+    "size": 19576,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4f2290b63eb21026a2111f3a1dfa90847edf9bba"
+  },
+  {
+    "path": "cilium-1.8.0-rc1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33be8510118e48f42289041ae56cffdb9ef6b167",
+    "size": 26323,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/33be8510118e48f42289041ae56cffdb9ef6b167"
+  },
+  {
+    "path": "cilium-1.8.0-rc2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1376ebe5c1a53895bcc685e30213b3b3bd87508",
+    "size": 30259,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d1376ebe5c1a53895bcc685e30213b3b3bd87508"
+  },
+  {
+    "path": "cilium-1.8.0-rc3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e9c86c24393a42eb526ee9e0f2a5551cdf4423e",
+    "size": 31251,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6e9c86c24393a42eb526ee9e0f2a5551cdf4423e"
+  },
+  {
+    "path": "cilium-1.8.0-rc4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7998181da20e84045cb1ba459f5d95e87500b951",
+    "size": 30650,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7998181da20e84045cb1ba459f5d95e87500b951"
+  },
+  {
+    "path": "cilium-1.8.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5602765853801da1fe14aef143adc6f2d88ad0bc",
+    "size": 31471,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/5602765853801da1fe14aef143adc6f2d88ad0bc"
+  },
+  {
+    "path": "cilium-1.8.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "184c9bca125f92c8e297b0fa97f10122012397c2",
+    "size": 32047,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/184c9bca125f92c8e297b0fa97f10122012397c2"
+  },
+  {
+    "path": "cilium-1.8.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "797f22d5ea19987b7daba784efbedd6737ef9db4",
+    "size": 35115,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/797f22d5ea19987b7daba784efbedd6737ef9db4"
+  },
+  {
+    "path": "cilium-1.8.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46e514af2cd1b9cf54ee6ece88d9f482ead313e5",
+    "size": 34862,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/46e514af2cd1b9cf54ee6ece88d9f482ead313e5"
+  },
+  {
+    "path": "cilium-1.8.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cbfe970707949476842bace2bd7b722e5a90e81",
+    "size": 33802,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4cbfe970707949476842bace2bd7b722e5a90e81"
+  },
+  {
+    "path": "cilium-1.8.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1807ce113f5886feb61fee748a72d9cffc54d00d",
+    "size": 35339,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1807ce113f5886feb61fee748a72d9cffc54d00d"
+  },
+  {
+    "path": "cilium-1.8.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8d6f5b800670b9c35311792f7c47ee4b690c3a4",
+    "size": 31306,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a8d6f5b800670b9c35311792f7c47ee4b690c3a4"
+  },
+  {
+    "path": "cilium-1.8.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "33676503b8993d0ad3726beb3674be2a16c05a7a",
+    "size": 33014,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/33676503b8993d0ad3726beb3674be2a16c05a7a"
+  },
+  {
+    "path": "cilium-1.8.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7908e5d4969848be649db44e40251bd9eb5c6fc3",
+    "size": 33050,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7908e5d4969848be649db44e40251bd9eb5c6fc3"
+  },
+  {
+    "path": "cilium-1.8.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cb22d4e9eefc2e92b540526554de89738e32a59",
+    "size": 33542,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3cb22d4e9eefc2e92b540526554de89738e32a59"
+  },
+  {
+    "path": "cilium-1.8.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a31b96d30e7ef8d221bb7d756a9094fcf044b672",
+    "size": 32400,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/a31b96d30e7ef8d221bb7d756a9094fcf044b672"
+  },
+  {
+    "path": "cilium-1.8.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e6271186b752986274855d1abe0aab7b4c619d3",
+    "size": 33083,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2e6271186b752986274855d1abe0aab7b4c619d3"
+  },
+  {
+    "path": "cilium-1.8.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b94236163eb9b9ef37accc83d3bdf0c10be7f0c5",
+    "size": 35291,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b94236163eb9b9ef37accc83d3bdf0c10be7f0c5"
+  },
+  {
+    "path": "cilium-1.8.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba50143f5fa6b012dea0bab598d7cd404851c467",
+    "size": 34630,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ba50143f5fa6b012dea0bab598d7cd404851c467"
+  },
+  {
+    "path": "cilium-1.9.0-rc0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfc2f5147a35ec26fbc299fee1e445e86ed82e28",
+    "size": 31817,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/dfc2f5147a35ec26fbc299fee1e445e86ed82e28"
+  },
+  {
+    "path": "cilium-1.9.0-rc1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "087d9c4cd9f13033cb619152695500981f8c3c59",
+    "size": 33870,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/087d9c4cd9f13033cb619152695500981f8c3c59"
+  },
+  {
+    "path": "cilium-1.9.0-rc2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db7d48df93e2e651c5534d8241b3f04a3ff5731c",
+    "size": 36431,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/db7d48df93e2e651c5534d8241b3f04a3ff5731c"
+  },
+  {
+    "path": "cilium-1.9.0-rc3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "691f30d02ba5d8ef52f44a4bc90c6be9d5eff32a",
+    "size": 40650,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/691f30d02ba5d8ef52f44a4bc90c6be9d5eff32a"
+  },
+  {
+    "path": "cilium-1.9.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ad51b3fbf210695a52d6ad88a492650b5249629",
+    "size": 40963,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4ad51b3fbf210695a52d6ad88a492650b5249629"
+  },
+  {
+    "path": "cilium-1.9.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfc31f5569496bee729ad58cf7c995368654bd76",
+    "size": 53963,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/dfc31f5569496bee729ad58cf7c995368654bd76"
+  },
+  {
+    "path": "cilium-1.9.10.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b336765f224591d2b54ec9e63f6ad8d5d0e2d9c",
+    "size": 57671,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/0b336765f224591d2b54ec9e63f6ad8d5d0e2d9c"
+  },
+  {
+    "path": "cilium-1.9.11.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49f969d22765739d3d398af1935afb0c2bec7f6c",
+    "size": 58025,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/49f969d22765739d3d398af1935afb0c2bec7f6c"
+  },
+  {
+    "path": "cilium-1.9.12.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b6844c0807809417d2338e753ba1ab7ce27788b",
+    "size": 58024,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1b6844c0807809417d2338e753ba1ab7ce27788b"
+  },
+  {
+    "path": "cilium-1.9.13.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19f017a5090ef8c6932fc53ebfb7e3385d72fd1b",
+    "size": 58117,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/19f017a5090ef8c6932fc53ebfb7e3385d72fd1b"
+  },
+  {
+    "path": "cilium-1.9.14.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64ab1b58fae18f92d8d00719dc5edd2354bc44c3",
+    "size": 58114,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/64ab1b58fae18f92d8d00719dc5edd2354bc44c3"
+  },
+  {
+    "path": "cilium-1.9.15.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0dba22c35c0dbc131b59da7adb13f66c62a8aee2",
+    "size": 58324,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/0dba22c35c0dbc131b59da7adb13f66c62a8aee2"
+  },
+  {
+    "path": "cilium-1.9.16.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2bfe5ce67cf1e0e6e5cd03ca9297c8226acdc41f",
+    "size": 58892,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2bfe5ce67cf1e0e6e5cd03ca9297c8226acdc41f"
+  },
+  {
+    "path": "cilium-1.9.17.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bdc52de56b0bcb897b52c47b165e395d1045bbe3",
+    "size": 58860,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/bdc52de56b0bcb897b52c47b165e395d1045bbe3"
+  },
+  {
+    "path": "cilium-1.9.18.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29672de6b81737fc8b9496a0ffb97c975d8b9a31",
+    "size": 58495,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/29672de6b81737fc8b9496a0ffb97c975d8b9a31"
+  },
+  {
+    "path": "cilium-1.9.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cf61dcd3b39d2bbfe2e84061f71bf6dc6319961",
+    "size": 54878,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/8cf61dcd3b39d2bbfe2e84061f71bf6dc6319961"
+  },
+  {
+    "path": "cilium-1.9.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed46f67f9e318fa31cecdcffbc43267cbc7f1a3b",
+    "size": 54871,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ed46f67f9e318fa31cecdcffbc43267cbc7f1a3b"
+  },
+  {
+    "path": "cilium-1.9.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2fbfe2bb9ecab5850ea972d46a203a5169251cea",
+    "size": 55311,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/2fbfe2bb9ecab5850ea972d46a203a5169251cea"
+  },
+  {
+    "path": "cilium-1.9.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2ff1be6a0230ab2710e456ee3f4eb0fa6bb245d",
+    "size": 56509,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f2ff1be6a0230ab2710e456ee3f4eb0fa6bb245d"
+  },
+  {
+    "path": "cilium-1.9.6.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd9c86a4e42026549ad5ba78229f0cd40102c666",
+    "size": 56524,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/bd9c86a4e42026549ad5ba78229f0cd40102c666"
+  },
+  {
+    "path": "cilium-1.9.7.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c58c8f9519a3d82512c11ff3fecb5fda4302f60",
+    "size": 56560,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/0c58c8f9519a3d82512c11ff3fecb5fda4302f60"
+  },
+  {
+    "path": "cilium-1.9.8.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7e3350a6643b06f24d1bece03e8b1e5da511ff72",
+    "size": 56635,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/7e3350a6643b06f24d1bece03e8b1e5da511ff72"
+  },
+  {
+    "path": "cilium-1.9.9.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9d584bdc2e1d710e5644b4a6a6e33619bea0158",
+    "size": 57831,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/b9d584bdc2e1d710e5644b4a6a6e33619bea0158"
+  },
+  {
+    "path": "generate_helm_release.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6d960935b01f2f285490fe34ddebfc24610d46bb",
+    "size": 3612,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/6d960935b01f2f285490fe34ddebfc24610d46bb"
+  },
+  {
+    "path": "generate_readme.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cd7da499e05cab661615faa044b57b6e0f8b68b8",
+    "size": 1253,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/cd7da499e05cab661615faa044b57b6e0f8b68b8"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff5ddc5300ba290c0c0829cf1ae2481f74b5d895",
+    "size": 41,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ff5ddc5300ba290c0c0829cf1ae2481f74b5d895"
+  },
+  {
+    "path": "helm.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dea70a098cbc13c3c2ecf3377a2071a40f7e8507",
+    "size": 149,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/dea70a098cbc13c3c2ecf3377a2071a40f7e8507"
+  },
+  {
+    "path": "images",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7949d756d69092ac36d61570d99549e2cbba7acf",
+    "url": "https://api.github.com/repos/cilium/charts/git/trees/7949d756d69092ac36d61570d99549e2cbba7acf"
+  },
+  {
+    "path": "index.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "906512669a853e50e16df4fdbe9e48dd90264e6e",
+    "size": 1289519,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/906512669a853e50e16df4fdbe9e48dd90264e6e"
+  },
+  {
+    "path": "tetragon-0.10.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9fdd1f2e7a47c43a40dda8faf673ca308e6e80ee",
+    "size": 8581,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/9fdd1f2e7a47c43a40dda8faf673ca308e6e80ee"
+  },
+  {
+    "path": "tetragon-0.11.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f91c525370ceef305cbe17f80491d87f4c63034c",
+    "size": 10008,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f91c525370ceef305cbe17f80491d87f4c63034c"
+  },
+  {
+    "path": "tetragon-0.8.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3483d05bced3dd2a1a6f260f477af17ea8196ce9",
+    "size": 6643,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3483d05bced3dd2a1a6f260f477af17ea8196ce9"
+  },
+  {
+    "path": "tetragon-0.8.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cd59614c031c77cc4fb6303338943172cec9710",
+    "size": 7321,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/4cd59614c031c77cc4fb6303338943172cec9710"
+  },
+  {
+    "path": "tetragon-0.8.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d8ddc159f038020573075d241e25ad11bc1e8316",
+    "size": 7304,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d8ddc159f038020573075d241e25ad11bc1e8316"
+  },
+  {
+    "path": "tetragon-0.8.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "00fbdbc8dde21523159be2f72dbe2b62940daec6",
+    "size": 7218,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/00fbdbc8dde21523159be2f72dbe2b62940daec6"
+  },
+  {
+    "path": "tetragon-0.8.4.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f77ba99f0475e7a6ce09b476aa78ded72531ebee",
+    "size": 7618,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f77ba99f0475e7a6ce09b476aa78ded72531ebee"
+  },
+  {
+    "path": "tetragon-0.9.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "854cabce1a9ac26cbea35333cf664410f4028b9d",
+    "size": 8256,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/854cabce1a9ac26cbea35333cf664410f4028b9d"
+  },
+  {
+    "path": "tetragon-1.0.0-rc.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17b87b528d9f0b849fe2c9eb4665bbcca32ffd91",
+    "size": 10372,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/17b87b528d9f0b849fe2c9eb4665bbcca32ffd91"
+  },
+  {
+    "path": "tetragon-1.0.0-rc.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f2269b7c96621072bcbcb5916a9c3bb1264102ed",
+    "size": 10461,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f2269b7c96621072bcbcb5916a9c3bb1264102ed"
+  },
+  {
+    "path": "tetragon-1.0.0-rc.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "905f9c5e957561e40006fbc1416ec40d0dd0fdea",
+    "size": 10460,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/905f9c5e957561e40006fbc1416ec40d0dd0fdea"
+  },
+  {
+    "path": "tetragon-1.0.0-rc.5.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de9a26dc9b5b544ddae60c081218693dcf8ddd4d",
+    "size": 10488,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/de9a26dc9b5b544ddae60c081218693dcf8ddd4d"
+  },
+  {
+    "path": "tetragon-1.0.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5fe79c631b78ffb9d697b906b3d95a4b6f63a2c",
+    "size": 10468,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d5fe79c631b78ffb9d697b906b3d95a4b6f63a2c"
+  },
+  {
+    "path": "tetragon-1.0.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f08544aaf6d4b1d49730dfb2a89939bb05f35110",
+    "size": 10467,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/f08544aaf6d4b1d49730dfb2a89939bb05f35110"
+  },
+  {
+    "path": "tetragon-1.0.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1033c528281ffaf486b499666ea08899b09e2818",
+    "size": 10471,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/1033c528281ffaf486b499666ea08899b09e2818"
+  },
+  {
+    "path": "tetragon-1.0.3.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63e3a2673a05a5da4b21c877131c82f2ea165c69",
+    "size": 11030,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/63e3a2673a05a5da4b21c877131c82f2ea165c69"
+  },
+  {
+    "path": "tetragon-1.1.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76e924998f18a9fb9591e94d62b54bca63809cf0",
+    "size": 29343,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/76e924998f18a9fb9591e94d62b54bca63809cf0"
+  },
+  {
+    "path": "tetragon-1.1.2.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba87a1419fc687217d86247106d7d0ed2776aa8c",
+    "size": 29550,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/ba87a1419fc687217d86247106d7d0ed2776aa8c"
+  },
+  {
+    "path": "tetragon-1.2.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e42dca3ebfa06622edd5743ca28b859b4159c0f2",
+    "size": 32603,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e42dca3ebfa06622edd5743ca28b859b4159c0f2"
+  },
+  {
+    "path": "tetragon-1.2.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e4afd65c3920fc9509259b825cb37d33e585407",
+    "size": 32763,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/8e4afd65c3920fc9509259b825cb37d33e585407"
+  },
+  {
+    "path": "tetragon-1.3.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d070c5534e803051168fdfbb1b36ed73ba7226e8",
+    "size": 32933,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/d070c5534e803051168fdfbb1b36ed73ba7226e8"
+  },
+  {
+    "path": "tetragon-1.4.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3004ea10906ad5c9be5c210c5a21346ba9f73550",
+    "size": 37524,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/3004ea10906ad5c9be5c210c5a21346ba9f73550"
+  },
+  {
+    "path": "tetragon-1.4.1.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5af31de49d4b2ed1ccd6d7e929ebea21dfbeac6",
+    "size": 37513,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/c5af31de49d4b2ed1ccd6d7e929ebea21dfbeac6"
+  },
+  {
+    "path": "tetragon-1.5.0.tgz",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "534e7719d8b66bc025985f556c4a110f47f17e6f",
+    "size": 38167,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/534e7719d8b66bc025985f556c4a110f47f17e6f"
+  },
+  {
+    "path": "validate_helm_chart.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e2ad32c6dcd56912ba9a0a5637e6c48101a13790",
+    "size": 1614,
+    "url": "https://api.github.com/repos/cilium/charts/git/blobs/e2ad32c6dcd56912ba9a0a5637e6c48101a13790"
+  }
+]

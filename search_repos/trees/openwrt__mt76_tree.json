@@ -1,0 +1,631 @@
+[
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6bd2c57453834107f8ea9f70cb444b3585c53acc",
+    "size": 148,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/6bd2c57453834107f8ea9f70cb444b3585c53acc"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4663ccda0cfc3ef9e9e6c58aafae03604922361",
+    "size": 1580,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/a4663ccda0cfc3ef9e9e6c58aafae03604922361"
+  },
+  {
+    "path": "agg-rx.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07c386c7b4d08967f5dcb69ee9282b042afbce10",
+    "size": 6641,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/07c386c7b4d08967f5dcb69ee9282b042afbce10"
+  },
+  {
+    "path": "channel.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77b75792eb488e9c5da9ca8026c04157182c13a4",
+    "size": 9675,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/77b75792eb488e9c5da9ca8026c04157182c13a4"
+  },
+  {
+    "path": "debugfs.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4649ba04092e538586ecc247ae5c1a089b4c262",
+    "size": 2989,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/c4649ba04092e538586ecc247ae5c1a089b4c262"
+  },
+  {
+    "path": "dma.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54d2dbc3b30007a7a0bd53e6ca2b5bf4741baea9",
+    "size": 22376,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/54d2dbc3b30007a7a0bd53e6ca2b5bf4741baea9"
+  },
+  {
+    "path": "dma.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1de5a2b20f747838884f61a454f25bdecb1c1d41",
+    "size": 2851,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/1de5a2b20f747838884f61a454f25bdecb1c1d41"
+  },
+  {
+    "path": "eeprom.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30b744a1ca4645a61294340f68b892a67efcc3ec",
+    "size": 9304,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/30b744a1ca4645a61294340f68b892a67efcc3ec"
+  },
+  {
+    "path": "firmware",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82774287683493428ed522299f4d1840de60110e",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/82774287683493428ed522299f4d1840de60110e"
+  },
+  {
+    "path": "mac80211.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd5f56250f2ce233a1c51c8c0372ba12a9f737bf",
+    "size": 48983,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/bd5f56250f2ce233a1c51c8c0372ba12a9f737bf"
+  },
+  {
+    "path": "mcu.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65d4c2adb53868337004ea61dc63efa3a309021b",
+    "size": 3635,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/65d4c2adb53868337004ea61dc63efa3a309021b"
+  },
+  {
+    "path": "mmio.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd2e9737c3bf9275699046c03749aa13b9bf1d77",
+    "size": 2355,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/cd2e9737c3bf9275699046c03749aa13b9bf1d77"
+  },
+  {
+    "path": "mt76.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95f7567ad9e31765227f7d87e6faba11dff8e7d7",
+    "size": 49746,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/95f7567ad9e31765227f7d87e6faba11dff8e7d7"
+  },
+  {
+    "path": "mt7603",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "72a0fefc30f6747356439553c05e1f363047fdb7",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/72a0fefc30f6747356439553c05e1f363047fdb7"
+  },
+  {
+    "path": "mt7615",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cbc00ac5a8555639722dd2572afd9a44ae64678a",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/cbc00ac5a8555639722dd2572afd9a44ae64678a"
+  },
+  {
+    "path": "mt76_connac.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "192dcc374a642cad939ef2116303c7cdbeadf94f",
+    "size": 10851,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/192dcc374a642cad939ef2116303c7cdbeadf94f"
+  },
+  {
+    "path": "mt76_connac2_mac.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb4765365b8ce42c70f38414a9ad420fd705e5cf",
+    "size": 11167,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/eb4765365b8ce42c70f38414a9ad420fd705e5cf"
+  },
+  {
+    "path": "mt76_connac3_mac.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d300948308d92e35c7a9ee16986e21a617ce0be",
+    "size": 8916,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/2d300948308d92e35c7a9ee16986e21a617ce0be"
+  },
+  {
+    "path": "mt76_connac3_mac.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1013cad57a7ff3ad3ca2ddce8ea94f7ef704fead",
+    "size": 12216,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/1013cad57a7ff3ad3ca2ddce8ea94f7ef704fead"
+  },
+  {
+    "path": "mt76_connac_mac.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0db00efe88b0b7565d47af9d8075b082306d237b",
+    "size": 32628,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/0db00efe88b0b7565d47af9d8075b082306d237b"
+  },
+  {
+    "path": "mt76_connac_mcu.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16db0f2082d1ec196872520d8e0d306e2f94a9f5",
+    "size": 86573,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/16db0f2082d1ec196872520d8e0d306e2f94a9f5"
+  },
+  {
+    "path": "mt76_connac_mcu.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27daf419560a57802ce057867e10e096d8ae96c6",
+    "size": 49305,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/27daf419560a57802ce057867e10e096d8ae96c6"
+  },
+  {
+    "path": "mt76x0",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "16694cae2fc4c5bfa263587758756ce7d54c07ff",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/16694cae2fc4c5bfa263587758756ce7d54c07ff"
+  },
+  {
+    "path": "mt76x02.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9d7ee09b6cc971c87fe33676738a94fbf4105595",
+    "size": 7526,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/9d7ee09b6cc971c87fe33676738a94fbf4105595"
+  },
+  {
+    "path": "mt76x02_beacon.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d570b99bccb90cb9584df21f0c7e9192006f091f",
+    "size": 5494,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/d570b99bccb90cb9584df21f0c7e9192006f091f"
+  },
+  {
+    "path": "mt76x02_debugfs.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8ce4bf44733dcaf7fe3be7d6382570f6e390c3a3",
+    "size": 4221,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/8ce4bf44733dcaf7fe3be7d6382570f6e390c3a3"
+  },
+  {
+    "path": "mt76x02_dfs.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7a07636d09c65fa615edab919b96d8a274eaa3a9",
+    "size": 24339,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/7a07636d09c65fa615edab919b96d8a274eaa3a9"
+  },
+  {
+    "path": "mt76x02_dfs.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "491010a3224758c10015fd8bb5248c2fd83fef97",
+    "size": 2979,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/491010a3224758c10015fd8bb5248c2fd83fef97"
+  },
+  {
+    "path": "mt76x02_dma.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23b0e7d10d57844898d1fe7ab809de3f307ae620",
+    "size": 1766,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/23b0e7d10d57844898d1fe7ab809de3f307ae620"
+  },
+  {
+    "path": "mt76x02_eeprom.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d402cf2951cb35c2aa5bd1dde0ca20a142a56dc",
+    "size": 3428,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/5d402cf2951cb35c2aa5bd1dde0ca20a142a56dc"
+  },
+  {
+    "path": "mt76x02_eeprom.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13fa70853b0dbc62685a0deaf4829eb350e3a92e",
+    "size": 4952,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/13fa70853b0dbc62685a0deaf4829eb350e3a92e"
+  },
+  {
+    "path": "mt76x02_mac.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83488b2d6efb90126ea8b954af77871f74234183",
+    "size": 31693,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/83488b2d6efb90126ea8b954af77871f74234183"
+  },
+  {
+    "path": "mt76x02_mac.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5dc6c834111e2bdc09c40de085d2c11a5dd9ddf0",
+    "size": 5932,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/5dc6c834111e2bdc09c40de085d2c11a5dd9ddf0"
+  },
+  {
+    "path": "mt76x02_mcu.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75978820a26041dab602fa6b20028a8e78aeec7e",
+    "size": 3946,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/75978820a26041dab602fa6b20028a8e78aeec7e"
+  },
+  {
+    "path": "mt76x02_mcu.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e187ed52968ea981216007108e2e21307255ac30",
+    "size": 2381,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/e187ed52968ea981216007108e2e21307255ac30"
+  },
+  {
+    "path": "mt76x02_mmio.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9f9330fe500eed9ef4502f345c2440523dbb0ac",
+    "size": 14052,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/f9f9330fe500eed9ef4502f345c2440523dbb0ac"
+  },
+  {
+    "path": "mt76x02_phy.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cbe7e6f0c29a4b51a77d3c1e28c3fa27c0097339",
+    "size": 5149,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/cbe7e6f0c29a4b51a77d3c1e28c3fa27c0097339"
+  },
+  {
+    "path": "mt76x02_phy.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "84d8a6138b3eaace66530c95544a6a49c12d27a6",
+    "size": 1340,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/84d8a6138b3eaace66530c95544a6a49c12d27a6"
+  },
+  {
+    "path": "mt76x02_regs.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe0c5e3298bcc73fa8a8a0861a66cdfaabb8afcf",
+    "size": 22096,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/fe0c5e3298bcc73fa8a8a0861a66cdfaabb8afcf"
+  },
+  {
+    "path": "mt76x02_trace.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a812c3a1e258a361071bbaca68ebaef15305517e",
+    "size": 201,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/a812c3a1e258a361071bbaca68ebaef15305517e"
+  },
+  {
+    "path": "mt76x02_trace.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11d119cd0f6fd0349228444e9d225e9bfc531073",
+    "size": 1867,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/11d119cd0f6fd0349228444e9d225e9bfc531073"
+  },
+  {
+    "path": "mt76x02_txrx.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d8bc4ae185f552910ca5d0f5703b809775bffd15",
+    "size": 5033,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/d8bc4ae185f552910ca5d0f5703b809775bffd15"
+  },
+  {
+    "path": "mt76x02_usb.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5be884b3549b31af75a766094f71126ab8ddb1b",
+    "size": 945,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/b5be884b3549b31af75a766094f71126ab8ddb1b"
+  },
+  {
+    "path": "mt76x02_usb_core.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e1ede9314d8f76c3dcba19161c8dec399eeeae1",
+    "size": 7758,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/0e1ede9314d8f76c3dcba19161c8dec399eeeae1"
+  },
+  {
+    "path": "mt76x02_usb_mcu.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2cc449142945f585a7d50ca0d68da21e35531e7",
+    "size": 6729,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/b2cc449142945f585a7d50ca0d68da21e35531e7"
+  },
+  {
+    "path": "mt76x02_util.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fb30589fa7a098ff0145282329c6fc4d37f0297",
+    "size": 19456,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/4fb30589fa7a098ff0145282329c6fc4d37f0297"
+  },
+  {
+    "path": "mt76x2",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "02c481ca3c0c2ec289679f320019718565d27ddf",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/02c481ca3c0c2ec289679f320019718565d27ddf"
+  },
+  {
+    "path": "mt7915",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7b1c310400fe95779094fc0b1b5ffbfa697d5916",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/7b1c310400fe95779094fc0b1b5ffbfa697d5916"
+  },
+  {
+    "path": "mt7921",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d1a727b2c81ab73506fb229b8638569cfdf5c11b",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/d1a727b2c81ab73506fb229b8638569cfdf5c11b"
+  },
+  {
+    "path": "mt7925",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bd8c278b0745bba69aac2f22bc91c6e575487928",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/bd8c278b0745bba69aac2f22bc91c6e575487928"
+  },
+  {
+    "path": "mt792x.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e0359d431eca9696e81963ba322537c651c1f125",
+    "size": 15210,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/e0359d431eca9696e81963ba322537c651c1f125"
+  },
+  {
+    "path": "mt792x_acpi_sar.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1aebadd50aac05367cd3ff926979eccd8979d1e",
+    "size": 10955,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/d1aebadd50aac05367cd3ff926979eccd8979d1e"
+  },
+  {
+    "path": "mt792x_acpi_sar.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e45dcd7fbdb18bd13dfb177061f97a8363585c73",
+    "size": 2157,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/e45dcd7fbdb18bd13dfb177061f97a8363585c73"
+  },
+  {
+    "path": "mt792x_core.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56ebbf12892257d63558c7c5084f0f670bab5e75",
+    "size": 25876,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/56ebbf12892257d63558c7c5084f0f670bab5e75"
+  },
+  {
+    "path": "mt792x_debugfs.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9858d9a93851a3e96e210e6f1fe89e4d7c061cfa",
+    "size": 3883,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/9858d9a93851a3e96e210e6f1fe89e4d7c061cfa"
+  },
+  {
+    "path": "mt792x_dma.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5cc2d59b774af9fa3739f25056cc57391195fd3b",
+    "size": 10598,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/5cc2d59b774af9fa3739f25056cc57391195fd3b"
+  },
+  {
+    "path": "mt792x_mac.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f1d9ba49076fe3a45a03dfa142242cf231623c6",
+    "size": 10999,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/3f1d9ba49076fe3a45a03dfa142242cf231623c6"
+  },
+  {
+    "path": "mt792x_regs.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "458cfd0260b13adf40ab609067abea67415045c3",
+    "size": 18298,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/458cfd0260b13adf40ab609067abea67415045c3"
+  },
+  {
+    "path": "mt792x_trace.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6f284fb929d54d1cf191394564c6ced25e163ea",
+    "size": 250,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/b6f284fb929d54d1cf191394564c6ced25e163ea"
+  },
+  {
+    "path": "mt792x_trace.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61f2aa26065623ba9b8affba67e8c1ee11492c67",
+    "size": 1052,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/61f2aa26065623ba9b8affba67e8c1ee11492c67"
+  },
+  {
+    "path": "mt792x_usb.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76272a03b22e59b9d79a4ab4619812fc77bb0cfd",
+    "size": 8304,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/76272a03b22e59b9d79a4ab4619812fc77bb0cfd"
+  },
+  {
+    "path": "mt7996",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ffc582ac1a653be43661e03d75cc3ad570064757",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/ffc582ac1a653be43661e03d75cc3ad570064757"
+  },
+  {
+    "path": "pci.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5031ca7f73fb83928e80ccb8bd8b5f4b70c7eed",
+    "size": 1783,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/b5031ca7f73fb83928e80ccb8bd8b5f4b70c7eed"
+  },
+  {
+    "path": "scan.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b20ccbeb8cf19d3c231b82121c1dbeec8ab8a33",
+    "size": 4122,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/9b20ccbeb8cf19d3c231b82121c1dbeec8ab8a33"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c539c591d96024688f365ef98c7fe5316f78dd4",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/0c539c591d96024688f365ef98c7fe5316f78dd4"
+  },
+  {
+    "path": "sdio.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e9576747052d6ce62644ecedf5eadf58921a6e1",
+    "size": 14558,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/8e9576747052d6ce62644ecedf5eadf58921a6e1"
+  },
+  {
+    "path": "sdio.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27d5d2077ebae2f232e1ab35378cb30876c77a30",
+    "size": 4110,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/27d5d2077ebae2f232e1ab35378cb30876c77a30"
+  },
+  {
+    "path": "sdio_txrx.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f882d21c9f6334252d7bf8fe86cfa31bcb5e693f",
+    "size": 8904,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/f882d21c9f6334252d7bf8fe86cfa31bcb5e693f"
+  },
+  {
+    "path": "testmode.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca4feccf38caf1ce83f3f20c20b05d5e24a843b9",
+    "size": 17192,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/ca4feccf38caf1ce83f3f20c20b05d5e24a843b9"
+  },
+  {
+    "path": "testmode.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b0bcae83067b828c638001b9d7f7c71d2bc96f3",
+    "size": 5754,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/1b0bcae83067b828c638001b9d7f7c71d2bc96f3"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f3347c97aed8a7a26f59a3833e1d9667fe104603",
+    "url": "https://api.github.com/repos/openwrt/mt76/git/trees/f3347c97aed8a7a26f59a3833e1d9667fe104603"
+  },
+  {
+    "path": "trace.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f199fcd2a63d417544c63aded480a7909c087ea0",
+    "size": 275,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/f199fcd2a63d417544c63aded480a7909c087ea0"
+  },
+  {
+    "path": "trace.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "109a07f9733a8ee73efdda8fc7a99858eac28f47",
+    "size": 2318,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/109a07f9733a8ee73efdda8fc7a99858eac28f47"
+  },
+  {
+    "path": "tx.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6cf16706667e783168dbd7fefe3254f0797ae67",
+    "size": 21323,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/e6cf16706667e783168dbd7fefe3254f0797ae67"
+  },
+  {
+    "path": "usb.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9e67b8c3b3c89eb9b0e3b149ee5bc534b087b6d",
+    "size": 25535,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/f9e67b8c3b3c89eb9b0e3b149ee5bc534b087b6d"
+  },
+  {
+    "path": "usb_trace.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9942bdd6177bc8f1d7a0879e06c7ac052073eba0",
+    "size": 216,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/9942bdd6177bc8f1d7a0879e06c7ac052073eba0"
+  },
+  {
+    "path": "usb_trace.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b261ddb2ac66f3196d29a23a434d5884401ed57",
+    "size": 1986,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/7b261ddb2ac66f3196d29a23a434d5884401ed57"
+  },
+  {
+    "path": "util.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97249ebb4bc8fe42f31cc3a3f6bc956075bb7072",
+    "size": 2455,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/97249ebb4bc8fe42f31cc3a3f6bc956075bb7072"
+  },
+  {
+    "path": "util.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "260965dde94cf7cb7284de18b95acac8b95df503",
+    "size": 2187,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/260965dde94cf7cb7284de18b95acac8b95df503"
+  },
+  {
+    "path": "wed.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63f69e152b1cbb5bc0170a44976be1c7c52f21dc",
+    "size": 5151,
+    "url": "https://api.github.com/repos/openwrt/mt76/git/blobs/63f69e152b1cbb5bc0170a44976be1c7c52f21dc"
+  }
+]

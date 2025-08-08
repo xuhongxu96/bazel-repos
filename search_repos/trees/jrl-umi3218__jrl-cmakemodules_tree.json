@@ -1,0 +1,844 @@
+[
+  {
+    "path": ".clang-format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d9882918e2c161a274b1897069ac52ed0080f448",
+    "size": 55,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/d9882918e2c161a274b1897069ac52ed0080f448"
+  },
+  {
+    "path": ".docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5e2f976b65c88f066d93caa2778c3a2c90e50857",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/5e2f976b65c88f066d93caa2778c3a2c90e50857"
+  },
+  {
+    "path": ".gersemirc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2080e3f15095e1df256f3add6ab749ee4866a6d",
+    "size": 63,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/e2080e3f15095e1df256f3add6ab749ee4866a6d"
+  },
+  {
+    "path": ".git-blame-ignore-revs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1f014c65fe6ae12ddcd253fb53ead2b57b57aa1",
+    "size": 352,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/b1f014c65fe6ae12ddcd253fb53ead2b57b57aa1"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bf291a309249684882a03565f33ea28685dd23b7",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/bf291a309249684882a03565f33ea28685dd23b7"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "899cf1b11522026906f7f8aceaccb467457f62cf",
+    "size": 64,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/899cf1b11522026906f7f8aceaccb467457f62cf"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d75cea7a912fb884a457719dfdbf2f72b43f1511",
+    "size": 1137,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/d75cea7a912fb884a457719dfdbf2f72b43f1511"
+  },
+  {
+    "path": "CMakeLists.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5faf5a22ca117299df88a7c699937439a3a10265",
+    "size": 3321,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/5faf5a22ca117299df88a7c699937439a3a10265"
+  },
+  {
+    "path": "Config.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb26e06f458723a61650b7bd106238ef7afe4fc6",
+    "size": 5822,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/cb26e06f458723a61650b7bd106238ef7afe4fc6"
+  },
+  {
+    "path": "GNUInstallDirs.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbf56b86cd67aaa0572e8926e8306e265ba75f0c",
+    "size": 14705,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/fbf56b86cd67aaa0572e8926e8306e265ba75f0c"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa1b189e99484ca42a91c4fb984339fcca431aea",
+    "size": 7843,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/aa1b189e99484ca42a91c4fb984339fcca431aea"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3bb5e257c629afbf9ba1622552388e1e7aa40acf",
+    "size": 1429,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/3bb5e257c629afbf9ba1622552388e1e7aa40acf"
+  },
+  {
+    "path": "_unittests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c368bf96da5e8f2a431435cf12f5e88381fed32f",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/c368bf96da5e8f2a431435cf12f5e88381fed32f"
+  },
+  {
+    "path": "announce-gen",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9c5f90502af1fb18b0ecc17f968c3e05e74b10f2",
+    "size": 15895,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/9c5f90502af1fb18b0ecc17f968c3e05e74b10f2"
+  },
+  {
+    "path": "apple.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14235fb68d9151de0ad4f54222a3cfd51600e8b4",
+    "size": 1458,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/14235fb68d9151de0ad4f54222a3cfd51600e8b4"
+  },
+  {
+    "path": "base.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a43e2919400129f735d272b6ae6a3dfdff70ee7",
+    "size": 14453,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/8a43e2919400129f735d272b6ae6a3dfdff70ee7"
+  },
+  {
+    "path": "boost.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5c0ee8344a963ef49b56f1a435ab4eaab329556",
+    "size": 9131,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/f5c0ee8344a963ef49b56f1a435ab4eaab329556"
+  },
+  {
+    "path": "boost",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a218b07cc6795702107d7bbad492fad94e6ea3d7",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/a218b07cc6795702107d7bbad492fad94e6ea3d7"
+  },
+  {
+    "path": "catkin.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a12d3fd41fee7244eed1e4eb6d25919b8f5521d",
+    "size": 1000,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/2a12d3fd41fee7244eed1e4eb6d25919b8f5521d"
+  },
+  {
+    "path": "cmake_reinstall.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ebdedb3ee9b27be41dc1faaa9572106f890857a",
+    "size": 995,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/3ebdedb3ee9b27be41dc1faaa9572106f890857a"
+  },
+  {
+    "path": "cmake_uninstall.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4691f5aae1cb5383b274b66d3810b69359e0755f",
+    "size": 3231,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/4691f5aae1cb5383b274b66d3810b69359e0755f"
+  },
+  {
+    "path": "compiler.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a46647d5ba91b913b72496e280775fe2ac06efa",
+    "size": 5427,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/1a46647d5ba91b913b72496e280775fe2ac06efa"
+  },
+  {
+    "path": "componentConfig.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "34a4767855e9478ba0ca440d8023b96606d8c216",
+    "size": 693,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/34a4767855e9478ba0ca440d8023b96606d8c216"
+  },
+  {
+    "path": "config.h.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "990cee1b4fe6d6adf9fd1b6eff80d8db77749ca0",
+    "size": 1497,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/990cee1b4fe6d6adf9fd1b6eff80d8db77749ca0"
+  },
+  {
+    "path": "config.hh.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3b4a367b1342a108ac298d1b416c1fc9eb7b68b",
+    "size": 5381,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/d3b4a367b1342a108ac298d1b416c1fc9eb7b68b"
+  },
+  {
+    "path": "coverage.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c760f1d3bf6841a5b463cfe866fce5b795e8150d",
+    "size": 1316,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/c760f1d3bf6841a5b463cfe866fce5b795e8150d"
+  },
+  {
+    "path": "cpack.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "872c001e1d61aab96e253b85b8dd5dc92281b627",
+    "size": 3112,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/872c001e1d61aab96e253b85b8dd5dc92281b627"
+  },
+  {
+    "path": "createshexe.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6465c44ed66d8adce7b507ca5ae3fb53d82659cf",
+    "size": 1413,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/6465c44ed66d8adce7b507ca5ae3fb53d82659cf"
+  },
+  {
+    "path": "cxx-standard.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62072ea075ddf5fda07b9e87155895066eb000fe",
+    "size": 6468,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/62072ea075ddf5fda07b9e87155895066eb000fe"
+  },
+  {
+    "path": "cxx11.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9112351363d37f1fc374846784b5ef668e006a52",
+    "size": 1054,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/9112351363d37f1fc374846784b5ef668e006a52"
+  },
+  {
+    "path": "cython",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "413aa89692e9636b977f506ed6f17f8c82d7c752",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/413aa89692e9636b977f506ed6f17f8c82d7c752"
+  },
+  {
+    "path": "debian.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23e8b2726c78fb1907917c71d11801f66feafdf6",
+    "size": 5631,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/23e8b2726c78fb1907917c71d11801f66feafdf6"
+  },
+  {
+    "path": "deprecated.hh.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a269599e1af8c19a3e001ca3ee7a056644147bff",
+    "size": 2350,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/a269599e1af8c19a3e001ca3ee7a056644147bff"
+  },
+  {
+    "path": "dist.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50fdd737e2ce25fc65053b050f29379e897a16dc",
+    "size": 7201,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/50fdd737e2ce25fc65053b050f29379e897a16dc"
+  },
+  {
+    "path": "distcheck.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc843202abe448374d4d7f6094a60a4bdddae223",
+    "size": 7283,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/fc843202abe448374d4d7f6094a60a4bdddae223"
+  },
+  {
+    "path": "doxygen.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf868079167e0c197215e11c63fffed849d5b625",
+    "size": 27733,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/bf868079167e0c197215e11c63fffed849d5b625"
+  },
+  {
+    "path": "doxygen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a03ab9ad2781843d27845e6d001b69c955b34d91",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/a03ab9ad2781843d27845e6d001b69c955b34d91"
+  },
+  {
+    "path": "dynamic_graph",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e98eb100d7c7144cf4fd5d8f6bb032f98e428ce2",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/e98eb100d7c7144cf4fd5d8f6bb032f98e428ce2"
+  },
+  {
+    "path": "eigen.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03667af1796f558673cbf9df3086f67408944a83",
+    "size": 2309,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/03667af1796f558673cbf9df3086f67408944a83"
+  },
+  {
+    "path": "filefilter.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71b54d32e92f0f9df6b8c6177027d9921082cdbf",
+    "size": 2543,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/71b54d32e92f0f9df6b8c6177027d9921082cdbf"
+  },
+  {
+    "path": "find-external",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0ef6cdf04d9cb58d1b02a8fcbb933e9ca28b96e2",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/0ef6cdf04d9cb58d1b02a8fcbb933e9ca28b96e2"
+  },
+  {
+    "path": "fix-license.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ce982ac781595ea3a70a3ea7c6c8c4dc583073d3",
+    "size": 1394,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/ce982ac781595ea3a70a3ea7c6c8c4dc583073d3"
+  },
+  {
+    "path": "flake.lock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a580e260189823917cdd26f6f0113ca9c78ee8d9",
+    "size": 1529,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/a580e260189823917cdd26f6f0113ca9c78ee8d9"
+  },
+  {
+    "path": "flake.nix",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec4d11f73f1d61c2ad5c72fa2a86762cb9521d9a",
+    "size": 1490,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/ec4d11f73f1d61c2ad5c72fa2a86762cb9521d9a"
+  },
+  {
+    "path": "geometric-tools.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5170f9fc43126fdfecfc83a63110d11982d7b51",
+    "size": 3051,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/f5170f9fc43126fdfecfc83a63110d11982d7b51"
+  },
+  {
+    "path": "git-archive-all.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "4360acebf4cf10ae300c12e7ff449dcd14047891",
+    "size": 20530,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/4360acebf4cf10ae300c12e7ff449dcd14047891"
+  },
+  {
+    "path": "git-archive-all.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "06d3f7a23392554a81003eb852dcec24a7c3a7e3",
+    "size": 8187,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/06d3f7a23392554a81003eb852dcec24a7c3a7e3"
+  },
+  {
+    "path": "github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "171942d2c0651dd6475b05d88f1531d1e65ad902",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/171942d2c0651dd6475b05d88f1531d1e65ad902"
+  },
+  {
+    "path": "gitlog-to-changelog",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ac0360f710c2b92ce84ae45acc550a927c3b3b35",
+    "size": 13416,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/ac0360f710c2b92ce84ae45acc550a927c3b3b35"
+  },
+  {
+    "path": "gtest.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc3347b6da8f0005256d76c2c01a3c7ea707c667",
+    "size": 2518,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/cc3347b6da8f0005256d76c2c01a3c7ea707c667"
+  },
+  {
+    "path": "gtest",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5dfce364faff30d935cd6e562210dc4157cd423d",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/5dfce364faff30d935cd6e562210dc4157cd423d"
+  },
+  {
+    "path": "header.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e81acce07783f3b95299a2d40b6f172ed354218b",
+    "size": 10425,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/e81acce07783f3b95299a2d40b6f172ed354218b"
+  },
+  {
+    "path": "hpp.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "369a619736e0b02bfd520168fc58bbc25b8de4aa",
+    "size": 2870,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/369a619736e0b02bfd520168fc58bbc25b8de4aa"
+  },
+  {
+    "path": "hpp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc0e33bd99b251fe3b9f26739f3a291e1538f27f",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/bc0e33bd99b251fe3b9f26739f3a291e1538f27f"
+  },
+  {
+    "path": "ide.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2461139bd4148f938e9b58e050b62c20dddc75bc",
+    "size": 3139,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/2461139bd4148f938e9b58e050b62c20dddc75bc"
+  },
+  {
+    "path": "idl.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3560c89504ab7cc2b1d912022bb5aa0aebded0f",
+    "size": 7768,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/f3560c89504ab7cc2b1d912022bb5aa0aebded0f"
+  },
+  {
+    "path": "idlrtc.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "10c30cc831fa849bf451ce3ac3161ccc3c6073f9",
+    "size": 2800,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/10c30cc831fa849bf451ce3ac3161ccc3c6073f9"
+  },
+  {
+    "path": "image",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3eabf6d471c85c3c912224381451143275d37802",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/3eabf6d471c85c3c912224381451143275d37802"
+  },
+  {
+    "path": "install-data.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0481a0126f11892bdfa4c2e369ffa85c5209dee1",
+    "size": 1086,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/0481a0126f11892bdfa4c2e369ffa85c5209dee1"
+  },
+  {
+    "path": "install-helpers.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ced94ca8c350551f678455b5118807f07ecd1f97",
+    "size": 1460,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/ced94ca8c350551f678455b5118807f07ecd1f97"
+  },
+  {
+    "path": "julia.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ec24b5b6387cea83cd557fa86ab7b6850ecdc50b",
+    "size": 757,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/ec24b5b6387cea83cd557fa86ab7b6850ecdc50b"
+  },
+  {
+    "path": "kineo.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b32e9cc36f2c3219c260878dd6c494081fd0b40b",
+    "size": 3569,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/b32e9cc36f2c3219c260878dd6c494081fd0b40b"
+  },
+  {
+    "path": "lapack.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e07944d2afff386d0db39f7953b52b8302db3d0b",
+    "size": 1906,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/e07944d2afff386d0db39f7953b52b8302db3d0b"
+  },
+  {
+    "path": "logging.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7cdea4c81feaa27bfce27dc303ab0b0009eb84f3",
+    "size": 6952,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/7cdea4c81feaa27bfce27dc303ab0b0009eb84f3"
+  },
+  {
+    "path": "man.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "389081d5de3ec5de6225cdb5f1ccd40d005fe659",
+    "size": 2017,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/389081d5de3ec5de6225cdb5f1ccd40d005fe659"
+  },
+  {
+    "path": "memorycheck_unit_test.cmake.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07775e07f12bae7617646d9adc6295df33ad53ac",
+    "size": 1629,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/07775e07f12bae7617646d9adc6295df33ad53ac"
+  },
+  {
+    "path": "metapodfromurdf.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ced93f8076ee3c93437d3b51fef713ca4b48c33d",
+    "size": 1669,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/ced93f8076ee3c93437d3b51fef713ca4b48c33d"
+  },
+  {
+    "path": "modernize-links.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3af002ef2dd175b38ad28add71d3d675aa086fa4",
+    "size": 1366,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/3af002ef2dd175b38ad28add71d3d675aa086fa4"
+  },
+  {
+    "path": "msvc-specific.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a39860cea658926d0f9b80633a08ca44e4f02037",
+    "size": 7555,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/a39860cea658926d0f9b80633a08ca44e4f02037"
+  },
+  {
+    "path": "msvc.vcxproj.user.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d13edb8c2802f950226a81175e3b4a51dae9dc8",
+    "size": 632,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/2d13edb8c2802f950226a81175e3b4a51dae9dc8"
+  },
+  {
+    "path": "openhrp.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7410fd9e5fda823f0b9777b337f7ab53ca01e5fa",
+    "size": 2346,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/7410fd9e5fda823f0b9777b337f7ab53ca01e5fa"
+  },
+  {
+    "path": "openhrpcontroller.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e714c5e225218a42362209d9b6f22bb013ce25e8",
+    "size": 1962,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/e714c5e225218a42362209d9b6f22bb013ce25e8"
+  },
+  {
+    "path": "openrtm.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "20e56d96047fc489f94714738599dc3cc819d477",
+    "size": 1588,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/20e56d96047fc489f94714738599dc3cc819d477"
+  },
+  {
+    "path": "oscheck.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfd53ae38fc26e776c5f315754ab3d7d303bf68d",
+    "size": 1397,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/bfd53ae38fc26e776c5f315754ab3d7d303bf68d"
+  },
+  {
+    "path": "package-config.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07b32ff72ec43ca171cd9154d63474b38ac2ea70",
+    "size": 13892,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/07b32ff72ec43ca171cd9154d63474b38ac2ea70"
+  },
+  {
+    "path": "package.xml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89ed79fa74f04c303f7d3fdc35211aeebcd6c43c",
+    "size": 3392,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/89ed79fa74f04c303f7d3fdc35211aeebcd6c43c"
+  },
+  {
+    "path": "pixi.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "898079d2a8f2643111b6144987b772973722d9ac",
+    "size": 965,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/898079d2a8f2643111b6144987b772973722d9ac"
+  },
+  {
+    "path": "pkg-config.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "193b049f4c4aaef5e3b88f71c8c84b0d1d5df769",
+    "size": 41318,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/193b049f4c4aaef5e3b88f71c8c84b0d1d5df769"
+  },
+  {
+    "path": "pkg-config.pc.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "03a7882285221ceae5369d01615b5868ac66142f",
+    "size": 679,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/03a7882285221ceae5369d01615b5868ac66142f"
+  },
+  {
+    "path": "portability.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1cbd7037060d27435d9294028e50c08632fc6454",
+    "size": 2594,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/1cbd7037060d27435d9294028e50c08632fc6454"
+  },
+  {
+    "path": "post-project.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb0a46abc626bf26636cba94d0d709de8076ccee",
+    "size": 2695,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/fb0a46abc626bf26636cba94d0d709de8076ccee"
+  },
+  {
+    "path": "pthread.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c2c377992a04c03035a866227ce3685df37fe9f",
+    "size": 1513,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/8c2c377992a04c03035a866227ce3685df37fe9f"
+  },
+  {
+    "path": "pyproject.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0f8d3e311b7f3f52d7b4e0b69d61b888556fc246",
+    "size": 826,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/0f8d3e311b7f3f52d7b4e0b69d61b888556fc246"
+  },
+  {
+    "path": "python-helpers.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc79cf137200ea189d626020a0181df4278350a0",
+    "size": 4689,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/fc79cf137200ea189d626020a0181df4278350a0"
+  },
+  {
+    "path": "python.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a7d2d9cad9d4b70ef1aa580244d79db1f7d0943",
+    "size": 20294,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/2a7d2d9cad9d4b70ef1aa580244d79db1f7d0943"
+  },
+  {
+    "path": "qhull.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64707a2f4d5d070c094c2f3f6ebdcbad192181e5",
+    "size": 4493,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/64707a2f4d5d070c094c2f3f6ebdcbad192181e5"
+  },
+  {
+    "path": "release.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "879148f4512f9416c6d23f4ba34c643822ede2a4",
+    "size": 7949,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/879148f4512f9416c6d23f4ba34c643822ede2a4"
+  },
+  {
+    "path": "relpath.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "79bd1fa25ebb00862c8b54bd56ba361a2d008ff8",
+    "size": 1521,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/79bd1fa25ebb00862c8b54bd56ba361a2d008ff8"
+  },
+  {
+    "path": "ros.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70dd481e5006efce10f62d482834aeb00e754eef",
+    "size": 5914,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/70dd481e5006efce10f62d482834aeb00e754eef"
+  },
+  {
+    "path": "ros2.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0eb88531d4bb9daa5e0eb44426709d4cd381d1ed",
+    "size": 2665,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/0eb88531d4bb9daa5e0eb44426709d4cd381d1ed"
+  },
+  {
+    "path": "sdformat.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a68e8d6dc3bde8518f99c0375908ea5138fd2d7c",
+    "size": 1447,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/a68e8d6dc3bde8518f99c0375908ea5138fd2d7c"
+  },
+  {
+    "path": "setup.cfg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1cef5927404878c53a5fc746ef99008ca2c388cb",
+    "size": 76,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/1cef5927404878c53a5fc746ef99008ca2c388cb"
+  },
+  {
+    "path": "shared-library.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eee4fbace3e746f7e13cf0a69366ecdf5dc534fa",
+    "size": 1721,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/eee4fbace3e746f7e13cf0a69366ecdf5dc534fa"
+  },
+  {
+    "path": "sphinx.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c80f0c7d0c022692ceaf19c41495111f4e89883d",
+    "size": 5205,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/c80f0c7d0c022692ceaf19c41495111f4e89883d"
+  },
+  {
+    "path": "sphinx",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1c8d2ea3a9ef170c2c06cad77cb92e1bbafa4e99",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/1c8d2ea3a9ef170c2c06cad77cb92e1bbafa4e99"
+  },
+  {
+    "path": "stubgen",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc66e349535d4695d9fe6484bb51a8e4ea62be28",
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/trees/cc66e349535d4695d9fe6484bb51a8e4ea62be28"
+  },
+  {
+    "path": "stubs.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c772b2f8b269f67bb3a28487c23b4cc3b1f261b0",
+    "size": 5493,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/c772b2f8b269f67bb3a28487c23b4cc3b1f261b0"
+  },
+  {
+    "path": "swig.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57b04fbf5d6cb34ad894c06a3eeb4f666baf8fba",
+    "size": 2116,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/57b04fbf5d6cb34ad894c06a3eeb4f666baf8fba"
+  },
+  {
+    "path": "test.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "487c9b20ecc4034b9d489849ccc427783a6e2d5a",
+    "size": 10081,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/487c9b20ecc4034b9d489849ccc427783a6e2d5a"
+  },
+  {
+    "path": "tracy.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0da3e14887b96252bb51f2330c10c14732795ab7",
+    "size": 3499,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/0da3e14887b96252bb51f2330c10c14732795ab7"
+  },
+  {
+    "path": "tracy.hh.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e5527bfde381b69f03e1b5cc6a76d37bd5c1a92",
+    "size": 1152,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/1e5527bfde381b69f03e1b5cc6a76d37bd5c1a92"
+  },
+  {
+    "path": "uninstall.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60fd1790fbb2a46ee5112161385de831aa064c41",
+    "size": 3407,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/60fd1790fbb2a46ee5112161385de831aa064c41"
+  },
+  {
+    "path": "version-script-test.lds",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "022df8c4d7387e73b351652c88025b8e7dd8393e",
+    "size": 5,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/022df8c4d7387e73b351652c88025b8e7dd8393e"
+  },
+  {
+    "path": "version-script.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "125b875579d5a82feaa42bfa95bc6660139ec4f1",
+    "size": 2614,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/125b875579d5a82feaa42bfa95bc6660139ec4f1"
+  },
+  {
+    "path": "version.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "162bf1addecaa426f2502e6d4f282da38672a6c8",
+    "size": 10433,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/162bf1addecaa426f2502e6d4f282da38672a6c8"
+  },
+  {
+    "path": "warning.hh.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b42418691d8a57eb33ac2e3e5766927637ab47da",
+    "size": 1196,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/b42418691d8a57eb33ac2e3e5766927637ab47da"
+  },
+  {
+    "path": "xacro.cmake",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4c887682f249c572220aec0851e2c34c68fcb50",
+    "size": 3356,
+    "url": "https://api.github.com/repos/jrl-umi3218/jrl-cmakemodules/git/blobs/d4c887682f249c572220aec0851e2c34c68fcb50"
+  }
+]

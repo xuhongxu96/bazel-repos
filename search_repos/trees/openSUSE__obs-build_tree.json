@@ -1,0 +1,958 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6a5fbc82895b1bf659e67348664a2c1bc593bef",
+    "size": 246,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/e6a5fbc82895b1bf659e67348664a2c1bc593bef"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "40a8334e816589569dd54239ad6962a650abb08c",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/40a8334e816589569dd54239ad6962a650abb08c"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6fe8a9d457816a5b4d0e8990fc10077f5962414a",
+    "size": 9,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/6fe8a9d457816a5b4d0e8990fc10077f5962414a"
+  },
+  {
+    "path": ".travis.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa6950e594b318ad0f0d3a8d35dfad438d60615e",
+    "size": 303,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/fa6950e594b318ad0f0d3a8d35dfad438d60615e"
+  },
+  {
+    "path": "Build.pm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fb8120fd39e4084b36794d2e4ae7ad5add2bbbc",
+    "size": 47317,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/1fb8120fd39e4084b36794d2e4ae7ad5add2bbbc"
+  },
+  {
+    "path": "Build",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e27d399569ab792db2af5ecef3bde04e5b604fc5",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/e27d399569ab792db2af5ecef3bde04e5b604fc5"
+  },
+  {
+    "path": "COPYING",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6b1bb9c9666eebe188488a3d6f486ebecbc94fc",
+    "size": 17995,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/c6b1bb9c9666eebe188488a3d6f486ebecbc94fc"
+  },
+  {
+    "path": "HOWTO.add_another_format",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7967afc82947be7181c78ea184a66f23c79c8ad9",
+    "size": 3916,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/7967afc82947be7181c78ea184a66f23c79c8ad9"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8fdea2b65af092a8d6cfa002162f495873dfbbb",
+    "size": 4168,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/b8fdea2b65af092a8d6cfa002162f495873dfbbb"
+  },
+  {
+    "path": "PBuild",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5ae67da799f6d5ae3a389b898dd5621d1761f08a",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/5ae67da799f6d5ae3a389b898dd5621d1761f08a"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8858d4ddee2de6ac194c670d2a4ce9ff7d048381",
+    "size": 3138,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/8858d4ddee2de6ac194c670d2a4ce9ff7d048381"
+  },
+  {
+    "path": "baselibs_configs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f9eb0d8b9581934dd653d4a82a3e64b6cdbfb7ec",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/f9eb0d8b9581934dd653d4a82a3e64b6cdbfb7ec"
+  },
+  {
+    "path": "build",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e5ec04fdcaf461e9978dd72ddd3d33ad94d1f80a",
+    "size": 62741,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/e5ec04fdcaf461e9978dd72ddd3d33ad94d1f80a"
+  },
+  {
+    "path": "build-pkg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b94a794c991805e029fe46bf7444a39dbd9013a",
+    "size": 2739,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/0b94a794c991805e029fe46bf7444a39dbd9013a"
+  },
+  {
+    "path": "build-pkg-apk",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7ae8ce4127edbeb7488f112765dfb37b4db16bc",
+    "size": 2261,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/b7ae8ce4127edbeb7488f112765dfb37b4db16bc"
+  },
+  {
+    "path": "build-pkg-arch",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4217239e25595827238de59bad3b7e5dfe70cc0e",
+    "size": 3192,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/4217239e25595827238de59bad3b7e5dfe70cc0e"
+  },
+  {
+    "path": "build-pkg-deb",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d22693daf4fd7c335e9f17f04dd337fabbad0f45",
+    "size": 8912,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/d22693daf4fd7c335e9f17f04dd337fabbad0f45"
+  },
+  {
+    "path": "build-pkg-rpm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "950113c830dc6dde357a75f25ff785ee236cc105",
+    "size": 11632,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/950113c830dc6dde357a75f25ff785ee236cc105"
+  },
+  {
+    "path": "build-recipe",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e890963eaa1dbdb3a59f14ae8c4bb04f295b2fd",
+    "size": 11863,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/9e890963eaa1dbdb3a59f14ae8c4bb04f295b2fd"
+  },
+  {
+    "path": "build-recipe-apk",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69f3a10fcd6399fd8d7c68b01aa70a010007ba46",
+    "size": 2529,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/69f3a10fcd6399fd8d7c68b01aa70a010007ba46"
+  },
+  {
+    "path": "build-recipe-appimage",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e8597b8e36b828bf16f4de2e6d53448975b6bd4",
+    "size": 4184,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/1e8597b8e36b828bf16f4de2e6d53448975b6bd4"
+  },
+  {
+    "path": "build-recipe-arch",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fa6a1528c56c04280ce5c42fa55ec5963dbf723d",
+    "size": 2181,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/fa6a1528c56c04280ce5c42fa55ec5963dbf723d"
+  },
+  {
+    "path": "build-recipe-collax",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85c2be2ffaa54cb8bd09ec3d45edff3dc6bd57da",
+    "size": 1520,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/85c2be2ffaa54cb8bd09ec3d45edff3dc6bd57da"
+  },
+  {
+    "path": "build-recipe-debbuild",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b89f0614992d92f68b92c7ce805b90bb2be4d7f4",
+    "size": 1827,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/b89f0614992d92f68b92c7ce805b90bb2be4d7f4"
+  },
+  {
+    "path": "build-recipe-debootstrap",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b18b6da686f53ea86abe64b0842b7a586d96fabc",
+    "size": 4197,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/b18b6da686f53ea86abe64b0842b7a586d96fabc"
+  },
+  {
+    "path": "build-recipe-docker",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "296ff7027c219556ad144cd16c47550a1776256e",
+    "size": 16938,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/296ff7027c219556ad144cd16c47550a1776256e"
+  },
+  {
+    "path": "build-recipe-dsc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c956b46bf43a1616b5e0019b14ab9dc411afaa3",
+    "size": 9343,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/5c956b46bf43a1616b5e0019b14ab9dc411afaa3"
+  },
+  {
+    "path": "build-recipe-fissile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2e6013616dcd8c09a49611e314a0ac0edc13683",
+    "size": 5368,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/b2e6013616dcd8c09a49611e314a0ac0edc13683"
+  },
+  {
+    "path": "build-recipe-flatpak",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f16cc77aa5bcd27c3cd64d0044f2753bae1338bb",
+    "size": 3290,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/f16cc77aa5bcd27c3cd64d0044f2753bae1338bb"
+  },
+  {
+    "path": "build-recipe-helm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a514fa23c6b5a6ce56d97150c26bb39b2f10b453",
+    "size": 4311,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/a514fa23c6b5a6ce56d97150c26bb39b2f10b453"
+  },
+  {
+    "path": "build-recipe-kiwi",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "187067ebfa1124ce1e7b4254e11f4ce22286b1b7",
+    "size": 37543,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/187067ebfa1124ce1e7b4254e11f4ce22286b1b7"
+  },
+  {
+    "path": "build-recipe-livebuild",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "81593dd6115bae9191ac0952f7a23bffd5c1d7b3",
+    "size": 10509,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/81593dd6115bae9191ac0952f7a23bffd5c1d7b3"
+  },
+  {
+    "path": "build-recipe-mkosi",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0f28f0471670a67bbc1ec4b4f454e88b3cff3ed",
+    "size": 6096,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/b0f28f0471670a67bbc1ec4b4f454e88b3cff3ed"
+  },
+  {
+    "path": "build-recipe-mock",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0b94b8726f053e088e65b4cfc9cf8c6bddbbef7",
+    "size": 3572,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/f0b94b8726f053e088e65b4cfc9cf8c6bddbbef7"
+  },
+  {
+    "path": "build-recipe-podman",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1f266708c3e043c2db2f6593af3156258738398f",
+    "size": 1462,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/1f266708c3e043c2db2f6593af3156258738398f"
+  },
+  {
+    "path": "build-recipe-preinstallimage",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f83a9ee2e8fb23126e804c1eecd5f0531af22d1b",
+    "size": 3139,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/f83a9ee2e8fb23126e804c1eecd5f0531af22d1b"
+  },
+  {
+    "path": "build-recipe-productcompose",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f64bc3a91b101197385454026af14de3a304f0f",
+    "size": 3942,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/7f64bc3a91b101197385454026af14de3a304f0f"
+  },
+  {
+    "path": "build-recipe-simpleimage",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b443e30532f0e23bebef778c7df2c9328254236",
+    "size": 3795,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/1b443e30532f0e23bebef778c7df2c9328254236"
+  },
+  {
+    "path": "build-recipe-snapcraft",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3740d240834aded371c6f9507a8c5bf523542068",
+    "size": 4001,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/3740d240834aded371c6f9507a8c5bf523542068"
+  },
+  {
+    "path": "build-recipe-spec",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7366ebfed63053f579aff48529a11c9bd04cb043",
+    "size": 16391,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/7366ebfed63053f579aff48529a11c9bd04cb043"
+  },
+  {
+    "path": "build-validate-params",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27027bb1b4318e369dfd7835fc8290176f8da9b1",
+    "size": 2541,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/27027bb1b4318e369dfd7835fc8290176f8da9b1"
+  },
+  {
+    "path": "build-vm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d29cbecad83f0d9f591f6f32d9a43bd9e502d02",
+    "size": 45057,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/6d29cbecad83f0d9f591f6f32d9a43bd9e502d02"
+  },
+  {
+    "path": "build-vm-docker",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "752ad8e2cd3d7a08988e42bec6bf27a49de1f0f0",
+    "size": 2297,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/752ad8e2cd3d7a08988e42bec6bf27a49de1f0f0"
+  },
+  {
+    "path": "build-vm-ec2",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e440825fb3a863b2167effbe9e98d6aa2c0b5ecb",
+    "size": 10161,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/e440825fb3a863b2167effbe9e98d6aa2c0b5ecb"
+  },
+  {
+    "path": "build-vm-emulator",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7014823015122a6ef0b751a6875f1e8b84b35bb",
+    "size": 2537,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/e7014823015122a6ef0b751a6875f1e8b84b35bb"
+  },
+  {
+    "path": "build-vm-kvm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18f91d074df286baf8b85e38e6e7fa855a0634fe",
+    "size": 17594,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/18f91d074df286baf8b85e38e6e7fa855a0634fe"
+  },
+  {
+    "path": "build-vm-lxc",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3b71ad5c4df424a6058432b000ef530e4476fa6",
+    "size": 5769,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/f3b71ad5c4df424a6058432b000ef530e4476fa6"
+  },
+  {
+    "path": "build-vm-nspawn",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9736ca76d0215665a56c7c5e25b6762152913a81",
+    "size": 1888,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/9736ca76d0215665a56c7c5e25b6762152913a81"
+  },
+  {
+    "path": "build-vm-openstack",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19ddc4e6c72eb32f54aa057d4712b5b4923f5f60",
+    "size": 9547,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/19ddc4e6c72eb32f54aa057d4712b5b4923f5f60"
+  },
+  {
+    "path": "build-vm-podman",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76e40c02546e90447445a6015e4b1d7d4d9b3209",
+    "size": 2569,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/76e40c02546e90447445a6015e4b1d7d4d9b3209"
+  },
+  {
+    "path": "build-vm-pvm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7d0dee55c60b0092822f824d69e9de5e2328cbf7",
+    "size": 4786,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/7d0dee55c60b0092822f824d69e9de5e2328cbf7"
+  },
+  {
+    "path": "build-vm-qemu",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "677388e6803800907b2d9132014e7bc618e0f20f",
+    "size": 9873,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/677388e6803800907b2d9132014e7bc618e0f20f"
+  },
+  {
+    "path": "build-vm-uml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "91f0a06c51077bf080c38bdf3a64abb741b9d055",
+    "size": 1580,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/91f0a06c51077bf080c38bdf3a64abb741b9d055"
+  },
+  {
+    "path": "build-vm-xen",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1e9cdc7e0a89cabbc9378cddbf69e27a345a402a",
+    "size": 4524,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/1e9cdc7e0a89cabbc9378cddbf69e27a345a402a"
+  },
+  {
+    "path": "build-vm-zvm",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5d63dc951e8e89cb24019a54aff05f58bdfc84c2",
+    "size": 15073,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/5d63dc951e8e89cb24019a54aff05f58bdfc84c2"
+  },
+  {
+    "path": "build.1",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96aed598dad0d3c8324be16026bdd41dbdc10f75",
+    "size": 6900,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/96aed598dad0d3c8324be16026bdd41dbdc10f75"
+  },
+  {
+    "path": "build.conf.example",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f85a6d889b05eda9cf1156300b0dfcaebc2ffc7",
+    "size": 864,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/6f85a6d889b05eda9cf1156300b0dfcaebc2ffc7"
+  },
+  {
+    "path": "buildvc.1",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a3d33503881abbddcefa4ac231e9cd5d82f85871",
+    "size": 885,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/a3d33503881abbddcefa4ac231e9cd5d82f85871"
+  },
+  {
+    "path": "call-flatpak-builder",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3700bc241902ac42a91d869d516a6740c693a4b1",
+    "size": 1450,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/3700bc241902ac42a91d869d516a6740c693a4b1"
+  },
+  {
+    "path": "call-podman",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "33fffcf567e1b10e87bc292fc85ff0c9d9d6c8f6",
+    "size": 2016,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/33fffcf567e1b10e87bc292fc85ff0c9d9d6c8f6"
+  },
+  {
+    "path": "changelog2spec",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "539577a5e57c99db474ad04d7a808ef9f1061eea",
+    "size": 7717,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/539577a5e57c99db474ad04d7a808ef9f1061eea"
+  },
+  {
+    "path": "common_functions",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "4c8e1eb79986e26b8787a3726a7ab9b9eb921131",
+    "size": 6749,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/4c8e1eb79986e26b8787a3726a7ab9b9eb921131"
+  },
+  {
+    "path": "computeblocklists",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ca99c3dbe6d5a7d5976e9e83184f23e4c276d082",
+    "size": 9806,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/ca99c3dbe6d5a7d5976e9e83184f23e4c276d082"
+  },
+  {
+    "path": "configs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "65a7a4b09ac9edc2fd64f142e2b0ec6f10fcbf64",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/65a7a4b09ac9edc2fd64f142e2b0ec6f10fcbf64"
+  },
+  {
+    "path": "create_container_package_list",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6075ff8346a38ffbc232e55bca727981f16101d2",
+    "size": 1050,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/6075ff8346a38ffbc232e55bca727981f16101d2"
+  },
+  {
+    "path": "createdirdeps",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3d0e12e69a894575e0bcf67869794fadfa9f4647",
+    "size": 3073,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/3d0e12e69a894575e0bcf67869794fadfa9f4647"
+  },
+  {
+    "path": "createrepomddeps",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0d67db387244ef3a08681450352498ff83ab63f6",
+    "size": 4957,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/0d67db387244ef3a08681450352498ff83ab63f6"
+  },
+  {
+    "path": "createyastdeps",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6d58e1925b9547218dc2d6bd490a1d67cd4df3ea",
+    "size": 2305,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/6d58e1925b9547218dc2d6bd490a1d67cd4df3ea"
+  },
+  {
+    "path": "debtransform",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3145d766d88616c9514724b6078fb3a9b8a90405",
+    "size": 24532,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/3145d766d88616c9514724b6078fb3a9b8a90405"
+  },
+  {
+    "path": "debtransformbz2",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b49ed4cfba67c6815176d0d44a2a237aabaa7ac4",
+    "size": 977,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/b49ed4cfba67c6815176d0d44a2a237aabaa7ac4"
+  },
+  {
+    "path": "debtransformxz",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "91d0f835e1e929c8e955974a43f33877f25e13e7",
+    "size": 91,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/91d0f835e1e929c8e955974a43f33877f25e13e7"
+  },
+  {
+    "path": "debtransformzip",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "233574587f671a22a9e5a17298231c8ec0e391fb",
+    "size": 1050,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/233574587f671a22a9e5a17298231c8ec0e391fb"
+  },
+  {
+    "path": "dist",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0c7523dd0ca9e595fda76514f419d307b172106",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/e0c7523dd0ca9e595fda76514f419d307b172106"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aa27f4a34fd3cac5bb714b2f03feddfd603d00e6",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/aa27f4a34fd3cac5bb714b2f03feddfd603d00e6"
+  },
+  {
+    "path": "download",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c03e83664f996a71be98346e68e71ae264e72539",
+    "size": 1816,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/c03e83664f996a71be98346e68e71ae264e72539"
+  },
+  {
+    "path": "download_assets",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "bd872c5cc8fa6284d327c3b83c7d1822c1e7443d",
+    "size": 7263,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/bd872c5cc8fa6284d327c3b83c7d1822c1e7443d"
+  },
+  {
+    "path": "dummyhttpserver",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c3f89246dcf80962bcb08403b52b4cea522742ad",
+    "size": 6506,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/c3f89246dcf80962bcb08403b52b4cea522742ad"
+  },
+  {
+    "path": "emulator",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5a9f3ed5a9cbb25170dc695b67036b396241aafe",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/5a9f3ed5a9cbb25170dc695b67036b396241aafe"
+  },
+  {
+    "path": "expanddeps",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "143befada974498bb3144c127518e2d8a3b8e9a4",
+    "size": 13045,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/143befada974498bb3144c127518e2d8a3b8e9a4"
+  },
+  {
+    "path": "export_debian_orig_from_git",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "5daccca28d3390736dba70c9740e0c0bd4056eea",
+    "size": 3400,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/5daccca28d3390736dba70c9740e0c0bd4056eea"
+  },
+  {
+    "path": "extractbuild",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cc6962cd0cebccdceb7e4e6178e814dab1aa8fcf",
+    "size": 7611,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/cc6962cd0cebccdceb7e4e6178e814dab1aa8fcf"
+  },
+  {
+    "path": "generate_sbom",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "97fcbf6d9191813e518144fee2f64d7fc9784c1d",
+    "size": 39945,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/97fcbf6d9191813e518144fee2f64d7fc9784c1d"
+  },
+  {
+    "path": "getbinaryid",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "a85df827573a8ceb7aa51d287397361bcb2e8a46",
+    "size": 1825,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/a85df827573a8ceb7aa51d287397361bcb2e8a46"
+  },
+  {
+    "path": "getbuildids",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "baefba6eb981e4bb77f76543b587369bb253203d",
+    "size": 2220,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/baefba6eb981e4bb77f76543b587369bb253203d"
+  },
+  {
+    "path": "init_buildsystem",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8ea7d28246b5be3e89075b23c81e2ba45db09317",
+    "size": 41855,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/8ea7d28246b5be3e89075b23c81e2ba45db09317"
+  },
+  {
+    "path": "initvm.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff3703dfe56b70672165434aa0b555c42a0d04c0",
+    "size": 10239,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/ff3703dfe56b70672165434aa0b555c42a0d04c0"
+  },
+  {
+    "path": "killchroot",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "330b7c76d5d0c3945893697de3e6f4045f6bc5ab",
+    "size": 2652,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/330b7c76d5d0c3945893697de3e6f4045f6bc5ab"
+  },
+  {
+    "path": "listinstalled",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9dafa459ffd131c113696811b116de4de787324d",
+    "size": 1858,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/9dafa459ffd131c113696811b116de4de787324d"
+  },
+  {
+    "path": "livebuild_pre_run.template",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "679220ca7cd7751a765f222f5c9451cdad897fa7",
+    "size": 2161,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/679220ca7cd7751a765f222f5c9451cdad897fa7"
+  },
+  {
+    "path": "lxc.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cae7e44b719a64d145f1b87811f072eb71b0ea3a",
+    "size": 450,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/cae7e44b719a64d145f1b87811f072eb71b0ea3a"
+  },
+  {
+    "path": "mkbaselibs",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d662d754e640386a501b0c2584b009b88b05e64b",
+    "size": 34589,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/d662d754e640386a501b0c2584b009b88b05e64b"
+  },
+  {
+    "path": "mkdrpms",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "eadca44123a6c71b9201622e6e4a717618431bc3",
+    "size": 4778,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/eadca44123a6c71b9201622e6e4a717618431bc3"
+  },
+  {
+    "path": "obs-docker-support",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ebf864aa114ccc177a91bfac695c6e8a5d1a6d13",
+    "size": 10540,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/ebf864aa114ccc177a91bfac695c6e8a5d1a6d13"
+  },
+  {
+    "path": "obs_example",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "770d930b772af83f0e71a5623556285b5a0435a7",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/770d930b772af83f0e71a5623556285b5a0435a7"
+  },
+  {
+    "path": "openstack-console",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a1114194c790e648daece5730a4c8c1b45c9c07",
+    "size": 1865,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/0a1114194c790e648daece5730a4c8c1b45c9c07"
+  },
+  {
+    "path": "order",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "fec9094c858f2d8cfe63514d6988f0a67b910729",
+    "size": 2611,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/fec9094c858f2d8cfe63514d6988f0a67b910729"
+  },
+  {
+    "path": "patchdockerfile",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "925dc2136b2049aaf1c4a5c7c300b6ad29d3ff6f",
+    "size": 2569,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/925dc2136b2049aaf1c4a5c7c300b6ad29d3ff6f"
+  },
+  {
+    "path": "pbuild",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8affc5362997df1e36005ec99fc7a2e8eb4bc2a0",
+    "size": 22016,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/8affc5362997df1e36005ec99fc7a2e8eb4bc2a0"
+  },
+  {
+    "path": "pbuild.1",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4d936b2adce74724dc65cdb1c60652c50355282",
+    "size": 5296,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/f4d936b2adce74724dc65cdb1c60652c50355282"
+  },
+  {
+    "path": "qemu-reg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "60ca1d51e09b57cdf353de929cb74be3b93f555f",
+    "size": 3400,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/60ca1d51e09b57cdf353de929cb74be3b93f555f"
+  },
+  {
+    "path": "queryconfig",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0c3b74c47aeea69aeab8f8b58275410c3fc9a9bb",
+    "size": 3443,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/0c3b74c47aeea69aeab8f8b58275410c3fc9a9bb"
+  },
+  {
+    "path": "queryobs",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f90c553078f3a1bf7189b84f9ec58d9f4b7e0dc0",
+    "size": 5159,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/f90c553078f3a1bf7189b84f9ec58d9f4b7e0dc0"
+  },
+  {
+    "path": "queryrecipe",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "949e229722af515320d39c9c4b91bb894df84cd4",
+    "size": 3082,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/949e229722af515320d39c9c4b91bb894df84cd4"
+  },
+  {
+    "path": "queryrepo",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "4489bc8309c0dcc24e98f60a2f5e402c8d39dfc5",
+    "size": 11581,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/4489bc8309c0dcc24e98f60a2f5e402c8d39dfc5"
+  },
+  {
+    "path": "runservices",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f4002ff232b8643c6892e174953976d2621a234c",
+    "size": 3374,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/f4002ff232b8643c6892e174953976d2621a234c"
+  },
+  {
+    "path": "signdummy",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "df15f847ea5801c8403041017d8baa145ffd81fd",
+    "size": 2044,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/df15f847ea5801c8403041017d8baa145ffd81fd"
+  },
+  {
+    "path": "spec2changelog",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "f505a9ffd978d24c2c26dde7ba72b9bf4aa8d265",
+    "size": 2999,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/f505a9ffd978d24c2c26dde7ba72b9bf4aa8d265"
+  },
+  {
+    "path": "spec_add_patch",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6a24266d3b5395a23b8a07dc09230c93e52f1eee",
+    "size": 4856,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/6a24266d3b5395a23b8a07dc09230c93e52f1eee"
+  },
+  {
+    "path": "spectool",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1b9bec5c74fc8ffdbb3e4b67fb8e3cb10c63c0ca",
+    "size": 10973,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/1b9bec5c74fc8ffdbb3e4b67fb8e3cb10c63c0ca"
+  },
+  {
+    "path": "startdockerd",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "39790ca1fbeedd80e5caeb7d1a9f280d6b45825b",
+    "size": 5310,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/39790ca1fbeedd80e5caeb7d1a9f280d6b45825b"
+  },
+  {
+    "path": "substitutedeps",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "aa96a05479b768f9e9693057f592380337d98eec",
+    "size": 9917,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/aa96a05479b768f9e9693057f592380337d98eec"
+  },
+  {
+    "path": "t",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f41cc75cb47b702bc99907fee5a39074d7985af",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/8f41cc75cb47b702bc99907fee5a39074d7985af"
+  },
+  {
+    "path": "telnet_login_wrapper",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "23aa13d42bb2ec74fd5c5dd5ac5485500b18bee5",
+    "size": 211,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/23aa13d42bb2ec74fd5c5dd5ac5485500b18bee5"
+  },
+  {
+    "path": "test-debtransform",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f781d6741358b4ccdb70440337622606f0b9c2a",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/4f781d6741358b4ccdb70440337622606f0b9c2a"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67c5444a1aa9c781c070ef2ed158669d1b4bcc94",
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/trees/67c5444a1aa9c781c070ef2ed158669d1b4bcc94"
+  },
+  {
+    "path": "unpack_slsa_provenance",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "460b4cc6402d7f1378b4192516e798e87d591627",
+    "size": 9236,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/460b4cc6402d7f1378b4192516e798e87d591627"
+  },
+  {
+    "path": "unpackarchive",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "628f9a8e29628428565092f8f553d8b685aa0a57",
+    "size": 20988,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/628f9a8e29628428565092f8f553d8b685aa0a57"
+  },
+  {
+    "path": "unrpm",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "e1c347c43f787697e65848e96ce5dec7480e3c61",
+    "size": 1537,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/e1c347c43f787697e65848e96ce5dec7480e3c61"
+  },
+  {
+    "path": "unrpm.1",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbb22a35b406707b73ebb68b85e4a2a051500747",
+    "size": 428,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/bbb22a35b406707b73ebb68b85e4a2a051500747"
+  },
+  {
+    "path": "vc",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "07ed740ee6d35275399de37be05a5bba50114de1",
+    "size": 4101,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/07ed740ee6d35275399de37be05a5bba50114de1"
+  },
+  {
+    "path": "writemodulemd",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "523ed553c85090671d93408c636587f0d3075660",
+    "size": 13175,
+    "url": "https://api.github.com/repos/openSUSE/obs-build/git/blobs/523ed553c85090671d93408c636587f0d3075660"
+  }
+]

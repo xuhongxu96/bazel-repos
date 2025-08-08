@@ -1,0 +1,349 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "309ed05fb4d187066f35e943e9944d18efc497d5",
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/trees/309ed05fb4d187066f35e943e9944d18efc497d5"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4a24ea39218f0bbb5f1933e8e1662f276b29b67",
+    "size": 857,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/a4a24ea39218f0bbb5f1933e8e1662f276b29b67"
+  },
+  {
+    "path": ".go-version",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae96cc7310aaa247225ae7669399cb4f2f87629f",
+    "size": 7,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/ae96cc7310aaa247225ae7669399cb4f2f87629f"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09df96d50bdeb70fb4043f21b2d665a56060c7a1",
+    "size": 8048,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/09df96d50bdeb70fb4043f21b2d665a56060c7a1"
+  },
+  {
+    "path": "CODEOWNERS",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a765f7ea91573ac62107aa73ef8780deedbef435",
+    "size": 29,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/a765f7ea91573ac62107aa73ef8780deedbef435"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "304287844e4b4848c9dbd7299c70c19ac8a718f8",
+    "size": 15958,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/304287844e4b4848c9dbd7299c70c19ac8a718f8"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d73a96ff15874c07ba850ce9b2d5f9253f8d1902",
+    "size": 1527,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/d73a96ff15874c07ba850ce9b2d5f9253f8d1902"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc44d8a0f9585bf203adcfbaea30650a34529bd7",
+    "size": 5976,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/cc44d8a0f9585bf203adcfbaea30650a34529bd7"
+  },
+  {
+    "path": "backend.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85041de0d6c20f724ace2dfb113fdd31b6e8cafb",
+    "size": 4340,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/85041de0d6c20f724ace2dfb113fdd31b6e8cafb"
+  },
+  {
+    "path": "backend_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c2928b4c0f57a8506a315d5b7e203924cbb19952",
+    "size": 1216,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/c2928b4c0f57a8506a315d5b7e203924cbb19952"
+  },
+  {
+    "path": "claims.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef48ea7be3c3b31984a4ae1cebef27d00c06a3a9",
+    "size": 5576,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/ef48ea7be3c3b31984a4ae1cebef27d00c06a3a9"
+  },
+  {
+    "path": "claims_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13ce5f7acd1aae122279919cc183310e1e40853c",
+    "size": 14629,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/13ce5f7acd1aae122279919cc183310e1e40853c"
+  },
+  {
+    "path": "cli.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c61f868b37bc738a9b91f8984c36f0ca406e5e7",
+    "size": 8829,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/9c61f868b37bc738a9b91f8984c36f0ca406e5e7"
+  },
+  {
+    "path": "cli_auth_no_sigtstp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a65d866d3267205a66d8f80f3aac8521a81c083e",
+    "size": 281,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/a65d866d3267205a66d8f80f3aac8521a81c083e"
+  },
+  {
+    "path": "cli_auth_sigtstp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0341705a859ec58d453f5428dbb4a086e10349e3",
+    "size": 308,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/0341705a859ec58d453f5428dbb4a086e10349e3"
+  },
+  {
+    "path": "cli_responses.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "afed8a5c18196fde9eb29acf223bd563b9ea9d40",
+    "size": 25737,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/afed8a5c18196fde9eb29acf223bd563b9ea9d40"
+  },
+  {
+    "path": "cli_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "537e679dc0bf4a92d8de0e856478d79cb9714245",
+    "size": 1259,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/537e679dc0bf4a92d8de0e856478d79cb9714245"
+  },
+  {
+    "path": "cmd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c8d9eb591e056547fc9056f755ca1e71dcf9c125",
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/trees/c8d9eb591e056547fc9056f755ca1e71dcf9c125"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e07cf2706d8888610f1f637edd82df454c7d2a41",
+    "size": 5169,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/e07cf2706d8888610f1f637edd82df454c7d2a41"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1fbc50d9788ee86f993b7c8d396856e5285c060a",
+    "size": 38847,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/1fbc50d9788ee86f993b7c8d396856e5285c060a"
+  },
+  {
+    "path": "jwks_pairs.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf848ce28f6130a9c4da36a1c8805f3bccc9ddfb",
+    "size": 978,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/cf848ce28f6130a9c4da36a1c8805f3bccc9ddfb"
+  },
+  {
+    "path": "path_config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d137bac44c04fff5b1e3fb47afd7b6bd41412b7",
+    "size": 20337,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/6d137bac44c04fff5b1e3fb47afd7b6bd41412b7"
+  },
+  {
+    "path": "path_config_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68f5b023cc3ab7af1b4b413fc108fd260837fb6c",
+    "size": 28913,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/68f5b023cc3ab7af1b4b413fc108fd260837fb6c"
+  },
+  {
+    "path": "path_login.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ce2f2cdcbb2d44688d3cacc76d70d440b965393",
+    "size": 11186,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/3ce2f2cdcbb2d44688d3cacc76d70d440b965393"
+  },
+  {
+    "path": "path_login_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "577f427e74c4ce81f0c94243f4784c6489878429",
+    "size": 49579,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/577f427e74c4ce81f0c94243f4784c6489878429"
+  },
+  {
+    "path": "path_oidc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a34a7fa9dccd524b1ee520df25eec0303d2184d9",
+    "size": 17455,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/a34a7fa9dccd524b1ee520df25eec0303d2184d9"
+  },
+  {
+    "path": "path_oidc_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "776a4b5ef383159b113ba366819b2ded32dc3766",
+    "size": 45681,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/776a4b5ef383159b113ba366819b2ded32dc3766"
+  },
+  {
+    "path": "path_role.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "188f74d6741f336ccfead5ed4b56fb4bd478f2f4",
+    "size": 20300,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/188f74d6741f336ccfead5ed4b56fb4bd478f2f4"
+  },
+  {
+    "path": "path_role_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5628433f062466bbbed83c112db9ae3854cbdf6b",
+    "size": 25298,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/5628433f062466bbbed83c112db9ae3854cbdf6b"
+  },
+  {
+    "path": "path_ui.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a456530674794e9873e1da48f63bf3fe8addc942",
+    "size": 999,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/a456530674794e9873e1da48f63bf3fe8addc942"
+  },
+  {
+    "path": "provider_azure.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f9c3e59d499b1f6ea0a259f5e7f7d883ac3a631c",
+    "size": 6550,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/f9c3e59d499b1f6ea0a259f5e7f7d883ac3a631c"
+  },
+  {
+    "path": "provider_azure_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7fe0310298f9ff8bfa50f060167a98cea4650f5",
+    "size": 4851,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/b7fe0310298f9ff8bfa50f060167a98cea4650f5"
+  },
+  {
+    "path": "provider_config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9cd0b949d4195dfc2ca2402e648aeeb74aa06248",
+    "size": 2374,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/9cd0b949d4195dfc2ca2402e648aeeb74aa06248"
+  },
+  {
+    "path": "provider_config_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8987cba3de4eb089a9050d19771be4428972c46d",
+    "size": 3274,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/8987cba3de4eb089a9050d19771be4428972c46d"
+  },
+  {
+    "path": "provider_gsuite.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce8200c307a6f2279fdb388e941a7e57df403051",
+    "size": 9238,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/ce8200c307a6f2279fdb388e941a7e57df403051"
+  },
+  {
+    "path": "provider_gsuite_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e241677b146f5af1c16f3de961566b91083a901d",
+    "size": 17214,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/e241677b146f5af1c16f3de961566b91083a901d"
+  },
+  {
+    "path": "provider_ibmisam.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ba643d958e806be538e243c23497c8d3fa3f3b9",
+    "size": 1570,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/1ba643d958e806be538e243c23497c8d3fa3f3b9"
+  },
+  {
+    "path": "provider_ibmisam_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3a75dbde17aef3f6b430bc36985ad541778f4ac",
+    "size": 3536,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/d3a75dbde17aef3f6b430bc36985ad541778f4ac"
+  },
+  {
+    "path": "provider_secureauth.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f5afde5f2bca3d5e0fb63160b7cfeff4f68f7b1c",
+    "size": 1621,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/f5afde5f2bca3d5e0fb63160b7cfeff4f68f7b1c"
+  },
+  {
+    "path": "provider_secureauth_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2751b8fdd513d7b9ba9da720cd409f59bdf10e74",
+    "size": 3566,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/2751b8fdd513d7b9ba9da720cd409f59bdf10e74"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "31c4142ff42dbada558fc551f301e035ab0cc9ab",
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/trees/31c4142ff42dbada558fc551f301e035ab0cc9ab"
+  },
+  {
+    "path": "test_ui.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ddd4ecca72912e314dac0493f5f5f7dd32053d83",
+    "size": 902,
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/blobs/ddd4ecca72912e314dac0493f5f5f7dd32053d83"
+  },
+  {
+    "path": "tests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "52f5f61f58fa0ff936628531810f672287707cbb",
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/trees/52f5f61f58fa0ff936628531810f672287707cbb"
+  },
+  {
+    "path": "tools",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5af4e5cb7df51299d11153419c3837060076c5de",
+    "url": "https://api.github.com/repos/hashicorp/vault-plugin-auth-jwt/git/trees/5af4e5cb7df51299d11153419c3837060076c5de"
+  }
+]

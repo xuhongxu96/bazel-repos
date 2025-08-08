@@ -1,0 +1,811 @@
+[
+  {
+    "path": ".eth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "220beb75e141c0fbd02e65361aa0046e511ce0aa",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/220beb75e141c0fbd02e65361aa0046e511ce0aa"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "02aac081f0e1e472e203c99eac5bae6f2f58f6cb",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/02aac081f0e1e472e203c99eac5bae6f2f58f6cb"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ee2d9e80a2009fec8e91bb36acf7f6c487c1aeb",
+    "size": 652,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/2ee2d9e80a2009fec8e91bb36acf7f6c487c1aeb"
+  },
+  {
+    "path": ".motd",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5037e67d1be0027579755d2ac00051344495cd46",
+    "size": 251,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/5037e67d1be0027579755d2ac00051344495cd46"
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bab78be493522142941254bc53d28a7c984a401",
+    "size": 582,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/4bab78be493522142941254bc53d28a7c984a401"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76c3a72b7632160624f7f5fc5deba99f4a0a45ef",
+    "size": 824,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/76c3a72b7632160624f7f5fc5deba99f4a0a45ef"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fced08b6832fcb070a5e23a03c35865217b45494",
+    "size": 11321,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/fced08b6832fcb070a5e23a03c35865217b45494"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4199d7812f04c27368a401f3e0579492b6a785a0",
+    "size": 1326,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/4199d7812f04c27368a401f3e0579492b6a785a0"
+  },
+  {
+    "path": "allin1-keyapi-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "082b2680a1c5412839d06b2e26efe929e7433ca4",
+    "size": 104,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/082b2680a1c5412839d06b2e26efe929e7433ca4"
+  },
+  {
+    "path": "anchor.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "889b17c4f78da5d6bdc792ccb8fc00ced240d4a0",
+    "size": 1948,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/889b17c4f78da5d6bdc792ccb8fc00ced240d4a0"
+  },
+  {
+    "path": "anchor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d9a737d867f8f0f6002d2304eadfe880f51f556f",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/d9a737d867f8f0f6002d2304eadfe880f51f556f"
+  },
+  {
+    "path": "bash-completion",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "281e1834a47781043bdb086495e8ebb0408ff4b5",
+    "size": 1380,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/281e1834a47781043bdb086495e8ebb0408ff4b5"
+  },
+  {
+    "path": "besu.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b0e93800af8e5bdfeff7c3dba59596d41a1a31d",
+    "size": 2823,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/6b0e93800af8e5bdfeff7c3dba59596d41a1a31d"
+  },
+  {
+    "path": "besu",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ca35b1d147763d1f973c0bdc833a48f4523275c",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/7ca35b1d147763d1f973c0bdc833a48f4523275c"
+  },
+  {
+    "path": "caplin-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2d60eb68bdcc66cc8187cde7b103830c5c0ad72",
+    "size": 104,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/a2d60eb68bdcc66cc8187cde7b103830c5c0ad72"
+  },
+  {
+    "path": "caplin-traefik.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8f83ca70f1d9d10638471ab395a571339fe427d",
+    "size": 906,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/c8f83ca70f1d9d10638471ab395a571339fe427d"
+  },
+  {
+    "path": "central-metrics.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d4498de1a201312f1b9e5833c8734f65e98f10d4",
+    "size": 760,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/d4498de1a201312f1b9e5833c8734f65e98f10d4"
+  },
+  {
+    "path": "cl-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "663b1a90cee4c7aeeeaf432106020220a2b5bc66",
+    "size": 104,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/663b1a90cee4c7aeeeaf432106020220a2b5bc66"
+  },
+  {
+    "path": "cl-traefik.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08d867b372d4333f01e5d2368eaaed5f377f0074",
+    "size": 972,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/08d867b372d4333f01e5d2368eaaed5f377f0074"
+  },
+  {
+    "path": "commit-boost-pbs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "796a53cebcc1e06dc95e9db0282eafb5e0df3c35",
+    "size": 761,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/796a53cebcc1e06dc95e9db0282eafb5e0df3c35"
+  },
+  {
+    "path": "commit-boost",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "64aee4810cda1b9f37ac57e8f588b2b969e7244d",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/64aee4810cda1b9f37ac57e8f588b2b969e7244d"
+  },
+  {
+    "path": "contributoor.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8de82ddf681fdbad227b8938dcd7b262e16301b0",
+    "size": 668,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/8de82ddf681fdbad227b8938dcd7b262e16301b0"
+  },
+  {
+    "path": "default.env",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75fdeac9c06b3d6a6ca9b98a139bcb216c894c82",
+    "size": 17483,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/75fdeac9c06b3d6a6ca9b98a139bcb216c894c82"
+  },
+  {
+    "path": "deposit-cli.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c93a66aaff4cec2cb8a23be4540dafedd1f370f6",
+    "size": 2307,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/c93a66aaff4cec2cb8a23be4540dafedd1f370f6"
+  },
+  {
+    "path": "ee-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc1ca8a7c6fd920665d50775ae473418557ea7d5",
+    "size": 255,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/cc1ca8a7c6fd920665d50775ae473418557ea7d5"
+  },
+  {
+    "path": "ee-traefik.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43bff2b274c49ad12e29047098bc3304c45e2588",
+    "size": 616,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/43bff2b274c49ad12e29047098bc3304c45e2588"
+  },
+  {
+    "path": "el-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d142f4359dde429dc16217cfe931f28de1df5d1b",
+    "size": 238,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/d142f4359dde429dc16217cfe931f28de1df5d1b"
+  },
+  {
+    "path": "el-traefik.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b7e1a20fa85b55178b1a93da5902c9a22ce2dcc",
+    "size": 1571,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/7b7e1a20fa85b55178b1a93da5902c9a22ce2dcc"
+  },
+  {
+    "path": "erigon.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "388d05b110f53bbfae576f43e11fea34d43d8e0b",
+    "size": 3843,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/388d05b110f53bbfae576f43e11fea34d43d8e0b"
+  },
+  {
+    "path": "erigon",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09e27596ea45f4a17c89327e0d81095d3a6840eb",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/09e27596ea45f4a17c89327e0d81095d3a6840eb"
+  },
+  {
+    "path": "ethd",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "184992ca276803cbfa37f7dd273d60fb369ea300",
+    "size": 183396,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/184992ca276803cbfa37f7dd273d60fb369ea300"
+  },
+  {
+    "path": "ethdo.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7b69b1eb77abe2b49abce4e10c8bc53a041fe578",
+    "size": 511,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/7b69b1eb77abe2b49abce4e10c8bc53a041fe578"
+  },
+  {
+    "path": "ethdo",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "617455ab62d6f7daf8789d5dab71f215b8846b69",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/617455ab62d6f7daf8789d5dab71f215b8846b69"
+  },
+  {
+    "path": "ethstaker-deposit-cli",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37aab914efe607d6500180c9efb1d31ca5e6f526",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/37aab914efe607d6500180c9efb1d31ca5e6f526"
+  },
+  {
+    "path": "ext-network.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12fff573885e7bcb47552e5926057651cfe712e7",
+    "size": 88,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/12fff573885e7bcb47552e5926057651cfe712e7"
+  },
+  {
+    "path": "flashbots",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e24b22dfb9d58b3e682545d4115b976c96d73a04",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/e24b22dfb9d58b3e682545d4115b976c96d73a04"
+  },
+  {
+    "path": "fluffy.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36d17be4e49c6c213b5af8d3c826facd2bbbc0c9",
+    "size": 1764,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/36d17be4e49c6c213b5af8d3c826facd2bbbc0c9"
+  },
+  {
+    "path": "fluffy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "edfb744b68261b14fde760a11efab51bc6da3e57",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/edfb744b68261b14fde760a11efab51bc6da3e57"
+  },
+  {
+    "path": "geth.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0793b536cf72e44445199fdf9c9cbd11a39fa65",
+    "size": 2749,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/c0793b536cf72e44445199fdf9c9cbd11a39fa65"
+  },
+  {
+    "path": "geth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8a8106808ed60609eca54e6a0cb56b813cf7d00",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/e8a8106808ed60609eca54e6a0cb56b813cf7d00"
+  },
+  {
+    "path": "grafana-cloud.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e281db832b77e702c2aa54f9e950c0f6f09aa38",
+    "size": 4710,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/5e281db832b77e702c2aa54f9e950c0f6f09aa38"
+  },
+  {
+    "path": "grafana-rootless.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23036ec82de120a7eb26c3ec5d4296c1f258f125",
+    "size": 2727,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/23036ec82de120a7eb26c3ec5d4296c1f258f125"
+  },
+  {
+    "path": "grafana-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d9e0451f55c3b66e1b7ac3698fcf2a4bea4bb35",
+    "size": 90,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/1d9e0451f55c3b66e1b7ac3698fcf2a4bea4bb35"
+  },
+  {
+    "path": "grafana.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "313b23c5f9fa1b82cfc63b03c05ed56ff0a2897f",
+    "size": 5627,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/313b23c5f9fa1b82cfc63b03c05ed56ff0a2897f"
+  },
+  {
+    "path": "grafana",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2c4ebe080371f6970bd6f066e8d80ce764e2598",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/e2c4ebe080371f6970bd6f066e8d80ce764e2598"
+  },
+  {
+    "path": "grandine-allin1.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f828fe99e7a9413ac83a7725f8ee60cf2cdba2e",
+    "size": 4657,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/9f828fe99e7a9413ac83a7725f8ee60cf2cdba2e"
+  },
+  {
+    "path": "grandine-cl-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b0450686a4a7fd1ae2626ac26f0d2025a239a54",
+    "size": 3287,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/0b0450686a4a7fd1ae2626ac26f0d2025a239a54"
+  },
+  {
+    "path": "grandine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "703b1293d655eb17a5e59e7a15012223705f67d0",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/703b1293d655eb17a5e59e7a15012223705f67d0"
+  },
+  {
+    "path": "keyapi-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cfb52db6a666bd52c0b8e52b85527aec9a91a3ba",
+    "size": 104,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/cfb52db6a666bd52c0b8e52b85527aec9a91a3ba"
+  },
+  {
+    "path": "lido-obol-promtail.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d15455a13edcd49eeef3e6f67d65986f04f9ba62",
+    "size": 778,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/d15455a13edcd49eeef3e6f67d65986f04f9ba62"
+  },
+  {
+    "path": "lido-obol.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7d5cfbccd4d8ff17b8bd92bc721637b21eb550c",
+    "size": 4190,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/f7d5cfbccd4d8ff17b8bd92bc721637b21eb550c"
+  },
+  {
+    "path": "lighthouse-cl-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c55a66bd01ff648e7c004517d5a4340ae9ec21a1",
+    "size": 2984,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/c55a66bd01ff648e7c004517d5a4340ae9ec21a1"
+  },
+  {
+    "path": "lighthouse-vc-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d4d90522d9315b651d93c515587ffa67d47d59f",
+    "size": 3829,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/8d4d90522d9315b651d93c515587ffa67d47d59f"
+  },
+  {
+    "path": "lighthouse.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5292ce94590ee6874192bcb960ca87630c46fc99",
+    "size": 6645,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/5292ce94590ee6874192bcb960ca87630c46fc99"
+  },
+  {
+    "path": "lighthouse",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f053bfbf4c960f2ffc0d91e2817256b0d1968f5e",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/f053bfbf4c960f2ffc0d91e2817256b0d1968f5e"
+  },
+  {
+    "path": "lodestar-cl-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "456a8127672d8d7bc55df917e69bb1986723b430",
+    "size": 2891,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/456a8127672d8d7bc55df917e69bb1986723b430"
+  },
+  {
+    "path": "lodestar-vc-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0e231696c3c0828e09d8abf8141a998a61dbc1ba",
+    "size": 3544,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/0e231696c3c0828e09d8abf8141a998a61dbc1ba"
+  },
+  {
+    "path": "lodestar.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0e24ce14b45984ee78ff3fe48280bbd267e155a",
+    "size": 5880,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/d0e24ce14b45984ee78ff3fe48280bbd267e155a"
+  },
+  {
+    "path": "lodestar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a2512a6514363afed2ae53c9c736c146203e427",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/3a2512a6514363afed2ae53c9c736c146203e427"
+  },
+  {
+    "path": "loki",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ba2f6be2331cd7fb77fa0b25d9319b642dfea1a2",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/ba2f6be2331cd7fb77fa0b25d9319b642dfea1a2"
+  },
+  {
+    "path": "mev-boost.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "477b9d34e14b417be7c54d86aecbcc4e46c2b1f1",
+    "size": 1024,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/477b9d34e14b417be7c54d86aecbcc4e46c2b1f1"
+  },
+  {
+    "path": "nethermind.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bce0234e044248e8666be0830a915d6bb6af99fc",
+    "size": 2902,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/bce0234e044248e8666be0830a915d6bb6af99fc"
+  },
+  {
+    "path": "nethermind",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fc39c5dbc66b4941a0cef8b348f33a5b17ae4fd9",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/fc39c5dbc66b4941a0cef8b348f33a5b17ae4fd9"
+  },
+  {
+    "path": "nimbus-allin1.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "326c5c01124cf776b6a38f8fbd13acde62f5980c",
+    "size": 4618,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/326c5c01124cf776b6a38f8fbd13acde62f5980c"
+  },
+  {
+    "path": "nimbus-cl-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6eef6eac7ec68f44fe72ee224ed696b675200a5b",
+    "size": 3313,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/6eef6eac7ec68f44fe72ee224ed696b675200a5b"
+  },
+  {
+    "path": "nimbus-el.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f31deae33a3850348846160635fa870b55a7aa4",
+    "size": 2382,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/7f31deae33a3850348846160635fa870b55a7aa4"
+  },
+  {
+    "path": "nimbus-el",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ea4569d21b6033c76ab25a1b6d5b0d8ada37b1e",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/7ea4569d21b6033c76ab25a1b6d5b0d8ada37b1e"
+  },
+  {
+    "path": "nimbus-stats.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08238392d5a4e2e640e864b87a6607f56f966189",
+    "size": 581,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/08238392d5a4e2e640e864b87a6607f56f966189"
+  },
+  {
+    "path": "nimbus-vc-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "957dfce7e0430cbe83ec660169940828bb3768e5",
+    "size": 3232,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/957dfce7e0430cbe83ec660169940828bb3768e5"
+  },
+  {
+    "path": "nimbus.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1c2d61cd840c0eba2f1dfcda441641287fce03cb",
+    "size": 5231,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/1c2d61cd840c0eba2f1dfcda441641287fce03cb"
+  },
+  {
+    "path": "nimbus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a391bc92f0466e0c10f5da48f32d9ff45f070c94",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/a391bc92f0466e0c10f5da48f32d9ff45f070c94"
+  },
+  {
+    "path": "portal-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11d645ff9fdbf60b802f7be3c3486127090a36ad",
+    "size": 213,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/11d645ff9fdbf60b802f7be3c3486127090a36ad"
+  },
+  {
+    "path": "prometheus-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ffdf48444bbbda5a214cdd2bfbd7ac99b479512",
+    "size": 168,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/0ffdf48444bbbda5a214cdd2bfbd7ac99b479512"
+  },
+  {
+    "path": "prometheus-traefik.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5244f9c26fd02758a8d225e43ee49301c85387bb",
+    "size": 574,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/5244f9c26fd02758a8d225e43ee49301c85387bb"
+  },
+  {
+    "path": "prometheus",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "128d9e9aefd23fcea14a60bfb0ece44231e8425e",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/128d9e9aefd23fcea14a60bfb0ece44231e8425e"
+  },
+  {
+    "path": "promtail-obol",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "117108d4fbde5c2d11027334ed17aeaf133b1286",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/117108d4fbde5c2d11027334ed17aeaf133b1286"
+  },
+  {
+    "path": "promtail",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "474d77e678da15973aea35c11a620f61c013135f",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/474d77e678da15973aea35c11a620f61c013135f"
+  },
+  {
+    "path": "prysm-cl-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a33137e133790eaad2a21fcba5bd4f6111e2fda",
+    "size": 2943,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/2a33137e133790eaad2a21fcba5bd4f6111e2fda"
+  },
+  {
+    "path": "prysm-stats.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4364bc4e02e77240462fd9375b9be812dd406910",
+    "size": 1233,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/4364bc4e02e77240462fd9375b9be812dd406910"
+  },
+  {
+    "path": "prysm-vc-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28c4061cc5b393c958e78b07b7f833ef146e2c89",
+    "size": 5001,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/28c4061cc5b393c958e78b07b7f833ef146e2c89"
+  },
+  {
+    "path": "prysm-web-shared.yml",
+    "mode": "120000",
+    "type": "blob",
+    "sha": "c824586cb858e40877b3d296e08918d0f6f1e0c8",
+    "size": 17,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/c824586cb858e40877b3d296e08918d0f6f1e0c8"
+  },
+  {
+    "path": "prysm.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d216f8d765464a1307c7b2434898dc7796623e1",
+    "size": 7327,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/6d216f8d765464a1307c7b2434898dc7796623e1"
+  },
+  {
+    "path": "prysm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d88b2e1092925a1e2aed988333011458247bafa2",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/d88b2e1092925a1e2aed988333011458247bafa2"
+  },
+  {
+    "path": "reth.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cab877a4db4020587cba2735e8a615cfebabd218",
+    "size": 3092,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/cab877a4db4020587cba2735e8a615cfebabd218"
+  },
+  {
+    "path": "reth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e8ac3570fb235daab1216f669bf3ab0af39eff3f",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/e8ac3570fb235daab1216f669bf3ab0af39eff3f"
+  },
+  {
+    "path": "siren-shared.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bd7f1ab2ac5b6a25b33c3c0d08f6a970ea20948",
+    "size": 117,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/1bd7f1ab2ac5b6a25b33c3c0d08f6a970ea20948"
+  },
+  {
+    "path": "siren.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ff59a8b671b1325d504360d8b14e0f772064760",
+    "size": 1255,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/0ff59a8b671b1325d504360d8b14e0f772064760"
+  },
+  {
+    "path": "siren",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d18e4299bf5adacf3dae21c7d153346847bac30",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/7d18e4299bf5adacf3dae21c7d153346847bac30"
+  },
+  {
+    "path": "ssv-config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7cc0f34f581f16da027ddb7b5861c1f19d8b527d",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/7cc0f34f581f16da027ddb7b5861c1f19d8b527d"
+  },
+  {
+    "path": "ssv-dkg.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "129a60e2b037325aa4f12fdb0c06fae778412f2f",
+    "size": 919,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/129a60e2b037325aa4f12fdb0c06fae778412f2f"
+  },
+  {
+    "path": "ssv-pulse.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4d912f4ed51ac1a94d2b51215606c8e3efb29be",
+    "size": 677,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/a4d912f4ed51ac1a94d2b51215606c8e3efb29be"
+  },
+  {
+    "path": "ssv.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0032cd70a8d49803660412836e8e890e3e48b853",
+    "size": 1009,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/0032cd70a8d49803660412836e8e890e3e48b853"
+  },
+  {
+    "path": "teku-allin1.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ff5019c9a4e3ea97ddbcfffba2150d0cd704d77",
+    "size": 5433,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/4ff5019c9a4e3ea97ddbcfffba2150d0cd704d77"
+  },
+  {
+    "path": "teku-cl-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3d8f7b2eb3929695db9f5fc235cbfa16d4eb53a",
+    "size": 3116,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/b3d8f7b2eb3929695db9f5fc235cbfa16d4eb53a"
+  },
+  {
+    "path": "teku-vc-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38dd23e0921cf05da83b5a060914a89545479f01",
+    "size": 3788,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/38dd23e0921cf05da83b5a060914a89545479f01"
+  },
+  {
+    "path": "teku.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "46eec48025bf05f4e9c2753a49e17edb238d227c",
+    "size": 6377,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/46eec48025bf05f4e9c2753a49e17edb238d227c"
+  },
+  {
+    "path": "teku",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "95e77f366cc7dcafbe2aa02b9b98832429d9d464",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/95e77f366cc7dcafbe2aa02b9b98832429d9d464"
+  },
+  {
+    "path": "traefik-aws.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4154491ad345ca3a707751077df5bfa01a04e550",
+    "size": 2065,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/4154491ad345ca3a707751077df5bfa01a04e550"
+  },
+  {
+    "path": "traefik-cf.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ada6dbcada95e277c90e49d7e6df7b5b02014377",
+    "size": 2754,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/ada6dbcada95e277c90e49d7e6df7b5b02014377"
+  },
+  {
+    "path": "traefik",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "26670273ec829632a7d73fae32302d914a882470",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/26670273ec829632a7d73fae32302d914a882470"
+  },
+  {
+    "path": "vc-utils",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f4f4f982f6b64a93fc29c5293a9544fece5f47c",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/2f4f4f982f6b64a93fc29c5293a9544fece5f47c"
+  },
+  {
+    "path": "vero-vc-only.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8803c048c8176761798366106f4b931b26cc696",
+    "size": 2564,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/b8803c048c8176761798366106f4b931b26cc696"
+  },
+  {
+    "path": "vero",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e81640f0bd29148f96b8649e85f4039ca36f91cd",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/e81640f0bd29148f96b8649e85f4039ca36f91cd"
+  },
+  {
+    "path": "web3signer.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "699ab6fd467aa596340597bf3dcdbb156b157d55",
+    "size": 2350,
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/blobs/699ab6fd467aa596340597bf3dcdbb156b157d55"
+  },
+  {
+    "path": "web3signer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "67e3819dc0210576a70bab8bcfe920e331459e6a",
+    "url": "https://api.github.com/repos/ethstaker/eth-docker/git/trees/67e3819dc0210576a70bab8bcfe920e331459e6a"
+  }
+]

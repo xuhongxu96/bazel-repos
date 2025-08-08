@@ -1,0 +1,866 @@
+[
+  {
+    "path": ".circleci",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "749e3bbed714dc1a27d539c79d40888bc768abfc",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/749e3bbed714dc1a27d539c79d40888bc768abfc"
+  },
+  {
+    "path": ".dockerignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "04c6da65b3a200cc58d51a098a5cbd51e03ab11b",
+    "size": 11,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/04c6da65b3a200cc58d51a098a5cbd51e03ab11b"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a19ade077d36b05ff659abf5bcbd8a9723b96495",
+    "size": 25,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/a19ade077d36b05ff659abf5bcbd8a9723b96495"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5db57d9468acabe8614811aa41fe9104cce6fe74",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/5db57d9468acabe8614811aa41fe9104cce6fe74"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d11df6cc098651e849700bb7744a65dab7fe6371",
+    "size": 353,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/d11df6cc098651e849700bb7744a65dab7fe6371"
+  },
+  {
+    "path": ".hooks",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f7c315c1df7e0431ff695c738346823db164773",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/2f7c315c1df7e0431ff695c738346823db164773"
+  },
+  {
+    "path": "BLOB_STORE_DESIGN.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45f812551aa650b414de678e126688d7e22e6246",
+    "size": 2076,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/45f812551aa650b414de678e126688d7e22e6246"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87b7e1a0db899bf96f36e1882a7d9e3debb71e86",
+    "size": 89009,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/87b7e1a0db899bf96f36e1882a7d9e3debb71e86"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f622e289e9057c4cd8493b470e441cd444b2b7f",
+    "size": 9396,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/0f622e289e9057c4cd8493b470e441cd444b2b7f"
+  },
+  {
+    "path": "DESIGN.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89c8037cd5b4c5f6b5e9399a19b156cb9dcfbc33",
+    "size": 9172,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/89c8037cd5b4c5f6b5e9399a19b156cb9dcfbc33"
+  },
+  {
+    "path": "Dockerfile_build_ubuntu64",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "afe7d47be014962aa562e3a100a8962e6195a998",
+    "size": 857,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/afe7d47be014962aa562e3a100a8962e6195a998"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "057cf997d6435767d5d87d3b165a3f006dd586ee",
+    "size": 1088,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/057cf997d6435767d5d87d3b165a3f006dd586ee"
+  },
+  {
+    "path": "LICENSE_OF_DEPENDENCIES.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62b73b5dea56929340807975e5b4d0af02662961",
+    "size": 2313,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/62b73b5dea56929340807975e5b4d0af02662961"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da46a9cc40d7cfae57d8ad0a93e0f1784e730d60",
+    "size": 2704,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/da46a9cc40d7cfae57d8ad0a93e0f1784e730d60"
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e017acccc6989fa1603997b6b0b3b61f342707e",
+    "size": 495,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/4e017acccc6989fa1603997b6b0b3b61f342707e"
+  },
+  {
+    "path": "alert.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b36f9d77275f98a27b25a832b2949fdbdcd3af21",
+    "size": 39500,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/b36f9d77275f98a27b25a832b2949fdbdcd3af21"
+  },
+  {
+    "path": "alert",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0d2a2a2cd861e50f803ce724fce3ea40d6fe3189",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/0d2a2a2cd861e50f803ce724fce3ea40d6fe3189"
+  },
+  {
+    "path": "auth",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fe8ed13884164bceefcb6c465fab763fa040b316",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/fe8ed13884164bceefcb6c465fab763fa040b316"
+  },
+  {
+    "path": "autoscale.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b57c6586825461434bbe21dcf534954143b0e5c",
+    "size": 15146,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/8b57c6586825461434bbe21dcf534954143b0e5c"
+  },
+  {
+    "path": "barrier.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "da3bd093d0b6cc47de68f2fd73231c29c2ec4758",
+    "size": 7689,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/da3bd093d0b6cc47de68f2fd73231c29c2ec4758"
+  },
+  {
+    "path": "batch.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a618376a51b6029c1db01f637a2513766801f022",
+    "size": 16566,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/a618376a51b6029c1db01f637a2513766801f022"
+  },
+  {
+    "path": "bufpool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "28b77fab81196cb405bc61595f81969c55043164",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/28b77fab81196cb405bc61595f81969c55043164"
+  },
+  {
+    "path": "build.py",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "560307b64a208c045722fd08e3d447a527075499",
+    "size": 40302,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/560307b64a208c045722fd08e3d447a527075499"
+  },
+  {
+    "path": "build.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "ca310b3b37285a9b355307e7e0941a51593a856e",
+    "size": 683,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/ca310b3b37285a9b355307e7e0941a51593a856e"
+  },
+  {
+    "path": "change_detect.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f16f835da308cea8f8d971545e0091048d73019",
+    "size": 3064,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/6f16f835da308cea8f8d971545e0091048d73019"
+  },
+  {
+    "path": "checkfmt.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "320a66904e1ee7473191aa0971d3a4eb0be119b5",
+    "size": 1234,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/320a66904e1ee7473191aa0971d3a4eb0be119b5"
+  },
+  {
+    "path": "circle-test.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "630ba777fee69cc906238c2fc96d17cfe468de22",
+    "size": 812,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/630ba777fee69cc906238c2fc96d17cfe468de22"
+  },
+  {
+    "path": "circularqueue.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54993180cbbda798db3a24d87ac0086207ae73ca",
+    "size": 2040,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/54993180cbbda798db3a24d87ac0086207ae73ca"
+  },
+  {
+    "path": "circularqueue_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4fd32907800876ba434e70b1e017083cf2605f68",
+    "size": 7049,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/4fd32907800876ba434e70b1e017083cf2605f68"
+  },
+  {
+    "path": "client",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8ada371dfa58c3e84baab128cec7bb3e6950eff1",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/8ada371dfa58c3e84baab128cec7bb3e6950eff1"
+  },
+  {
+    "path": "clock",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7c6c98bb3b93963b255a5223cf3de3647fef08d3",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/7c6c98bb3b93963b255a5223cf3de3647fef08d3"
+  },
+  {
+    "path": "cmd",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "193ab91f1495b9d86fd9b43da420957882691953",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/193ab91f1495b9d86fd9b43da420957882691953"
+  },
+  {
+    "path": "combine.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d2afbe90b29422244cf7c6f8f633d91275a0aaf",
+    "size": 6845,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/6d2afbe90b29422244cf7c6f8f633d91275a0aaf"
+  },
+  {
+    "path": "combine_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77c489c3b41568e7351dc51416660676159d6e2d",
+    "size": 2193,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/77c489c3b41568e7351dc51416660676159d6e2d"
+  },
+  {
+    "path": "command",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4813f51f1cfbbf9651f649df6ad0e3ca087d8200",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/4813f51f1cfbbf9651f649df6ad0e3ca087d8200"
+  },
+  {
+    "path": "default.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf98d75c182ccc2531f11fedc8080cce8e411523",
+    "size": 2817,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/cf98d75c182ccc2531f11fedc8080cce8e411523"
+  },
+  {
+    "path": "delete.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96e8adc05f5bf03ffac491b970e8f16b35512c3c",
+    "size": 3568,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/96e8adc05f5bf03ffac491b970e8f16b35512c3c"
+  },
+  {
+    "path": "derivative.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d1355eeb82d372bdeae0d58f9786e15e0bc0c45",
+    "size": 4308,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/8d1355eeb82d372bdeae0d58f9786e15e0bc0c45"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aa8ea4dd1d86f8e57f9d3db952122d263e8f457d",
+    "size": 935,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/aa8ea4dd1d86f8e57f9d3db952122d263e8f457d"
+  },
+  {
+    "path": "edge.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5624662175c5ed6c880e9ee881d1004b896123dc",
+    "size": 1327,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/5624662175c5ed6c880e9ee881d1004b896123dc"
+  },
+  {
+    "path": "edge",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f888daf1ccf897915f7bdfa040a524b17d054faf",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/f888daf1ccf897915f7bdfa040a524b17d054faf"
+  },
+  {
+    "path": "etc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c05a874b9bbfcc1277b8db3019f6bb8f0ddd5ae",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/9c05a874b9bbfcc1277b8db3019f6bb8f0ddd5ae"
+  },
+  {
+    "path": "eval.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d0c46dbc549458bfe07d0b13801897f5e818937a",
+    "size": 5430,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/d0c46dbc549458bfe07d0b13801897f5e818937a"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7da9db6234e862f2f621f226488ab361c85c856d",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/7da9db6234e862f2f621f226488ab361c85c856d"
+  },
+  {
+    "path": "expr.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1419e0b434f3b9224bdf4c8a6d3376cf86f094ef",
+    "size": 1730,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/1419e0b434f3b9224bdf4c8a6d3376cf86f094ef"
+  },
+  {
+    "path": "expvar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f980b934314208ea1c154306e07da139214e81b5",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/f980b934314208ea1c154306e07da139214e81b5"
+  },
+  {
+    "path": "flatten.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0afa264fdbf5c4d18553dd0099152d6b926e0e31",
+    "size": 5398,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/0afa264fdbf5c4d18553dd0099152d6b926e0e31"
+  },
+  {
+    "path": "fluxquery.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "50399a190ea63542efbab78ee9915c5d1267e887",
+    "size": 576,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/50399a190ea63542efbab78ee9915c5d1267e887"
+  },
+  {
+    "path": "generate.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "77a6ac5dcdbabe7cefb4b1e3da9b43c8bfa96645",
+    "size": 472,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/77a6ac5dcdbabe7cefb4b1e3da9b43c8bfa96645"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba8b39e8251f973fafe44abc5dcbe286e26022c0",
+    "size": 15639,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/ba8b39e8251f973fafe44abc5dcbe286e26022c0"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d1ba55b2b5577cf9e78958968e8f982f222458f",
+    "size": 215546,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/4d1ba55b2b5577cf9e78958968e8f982f222458f"
+  },
+  {
+    "path": "gobuild.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "9a96e7e9b79cf71568bb1ca0a91887e02149d049",
+    "size": 442,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/9a96e7e9b79cf71568bb1ca0a91887e02149d049"
+  },
+  {
+    "path": "group_by.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d7b10e69aead6e161bbbb3baae3025014e5dfbe6",
+    "size": 5022,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/d7b10e69aead6e161bbbb3baae3025014e5dfbe6"
+  },
+  {
+    "path": "http",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "57625ec467645f9cac751cb1e011449810ba8955",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/57625ec467645f9cac751cb1e011449810ba8955"
+  },
+  {
+    "path": "http_out.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1165ecbd8132456028c6ff9089895140e83f754b",
+    "size": 4080,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/1165ecbd8132456028c6ff9089895140e83f754b"
+  },
+  {
+    "path": "http_post.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ad77dcd424268a2904c7af5d5ef1e942d25bf33",
+    "size": 5801,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/1ad77dcd424268a2904c7af5d5ef1e942d25bf33"
+  },
+  {
+    "path": "influxdb",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0dd7ae08f3b35c285d6ba00712e0bb8b02faac41",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/0dd7ae08f3b35c285d6ba00712e0bb8b02faac41"
+  },
+  {
+    "path": "influxdb_out.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb2c243fc1827ff7634cae35961a5b74d32eaf1b",
+    "size": 7316,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/bb2c243fc1827ff7634cae35961a5b74d32eaf1b"
+  },
+  {
+    "path": "influxql.gen.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aeba771f5c7b98cac1519ef229dba8127c18ae4e",
+    "size": 26591,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/aeba771f5c7b98cac1519ef229dba8127c18ae4e"
+  },
+  {
+    "path": "influxql.gen.go.tmpl",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f04309923c6e4885b9ae530125c424f45b25d04",
+    "size": 5389,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/7f04309923c6e4885b9ae530125c424f45b25d04"
+  },
+  {
+    "path": "influxql.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ef9b1e28931e5a3ad8dee4d901c6ad78d71279e8",
+    "size": 7565,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/ef9b1e28931e5a3ad8dee4d901c6ad78d71279e8"
+  },
+  {
+    "path": "integrations",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f7352c023a0c416968b82a51e0c7bea047c00b62",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/f7352c023a0c416968b82a51e0c7bea047c00b62"
+  },
+  {
+    "path": "join.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b1e70ef171b7345b6d639ece696cfd21746f36e",
+    "size": 18331,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/4b1e70ef171b7345b6d639ece696cfd21746f36e"
+  },
+  {
+    "path": "kapacitor_loopback.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ba11b7d20121b8e6eb27f7b5757b8deaa83c4e8",
+    "size": 2718,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/5ba11b7d20121b8e6eb27f7b5757b8deaa83c4e8"
+  },
+  {
+    "path": "keyvalue",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "36c9c4ddc41dc703618372077ead21f2bddf3d72",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/36c9c4ddc41dc703618372077ead21f2bddf3d72"
+  },
+  {
+    "path": "list-deps",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "174b512fcfc4b0f728018bd4ceed84807efe83f0",
+    "size": 1106,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/174b512fcfc4b0f728018bd4ceed84807efe83f0"
+  },
+  {
+    "path": "listmap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bb55946d0b9f7190d5ccd0f1e311ed947fcbcdd5",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/bb55946d0b9f7190d5ccd0f1e311ed947fcbcdd5"
+  },
+  {
+    "path": "log.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5573f131f047797a98e222c41378cc7702e6cc7",
+    "size": 1836,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/c5573f131f047797a98e222c41378cc7702e6cc7"
+  },
+  {
+    "path": "metaclient.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9e974d31a5169b5e1a8e3ae52dd49ee337cc6e03",
+    "size": 1107,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/9e974d31a5169b5e1a8e3ae52dd49ee337cc6e03"
+  },
+  {
+    "path": "models",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f1dd0c0e6f9e3969a60ed29f696dc26a44beaaf3",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/f1dd0c0e6f9e3969a60ed29f696dc26a44beaaf3"
+  },
+  {
+    "path": "node.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1daee5a14da5138a8a33bc95b586214637efb80d",
+    "size": 9502,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/1daee5a14da5138a8a33bc95b586214637efb80d"
+  },
+  {
+    "path": "noop.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d693c79d2d33ae4a33f8a469523e7de82ab76a5e",
+    "size": 627,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/d693c79d2d33ae4a33f8a469523e7de82ab76a5e"
+  },
+  {
+    "path": "output.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a7e36a0cae91f87a48ce21603563e7f179af36b",
+    "size": 167,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/6a7e36a0cae91f87a48ce21603563e7f179af36b"
+  },
+  {
+    "path": "pipeline",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4f2aac8196fd8c65c331bb5d096df064f5074363",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/4f2aac8196fd8c65c331bb5d096df064f5074363"
+  },
+  {
+    "path": "pkg-config.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "76ae2d2be521f2e6fcbeadabd612354eaff6f804",
+    "size": 456,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/76ae2d2be521f2e6fcbeadabd612354eaff6f804"
+  },
+  {
+    "path": "query.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b0785c3f3f657b1b1affdfb73ef4cd684a9c68a",
+    "size": 6786,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/9b0785c3f3f657b1b1affdfb73ef4cd684a9c68a"
+  },
+  {
+    "path": "query_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "875b12d22fa80ac6a89e791897b5f627570e6395",
+    "size": 4365,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/875b12d22fa80ac6a89e791897b5f627570e6395"
+  },
+  {
+    "path": "replay.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cdc199a5c49c9b55684b0c000483808107ae4045",
+    "size": 6872,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/cdc199a5c49c9b55684b0c000483808107ae4045"
+  },
+  {
+    "path": "result.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bb2f44e1b6e92c86b99e057ffa75d144122c84e",
+    "size": 796,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/1bb2f44e1b6e92c86b99e057ffa75d144122c84e"
+  },
+  {
+    "path": "sample.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "503eb46704908c2729cfd480cfa832064cec9b4a",
+    "size": 2359,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/503eb46704908c2729cfd480cfa832064cec9b4a"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2550a08eafa8d1f90ba1038df88b9f5925770940",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/2550a08eafa8d1f90ba1038df88b9f5925770940"
+  },
+  {
+    "path": "server",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "84db5560c01c60d2e1039a5e95c443e838a90a0d",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/84db5560c01c60d2e1039a5e95c443e838a90a0d"
+  },
+  {
+    "path": "services",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b648d8a90b225bdacd12e4e4ee84ea99d1aa4077",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/b648d8a90b225bdacd12e4e4ee84ea99d1aa4077"
+  },
+  {
+    "path": "shift.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb0d898a86433c097f64d6a51895dcf36451d886",
+    "size": 1683,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/cb0d898a86433c097f64d6a51895dcf36451d886"
+  },
+  {
+    "path": "sideload.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41c252a67199ff4faf000f67a479f0228721e9f1",
+    "size": 5976,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/41c252a67199ff4faf000f67a479f0228721e9f1"
+  },
+  {
+    "path": "state_tracking.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "126ab3d4c7461add22dbc5de78040ce72c551666",
+    "size": 4528,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/126ab3d4c7461add22dbc5de78040ce72c551666"
+  },
+  {
+    "path": "staticcheck.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e01dd50b7a9c3e290dc01fc9f27201a4c4d65e2",
+    "size": 95,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/3e01dd50b7a9c3e290dc01fc9f27201a4c4d65e2"
+  },
+  {
+    "path": "stats.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05dee805289c7eb1999388fd00a741fb4ca25253",
+    "size": 2491,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/05dee805289c7eb1999388fd00a741fb4ca25253"
+  },
+  {
+    "path": "stream.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "971b35db16c7b7d4f3ead5bae7c2c2e261be939e",
+    "size": 3599,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/971b35db16c7b7d4f3ead5bae7c2c2e261be939e"
+  },
+  {
+    "path": "task.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5962bb36ba1d8266882996e223971672e4bc643",
+    "size": 13104,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/e5962bb36ba1d8266882996e223971672e4bc643"
+  },
+  {
+    "path": "task",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "523ac9b00a07b89009b8d2a49f7103c73e2ba2e4",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/523ac9b00a07b89009b8d2a49f7103c73e2ba2e4"
+  },
+  {
+    "path": "task_master.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccd2bf06842b216b646288a79d873e0712e8eefc",
+    "size": 24078,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/ccd2bf06842b216b646288a79d873e0712e8eefc"
+  },
+  {
+    "path": "template.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9abad80045c1256d6942debdfe741afaa38e6609",
+    "size": 321,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/9abad80045c1256d6942debdfe741afaa38e6609"
+  },
+  {
+    "path": "test.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "4d2f5f225ba8ce165a2c148381a8cecce9bd0859",
+    "size": 3672,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/4d2f5f225ba8ce165a2c148381a8cecce9bd0859"
+  },
+  {
+    "path": "tick",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fb2bb7abfc33ff0f315353fcd62331b2127a9b5f",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/fb2bb7abfc33ff0f315353fcd62331b2127a9b5f"
+  },
+  {
+    "path": "tickdoc.conf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f6f1a8d6fa8d4d87b53ea77d2e52a769ae30506",
+    "size": 737,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/3f6f1a8d6fa8d4d87b53ea77d2e52a769ae30506"
+  },
+  {
+    "path": "timer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc0cb22d40544f9dcfbed789a1452d4794aed2c8",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/cc0cb22d40544f9dcfbed789a1452d4794aed2c8"
+  },
+  {
+    "path": "tlsconfig",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9f06b98746f60d3cac3e0e70cba4332f6835c56",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/c9f06b98746f60d3cac3e0e70cba4332f6835c56"
+  },
+  {
+    "path": "tmpldata.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd31e19f951d7c040cf358fcd241df57f231e74e",
+    "size": 499,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/cd31e19f951d7c040cf358fcd241df57f231e74e"
+  },
+  {
+    "path": "tools.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9fc44192b0452b3f15d35838441f56b3e9b27c85",
+    "size": 536,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/9fc44192b0452b3f15d35838441f56b3e9b27c85"
+  },
+  {
+    "path": "trickle.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7765798deeee535cbf74d54638e79177eac6b372",
+    "size": 1416,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/7765798deeee535cbf74d54638e79177eac6b372"
+  },
+  {
+    "path": "udf.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be51784f6b594ab91557435f1edc480266e71407",
+    "size": 8629,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/be51784f6b594ab91557435f1edc480266e71407"
+  },
+  {
+    "path": "udf",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d7c80c4b51b27024e7a87de29d3c7831df77b80d",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/d7c80c4b51b27024e7a87de29d3c7831df77b80d"
+  },
+  {
+    "path": "udf_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32dee7a7b547ddf5ac7b831a7f496ed13c7d3890",
+    "size": 6654,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/32dee7a7b547ddf5ac7b831a7f496ed13c7d3890"
+  },
+  {
+    "path": "union.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "28ff02fd1a8d7c24b2bd85d5af04007629b35d61",
+    "size": 3696,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/28ff02fd1a8d7c24b2bd85d5af04007629b35d61"
+  },
+  {
+    "path": "update_tick_docs.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "eb73fe42c0bf371beec9e995a5ccafbd9af5b513",
+    "size": 372,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/eb73fe42c0bf371beec9e995a5ccafbd9af5b513"
+  },
+  {
+    "path": "usr",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dacd8ca781723cc3c719c70a2c9d31b9bbc65cf6",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/dacd8ca781723cc3c719c70a2c9d31b9bbc65cf6"
+  },
+  {
+    "path": "uuid",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94ff14d897ef3a97ff1bb99e3425123648f8f518",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/94ff14d897ef3a97ff1bb99e3425123648f8f518"
+  },
+  {
+    "path": "waiter",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cae2b62c2c437af298889f8f631661af72e55b1a",
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/trees/cae2b62c2c437af298889f8f631661af72e55b1a"
+  },
+  {
+    "path": "where.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cb30492b1661359c54aca8e32a29de3b6aa3a78",
+    "size": 2599,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/8cb30492b1661359c54aca8e32a29de3b6aa3a78"
+  },
+  {
+    "path": "window.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "121cfaa73317c16739365a428178c34b84f60889",
+    "size": 11197,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/121cfaa73317c16739365a428178c34b84f60889"
+  },
+  {
+    "path": "window_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebc91def7df6459047b470fcd1ec16bd3a039da7",
+    "size": 4038,
+    "url": "https://api.github.com/repos/influxdata/kapacitor/git/blobs/ebc91def7df6459047b470fcd1ec16bd3a039da7"
+  }
+]

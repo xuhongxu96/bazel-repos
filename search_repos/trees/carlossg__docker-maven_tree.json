@@ -1,0 +1,920 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "60c29e929d63bc96ab184c7972d595d26013bb0b",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/60c29e929d63bc96ab184c7972d595d26013bb0b"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d24b7a39cd1e27fa42c91e4e9a536bd08d004f98",
+    "size": 88,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/d24b7a39cd1e27fa42c91e4e9a536bd08d004f98"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "260dff8d3d7ede03056f2532375545862bcaef8d",
+    "size": 239,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/260dff8d3d7ede03056f2532375545862bcaef8d"
+  },
+  {
+    "path": "Dockerfile-template",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23bb2e2d4989f746af55690e27cc2c58fb645ce5",
+    "size": 1040,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/23bb2e2d4989f746af55690e27cc2c58fb645ce5"
+  },
+  {
+    "path": "Dockerfile-template-maven-4",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87103391d1f2dcc1c2967ec07cfa342e18d45787",
+    "size": 1107,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/87103391d1f2dcc1c2967ec07cfa342e18d45787"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e06d2081865a766a8668acc12878f98b27fc9ea0",
+    "size": 11325,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/e06d2081865a766a8668acc12878f98b27fc9ea0"
+  },
+  {
+    "path": "README-short.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6fe2814b1f84a2d8e9f09dfcebebf9d76eb66b9a",
+    "size": 189,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/6fe2814b1f84a2d8e9f09dfcebebf9d76eb66b9a"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "75a39200cf48992bad1ceeee2a7a9248a491ffd5",
+    "size": 26586,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/75a39200cf48992bad1ceeee2a7a9248a491ffd5"
+  },
+  {
+    "path": "amazoncorretto-11-al2023",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "17197d97521c27a81987a90fd1890697b804e82b",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/17197d97521c27a81987a90fd1890697b804e82b"
+  },
+  {
+    "path": "amazoncorretto-11-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fcd4353e5d192e33b867deb8cc10b57be49ca86b",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/fcd4353e5d192e33b867deb8cc10b57be49ca86b"
+  },
+  {
+    "path": "amazoncorretto-11-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "11d4e5f11b3fa400b7c924e9a5d2f0192ccc1fab",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/11d4e5f11b3fa400b7c924e9a5d2f0192ccc1fab"
+  },
+  {
+    "path": "amazoncorretto-11-windowsservercore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1960b583805a2fa9d1a09c310f6e3f585b63bb10",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/1960b583805a2fa9d1a09c310f6e3f585b63bb10"
+  },
+  {
+    "path": "amazoncorretto-11",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f7897feb0a75ed324a48899153ce4fc6e35cbbe6",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/f7897feb0a75ed324a48899153ce4fc6e35cbbe6"
+  },
+  {
+    "path": "amazoncorretto-17-al2023-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "de7da977ddb157965a6932f1965b7b63ad9fd7c8",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/de7da977ddb157965a6932f1965b7b63ad9fd7c8"
+  },
+  {
+    "path": "amazoncorretto-17-al2023",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "654d2e9d438b1ac0809624e00a0eb1ed948a0e14",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/654d2e9d438b1ac0809624e00a0eb1ed948a0e14"
+  },
+  {
+    "path": "amazoncorretto-17-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "373b65f6cc9e9a514df70b19e799daed6af9ac89",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/373b65f6cc9e9a514df70b19e799daed6af9ac89"
+  },
+  {
+    "path": "amazoncorretto-17-debian-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f61adc63c362a97f24c4cb4ad3eb05730965e989",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/f61adc63c362a97f24c4cb4ad3eb05730965e989"
+  },
+  {
+    "path": "amazoncorretto-17-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "52bf63b545b84a12601859b3d2bec96988eebf94",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/52bf63b545b84a12601859b3d2bec96988eebf94"
+  },
+  {
+    "path": "amazoncorretto-17-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e6ac79541be57e212dec3e48fe3a839d9bef21d9",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/e6ac79541be57e212dec3e48fe3a839d9bef21d9"
+  },
+  {
+    "path": "amazoncorretto-17-windowsservercore-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "81348c5c5dff2a5cadadfae49aa99926c9ecfce0",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/81348c5c5dff2a5cadadfae49aa99926c9ecfce0"
+  },
+  {
+    "path": "amazoncorretto-17-windowsservercore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e2e7ed7a04a9c719d5ad358df8a6870f6d2e9dd3",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/e2e7ed7a04a9c719d5ad358df8a6870f6d2e9dd3"
+  },
+  {
+    "path": "amazoncorretto-17",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bb5c4b3ef43a15174487319266e4a5aedaa806e5",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/bb5c4b3ef43a15174487319266e4a5aedaa806e5"
+  },
+  {
+    "path": "amazoncorretto-21-al2023-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fcc2c9bd61dc35b173f92229012afaacf39eadcf",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/fcc2c9bd61dc35b173f92229012afaacf39eadcf"
+  },
+  {
+    "path": "amazoncorretto-21-al2023",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d127e2464c51fb8877c8784b87a2d72b270f4f8a",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/d127e2464c51fb8877c8784b87a2d72b270f4f8a"
+  },
+  {
+    "path": "amazoncorretto-21-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b8f64062ba0b06481b1f588d738fed44d82ed724",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/b8f64062ba0b06481b1f588d738fed44d82ed724"
+  },
+  {
+    "path": "amazoncorretto-21-debian-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6a9e4ce21662118a7d0f1f7647adb507471986a",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/d6a9e4ce21662118a7d0f1f7647adb507471986a"
+  },
+  {
+    "path": "amazoncorretto-21-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "426084bc48a88996891076dbc84b733e970b5280",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/426084bc48a88996891076dbc84b733e970b5280"
+  },
+  {
+    "path": "amazoncorretto-21-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac5e6edfc2f3717a96aafc75647df6873bfadd98",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/ac5e6edfc2f3717a96aafc75647df6873bfadd98"
+  },
+  {
+    "path": "amazoncorretto-21",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c8df1dc6b0bdf653847515dfdc65d206d93bbc5",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/0c8df1dc6b0bdf653847515dfdc65d206d93bbc5"
+  },
+  {
+    "path": "amazoncorretto-24-al2023-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "36eb77bc5476def07127ab236145c0a0a2c0c45a",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/36eb77bc5476def07127ab236145c0a0a2c0c45a"
+  },
+  {
+    "path": "amazoncorretto-24-al2023",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aa9023f389d1c37117b5bbe4e9d5b7dd4e5ee1ac",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/aa9023f389d1c37117b5bbe4e9d5b7dd4e5ee1ac"
+  },
+  {
+    "path": "amazoncorretto-24-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "02a9a0cc43a7e7ead0c2d8390aac1ede02043da6",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/02a9a0cc43a7e7ead0c2d8390aac1ede02043da6"
+  },
+  {
+    "path": "amazoncorretto-24-debian-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "00ec0808088905e0046f19cc1a1933070940cdca",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/00ec0808088905e0046f19cc1a1933070940cdca"
+  },
+  {
+    "path": "amazoncorretto-24-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e55cc007c6494b620200df057440c1200851c1c2",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/e55cc007c6494b620200df057440c1200851c1c2"
+  },
+  {
+    "path": "amazoncorretto-24-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41f9350b985668cf2f04952e9e7194d85ca7878e",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/41f9350b985668cf2f04952e9e7194d85ca7878e"
+  },
+  {
+    "path": "amazoncorretto-24",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2aaf45933d03aa00f22d258f6c5fe7682419a23",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/a2aaf45933d03aa00f22d258f6c5fe7682419a23"
+  },
+  {
+    "path": "amazoncorretto-8-al2023",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "019408e85397a74407ccb29983f3a8bdf10e86d2",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/019408e85397a74407ccb29983f3a8bdf10e86d2"
+  },
+  {
+    "path": "amazoncorretto-8-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dda8875472beb0fe2acc8422e3556ac143f06444",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/dda8875472beb0fe2acc8422e3556ac143f06444"
+  },
+  {
+    "path": "amazoncorretto-8-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3203df70ea9259af2f25a47b115112ca9afd3c4d",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/3203df70ea9259af2f25a47b115112ca9afd3c4d"
+  },
+  {
+    "path": "amazoncorretto-8-windowsservercore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c77688b8c708b1251ed8bcbfc41600e1aed8ecef",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/c77688b8c708b1251ed8bcbfc41600e1aed8ecef"
+  },
+  {
+    "path": "amazoncorretto-8",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d68f5933d48e932de319c59964ed139229929513",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/d68f5933d48e932de319c59964ed139229929513"
+  },
+  {
+    "path": "azulzulu-11-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "471157a8166fbef8f86105a2575e701726a797ee",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/471157a8166fbef8f86105a2575e701726a797ee"
+  },
+  {
+    "path": "azulzulu-11-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "efbbf91dddfd3a28dafeedbdd6a8254e9e5c1a59",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/efbbf91dddfd3a28dafeedbdd6a8254e9e5c1a59"
+  },
+  {
+    "path": "azulzulu-11-windowsservercore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a68eb2f79156af6a1ffcc1d5ca12a8fde95fc0dd",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/a68eb2f79156af6a1ffcc1d5ca12a8fde95fc0dd"
+  },
+  {
+    "path": "azulzulu-11",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "39c3a950e1607dceb4368f42f2443f3f967c3d81",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/39c3a950e1607dceb4368f42f2443f3f967c3d81"
+  },
+  {
+    "path": "azulzulu-17-alpine-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c94dfc85a501b2344475fff19113dc72905cc4c",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/6c94dfc85a501b2344475fff19113dc72905cc4c"
+  },
+  {
+    "path": "azulzulu-17-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bdceb9baf4f6c48e6fc7366779f4013633e841d0",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/bdceb9baf4f6c48e6fc7366779f4013633e841d0"
+  },
+  {
+    "path": "azulzulu-17-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "65de8c950837b6ac0c71edee8366621b16fdac79",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/65de8c950837b6ac0c71edee8366621b16fdac79"
+  },
+  {
+    "path": "azulzulu-17-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "647d87bb6f37000de508a31cbed1713351ad2d5f",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/647d87bb6f37000de508a31cbed1713351ad2d5f"
+  },
+  {
+    "path": "azulzulu-17-windowsservercore-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b602a4790beb1d7ac99e213aac958808108ff6e4",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/b602a4790beb1d7ac99e213aac958808108ff6e4"
+  },
+  {
+    "path": "azulzulu-17-windowsservercore",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a630070263eea5b522fd7ce23bc75abdd1cc180",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/6a630070263eea5b522fd7ce23bc75abdd1cc180"
+  },
+  {
+    "path": "azulzulu-17",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94aac02ae8cecb9c06df2880a7e543e7f383c53c",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/94aac02ae8cecb9c06df2880a7e543e7f383c53c"
+  },
+  {
+    "path": "azulzulu-21-alpine-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2a6be2c086860fce8519a2c0376d3d593027d97d",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/2a6be2c086860fce8519a2c0376d3d593027d97d"
+  },
+  {
+    "path": "azulzulu-21-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac3299ed66780b9e4ebb94ce5cd42434d358ce53",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/ac3299ed66780b9e4ebb94ce5cd42434d358ce53"
+  },
+  {
+    "path": "azulzulu-21-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "503ac6abfe72d6c3a61a6e5a8a08e267c8dd165e",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/503ac6abfe72d6c3a61a6e5a8a08e267c8dd165e"
+  },
+  {
+    "path": "azulzulu-21-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f06b50348eb9039f0acffff139c514363611e772",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/f06b50348eb9039f0acffff139c514363611e772"
+  },
+  {
+    "path": "azulzulu-21",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0674b088b2d78b0328eda0fed18903f8c38cbbb",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/b0674b088b2d78b0328eda0fed18903f8c38cbbb"
+  },
+  {
+    "path": "azulzulu-24-alpine-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d5607e6cd9359c137e05a038c11f1e76c8da99f9",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/d5607e6cd9359c137e05a038c11f1e76c8da99f9"
+  },
+  {
+    "path": "azulzulu-24-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1d69765d6dc7cd9c2064e073f57576dd4b2bd86c",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/1d69765d6dc7cd9c2064e073f57576dd4b2bd86c"
+  },
+  {
+    "path": "azulzulu-24-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fadee0d261a91a0746449f9d568d2b03a26a11aa",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/fadee0d261a91a0746449f9d568d2b03a26a11aa"
+  },
+  {
+    "path": "azulzulu-24-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41d436183e9a134e8fe9ba3e9dc8031e136b9320",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/41d436183e9a134e8fe9ba3e9dc8031e136b9320"
+  },
+  {
+    "path": "azulzulu-24",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6983146b15bfbfd2dc101b4008a9a04b725af97",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/d6983146b15bfbfd2dc101b4008a9a04b725af97"
+  },
+  {
+    "path": "azulzulu-8-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f747c0bdb94d823f694cd8a0fafd7dd65fbb1628",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/f747c0bdb94d823f694cd8a0fafd7dd65fbb1628"
+  },
+  {
+    "path": "azulzulu-8-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4259d76f67cdfde0792a27dde6802b1b450ce787",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/4259d76f67cdfde0792a27dde6802b1b450ce787"
+  },
+  {
+    "path": "azulzulu-8",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bff8e2b341c691a48a81ba44cfbe9409ec976ae0",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/bff8e2b341c691a48a81ba44cfbe9409ec976ae0"
+  },
+  {
+    "path": "common.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "8fbb03c01338190592124bbf694b6725c7ca3c2e",
+    "size": 3733,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/8fbb03c01338190592124bbf694b6725c7ca3c2e"
+  },
+  {
+    "path": "eclipse-temurin-11-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3d135b48ed70d601be3f28582f089789f9d29c33",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/3d135b48ed70d601be3f28582f089789f9d29c33"
+  },
+  {
+    "path": "eclipse-temurin-11-noble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7bae8aeec3599b7c4fe24ae8e2d555f2938c532",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/e7bae8aeec3599b7c4fe24ae8e2d555f2938c532"
+  },
+  {
+    "path": "eclipse-temurin-17-alpine-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f12bccb5b7b21f7c6f0b86197765c65e9e0ec231",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/f12bccb5b7b21f7c6f0b86197765c65e9e0ec231"
+  },
+  {
+    "path": "eclipse-temurin-17-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d0ac4bd3faa05d92b897284375f331168eaa58af",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/d0ac4bd3faa05d92b897284375f331168eaa58af"
+  },
+  {
+    "path": "eclipse-temurin-17-noble-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "828b51aa9c9ff517d951e12c0583b0a55a8f741c",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/828b51aa9c9ff517d951e12c0583b0a55a8f741c"
+  },
+  {
+    "path": "eclipse-temurin-17-noble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "33ab8a34086d09ec768a9710415aaa88f7460529",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/33ab8a34086d09ec768a9710415aaa88f7460529"
+  },
+  {
+    "path": "eclipse-temurin-21-alpine-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc095efadcc81f76a87ae3553938f626d147cd60",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/bc095efadcc81f76a87ae3553938f626d147cd60"
+  },
+  {
+    "path": "eclipse-temurin-21-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2aeddbcf044705d5b4d3386663fe669819da93f3",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/2aeddbcf044705d5b4d3386663fe669819da93f3"
+  },
+  {
+    "path": "eclipse-temurin-21-noble-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f2aa858db665536a3623e3d8526b47b3645b39e1",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/f2aa858db665536a3623e3d8526b47b3645b39e1"
+  },
+  {
+    "path": "eclipse-temurin-21-noble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9664a8874fd5f81357c4c7e080a6ab6f1e85d535",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/9664a8874fd5f81357c4c7e080a6ab6f1e85d535"
+  },
+  {
+    "path": "eclipse-temurin-24-alpine-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a27c729bdfdef2b78787418254d9b68190666248",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/a27c729bdfdef2b78787418254d9b68190666248"
+  },
+  {
+    "path": "eclipse-temurin-24-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b456ca403fb7a9bff8f1b811a86d01c650803698",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/b456ca403fb7a9bff8f1b811a86d01c650803698"
+  },
+  {
+    "path": "eclipse-temurin-24-noble-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c43576544e502bdf8f4179ea91d5c8545ebb7e62",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/c43576544e502bdf8f4179ea91d5c8545ebb7e62"
+  },
+  {
+    "path": "eclipse-temurin-24-noble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4112c8c130bac82bdafb42370e820e3666090574",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/4112c8c130bac82bdafb42370e820e3666090574"
+  },
+  {
+    "path": "eclipse-temurin-8-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "63cae4a5c90d562922644b08a19f71bb3c06222a",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/63cae4a5c90d562922644b08a19f71bb3c06222a"
+  },
+  {
+    "path": "eclipse-temurin-8-noble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4a4dc590dd13d3bdbdd95913e2e22dc35195688e",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/4a4dc590dd13d3bdbdd95913e2e22dc35195688e"
+  },
+  {
+    "path": "generate-stackbrew-library.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6b4ef6c6be10d5a8634f83357cf9e90b4d5b5d7a",
+    "size": 2750,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/6b4ef6c6be10d5a8634f83357cf9e90b4d5b5d7a"
+  },
+  {
+    "path": "github-action-generation.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "bee2cb4bee3d0c9b6814251ab6cae22964e2a252",
+    "size": 503,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/bee2cb4bee3d0c9b6814251ab6cae22964e2a252"
+  },
+  {
+    "path": "github-action.ps1",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "11c92e12044d118d6452511b7ed0578de014e0ff",
+    "size": 1345,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/11c92e12044d118d6452511b7ed0578de014e0ff"
+  },
+  {
+    "path": "graalvm-community-17-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "90bf32bf523f02fbec3b1e0a351fc61b6ceed1b7",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/90bf32bf523f02fbec3b1e0a351fc61b6ceed1b7"
+  },
+  {
+    "path": "graalvm-community-17",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3b6166498377983c50368aff7c406ae0e06a5c53",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/3b6166498377983c50368aff7c406ae0e06a5c53"
+  },
+  {
+    "path": "graalvm-community-21-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "78753298159e2e195e9c55f54540a1b6816a56db",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/78753298159e2e195e9c55f54540a1b6816a56db"
+  },
+  {
+    "path": "graalvm-community-21",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ed3297397f2c14dc20dda8d367beb9f1ef041e2",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/2ed3297397f2c14dc20dda8d367beb9f1ef041e2"
+  },
+  {
+    "path": "graalvm-community-24-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f9cc1aadb8f80b49269002cdab5587e4265b338f",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/f9cc1aadb8f80b49269002cdab5587e4265b338f"
+  },
+  {
+    "path": "graalvm-community-24",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ee7e8050460b75e8ceb9660e3ff45e99daf3f707",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/ee7e8050460b75e8ceb9660e3ff45e99daf3f707"
+  },
+  {
+    "path": "ibm-semeru-11-noble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ac151c755a2f0ee99f0ba435fa4d1a8c802fc3c3",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/ac151c755a2f0ee99f0ba435fa4d1a8c802fc3c3"
+  },
+  {
+    "path": "ibm-semeru-17-noble-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b6ece94aa79fd00d58c06ce4355163de43dd2c10",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/b6ece94aa79fd00d58c06ce4355163de43dd2c10"
+  },
+  {
+    "path": "ibm-semeru-17-noble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7a344cad558eb50956ff82dff990c61f282f79fc",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/7a344cad558eb50956ff82dff990c61f282f79fc"
+  },
+  {
+    "path": "ibm-semeru-21-noble-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b0621ae21f4b3b212eb61be9a7be72886be9b8e2",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/b0621ae21f4b3b212eb61be9a7be72886be9b8e2"
+  },
+  {
+    "path": "ibm-semeru-21-noble",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8379f9e54b78e1c8fa077e389a0170fabc2901af",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/8379f9e54b78e1c8fa077e389a0170fabc2901af"
+  },
+  {
+    "path": "ibmjava-8",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "148633ef61b91f22a18e3901cde55d72c59d4564",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/148633ef61b91f22a18e3901cde55d72c59d4564"
+  },
+  {
+    "path": "jdk-new-version.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "0b4cb6758106be37bcebefe711e679b8e1280c7a",
+    "size": 529,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/0b4cb6758106be37bcebefe711e679b8e1280c7a"
+  },
+  {
+    "path": "libericaopenjdk-11-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "522196b5f59c47b17752333b77cdd03c67c5fae4",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/522196b5f59c47b17752333b77cdd03c67c5fae4"
+  },
+  {
+    "path": "libericaopenjdk-11-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "953ae495d6bd4015d1a90e30d5f08b280c495f86",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/953ae495d6bd4015d1a90e30d5f08b280c495f86"
+  },
+  {
+    "path": "libericaopenjdk-17-alpine-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d9e5f085d6d856dd304054fb97d0b83e2e4aecb0",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/d9e5f085d6d856dd304054fb97d0b83e2e4aecb0"
+  },
+  {
+    "path": "libericaopenjdk-17-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b7bd103b60573e1160aac0821405966ecc904751",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/b7bd103b60573e1160aac0821405966ecc904751"
+  },
+  {
+    "path": "libericaopenjdk-17-debian-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8cb59f933f9d1dd214bc54d30b52552b3e9573a8",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/8cb59f933f9d1dd214bc54d30b52552b3e9573a8"
+  },
+  {
+    "path": "libericaopenjdk-17-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8aac8dbc6a8db10e341225e9648cb9ab4e0d9463",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/8aac8dbc6a8db10e341225e9648cb9ab4e0d9463"
+  },
+  {
+    "path": "libericaopenjdk-8-alpine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "19a148dd0840f4d3529e088384db56aa7b5d62a1",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/19a148dd0840f4d3529e088384db56aa7b5d62a1"
+  },
+  {
+    "path": "libericaopenjdk-8-debian",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7832a6079ad0a3c01cbe59c7422c117854c0326f",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/7832a6079ad0a3c01cbe59c7422c117854c0326f"
+  },
+  {
+    "path": "logo.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02aec8aa9d236eff984e92d377fdb11c1ea312bb",
+    "size": 5815,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/02aec8aa9d236eff984e92d377fdb11c1ea312bb"
+  },
+  {
+    "path": "microsoft-openjdk-11-ubuntu",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "68db4bff43afd703e58d018a8308b87a818c6803",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/68db4bff43afd703e58d018a8308b87a818c6803"
+  },
+  {
+    "path": "microsoft-openjdk-17-ubuntu-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e170ec2f4c76e8fe32841034ce63e09b24391df8",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/e170ec2f4c76e8fe32841034ce63e09b24391df8"
+  },
+  {
+    "path": "microsoft-openjdk-17-ubuntu",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cc3f234b3e3cd5b1d0e80736e748181c7ac355ff",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/cc3f234b3e3cd5b1d0e80736e748181c7ac355ff"
+  },
+  {
+    "path": "microsoft-openjdk-21-ubuntu-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6b86656df063fb700752f2cf754217a5c3c52ae3",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/6b86656df063fb700752f2cf754217a5c3c52ae3"
+  },
+  {
+    "path": "microsoft-openjdk-21-ubuntu",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "84dd554ef00d8732eb03f257541fac427966dd42",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/84dd554ef00d8732eb03f257541fac427966dd42"
+  },
+  {
+    "path": "oracle-graalvm-17-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "132e6c0f67393ea371b6247384fa7dbaa821d2f8",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/132e6c0f67393ea371b6247384fa7dbaa821d2f8"
+  },
+  {
+    "path": "oracle-graalvm-17",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "198df4d956ae485909f08ed033ef3a9a3458efff",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/198df4d956ae485909f08ed033ef3a9a3458efff"
+  },
+  {
+    "path": "oracle-graalvm-21-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7d54e11760dcea3105d60987ac8b58ec2434330c",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/7d54e11760dcea3105d60987ac8b58ec2434330c"
+  },
+  {
+    "path": "oracle-graalvm-21",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6d7d96b823da408e204024a11475a02f69087922",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/6d7d96b823da408e204024a11475a02f69087922"
+  },
+  {
+    "path": "oracle-graalvm-24-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "be2962d3835639b00b39cfd5e4cf0ff4f1395224",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/be2962d3835639b00b39cfd5e4cf0ff4f1395224"
+  },
+  {
+    "path": "oracle-graalvm-24",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4985c231d146194b117ddc321eb3b65c12ae6191",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/4985c231d146194b117ddc321eb3b65c12ae6191"
+  },
+  {
+    "path": "publish.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "c80f9a0cd5331a1087cfe69c5f2efca4f1e86648",
+    "size": 3008,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/c80f9a0cd5331a1087cfe69c5f2efca4f1e86648"
+  },
+  {
+    "path": "sapmachine-11",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2062dca540c2d79a06c1f831a91e3abea7293912",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/2062dca540c2d79a06c1f831a91e3abea7293912"
+  },
+  {
+    "path": "sapmachine-17-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "459f9ae75210c51ab41a108724a67af65d0e4072",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/459f9ae75210c51ab41a108724a67af65d0e4072"
+  },
+  {
+    "path": "sapmachine-17",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "77182be0dfefc485c15288c2f4ef9017bc7fd2bf",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/77182be0dfefc485c15288c2f4ef9017bc7fd2bf"
+  },
+  {
+    "path": "sapmachine-21-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d5c96d561b0d1f76c736b5a2730910c25601ca70",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/d5c96d561b0d1f76c736b5a2730910c25601ca70"
+  },
+  {
+    "path": "sapmachine-21",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0c590d05cc16b98586e56bd7a4a560ee1f89a148",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/0c590d05cc16b98586e56bd7a4a560ee1f89a148"
+  },
+  {
+    "path": "sapmachine-22-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "46059abbf7ae550b2dd100a1b09e04a6d89ecd9b",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/46059abbf7ae550b2dd100a1b09e04a6d89ecd9b"
+  },
+  {
+    "path": "sapmachine-24-maven-4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "21ed57d8a1100c7c07521f6d0ed78d220a48d8a3",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/21ed57d8a1100c7c07521f6d0ed78d220a48d8a3"
+  },
+  {
+    "path": "sapmachine-24",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ed466d7d0eaf1194be3cef047b5e215e91eba3a6",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/ed466d7d0eaf1194be3cef047b5e215e91eba3a6"
+  },
+  {
+    "path": "tags-for-dir.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "3c38d9aacd810987012c55eee97e68f2c27ee5ff",
+    "size": 592,
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/blobs/3c38d9aacd810987012c55eee97e68f2c27ee5ff"
+  },
+  {
+    "path": "tests",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6a822e18a6dfe1808dbfff6883a11878ce9c4e32",
+    "url": "https://api.github.com/repos/carlossg/docker-maven/git/trees/6a822e18a6dfe1808dbfff6883a11878ce9c4e32"
+  }
+]

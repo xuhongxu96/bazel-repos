@@ -1,0 +1,818 @@
+[
+  {
+    "path": ".asf.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41b696418bb1e74e9ce8d134b37a812cd7961f7b",
+    "size": 1256,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/41b696418bb1e74e9ce8d134b37a812cd7961f7b"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0192a85409bb72bf5600f112964bf43a87f78cdb",
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/trees/0192a85409bb72bf5600f112964bf43a87f78cdb"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bce6cf584ab93bb8a2ac271a010b74c5decf3b57",
+    "size": 50,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/bce6cf584ab93bb8a2ac271a010b74c5decf3b57"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e41e6152ab29bee1823049ad81480fd393fe947",
+    "size": 589,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/2e41e6152ab29bee1823049ad81480fd393fe947"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "19f353ad8f5efd129fef17426b02f812cf72b2dc",
+    "size": 9969,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/19f353ad8f5efd129fef17426b02f812cf72b2dc"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7498efdbed3add42b47a66c874d88742cb63449",
+    "size": 8079,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/a7498efdbed3add42b47a66c874d88742cb63449"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b0b1270ff0ca8f03867efcd09ba6ddb6392b1e1",
+    "size": 11359,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/6b0b1270ff0ca8f03867efcd09ba6ddb6392b1e1"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "56ed015dbb7697615ceabb0a9f70d474698cd40a",
+    "size": 6396,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/56ed015dbb7697615ceabb0a9f70d474698cd40a"
+  },
+  {
+    "path": "NOTICE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93342d1e585c039979cb134ffd25cbc826aaf3b4",
+    "size": 7814,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/93342d1e585c039979cb134ffd25cbc826aaf3b4"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5144caf29f7233f698db2701ee9da080eb3533e5",
+    "size": 9403,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/5144caf29f7233f698db2701ee9da080eb3533e5"
+  },
+  {
+    "path": "address_translators.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c0f7780d94e2ec78b8c89e2e2a8f062bbaf08ee",
+    "size": 2000,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/8c0f7780d94e2ec78b8c89e2e2a8f062bbaf08ee"
+  },
+  {
+    "path": "address_translators_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1e4100a84c5057b80cf84d0d5d6a2559cfbba7c",
+    "size": 1987,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/a1e4100a84c5057b80cf84d0d5d6a2559cfbba7c"
+  },
+  {
+    "path": "batch_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f7d00253c6847e241cf9101667698ff135f18cd",
+    "size": 4542,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/7f7d00253c6847e241cf9101667698ff135f18cd"
+  },
+  {
+    "path": "cass1batch_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b699a10bdb6d370d55d75a0aa4239e5de0e4e1ec",
+    "size": 2668,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/b699a10bdb6d370d55d75a0aa4239e5de0e4e1ec"
+  },
+  {
+    "path": "cassandra_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b92c3cd62376037324a1198742a3093d8b2284c9",
+    "size": 132116,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/b92c3cd62376037324a1198742a3093d8b2284c9"
+  },
+  {
+    "path": "cluster.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "812e459fca432d82692a7a213adaacb2a36a3eea",
+    "size": 15158,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/812e459fca432d82692a7a213adaacb2a36a3eea"
+  },
+  {
+    "path": "cluster_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "16d94ebeb83aafa13876688104f9d5da83aa63da",
+    "size": 3852,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/16d94ebeb83aafa13876688104f9d5da83aa63da"
+  },
+  {
+    "path": "common_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "299af3b38a2a4d4d740bcd8c85d7b737c09d227e",
+    "size": 10038,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/299af3b38a2a4d4d740bcd8c85d7b737c09d227e"
+  },
+  {
+    "path": "compressor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4c305b7e53bc30a61aef52d16da5a66ebe163d8",
+    "size": 2159,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/a4c305b7e53bc30a61aef52d16da5a66ebe163d8"
+  },
+  {
+    "path": "conn.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cfb6fe9a688a369ac93a04cd4a45033101db755",
+    "size": 53811,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/6cfb6fe9a688a369ac93a04cd4a45033101db755"
+  },
+  {
+    "path": "conn_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3271accadd620aa4a3c3d1586139370e546c781",
+    "size": 41010,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/d3271accadd620aa4a3c3d1586139370e546c781"
+  },
+  {
+    "path": "connectionpool.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f316b56958ded9a2a214a5739b5a734bb167ed19",
+    "size": 15944,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/f316b56958ded9a2a214a5739b5a734bb167ed19"
+  },
+  {
+    "path": "connectionpool_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "625e6041f8cf3478aade2282fc5dc5333bf6e10e",
+    "size": 3025,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/625e6041f8cf3478aade2282fc5dc5333bf6e10e"
+  },
+  {
+    "path": "control.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b521c41d8e04f161380f9e0e526e9d6fa48a973a",
+    "size": 15972,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/b521c41d8e04f161380f9e0e526e9d6fa48a973a"
+  },
+  {
+    "path": "control_ccm_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4271fd7fefec1445b4d3252446c1d4d7f055e240",
+    "size": 5019,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/4271fd7fefec1445b4d3252446c1d4d7f055e240"
+  },
+  {
+    "path": "control_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f83ec9553a5c7d3e2567598f374c75c86482621",
+    "size": 2441,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/9f83ec9553a5c7d3e2567598f374c75c86482621"
+  },
+  {
+    "path": "cqltypes.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce2e1cee77bb4b43ccbef2eccc57173686d37773",
+    "size": 1142,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/ce2e1cee77bb4b43ccbef2eccc57173686d37773"
+  },
+  {
+    "path": "crc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64474ada136d09fe78e9ca197e4a4f0671a996ca",
+    "size": 1595,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/64474ada136d09fe78e9ca197e4a4f0671a996ca"
+  },
+  {
+    "path": "crc_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2556f2599b9851b184274451bc959adbbf1f9daa",
+    "size": 2331,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/2556f2599b9851b184274451bc959adbbf1f9daa"
+  },
+  {
+    "path": "dial.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c7251d620fb6adaa259a03bb2c3192e5254efb3",
+    "size": 4043,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/8c7251d620fb6adaa259a03bb2c3192e5254efb3"
+  },
+  {
+    "path": "doc.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "620386d093c164feead4826c938e0b56b0daba1c",
+    "size": 18422,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/620386d093c164feead4826c938e0b56b0daba1c"
+  },
+  {
+    "path": "errors.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d64c4620847673f78310ce882b9c5164f5231311",
+    "size": 7258,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/d64c4620847673f78310ce882b9c5164f5231311"
+  },
+  {
+    "path": "errors_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3092b72d9be4b5f261e062c58308296a6d2b2e33",
+    "size": 1826,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/3092b72d9be4b5f261e062c58308296a6d2b2e33"
+  },
+  {
+    "path": "events.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f4bd1db8a8df5fe2f8a6aa9fcc34799054eea18",
+    "size": 7338,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/8f4bd1db8a8df5fe2f8a6aa9fcc34799054eea18"
+  },
+  {
+    "path": "events_ccm_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bfc3c9f54d9932d523ff543f7469499d32452a4a",
+    "size": 7530,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/bfc3c9f54d9932d523ff543f7469499d32452a4a"
+  },
+  {
+    "path": "events_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf088e3d1d6075a04b028278d9430307f9cf0c1e",
+    "size": 1704,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/cf088e3d1d6075a04b028278d9430307f9cf0c1e"
+  },
+  {
+    "path": "example_batch_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9f778c8474b043d0f903c1536c26cac74106cfd4",
+    "size": 2830,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/9f778c8474b043d0f903c1536c26cac74106cfd4"
+  },
+  {
+    "path": "example_dynamic_columns_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "984bc730d31e7aa5960dabc1a04e9eeb8ec2e2dc",
+    "size": 3832,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/984bc730d31e7aa5960dabc1a04e9eeb8ec2e2dc"
+  },
+  {
+    "path": "example_lwt_batch_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c65ce9618b0860aeeec39b905df435f363ed6d6e",
+    "size": 3596,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/c65ce9618b0860aeeec39b905df435f363ed6d6e"
+  },
+  {
+    "path": "example_lwt_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17dc3c29e2dde5774176011d002979331bae65a7",
+    "size": 2880,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/17dc3c29e2dde5774176011d002979331bae65a7"
+  },
+  {
+    "path": "example_marshaler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fce4ded0547f8a9d5639d57a48a6bfd90d90cea3",
+    "size": 3536,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/fce4ded0547f8a9d5639d57a48a6bfd90d90cea3"
+  },
+  {
+    "path": "example_nulls_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4d0ab162b2dc87e5e3e5911c3acc97a938b49a30",
+    "size": 2511,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/4d0ab162b2dc87e5e3e5911c3acc97a938b49a30"
+  },
+  {
+    "path": "example_paging_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e2a1239850dc557b120eebdb262bd9eedc4da36",
+    "size": 3111,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/8e2a1239850dc557b120eebdb262bd9eedc4da36"
+  },
+  {
+    "path": "example_set_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "faf73ea94ee4c3618ded5e18cfab8b8e85d567ca",
+    "size": 2773,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/faf73ea94ee4c3618ded5e18cfab8b8e85d567ca"
+  },
+  {
+    "path": "example_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0fd432ed9abfb6be20069b2d4157b8777c8b7e1d",
+    "size": 3001,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/0fd432ed9abfb6be20069b2d4157b8777c8b7e1d"
+  },
+  {
+    "path": "example_udt_map_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "099008adc3df722d501489dd324b08a808ccfd97",
+    "size": 2472,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/099008adc3df722d501489dd324b08a808ccfd97"
+  },
+  {
+    "path": "example_udt_marshaler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e20cacd673f0c8ceebe8476bbf366cce8b300ba",
+    "size": 2692,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/3e20cacd673f0c8ceebe8476bbf366cce8b300ba"
+  },
+  {
+    "path": "example_udt_struct_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1038741c320ca95bddc355facca207a547175415",
+    "size": 2497,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/1038741c320ca95bddc355facca207a547175415"
+  },
+  {
+    "path": "example_udt_unmarshaler_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3467b161dc4bb1bfe68b86a51fc7d14025778b0d",
+    "size": 2853,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/3467b161dc4bb1bfe68b86a51fc7d14025778b0d"
+  },
+  {
+    "path": "filters.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c258dadda01579afdeae63b14737773a50dae1b0",
+    "size": 2887,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/c258dadda01579afdeae63b14737773a50dae1b0"
+  },
+  {
+    "path": "filters_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2469422b6d51ee927ebd4f423933dc256ef6e4a2",
+    "size": 3338,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/2469422b6d51ee927ebd4f423933dc256ef6e4a2"
+  },
+  {
+    "path": "frame.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93af2c6737ff675a7321324cb8ce6e1c3282ab2b",
+    "size": 60493,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/93af2c6737ff675a7321324cb8ce6e1c3282ab2b"
+  },
+  {
+    "path": "frame_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e7a8bb4bf042e3b2c5620b21ca8b931bff4b11de",
+    "size": 21181,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/e7a8bb4bf042e3b2c5620b21ca8b931bff4b11de"
+  },
+  {
+    "path": "framer_bench_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bce3742c226e1d703ce2a4b0cd4e30941988ed98",
+    "size": 1783,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/bce3742c226e1d703ce2a4b0cd4e30941988ed98"
+  },
+  {
+    "path": "fuzz.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58dd3b6918e2233c854456b87010096ece29f103",
+    "size": 1499,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/58dd3b6918e2233c854456b87010096ece29f103"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0428c40e4ac1d775dae87275692b788b490ad9a",
+    "size": 1649,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/f0428c40e4ac1d775dae87275692b788b490ad9a"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c87ff1de56ca0dd8d0eac40fe53e1278d4392f13",
+    "size": 4430,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/c87ff1de56ca0dd8d0eac40fe53e1278d4392f13"
+  },
+  {
+    "path": "gocqlzap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aaa8e309003fff784875bfab759f54211a78af61",
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/trees/aaa8e309003fff784875bfab759f54211a78af61"
+  },
+  {
+    "path": "gocqlzerolog",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1344657c16cef9f1532b4b47c364231cfed8d628",
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/trees/1344657c16cef9f1532b4b47c364231cfed8d628"
+  },
+  {
+    "path": "helpers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "baae5ce057fd58054b95d6e80e4f864d807bba59",
+    "size": 5899,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/baae5ce057fd58054b95d6e80e4f864d807bba59"
+  },
+  {
+    "path": "helpers_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bcd727c50557fbe6962b9797a85f71b38a2626a6",
+    "size": 5929,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/bcd727c50557fbe6962b9797a85f71b38a2626a6"
+  },
+  {
+    "path": "host_source.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ee3dd07dafd3b75bd88e4cf6f7e748b2637da68",
+    "size": 26670,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/3ee3dd07dafd3b75bd88e4cf6f7e748b2637da68"
+  },
+  {
+    "path": "host_source_gen.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6be9746194d0288898ece6ac66afc68f608ea675",
+    "size": 1878,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/6be9746194d0288898ece6ac66afc68f608ea675"
+  },
+  {
+    "path": "host_source_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d6114291088dca46360077b19eaedd8647c8863",
+    "size": 15709,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/0d6114291088dca46360077b19eaedd8647c8863"
+  },
+  {
+    "path": "hostpool",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff6ef214e72078c2360f9637ba5da831c9487f5f",
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/trees/ff6ef214e72078c2360f9637ba5da831c9487f5f"
+  },
+  {
+    "path": "install_test_deps.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "048f768bc98c528d1ce637983fd7ad8409e6465a",
+    "size": 1058,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/048f768bc98c528d1ce637983fd7ad8409e6465a"
+  },
+  {
+    "path": "integration.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "b61f0ff48fceb40be5a71180bd806b6e6bed254a",
+    "size": 3396,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/b61f0ff48fceb40be5a71180bd806b6e6bed254a"
+  },
+  {
+    "path": "integration_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd6ccb5cc5b1fa634a3e349614502deb5ed81fd7",
+    "size": 32541,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/bd6ccb5cc5b1fa634a3e349614502deb5ed81fd7"
+  },
+  {
+    "path": "internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c00d2f7400ec00228346bd572572bc91c9797438",
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/trees/c00d2f7400ec00228346bd572572bc91c9797438"
+  },
+  {
+    "path": "keyspace_table_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7862b4892b5c4c8b0331268c7202a01b16c2b581",
+    "size": 3861,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/7862b4892b5c4c8b0331268c7202a01b16c2b581"
+  },
+  {
+    "path": "logger.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e01bf6848c285eaae58717deaca574630da29c7a",
+    "size": 9995,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/e01bf6848c285eaae58717deaca574630da29c7a"
+  },
+  {
+    "path": "lz4",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "50f177b8eacf9fc17e5b54ae81a10feaea2c004f",
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/trees/50f177b8eacf9fc17e5b54ae81a10feaea2c004f"
+  },
+  {
+    "path": "marshal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5562d9fda5df2c2f7fac8b7b7d48ad4a82ae7d0e",
+    "size": 84765,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/5562d9fda5df2c2f7fac8b7b7d48ad4a82ae7d0e"
+  },
+  {
+    "path": "marshal_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8a7b989eb48f11e0167bd38dc6f75f84dc85a133",
+    "size": 64530,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/8a7b989eb48f11e0167bd38dc6f75f84dc85a133"
+  },
+  {
+    "path": "metadata.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8996f0dafc72d16135a4ac56db2a1b2b7b03a32",
+    "size": 36919,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/a8996f0dafc72d16135a4ac56db2a1b2b7b03a32"
+  },
+  {
+    "path": "metadata_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e2af014ec9ed34ab2311a550ae76d6b2a384d3b9",
+    "size": 19893,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/e2af014ec9ed34ab2311a550ae76d6b2a384d3b9"
+  },
+  {
+    "path": "policies.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8db55bf2d37607a59fc1fc33578a3a8034efafeb",
+    "size": 26660,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/8db55bf2d37607a59fc1fc33578a3a8034efafeb"
+  },
+  {
+    "path": "policies_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab40a62a69f761170998825e6ed4e9dcbbc1e593",
+    "size": 29556,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/ab40a62a69f761170998825e6ed4e9dcbbc1e593"
+  },
+  {
+    "path": "prepared_cache.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2db8bfe917ddad38d3aef6f1561b0d94f10966a6",
+    "size": 2654,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/2db8bfe917ddad38d3aef6f1561b0d94f10966a6"
+  },
+  {
+    "path": "query_executor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "552d0b97cd386c469eca0be953832aa37f703e1e",
+    "size": 18479,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/552d0b97cd386c469eca0be953832aa37f703e1e"
+  },
+  {
+    "path": "ring.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d11162264eba07c8063e5a96f32f906a48532370",
+    "size": 4067,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/d11162264eba07c8063e5a96f32f906a48532370"
+  },
+  {
+    "path": "ring_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d1c094e81c2a1679307e49789f5cfd75f29749d",
+    "size": 2145,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/8d1c094e81c2a1679307e49789f5cfd75f29749d"
+  },
+  {
+    "path": "session.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4e83e5e5f947fdb22352aa5a8934ebe78422788e",
+    "size": 69978,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/4e83e5e5f947fdb22352aa5a8934ebe78422788e"
+  },
+  {
+    "path": "session_connect_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83214b5e7266a21b769836edc062b851a74c49f8",
+    "size": 2296,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/83214b5e7266a21b769836edc062b851a74c49f8"
+  },
+  {
+    "path": "session_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3fcb2163007b4741692043ed8cecba442a4fc1c8",
+    "size": 10557,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/3fcb2163007b4741692043ed8cecba442a4fc1c8"
+  },
+  {
+    "path": "session_unit_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "794b19e9a65a7bb03b2b903e64be6f2e45e97e2f",
+    "size": 1950,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/794b19e9a65a7bb03b2b903e64be6f2e45e97e2f"
+  },
+  {
+    "path": "snappy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "621678734580d5526ca40e08ab1bc23af178a743",
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/trees/621678734580d5526ca40e08ab1bc23af178a743"
+  },
+  {
+    "path": "stress_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf4f2487453ded749c45c7c4290756587050e4cf",
+    "size": 2589,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/bf4f2487453ded749c45c7c4290756587050e4cf"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cfccd55cb2dd64afffbd10ef11a5ab04c7139af8",
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/trees/cfccd55cb2dd64afffbd10ef11a5ab04c7139af8"
+  },
+  {
+    "path": "token.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83f747df0b116104ef8689308ea44bcdffa31d7c",
+    "size": 6239,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/83f747df0b116104ef8689308ea44bcdffa31d7c"
+  },
+  {
+    "path": "token_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1152760e8e36eaf776439a16c28e99594c8a649d",
+    "size": 11576,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/1152760e8e36eaf776439a16c28e99594c8a649d"
+  },
+  {
+    "path": "topology.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5a9b50fa31f9ef5525785767ba627f111a2d0051",
+    "size": 8912,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/5a9b50fa31f9ef5525785767ba627f111a2d0051"
+  },
+  {
+    "path": "topology_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a5cf1c10ba6083cbc64976f522325f30d5c116b",
+    "size": 6041,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/9a5cf1c10ba6083cbc64976f522325f30d5c116b"
+  },
+  {
+    "path": "tuple_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9194f0c759855128b8422b5245b401e779143b08",
+    "size": 9680,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/9194f0c759855128b8422b5245b401e779143b08"
+  },
+  {
+    "path": "types.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce8fee0dc1c3b916553a9dedd616c2d0fc8592ba",
+    "size": 20346,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/ce8fee0dc1c3b916553a9dedd616c2d0fc8592ba"
+  },
+  {
+    "path": "types_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3764dce9d97fd4984b3f53c9bbc67a9a2330b0b",
+    "size": 2955,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/c3764dce9d97fd4984b3f53c9bbc67a9a2330b0b"
+  },
+  {
+    "path": "udt_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65ee10b103ca680132c9a21ef966e2ebeaa78919",
+    "size": 10981,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/65ee10b103ca680132c9a21ef966e2ebeaa78919"
+  },
+  {
+    "path": "uuid.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc5f1c21ffb752c93a9603aa7b6a1b0022a26b35",
+    "size": 9428,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/cc5f1c21ffb752c93a9603aa7b6a1b0022a26b35"
+  },
+  {
+    "path": "uuid_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eace168e8c47d07ba80f1a2ebf53c469b615a654",
+    "size": 9449,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/eace168e8c47d07ba80f1a2ebf53c469b615a654"
+  },
+  {
+    "path": "vector.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72a11c2c83689604d16ad7c9fda2e9b6c6b473b7",
+    "size": 6867,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/72a11c2c83689604d16ad7c9fda2e9b6c6b473b7"
+  },
+  {
+    "path": "vector_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6db07c766851661b7d23470dc1d4b8980202dab3",
+    "size": 11587,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/6db07c766851661b7d23470dc1d4b8980202dab3"
+  },
+  {
+    "path": "version.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73484e70e4c1cd9b67f50c20e66cb364bcda0bbc",
+    "size": 2120,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/73484e70e4c1cd9b67f50c20e66cb364bcda0bbc"
+  },
+  {
+    "path": "wiki_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac79bfb4041dcb34f864864dc82e6b633aea8f3a",
+    "size": 7729,
+    "url": "https://api.github.com/repos/apache/cassandra-gocql-driver/git/blobs/ac79bfb4041dcb34f864864dc82e6b633aea8f3a"
+  }
+]

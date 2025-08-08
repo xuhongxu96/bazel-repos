@@ -1,0 +1,977 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b545ac05f0702f6309c5fbfb54081db5442b9f68",
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/trees/b545ac05f0702f6309c5fbfb54081db5442b9f68"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3cf4613a64bedece698d4d18eed9d7e6269b8933",
+    "size": 807,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/3cf4613a64bedece698d4d18eed9d7e6269b8933"
+  },
+  {
+    "path": ".gitmodules",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23bd18f6559257f7256ab06021066fabf072ba92",
+    "size": 89,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/23bd18f6559257f7256ab06021066fabf072ba92"
+  },
+  {
+    "path": ".readthedocs.yaml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "487ceb2772b3f66268b6e1317b4810a4113c3e4b",
+    "size": 581,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/487ceb2772b3f66268b6e1317b4810a4113c3e4b"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c8e02331992a5cf332da1c96630ab2d6465bd55",
+    "size": 1503,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/9c8e02331992a5cf332da1c96630ab2d6465bd55"
+  },
+  {
+    "path": "Makefile.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c1e9e36f193d7c75c8a7496d39dac06b88cfa53",
+    "size": 43205,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/4c1e9e36f193d7c75c8a7496d39dac06b88cfa53"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f83faef15f5e1d448a811ff50dfe81f0731b1600",
+    "size": 2623,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/f83faef15f5e1d448a811ff50dfe81f0731b1600"
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5770ccd79918b91292cfb1f1bda48a4d1ecbcf82",
+    "size": 1234,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/5770ccd79918b91292cfb1f1bda48a4d1ecbcf82"
+  },
+  {
+    "path": "acx_nlnetlabs.m4",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6a01dc5a4769f845a4e75be7f0cbbc97373f5699",
+    "size": 46195,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/6a01dc5a4769f845a4e75be7f0cbbc97373f5699"
+  },
+  {
+    "path": "answer.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b99a9467e1c04cb1e5bc0abe1d0df3cba615a613",
+    "size": 2654,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/b99a9467e1c04cb1e5bc0abe1d0df3cba615a613"
+  },
+  {
+    "path": "answer.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43ae584b9b55bdf248e03e664a07864b1b05c478",
+    "size": 1005,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/43ae584b9b55bdf248e03e664a07864b1b05c478"
+  },
+  {
+    "path": "axfr.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d1660066a2a88015e18becf521dcc470dc4db5e3",
+    "size": 9098,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/d1660066a2a88015e18becf521dcc470dc4db5e3"
+  },
+  {
+    "path": "axfr.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f80d1838c6f797f730b22c4c125f265af17efaf",
+    "size": 546,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/7f80d1838c6f797f730b22c4c125f265af17efaf"
+  },
+  {
+    "path": "bitset.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1f850e4db6f7562676e995ec0d6c9870cdaf55a",
+    "size": 2182,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/f1f850e4db6f7562676e995ec0d6c9870cdaf55a"
+  },
+  {
+    "path": "bitset.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ddd9747656c039a144e117f6ec0612fd3032ce39",
+    "size": 842,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/ddd9747656c039a144e117f6ec0612fd3032ce39"
+  },
+  {
+    "path": "buffer.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b78b47bca7a5cffbbcd1765b8b79b1eb219161a",
+    "size": 2713,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/3b78b47bca7a5cffbbcd1765b8b79b1eb219161a"
+  },
+  {
+    "path": "buffer.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1bdffa11ba3d31ef6fd14f003da0e9ce2efa4a79",
+    "size": 11924,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/1bdffa11ba3d31ef6fd14f003da0e9ce2efa4a79"
+  },
+  {
+    "path": "compat",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "046770aae030d58ad041923304d4d029d8a461f0",
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/trees/046770aae030d58ad041923304d4d029d8a461f0"
+  },
+  {
+    "path": "configlexer.lex",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5ee43fbffe265f15f649876db3f79d3e3e44b066",
+    "size": 18749,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/5ee43fbffe265f15f649876db3f79d3e3e44b066"
+  },
+  {
+    "path": "configparser.y",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d4075a3dbaedfd3f44914debe1c31604bcc64cc",
+    "size": 41012,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/8d4075a3dbaedfd3f44914debe1c31604bcc64cc"
+  },
+  {
+    "path": "configure.ac",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6913962c03be5d9684164b1748c14025ad4b000",
+    "size": 47464,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/e6913962c03be5d9684164b1748c14025ad4b000"
+  },
+  {
+    "path": "contrib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ecf6ade8c3ef31647f1865cc73b93fc9fa9834dd",
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/trees/ecf6ade8c3ef31647f1865cc73b93fc9fa9834dd"
+  },
+  {
+    "path": "dbaccess.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "230f0abbc456b29a5cc6d5bd2bb2cd3e4f2bcfe6",
+    "size": 10174,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/230f0abbc456b29a5cc6d5bd2bb2cd3e4f2bcfe6"
+  },
+  {
+    "path": "dbcreate.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8829bb3aaf080d059aef4d00a6047870169220a",
+    "size": 7640,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/c8829bb3aaf080d059aef4d00a6047870169220a"
+  },
+  {
+    "path": "difffile.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "25dc897596383a91448eaabc65e86d01735fc695",
+    "size": 62718,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/25dc897596383a91448eaabc65e86d01735fc695"
+  },
+  {
+    "path": "difffile.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6fb7ae2feec3a3022afea89602a87868b772755",
+    "size": 5561,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/a6fb7ae2feec3a3022afea89602a87868b772755"
+  },
+  {
+    "path": "dname.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "92257d54751c7d8265f59892c88dd9aa639ab0fb",
+    "size": 13441,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/92257d54751c7d8265f59892c88dd9aa639ab0fb"
+  },
+  {
+    "path": "dname.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fecf7510cbe8a50bdc64d1d052dc9d420cc4db88",
+    "size": 9710,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/fecf7510cbe8a50bdc64d1d052dc9d420cc4db88"
+  },
+  {
+    "path": "dns.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc11e4d99341d64653f166853307d437ae8e2f0b",
+    "size": 42659,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/cc11e4d99341d64653f166853307d437ae8e2f0b"
+  },
+  {
+    "path": "dns.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f8d279ca5433066503a8d914712792a851036e9",
+    "size": 12222,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/6f8d279ca5433066503a8d914712792a851036e9"
+  },
+  {
+    "path": "dnstap",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dcd7e718b7788b8db2730f8f4151fb58d374e737",
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/trees/dcd7e718b7788b8db2730f8f4151fb58d374e737"
+  },
+  {
+    "path": "doc",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9dba1898b442a0295a3c159c58df445ef01e9c42",
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/trees/9dba1898b442a0295a3c159c58df445ef01e9c42"
+  },
+  {
+    "path": "edns.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "035ce4f426cca5dbcc838a9428f4e87aebc231d2",
+    "size": 9369,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/035ce4f426cca5dbcc838a9428f4e87aebc231d2"
+  },
+  {
+    "path": "edns.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e1f5e7943b20d101c434d87329ecf43bf97ae75",
+    "size": 3269,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/3e1f5e7943b20d101c434d87329ecf43bf97ae75"
+  },
+  {
+    "path": "ipc.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "450cc415aae6a7b8ef9158d005d080ee4db73e43",
+    "size": 17620,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/450cc415aae6a7b8ef9158d005d080ee4db73e43"
+  },
+  {
+    "path": "ipc.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c92bea5cc20c102c272e8f79ca8b3721be942345",
+    "size": 2400,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/c92bea5cc20c102c272e8f79ca8b3721be942345"
+  },
+  {
+    "path": "iterated_hash.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8c0d657598bf4b2e88fe556e43a487075b0ae78f",
+    "size": 1996,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/8c0d657598bf4b2e88fe556e43a487075b0ae78f"
+  },
+  {
+    "path": "iterated_hash.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9997e62598b7c7a96ad559af84547b27724dd36c",
+    "size": 535,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/9997e62598b7c7a96ad559af84547b27724dd36c"
+  },
+  {
+    "path": "ixfr.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "659125c00ee76e78cd7e9c34f3af4c62aae236e9",
+    "size": 79573,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/659125c00ee76e78cd7e9c34f3af4c62aae236e9"
+  },
+  {
+    "path": "ixfr.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eae524dc0df5dcd1267d6772780cbe7fc335a87c",
+    "size": 9926,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/eae524dc0df5dcd1267d6772780cbe7fc335a87c"
+  },
+  {
+    "path": "ixfrcreate.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "381dfbe1845cfc3f17f2e90d67a0c21679513235",
+    "size": 31978,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/381dfbe1845cfc3f17f2e90d67a0c21679513235"
+  },
+  {
+    "path": "ixfrcreate.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0446d2cb050ea52cb4291cde309da558606f556e",
+    "size": 2833,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/0446d2cb050ea52cb4291cde309da558606f556e"
+  },
+  {
+    "path": "lookup3.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b47d156ca93abe5f877f9c83573a1595083cb37",
+    "size": 36384,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/9b47d156ca93abe5f877f9c83573a1595083cb37"
+  },
+  {
+    "path": "lookup3.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59dad7c48b57c6dfc1e47a3a202346f91c4babc5",
+    "size": 2687,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/59dad7c48b57c6dfc1e47a3a202346f91c4babc5"
+  },
+  {
+    "path": "makedist.sh",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "1feb6d9424f24b7afffe75c924a3665ef6867b48",
+    "size": 7109,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/1feb6d9424f24b7afffe75c924a3665ef6867b48"
+  },
+  {
+    "path": "metrics.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29bb5535f237c9aa1df655736c909dae5f738a0c",
+    "size": 19672,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/29bb5535f237c9aa1df655736c909dae5f738a0c"
+  },
+  {
+    "path": "metrics.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ada33296096d07f65e80cdd3be7f2e0e4d9a9c5",
+    "size": 2559,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/3ada33296096d07f65e80cdd3be7f2e0e4d9a9c5"
+  },
+  {
+    "path": "mini_event.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6de86f4d3724b2a79397475730015f8f4d622bd9",
+    "size": 10788,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/6de86f4d3724b2a79397475730015f8f4d622bd9"
+  },
+  {
+    "path": "mini_event.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f88b17745059aca33e4290537a45e4ee4a379f25",
+    "size": 6259,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/f88b17745059aca33e4290537a45e4ee4a379f25"
+  },
+  {
+    "path": "mkinstalldirs",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "6b3b5fc5d4d34f3065bdad528dfeb7604dd01a8d",
+    "size": 671,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/6b3b5fc5d4d34f3065bdad528dfeb7604dd01a8d"
+  },
+  {
+    "path": "namedb.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53d2bec98c8e4c2aca2bf079345037e51451e4c4",
+    "size": 19505,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/53d2bec98c8e4c2aca2bf079345037e51451e4c4"
+  },
+  {
+    "path": "namedb.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b57097f78305398df431742005503123556208d",
+    "size": 14696,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/6b57097f78305398df431742005503123556208d"
+  },
+  {
+    "path": "netio.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "80887c05a32bd45f2ffb9b230c691f5c7151874d",
+    "size": 6556,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/80887c05a32bd45f2ffb9b230c691f5c7151874d"
+  },
+  {
+    "path": "netio.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc7f74c44a88d1099f7085b3510c7edc0fc7ba3f",
+    "size": 5033,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/fc7f74c44a88d1099f7085b3510c7edc0fc7ba3f"
+  },
+  {
+    "path": "nsd-checkconf.8.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "95c9dfc4592fec9b697de4c6c69a543e6f09b7f9",
+    "size": 2618,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/95c9dfc4592fec9b697de4c6c69a543e6f09b7f9"
+  },
+  {
+    "path": "nsd-checkconf.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "246a011c0bed59a8baea4cd19e30e7bf79405c28",
+    "size": 32104,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/246a011c0bed59a8baea4cd19e30e7bf79405c28"
+  },
+  {
+    "path": "nsd-checkzone.8.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f6dd580e0321b719db57b5a11e62a353e749ac6",
+    "size": 2509,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/0f6dd580e0321b719db57b5a11e62a353e749ac6"
+  },
+  {
+    "path": "nsd-checkzone.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fd8cbaeb23959ecee53b0c96b92c92d039aee605",
+    "size": 4661,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/fd8cbaeb23959ecee53b0c96b92c92d039aee605"
+  },
+  {
+    "path": "nsd-control-setup.sh.in",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "d1cc038111bbc795b02fd70783422473bf99f17a",
+    "size": 5953,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/d1cc038111bbc795b02fd70783422473bf99f17a"
+  },
+  {
+    "path": "nsd-control.8.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4920e7ad8eee028c6437ee15ee4542319c969d45",
+    "size": 13567,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/4920e7ad8eee028c6437ee15ee4542319c969d45"
+  },
+  {
+    "path": "nsd-control.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5de0326208fc9f06f6733912adfe24ceca47df80",
+    "size": 18256,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/5de0326208fc9f06f6733912adfe24ceca47df80"
+  },
+  {
+    "path": "nsd-mem.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d0ec264e599c9d00c497aa751e82c3d7a99b85a",
+    "size": 7272,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/6d0ec264e599c9d00c497aa751e82c3d7a99b85a"
+  },
+  {
+    "path": "nsd.8.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "54506284116834e72118902e65a8222bd3ad6687",
+    "size": 5186,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/54506284116834e72118902e65a8222bd3ad6687"
+  },
+  {
+    "path": "nsd.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8bc1ea413815be1c96d6a642d527c7e5e75d797",
+    "size": 47557,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/b8bc1ea413815be1c96d6a642d527c7e5e75d797"
+  },
+  {
+    "path": "nsd.conf.5.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1a9d8cec3a0c9eec1c902251f4221f9864ba2989",
+    "size": 59717,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/1a9d8cec3a0c9eec1c902251f4221f9864ba2989"
+  },
+  {
+    "path": "nsd.conf.sample.in",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d36ce5f2f5e12949af5b111a5dfd16aef8c98c37",
+    "size": 22285,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/d36ce5f2f5e12949af5b111a5dfd16aef8c98c37"
+  },
+  {
+    "path": "nsd.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e55c9ded1bc689d4a021635e4d7b174584835d25",
+    "size": 13335,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/e55c9ded1bc689d4a021635e4d7b174584835d25"
+  },
+  {
+    "path": "nsec3.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "926b0451349fe90f5eacfcdfea7a3ef67268e837",
+    "size": 36575,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/926b0451349fe90f5eacfcdfea7a3ef67268e837"
+  },
+  {
+    "path": "nsec3.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31acd36fe3f7843dfddc5d406ad83a0a1f40c75a",
+    "size": 4188,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/31acd36fe3f7843dfddc5d406ad83a0a1f40c75a"
+  },
+  {
+    "path": "options.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "871a290b0337f8cd85b9b6c1f4e1edefff91eec7",
+    "size": 90294,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/871a290b0337f8cd85b9b6c1f4e1edefff91eec7"
+  },
+  {
+    "path": "options.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9614ea3db839a9e2f84aa9dc167d38b86383ec8",
+    "size": 22510,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/a9614ea3db839a9e2f84aa9dc167d38b86383ec8"
+  },
+  {
+    "path": "packet.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "701453d8fdc5e6f210e3a2ac2a812976b54c9874",
+    "size": 10164,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/701453d8fdc5e6f210e3a2ac2a812976b54c9874"
+  },
+  {
+    "path": "packet.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b4a524cde861ecad6c55b76ee0f5547a6b6708d",
+    "size": 6839,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/9b4a524cde861ecad6c55b76ee0f5547a6b6708d"
+  },
+  {
+    "path": "popen3.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dcadbbc45dbcbd887da3c5e5a5f9909a610c884f",
+    "size": 2554,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/dcadbbc45dbcbd887da3c5e5a5f9909a610c884f"
+  },
+  {
+    "path": "popen3.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82d84d878845459bd49118e5c7a58af4f4c9773e",
+    "size": 737,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/82d84d878845459bd49118e5c7a58af4f4c9773e"
+  },
+  {
+    "path": "query.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d601cacab9a54f3486dc484b9d262f6f47610baa",
+    "size": 56597,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/d601cacab9a54f3486dc484b9d262f6f47610baa"
+  },
+  {
+    "path": "query.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e17f946725c30b0c954153891cf560c1a9cd52c2",
+    "size": 6776,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/e17f946725c30b0c954153891cf560c1a9cd52c2"
+  },
+  {
+    "path": "radtree.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "472e9c12898d63f0963672603ff0c8d7316b0133",
+    "size": 38413,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/472e9c12898d63f0963672603ff0c8d7316b0133"
+  },
+  {
+    "path": "radtree.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5d830a138b48fb81b11def5be9cd75845355636",
+    "size": 7200,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/c5d830a138b48fb81b11def5be9cd75845355636"
+  },
+  {
+    "path": "rbtree.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "521e4545e34009108bc767f0f810fd95d896a945",
+    "size": 14525,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/521e4545e34009108bc767f0f810fd95d896a945"
+  },
+  {
+    "path": "rbtree.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0dea2097c864256e268b032fb59a157b6bba36e2",
+    "size": 2423,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/0dea2097c864256e268b032fb59a157b6bba36e2"
+  },
+  {
+    "path": "rdata.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2597ea4cd8b1130fa2eef9e6418896aeb6a7aded",
+    "size": 34318,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/2597ea4cd8b1130fa2eef9e6418896aeb6a7aded"
+  },
+  {
+    "path": "rdata.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "deaa6eff7e88826dc9ec947646359b067b1cffc1",
+    "size": 1754,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/deaa6eff7e88826dc9ec947646359b067b1cffc1"
+  },
+  {
+    "path": "region-allocator.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e4c75a6abb377e99c66b595e891c12956c272488",
+    "size": 14429,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/e4c75a6abb377e99c66b595e891c12956c272488"
+  },
+  {
+    "path": "region-allocator.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc6496ffd4351cb39dc757c00a2033ce8fa5271f",
+    "size": 4603,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/fc6496ffd4351cb39dc757c00a2033ce8fa5271f"
+  },
+  {
+    "path": "remote.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f0a7ceddfb34f588d482fdc8f03d93303606ea9f",
+    "size": 97991,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/f0a7ceddfb34f588d482fdc8f03d93303606ea9f"
+  },
+  {
+    "path": "remote.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9371b2ddadb52055cd52fe165fc56a70fe6b0a27",
+    "size": 7121,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/9371b2ddadb52055cd52fe165fc56a70fe6b0a27"
+  },
+  {
+    "path": "rrl.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93a0d392e850949a20f184a41d2c77af1f51e2c5",
+    "size": 14516,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/93a0d392e850949a20f184a41d2c77af1f51e2c5"
+  },
+  {
+    "path": "rrl.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b08d65f78612ec8ca6aed4fdc1e7b4cbb3bcca76",
+    "size": 2464,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/b08d65f78612ec8ca6aed4fdc1e7b4cbb3bcca76"
+  },
+  {
+    "path": "server.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "30708887ee801cc7eb59e8a5331727eb298bc826",
+    "size": 167661,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/30708887ee801cc7eb59e8a5331727eb298bc826"
+  },
+  {
+    "path": "simdzone",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "20f4dc8fedd8be4896246cfe1afc147524aef539"
+  },
+  {
+    "path": "siphash.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8d0f8496e53d62e91936b28d8ac8fddf74b81a7b",
+    "size": 5774,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/8d0f8496e53d62e91936b28d8ac8fddf74b81a7b"
+  },
+  {
+    "path": "systemd.m4",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "932e946475532c9b2665f6c504f5b9629ff49ca0",
+    "size": 1095,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/932e946475532c9b2665f6c504f5b9629ff49ca0"
+  },
+  {
+    "path": "tpkg",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2b5794c9883955e140d077d043af4d95826614d4",
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/trees/2b5794c9883955e140d077d043af4d95826614d4"
+  },
+  {
+    "path": "tsig-openssl.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fff0919c613c6e05ee4829e5858265140e85eba3",
+    "size": 7830,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/fff0919c613c6e05ee4829e5858265140e85eba3"
+  },
+  {
+    "path": "tsig-openssl.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13824a5e63b282ce515915d6970a6dc568a5476d",
+    "size": 510,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/13824a5e63b282ce515915d6970a6dc568a5476d"
+  },
+  {
+    "path": "tsig.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "825331a9069b23acb45f09f0aac71bd0bde2c99d",
+    "size": 19101,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/825331a9069b23acb45f09f0aac71bd0bde2c99d"
+  },
+  {
+    "path": "tsig.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f74dd276ddcb6cfdfdeb48be514f938977c08a5",
+    "size": 7489,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/4f74dd276ddcb6cfdfdeb48be514f938977c08a5"
+  },
+  {
+    "path": "udb.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d94d41594ca2dc567358cb9e7749effb18a904e8",
+    "size": 59705,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/d94d41594ca2dc567358cb9e7749effb18a904e8"
+  },
+  {
+    "path": "udb.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dcca36754b1811d80c80217b2bf5506ec0256111",
+    "size": 26050,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/dcca36754b1811d80c80217b2bf5506ec0256111"
+  },
+  {
+    "path": "util.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c027ea3b9a8464b6fc46c0f69977e9447f8f4618",
+    "size": 33683,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/c027ea3b9a8464b6fc46c0f69977e9447f8f4618"
+  },
+  {
+    "path": "util.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "141060364f680b3a3edf12d33456a969b4761978",
+    "size": 12004,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/141060364f680b3a3edf12d33456a969b4761978"
+  },
+  {
+    "path": "util",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2f686c8183085636e073a69a5ae2915713880b96",
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/trees/2f686c8183085636e073a69a5ae2915713880b96"
+  },
+  {
+    "path": "verify.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73049c108b0cfdea502e2926831f8866037cc327",
+    "size": 16168,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/73049c108b0cfdea502e2926831f8866037cc327"
+  },
+  {
+    "path": "verify.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1d50f622f671ae4cec8c844a331ff8206bfa2d14",
+    "size": 1735,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/1d50f622f671ae4cec8c844a331ff8206bfa2d14"
+  },
+  {
+    "path": "xdp-dns-redirect_kern.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ba734305cfc1c94176667df77f5914de7cb1a73",
+    "size": 3968,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/4ba734305cfc1c94176667df77f5914de7cb1a73"
+  },
+  {
+    "path": "xdp-server.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "603b88efd0393e10b324796b61f538a622de938e",
+    "size": 27460,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/603b88efd0393e10b324796b61f538a622de938e"
+  },
+  {
+    "path": "xdp-server.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0d04bd66ea8ef7b9000277529aa024452a7f5156",
+    "size": 2503,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/0d04bd66ea8ef7b9000277529aa024452a7f5156"
+  },
+  {
+    "path": "xdp-util.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "edaf5ef3787ed9ac34fe87c652d12e585c04e372",
+    "size": 2564,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/edaf5ef3787ed9ac34fe87c652d12e585c04e372"
+  },
+  {
+    "path": "xdp-util.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6994e7249e6d303741198beaa4361759ff5efe6a",
+    "size": 2976,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/6994e7249e6d303741198beaa4361759ff5efe6a"
+  },
+  {
+    "path": "xfr-inspect.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6a52a226d39505fa9f0b371e54f19560defabf1",
+    "size": 12190,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/e6a52a226d39505fa9f0b371e54f19560defabf1"
+  },
+  {
+    "path": "xfrd-catalog-zones.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7aee82fcd34aa1b88272ea8a3486c7c4cd32f62a",
+    "size": 43539,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/7aee82fcd34aa1b88272ea8a3486c7c4cd32f62a"
+  },
+  {
+    "path": "xfrd-catalog-zones.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "17992b15c5ba5b0e8ce8ff2ccd4415f7c91dea86",
+    "size": 3969,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/17992b15c5ba5b0e8ce8ff2ccd4415f7c91dea86"
+  },
+  {
+    "path": "xfrd-disk.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "edb13216dc387c9f3092b083401068de57f8511f",
+    "size": 17220,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/edb13216dc387c9f3092b083401068de57f8511f"
+  },
+  {
+    "path": "xfrd-disk.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acd4e4c833363cd40a35e57e1c0cef956c20c6e5",
+    "size": 1017,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/acd4e4c833363cd40a35e57e1c0cef956c20c6e5"
+  },
+  {
+    "path": "xfrd-notify.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab0550462624a5c159d6ae5b7d6656fed74b7cdc",
+    "size": 16877,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/ab0550462624a5c159d6ae5b7d6656fed74b7cdc"
+  },
+  {
+    "path": "xfrd-notify.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a20f383ff14d2c1f35a353ff3a2ccfe900d03cd",
+    "size": 2900,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/3a20f383ff14d2c1f35a353ff3a2ccfe900d03cd"
+  },
+  {
+    "path": "xfrd-tcp.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6017f3e622bdb5c857f5501e110f9912b4e63269",
+    "size": 51772,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/6017f3e622bdb5c857f5501e110f9912b4e63269"
+  },
+  {
+    "path": "xfrd-tcp.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "02970e0d6d4a52205ec857d1c387b13c07dd2f9d",
+    "size": 8503,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/02970e0d6d4a52205ec857d1c387b13c07dd2f9d"
+  },
+  {
+    "path": "xfrd.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bd9f5472bd7a036d3e21fa4aa6077f6837716b29",
+    "size": 94605,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/bd9f5472bd7a036d3e21fa4aa6077f6837716b29"
+  },
+  {
+    "path": "xfrd.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "65b9590a64c7dbb65b6e8bee95c73361fad703cf",
+    "size": 15510,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/65b9590a64c7dbb65b6e8bee95c73361fad703cf"
+  },
+  {
+    "path": "zonec.c",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac829997a067a74252b9ea35519c2cd454272b74",
+    "size": 12596,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/ac829997a067a74252b9ea35519c2cd454272b74"
+  },
+  {
+    "path": "zonec.h",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "448dc3c9cbde29d1565de263562ffda308a93014",
+    "size": 1160,
+    "url": "https://api.github.com/repos/NLnetLabs/nsd/git/blobs/448dc3c9cbde29d1565de263562ffda308a93014"
+  }
+]

@@ -1,0 +1,688 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b9397025fb3deb072b02ea56009c72cd8295b854",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/b9397025fb3deb072b02ea56009c72cd8295b854"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af2ce2f42883b1f74e8039c2916bd47905ff8c64",
+    "size": 22,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/af2ce2f42883b1f74e8039c2916bd47905ff8c64"
+  },
+  {
+    "path": "LICENSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ccd11e0a3ae9e0edda9c9ba2149bc639242635af",
+    "size": 1060,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/ccd11e0a3ae9e0edda9c9ba2149bc639242635af"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c7eb1ffbf549d62f7a580ed64258e7ad0633365",
+    "size": 4606,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/4c7eb1ffbf549d62f7a580ed64258e7ad0633365"
+  },
+  {
+    "path": "connection.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6857b2ce5293b907d4118add2d92f99045cc5ae",
+    "size": 1705,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/f6857b2ce5293b907d4118add2d92f99045cc5ae"
+  },
+  {
+    "path": "connection_options.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "69a8bf9c9fee15abcdf3722f1a4a2f60475d9a16",
+    "size": 728,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/69a8bf9c9fee15abcdf3722f1a4a2f60475d9a16"
+  },
+  {
+    "path": "connection_options_js.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e80025f8a38bd052e0ef6f1f3af396cd5774950",
+    "size": 301,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/3e80025f8a38bd052e0ef6f1f3af396cd5774950"
+  },
+  {
+    "path": "count_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbcc4f9f1924e05d1ec55f9b05b400c529a7a0cf",
+    "size": 477,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/dbcc4f9f1924e05d1ec55f9b05b400c529a7a0cf"
+  },
+  {
+    "path": "envelopes.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "301886237193d8d451c01f784614d95e7ce7ee84",
+    "size": 10491,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/301886237193d8d451c01f784614d95e7ce7ee84"
+  },
+  {
+    "path": "envelopes_benchmark_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06f861fe31d365cee816439787b6fdae14099ddd",
+    "size": 5951,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/06f861fe31d365cee816439787b6fdae14099ddd"
+  },
+  {
+    "path": "envelopes_default.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "089c038a6f3d278e0c3b8a25417684332508e154",
+    "size": 1063,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/089c038a6f3d278e0c3b8a25417684332508e154"
+  },
+  {
+    "path": "envelopes_sonic.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cabcbc36be7a5c1dd22e93f180f3f34797df740",
+    "size": 13230,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/4cabcbc36be7a5c1dd22e93f180f3f34797df740"
+  },
+  {
+    "path": "envelopes_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01092a4a9505882415400c49b95c904c52b7be3b",
+    "size": 12143,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/01092a4a9505882415400c49b95c904c52b7be3b"
+  },
+  {
+    "path": "eose_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "74d32dfced7d3d376f69d0faf29c36b3b4122bb8",
+    "size": 819,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/74d32dfced7d3d376f69d0faf29c36b3b4122bb8"
+  },
+  {
+    "path": "event.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "499b809b6015c06886be4b0dc7f5fd49222b49b6",
+    "size": 2237,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/499b809b6015c06886be4b0dc7f5fd49222b49b6"
+  },
+  {
+    "path": "event_easyjson.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8052225c7f255bd5cbf17a614eb7fd44a038dcd",
+    "size": 3612,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/a8052225c7f255bd5cbf17a614eb7fd44a038dcd"
+  },
+  {
+    "path": "event_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "01b882ba3425fba44c44e72cacf11e664915d513",
+    "size": 5121,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/01b882ba3425fba44c44e72cacf11e664915d513"
+  },
+  {
+    "path": "example",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ef4b0c67dc24bddbde23e0a152041e46150022c3",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/ef4b0c67dc24bddbde23e0a152041e46150022c3"
+  },
+  {
+    "path": "filter.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ed4b1f021e4c5cb22b512f9b7c9e01889dae2c56",
+    "size": 3909,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/ed4b1f021e4c5cb22b512f9b7c9e01889dae2c56"
+  },
+  {
+    "path": "filter_easyjson.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d980045d67e9da5a99c3dfeb06765b9ba4a6ac44",
+    "size": 6187,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/d980045d67e9da5a99c3dfeb06765b9ba4a6ac44"
+  },
+  {
+    "path": "filter_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5979effe6ce97484072fb7cc0180fb32a7790a2f",
+    "size": 6356,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/5979effe6ce97484072fb7cc0180fb32a7790a2f"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89ce563bb10fbfd7f2f001a6af2242b7ecc15152",
+    "size": 4260,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/89ce563bb10fbfd7f2f001a6af2242b7ecc15152"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0bc1fbb5ebc25ad4625b76a49a8126eea1576708",
+    "size": 35866,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/0bc1fbb5ebc25ad4625b76a49a8126eea1576708"
+  },
+  {
+    "path": "helpers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ec7f63d4cacee60d5ba33bd0f20aa76e77e8300",
+    "size": 4641,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/0ec7f63d4cacee60d5ba33bd0f20aa76e77e8300"
+  },
+  {
+    "path": "helpers_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a22744b6cc4ce95a0184247b636ef4e4ace672f3",
+    "size": 29571,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/a22744b6cc4ce95a0184247b636ef4e4ace672f3"
+  },
+  {
+    "path": "interface.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7149d2b4fa1948a7c9877598f41510609f1a14ec",
+    "size": 1526,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/7149d2b4fa1948a7c9877598f41510609f1a14ec"
+  },
+  {
+    "path": "justfile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5f00bd514627060c102d32574680a8a4c3611743",
+    "size": 2108,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/5f00bd514627060c102d32574680a8a4c3611743"
+  },
+  {
+    "path": "keyer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b267d490888b53df85a96db166b19fbeee00a12f",
+    "size": 1563,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/b267d490888b53df85a96db166b19fbeee00a12f"
+  },
+  {
+    "path": "keyer",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c9e761a23ce0072c5888ea918e8c538302743d1c",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/c9e761a23ce0072c5888ea918e8c538302743d1c"
+  },
+  {
+    "path": "keys.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b3bf6ce5bd1e46272d6c7ea7c2975129c99fa0dc",
+    "size": 903,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/b3bf6ce5bd1e46272d6c7ea7c2975129c99fa0dc"
+  },
+  {
+    "path": "kinds.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "40189134d0b30f2575a0f33c69f225f15052e3fe",
+    "size": 5804,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/40189134d0b30f2575a0f33c69f225f15052e3fe"
+  },
+  {
+    "path": "kinds_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e8342378b4823a4a15cec823424c70908ff0edcc",
+    "size": 472,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/e8342378b4823a4a15cec823424c70908ff0edcc"
+  },
+  {
+    "path": "libsecp256k1",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3949b305433ca86909927d86816349932f210f39",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/3949b305433ca86909927d86816349932f210f39"
+  },
+  {
+    "path": "log.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dd96a8025559b8c884939c9ff8249536a58ba630",
+    "size": 305,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/dd96a8025559b8c884939c9ff8249536a58ba630"
+  },
+  {
+    "path": "log_debug.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8832351f7d53a38345960cf266c3489159a7c4b7",
+    "size": 871,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/8832351f7d53a38345960cf266c3489159a7c4b7"
+  },
+  {
+    "path": "log_normal.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af799308dd9244bda1360d9d3cbf2b12a21ccccb",
+    "size": 78,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/af799308dd9244bda1360d9d3cbf2b12a21ccccb"
+  },
+  {
+    "path": "nip04",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "458d826968395632b1ec4ea2127043099c9be963",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/458d826968395632b1ec4ea2127043099c9be963"
+  },
+  {
+    "path": "nip05",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fca647cc1665685a5f556e6663049c8d4e8d8964",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/fca647cc1665685a5f556e6663049c8d4e8d8964"
+  },
+  {
+    "path": "nip06",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "182dd0527c12f7c3084b7f6b8970a99ca3ccb02d",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/182dd0527c12f7c3084b7f6b8970a99ca3ccb02d"
+  },
+  {
+    "path": "nip10",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d1a73e408aba7ab209d84597f5d1a926b8d0f93",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/2d1a73e408aba7ab209d84597f5d1a926b8d0f93"
+  },
+  {
+    "path": "nip11",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9528bfd1e39e4f28a006c1a04c0a1ea05519f15c",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/9528bfd1e39e4f28a006c1a04c0a1ea05519f15c"
+  },
+  {
+    "path": "nip13",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "354efdedd937695d28502dde26f878dc10f0a1d7",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/354efdedd937695d28502dde26f878dc10f0a1d7"
+  },
+  {
+    "path": "nip14",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "10cb676e7e7f72ff3a42944ba84751dffd45f39e",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/10cb676e7e7f72ff3a42944ba84751dffd45f39e"
+  },
+  {
+    "path": "nip17",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a173ebb010bfffcb46120afac7980a86bb034f18",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/a173ebb010bfffcb46120afac7980a86bb034f18"
+  },
+  {
+    "path": "nip19",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "be83190ae5270d760dffda90e0fc6b8668af539d",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/be83190ae5270d760dffda90e0fc6b8668af539d"
+  },
+  {
+    "path": "nip22",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "18ec075d49a793d9ec5880e8a17f1cb29a984300",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/18ec075d49a793d9ec5880e8a17f1cb29a984300"
+  },
+  {
+    "path": "nip23",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a2d0e4933a3bc1181893e7c46de17f023989db01",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/a2d0e4933a3bc1181893e7c46de17f023989db01"
+  },
+  {
+    "path": "nip27",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e0eb00e02057b866d96f84efc0089dd2c7c5b928",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/e0eb00e02057b866d96f84efc0089dd2c7c5b928"
+  },
+  {
+    "path": "nip29",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "025e9fc43e051955b102eeb9bebc5d12f364a32a",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/025e9fc43e051955b102eeb9bebc5d12f364a32a"
+  },
+  {
+    "path": "nip31",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aa9cc146338aecbd090612d3060938990bba17c7",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/aa9cc146338aecbd090612d3060938990bba17c7"
+  },
+  {
+    "path": "nip34",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d4448bd4a5a119219104dae7404b586d1d03bdff",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/d4448bd4a5a119219104dae7404b586d1d03bdff"
+  },
+  {
+    "path": "nip40",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1f8e71a32b968b422c25a0912a80c155c1c1ffdf",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/1f8e71a32b968b422c25a0912a80c155c1c1ffdf"
+  },
+  {
+    "path": "nip42",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04a65ba8bbebc47528ab8a6e4fb078d7befee226",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/04a65ba8bbebc47528ab8a6e4fb078d7befee226"
+  },
+  {
+    "path": "nip44",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2914ea0b94b9a7a00f9526a9afb2a11a2719b859",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/2914ea0b94b9a7a00f9526a9afb2a11a2719b859"
+  },
+  {
+    "path": "nip45",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a94753326b65451fc389b1b7dca8013b213a3f0a",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/a94753326b65451fc389b1b7dca8013b213a3f0a"
+  },
+  {
+    "path": "nip46",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9c9215ca4cecbd9ae86f09938adf182824845daf",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/9c9215ca4cecbd9ae86f09938adf182824845daf"
+  },
+  {
+    "path": "nip49",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fd855435ef92ad2effb8ce3fac141b0a5ae98d5a",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/fd855435ef92ad2effb8ce3fac141b0a5ae98d5a"
+  },
+  {
+    "path": "nip52",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "708d7e1827ef0ba8e0119a7569cfec61ea7c9706",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/708d7e1827ef0ba8e0119a7569cfec61ea7c9706"
+  },
+  {
+    "path": "nip53",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "874aa73b8c522cbbea7d82b90527236c856cbcfe",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/874aa73b8c522cbbea7d82b90527236c856cbcfe"
+  },
+  {
+    "path": "nip54",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "37fe9f92a112fe26cf0a64445d6a54f7d36d39f1",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/37fe9f92a112fe26cf0a64445d6a54f7d36d39f1"
+  },
+  {
+    "path": "nip59",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aacd8023ae5071ec4cf7b94e307930ac66bdac03",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/aacd8023ae5071ec4cf7b94e307930ac66bdac03"
+  },
+  {
+    "path": "nip60",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7dc01d887146ce29cb3b7758e134fad1ed6cccee",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/7dc01d887146ce29cb3b7758e134fad1ed6cccee"
+  },
+  {
+    "path": "nip61",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "78d260369e740ed515f83dcd26db7c6f68d958e4",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/78d260369e740ed515f83dcd26db7c6f68d958e4"
+  },
+  {
+    "path": "nip70",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8d14a00f76c7e329c36f73745167c9d136ab1efd",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/8d14a00f76c7e329c36f73745167c9d136ab1efd"
+  },
+  {
+    "path": "nip73",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75b5e5bcd9e35f1678b3c590194fae50313af27a",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/75b5e5bcd9e35f1678b3c590194fae50313af27a"
+  },
+  {
+    "path": "nip77",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1c4c2a937c4d18e8e1a02e6ebe54d2d26401b810",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/1c4c2a937c4d18e8e1a02e6ebe54d2d26401b810"
+  },
+  {
+    "path": "nip86",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35e7ce5c14d5e3f1400d810df7ac49304c98f79a",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/35e7ce5c14d5e3f1400d810df7ac49304c98f79a"
+  },
+  {
+    "path": "nip90",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "75035b59e10e926bf4c68fbd33a2f1603e7a7fbf",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/75035b59e10e926bf4c68fbd33a2f1603e7a7fbf"
+  },
+  {
+    "path": "nip92",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e7328ea10de4258135e600f7ae069c9d3f2ec6c9",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/e7328ea10de4258135e600f7ae069c9d3f2ec6c9"
+  },
+  {
+    "path": "nip94",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1037695128bbfc39f5147f7ebc83a14a6ccaa2db",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/1037695128bbfc39f5147f7ebc83a14a6ccaa2db"
+  },
+  {
+    "path": "nip96",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bac0466b3e5e5777f300fbafd5b101b49d99ba05",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/bac0466b3e5e5777f300fbafd5b101b49d99ba05"
+  },
+  {
+    "path": "nipb0",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dd226771e6f4d94cc121fa6298819132985350d7",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/dd226771e6f4d94cc121fa6298819132985350d7"
+  },
+  {
+    "path": "normalize.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c06976725d3d4e58de837b1c84a507eae52dc653",
+    "size": 2438,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/c06976725d3d4e58de837b1c84a507eae52dc653"
+  },
+  {
+    "path": "normalize_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "813d4b174c17e486812a5ec631aa38f4d0a14d07",
+    "size": 1144,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/813d4b174c17e486812a5ec631aa38f4d0a14d07"
+  },
+  {
+    "path": "paginator.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "044a8c552b7f5a038b232afdc8aeaeb7678ed29b",
+    "size": 1464,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/044a8c552b7f5a038b232afdc8aeaeb7678ed29b"
+  },
+  {
+    "path": "pointers.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e20aac6a2d3432f978271dc7162d1614388509dc",
+    "size": 5128,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/e20aac6a2d3432f978271dc7162d1614388509dc"
+  },
+  {
+    "path": "pool.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63c86cc8c2528029bfae09177f5d0b931c783fd1",
+    "size": 21006,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/63c86cc8c2528029bfae09177f5d0b931c783fd1"
+  },
+  {
+    "path": "relay.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3d1320a71674d5943a2ce006c8de402467822c8",
+    "size": 17261,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/f3d1320a71674d5943a2ce006c8de402467822c8"
+  },
+  {
+    "path": "relay_js_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c278a2ee76253eca080b8aca556a3de47d19451e",
+    "size": 1623,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/c278a2ee76253eca080b8aca556a3de47d19451e"
+  },
+  {
+    "path": "relay_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "acf2f18cddf154c18110a5c38fbe0520316c02dd",
+    "size": 5942,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/acf2f18cddf154c18110a5c38fbe0520316c02dd"
+  },
+  {
+    "path": "sdk",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5bcac8fbc5dcfb39ed7c9ecf084a965a1977a9b3",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/5bcac8fbc5dcfb39ed7c9ecf084a965a1977a9b3"
+  },
+  {
+    "path": "signature.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8164033fde49ca426328727f655432d49a3d01bc",
+    "size": 1928,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/8164033fde49ca426328727f655432d49a3d01bc"
+  },
+  {
+    "path": "signature_libsecp256k1.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab8955e7787ccd49133811bddeb2c88fefcd5da8",
+    "size": 3182,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/ab8955e7787ccd49133811bddeb2c88fefcd5da8"
+  },
+  {
+    "path": "subscription.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "298dd391a89bd9618725feebdba3ec28afc13209",
+    "size": 5455,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/298dd391a89bd9618725feebdba3ec28afc13209"
+  },
+  {
+    "path": "subscription_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7aefbb9f970d5b83c64618b5b18259d18ae1117b",
+    "size": 2048,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/7aefbb9f970d5b83c64618b5b18259d18ae1117b"
+  },
+  {
+    "path": "tag_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "879ec24561336f0240f8d21e0e1b9c83fb915c04",
+    "size": 704,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/879ec24561336f0240f8d21e0e1b9c83fb915c04"
+  },
+  {
+    "path": "tags.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58183612c21fea6285c3ffab50800b807d257ac8",
+    "size": 5471,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/58183612c21fea6285c3ffab50800b807d257ac8"
+  },
+  {
+    "path": "testdata",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f8d28492790b0bb259e519e9322fb0efe0131e12",
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/trees/f8d28492790b0bb259e519e9322fb0efe0131e12"
+  },
+  {
+    "path": "timestamp.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43ecb98b0bef50a92e828716f059b8a3d5c10b93",
+    "size": 186,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/43ecb98b0bef50a92e828716f059b8a3d5c10b93"
+  },
+  {
+    "path": "utils.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ccf3cc6332db50192b5bd6c51f272c01f112705",
+    "size": 1704,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/4ccf3cc6332db50192b5bd6c51f272c01f112705"
+  },
+  {
+    "path": "utils_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1b850ee49fe033ddca6c58a23c3fca478aca59a3",
+    "size": 1395,
+    "url": "https://api.github.com/repos/nbd-wtf/go-nostr/git/blobs/1b850ee49fe033ddca6c58a23c3fca478aca59a3"
+  }
+]

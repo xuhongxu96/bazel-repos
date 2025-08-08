@@ -1,0 +1,865 @@
+[
+  {
+    "path": ".codeclimate.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42f04def42942883a35b9abd90da4ff30379be8a",
+    "size": 422,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/42f04def42942883a35b9abd90da4ff30379be8a"
+  },
+  {
+    "path": ".cortex",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0555b3d45df2847a2c5688c72c9ca6af99199c16",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/0555b3d45df2847a2c5688c72c9ca6af99199c16"
+  },
+  {
+    "path": ".gitconfig",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "170ac967da5a7a081b2e53567c7f96c72c4f9a5b",
+    "size": 32,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/170ac967da5a7a081b2e53567c7f96c72c4f9a5b"
+  },
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "eafb719d34f1b22392a2b46c50cf4e1b860732e9",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/eafb719d34f1b22392a2b46c50cf4e1b860732e9"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1200a479fd002490f02390778aabfa795b24ca6",
+    "size": 886,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/c1200a479fd002490f02390778aabfa795b24ca6"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4f4964bf3f3d29c8f50c5768c409fef8f080ef23",
+    "size": 71624,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/4f4964bf3f3d29c8f50c5768c409fef8f080ef23"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0375e996fe8989c95cc6a515d1f251a5085b478",
+    "size": 4329,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/a0375e996fe8989c95cc6a515d1f251a5085b478"
+  },
+  {
+    "path": "README-devnotes.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f150f89a3343c8cb50bd34f680d31493958da7e1",
+    "size": 9674,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/f150f89a3343c8cb50bd34f680d31493958da7e1"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "de4bbefd20ec403ac36b0fdbf22989cacc3e4259",
+    "size": 56063,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/de4bbefd20ec403ac36b0fdbf22989cacc3e4259"
+  },
+  {
+    "path": "Release.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f549c07fbca33c098daca001081a0424e015cfff",
+    "size": 3709,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/f549c07fbca33c098daca001081a0424e015cfff"
+  },
+  {
+    "path": "audit-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "65b11b8b8cc41072ffbd8822983c307769c7ce56",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/65b11b8b8cc41072ffbd8822983c307769c7ce56"
+  },
+  {
+    "path": "auth-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d2d9dca80e2671422672f35854bc33b1b5332e35",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/d2d9dca80e2671422672f35854bc33b1b5332e35"
+  },
+  {
+    "path": "auth-distributor-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "73345688965a83e8ed5e1f5f43b2585109ec46fe",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/73345688965a83e8ed5e1f5f43b2585109ec46fe"
+  },
+  {
+    "path": "auth-internal-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc084360fd008af93694e643de0d0f184eb3ff0b",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/bc084360fd008af93694e643de0d0f184eb3ff0b"
+  },
+  {
+    "path": "auth-internal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "030cd297ddcaa8393dc8bfd5ff6656bf66677f80",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/030cd297ddcaa8393dc8bfd5ff6656bf66677f80"
+  },
+  {
+    "path": "authorization-common-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6f4332a2dc4165aa5b8146fba5ff82db2bdb8f34",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/6f4332a2dc4165aa5b8146fba5ff82db2bdb8f34"
+  },
+  {
+    "path": "authorization-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "300d52139db4b73d0feef2ebb1c6f42d5326bcc1",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/300d52139db4b73d0feef2ebb1c6f42d5326bcc1"
+  },
+  {
+    "path": "autoscale-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ec227b592e4c6957cfb0d501260cc0ab4a22fb57",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/ec227b592e4c6957cfb0d501260cc0ab4a22fb57"
+  },
+  {
+    "path": "autoscale",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "fbd53e870afc25d663278db4a00f19960c69c75a",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/fbd53e870afc25d663278db4a00f19960c69c75a"
+  },
+  {
+    "path": "build.gradle",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2120ed733299e8e94c6b5d7961fb48bdade982c0",
+    "size": 15338,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/2120ed733299e8e94c6b5d7961fb48bdade982c0"
+  },
+  {
+    "path": "ccm-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a7a4a9c11751e5d8f08f38c85328eb5da6fadbd8",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/a7a4a9c11751e5d8f08f38c85328eb5da6fadbd8"
+  },
+  {
+    "path": "client-cm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3c1074a4fa664adb27bc5bb0e3aa024edc8bc378",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/3c1074a4fa664adb27bc5bb0e3aa024edc8bc378"
+  },
+  {
+    "path": "cloud-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6c7bbc1ff59e58a7a4d2e2b60303f65dc394e166",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/6c7bbc1ff59e58a7a4d2e2b60303f65dc394e166"
+  },
+  {
+    "path": "cloud-aws-cloudformation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "16c956197f946a3ba1f5ace36904abe928ffc0a2",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/16c956197f946a3ba1f5ace36904abe928ffc0a2"
+  },
+  {
+    "path": "cloud-aws-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b60f7e8125065025dbf5a1e85ee20a72d96111f3",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/b60f7e8125065025dbf5a1e85ee20a72d96111f3"
+  },
+  {
+    "path": "cloud-aws-gov",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "01a26f54f69ef8fc8d67ff23b6a8965d310ed489",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/01a26f54f69ef8fc8d67ff23b6a8965d310ed489"
+  },
+  {
+    "path": "cloud-aws-native",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6bcb7f9272037ca70e15b0cf502124661966f611",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/6bcb7f9272037ca70e15b0cf502124661966f611"
+  },
+  {
+    "path": "cloud-azure",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "70ca73c6a6cb7053c0c5871aa3b545f048c425fe",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/70ca73c6a6cb7053c0c5871aa3b545f048c425fe"
+  },
+  {
+    "path": "cloud-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "61dfe17b0de248f5190bbe12a89f3a3e0fabb56f",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/61dfe17b0de248f5190bbe12a89f3a3e0fabb56f"
+  },
+  {
+    "path": "cloud-gcp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b12f8dd2d709d0f693294c30701ad9d32792089c",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/b12f8dd2d709d0f693294c30701ad9d32792089c"
+  },
+  {
+    "path": "cloud-mock",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c801339d3cd43cefbf5ca32a951af31706ea4e31",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/c801339d3cd43cefbf5ca32a951af31706ea4e31"
+  },
+  {
+    "path": "cloud-reactor-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9fb2a1b565b77a506c605c88f89c579081ff58ca",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/9fb2a1b565b77a506c605c88f89c579081ff58ca"
+  },
+  {
+    "path": "cloud-reactor",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "459d618c5c93d386242e1cea0519f38578f1cecf",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/459d618c5c93d386242e1cea0519f38578f1cecf"
+  },
+  {
+    "path": "cloud-template",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ff8562b4bd894fba865a286cfb0786918911fe87",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/ff8562b4bd894fba865a286cfb0786918911fe87"
+  },
+  {
+    "path": "cloud-yarn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a773b346d05926429fc26ba794586309d811e37a",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/a773b346d05926429fc26ba794586309d811e37a"
+  },
+  {
+    "path": "cloudera",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aac7bba3eef1dcf643417557df2fe359d16c6e9d",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/aac7bba3eef1dcf643417557df2fe359d16c6e9d"
+  },
+  {
+    "path": "cluster-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c0e2cd15f17b081e40dd899b2b37388f73289251",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/c0e2cd15f17b081e40dd899b2b37388f73289251"
+  },
+  {
+    "path": "cluster-cm",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b691c8ead12702d7cfd187952c9ea9376334db70",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/b691c8ead12702d7cfd187952c9ea9376334db70"
+  },
+  {
+    "path": "cluster-dns-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aeecd53849a53d80afac5217894cbcd3584c2f6b",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/aeecd53849a53d80afac5217894cbcd3584c2f6b"
+  },
+  {
+    "path": "cluster-proxy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4cde12d2b7c79e386f39f0fc5eb72d87d727ee93",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/4cde12d2b7c79e386f39f0fc5eb72d87d727ee93"
+  },
+  {
+    "path": "common-handlebar",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9d8b3c20d36e20275d623fe1819a7668865e0af7",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/9d8b3c20d36e20275d623fe1819a7668865e0af7"
+  },
+  {
+    "path": "common-model",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2ca93d179895330cf72eae5840561c97dcd482b9",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/2ca93d179895330cf72eae5840561c97dcd482b9"
+  },
+  {
+    "path": "common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "913e69a6bf4a3f3cf80c67a77e583b0c0a05afda",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/913e69a6bf4a3f3cf80c67a77e583b0c0a05afda"
+  },
+  {
+    "path": "config",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8c241be26db2c82869f2645743cc97dce55ce407",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/8c241be26db2c82869f2645743cc97dce55ce407"
+  },
+  {
+    "path": "core-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "584c629c87cae80fd21c84f4ba909fc60a5cb509",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/584c629c87cae80fd21c84f4ba909fc60a5cb509"
+  },
+  {
+    "path": "core-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "55f4119eed73fe1e044b53e9bbfd7838a7ed4bb6",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/55f4119eed73fe1e044b53e9bbfd7838a7ed4bb6"
+  },
+  {
+    "path": "core-model",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "acbd101795a1ae9d37e9dc00ba25ffcf7747dff7",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/acbd101795a1ae9d37e9dc00ba25ffcf7747dff7"
+  },
+  {
+    "path": "core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "94ceb92667850f7d95839446070dca4bf042acd3",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/94ceb92667850f7d95839446070dca4bf042acd3"
+  },
+  {
+    "path": "custom-configurations-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "da8e8d788f66a95262da08d17f79e53b6e8ab9db",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/da8e8d788f66a95262da08d17f79e53b6e8ab9db"
+  },
+  {
+    "path": "custom-configurations",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3c4584da12ecf77b23cacece10b06bb50a7e7e6d",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/3c4584da12ecf77b23cacece10b06bb50a7e7e6d"
+  },
+  {
+    "path": "databus-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e27cd4e4f96d197007c2f10952cda2af6996b553",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/e27cd4e4f96d197007c2f10952cda2af6996b553"
+  },
+  {
+    "path": "datalake-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "5d4459f8c155dd0542b39867188c516889a65c6c",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/5d4459f8c155dd0542b39867188c516889a65c6c"
+  },
+  {
+    "path": "datalake-dr-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "35065e7fac9405cf6a61abfda8c43224215a8550",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/35065e7fac9405cf6a61abfda8c43224215a8550"
+  },
+  {
+    "path": "datalake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8fd727a34b168a6ac08c912ed18258ecab2fb970",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/8fd727a34b168a6ac08c912ed18258ecab2fb970"
+  },
+  {
+    "path": "dependencies.gradle",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c4cb2793ce5cf60752258c24cee12ad19b2cdd3a",
+    "size": 3581,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/c4cb2793ce5cf60752258c24cee12ad19b2cdd3a"
+  },
+  {
+    "path": "docker-autoscale",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1cb8dcd6b6951866fc9e89393fc8be77e93efbb3",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/1cb8dcd6b6951866fc9e89393fc8be77e93efbb3"
+  },
+  {
+    "path": "docker-cloudbreak",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c24e18069f817ea525c4cca03ab5996893e6dce0",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/c24e18069f817ea525c4cca03ab5996893e6dce0"
+  },
+  {
+    "path": "docker-datalake",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b8b5f6a8b793cd357e0c3aa4a0d3b495a8595bc3",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/b8b5f6a8b793cd357e0c3aa4a0d3b495a8595bc3"
+  },
+  {
+    "path": "docker-environment-remote",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ecd4033ca935c004095d3cdd12d84e0a19f4e76f",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/ecd4033ca935c004095d3cdd12d84e0a19f4e76f"
+  },
+  {
+    "path": "docker-environment",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "25613b59a5dc6f725ed64632ded290139dc8ed26",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/25613b59a5dc6f725ed64632ded290139dc8ed26"
+  },
+  {
+    "path": "docker-externalized-compute",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e44f2fdb59bc32c801ab34d63cb5d24bcd4103b6",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/e44f2fdb59bc32c801ab34d63cb5d24bcd4103b6"
+  },
+  {
+    "path": "docker-freeipa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1f2cd9281d3dd93feadf9f037f12647b5e6bc640",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/1f2cd9281d3dd93feadf9f037f12647b5e6bc640"
+  },
+  {
+    "path": "docker-redbeams",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9b22a34887d4126e3f69fd01907919610b6fb5eb",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/9b22a34887d4126e3f69fd01907919610b6fb5eb"
+  },
+  {
+    "path": "docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "90f90b6657a62e22ba5374921c2520b5574f105d",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/90f90b6657a62e22ba5374921c2520b5574f105d"
+  },
+  {
+    "path": "environment-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "98dce38f5a32750c29e7f384551e09df02b4b03d",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/98dce38f5a32750c29e7f384551e09df02b4b03d"
+  },
+  {
+    "path": "environment-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a452aeb6ca364f2a4f8cb3766c49ab0d7dc51b70",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/a452aeb6ca364f2a4f8cb3766c49ab0d7dc51b70"
+  },
+  {
+    "path": "environment-public-api-client",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f308a701621175deba122805c90885d32703a395",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/f308a701621175deba122805c90885d32703a395"
+  },
+  {
+    "path": "environment-remote-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "80461cd0218a7b42657fd0c127933ebdaa5cd48b",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/80461cd0218a7b42657fd0c127933ebdaa5cd48b"
+  },
+  {
+    "path": "environment-remote",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "90e03395d2fa1a4d97dd5d2830fdfb6e42c66582",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/90e03395d2fa1a4d97dd5d2830fdfb6e42c66582"
+  },
+  {
+    "path": "environment",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c839ddbbd3d0329d3815e0412165d9c592ce0499",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/c839ddbbd3d0329d3815e0412165d9c592ce0499"
+  },
+  {
+    "path": "externalized-compute-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "dd380a0eb1f87ef21a0583bd41a4ddf8a6a69c6e",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/dd380a0eb1f87ef21a0583bd41a4ddf8a6a69c6e"
+  },
+  {
+    "path": "externalized-compute",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9aff067385ac50229447613f2e018eb4a77ed70c",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/9aff067385ac50229447613f2e018eb4a77ed70c"
+  },
+  {
+    "path": "flow-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "0aa1e378475c02e11b046bc7a86adb4b61b3611a",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/0aa1e378475c02e11b046bc7a86adb4b61b3611a"
+  },
+  {
+    "path": "flow",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "08a3dd0e9fc7af1a92e5bcf46e263a4c50113d4c",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/08a3dd0e9fc7af1a92e5bcf46e263a4c50113d4c"
+  },
+  {
+    "path": "forbidden-dependencies.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ca2c274b79e26e6b361af6248875a9e132dcedb",
+    "size": 1041,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/4ca2c274b79e26e6b361af6248875a9e132dcedb"
+  },
+  {
+    "path": "freeipa-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8725fd7da7147a1289a464699f9aca82b4a33e5a",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/8725fd7da7147a1289a464699f9aca82b4a33e5a"
+  },
+  {
+    "path": "freeipa-client",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "41b2d324f4136554c44b30b23d8034b89961eb91",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/41b2d324f4136554c44b30b23d8034b89961eb91"
+  },
+  {
+    "path": "freeipa",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9690846b31320a6609dae6d543b1b87988d6fa74",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/9690846b31320a6609dae6d543b1b87988d6fa74"
+  },
+  {
+    "path": "gradle.properties",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3af1fb5fda44e36bfe7cf87339d4dc8e0a750cc8",
+    "size": 1236,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/3af1fb5fda44e36bfe7cf87339d4dc8e0a750cc8"
+  },
+  {
+    "path": "gradle",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "87213cd9460dd094ba89c416ba70f47b00957852",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/87213cd9460dd094ba89c416ba70f47b00957852"
+  },
+  {
+    "path": "gradlew",
+    "mode": "100755",
+    "type": "blob",
+    "sha": "cb4e72f6ce3b47e8a3c6f498f5ecb97368e1a202",
+    "size": 8763,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/cb4e72f6ce3b47e8a3c6f498f5ecb97368e1a202"
+  },
+  {
+    "path": "gradlew.bat",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6f2a82dce7600cff55f90dc0e3bc499806d6e10",
+    "size": 2967,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/c6f2a82dce7600cff55f90dc0e3bc499806d6e10"
+  },
+  {
+    "path": "grpc-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "7ac50d7a73df702a1a31769aaa562283b8a5ea42",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/7ac50d7a73df702a1a31769aaa562283b8a5ea42"
+  },
+  {
+    "path": "idbmms-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b9e11b6f32d66331615aadff9ee0e020469d632a",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/b9e11b6f32d66331615aadff9ee0e020469d632a"
+  },
+  {
+    "path": "integration-test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "04e58868b004c36ba14c042f1831bb85af9dc2f5",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/04e58868b004c36ba14c042f1831bb85af9dc2f5"
+  },
+  {
+    "path": "liftie-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "6e7c9bf994de022c83e4fd595b9dde01b167beec",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/6e7c9bf994de022c83e4fd595b9dde01b167beec"
+  },
+  {
+    "path": "metering-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e49cf5dc0814c613acb765a9d463c4eb61cb0af0",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/e49cf5dc0814c613acb765a9d463c4eb61cb0af0"
+  },
+  {
+    "path": "metrics-client",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1fc5d88e5b5881a530ef2c955f7d9b51ee1d387f",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/1fc5d88e5b5881a530ef2c955f7d9b51ee1d387f"
+  },
+  {
+    "path": "mkdocs.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c63516552272cc16842ff0e1f53cde723681c96",
+    "size": 39,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/5c63516552272cc16842ff0e1f53cde723681c96"
+  },
+  {
+    "path": "mock-infrastructure",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc8ebdd2b21d7ada4dfe94142136515ee7998492",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/bc8ebdd2b21d7ada4dfe94142136515ee7998492"
+  },
+  {
+    "path": "mock-thunderhead",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "847930611df5f2afe7252df3393e3d8372cde941",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/847930611df5f2afe7252df3393e3d8372cde941"
+  },
+  {
+    "path": "notification-sender",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bc95731765c99500bc43205b435f941ef2911140",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/bc95731765c99500bc43205b435f941ef2911140"
+  },
+  {
+    "path": "orchestrator-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8035c629b509153ffe2adc25bf3b49520994194f",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/8035c629b509153ffe2adc25bf3b49520994194f"
+  },
+  {
+    "path": "orchestrator-salt",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "2d564600378c043e0fcbb27f53062dee7f37421f",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/2d564600378c043e0fcbb27f53062dee7f37421f"
+  },
+  {
+    "path": "orchestrator-yarn",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "64be3376cc1ca26773a3a4845b9ff35b1e9c71e5",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/64be3376cc1ca26773a3a4845b9ff35b1e9c71e5"
+  },
+  {
+    "path": "performance-test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d4ab9b2a1b8e8a8ce2838774061e1da90fea57d7",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/d4ab9b2a1b8e8a8ce2838774061e1da90fea57d7"
+  },
+  {
+    "path": "redbeams-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a8c2781bf8e04205d39d617117dfa66b034d1f50",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/a8c2781bf8e04205d39d617117dfa66b034d1f50"
+  },
+  {
+    "path": "redbeams",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "3a97cc5b7531b333e23ce411a23a1dc4ba581ce1",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/3a97cc5b7531b333e23ce411a23a1dc4ba581ce1"
+  },
+  {
+    "path": "remote-cluster-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a52ad6dfc5e83da341c3a2925c1de0275e3db339",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/a52ad6dfc5e83da341c3a2925c1de0275e3db339"
+  },
+  {
+    "path": "scripts",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b71083d7c6fb7125903012d923c71f629423ea07",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/b71083d7c6fb7125903012d923c71f629423ea07"
+  },
+  {
+    "path": "sdx-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1be6686283957c03b7f7685a246f1320c309ffdc",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/1be6686283957c03b7f7685a246f1320c309ffdc"
+  },
+  {
+    "path": "secret-engine",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8f7e21601cd869226c56db7b0aa034e09b801b18",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/8f7e21601cd869226c56db7b0aa034e09b801b18"
+  },
+  {
+    "path": "secret-rotation-api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "131b754b824c1ad3c5ad4bf920ca5fb6ec17a582",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/131b754b824c1ad3c5ad4bf920ca5fb6ec17a582"
+  },
+  {
+    "path": "secret-rotation",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9cbffc2faef27fce9f86754e8e0418b4d2de9dbb",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/9cbffc2faef27fce9f86754e8e0418b4d2de9dbb"
+  },
+  {
+    "path": "service-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1341f00f85eaad2122b988f6502df2df40adf120",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/1341f00f85eaad2122b988f6502df2df40adf120"
+  },
+  {
+    "path": "servicediscovery-api-client",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "aabf092820be1d0fc1c90a3da4b357819d085731",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/aabf092820be1d0fc1c90a3da4b357819d085731"
+  },
+  {
+    "path": "settings.gradle",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e97880780b13b857710807e8b1594981571233e3",
+    "size": 2541,
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/blobs/e97880780b13b857710807e8b1594981571233e3"
+  },
+  {
+    "path": "status-checker",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d36023f42536fca6d9ea417fce0d2a0499fe139d",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/d36023f42536fca6d9ea417fce0d2a0499fe139d"
+  },
+  {
+    "path": "streaming-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1482ef7c0261a13808642afb38add3cf67de4f43",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/1482ef7c0261a13808642afb38add3cf67de4f43"
+  },
+  {
+    "path": "structuredevent-api-cdp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "bbd1fad238b88e8119447afc6e25e19b94d7af62",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/bbd1fad238b88e8119447afc6e25e19b94d7af62"
+  },
+  {
+    "path": "structuredevent-model",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f29aa9eb0f45e261cf9721bf95fb557102c3fc56",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/f29aa9eb0f45e261cf9721bf95fb557102c3fc56"
+  },
+  {
+    "path": "structuredevent-service-cdp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d6cc2ed39b188b3fe37c8529efb6db7f775b3b76",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/d6cc2ed39b188b3fe37c8529efb6db7f775b3b76"
+  },
+  {
+    "path": "structuredevent-service-legacy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ab985586f9d83fb11245e247788ee28c4e7a0353",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/ab985586f9d83fb11245e247788ee28c4e7a0353"
+  },
+  {
+    "path": "telemetry-common",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f738aab7ac2b43b6672f03ee5740b3f5eaf06f1e",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/f738aab7ac2b43b6672f03ee5740b3f5eaf06f1e"
+  },
+  {
+    "path": "template-manager-cmtemplate",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b2917d13fe0b2b6553f17f3ed908b67a53ca1442",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/b2917d13fe0b2b6553f17f3ed908b67a53ca1442"
+  },
+  {
+    "path": "template-manager-core",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "89078dac7bec5de49840bfe0a978509e23aec4a6",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/89078dac7bec5de49840bfe0a978509e23aec4a6"
+  },
+  {
+    "path": "template-manager-recipe",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "a4cd07730b6b538cbb2148cc1ca5ec8a4cf72595",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/a4cd07730b6b538cbb2148cc1ca5ec8a4cf72595"
+  },
+  {
+    "path": "template-manager-tag",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "82cdc463d3152c8963e79c5dfca93661faabb62c",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/82cdc463d3152c8963e79c5dfca93661faabb62c"
+  },
+  {
+    "path": "usage-collection",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c28b35827bc85345fe489dd1706e39c04f53a528",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/c28b35827bc85345fe489dd1706e39c04f53a528"
+  },
+  {
+    "path": "wiam-connector",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "43b6622892be84d189adb86c39657994da56c01d",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/43b6622892be84d189adb86c39657994da56c01d"
+  },
+  {
+    "path": "workspace",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1a1188297a17c82a0e68838c339c2aab2c67d3bc",
+    "url": "https://api.github.com/repos/hortonworks/cloudbreak/git/trees/1a1188297a17c82a0e68838c339c2aab2c67d3bc"
+  }
+]

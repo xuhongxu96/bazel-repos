@@ -1,0 +1,423 @@
+[
+  {
+    "path": ".github",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8e844e68c4846875b5450c0cd76adaaa4f236446",
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/trees/8e844e68c4846875b5450c0cd76adaaa4f236446"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5313535c7a635f2a399becd0f370b45775094a78",
+    "size": 58,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/5313535c7a635f2a399becd0f370b45775094a78"
+  },
+  {
+    "path": ".golangci.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5b30eb95978da86e84fa045fa1ae48465ab04932",
+    "size": 928,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/5b30eb95978da86e84fa045fa1ae48465ab04932"
+  },
+  {
+    "path": ".goreleaser.yml",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3cb01bb09c6df3270f0444c6004c49565d52e45",
+    "size": 249,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/c3cb01bb09c6df3270f0444c6004c49565d52e45"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8254dfb5a772f52bb07101bfc8e2ec206aee20d3",
+    "size": 1065,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/8254dfb5a772f52bb07101bfc8e2ec206aee20d3"
+  },
+  {
+    "path": "Makefile",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "af2f0d95a3ed69342509fd1597349429ec0e3efa",
+    "size": 1384,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/af2f0d95a3ed69342509fd1597349429ec0e3efa"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6065b128d80a8d018dc3decf8f161ae5d05efb91",
+    "size": 35418,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/6065b128d80a8d018dc3decf8f161ae5d05efb91"
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2239180f5a6fd3304c9186fa74b61933161b3a89",
+    "size": 813,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/2239180f5a6fd3304c9186fa74b61933161b3a89"
+  },
+  {
+    "path": "api.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a89a208fafb159b965e616dae3b72f0cde479b1",
+    "size": 1978,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/9a89a208fafb159b965e616dae3b72f0cde479b1"
+  },
+  {
+    "path": "api_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dad29a474d516d00f23f83b0b168ab5c73d46fc8",
+    "size": 449,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/dad29a474d516d00f23f83b0b168ab5c73d46fc8"
+  },
+  {
+    "path": "balancer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2e69bbe38f8c50b809ede91060262f7365b07951",
+    "size": 1277,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/2e69bbe38f8c50b809ede91060262f7365b07951"
+  },
+  {
+    "path": "balancer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aff694a9333c9f7cb184fbc3ab50e018eb2bffed",
+    "size": 5473,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/aff694a9333c9f7cb184fbc3ab50e018eb2bffed"
+  },
+  {
+    "path": "batch_consumer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9c7d7edbfaca88fb64089c81e26b41cd43f07a69",
+    "size": 8669,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/9c7d7edbfaca88fb64089c81e26b41cd43f07a69"
+  },
+  {
+    "path": "batch_consumer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3813c9b191319b11ff003f1a7af4d259239de7a0",
+    "size": 17597,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/3813c9b191319b11ff003f1a7af4d259239de7a0"
+  },
+  {
+    "path": "chunkMessages_benchmark_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b977c17c5bf7c4bcf80b22719a21bf2b67474169",
+    "size": 2329,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/b977c17c5bf7c4bcf80b22719a21bf2b67474169"
+  },
+  {
+    "path": "collector.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "71495e179d764576caf80cda5a7240aa1f01134a",
+    "size": 2647,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/71495e179d764576caf80cda5a7240aa1f01134a"
+  },
+  {
+    "path": "collector_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4c5352908bc5e0205a247ea7e1aadf73fae73cb3",
+    "size": 2291,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/4c5352908bc5e0205a247ea7e1aadf73fae73cb3"
+  },
+  {
+    "path": "consumer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89031f23c2704709edd987f861011d53634567e0",
+    "size": 4805,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/89031f23c2704709edd987f861011d53634567e0"
+  },
+  {
+    "path": "consumer_base.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c51544c156939fcb9c042b37991eec6d998134b",
+    "size": 8322,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/0c51544c156939fcb9c042b37991eec6d998134b"
+  },
+  {
+    "path": "consumer_base_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13589babcbb032a51dec20436658b2a2dd800b3a",
+    "size": 6228,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/13589babcbb032a51dec20436658b2a2dd800b3a"
+  },
+  {
+    "path": "consumer_config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9a3ce95fb6096570bd7c556a2751c0dcceb599f7",
+    "size": 10875,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/9a3ce95fb6096570bd7c556a2751c0dcceb599f7"
+  },
+  {
+    "path": "consumer_config_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41e72af97ecc9bf22666a655843276baef363b85",
+    "size": 14909,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/41e72af97ecc9bf22666a655843276baef363b85"
+  },
+  {
+    "path": "consumer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76b62381df7af1ffdb0181231c8e713cc654ed22",
+    "size": 6185,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/76b62381df7af1ffdb0181231c8e713cc654ed22"
+  },
+  {
+    "path": "data_units.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3b7b7ee45226b4da52371af02d7fbf64e18e3dd9",
+    "size": 1358,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/3b7b7ee45226b4da52371af02d7fbf64e18e3dd9"
+  },
+  {
+    "path": "data_units_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9c762e0cd33948e63ed72c3e56f63c1552146f3",
+    "size": 1908,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/a9c762e0cd33948e63ed72c3e56f63c1552146f3"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "cbdb37026a2b8f6fdf3a8f8214d39a4e8fc669d8",
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/trees/cbdb37026a2b8f6fdf3a8f8214d39a4e8fc669d8"
+  },
+  {
+    "path": "go.mod",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2aea27d7ac1a1db27adedf527e4470efc8ff17e6",
+    "size": 1993,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/2aea27d7ac1a1db27adedf527e4470efc8ff17e6"
+  },
+  {
+    "path": "go.sum",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "868699e63ce0c35ad15155198b6f60ec579c5ada",
+    "size": 15208,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/868699e63ce0c35ad15155198b6f60ec579c5ada"
+  },
+  {
+    "path": "layer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5de97a482efa640d4680861c8cc09477b46986f5",
+    "size": 532,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/5de97a482efa640d4680861c8cc09477b46986f5"
+  },
+  {
+    "path": "layer_dialer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3a407a0711ac50f2698513947860538ef1c2778",
+    "size": 307,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/c3a407a0711ac50f2698513947860538ef1c2778"
+  },
+  {
+    "path": "layer_transport.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fc03f8ad99d2b68ee22b93691c37bc2451f7b88e",
+    "size": 310,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/fc03f8ad99d2b68ee22b93691c37bc2451f7b88e"
+  },
+  {
+    "path": "logger.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "546143ba5c067de3a9824aae747f9722aa7bedda",
+    "size": 1468,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/546143ba5c067de3a9824aae747f9722aa7bedda"
+  },
+  {
+    "path": "mechanism.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "176cc06c0c3aa0b19544194b84fd784234bf5421",
+    "size": 1102,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/176cc06c0c3aa0b19544194b84fd784234bf5421"
+  },
+  {
+    "path": "mechanism_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c8b374f629ce70d02b409e55e3ad51b5ff76708a",
+    "size": 1126,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/c8b374f629ce70d02b409e55e3ad51b5ff76708a"
+  },
+  {
+    "path": "message.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "32e3b5522e773111a1acb941205ebf152d96e7f5",
+    "size": 4551,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/32e3b5522e773111a1acb941205ebf152d96e7f5"
+  },
+  {
+    "path": "message_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "482d4dcce92644c4509615d02d488a75dd437fb6",
+    "size": 6553,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/482d4dcce92644c4509615d02d488a75dd437fb6"
+  },
+  {
+    "path": "metric.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ab1446938776a306fda662c3191902e77ff146f4",
+    "size": 644,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/ab1446938776a306fda662c3191902e77ff146f4"
+  },
+  {
+    "path": "otel_producer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1428c9c8e4dd3d9602e51037aad0776e864a5b1",
+    "size": 1689,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/a1428c9c8e4dd3d9602e51037aad0776e864a5b1"
+  },
+  {
+    "path": "otel_producer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ff4a0d398f932a621fc2a94bba4c120a88a02ddc",
+    "size": 1945,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/ff4a0d398f932a621fc2a94bba4c120a88a02ddc"
+  },
+  {
+    "path": "otel_reader_wrapper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b92c38634fa18851cfaa682814df543ce7b0544c",
+    "size": 1243,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/b92c38634fa18851cfaa682814df543ce7b0544c"
+  },
+  {
+    "path": "producer.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "57803e9ab05375e7cd7b6646db8352fb83b57849",
+    "size": 2776,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/57803e9ab05375e7cd7b6646db8352fb83b57849"
+  },
+  {
+    "path": "producer_config.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "76c6960929e42c9d822bac7465476642cb86739a",
+    "size": 3425,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/76c6960929e42c9d822bac7465476642cb86739a"
+  },
+  {
+    "path": "producer_config_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f82cfba52843dc24bdc83958e7e482160348c7d8",
+    "size": 6419,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/f82cfba52843dc24bdc83958e7e482160348c7d8"
+  },
+  {
+    "path": "producer_interceptor.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5bc6b93ea5883e636dd8ed7e7243c59490d97d4",
+    "size": 207,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/b5bc6b93ea5883e636dd8ed7e7243c59490d97d4"
+  },
+  {
+    "path": "producer_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6e825835376a1cb9ca8d1d086a60b080a285c5b",
+    "size": 2216,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/c6e825835376a1cb9ca8d1d086a60b080a285c5b"
+  },
+  {
+    "path": "reader_wrapper.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6f36f2840153ba7e18a6e71d60c10eb3bca65e6",
+    "size": 700,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/b6f36f2840153ba7e18a6e71d60c10eb3bca65e6"
+  },
+  {
+    "path": "sub_process.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6dc2a0fa255ecbc693bd5504cd08520c41820fb",
+    "size": 496,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/f6dc2a0fa255ecbc693bd5504cd08520c41820fb"
+  },
+  {
+    "path": "test",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "274430c0e37a8c27fd616bc030cd495e844f6242",
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/trees/274430c0e37a8c27fd616bc030cd495e844f6242"
+  },
+  {
+    "path": "tls.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0174bf9aa3b860a694df3fd31c0e02305932d0cc",
+    "size": 1310,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/0174bf9aa3b860a694df3fd31c0e02305932d0cc"
+  },
+  {
+    "path": "tls_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0cb43a061d54dec29fb9b016bdf9d4403dc0c0ce",
+    "size": 3778,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/0cb43a061d54dec29fb9b016bdf9d4403dc0c0ce"
+  },
+  {
+    "path": "verify_topic.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43cd16dcf6c5304c1319abbb85fdc5fc19da6a18",
+    "size": 1691,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/43cd16dcf6c5304c1319abbb85fdc5fc19da6a18"
+  },
+  {
+    "path": "verify_topic_test.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2f44915e22a58092f4b52392ddc3911953074142",
+    "size": 2645,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/2f44915e22a58092f4b52392ddc3911953074142"
+  },
+  {
+    "path": "zap.go",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "736f61f150d9cd4f8457aefa5fdaa95746fba9a2",
+    "size": 1474,
+    "url": "https://api.github.com/repos/Trendyol/kafka-konsumer/git/blobs/736f61f150d9cd4f8457aefa5fdaa95746fba9a2"
+  }
+]
