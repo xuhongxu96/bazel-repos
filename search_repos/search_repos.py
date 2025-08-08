@@ -18,7 +18,7 @@ GH = Github(auth=AUTH)
 
 os.makedirs("repos", exist_ok=True)
 
-end_star = 64
+end_star = 1e9
 
 while end_star > 1:
     print(f"Searching for repositories with stars less than {end_star}...")
