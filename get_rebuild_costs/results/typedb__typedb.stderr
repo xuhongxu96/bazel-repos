@@ -1,55 +1,6 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-DEBUG: Rule 'crates' indicated that a canonical reproducible form can be obtained by modifying arguments lockfile = Label("@typedb_dependencies//library/crates:cargo-bazel-lock.json")
-DEBUG: Repository crates instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:83:13: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/library/crates/crates.bzl:11:22: in fetch_crates
-Repository rule crates_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/rules_rust/crate_universe/private/crates_repository.bzl:107:36: in <toplevel>
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/apt/rules.bzl:109:18: /opt/typedb/core/server/data /var/lib/typedb/core/data/
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/apt/rules.bzl:109:18: /usr/local/bin/typedb /opt/typedb/core/typedb
@@ -59,120 +10,10 @@ DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/apt/rules.bzl:109:18: /usr/local/bin/typedb /opt/typedb/core/typedb
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/apt/rules.bzl:109:18: /opt/typedb/core/server/logs /var/log/typedb/
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/apt/rules.bzl:109:18: /usr/lib/systemd/system/typedb.service /opt/typedb/core/typedb.service
-Loading: 69 packages loaded
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
-Loading: 150 packages loaded
-    currently loading: @rules_license//licenses/spdx
-DEBUG: Rule 'typeql' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "b56ed8195ff25aca96f24e33180468f705072ab2" and dropping ["tag"]
-DEBUG: Repository typeql instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:149:7: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/dependencies/typedb/repositories.bzl:22:19: in typeql
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-DEBUG: Rule 'typedb_protocol' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "3fc4c0fe0ac37c517af0e31415347299cff0307c" and dropping ["tag"]
-DEBUG: Repository typedb_protocol instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:151:16: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/dependencies/typedb/repositories.bzl:29:19: in typedb_protocol
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-Loading: 205 packages loaded
-    currently loading: @crates__regex-1.11.1// ... (7 packages)
-Loading: 323 packages loaded
-DEBUG: Rule 'typedb_console_artifact_linux-x86_64' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "41ae71e81d44f9aff98a2a4efbdeed6b5546777c969bac9609ef985fd5b26514" and dropping ["tags"]
-DEBUG: Repository typedb_console_artifact_linux-x86_64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:154:24: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/dependencies/typedb/artifacts.bzl:9:26: in typedb_console_artifact
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/distribution/artifact/rules.bzl:18:22: in native_artifact_files
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/artifact/rules.bzl:172:14: in artifact_file
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'typedb_console_artifact_windows-x86_64' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "3633f5584fb91ab04dd0488e14b69a3cf5ae1e60a54540201b00309d22c4deda" and dropping ["tags"]
-DEBUG: Repository typedb_console_artifact_windows-x86_64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:154:24: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/dependencies/typedb/artifacts.bzl:9:26: in typedb_console_artifact
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/distribution/artifact/rules.bzl:18:22: in native_artifact_files
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/artifact/rules.bzl:172:14: in artifact_file
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'typedb_console_artifact_mac-x86_64' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "649892fcb1d7da93a16066e0247386bc2618b33f52817558411251e5ced88e9d" and dropping ["tags"]
-DEBUG: Repository typedb_console_artifact_mac-x86_64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:154:24: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/dependencies/typedb/artifacts.bzl:9:26: in typedb_console_artifact
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/distribution/artifact/rules.bzl:18:22: in native_artifact_files
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/artifact/rules.bzl:172:14: in artifact_file
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'unused_deps_mac' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "55b868ca7b4340abd3b99de55d25972641e77519fbbe574ed98b733689ef383a"
-DEBUG: Repository unused_deps_mac instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:53:16: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/tool/unuseddeps/deps.bzl:9:14: in deps
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'typedb_console_artifact_mac-arm64' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "e12e31aef33ec2aadee57cd2284069b95c7ed0bbe46ca74333f900bbb01e9d03" and dropping ["tags"]
-DEBUG: Repository typedb_console_artifact_mac-arm64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:154:24: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/dependencies/typedb/artifacts.bzl:9:26: in typedb_console_artifact
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/distribution/artifact/rules.bzl:18:22: in native_artifact_files
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/artifact/rules.bzl:172:14: in artifact_file
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'buildozer_mac' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "13cfaa7cebe81eac3211d18b18610cc3eef655a921c26d31607246e5e3093bf9"
-DEBUG: Repository buildozer_mac instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:53:16: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/tool/unuseddeps/deps.bzl:19:14: in deps
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-Loading: 373 packages loaded
-DEBUG: Rule 'typedb_console_artifact_linux-arm64' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "7cd6fecb2847dac56c042894564517d449ebd291f545cbd320dd9c8ce46f2c0b" and dropping ["tags"]
-DEBUG: Repository typedb_console_artifact_linux-arm64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:154:24: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/dependencies/typedb/artifacts.bzl:9:26: in typedb_console_artifact
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/distribution/artifact/rules.bzl:18:22: in native_artifact_files
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_bazel_distribution/artifact/rules.bzl:172:14: in artifact_file
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'buildozer_linux' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "c80ebdbd1f9d8c1d4ac240b4da4caccc461a51f3ea13119057ec0b4c838a5f12"
-Loading: 428 packages loaded
-DEBUG: Repository buildozer_linux instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:53:16: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/tool/unuseddeps/deps.bzl:24:14: in deps
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'unused_deps_linux' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "36b712031449a4ac272f3d4d2175fe77ca22fe13d1a565afede91f2dbe4f843a"
-DEBUG: Repository unused_deps_linux instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:53:16: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/typedb_dependencies/tool/unuseddeps/deps.bzl:14:14: in deps
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'typedb-ubuntu-x86_64' indicated that a canonical reproducible form can be obtained by modifying arguments digest = "sha256:6ee891897765de29eda0ca251b78def15671821e38c2daf3b444fc465ebddede"
-DEBUG: Repository typedb-ubuntu-x86_64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:139:19: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/docker/images.bzl:8:19: in base_images
-Repository rule container_pull defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/io_bazel_rules_docker/container/pull.bzl:294:33: in <toplevel>
-Loading: 517 packages loaded
-    currently loading: @crates__clap_derive-4.5.32// ... (15 packages)
-Loading: 664 packages loaded
-DEBUG: Rule 'typedb-ubuntu-arm64' indicated that a canonical reproducible form can be obtained by modifying arguments digest = "sha256:ae392337aabc23ee3e7e0face62c1fab0cc80d5ba3d36ac8ec45162256e73d89"
-DEBUG: Repository typedb-ubuntu-arm64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/WORKSPACE:139:19: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typedb/docker/images.bzl:15:19: in base_images
-Repository rule container_pull defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e7d5d6af1d0b3ea4b7f6b3eb82d4b62c/external/io_bazel_rules_docker/container/pull.bzl:294:33: in <toplevel>
-Loading: 680 packages loaded
-Loading: 687 packages loaded
-Loading: 688 packages loaded
-Loading: 688 packages loaded
-Loading: 688 packages loaded
-Loading: 692 packages loaded
-Loading: 699 packages loaded
-Loading: 699 packages loaded
-Loading: 700 packages loaded
-Loading: 701 packages loaded
-Loading: 745 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

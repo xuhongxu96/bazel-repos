@@ -1,31 +1,4 @@
-2025/08/09 02:21:03 Downloading https://releases.bazel.build/6.1.1/release/bazel-6.1.1-linux-x86_64...
-Extracting Bazel installation...
 Starting local Bazel server and connecting to it...
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-DEBUG: Rule 'rules_foreign_cc' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "1fb8a1ed9100236590c2a9441d79811aefaabcf8"
-DEBUG: Repository rules_foreign_cc instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/openvinotoolkit__model_server/WORKSPACE:238:15: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
- checking cached actions
- checking cached actions
-DEBUG: Rule 'pybind11_bazel' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "b72c5b44135b90d1ffaba51e08240be0b91707ac60bea08bb4d84b47316211bb"
-DEBUG: Repository pybind11_bazel instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/openvinotoolkit__model_server/WORKSPACE:349:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
- checking cached actions
- checking cached actions
-DEBUG: Rule 'tensorflow_serving' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "5815bfdd1d1bbd9d0d3557576c98f13afc4d9016" and dropping ["tag"]
-DEBUG: Repository tensorflow_serving instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/openvinotoolkit__model_server/WORKSPACE:163:15: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
  checking cached actions
  checking cached actions
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/org_tensorflow/third_party/py/python_repo.bzl:96:14: 
@@ -38,9 +11,10 @@ OR pass it as an argument to bazel command directly or inside your .bazelrc
 file:
   --repo_env=HERMETIC_PYTHON_VERSION=3.12
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/org_tensorflow/third_party/py/python_repo.bzl:107:10: Using hermetic Python 3.10
- checking cached actions
- checking cached actions
- checking cached actions
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/org_tensorflow/third_party/py/python_configure.bzl", line 41, column 42, in <toplevel>
+		remote_python_configure = repository_rule(
+Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/org_tensorflow/tensorflow/tools/toolchains/cpus/aarch64/aarch64.bzl", line 310, column 43, in <toplevel>
 		remote_aarch64_configure = repository_rule(
@@ -49,16 +23,7 @@ ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/org_tensorflow/third_party/gpus/cuda_configure.bzl", line 1382, column 40, in <toplevel>
 		remote_cuda_configure = repository_rule(
 Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
-ERROR: Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/org_tensorflow/third_party/py/python_configure.bzl", line 41, column 42, in <toplevel>
-		remote_python_configure = repository_rule(
-Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
- checking cached actions
- checking cached actions
- checking cached actions
 ERROR: Error computing the main repository mapping: at /data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/org_tensorflow/tensorflow/workspace2.bzl:12:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/890567c236df684953c5ab9e00d64200/external/org_tensorflow/tensorflow/tools/toolchains/cpus/aarch64/aarch64_compiler_configure.bzl:3:6: initialization of module 'tensorflow/tools/toolchains/cpus/aarch64/aarch64.bzl' failed
  checking cached actions
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,51 +1,13 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 WARNING: For repository 'bazel_features', the root module requires module version bazel_features@1.21.0, but got bazel_features@1.30.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'rules_cc', the root module requires module version rules_cc@0.0.16, but got rules_cc@0.1.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'com_google_protobuf', the root module requires module version protobuf@29.0-rc2, but got protobuf@29.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'io_bazel_rules_go', the root module requires module version rules_go@0.41.0, but got rules_go@0.50.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 Loading: 0 packages loaded
-Loading: 120 packages loaded
-    currently loading: python/config_settings ... (11 packages)
-Loading: 129 packages loaded
-    currently loading: docs ... (2 packages)
-Loading: 129 packages loaded
-    currently loading: docs ... (2 packages)
-Loading: 129 packages loaded
-    currently loading: docs ... (2 packages)
-Loading: 129 packages loaded
-    currently loading: docs ... (2 packages)
-Loading: 129 packages loaded
-    currently loading: docs ... (2 packages)
-Loading: 129 packages loaded
-    currently loading: docs ... (2 packages)
-Loading: 129 packages loaded
-    currently loading: docs ... (2 packages)
-Loading: 260 packages loaded
-    currently loading: @@+python+pythons_hub// ... (12 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/f5b6875931b7fdb5e8b5484b61cedf6f/external/gazelle+/internal/bzlmod/go_deps.bzl:571:40: 
-
-Mismatch between versions requested for module github.com/bazelbuild/bazel-gazelle
-Bazel dependency version requested in MODULE.bazel: 0.40.0
-Go module version requested in go.mod: 0.31.1
-Please resolve this mismatch to prevent discrepancies between native Go and Bazel builds
-
-Loading: 363 packages loaded
-Loading: 369 packages loaded
-Loading: 391 packages loaded
-Loading: 459 packages loaded
-Loading: 497 packages loaded
-Loading: 515 packages loaded
-    currently loading: @@+pip+dev_pip//markupsafe
-Loading: 557 packages loaded
-    currently loading: @@+pip+dev_pip_313_sphinxcontrib_jquery//
-Loading: 605 packages loaded
-    currently loading: @@+pip+dev_pip_313_sphinxcontrib_applehelp_py3_none_any_4cd3f0ec//
-Loading: 669 packages loaded
-Loading: 674 packages loaded
-Loading: 676 packages loaded
+Loading: 140 packages loaded
+    currently loading: @@protobuf+// ... (30 packages)
+Loading: 677 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -342,7 +304,3 @@ Read 292000 lines from bazel query output...
 Read 293000 lines from bazel query output...
 Read 294000 lines from bazel query output...
 Read 295000 lines from bazel query output...
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

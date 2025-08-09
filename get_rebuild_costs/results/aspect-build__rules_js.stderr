@@ -1,18 +1,6 @@
-2025/08/09 04:54:47 Downloading https://static.aspect.build/aspect/2024.41.17/bazel-2024.41.17-linux-x86_64...
-2025/08/09 04:54:50 Downloading https://static.aspect.build/aspect/2024.41.17/bazel-2024.41.17-linux-x86_64...
-2025/08/09 04:54:53 Downloading https://releases.bazel.build/7.6.1/release/bazel-7.6.1-linux-x86_64...
 Starting local Bazel server and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 34 packages loaded
-    currently loading:  ... (28 packages)
-Loading: 34 packages loaded
-    currently loading:  ... (28 packages)
-Loading: 34 packages loaded
-    currently loading:  ... (28 packages)
 DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/aspect-build__rules_js/npm/private/pnpm.bzl:421:18: ERROR: duplicate package: lodash@4.17.21
 	{"name": "lodash", "dependencies": {}, "optional_dependencies": {}, "dev_only": True, "has_bin": False, "optional": False, "requires_build": False, "version": "4.17.21", "friendly_version": "4.17.21", "resolution": {"integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="}}
 	{"name": "lodash", "dependencies": {}, "optional_dependencies": {}, "dev_only": True, "has_bin": False, "optional": False, "requires_build": False, "version": "4.17.21", "friendly_version": "4.17.21", "resolution": {"integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==", "tarball": "file:npm/private/test/vendored/lodash-4.17.21.tgz"}}
@@ -21,30 +9,8 @@ DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/aspect-build__rules_js/npm/pri
 	{"name": "@types/node", "dependencies": {"undici-types": "5.26.5"}, "optional_dependencies": {}, "dev_only": False, "has_bin": False, "optional": False, "requires_build": False, "version": "18.19.54", "friendly_version": "18.19.54", "resolution": {"integrity": "sha512-+BRgt0G5gYjTvdLac9sIeE0iZcJxi4Jc4PV5EUzqi+88jmQLr+fRZdv2tCTV7IHKSGxM6SaLoOXQWWUiLUItMw==", "registry": "https://registry.yarnpkg.com/", "tarball": "https://registry.npmjs.org/@types/node/-/node-18.19.54.tgz"}}
 Loading: 34 packages loaded
     currently loading:  ... (28 packages)
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/aspect-build__rules_js/npm/private/pnpm.bzl:421:18: ERROR: duplicate package: lodash@4.17.21
-	{"name": "lodash", "dependencies": {}, "optional_dependencies": {}, "dev_only": True, "has_bin": False, "optional": False, "requires_build": False, "version": "4.17.21", "friendly_version": "4.17.21", "resolution": {"integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="}}
-	{"name": "lodash", "dependencies": {}, "optional_dependencies": {}, "dev_only": True, "has_bin": False, "optional": False, "requires_build": False, "version": "4.17.21", "friendly_version": "4.17.21", "resolution": {"integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==", "tarball": "file:npm/private/test/vendored/lodash-4.17.21.tgz"}}
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/aspect-build__rules_js/npm/private/pnpm.bzl:421:18: ERROR: duplicate package: @types/node@18.19.54
-	{"name": "@types/node", "dependencies": {"undici-types": "5.26.5"}, "optional_dependencies": {}, "dev_only": True, "has_bin": False, "optional": False, "requires_build": False, "version": "18.19.54", "friendly_version": "18.19.54", "resolution": {"integrity": "sha512-+BRgt0G5gYjTvdLac9sIeE0iZcJxi4Jc4PV5EUzqi+88jmQLr+fRZdv2tCTV7IHKSGxM6SaLoOXQWWUiLUItMw==", "tarball": "https://registry.npmjs.org/@types/node/-/node-18.19.54.tgz"}}
-	{"name": "@types/node", "dependencies": {"undici-types": "5.26.5"}, "optional_dependencies": {}, "dev_only": False, "has_bin": False, "optional": False, "requires_build": False, "version": "18.19.54", "friendly_version": "18.19.54", "resolution": {"integrity": "sha512-+BRgt0G5gYjTvdLac9sIeE0iZcJxi4Jc4PV5EUzqi+88jmQLr+fRZdv2tCTV7IHKSGxM6SaLoOXQWWUiLUItMw==", "registry": "https://registry.yarnpkg.com/", "tarball": "https://registry.npmjs.org/@types/node/-/node-18.19.54.tgz"}}
-Loading: 34 packages loaded
-    currently loading:  ... (28 packages)
-Loading: 61 packages loaded
-    currently loading: examples/nextjs
-Loading: 178 packages loaded
-Loading: 183 packages loaded
-Loading: 210 packages loaded
-Loading: 249 packages loaded
-Loading: 377 packages loaded
-Loading: 434 packages loaded
-Loading: 486 packages loaded
-Loading: 489 packages loaded
-Loading: 542 packages loaded
-    currently loading: @@_main~npm~npm__at_rollup_plugin-commonjs__28.0.3_rollup_4.39.0//
-Loading: 589 packages loaded
-Loading: 709 packages loaded
-Loading: 911 packages loaded
-    currently loading: @@_main~npm~npm__npm-normalize-package-bin__1.0.1//
+Loading: 1110 packages loaded
+    currently loading: @@rules_nodejs~~node~node20_windows_amd64// ... (31 packages)
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -57,7 +23,6 @@ Read 8000 lines from bazel query output...
 Read 9000 lines from bazel query output...
 Read 10000 lines from bazel query output...
 Read 11000 lines from bazel query output...
-Loading: 1233 packages loaded
 Read 12000 lines from bazel query output...
 Read 13000 lines from bazel query output...
 Read 14000 lines from bazel query output...

@@ -1,42 +1,14 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-    currently loading: ui ... (2 packages)
-Loading: 0 packages loaded
-    currently loading: ui ... (2 packages)
-Loading: 0 packages loaded
-    currently loading: ui ... (2 packages)
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 1 packages loaded
-    currently loading: 
-Loading: 2 packages loaded
-    currently loading: @@aspect_bazel_lib+//lib
+Loading: 625 packages loaded
+    currently loading: @@aspect_bazel_lib+//lib/private ... (15 packages)
 WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/sphenlee__waterwheel/MODULE.bazel:52:20: The module extension oci defined in @rules_oci//oci:extensions.bzl reported incorrect imports of repositories via use_repo():
 
 Not imported, but reported as direct dependencies by the extension (may cause the build to fail):
     ubuntu_linux_amd64
 
 Fix the use_repo calls by running 'bazel mod tidy'.
-Loading: 431 packages loaded
-Loading: 788 packages loaded
-Loading: 1172 packages loaded
 Loading: 1204 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...

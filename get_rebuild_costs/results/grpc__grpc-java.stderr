@@ -1,33 +1,4 @@
-Starting local Bazel server (8.3.1) and connecting to it...
- no actions running
- no actions running
- no actions running
-WARNING: For repository 'com_google_protobuf', the root module requires module version protobuf@24.4, but got protobuf@29.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
-WARNING: For repository 'rules_cc', the root module requires module version rules_cc@0.0.9, but got rules_cc@0.1.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
-WARNING: For repository 'rules_java', the root module requires module version rules_java@5.3.5, but got rules_java@8.12.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
-WARNING: For repository 'rules_jvm_external', the root module requires module version rules_jvm_external@6.0, but got rules_jvm_external@6.3 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
-WARNING: For repository 'rules_proto', the root module requires module version rules_proto@5.3.0-21.7, but got rules_proto@7.0.2 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 2 packages loaded
-    currently loading: rls ... (22 packages)
-Loading: 24 packages loaded
-    currently loading: @@bazel_tools//tools/proto ... (4 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/9477d3f0af613964ab9878ae98388d89/external/rules_jvm_external+/private/extensions/maven.bzl:155:14: The maven repository 'maven' is used in two different bazel modules, originally in 'grpc-java' and now in 'protobuf'
-Loading: 80 packages loaded
-Loading: 103 packages loaded
-Loading: 103 packages loaded
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/9477d3f0af613964ab9878ae98388d89/external/rules_jvm_external+/private/rules/coursier.bzl:751:18: Found duplicate artifact versions
-    com.google.code.gson:gson has multiple versions 2.11.0, 2.8.9
-    com.google.errorprone:error_prone_annotations has multiple versions 2.30.0, 2.5.1
-    com.google.guava:guava has multiple versions 33.3.1-android, 32.0.1-jre
-    com.google.truth:truth has multiple versions 1.4.2, 1.1.2
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
-Loading: 105 packages loaded
-Loading: 105 packages loaded
-Loading: 105 packages loaded
-Loading: 105 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -43,7 +14,6 @@ Read 11000 lines from bazel query output...
 Read 12000 lines from bazel query output...
 Read 13000 lines from bazel query output...
 Read 14000 lines from bazel query output...
-Loading: 110 packages loaded
 Read 15000 lines from bazel query output...
 Read 16000 lines from bazel query output...
 Read 17000 lines from bazel query output...

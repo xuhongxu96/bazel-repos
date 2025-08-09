@@ -1,16 +1,9 @@
-2025/08/09 00:25:26 Downloading https://releases.bazel.build/6.1.0/release/bazel-6.1.0-linux-x86_64...
-Extracting Bazel installation...
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b64d69d9a2a511a40c46a04b6bf596b5/external/org_tensorflow/tensorflow/tools/toolchains/cpus/aarch64/aarch64.bzl", line 312, column 43, in <toplevel>
+		remote_aarch64_configure = repository_rule(
+Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b64d69d9a2a511a40c46a04b6bf596b5/external/org_tensorflow/third_party/py/non_hermetic/python_configure.bzl", line 285, column 42, in <toplevel>
 		remote_python_configure = repository_rule(
@@ -19,19 +12,7 @@ ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b64d69d9a2a511a40c46a04b6bf596b5/external/org_tensorflow/third_party/gpus/cuda_configure.bzl", line 1465, column 40, in <toplevel>
 		remote_cuda_configure = repository_rule(
 Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
-ERROR: Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b64d69d9a2a511a40c46a04b6bf596b5/external/org_tensorflow/tensorflow/tools/toolchains/cpus/aarch64/aarch64.bzl", line 312, column 43, in <toplevel>
-		remote_aarch64_configure = repository_rule(
-Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 ERROR: Error computing the main repository mapping: at /data/h445xu/.cache/bazel/_bazel_hongxu/b64d69d9a2a511a40c46a04b6bf596b5/external/org_tensorflow/tensorflow/workspace2.bzl:6:6: initialization of module 'third_party/gpus/cuda_configure.bzl' failed
  checking cached actions
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

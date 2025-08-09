@@ -1,68 +1,17 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/rules_jvm_external/coursier.bzl:593:18: Found duplicate artifact versions
-    com.google.code.gson:gson has multiple versions 2.10.1, 2.8.9
-    com.google.errorprone:error_prone_annotations has multiple versions 2.18.0, 2.3.2
-    com.google.guava:guava has multiple versions 32.0.1-android, 31.1-jre
-    com.google.truth:truth has multiple versions 1.0.1, 1.1.2
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 83 packages loaded
-    currently loading: 
-Loading: 83 packages loaded
-    currently loading: 
-Loading: 83 packages loaded
-    currently loading: 
-Loading: 83 packages loaded
-    currently loading: 
 Loading: 84 packages loaded
-    currently loading: @com_github_bazelbuild_buildtools//build ... (10 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/stackb__rules_proto/plugin/grpc-ecosystem/grpc-gateway/BUILD.bazel:3:13: no such package '@com_github_grpc_ecosystem_grpc_gateway//protoc-gen-grpc-gateway': The repository '@com_github_grpc_ecosystem_grpc_gateway' could not be resolved: Repository '@com_github_grpc_ecosystem_grpc_gateway' is not defined and referenced by '//plugin/grpc-ecosystem/grpc-gateway:protoc-gen-grpc-gateway'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/stackb__rules_proto/plugin/grpc-ecosystem/grpc-gateway/BUILD.bazel:10:13: no such package '@com_github_grpc_ecosystem_grpc_gateway//protoc-gen-swagger': The repository '@com_github_grpc_ecosystem_grpc_gateway' could not be resolved: Repository '@com_github_grpc_ecosystem_grpc_gateway' is not defined and referenced by '//plugin/grpc-ecosystem/grpc-gateway:protoc-gen-swagger'
-DEBUG: Rule 'scala_compiler_source' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "f79ee80f140218253f2a38c9d73f8a9b552d06afce7a5f61cf08079a388e21df"
-DEBUG: Repository scala_compiler_source instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/stackb__rules_proto/WORKSPACE:205:19: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/io_bazel_rules_scala/scala/private/macros/scala_repositories.bzl:163:26: in scala_repositories
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/io_bazel_rules_scala/scala/private/macros/scala_repositories.bzl:123:30: in rules_scala_setup
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/io_bazel_rules_scala/scala/private/macros/scala_repositories.bzl:74:21: in dt_patched_compiler_setup
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-WARNING: Download from https://mirror.bazel.build/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 496 packages loaded
-    currently loading: @com_github_grpc_grpc// ... (2 packages)
-Loading: 594 packages loaded
-    currently loading: @upb// ... (2 packages)
-WARNING: Download from https://mirror.bazel.build/github.com/google/protobuf/archive/v3.18.1.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/io_grpc_grpc_java/protobuf-lite/BUILD.bazel:1:13: error loading package '@com_google_protobuf_javalite//': at /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/com_google_protobuf_javalite/protobuf.bzl:5:6: Unable to find package for @rules_ruby//ruby:defs.bzl: The repository '@rules_ruby' could not be resolved: Repository '@rules_ruby' is not defined. and referenced by '@io_grpc_grpc_java//protobuf-lite:protobuf-lite'
-Loading: 768 packages loaded
-    currently loading: @com_google_protobuf_javalite//
-WARNING: Download from https://mirror.bazel.build/repo1.maven.org/maven2/com/google/javascript/closure-compiler-unshaded/v20200830/closure-compiler-unshaded-v20200830.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 824 packages loaded
-    currently loading: @com_google_protobuf_javalite//
 Loading: 825 packages loaded
-    currently loading: @com_google_protobuf_javalite//
-Loading: 825 packages loaded
-    currently loading: @com_google_protobuf_javalite//
-Loading: 827 packages loaded
-    currently loading: @com_google_protobuf_javalite//
-Loading: 827 packages loaded
-    currently loading: @com_google_protobuf_javalite//
-Loading: 827 packages loaded
     currently loading: @com_google_protobuf_javalite//
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/io_grpc_grpc_java/protobuf-lite/BUILD.bazel:1:13: error loading package '@com_google_protobuf_javalite//': at /data/h445xu/.cache/bazel/_bazel_hongxu/e61eb63b736764377547353010c0505b/external/com_google_protobuf_javalite/protobuf.bzl:5:6: Unable to find package for @rules_ruby//ruby:defs.bzl: The repository '@rules_ruby' could not be resolved: Repository '@rules_ruby' is not defined. and referenced by '@io_grpc_grpc_java//protobuf-lite:protobuf-lite'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+Loading: 828 packages loaded
+    currently loading: @com_google_protobuf_javalite//
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
@@ -72,8 +21,6 @@ Read 4000 lines from bazel query output...
 Read 5000 lines from bazel query output...
 Read 6000 lines from bazel query output...
 Read 7000 lines from bazel query output...
-Loading: 828 packages loaded
-    currently loading: @com_google_protobuf_javalite//
 Read 8000 lines from bazel query output...
 Read 9000 lines from bazel query output...
 Read 10000 lines from bazel query output...
@@ -220,7 +167,3 @@ Read 150000 lines from bazel query output...
 Read 151000 lines from bazel query output...
 Loading: 828 packages loaded
     currently loading: @com_google_protobuf_javalite//
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,22 +1,7 @@
 Starting local Bazel server and connecting to it...
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
 Loading: 11 packages loaded
-    currently loading: common/flags/testing ... (23 packages)
-Loading: 11 packages loaded
-    currently loading: common/flags/testing ... (23 packages)
-Loading: 11 packages loaded
-    currently loading: common/flags/testing ... (23 packages)
-Loading: 11 packages loaded
-    currently loading: common/flags/testing ... (23 packages)
-Loading: 11 packages loaded
-    currently loading: common/flags/testing ... (23 packages)
-Loading: 35 packages loaded
+    currently loading:  ... (23 packages)
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e9c1e72cb83026d2367f64937a3377d6/external/bazel_gazelle/internal/BUILD.bazel", line 19, column 26, in <toplevel>
 		gazelle_binary_test_suite()
@@ -25,11 +10,8 @@ ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e9c1e72cb83026d2367f64937a3377d6/external/bazel_skylib/lib/unittest.bzl", line 270, column 18, in _suite
 		test_rule(name = test_name)
 Error: 'struct' object is not callable
-Loading: 461 packages loaded
-Loading: 461 packages loaded
-Loading: 462 packages loaded
-Loading: 462 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/dataform-co__dataform/BUILD:58:8: every rule of type _gazelle_runner implicitly depends upon the target '@bazel_gazelle//internal:gazelle.bash.in', but this target could not be found because of: no such target '@bazel_gazelle//internal:gazelle.bash.in': target 'gazelle.bash.in' not declared in package 'internal'; however, a source file of this name exists.  (Perhaps add 'exports_files(["gazelle.bash.in"])' to internal/BUILD?) defined by /data/h445xu/.cache/bazel/_bazel_hongxu/e9c1e72cb83026d2367f64937a3377d6/external/bazel_gazelle/internal/BUILD.bazel
+Loading: 473 packages loaded
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...

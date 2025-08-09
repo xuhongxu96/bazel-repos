@@ -1,20 +1,12 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
-DEBUG: Rule 'gz-utils~' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-RC31v6+C762cC6TBKq1ZDIsaF7odfPZVWth2C0boA7A="
-DEBUG: Repository gz-utils~ instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/0bbe2b5d051d33e3627e111327c68da5/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
- checking cached actions
  checking cached actions
 WARNING: For repository 'buildifier_prebuilt', the root module requires module version buildifier_prebuilt@7.3.1, but got buildifier_prebuilt@8.2.0 in the resolved dependency graph.
 WARNING: For repository 'googletest', the root module requires module version googletest@1.14.0, but got googletest@1.14.0.bcr.1 in the resolved dependency graph.
 WARNING: For repository 'rules_python', the root module requires module version rules_python@0.36.0, but got rules_python@0.40.0 in the resolved dependency graph.
+ checking cached actions
 Loading: 0 packages loaded
-Loading: 1 packages loaded
-    currently loading:  ... (2 packages)
-Loading: 53 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

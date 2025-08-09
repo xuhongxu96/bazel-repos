@@ -1,57 +1,25 @@
-Starting local Bazel server (8.3.1) and connecting to it...
-[0m no actions running
-[0m no actions running
-[0m no actions running
 [32mLoading:[0m 0 packages loaded
-[32mLoading:[0m 0 packages loaded
-[32mLoading:[0m 0 packages loaded
-[32mLoading:[0m 0 packages loaded
-    currently loading:  ... (3 packages)
-[32mLoading:[0m 6 packages loaded
-    currently loading:  ... (34 packages)
-[32mLoading:[0m 6 packages loaded
-    currently loading:  ... (34 packages)
-[32mLoading:[0m 6 packages loaded
-    currently loading:  ... (34 packages)
-[32mLoading:[0m 6 packages loaded
-    currently loading:  ... (34 packages)
-[32mLoading:[0m 6 packages loaded
-    currently loading:  ... (34 packages)
-[32mLoading:[0m 6 packages loaded
-    currently loading:  ... (34 packages)
-[32mLoading:[0m 6 packages loaded
-    currently loading:  ... (34 packages)
-[32mLoading:[0m 19 packages loaded
-    currently loading:  ... (21 packages)
-[32mLoading:[0m 40 packages loaded
-[32mLoading:[0m 64 packages loaded
-    currently loading: @@aspect_bazel_lib+//lib ... (6 packages)
-[32mLoading:[0m 102 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__watchpack__2.4.2//
-[32mLoading:[0m 141 packages loaded
-[32mLoading:[0m 183 packages loaded
-[32mLoading:[0m 277 packages loaded
-[32mLoading:[0m 335 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__require-directory__2.1.1//
-[32mLoading:[0m 395 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__at_rollup_rollup-linux-riscv64-musl__4.41.1//
-[32mLoading:[0m 432 packages loaded
-[32mLoading:[0m 481 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__serialize-error__8.1.0//
-[32mLoading:[0m 520 packages loaded
-[32mLoading:[0m 569 packages loaded
-[32mLoading:[0m 643 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__at_babel_plugin-transform-arrow-functions__7.27.1_at_babel_core_7.28.0//
-[32mLoading:[0m 700 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__at_babel_plugin-transform-modules-systemjs__7.27.1_at_babel_core_7.28.0//
-[32mLoading:[0m 746 packages loaded
-[32mLoading:[0m 787 packages loaded
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:247:17: no such target '//packages/intl-localematcher:intl-localematcher': target 'intl-localematcher' not declared in package 'packages/intl-localematcher' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-localematcher/BUILD and referenced by '//:.aspect_rules_js/node_modules/@formatjs/intl-localematcher'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:242:17: no such target '//packages/intl-pluralrules:intl-pluralrules': target 'intl-pluralrules' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:.aspect_rules_js/node_modules/@formatjs/intl-pluralrules'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/icu-messageformat-parser:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/icu-messageformat-parser' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/icu-messageformat-parser/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-displaynames:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-displaynames' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-displaynames/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-getcanonicallocales:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-getcanonicallocales' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-getcanonicallocales/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-listformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-listformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-listformat/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-pluralrules:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-relativetimeformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-relativetimeformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-relativetimeformat/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/icu-messageformat-parser:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/icu-messageformat-parser' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/icu-messageformat-parser/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-displaynames:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-displaynames' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-displaynames/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-getcanonicallocales:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-getcanonicallocales' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-getcanonicallocales/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-listformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-listformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-listformat/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-pluralrules:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-relativetimeformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-relativetimeformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-relativetimeformat/BUILD and referenced by '//:karma-ci'
 [32mINFO: [0mRepository aspect_rules_js++npm+npm__at_commitlint_rules__19.8.1_1053535546 instantiated at:
   <builtin>: in <toplevel>
 Repository rule npm_import_rule defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/7ab44d0dadcaee29b10dc047d2f27385/external/aspect_rules_js+/npm/private/npm_import.bzl:986:34: in <toplevel>
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:247:17: no such target '//packages/intl-localematcher:intl-localematcher': target 'intl-localematcher' not declared in package 'packages/intl-localematcher' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-localematcher/BUILD and referenced by '//:.aspect_rules_js/node_modules/@formatjs/intl-localematcher'
+[32mINFO: [0mrepository @@aspect_rules_js++npm+npm__at_commitlint_rules__19.8.1_1053535546' used the following cache hits instead of downloading the corresponding file.
+ * Hash '1e796177d0f2bc6886c237e37d3a0c8b576c9f0d445ca18934b4dcb2e18e447cfa492f6cc1182406ca2edf7310da7e75fdba080eb6ec838b4805b4691162b693' for https://registry.npmjs.org/@commitlint/rules/-/rules-19.8.1.tgz
+If the definition of 'repository @@aspect_rules_js++npm+npm__at_commitlint_rules__19.8.1_1053535546' was updated, verify that the hashes were also updated.
 [31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7ab44d0dadcaee29b10dc047d2f27385/external/aspect_bazel_lib+/lib/private/patch.bzl:141:21: An error occurred during the fetch of repository 'aspect_rules_js++npm+npm__at_commitlint_rules__19.8.1_1053535546':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7ab44d0dadcaee29b10dc047d2f27385/external/aspect_rules_js+/npm/private/npm_import.bzl", line 630, column 10, in _npm_import_rule_impl
@@ -67,78 +35,25 @@ patching file lib/scope-enum.js
 Hunk #1 FAILED at 12.
 1 out of 1 hunk FAILED -- saving rejects to file lib/scope-enum.js.rej
  and referenced by '//:.aspect_rules_js/node_modules/@commitlint+rules@19.8.1_1053535546/pkg'
-[32mLoading:[0m 832 packages loaded
-[32mLoading:[0m 863 packages loaded
-[32mLoading:[0m 904 packages loaded
-[32mLoading:[0m 953 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__at_jridgewell_set-array__1.2.1//
-[32mLoading:[0m 1014 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__at_swc_core-win32-arm64-msvc__1.12.9//
-[32mLoading:[0m 1063 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__at_types_mime__1.3.5//
-[32mLoading:[0m 1164 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__at_types_webpack__5.28.5_1951322946//
-[32mLoading:[0m 1251 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__at_types_serialize-javascript__5.0.4//
-[32mLoading:[0m 1304 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__cacheable-lookup__7.0.0//
-[32mLoading:[0m 1359 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__consola__3.4.2//
-[32mLoading:[0m 1417 packages loaded
-[32mLoading:[0m 1496 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__defer-to-connect__2.0.1//
-[32mLoading:[0m 1554 packages loaded
-[32mLoading:[0m 1607 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__dom-accessibility-api__0.6.3//
-[32mLoading:[0m 1682 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__format__0.2.2//
-[32mLoading:[0m 1763 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__is-fullwidth-code-point__2.0.0//
-[32mLoading:[0m 1834 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__into-stream__3.1.0//
-[32mLoading:[0m 1865 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__is-unicode-supported__1.3.0//
-[32mLoading:[0m 1942 packages loaded
-[32mLoading:[0m 1989 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__mdast-util-gfm-strikethrough__2.0.0//
-[32mLoading:[0m 2039 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__micromark-extension-mdx-expression__3.0.1//
-[32mLoading:[0m 2133 packages loaded
-[32mLoading:[0m 2192 packages loaded
-[32mLoading:[0m 2264 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__pseudomap__1.0.2//
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/icu-messageformat-parser:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/icu-messageformat-parser' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/icu-messageformat-parser/BUILD and referenced by '//:karma-ci'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/icu-messageformat-parser:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/icu-messageformat-parser' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/icu-messageformat-parser/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-displaynames:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-displaynames' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-displaynames/BUILD and referenced by '//:karma-ci'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-displaynames:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-displaynames' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-displaynames/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-getcanonicallocales:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-getcanonicallocales' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-getcanonicallocales/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-listformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-listformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-listformat/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-pluralrules:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-relativetimeformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-relativetimeformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-relativetimeformat/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-getcanonicallocales:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-getcanonicallocales' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-getcanonicallocales/BUILD and referenced by '//:karma-ci'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-listformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-listformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-listformat/BUILD and referenced by '//:karma-ci'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-pluralrules:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:karma-ci'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-relativetimeformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-relativetimeformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-relativetimeformat/BUILD and referenced by '//:karma-ci'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:242:17: no such target '//packages/intl-pluralrules:intl-pluralrules': target 'intl-pluralrules' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:.aspect_rules_js/node_modules/@formatjs/intl-pluralrules'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:247:17: no such target '//packages/intl-localematcher:intl-localematcher': target 'intl-localematcher' not declared in package 'packages/intl-localematcher' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-localematcher/BUILD and referenced by '//:.aspect_rules_js/node_modules/@formatjs/intl-localematcher'
-[32mLoading:[0m 2340 packages loaded
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:11:22: no such package '@@aspect_rules_js++npm+npm__at_commitlint_rules__19.8.1_1053535546//': Error applying patch @@//:patches/@commitlint__rules.patch:
 patching file lib/scope-enum.js
 Hunk #1 FAILED at 12.
 1 out of 1 hunk FAILED -- saving rejects to file lib/scope-enum.js.rej
  and referenced by '//:.aspect_rules_js/node_modules/@commitlint+rules@19.8.1_1053535546/pkg'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/icu-messageformat-parser:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/icu-messageformat-parser' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/icu-messageformat-parser/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-displaynames:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-displaynames' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-displaynames/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-getcanonicallocales:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-getcanonicallocales' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-getcanonicallocales/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/icu-messageformat-parser:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/icu-messageformat-parser' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/icu-messageformat-parser/BUILD and referenced by '//:karma-ci'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-relativetimeformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-relativetimeformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-relativetimeformat/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-pluralrules:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-listformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-listformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-listformat/BUILD and referenced by '//:karma'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-getcanonicallocales:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-getcanonicallocales' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-getcanonicallocales/BUILD and referenced by '//:karma-ci'
-[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-listformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-listformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-listformat/BUILD and referenced by '//:karma-ci'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-pluralrules:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-pluralrules:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-pluralrules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-pluralrules/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/icu-messageformat-parser:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/icu-messageformat-parser' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/icu-messageformat-parser/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-getcanonicallocales:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-getcanonicallocales' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-getcanonicallocales/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-getcanonicallocales:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-getcanonicallocales' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-getcanonicallocales/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-listformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-listformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-listformat/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-listformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-listformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-listformat/BUILD and referenced by '//:karma'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-relativetimeformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-relativetimeformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-relativetimeformat/BUILD and referenced by '//:karma'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-relativetimeformat:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-relativetimeformat' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-relativetimeformat/BUILD and referenced by '//:karma-ci'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:118:21: no such target '//packages/intl-displaynames:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-displaynames' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-displaynames/BUILD and referenced by '//:karma-ci'
+[31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/BUILD:97:21: no such target '//packages/intl-displaynames:bundled-karma-tests': target 'bundled-karma-tests' not declared in package 'packages/intl-displaynames' defined by /data/h445xu/repo/bazel-repos/cloned_repos/formatjs__formatjs/packages/intl-displaynames/BUILD and referenced by '//:karma'
 [31m[1mERROR: [0mEvaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 [35mWARNING: [0m--keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

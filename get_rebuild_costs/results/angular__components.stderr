@@ -1,103 +1,6 @@
-Starting local Bazel server and connecting to it...
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 4 packages loaded
-    currently loading:  ... (59 packages)
-Loading: 6 packages loaded
-    currently loading:  ... (338 packages)
-Loading: 19 packages loaded
-    currently loading:  ... (331 packages)
-Loading: 161 packages loaded
-    currently loading:  ... (189 packages)
-Loading: 349 packages loaded
-    currently loading: 
-Loading: 350 packages loaded
-    currently loading: @aspect_bazel_lib//lib ... (6 packages)
-Loading: 392 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox ... (7 packages)
-Loading: 402 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox ... (6 packages)
-Loading: 420 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox ... (4 packages)
-Loading: 439 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 457 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 504 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 535 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 586 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 613 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 659 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 699 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 727 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 770 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 813 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 849 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 867 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 912 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 925 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 947 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 1023 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 1040 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 1064 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 1109 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 1153 packages loaded
-    currently loading: @rules_browsers//src/browsers/firefox
-Loading: 1190 packages loaded
-Loading: 1218 packages loaded
-Loading: 1247 packages loaded
-INFO: Repository rules_browsers_firefox_mac_arm instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/angular__components/WORKSPACE:254:23: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/setup/step_1.bzl:17:32: in rules_browsers_setup_1
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/repositories.bzl:12:32: in rules_browsers_repositories
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/firefox/firefox.bzl:31:15: in define_firefox_repositories
-Repository rule browser_repo defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl:81:31: in <toplevel>
-WARNING: Download from https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg failed: class com.google.devtools.build.lib.bazel.repository.downloader.UnrecoverableHttpException Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6
-ERROR: An error occurred during the fetch of repository 'rules_browsers_firefox_mac_arm':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl", line 13, column 21, in _browser_repo_impl
-		ctx.download(urls, download_file_name, sha256)
-Error in download: java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac_arm/_download_file_rules_browsers_firefox_mac_arm.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/angular__components/WORKSPACE:254:23: fetching browser_repo rule //external:rules_browsers_firefox_mac_arm: Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl", line 13, column 21, in _browser_repo_impl
-		ctx.download(urls, download_file_name, sha256)
-Error in download: java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac_arm/_download_file_rules_browsers_firefox_mac_arm.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6
-Loading: 1273 packages loaded
-Loading: 1293 packages loaded
-Loading: 1336 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
 INFO: Repository rules_browsers_firefox_mac instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/angular__components/WORKSPACE:254:23: in <toplevel>
   /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/setup/step_1.bzl:17:32: in rules_browsers_setup_1
@@ -105,6 +8,7 @@ INFO: Repository rules_browsers_firefox_mac instantiated at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/firefox/firefox.bzl:20:15: in define_firefox_repositories
 Repository rule browser_repo defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl:81:31: in <toplevel>
+WARNING: Download from https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg failed: class com.google.devtools.build.lib.bazel.repository.downloader.UnrecoverableHttpException Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6
 ERROR: An error occurred during the fetch of repository 'rules_browsers_firefox_mac':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl", line 13, column 21, in _browser_repo_impl
@@ -114,61 +18,27 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/angular__components/WORKSPACE:
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl", line 13, column 21, in _browser_repo_impl
 		ctx.download(urls, download_file_name, sha256)
 Error in download: java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac/_download_file_rules_browsers_firefox_mac.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6
-Loading: 1380 packages loaded
-Loading: 1417 packages loaded
-Loading: 1459 packages loaded
-Loading: 1497 packages loaded
-    currently loading: @npm__estraverse__4.3.0//
-Loading: 1548 packages loaded
-Loading: 1579 packages loaded
-Loading: 1644 packages loaded
-Loading: 1675 packages loaded
-Loading: 1700 packages loaded
-Loading: 1743 packages loaded
-Loading: 1775 packages loaded
-Loading: 1808 packages loaded
-    currently loading: @npm__is-fullwidth-code-point__4.0.0//
+Loading: 0 packages loaded
+INFO: Repository rules_browsers_firefox_mac_arm instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/angular__components/WORKSPACE:254:23: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/setup/step_1.bzl:17:32: in rules_browsers_setup_1
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/repositories.bzl:12:32: in rules_browsers_repositories
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/firefox/firefox.bzl:31:15: in define_firefox_repositories
+Repository rule browser_repo defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl:81:31: in <toplevel>
+ERROR: An error occurred during the fetch of repository 'rules_browsers_firefox_mac_arm':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl", line 13, column 21, in _browser_repo_impl
+		ctx.download(urls, download_file_name, sha256)
+Error in download: java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac_arm/_download_file_rules_browsers_firefox_mac_arm.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/angular__components/WORKSPACE:254:23: fetching browser_repo rule //external:rules_browsers_firefox_mac_arm: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/private/browser_repo.bzl", line 13, column 21, in _browser_repo_impl
+		ctx.download(urls, download_file_name, sha256)
+Error in download: java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac_arm/_download_file_rules_browsers_firefox_mac_arm.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/firefox/BUILD.bazel:6:14: no such package '@rules_browsers_firefox_mac//': java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac/_download_file_rules_browsers_firefox_mac.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6 and referenced by '@rules_browsers//src/browsers/firefox:firefox'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/firefox/BUILD.bazel:6:14: no such package '@rules_browsers_firefox_mac_arm//': java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac_arm/_download_file_rules_browsers_firefox_mac_arm.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6 and referenced by '@rules_browsers//src/browsers/firefox:firefox'
-Loading: 1844 packages loaded
-    currently loading: @npm__is-fullwidth-code-point__4.0.0// ... (2 packages)
-Loading: 1873 packages loaded
-    currently loading: @npm__is-fullwidth-code-point__4.0.0// ... (2 packages)
-Loading: 1902 packages loaded
-    currently loading: @npm__is-fullwidth-code-point__4.0.0// ... (2 packages)
-Loading: 1951 packages loaded
-Loading: 1978 packages loaded
-Loading: 2021 packages loaded
-Loading: 2073 packages loaded
-Loading: 2126 packages loaded
-Loading: 2168 packages loaded
-Loading: 2207 packages loaded
-Loading: 2232 packages loaded
-Loading: 2273 packages loaded
-Loading: 2305 packages loaded
-Loading: 2350 packages loaded
-Loading: 2389 packages loaded
-Loading: 2429 packages loaded
-Loading: 2465 packages loaded
-Loading: 2522 packages loaded
-Loading: 2564 packages loaded
-Loading: 2604 packages loaded
-Loading: 2633 packages loaded
-Loading: 2661 packages loaded
-Loading: 2724 packages loaded
-    currently loading: @npm__wsl-utils__0.1.0//
-Loading: 2765 packages loaded
-Loading: 2796 packages loaded
-Loading: 2825 packages loaded
-Loading: 2853 packages loaded
-Loading: 2911 packages loaded
-Loading: 2963 packages loaded
-Loading: 3001 packages loaded
-Loading: 3030 packages loaded
-Loading: 3059 packages loaded
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/firefox/BUILD.bazel:6:14: no such package '@rules_browsers_firefox_mac_arm//': java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac_arm/_download_file_rules_browsers_firefox_mac_arm.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6 and referenced by '@rules_browsers//src/browsers/firefox:firefox'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/firefox/BUILD.bazel:6:14: no such package '@rules_browsers_firefox_mac//': java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac/_download_file_rules_browsers_firefox_mac.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6 and referenced by '@rules_browsers//src/browsers/firefox:firefox'
-Loading: 3154 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers/src/browsers/firefox/BUILD.bazel:6:14: no such package '@rules_browsers_firefox_mac_arm//': java.io.IOException: Error downloading [https://archive.mozilla.org/pub/firefox/releases/135.0/mac/en-US/Firefox%20135.0.dmg] to /data/h445xu/.cache/bazel/_bazel_hongxu/e5a760faa40717d855f45a5e8b469748/external/rules_browsers_firefox_mac_arm/_download_file_rules_browsers_firefox_mac_arm.dmg: Checksum was e55e24e6b2a4980f4b9091900835977b282f599dcdd5e38b753d95bad8a11da9 but wanted 77f1098dcff6410aca644d729171329c74b1b2d7e525e3873bb9d21eaf8865c6 and referenced by '@rules_browsers//src/browsers/firefox:firefox'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -663,8 +533,4 @@ Read 488000 lines from bazel query output...
 Read 489000 lines from bazel query output...
 Read 490000 lines from bazel query output...
 Read 491000 lines from bazel query output...
-Loading: 3154 packages loaded
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Loading: 0 packages loaded

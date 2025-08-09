@@ -1,49 +1,44 @@
 Starting local Bazel server (8.3.1) and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
- no actions running
- no actions running
  no actions running
 Loading: 0 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/LandRover__StaffjoyV2/tools/build_rules/go.bzl:114:33: name 'cmd_helper' is not defined
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/LandRover__StaffjoyV2/tools/build_rules/go.bzl:329:7: name 'cmd_helper' is not defined
-ERROR: error loading package 'environments': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'middlewares': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'healthcheck': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'www': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'docker': Unable to find package for @@[unknown repo 'io_bazel_rules_docker' requested from @@]//container:container.bzl: The repository '@@[unknown repo 'io_bazel_rules_docker' requested from @@]' could not be resolved: No repository visible as '@io_bazel_rules_docker' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
-ERROR: error loading package 'myaccount': Unable to find package for @@[unknown repo 'io_bazel_rules_docker' requested from @@]//container:container.bzl: The repository '@@[unknown repo 'io_bazel_rules_docker' requested from @@]' could not be resolved: No repository visible as '@io_bazel_rules_docker' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
-ERROR: error loading package 'envserver': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'apidocs': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'company/server': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'bot/server': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'account/server': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'helpers': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'suite': compilation of module 'tools/build_rules/go.bzl' failed
 ERROR: error loading package 'app': Unable to find package for @@[unknown repo 'io_bazel_rules_docker' requested from @@]//container:container.bzl: The repository '@@[unknown repo 'io_bazel_rules_docker' requested from @@]' could not be resolved: No repository visible as '@io_bazel_rules_docker' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
-ERROR: error loading package 'ical': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'superpowers': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'company/api': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'account/api': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'errorpages': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'account': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'sms/server': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'auth': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'suite': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'environments': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'www': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'healthcheck': compilation of module 'tools/build_rules/go.bzl' failed
 ERROR: error loading package 'auditlog': compilation of module 'tools/build_rules/go.bzl' failed
 ERROR: error loading package 'tools/go': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'email/server': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'whoami': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'faraday/services': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'errorpages': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'helpers': compilation of module 'tools/build_rules/go.bzl' failed
 ERROR: error loading package 'crypto': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'faraday': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'email': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'sms': compilation of module 'tools/build_rules/go.bzl' failed
-ERROR: error loading package 'company': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'faraday/services': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'auth': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'apidocs': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'ical': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'bot/server': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'middlewares': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'myaccount': Unable to find package for @@[unknown repo 'io_bazel_rules_docker' requested from @@]//container:container.bzl: The repository '@@[unknown repo 'io_bazel_rules_docker' requested from @@]' could not be resolved: No repository visible as '@io_bazel_rules_docker' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
+ERROR: error loading package 'docker': Unable to find package for @@[unknown repo 'io_bazel_rules_docker' requested from @@]//container:container.bzl: The repository '@@[unknown repo 'io_bazel_rules_docker' requested from @@]' could not be resolved: No repository visible as '@io_bazel_rules_docker' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
 ERROR: error loading package 'bot': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'faraday': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'envserver': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'company/api': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'sms/server': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'whoami': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'company/server': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'superpowers': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'account/api': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'account/server': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'email/server': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'account': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'company': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'sms': compilation of module 'tools/build_rules/go.bzl' failed
+ERROR: error loading package 'email': compilation of module 'tools/build_rules/go.bzl' failed
 ERROR: error loading package '': compilation of module 'tools/build_rules/go.bzl' failed
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 INFO: Empty results
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Failed to parse bazel query xml.
+<?xml version="1.1" encoding="UTF-8" standalone="no"?><query version="2"/>

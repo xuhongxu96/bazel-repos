@@ -1,33 +1,20 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/openxla/xla/archive/9e05244b329b56ced2bec02e3d86a6315b46faf6.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
- checking cached actions
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/b0ad9d267df03c42ad4540f6f7d22e8f/external/xla/third_party/repo.bzl:132:14: 
 Warning: skipping import of repository 'llvm-raw' because it already exists.
-ERROR: Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b0ad9d267df03c42ad4540f6f7d22e8f/external/tsl/third_party/py/python_configure.bzl", line 285, column 42, in <toplevel>
-		remote_python_configure = repository_rule(
-Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b0ad9d267df03c42ad4540f6f7d22e8f/external/tsl/tools/toolchains/cpus/aarch64/aarch64.bzl", line 312, column 43, in <toplevel>
 		remote_aarch64_configure = repository_rule(
 Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
 ERROR: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b0ad9d267df03c42ad4540f6f7d22e8f/external/tsl/third_party/py/python_configure.bzl", line 285, column 42, in <toplevel>
+		remote_python_configure = repository_rule(
+Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
+ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b0ad9d267df03c42ad4540f6f7d22e8f/external/tsl/third_party/gpus/cuda_configure.bzl", line 1530, column 40, in <toplevel>
 		remote_cuda_configure = repository_rule(
 Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 ERROR: Error computing the main repository mapping: at /data/h445xu/.cache/bazel/_bazel_hongxu/b0ad9d267df03c42ad4540f6f7d22e8f/external/xla/workspace2.bzl:7:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/b0ad9d267df03c42ad4540f6f7d22e8f/external/tsl/workspace2.bzl:20:6: initialization of module 'third_party/gpus/cuda_configure.bzl' failed
  checking cached actions
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

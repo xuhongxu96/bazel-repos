@@ -1,167 +1,247 @@
 WARNING: The following rc files are no longer being read, please transfer their contents or import their path into one of the standard rc files:
 /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/tools/bazel.rc
 Starting local Bazel server (8.3.1) and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
  no actions running
- no actions running
- no actions running
-Loading: 0 packages loaded
 Loading: 0 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/fun_mc/fun_mc/BUILD:217:1: name 'pytype_strict_contrib_test' is not defined
-ERROR: package contains errors: spinoffs/fun_mc/fun_mc
 ERROR: error loading package 'discussion/pathfinder': Label '//third_party/py/pytest:pytest_defs.bzl' is invalid because 'third_party/py/pytest' is not a package; perhaps you meant to put the colon here: '//:third_party/py/pytest/pytest_defs.bzl'?
+ERROR: package contains errors: spinoffs/fun_mc/fun_mc
 ERROR: package contains errors: spinoffs/fun_mc/fun_mc: name 'pytype_strict_contrib_test' is not defined
-Loading: 85 packages loaded
-    currently loading: discussion/pathfinder
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/fun_mc/fun_mc/backends/BUILD:45:8: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - fun_mc and referenced by '//spinoffs/fun_mc/fun_mc/backends:jax_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:315:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:model'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/stan/BUILD:137:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/tools/stan:targets'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:109:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:70:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_tensorflow'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:70:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_tensorflow'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:315:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:model'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/fun_mc/fun_mc/backends/BUILD:34:8: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - fun_mc and referenced by '//spinoffs/fun_mc/fun_mc/backends:tensorflow_integration_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:45:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:jax_integration_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:62:11: no such package 'inference_gym/internal/datasets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal/datasets and referenced by '//spinoffs/inference_gym/inference_gym/internal:data'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/stan/BUILD:137:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/tools/stan:targets'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:57:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_jax'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:57:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_jax'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:45:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_numpy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:62:11: no such package 'inference_gym/internal/datasets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal/datasets and referenced by '//spinoffs/inference_gym/inference_gym/internal:data'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:45:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_numpy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:109:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:57:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_jax'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:159:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:eight_schools'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:85:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:bayesian_model'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:204:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:item_response_theory'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:231:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:381:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:plasma_spectroscopy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:231:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:286:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:463:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:463:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:108:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:108:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:259:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:406:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:406:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:259:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:286:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/fun_mc/fun_mc/backends/BUILD:34:8: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - fun_mc and referenced by '//spinoffs/fun_mc/fun_mc/backends:tensorflow_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:121:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:192:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:ill_conditioned_gaussian_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:65:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:tensorflow_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:45:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:jax_integration_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:129:8: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:55:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:numpy_integration_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:65:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:tensorflow_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/fun_mc/fun_mc/backends/BUILD:45:8: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - fun_mc and referenced by '//spinoffs/fun_mc/fun_mc/backends:jax_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:503:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/BUILD:30:10: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/tools:get_ground_truth'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/BUILD:30:10: no such package 'inference_gym/tools/stan': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/tools/stan and referenced by '//spinoffs/inference_gym/inference_gym/tools:get_ground_truth'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:475:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:369:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:non_identifiable_quartic_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:556:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:347:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:neals_funnel_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:271:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:244:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:300:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:393:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:plasma_spectroscopy_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:418:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:448:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:216:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:item_response_theory_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:73:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:banana_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:170:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:eight_schools_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/discussion/adaptive_malt/BUILD:28:11: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - fun_mc and referenced by '//discussion/adaptive_malt:adaptive_malt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:146:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:dirichlet_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/BUILD:30:10: no such package 'inference_gym/tools/stan': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/tools/stan and referenced by '//spinoffs/inference_gym/inference_gym/tools:get_ground_truth'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/tensorflow_probability/tools/BUILD:21:10: every rule of type py_binary implicitly depends upon the target '//tensorflow_probability:license', but this target could not be found because of: no such target '//tensorflow_probability:license': target 'license' not declared in package 'tensorflow_probability' defined by /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/tensorflow_probability/BUILD (did you mean LICENSE?)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:73:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:banana_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:347:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:neals_funnel_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:192:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:ill_conditioned_gaussian_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:159:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:eight_schools'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:170:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:eight_schools_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:85:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:bayesian_model'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/discussion/adaptive_malt/BUILD:28:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym and referenced by '//discussion/adaptive_malt:adaptive_malt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:108:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:108:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:121:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:259:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:259:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:381:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:plasma_spectroscopy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:406:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/discussion/adaptive_malt/BUILD:45:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//discussion/adaptive_malt:adaptive_malt_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:463:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:448:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:406:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:418:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:393:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:plasma_spectroscopy_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:271:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:369:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:non_identifiable_quartic_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:286:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:286:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:300:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:231:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:204:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:item_response_theory'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:216:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:item_response_theory_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:556:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:231:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:463:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:244:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:34:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym/targets:targets'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:146:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:dirichlet_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:527:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vector_model_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:324:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:model_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:95:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:bayesian_model_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:503:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:475:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/discussion/adaptive_malt/BUILD:45:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//discussion/adaptive_malt:adaptive_malt_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/discussion/adaptive_malt/BUILD:28:11: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - fun_mc and referenced by '//discussion/adaptive_malt:adaptive_malt'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/discussion/adaptive_malt/BUILD:45:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym and referenced by '//discussion/adaptive_malt:adaptive_malt_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/discussion/adaptive_malt/BUILD:28:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym and referenced by '//discussion/adaptive_malt:adaptive_malt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/fun_mc/fun_mc/backends/BUILD:34:8: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - fun_mc and referenced by '//spinoffs/fun_mc/fun_mc/backends:tensorflow_integration_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:62:11: no such package 'inference_gym/internal/datasets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal/datasets and referenced by '//spinoffs/inference_gym/inference_gym/internal:data'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/fun_mc/fun_mc/backends/BUILD:45:8: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - fun_mc and referenced by '//spinoffs/fun_mc/fun_mc/backends:jax_integration_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:55:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:numpy_integration_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:85:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:bayesian_model'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:109:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:286:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:109:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:62:11: no such package 'inference_gym/internal/datasets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal/datasets and referenced by '//spinoffs/inference_gym/inference_gym/internal:data'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:65:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:tensorflow_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:418:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:55:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:numpy_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:45:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:jax_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/fun_mc/fun_mc/backends/BUILD:34:8: no such package 'fun_mc': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - fun_mc and referenced by '//spinoffs/fun_mc/fun_mc/backends:tensorflow_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:70:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_tensorflow'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:70:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_tensorflow'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:45:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_numpy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:45:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_numpy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:57:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_jax'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:57:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_jax'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/stan/BUILD:137:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/tools/stan:targets'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/BUILD:30:10: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/tools:get_ground_truth'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/BUILD:30:10: no such package 'inference_gym/tools/stan': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/tools/stan and referenced by '//spinoffs/inference_gym/inference_gym/tools:get_ground_truth'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:556:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:527:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vector_model_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:503:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:475:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:503:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:448:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:393:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:plasma_spectroscopy_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:369:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:non_identifiable_quartic_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:347:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:neals_funnel_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:324:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:model_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:300:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:244:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:271:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:216:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:item_response_theory_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:192:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:ill_conditioned_gaussian_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:170:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:eight_schools_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:146:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:dirichlet_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:121:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:95:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:bayesian_model_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:34:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym/targets:targets'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:463:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:463:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -174,130 +254,42 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinof
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:381:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:plasma_spectroscopy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:45:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:jax_integration_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:286:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:286:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:146:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:dirichlet_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:170:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:eight_schools_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:192:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:ill_conditioned_gaussian_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:216:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:item_response_theory_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:244:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:286:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:259:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:259:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:300:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:lorenz_system_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:324:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:model_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:347:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:neals_funnel_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:369:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:non_identifiable_quartic_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:121:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:95:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:bayesian_model_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:109:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:34:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym/targets:targets'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:57:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_jax'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:541:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:109:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:490:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:463:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:463:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:433:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:231:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:231:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:231:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:log_gaussian_cox_process'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:204:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:item_response_theory'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:159:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:eight_schools'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:108:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/backends/BUILD:65:8: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/backends:tensorflow_integration_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:108:11: no such package 'inference_gym/targets/ground_truth': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets/ground_truth and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/BUILD:30:10: no such package 'inference_gym/tools/stan': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/tools/stan and referenced by '//spinoffs/inference_gym/inference_gym/tools:get_ground_truth'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:556:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vectorized_stochastic_volatility_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:475:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:sparse_logistic_regression_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:503:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:315:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:model'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:70:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_tensorflow'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:70:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_tensorflow'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:45:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_numpy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:57:11: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym:using_jax'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:108:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:brownian_motion'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/BUILD:45:11: no such package 'inference_gym/backends': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/backends and referenced by '//spinoffs/inference_gym/inference_gym:using_numpy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:527:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:vector_model_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:85:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:bayesian_model'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:73:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:banana_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/BUILD:30:10: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/tools:get_ground_truth'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:393:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:plasma_spectroscopy_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:315:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:model'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:129:8: no such package 'inference_gym/targets': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inference_gym/targets and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:448:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:radon_contextual_effects_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/tools/stan/BUILD:137:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/tools/stan:targets'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:503:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:stochastic_volatility_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:271:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:418:8: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:probit_regression_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/targets/BUILD:259:11: no such package 'inference_gym/internal': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inference_gym/internal and referenced by '//spinoffs/inference_gym/inference_gym/targets:logistic_regression'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__probability/spinoffs/inference_gym/inference_gym/internal/BUILD:109:11: no such package 'inference_gym': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inference_gym and referenced by '//spinoffs/inference_gym/inference_gym/internal:test_util'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 115 packages loaded
-    currently loading: discussion/pathfinder
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -427,6 +419,8 @@ Read 125000 lines from bazel query output...
 Read 126000 lines from bazel query output...
 Read 127000 lines from bazel query output...
 Read 128000 lines from bazel query output...
+Loading: 115 packages loaded
+    currently loading: discussion/pathfinder
 Read 129000 lines from bazel query output...
 Read 130000 lines from bazel query output...
 Read 131000 lines from bazel query output...

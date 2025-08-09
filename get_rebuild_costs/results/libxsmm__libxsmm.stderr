@@ -1,9 +1,5 @@
 Starting local Bazel server (8.3.1) and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
  no actions running
- no actions running
- no actions running
-Loading: 0 packages loaded
 Loading: 0 packages loaded
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/libxsmm__libxsmm/BUILD", line 12, column 16, in <toplevel>
@@ -18,5 +14,4 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/libxsmm__libxsmm/samples/hello
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/libxsmm__libxsmm/samples/hello/BUILD:1:10: no such package '@@[unknown repo 'xsmm' requested from @@]//': The repository '@@[unknown repo 'xsmm' requested from @@]' could not be resolved: No repository visible as '@xsmm' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//samples/hello:hello'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 7 packages loaded
 Read 0 lines from bazel query output...

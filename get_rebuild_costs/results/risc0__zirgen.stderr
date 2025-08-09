@@ -1,577 +1,28 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-DEBUG: Rule 'hedron_compile_commands' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "658122cfb1f25be76ea212b00f5eb047d8e2adc8bcf923b918461f2b1e37cdf2"
-DEBUG: Repository hedron_compile_commands instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/risc0__zirgen/WORKSPACE:125:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
- checking cached actions
 Loading: 0 packages loaded
 Loading: 70 packages loaded
-    currently loading: zirgen/Dialect/BigInt/Transforms ... (18 packages)
-Loading: 117 packages loaded
+    currently loading: zirgen/dsl/passes ... (18 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
-Loading: 122 packages loaded
-PREFIX=/data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/conda/conda
-Unpacking payload ...
-Extracting "python_abi-3.9-2_cp39.tar.bz2"
-Extracting "setuptools-58.2.0-py39hf3d152e_0.tar.bz2"
-Loading: 122 packages loaded
-Extracting "pyopenssl-21.0.0-pyhd8ed1ab_0.tar.bz2"
-Extracting "certifi-2021.10.8-py39hf3d152e_0.tar.bz2"
-Extracting "charset-normalizer-2.0.0-pyhd8ed1ab_0.tar.bz2"
-Extracting "urllib3-1.26.7-pyhd8ed1ab_0.tar.bz2"
-Extracting "tzdata-2021c-he74cb21_0.tar.bz2"
-Extracting "cryptography-3.4.8-py39hbca0aa6_0.tar.bz2"
-Extracting "wheel-0.37.0-pyhd8ed1ab_1.tar.bz2"
-Extracting "pysocks-1.7.1-py39hf3d152e_3.tar.bz2"
-Extracting "tqdm-4.62.3-pyhd8ed1ab_0.tar.bz2"
-Extracting "_openmp_mutex-4.5-1_gnu.tar.bz2"
-Extracting "readline-8.1-h46c0cb4_0.tar.bz2"
-Extracting "brotlipy-0.7.0-py39h3811e60_1001.tar.bz2"
-Extracting "six-1.16.0-pyh6c4a22f_0.tar.bz2"
-Extracting "yaml-0.2.5-h516909a_0.tar.bz2"
-Extracting "ruamel_yaml-0.15.80-py39h3811e60_1004.tar.bz2"
-Extracting "ca-certificates-2021.10.8-ha878542_0.tar.bz2"
-Extracting "pycosat-0.6.3-py39h3811e60_1006.tar.bz2"
-Extracting "python-3.9.7-hb7a2778_3_cpython.tar.bz2"
-Extracting "xz-5.2.5-h516909a_1.tar.bz2"
-Extracting "pip-21.3-pyhd8ed1ab_0.tar.bz2"
-Extracting "requests-2.26.0-pyhd8ed1ab_0.tar.bz2"
-Extracting "cffi-1.14.6-py39h4bc2ebd_1.tar.bz2"
-Extracting "colorama-0.4.4-pyh9f0ad1d_0.tar.bz2"
-Extracting "libstdcxx-ng-11.2.0-he4da1e4_11.tar.bz2"
-Extracting "libgcc-ng-11.2.0-h1d223b6_11.tar.bz2"
-Extracting "sqlite-3.36.0-h9cd32fc_2.tar.bz2"
-Extracting "openssl-1.1.1l-h7f98852_0.tar.bz2"
-Extracting "tk-8.6.11-h27826a3_1.tar.bz2"
-Extracting "conda-4.10.3-py39hf3d152e_2.tar.bz2"
-Extracting "idna-3.1-pyhd3deb0d_0.tar.bz2"
-Extracting "zlib-1.2.11-h36c2ea0_1013.tar.bz2"
-Extracting "libgomp-11.2.0-h1d223b6_11.tar.bz2"
-Extracting "libzlib-1.2.11-h36c2ea0_1013.tar.bz2"
-Extracting "_libgcc_mutex-0.1-conda_forge.tar.bz2"
-Extracting "chardet-4.0.0-py39hf3d152e_1.tar.bz2"
-Extracting "conda-package-handling-1.7.3-py39h3811e60_0.tar.bz2"
-Extracting "libffi-3.4.2-h9c3ff4c_4.tar.bz2"
-Extracting "ncurses-6.2-h58526e2_4.tar.bz2"
-Extracting "ld_impl_linux-64-2.36.1-hea4e1c9_2.tar.bz2"
-Extracting "pycparser-2.20-pyh9f0ad1d_2.tar.bz2"
-
-                                           __
-          __  ______ ___  ____ _____ ___  / /_  ____ _
-         / / / / __ `__ \/ __ `/ __ `__ \/ __ \/ __ `/
-        / /_/ / / / / / / /_/ / / / / / / /_/ / /_/ /
-       / .___/_/ /_/ /_/\__,_/_/ /_/ /_/_.___/\__,_/
-      /_/
-
-
-Transaction
-
-  Prefix: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/conda/conda
-
-  Updating specs:
-
-   - python==3.9.7=hb7a2778_3_cpython
-   - _libgcc_mutex==0.1=conda_forge
-   - ca-certificates==2021.10.8=ha878542_0
-   - ld_impl_linux-64==2.36.1=hea4e1c9_2
-   - libstdcxx-ng==11.2.0=he4da1e4_11
-   - tzdata==2021c=he74cb21_0
-   - libgomp==11.2.0=h1d223b6_11
-   - _openmp_mutex==4.5=1_gnu
-   - libgcc-ng==11.2.0=h1d223b6_11
-   - libffi==3.4.2=h9c3ff4c_4
-   - libzlib==1.2.11=h36c2ea0_1013
-   - ncurses==6.2=h58526e2_4
-   - openssl==1.1.1l=h7f98852_0
-   - xz==5.2.5=h516909a_1
-   - yaml==0.2.5=h516909a_0
-   - readline==8.1=h46c0cb4_0
-   - zlib==1.2.11=h36c2ea0_1013
-   - sqlite==3.36.0=h9cd32fc_2
-   - tk==8.6.11=h27826a3_1
-   - charset-normalizer==2.0.0=pyhd8ed1ab_0
-   - colorama==0.4.4=pyh9f0ad1d_0
-   - idna==3.1=pyhd3deb0d_0
-   - pycparser==2.20=pyh9f0ad1d_2
-   - python_abi==3.9=2_cp39
-   - six==1.16.0=pyh6c4a22f_0
-   - wheel==0.37.0=pyhd8ed1ab_1
-   - certifi==2021.10.8=py39hf3d152e_0
-   - cffi==1.14.6=py39h4bc2ebd_1
-   - chardet==4.0.0=py39hf3d152e_1
-   - pycosat==0.6.3=py39h3811e60_1006
-   - pysocks==1.7.1=py39hf3d152e_3
-   - ruamel_yaml==0.15.80=py39h3811e60_1004
-   - setuptools==58.2.0=py39hf3d152e_0
-   - tqdm==4.62.3=pyhd8ed1ab_0
-   - brotlipy==0.7.0=py39h3811e60_1001
-   - conda-package-handling==1.7.3=py39h3811e60_0
-   - cryptography==3.4.8=py39hbca0aa6_0
-   - pip==21.3=pyhd8ed1ab_0
-   - pyopenssl==21.0.0=pyhd8ed1ab_0
-   - urllib3==1.26.7=pyhd8ed1ab_0
-   - requests==2.26.0=pyhd8ed1ab_0
-   - conda==4.10.3=py39hf3d152e_2
-
-
-  Package                     Version  Build               Channel                                                                        Size
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-  + _libgcc_mutex                 0.1  conda_forge         conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2                   Cached
-  + _openmp_mutex                 4.5  1_gnu               conda-forge/linux-64/_openmp_mutex-4.5-1_gnu.tar.bz2                         Cached
-  + brotlipy                    0.7.0  py39h3811e60_1001   conda-forge/linux-64/brotlipy-0.7.0-py39h3811e60_1001.tar.bz2                Cached
-  + ca-certificates         2021.10.8  ha878542_0          conda-forge/linux-64/ca-certificates-2021.10.8-ha878542_0.tar.bz2            Cached
-  + certifi                 2021.10.8  py39hf3d152e_0      conda-forge/linux-64/certifi-2021.10.8-py39hf3d152e_0.tar.bz2                Cached
-  + cffi                       1.14.6  py39h4bc2ebd_1      conda-forge/linux-64/cffi-1.14.6-py39h4bc2ebd_1.tar.bz2                      Cached
-  + chardet                     4.0.0  py39hf3d152e_1      conda-forge/linux-64/chardet-4.0.0-py39hf3d152e_1.tar.bz2                    Cached
-  + charset-normalizer          2.0.0  pyhd8ed1ab_0        conda-forge/noarch/charset-normalizer-2.0.0-pyhd8ed1ab_0.tar.bz2             Cached
-  + colorama                    0.4.4  pyh9f0ad1d_0        conda-forge/noarch/colorama-0.4.4-pyh9f0ad1d_0.tar.bz2                       Cached
-  + conda                      4.10.3  py39hf3d152e_2      conda-forge/linux-64/conda-4.10.3-py39hf3d152e_2.tar.bz2                     Cached
-  + conda-package-handling      1.7.3  py39h3811e60_0      conda-forge/linux-64/conda-package-handling-1.7.3-py39h3811e60_0.tar.bz2     Cached
-  + cryptography                3.4.8  py39hbca0aa6_0      conda-forge/linux-64/cryptography-3.4.8-py39hbca0aa6_0.tar.bz2               Cached
-  + idna                          3.1  pyhd3deb0d_0        conda-forge/noarch/idna-3.1-pyhd3deb0d_0.tar.bz2                             Cached
-  + ld_impl_linux-64           2.36.1  hea4e1c9_2          conda-forge/linux-64/ld_impl_linux-64-2.36.1-hea4e1c9_2.tar.bz2              Cached
-  + libffi                      3.4.2  h9c3ff4c_4          conda-forge/linux-64/libffi-3.4.2-h9c3ff4c_4.tar.bz2                         Cached
-  + libgcc-ng                  11.2.0  h1d223b6_11         conda-forge/linux-64/libgcc-ng-11.2.0-h1d223b6_11.tar.bz2                    Cached
-  + libgomp                    11.2.0  h1d223b6_11         conda-forge/linux-64/libgomp-11.2.0-h1d223b6_11.tar.bz2                      Cached
-  + libstdcxx-ng               11.2.0  he4da1e4_11         conda-forge/linux-64/libstdcxx-ng-11.2.0-he4da1e4_11.tar.bz2                 Cached
-  + libzlib                    1.2.11  h36c2ea0_1013       conda-forge/linux-64/libzlib-1.2.11-h36c2ea0_1013.tar.bz2                    Cached
-  + ncurses                       6.2  h58526e2_4          conda-forge/linux-64/ncurses-6.2-h58526e2_4.tar.bz2                          Cached
-  + openssl                    1.1.1l  h7f98852_0          conda-forge/linux-64/openssl-1.1.1l-h7f98852_0.tar.bz2                       Cached
-  + pip                          21.3  pyhd8ed1ab_0        conda-forge/noarch/pip-21.3-pyhd8ed1ab_0.tar.bz2                             Cached
-  + pycosat                     0.6.3  py39h3811e60_1006   conda-forge/linux-64/pycosat-0.6.3-py39h3811e60_1006.tar.bz2                 Cached
-  + pycparser                    2.20  pyh9f0ad1d_2        conda-forge/noarch/pycparser-2.20-pyh9f0ad1d_2.tar.bz2                       Cached
-  + pyopenssl                  21.0.0  pyhd8ed1ab_0        conda-forge/noarch/pyopenssl-21.0.0-pyhd8ed1ab_0.tar.bz2                     Cached
-  + pysocks                     1.7.1  py39hf3d152e_3      conda-forge/linux-64/pysocks-1.7.1-py39hf3d152e_3.tar.bz2                    Cached
-  + python                      3.9.7  hb7a2778_3_cpython  conda-forge/linux-64/python-3.9.7-hb7a2778_3_cpython.tar.bz2                 Cached
-  + python_abi                    3.9  2_cp39              conda-forge/linux-64/python_abi-3.9-2_cp39.tar.bz2                           Cached
-  + readline                      8.1  h46c0cb4_0          conda-forge/linux-64/readline-8.1-h46c0cb4_0.tar.bz2                         Cached
-  + requests                   2.26.0  pyhd8ed1ab_0        conda-forge/noarch/requests-2.26.0-pyhd8ed1ab_0.tar.bz2                      Cached
-  + ruamel_yaml               0.15.80  py39h3811e60_1004   conda-forge/linux-64/ruamel_yaml-0.15.80-py39h3811e60_1004.tar.bz2           Cached
-  + setuptools                 58.2.0  py39hf3d152e_0      conda-forge/linux-64/setuptools-58.2.0-py39hf3d152e_0.tar.bz2                Cached
-  + six                        1.16.0  pyh6c4a22f_0        conda-forge/noarch/six-1.16.0-pyh6c4a22f_0.tar.bz2                           Cached
-  + sqlite                     3.36.0  h9cd32fc_2          conda-forge/linux-64/sqlite-3.36.0-h9cd32fc_2.tar.bz2                        Cached
-  + tk                         8.6.11  h27826a3_1          conda-forge/linux-64/tk-8.6.11-h27826a3_1.tar.bz2                            Cached
-  + tqdm                       4.62.3  pyhd8ed1ab_0        conda-forge/noarch/tqdm-4.62.3-pyhd8ed1ab_0.tar.bz2                          Cached
-  + tzdata                      2021c  he74cb21_0          conda-forge/noarch/tzdata-2021c-he74cb21_0.tar.bz2                           Cached
-  + urllib3                    1.26.7  pyhd8ed1ab_0        conda-forge/noarch/urllib3-1.26.7-pyhd8ed1ab_0.tar.bz2                       Cached
-  + wheel                      0.37.0  pyhd8ed1ab_1        conda-forge/noarch/wheel-0.37.0-pyhd8ed1ab_1.tar.bz2                         Cached
-  + xz                          5.2.5  h516909a_1          conda-forge/linux-64/xz-5.2.5-h516909a_1.tar.bz2                             Cached
-  + yaml                        0.2.5  h516909a_0          conda-forge/linux-64/yaml-0.2.5-h516909a_0.tar.bz2                           Cached
-  + zlib                       1.2.11  h36c2ea0_1013       conda-forge/linux-64/zlib-1.2.11-h36c2ea0_1013.tar.bz2                       Cached
-
-  Summary:
-
-  Install: 42 packages
-
-  Total download: 0  B
-
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-
-
-Transaction starting
-Linking _libgcc_mutex-0.1-conda_forge
-Linking ca-certificates-2021.10.8-ha878542_0
-Linking ld_impl_linux-64-2.36.1-hea4e1c9_2
-Linking libstdcxx-ng-11.2.0-he4da1e4_11
-Linking tzdata-2021c-he74cb21_0
-Linking libgomp-11.2.0-h1d223b6_11
-Linking _openmp_mutex-4.5-1_gnu
-Linking libgcc-ng-11.2.0-h1d223b6_11
-Linking yaml-0.2.5-h516909a_0
-Linking xz-5.2.5-h516909a_1
-Linking openssl-1.1.1l-h7f98852_0
-Linking ncurses-6.2-h58526e2_4
-Linking libzlib-1.2.11-h36c2ea0_1013
-Linking libffi-3.4.2-h9c3ff4c_4
-Linking readline-8.1-h46c0cb4_0
-Linking zlib-1.2.11-h36c2ea0_1013
-Linking tk-8.6.11-h27826a3_1
-Linking sqlite-3.36.0-h9cd32fc_2
-Linking python-3.9.7-hb7a2778_3_cpython
-Linking wheel-0.37.0-pyhd8ed1ab_1
-Linking python_abi-3.9-2_cp39
-Linking setuptools-58.2.0-py39hf3d152e_0
-Linking pip-21.3-pyhd8ed1ab_0
-Linking ruamel_yaml-0.15.80-py39h3811e60_1004
-Linking pysocks-1.7.1-py39hf3d152e_3
-Linking pycosat-0.6.3-py39h3811e60_1006
-Linking chardet-4.0.0-py39hf3d152e_1
-Linking certifi-2021.10.8-py39hf3d152e_0
-Linking six-1.16.0-pyh6c4a22f_0
-Linking pycparser-2.20-pyh9f0ad1d_2
-Linking idna-3.1-pyhd3deb0d_0
-Linking colorama-0.4.4-pyh9f0ad1d_0
-Linking charset-normalizer-2.0.0-pyhd8ed1ab_0
-Linking cffi-1.14.6-py39h4bc2ebd_1
-Linking tqdm-4.62.3-pyhd8ed1ab_0
-Linking cryptography-3.4.8-py39hbca0aa6_0
-Linking brotlipy-0.7.0-py39h3811e60_1001
-Linking conda-package-handling-1.7.3-py39h3811e60_0
-Linking pyopenssl-21.0.0-pyhd8ed1ab_0
-Linking urllib3-1.26.7-pyhd8ed1ab_0
-Linking requests-2.26.0-pyhd8ed1ab_0
-Linking conda-4.10.3-py39hf3d152e_2
-Transaction finished
-installation finished.
-Collecting package metadata (current_repodata.json): ...working... done
-Solving environment: ...working... done
-
-
-==> WARNING: A newer version of conda exists. <==
-  current version: 4.10.3
-  latest version: 25.7.0
-
-Please update conda by running
-
-    $ conda update -n base conda
-
-
-
-## Package Plan ##
-
-  environment location: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/conda/conda
-
-  added / updated specs:
-    - conda=4.10.3
-
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    ca-certificates-2025.8.3   |       hbd8a1cb_0         151 KB  conda-forge
-    certifi-2025.8.3           |     pyhd8ed1ab_0         155 KB  conda-forge
-    ------------------------------------------------------------
-                                           Total:         306 KB
-
-The following packages will be UPDATED:
-
-  ca-certificates    conda-forge/linux-64::ca-certificates~ --> conda-forge/noarch::ca-certificates-2025.8.3-hbd8a1cb_0
-  certifi            conda-forge/linux-64::certifi-2021.10~ --> conda-forge/noarch::certifi-2025.8.3-pyhd8ed1ab_0
-
-
-
-Downloading and Extracting Packages
-ca-certificates-2025 | 151 KB    |            |   0% ca-certificates-2025 | 151 KB    | ####2      |  42% ca-certificates-2025 | 151 KB    | ########## | 100% ca-certificates-2025 | 151 KB    | ########## | 100% 
-certifi-2025.8.3     | 155 KB    |            |   0% certifi-2025.8.3     | 155 KB    | ########## | 100% certifi-2025.8.3     | 155 KB    | ########## | 100% 
-Preparing transaction: ...working... done
-Verifying transaction: ...working... done
-Executing transaction: ...working... done
-Loading: 122 packages loaded
-Collecting package metadata (current_repodata.json): ...working... done
-Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
-Collecting package metadata (repodata.json): ...working... done
-Solving environment: ...working... done
-
-## Package Plan ##
-
-  environment location: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/conda/conda
-
-  added / updated specs:
-    - mamba=0.17.0
-
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    bzip2-1.0.8                |       h7f98852_4         484 KB  conda-forge
-    c-ares-1.18.1              |       h7f98852_0         113 KB  conda-forge
-    conda-4.12.0               |   py39hf3d152e_0        1014 KB  conda-forge
-    icu-70.1                   |       h27087fc_0        13.5 MB  conda-forge
-    keyutils-1.6.1             |       h166bdaf_0         115 KB  conda-forge
-    krb5-1.19.3                |       h3790be6_0         1.4 MB  conda-forge
-    libarchive-3.5.2           |       hb890918_2         1.6 MB  conda-forge
-    libcurl-7.83.1             |       h7bff187_0         342 KB  conda-forge
-    libedit-3.1.20191231       |       he28a2e2_2         121 KB  conda-forge
-    libev-4.33                 |       h516909a_1         104 KB  conda-forge
-    libiconv-1.17              |       h166bdaf_0         1.4 MB  conda-forge
-    libnghttp2-1.47.0          |       h727a467_0         808 KB  conda-forge
-    libsolv-0.7.22             |       h6239696_0         443 KB  conda-forge
-    libssh2-1.10.0             |       ha56f1ee_2         233 KB  conda-forge
-    libxml2-2.9.14             |       h22db469_0         770 KB  conda-forge
-    lz4-c-1.9.3                |       h9c3ff4c_1         179 KB  conda-forge
-    lzo-2.10                   |    h516909a_1000         314 KB  conda-forge
-    mamba-0.17.0               |   py39h951de11_0         807 KB  conda-forge
-    openssl-1.1.1o             |       h166bdaf_0         2.1 MB  conda-forge
-    reproc-14.2.3              |       h7f98852_0          28 KB  conda-forge
-    reproc-cpp-14.2.3          |       h9c3ff4c_0          20 KB  conda-forge
-    zstd-1.5.2                 |       h8a70e8d_1         452 KB  conda-forge
-    ------------------------------------------------------------
-                                           Total:        26.3 MB
-
-The following NEW packages will be INSTALLED:
-
-  bzip2              conda-forge/linux-64::bzip2-1.0.8-h7f98852_4
-  c-ares             conda-forge/linux-64::c-ares-1.18.1-h7f98852_0
-  icu                conda-forge/linux-64::icu-70.1-h27087fc_0
-  keyutils           conda-forge/linux-64::keyutils-1.6.1-h166bdaf_0
-  krb5               conda-forge/linux-64::krb5-1.19.3-h3790be6_0
-  libarchive         conda-forge/linux-64::libarchive-3.5.2-hb890918_2
-  libcurl            conda-forge/linux-64::libcurl-7.83.1-h7bff187_0
-  libedit            conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2
-  libev              conda-forge/linux-64::libev-4.33-h516909a_1
-  libiconv           conda-forge/linux-64::libiconv-1.17-h166bdaf_0
-  libnghttp2         conda-forge/linux-64::libnghttp2-1.47.0-h727a467_0
-  libsolv            conda-forge/linux-64::libsolv-0.7.22-h6239696_0
-  libssh2            conda-forge/linux-64::libssh2-1.10.0-ha56f1ee_2
-  libxml2            conda-forge/linux-64::libxml2-2.9.14-h22db469_0
-  lz4-c              conda-forge/linux-64::lz4-c-1.9.3-h9c3ff4c_1
-  lzo                conda-forge/linux-64::lzo-2.10-h516909a_1000
-  mamba              conda-forge/linux-64::mamba-0.17.0-py39h951de11_0
-  reproc             conda-forge/linux-64::reproc-14.2.3-h7f98852_0
-  reproc-cpp         conda-forge/linux-64::reproc-cpp-14.2.3-h9c3ff4c_0
-  zstd               conda-forge/linux-64::zstd-1.5.2-h8a70e8d_1
-
-The following packages will be UPDATED:
-
-  conda                               4.10.3-py39hf3d152e_2 --> 4.12.0-py39hf3d152e_0
-  openssl                                 1.1.1l-h7f98852_0 --> 1.1.1o-h166bdaf_0
-
-
-
-Downloading and Extracting Packages
-lz4-c-1.9.3          | 179 KB    |            |   0% lz4-c-1.9.3          | 179 KB    | ########## | 100% lz4-c-1.9.3          | 179 KB    | ########## | 100% 
-icu-70.1             | 13.5 MB   |            |   0% icu-70.1             | 13.5 MB   | #9         |  20% icu-70.1             | 13.5 MB   | ########5  |  86% icu-70.1             | 13.5 MB   | ########## | 100% 
-zstd-1.5.2           | 452 KB    |            |   0% zstd-1.5.2           | 452 KB    | 7          |   7% zstd-1.5.2           | 452 KB    | ########## | 100% 
-c-ares-1.18.1        | 113 KB    |            |   0% c-ares-1.18.1        | 113 KB    | ########## | 100% 
-mamba-0.17.0         | 807 KB    |            |   0% mamba-0.17.0         | 807 KB    | ##5        |  26% mamba-0.17.0         | 807 KB    | ########## | 100% mamba-0.17.0         | 807 KB    | ########## | 100% 
-libarchive-3.5.2     | 1.6 MB    |            |   0% libarchive-3.5.2     | 1.6 MB    | ####7      |  48% libarchive-3.5.2     | 1.6 MB    | ########## | 100% libarchive-3.5.2     | 1.6 MB    | ########## | 100% 
-libnghttp2-1.47.0    | 808 KB    |            |   0% libnghttp2-1.47.0    | 808 KB    | ########## | 100% libnghttp2-1.47.0    | 808 KB    | ########## | 100% 
-keyutils-1.6.1       | 115 KB    |            |   0% keyutils-1.6.1       | 115 KB    | ########## | 100% 
-krb5-1.19.3          | 1.4 MB    |            |   0% krb5-1.19.3          | 1.4 MB    | ########## | 100% krb5-1.19.3          | 1.4 MB    | ########## | 100% 
-reproc-14.2.3        | 28 KB     |            |   0% reproc-14.2.3        | 28 KB     | ########## | 100% 
-libiconv-1.17        | 1.4 MB    |            |   0% libiconv-1.17        | 1.4 MB    | ########## | 100% libiconv-1.17        | 1.4 MB    | ########## | 100% 
-libxml2-2.9.14       | 770 KB    |            |   0% libxml2-2.9.14       | 770 KB    | 2          |   2% libxml2-2.9.14       | 770 KB    | ########## | 100% libxml2-2.9.14       | 770 KB    | ########## | 100% 
-bzip2-1.0.8          | 484 KB    |            |   0% bzip2-1.0.8          | 484 KB    | ########## | 100% bzip2-1.0.8          | 484 KB    | ########## | 100% 
-libcurl-7.83.1       | 342 KB    |            |   0% libcurl-7.83.1       | 342 KB    | ########## | 100% libcurl-7.83.1       | 342 KB    | ########## | 100% 
-conda-4.12.0         | 1014 KB   |            |   0% conda-4.12.0         | 1014 KB   | ########## | 100% conda-4.12.0         | 1014 KB   | ########## | 100% 
-openssl-1.1.1o       | 2.1 MB    |            |   0% openssl-1.1.1o       | 2.1 MB    | ########## | 100% openssl-1.1.1o       | 2.1 MB    | ########## | 100% 
-libedit-3.1.20191231 | 121 KB    |            |   0% libedit-3.1.20191231 | 121 KB    | ########## | 100% 
-libssh2-1.10.0       | 233 KB    |            |   0% libssh2-1.10.0       | 233 KB    | ########## | 100% libssh2-1.10.0       | 233 KB    | ########## | 100% 
-libsolv-0.7.22       | 443 KB    |            |   0% libsolv-0.7.22       | 443 KB    | ###6       |  36% libsolv-0.7.22       | 443 KB    | ########## | 100% 
-lzo-2.10             | 314 KB    |            |   0% lzo-2.10             | 314 KB    | 5          |   5% lzo-2.10             | 314 KB    | ########## | 100% 
-libev-4.33           | 104 KB    |            |   0% libev-4.33           | 104 KB    | ########## | 100% 
-reproc-cpp-14.2.3    | 20 KB     |            |   0% reproc-cpp-14.2.3    | 20 KB     | ########1  |  81% reproc-cpp-14.2.3    | 20 KB     | ########## | 100% 
-Preparing transaction: ...working... done
-Verifying transaction: ...working... done
-Executing transaction: ...working... done
-Loading: 122 packages loaded
-
-                  __    __    __    __
-                 /  \  /  \  /  \  /  \
-                /    \/    \/    \/    \
-███████████████/  /██/  /██/  /██/  /████████████████████████
-              /  / \   / \   / \   / \  \____
-             /  /   \_/   \_/   \_/   \    o \__,
-            / _/                       \_____/  `
-            |/
-        ███╗   ███╗ █████╗ ███╗   ███╗██████╗  █████╗
-        ████╗ ████║██╔══██╗████╗ ████║██╔══██╗██╔══██╗
-        ██╔████╔██║███████║██╔████╔██║██████╔╝███████║
-        ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██╔══██╗██╔══██║
-        ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝██║  ██║
-        ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ ╚═╝  ╚═╝
-
-        mamba (0.17.0) supported by @QuantStack
-
-        GitHub:  https://github.com/mamba-org/mamba
-        Twitter: https://twitter.com/QuantStack
-
-█████████████████████████████████████████████████████████████
-
-
-Looking for: []
-
-Preparing transaction: ...working... done
-Verifying transaction: ...working... done
-Executing transaction: ...working... done
-#
-# To activate this environment, use
-#
-#     $ conda activate /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/py3_env/py3_env
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
-
-Loading: 122 packages loaded
-conda-forge/noarch        
-conda-forge/linux-64      
-Transaction
-
-  Prefix: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/py3_env/py3_env
-
-  Updating specs:
-
-   - bison=3.8
-   - clang-format=13.0.1
-   - flex=2.6.4
-   - python=3.10
-
-
-WARNING Extracted package cache '/data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/conda/conda/pkgs/_libgcc_mutex-0.1-conda_forge' has invalid 'repodata_record.json' file: [json.exception.type_error.302] type must be string, but is null
-  Package              Version  Build                Channel                    Size
-──────────────────────────────────────────────────────────────────────────────────────
-  Install:
-──────────────────────────────────────────────────────────────────────────────────────
-
-  + _libgcc_mutex          0.1  conda_forge          conda-forge/linux-64     Cached
-  + _openmp_mutex          4.5  2_gnu                conda-forge/linux-64      23 KB
-  + bison                3.8.2  h59595ed_0           conda-forge/linux-64     755 KB
-  + bzip2                1.0.8  h4bc722e_7           conda-forge/linux-64     247 KB
-  + ca-certificates   2025.8.3  hbd8a1cb_0           conda-forge/noarch       Cached
-  + clang-format        13.0.1  default_hb5137d0_10  conda-forge/linux-64     106 KB
-  + clang-format-13     13.0.1  default_hb5137d0_10  conda-forge/linux-64     142 KB
-  + flex                 2.6.4  h58526e2_1004        conda-forge/linux-64     330 KB
-  + ld_impl_linux-64      2.44  h1423503_1           conda-forge/linux-64     660 KB
-  + libclang-cpp13      13.0.1  default_hb5137d0_10  conda-forge/linux-64      16 MB
-  + libexpat             2.7.1  hecca717_0           conda-forge/linux-64      73 KB
-  + libffi               3.4.6  h2dba641_1           conda-forge/linux-64      56 KB
-  + libgcc              15.1.0  h767d61c_4           conda-forge/linux-64     805 KB
-  + libgcc-ng           15.1.0  h69a702a_4           conda-forge/linux-64      29 KB
-  + libgomp             15.1.0  h767d61c_4           conda-forge/linux-64     437 KB
-  + libllvm13           13.0.1  hf817b99_2           conda-forge/linux-64      34 MB
-  + liblzma              5.8.1  hb9d3cd8_2           conda-forge/linux-64     110 KB
-  + libnsl               2.0.1  hb9d3cd8_1           conda-forge/linux-64      33 KB
-  + libsqlite           3.50.4  h0c1763c_0           conda-forge/linux-64     911 KB
-  + libstdcxx           15.1.0  h8f9b012_4           conda-forge/linux-64       4 MB
-  + libstdcxx-ng        15.1.0  h4852527_4           conda-forge/linux-64      29 KB
-  + libuuid             2.38.1  h0b41bf4_0           conda-forge/linux-64      33 KB
-  + libxcrypt           4.4.36  hd590300_1           conda-forge/linux-64      98 KB
-  + libzlib              1.3.1  hb9d3cd8_2           conda-forge/linux-64      60 KB
-  + m4                  1.4.20  hb9d3cd8_0           conda-forge/linux-64     280 KB
-  + ncurses                6.5  h2d0b736_3           conda-forge/linux-64     871 KB
-  + openssl              3.5.2  h26f9b46_0           conda-forge/linux-64       3 MB
-  + pip                   25.2  pyh8b19718_0         conda-forge/noarch         1 MB
-  + python             3.10.18  hd6af730_0_cpython   conda-forge/linux-64      24 MB
-  + readline               8.2  h8c095d6_2           conda-forge/linux-64     276 KB
-  + setuptools          80.9.0  pyhff2d567_0         conda-forge/noarch       731 KB
-  + tk                  8.6.13  noxft_hd72426e_102   conda-forge/linux-64       3 MB
-  + tzdata               2025b  h78e105d_0           conda-forge/noarch       120 KB
-  + wheel               0.45.1  pyhd8ed1ab_1         conda-forge/noarch        61 KB
-
-  Summary:
-
-  Install: 34 packages
-
-  Total download: 91 MB
-
-──────────────────────────────────────────────────────────────────────────────────────
-
-
-
-Looking for: ['bison=3.8', 'clang-format=13.0.1', 'flex=2.6.4', 'python=3.10']
-
-
-
-Downloading and Extracting Packages
-libuuid-2.38.1       | 33 KB     |            |   0% libuuid-2.38.1       | 33 KB     | ####8      |  49% libuuid-2.38.1       | 33 KB     | ########## | 100% libuuid-2.38.1       | 33 KB     | ########## | 100% 
-clang-format-13.0.1  | 106 KB    |            |   0% clang-format-13.0.1  | 106 KB    | ########## | 100% clang-format-13.0.1  | 106 KB    | ########## | 100% 
-ld_impl_linux-64-2.4 | 660 KB    |            |   0% ld_impl_linux-64-2.4 | 660 KB    | ########## | 100% ld_impl_linux-64-2.4 | 660 KB    | ########## | 100% 
-libgcc-ng-15.1.0     | 29 KB     |            |   0% libgcc-ng-15.1.0     | 29 KB     | ########## | 100% libgcc-ng-15.1.0     | 29 KB     | ########## | 100% 
-libffi-3.4.6         | 56 KB     |            |   0% libffi-3.4.6         | 56 KB     | ########## | 100% libffi-3.4.6         | 56 KB     | ########## | 100% 
-libxcrypt-4.4.36     | 98 KB     |            |   0% libxcrypt-4.4.36     | 98 KB     | ########## | 100% libxcrypt-4.4.36     | 98 KB     | ########## | 100% 
-libstdcxx-ng-15.1.0  | 29 KB     |            |   0% libstdcxx-ng-15.1.0  | 29 KB     | ########## | 100% libstdcxx-ng-15.1.0  | 29 KB     | ########## | 100% 
-libgomp-15.1.0       | 437 KB    |            |   0% libgomp-15.1.0       | 437 KB    | ########## | 100% libgomp-15.1.0       | 437 KB    | ########## | 100% 
-libzlib-1.3.1        | 60 KB     |            |   0% libzlib-1.3.1        | 60 KB     | ########## | 100% libzlib-1.3.1        | 60 KB     | ########## | 100% 
-libllvm13-13.0.1     | 33.6 MB   |            |   0% libllvm13-13.0.1     | 33.6 MB   | 5          |   5% libllvm13-13.0.1     | 33.6 MB   | ###6       |  37% libllvm13-13.0.1     | 33.6 MB   | ######2    |  62% libllvm13-13.0.1     | 33.6 MB   | ########8  |  88% libllvm13-13.0.1     | 33.6 MB   | ########## | 100% 
-libsqlite-3.50.4     | 911 KB    |            |   0% libsqlite-3.50.4     | 911 KB    | ########## | 100% libsqlite-3.50.4     | 911 KB    | ########## | 100% 
-libexpat-2.7.1       | 73 KB     |            |   0% libexpat-2.7.1       | 73 KB     | ########## | 100% libexpat-2.7.1       | 73 KB     | ########## | 100% 
-wheel-0.45.1         | 61 KB     |            |   0% wheel-0.45.1         | 61 KB     | ########## | 100% wheel-0.45.1         | 61 KB     | ########## | 100% 
-flex-2.6.4           | 330 KB    |            |   0% flex-2.6.4           | 330 KB    | 4          |   5% flex-2.6.4           | 330 KB    | ########## | 100% flex-2.6.4           | 330 KB    | ########## | 100% 
-ncurses-6.5          | 871 KB    |            |   0% ncurses-6.5          | 871 KB    | ########## | 100% ncurses-6.5          | 871 KB    | ########## | 100% 
-bison-3.8.2          | 755 KB    |            |   0% bison-3.8.2          | 755 KB    | ########## | 100% bison-3.8.2          | 755 KB    | ########## | 100% 
-clang-format-13-13.0 | 142 KB    |            |   0% clang-format-13-13.0 | 142 KB    | #1         |  11% clang-format-13-13.0 | 142 KB    | ########## | 100% clang-format-13-13.0 | 142 KB    | ########## | 100% 
-python-3.10.18       | 23.9 MB   |            |   0% python-3.10.18       | 23.9 MB   | #9         |  19% python-3.10.18       | 23.9 MB   | #####1     |  51% python-3.10.18       | 23.9 MB   | #########5 |  95% python-3.10.18       | 23.9 MB   | ########## | 100% 
-readline-8.2         | 276 KB    |            |   0% readline-8.2         | 276 KB    | ########## | 100% readline-8.2         | 276 KB    | ########## | 100% 
-libnsl-2.0.1         | 33 KB     |            |   0% libnsl-2.0.1         | 33 KB     | ########## | 100% libnsl-2.0.1         | 33 KB     | ########## | 100% 
-libgcc-15.1.0        | 805 KB    |            |   0% libgcc-15.1.0        | 805 KB    | ########## | 100% libgcc-15.1.0        | 805 KB    | ########## | 100% 
-_openmp_mutex-4.5    | 23 KB     |            |   0% _openmp_mutex-4.5    | 23 KB     | ########## | 100% 
-tk-8.6.13            | 3.1 MB    |            |   0% tk-8.6.13            | 3.1 MB    | ####2      |  42% tk-8.6.13            | 3.1 MB    | ########## | 100% tk-8.6.13            | 3.1 MB    | ########## | 100% 
-pip-25.2             | 1.1 MB    |            |   0% pip-25.2             | 1.1 MB    | ########## | 100% pip-25.2             | 1.1 MB    | ########## | 100% 
-m4-1.4.20            | 280 KB    |            |   0% m4-1.4.20            | 280 KB    | ########## | 100% m4-1.4.20            | 280 KB    | ########## | 100% 
-libstdcxx-15.1.0     | 3.7 MB    |            |   0% libstdcxx-15.1.0     | 3.7 MB    | ########## | 100% libstdcxx-15.1.0     | 3.7 MB    | ########## | 100% 
-bzip2-1.0.8          | 247 KB    |            |   0% bzip2-1.0.8          | 247 KB    | ########## | 100% bzip2-1.0.8          | 247 KB    | ########## | 100% 
-liblzma-5.8.1        | 110 KB    |            |   0% liblzma-5.8.1        | 110 KB    | ########## | 100% liblzma-5.8.1        | 110 KB    | ########## | 100% 
-libclang-cpp13-13.0. | 15.7 MB   |            |   0% libclang-cpp13-13.0. | 15.7 MB   |            |   0% libclang-cpp13-13.0. | 15.7 MB   | #1         |  11% libclang-cpp13-13.0. | 15.7 MB   | ##7        |  27% libclang-cpp13-13.0. | 15.7 MB   | ########## | 100% libclang-cpp13-13.0. | 15.7 MB   | ########## | 100% 
-setuptools-80.9.0    | 731 KB    |            |   0% setuptools-80.9.0    | 731 KB    | ########## | 100% setuptools-80.9.0    | 731 KB    | ########## | 100% 
-tzdata-2025b         | 120 KB    |            |   0% tzdata-2025b         | 120 KB    | ########## | 100% tzdata-2025b         | 120 KB    | ########## | 100% 
-openssl-3.5.2        | 3.0 MB    |            |   0% openssl-3.5.2        | 3.0 MB    | ########## | 100% openssl-3.5.2        | 3.0 MB    | ########## | 100% 
-Preparing transaction: ...working... done
-Verifying transaction: ...working... done
-Executing transaction: ...working... done
-#
-# To activate this environment, use
-#
-#     $ conda activate /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/py3_env/py3_env
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
-
-Loading: 122 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9ded1842c56d379c5bb4e117960d427f/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 123 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

@@ -1,74 +1,43 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 473 packages loaded
-    currently loading: proto/prysm/v1alpha1 ... (2 packages)
-Loading: 475 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:image_bundle_alpine': target 'image_bundle_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:image_bundle_alpine'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:image_alpine': target 'image_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:image_alpine'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:push_images_alpine': target 'push_images_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:push_images_alpine'
-WARNING: Could not find the `$HOME/.docker/config.json` and `$XDG_RUNTIME_DIR/containers/auth.json` file. 
- Running one of `podman login`, `docker login`, `crane login` may help.
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:image_alpine': target 'image_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:image_alpine'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:image_bundle_alpine': target 'image_bundle_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:image_bundle_alpine'
+Loading: 480 packages loaded
+    currently loading: @io_bazel_rules_go// ... (34 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:push_images_alpine': target 'push_images_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:push_images_alpine'
-Loading: 776 packages loaded
-    currently loading: @com_github_grpc_ecosystem_grpc_gateway_v2// ... (2 packages)
-Loading: 1240 packages loaded
-    currently loading: @com_google_protobuf//src/google/protobuf
-Loading: 1365 packages loaded
-    currently loading: @com_google_protobuf//src/google/protobuf
-Loading: 1558 packages loaded
-Loading: 1636 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:image_bundle_alpine': target 'image_bundle_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:image_bundle_alpine'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:image_bundle_alpine': target 'image_bundle_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:image_bundle_alpine'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:push_images_alpine': target 'push_images_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:push_images_alpine'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:image_alpine': target 'image_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:image_alpine'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:image_alpine': target 'image_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:image_alpine'
+Loading: 1750 packages loaded
+    currently loading: @consensus_spec_tests_minimal//
 INFO: Repository libtinfo6_arm64 instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/WORKSPACE:202:17: in <toplevel>
   /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/image_deps.bzl:37:14: in prysm_image_deps
 Repository rule http_file defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-INFO: Repository libtinfo6_amd64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/WORKSPACE:202:17: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/image_deps.bzl:26:14: in prysm_image_deps
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
 WARNING: Download from http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 WARNING: Download from http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 WARNING: Download from http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 WARNING: Download from http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 ERROR: An error occurred during the fetch of repository 'libtinfo6_arm64':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/bazel_tools/tools/build_defs/repo/http.bzl", line 173, column 33, in _http_file_impl
 		download_info = ctx.download(
 Error in download: java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_arm64/file/downloaded: GET returned 404 Not Found
-WARNING: Download from http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/WORKSPACE:202:17: fetching http_file rule //external:libtinfo6_arm64: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/bazel_tools/tools/build_defs/repo/http.bzl", line 173, column 33, in _http_file_impl
 		download_info = ctx.download(
 Error in download: java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_arm64/file/downloaded: GET returned 404 Not Found
+INFO: Repository libtinfo6_amd64 instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/WORKSPACE:202:17: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/image_deps.bzl:26:14: in prysm_image_deps
+Repository rule http_file defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
+WARNING: Download from http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 WARNING: Download from http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 ERROR: An error occurred during the fetch of repository 'libtinfo6_amd64':
    Traceback (most recent call last):
@@ -81,29 +50,15 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/WORKSPACE:202:1
 Error in download: java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_amd64/file/downloaded: GET returned 404 Not Found
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/BUILD.bazel:118:8: no such package '@libtinfo6_amd64//file': java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_amd64/file/downloaded: GET returned 404 Not Found and referenced by '//tools:libtinfo6_tar'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/BUILD.bazel:118:8: no such package '@libtinfo6_arm64//file': java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_arm64/file/downloaded: GET returned 404 Not Found and referenced by '//tools:libtinfo6_tar'
-Loading: 1734 packages loaded
-Loading: 1747 packages loaded
-Loading: 1747 packages loaded
-Loading: 1747 packages loaded
-Loading: 1747 packages loaded
-Loading: 1747 packages loaded
-Loading: 1747 packages loaded
-Loading: 1748 packages loaded
-Loading: 1748 packages loaded
-Loading: 1748 packages loaded
-Loading: 1748 packages loaded
-Loading: 1748 packages loaded
-Loading: 1749 packages loaded
-Loading: 1750 packages loaded
-    currently loading: @consensus_spec_tests_minimal//
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/BUILD.bazel:118:8: no such package '@libtinfo6_arm64//file': java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_arm64/file/downloaded: GET returned 404 Not Found and referenced by '//tools:libtinfo6_tar'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:image_bundle_alpine': target 'image_bundle_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:image_bundle_alpine'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/BUILD.bazel:118:8: no such package '@libtinfo6_amd64//file': java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_amd64/file/downloaded: GET returned 404 Not Found and referenced by '//tools:libtinfo6_tar'
+Loading: 1751 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:push_images_alpine': target 'push_images_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:push_images_alpine'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/BUILD.bazel:118:8: no such package '@libtinfo6_amd64//file': java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_amd64/file/downloaded: GET returned 404 Not Found and referenced by '//tools:libtinfo6_tar'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:image_bundle_alpine': target 'image_bundle_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:image_bundle_alpine'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/beacon-chain/BUILD.bazel:3:14: no such target '//cmd/beacon-chain:image_alpine': target 'image_alpine' not declared in package 'cmd/beacon-chain' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/beacon-chain/BUILD.bazel (Tip: use `query "//cmd/beacon-chain:*"` to see all the targets in that package) and referenced by '//beacon-chain:image_alpine'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:image_bundle_alpine': target 'image_bundle_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:image_bundle_alpine'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:push_images_alpine': target 'push_images_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:push_images_alpine'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/tools/BUILD.bazel:118:8: no such package '@libtinfo6_arm64//file': java.io.IOException: Error downloading [http://ftp.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://http.us.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.uk.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb, http://ftp.au.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2+20201114-2+deb11u1_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/3c074e332ab48a644a4633bb7dafabdd/external/libtinfo6_arm64/file/downloaded: GET returned 404 Not Found and referenced by '//tools:libtinfo6_tar'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:image_alpine': target 'image_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:image_alpine'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:push_images_alpine': target 'push_images_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:push_images_alpine'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/validator/BUILD.bazel:3:14: no such target '//cmd/validator:image_bundle_alpine': target 'image_bundle_alpine' not declared in package 'cmd/validator' defined by /data/h445xu/repo/bazel-repos/cloned_repos/orchain__prysm/cmd/validator/BUILD.bazel (Tip: use `query "//cmd/validator:*"` to see all the targets in that package) and referenced by '//validator:image_bundle_alpine'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

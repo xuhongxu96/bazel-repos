@@ -5,62 +5,57 @@ Starting local Bazel server and connecting to it...
 WARNING: For repository 'cgrindel_bazel_starlib', the root module requires module version cgrindel_bazel_starlib@0.23.0, but got cgrindel_bazel_starlib@0.27.0 in the resolved dependency graph.
 WARNING: For repository 'zlib', the root module requires module version zlib@1.3.1, but got zlib@1.3.1.bcr.3 in the resolved dependency graph.
  checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 43 packages loaded
-    currently loading:  ... (2 packages)
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_xcodeproj~/xcodeproj/internal/logging.bzl:28:10: 
 WARNING: @@//utils/bazel:xcodeproj: `xcodeproj.generation_mode = "incremental"` and `xcodeproj.schemes` (2) are set, but `xcodeproj.xcschemes` (0) doesn't have the same number of elements. Your schemes will not be the same as when `xcodeproj.generation_mode = "legacy"` is set.
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/BUILD.bazel:44:6: no such target '//bazel/swiftpm:update_pkgs': target 'update_pkgs' not declared in package 'bazel/swiftpm' defined by /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/bazel/swiftpm/BUILD.bazel and referenced by '//:swift_update_pkgs'
+INFO: Repository vulkan_windows instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/WORKSPACE.bazel:13:20: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/repositories.bzl:18:19: in vulkan_repositories
+Repository rule vulkan_windows defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/windows.bzl:37:33: in <toplevel>
+INFO: Repository vulkan_darwin instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/WORKSPACE.bazel:13:20: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/repositories.bzl:28:17: in vulkan_repositories
+Repository rule vulkan_macos defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/macos.bzl:40:31: in <toplevel>
+INFO: Repository vulkan_linux instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/WORKSPACE.bazel:13:20: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/repositories.bzl:23:17: in vulkan_repositories
+Repository rule vulkan_linux defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/linux.bzl:46:31: in <toplevel>
+ERROR: An error occurred during the fetch of repository 'vulkan_darwin':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/macos.bzl", line 11, column 13, in _impl
+		fail("Unable to find Vulkan SDK")
+Error in fail: Unable to find Vulkan SDK
+ERROR: An error occurred during the fetch of repository 'vulkan_windows':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/windows.bzl", line 9, column 45, in _impl
+		sdk_path = repository_ctx.os.environ["VULKAN_SDK"]
+Error: key "VULKAN_SDK" not found in dictionary
+INFO: Repository vulkan_android instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/WORKSPACE.bazel:13:20: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/repositories.bzl:33:19: in vulkan_repositories
+Repository rule vulkan_android defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/android.bzl:95:33: in <toplevel>
+ERROR: An error occurred during the fetch of repository 'vulkan_linux':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/linux.bzl", line 23, column 13, in _impl
+		fail("Unable to find glslc binary in the system")
+Error in fail: Unable to find glslc binary in the system
+ERROR: An error occurred during the fetch of repository 'vulkan_android':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/android.bzl", line 75, column 13, in _impl
+		fail("Unable to find glslc binary in the system")
+Error in fail: Unable to find glslc binary in the system
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/BUILD.bazel:49:6: no such target '//bazel/swiftpm:update_pkgs_to_latest': target 'update_pkgs_to_latest' not declared in package 'bazel/swiftpm' defined by /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/bazel/swiftpm/BUILD.bazel and referenced by '//:swift_update_pkgs_to_latest'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/BUILD.bazel:44:6: no such target '//bazel/swiftpm:update_pkgs': target 'update_pkgs' not declared in package 'bazel/swiftpm' defined by /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/bazel/swiftpm/BUILD.bazel and referenced by '//:swift_update_pkgs'
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_swift_package_manager~/swiftpkg/bzlmod/swift_deps.bzl", line 298, column 43, in _swift_deps_impl
 		_declare_pkgs_from_package(
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_swift_package_manager~/swiftpkg/bzlmod/swift_deps.bzl", line 31, column 44, in _declare_pkgs_from_package
 		resolved_pkg_json = module_ctx.read(pkg_resolved)
 Error in read: java.io.FileNotFoundException: /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/Package.resolved (No such file or directory)
-INFO: Repository vulkan_windows instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/WORKSPACE.bazel:13:20: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/repositories.bzl:18:19: in vulkan_repositories
-Repository rule vulkan_windows defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/windows.bzl:37:33: in <toplevel>
-ERROR: An error occurred during the fetch of repository 'vulkan_windows':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/windows.bzl", line 9, column 45, in _impl
-		sdk_path = repository_ctx.os.environ["VULKAN_SDK"]
-Error: key "VULKAN_SDK" not found in dictionary
-INFO: Repository vulkan_linux instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/WORKSPACE.bazel:13:20: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/repositories.bzl:23:17: in vulkan_repositories
-Repository rule vulkan_linux defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/linux.bzl:46:31: in <toplevel>
-INFO: Repository vulkan_android instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/WORKSPACE.bazel:13:20: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/repositories.bzl:33:19: in vulkan_repositories
-Repository rule vulkan_android defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/android.bzl:95:33: in <toplevel>
-ERROR: An error occurred during the fetch of repository 'vulkan_android':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/android.bzl", line 75, column 13, in _impl
-		fail("Unable to find glslc binary in the system")
-Error in fail: Unable to find glslc binary in the system
-INFO: Repository vulkan_darwin instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/WORKSPACE.bazel:13:20: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/repositories.bzl:28:17: in vulkan_repositories
-Repository rule vulkan_macos defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/macos.bzl:40:31: in <toplevel>
-ERROR: An error occurred during the fetch of repository 'vulkan_linux':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/linux.bzl", line 23, column 13, in _impl
-		fail("Unable to find glslc binary in the system")
-Error in fail: Unable to find glslc binary in the system
-ERROR: An error occurred during the fetch of repository 'vulkan_darwin':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/platform/macos.bzl", line 11, column 13, in _impl
-		fail("Unable to find Vulkan SDK")
-Error in fail: Unable to find Vulkan SDK
-Loading: 149 packages loaded
-    currently loading: @@zlib~// ... (2 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/Sources/AdaPlatform/BUILD.bazel:3:22: no such package 'Sourcers/AdaECS': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/AdaEngine__AdaEngine/Sourcers/AdaECS and referenced by '//Sources/AdaPlatform:AdaApp'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/BUILD:26:11: no such package '@@vulkan_windows//': key "VULKAN_SDK" not found in dictionary and referenced by '@@rules_vulkan//vulkan:vulkan_cc_library'
@@ -68,7 +63,7 @@ ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/BUILD:26:11: no such package '@@vulkan_darwin//': Unable to find Vulkan SDK and referenced by '@@rules_vulkan//vulkan:vulkan_cc_library'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e39dcf006b989004042d2f02bd0df1bb/external/rules_vulkan/vulkan/BUILD:26:11: no such package '@@vulkan_linux//': Unable to find glslc binary in the system and referenced by '@@rules_vulkan//vulkan:vulkan_cc_library'
 FATAL: bazel crashed due to an internal error. Printing stack trace:
-java.lang.IllegalStateException: Evaluation of TransitiveTargetKey{label=//Sources/SPIRVCompiler:SPIRVCompiler} returned non-null value but requested dependencies that weren't computed yet (one of []), NodeEntry: IncrementalInMemoryNodeEntry{key=TransitiveTargetKey{label=//Sources/SPIRVCompiler:SPIRVCompiler}, value=null, dirtyBuildingState=InitialBuildingState{dirtyState=REBUILDING, signaledDeps=7, externalDeps=0, dirtyDirectDepIndex=0}, version=com.google.devtools.build.skyframe.Version$MinimalVersion@26d27f78, directDeps=GroupedDeps{size=7, elements=[Sources/SPIRVCompiler, 6, TransitiveTargetKey{label=//Sources/SPIRVCompiler:_SPIRVCompiler_cxx_lib}, TransitiveTargetKey{label=//Sources/SPIRVCompiler:spirv_compiler.cpp}, TransitiveTargetKey{label=//Sources/SPIRVCompiler:spirv_compiler.h}, TransitiveTargetKey{label=@@rules_swift_package_manager~~swift_deps~swiftpkg_glslang//:glslang}, TransitiveTargetKey{label=@@bazel_tools//tools/def_parser:def_parser}, TransitiveTargetKey{label=@@bazel_tools//tools/cpp:current_cc_toolchain}]}, reverseDeps=ReverseDeps{reverseDeps=[], singleReverseDep=false, dataToConsolidate=[TransitiveTargetKey{label=//Sources/AdaEngine:AdaEngine}]}}
+java.lang.IllegalStateException: Evaluation of TransitiveTargetKey{label=//Sources/SPIRVCompiler:SPIRVCompiler} returned non-null value but requested dependencies that weren't computed yet (one of []), NodeEntry: IncrementalInMemoryNodeEntry{key=TransitiveTargetKey{label=//Sources/SPIRVCompiler:SPIRVCompiler}, value=null, dirtyBuildingState=InitialBuildingState{dirtyState=REBUILDING, signaledDeps=7, externalDeps=0, dirtyDirectDepIndex=0}, version=com.google.devtools.build.skyframe.Version$MinimalVersion@37aae8c7, directDeps=GroupedDeps{size=7, elements=[Sources/SPIRVCompiler, 6, TransitiveTargetKey{label=//Sources/SPIRVCompiler:_SPIRVCompiler_cxx_lib}, TransitiveTargetKey{label=//Sources/SPIRVCompiler:spirv_compiler.cpp}, TransitiveTargetKey{label=//Sources/SPIRVCompiler:spirv_compiler.h}, TransitiveTargetKey{label=@@rules_swift_package_manager~~swift_deps~swiftpkg_glslang//:glslang}, TransitiveTargetKey{label=@@bazel_tools//tools/def_parser:def_parser}, TransitiveTargetKey{label=@@bazel_tools//tools/cpp:current_cc_toolchain}]}, reverseDeps=ReverseDeps{reverseDeps=[], singleReverseDep=false, dataToConsolidate=[TransitiveTargetKey{label=//Sources/AdaEngine:AdaEngine}]}}
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:854)
 	at com.google.devtools.build.skyframe.AbstractParallelEvaluator$Evaluate.run(AbstractParallelEvaluator.java:585)
 	at com.google.devtools.build.lib.concurrent.AbstractQueueVisitor$WrappedRunnable.run(AbstractQueueVisitor.java:414)
@@ -78,7 +73,5 @@ java.lang.IllegalStateException: Evaluation of TransitiveTargetKey{label=//Sourc
 	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,91 +1,12 @@
 Starting local Bazel server and connecting to it...
 Loading: 0 packages loaded
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 22 packages loaded
-    currently loading:  ... (3 packages)
-Loading: 22 packages loaded
-    currently loading:  ... (3 packages)
-Loading: 22 packages loaded
-    currently loading:  ... (3 packages)
-Loading: 22 packages loaded
-    currently loading:  ... (3 packages)
-Loading: 23 packages loaded
-    currently loading: language/python/extractor ... (2 packages)
+Loading: 5 packages loaded
+    currently loading: language/arkts ... (22 packages)
 WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/codefuse-ai__CodeFuse-Query/language/javascript/extractor/BUILD:128:8: target 'coref-javascript-src-extractor' is both a rule and a file; please choose another name for the rule
-Loading: 163 packages loaded
-Loading: 198 packages loaded
-WARNING: Download from https://gitee.com/openharmony/third_party_typescript/repository/archive/5bef9c4ec07035be8167d8190f6df47275b81058.zip failed: class com.google.devtools.build.lib.bazel.repository.downloader.UnrecoverableHttpException Checksum was 5394df4e9070964a98f978743bdd998e72b1afc0ca382b1691629dcba09f7374 but wanted e703a2ccb546e7fa78f0a0681cbc9569991b807247ff903bf6f0fe5304ec0fe9
-Loading: 200 packages loaded
-Loading: 200 packages loaded
-Loading: 200 packages loaded
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/bazel_gazelle/internal/go_repository.bzl:189:18: org_golang_x_tools: gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/cmd/fiximports/testdata/src/old.com/bad/bad.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/cmd/fiximports/testdata/src/old.com/bad/bad.go:2:43: expected 'package', found 'EOF'
-gazelle: found packages pointer (pointer.go) and conversions (conversions.go) in /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/internal/gccgoimporter/testdata
-gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/loader/testdata/badpkgdecl.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/loader/testdata/badpkgdecl.go:1:34: expected 'package', found 'EOF'
-gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/extra/geez/help.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/extra/geez/help.go:1:16: expected ';', found '.'
-gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/extra/v2/geez/help.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/extra/v2/geez/help.go:1:16: expected ';', found '.'
-gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/extra/v2/me.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/extra/v2/me.go:1:16: expected ';', found '.'
-gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/extra/yo.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/extra/yo.go:1:16: expected ';', found '.'
-gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/tempmod/main.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/tempmod/main.go:1:16: expected ';', found '.'
-gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/what@v1.0.0/main.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/what@v1.0.0/main.go:1:16: expected ';', found '.'
-gazelle: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/what@v1.1.0/main.go: error reading go file: /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/packages/packagestest/testdata/groups/two/modules/example.com/what@v1.1.0/main.go:1:16: expected ';', found '.'
-gazelle: found packages main (fieldprom.go) and typeassert (typeassert.go) in /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/go/ssa/interp/testdata
-gazelle: found packages exports (exports.go) and p (issue20046.go) in /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/internal/gcimporter/testdata
-gazelle: found packages E1 (E1.go) and G1 (G1.go) in /data/h445xu/.cache/bazel/_bazel_hongxu/6aa4bed0e7e9565a8476ffa949141058/external/org_golang_x_tools/refactor/eg/testdata
-gazelle: finding module path for import domain.name/importdecl: go: unrecognized import path "domain.name/importdecl": https fetch: Get "https://domain.name/importdecl?go-get=1": dial tcp: lookup domain.name: No address associated with hostname
-gazelle: finding module path for import old.com/one: go: unrecognized import path "old.com/one": https fetch: Get "http://www.old.com/one?go-get=1": redirected from secure URL https://old.com/one?go-get=1 to insecure URL http://www.old.com/one?go-get=1
-gazelle: finding module path for import titanic.biz/bar: go: unrecognized import path "titanic.biz/bar": https fetch: Get "https://titanic.biz/bar?go-get=1": dial tcp 192.64.119.92:443: i/o timeout
-gazelle: finding module path for import titanic.biz/foo: go: unrecognized import path "titanic.biz/foo": https fetch: Get "https://titanic.biz/foo?go-get=1": dial tcp 192.64.119.92:443: i/o timeout
-gazelle: finding module path for import fruit.io/pear: go: unrecognized import path "fruit.io/pear": https fetch: Get "https://fruit.io/pear?go-get=1": dial tcp 162.255.119.66:443: i/o timeout
-gazelle: finding module path for import fruit.io/banana: go: unrecognized import path "fruit.io/banana": https fetch: Get "https://fruit.io/banana?go-get=1": dial tcp 162.255.119.66:443: i/o timeout
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import nosuchpkg: go: malformed module path "nosuchpkg": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import nosuchpkg: go: malformed module path "nosuchpkg": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import referrers: go: malformed module path "referrers": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import a: go: malformed module path "a": missing dot in first path element
-gazelle: finding module path for import b: go: malformed module path "b": missing dot in first path element
-gazelle: finding module path for import typeparams/lib: go: malformed module path "typeparams/lib": missing dot in first path element
-gazelle: finding module path for import lib: go: malformed module path "lib": missing dot in first path element
-gazelle: finding module path for import a: go: malformed module path "a": missing dot in first path element
-gazelle: finding module path for import b: go: malformed module path "b": missing dot in first path element
-gazelle: finding module path for import b: go: malformed module path "b": missing dot in first path element
-gazelle: finding module path for import a: go: malformed module path "a": missing dot in first path element
-gazelle: finding module path for import a: go: malformed module path "a": missing dot in first path element
-gazelle: finding module path for import a: go: malformed module path "a": missing dot in first path element
-gazelle: finding module path for import b: go: malformed module path "b": missing dot in first path element
-gazelle: finding module path for import b: go: malformed module path "b": missing dot in first path element
-gazelle: finding module path for import typeparams/userdefs: go: malformed module path "typeparams/userdefs": missing dot in first path element
-gazelle: finding module path for import a: go: malformed module path "a": missing dot in first path element
-gazelle: finding module path for import b: go: malformed module path "b": missing dot in first path element
-gazelle: finding module path for import d: go: malformed module path "d": missing dot in first path element
-gazelle: finding module path for import testdata/groups/two/expect: go: malformed module path "testdata/groups/two/expect": missing dot in first path element
-Loading: 216 packages loaded
+Loading: 72 packages loaded
+    currently loading: @bazel_tools//tools/jdk ... (34 packages)
+Loading: 222 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -177,9 +98,5 @@ Read 87000 lines from bazel query output...
 Read 88000 lines from bazel query output...
 Read 89000 lines from bazel query output...
 Read 90000 lines from bazel query output...
-Loading: 220 packages loaded
-Loading: 220 packages loaded
-
-thread 'main' panicked at depstat/src/main.rs:24:52:
-called `Result::unwrap()` on an `Err` value: "Cannot create an edge from a node to itself"
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Loading: 222 packages loaded
+Loading: 222 packages loaded

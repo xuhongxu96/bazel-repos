@@ -1,37 +1,8 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
 WARNING: For repository 'rules_java', the root module requires module version rules_java@8.11.0, but got rules_java@8.12.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
- no actions running
 Loading: 0 packages loaded
-Loading: 9 packages loaded
-    currently loading: js ... (5 packages)
-Loading: 12 packages loaded
-    currently loading: js ... (2 packages)
-Loading: 12 packages loaded
-    currently loading: js ... (2 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/c8b8090c7efbf09852675cebee4efb01/external/aspect_rules_js+/npm/extensions.bzl:253:14: NOTE: repo 'pnpm' has multiple versions ["9.10.0", "8.6.7"]; selected 9.10.0
-Loading: 12 packages loaded
-    currently loading: js ... (2 packages)
-Loading: 12 packages loaded
-    currently loading: js ... (2 packages)
-Loading: 12 packages loaded
-    currently loading: js ... (2 packages)
-Loading: 14 packages loaded
-    currently loading: @@rules_go+//go ... (2 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/c8b8090c7efbf09852675cebee4efb01/external/rules_jvm_external+/private/extensions/maven.bzl:351:18: The maven repository 'maven' has contributions from multiple bzlmod modules, and will be resolved together: ["dotprompt", "protobuf"]
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/c8b8090c7efbf09852675cebee4efb01/external/rules_jvm_external+/private/rules/coursier.bzl:754:18: Found duplicate artifact versions
-    com.google.guava:guava has multiple versions 33.4.8-jre, 32.0.1-jre
-    com.google.truth:truth has multiple versions 1.4.4, 1.1.2
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
-Loading: 354 packages loaded
-Loading: 511 packages loaded
-    currently loading: @@gazelle+//repo
-Loading: 614 packages loaded
-Loading: 810 packages loaded
-Loading: 879 packages loaded
-Loading: 879 packages loaded
-Loading: 921 packages loaded
-Loading: 923 packages loaded
+Loading: 882 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

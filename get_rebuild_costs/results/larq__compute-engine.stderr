@@ -1,61 +1,13 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/af79220f0c8f25d611f1153812d54785/external/org_tensorflow/tensorflow/tools/toolchains/python/python_repo.bzl:32:14: 
-TF_PYTHON_VERSION environment variable was not set correctly; using Python 3.11.
-
-To set Python version, run:
-export TF_PYTHON_VERSION=3.11
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 164 packages loaded
-    currently loading: @org_tensorflow//tensorflow/lite ... (39 packages)
-Loading: 416 packages loaded
-    currently loading: @org_tensorflow//tensorflow/lite/schema ... (14 packages)
-Loading: 474 packages loaded
-    currently loading: @org_tensorflow//tensorflow/core/kernels/mlir_generated ... (3 packages)
-Loading: 505 packages loaded
-    currently loading: @python_ppc64le-unknown-linux-gnu//
-Loading: 521 packages loaded
-Loading: 529 packages loaded
-Loading: 533 packages loaded
-Loading: 533 packages loaded
-    currently loading: @XNNPACK//
-Loading: 535 packages loaded
-Loading: 536 packages loaded
-Loading: 550 packages loaded
-Loading: 557 packages loaded
-Loading: 559 packages loaded
-Loading: 559 packages loaded
-Loading: 559 packages loaded
-Loading: 559 packages loaded
-Loading: 559 packages loaded
-Loading: 559 packages loaded
-Loading: 561 packages loaded
-Loading: 561 packages loaded
-Loading: 561 packages loaded
-Loading: 561 packages loaded
-Loading: 561 packages loaded
-Loading: 561 packages loaded
-Loading: 561 packages loaded
-Loading: 561 packages loaded
-Loading: 562 packages loaded
-Loading: 564 packages loaded
-Loading: 565 packages loaded
-Loading: 565 packages loaded
-    currently loading: @pypi_lce_tensorflow//
-Loading: 566 packages loaded
-Loading: 575 packages loaded
-Loading: 586 packages loaded
+Loading: 434 packages loaded
+    currently loading: @llvm-project//mlir ... (34 packages)
+Loading: 549 packages loaded
+    currently loading: @org_tensorflow//tensorflow/core/kernels ... (2 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/af79220f0c8f25d611f1153812d54785/external/pypi_lce_tensorflow/BUILD.bazel:22:11: no such package '@pypi_lce_tensorflow_io_gcs_filesystem//': The repository '@pypi_lce_tensorflow_io_gcs_filesystem' could not be resolved: Repository '@pypi_lce_tensorflow_io_gcs_filesystem' is not defined and referenced by '@pypi_lce_tensorflow//:pkg'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/af79220f0c8f25d611f1153812d54785/external/pypi_lce_tensorflow/BUILD.bazel:22:11: no such package '@pypi_lce_tensorflow_io_gcs_filesystem//': The repository '@pypi_lce_tensorflow_io_gcs_filesystem' could not be resolved: Repository '@pypi_lce_tensorflow_io_gcs_filesystem' is not defined and referenced by '@pypi_lce_tensorflow//:pkg'
-Loading: 588 packages loaded
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

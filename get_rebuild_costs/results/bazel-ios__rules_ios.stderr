@@ -1,17 +1,8 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-WARNING: For repository 'build_bazel_apple_support', the root module requires module version apple_support@1.15.1, but got apple_support@1.21.1 in the resolved dependency graph.
-WARNING: For repository 'rules_cc', the root module requires module version rules_cc@0.0.10, but got rules_cc@0.0.16 in the resolved dependency graph.
-WARNING: For repository 'bazel_skylib', the root module requires module version bazel_skylib@1.4.2, but got bazel_skylib@1.7.1 in the resolved dependency graph.
-WARNING: For repository 'rules_pkg', the root module requires module version rules_pkg@0.9.1, but got rules_pkg@1.0.1 in the resolved dependency graph.
-WARNING: For repository 'io_bazel_stardoc', the root module requires module version stardoc@0.6.2, but got stardoc@0.7.2 in the resolved dependency graph.
 Loading: 0 packages loaded
-Loading: 73 packages loaded
-    currently loading: tools/xctest_absolute_source_locations ... (2 packages)
-Loading: 233 packages loaded
+Loading: 99 packages loaded
+    currently loading: @@rules_apple~//apple ... (9 packages)
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -82,7 +73,3 @@ Read 66000 lines from bazel query output...
 Read 67000 lines from bazel query output...
 Read 68000 lines from bazel query output...
 Read 69000 lines from bazel query output...
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

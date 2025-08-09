@@ -1,21 +1,5 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/org_tensorflow/third_party/py/python_repo.bzl:96:14: 
 HERMETIC_PYTHON_VERSION variable was not set correctly, using default version.
 Python 3.10 will be used.
@@ -26,15 +10,6 @@ OR pass it as an argument to bazel command directly or inside your .bazelrc
 file:
   --repo_env=HERMETIC_PYTHON_VERSION=3.12
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/org_tensorflow/third_party/py/python_repo.bzl:107:10: Using hermetic Python 3.10
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/org_tensorflow/third_party/repo.bzl:132:14: 
 Warning: skipping import of repository 'com_google_absl' because it already exists.
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/org_tensorflow/third_party/repo.bzl:132:14: 
@@ -56,50 +31,11 @@ Warning: skipping import of repository 'build_bazel_rules_apple' because it alre
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/org_tensorflow/third_party/repo.bzl:132:14: 
 Warning: skipping import of repository 'com_github_glog_glog' because it already exists.
  checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-    currently loading: mediapipe_api/gpu ... (32 packages)
-Loading: 45 packages loaded
-    currently loading: @mediapipe//mediapipe/framework
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:502:21: fetching new_local_repository rule //external:macos_ffmpeg: java.io.IOException: The repository's path is "/usr/local/opt/ffmpeg" (absolute: "/usr/local/opt/ffmpeg") but this directory does not exist.
-Loading: 120 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (64 packages)
-Loading: 173 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (59 packages)
-DEBUG: Rule 'com_google_mediapipe_pose_landmarker_lite_task' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a"
-DEBUG: Repository com_google_mediapipe_pose_landmarker_lite_task instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:677:15: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/third_party/external_files.bzl:1273:14: in external_files
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-Loading: 207 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (57 packages)
-Loading: 230 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (54 packages)
-Loading: 262 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (49 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/BUILD:21:11: no such target '@mediapipe//mediapipe:android_armeabi': target 'android_armeabi' not declared in package 'mediapipe' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/BUILD (did you mean 'android_arm'? Tip: use `query "@mediapipe//mediapipe:*"` to see all the targets in that package) and referenced by '//third_party:glog'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/BUILD:55:11: no such target '@mediapipe//mediapipe:android_armeabi': target 'android_armeabi' not declared in package 'mediapipe' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/BUILD (did you mean 'android_arm'? Tip: use `query "@mediapipe//mediapipe:*"` to see all the targets in that package) and referenced by '//third_party:libffmpeg'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/BUILD:55:11: no such package '@macos_ffmpeg//': The repository's path is "/usr/local/opt/ffmpeg" (absolute: "/usr/local/opt/ffmpeg") but this directory does not exist. and referenced by '//third_party:libffmpeg'
-DEBUG: Rule 'com_google_mediapipe_pose_landmarker_full_task' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "5134a3aad27a58b93da0088d431f366da362b44e3ccfbe3462b3827a839011b1"
-DEBUG: Repository com_google_mediapipe_pose_landmarker_full_task instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:677:15: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/third_party/external_files.bzl:1261:14: in external_files
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-DEBUG: Rule 'com_google_mediapipe_pose_landmarker_heavy_task' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "64437af838a65d18e5ba7a0d39b465540069bc8aae8308de3e318aad31fcbc7b"
-DEBUG: Repository com_google_mediapipe_pose_landmarker_heavy_task instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:677:15: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/third_party/external_files.bzl:1267:14: in external_files
-Repository rule http_file defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
-Loading: 271 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (51 packages)
-Loading: 275 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (49 packages)
-Loading: 277 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (49 packages)
 INFO: Repository build_bazel_rules_swift_local_config instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:315:25: in <toplevel>
   /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/build_bazel_rules_swift/swift/repositories.bzl:162:11: in swift_rules_dependencies
@@ -120,98 +56,42 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/
 		fail("ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift " +
 Error in fail: ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift requires that the driver used is clang. Please set `CC=clang` in your environment before invoking Bazel.
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/ios_opencv/BUILD.bazel:13:30: every rule of type apple_static_framework_import implicitly depends upon the target '@build_bazel_rules_swift_local_config//:toolchain', but this target could not be found because of: no such package '@build_bazel_rules_swift_local_config//': ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift requires that the driver used is clang. Please set `CC=clang` in your environment before invoking Bazel.
-Loading: 290 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 290 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 290 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 290 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 290 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 291 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 293 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 295 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 295 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (41 packages)
-Loading: 339 packages loaded
-    currently loading: @mediapipe//mediapipe/framework ... (18 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/BUILD:80:11: no such package '@androidndk//': The repository '@androidndk' could not be resolved: Repository '@androidndk' is not defined and referenced by '@mediapipe//mediapipe/util:cpu_util'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:35:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_device_registration'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:124:11: no such package '@mediapipe//mediapipe/web': BUILD file not found in directory 'mediapipe/web' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_utils'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:70:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_service'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:124:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_utils'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:685:21: fetching new_local_repository rule //external:halide: java.io.IOException: The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist.
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:124:11: no such package '@mediapipe//mediapipe/web': BUILD file not found in directory 'mediapipe/web' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_utils'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:124:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_utils'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:35:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_device_registration'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:70:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_service'
-Loading: 408 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-DEBUG: Rule 'pffft' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "20f48fbbd5737d9a7db419f216c8d01ec8fdead48442c04774425a4c6b8b3949"
-DEBUG: Repository pffft instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:383:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-Loading: 409 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 409 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
+Loading: 405 packages loaded
+    currently loading: @org_tensorflow//tensorflow/compiler/mlir/lite ... (3 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:508:21: fetching new_local_repository rule //external:windows_opencv: java.io.IOException: The repository's path is "C:\opencv\build" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/C:\opencv\build") but this directory does not exist.
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:496:21: fetching new_local_repository rule //external:macos_arm64_opencv: java.io.IOException: The repository's path is "/opt/homebrew" (absolute: "/opt/homebrew") but this directory does not exist.
-Loading: 413 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 413 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 413 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide ... (2 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/ios_opencv_source/BUILD.bazel:83:32: every rule of type apple_static_xcframework_import implicitly depends upon the target '@build_bazel_rules_swift_local_config//:toolchain', but this target could not be found because of: no such package '@build_bazel_rules_swift_local_config//': ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift requires that the driver used is clang. Please set `CC=clang` in your environment before invoking Bazel.
-Loading: 415 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 415 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 415 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 415 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 415 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 415 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-Loading: 416 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
-DEBUG: Rule 'android_opencv' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "464d55abe64b53af3aeb73197cf4620535abd909916d06e6a8b7c32712013966"
-DEBUG: Repository android_opencv instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/WORKSPACE:514:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/opencv/BUILD.bazel:80:6: no such package '@macos_arm64_opencv//': The repository's path is "/opt/homebrew" (absolute: "/opt/homebrew") but this directory does not exist. and referenced by '@opencv//:opencv_binary'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/opencv/BUILD.bazel:80:6: no such package '@windows_opencv//': The repository's path is "C:\opencv\build" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/C:\opencv\build") but this directory does not exist. and referenced by '@opencv//:opencv_binary'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/opencv/BUILD.bazel:80:6: no such package '@wasm_opencv//': The repository '@wasm_opencv' could not be resolved: Repository '@wasm_opencv' is not defined and referenced by '@opencv//:opencv_binary'
-Loading: 417 packages loaded
-    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/BUILD:80:11: no such package '@androidndk//': The repository '@androidndk' could not be resolved: Repository '@androidndk' is not defined and referenced by '@mediapipe//mediapipe/util:cpu_util'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:35:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_device_registration'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:70:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_service'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:124:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_utils'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:124:11: no such package '@mediapipe//mediapipe/web': BUILD file not found in directory 'mediapipe/web' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_utils'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:70:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_service'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/gpu/webgpu/BUILD:35:11: no such package '@mediapipe//third_party/dawn': BUILD file not found in directory 'third_party/dawn' of external repository @mediapipe. Add a BUILD file to a directory to mark it as a package. and referenced by '@mediapipe//mediapipe/gpu/webgpu:webgpu_device_registration'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/BUILD:80:11: no such package '@androidndk//': The repository '@androidndk' could not be resolved: Repository '@androidndk' is not defined and referenced by '@mediapipe//mediapipe/util:cpu_util'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/BUILD:55:11: no such package '@macos_ffmpeg//': The repository's path is "/usr/local/opt/ffmpeg" (absolute: "/usr/local/opt/ffmpeg") but this directory does not exist. and referenced by '//third_party:libffmpeg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/util/frame_buffer/BUILD:48:11: no such package '@halide//': The repository's path is "third_party/halide" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/halide") but this directory does not exist. and referenced by '@mediapipe//mediapipe/util/frame_buffer:buffer'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/BUILD:21:11: no such target '@mediapipe//mediapipe:android_armeabi': target 'android_armeabi' not declared in package 'mediapipe' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/BUILD (did you mean 'android_arm'? Tip: use `query "@mediapipe//mediapipe:*"` to see all the targets in that package) and referenced by '//third_party:glog'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/homuler__MediaPipeUnityPlugin/third_party/BUILD:55:11: no such target '@mediapipe//mediapipe:android_armeabi': target 'android_armeabi' not declared in package 'mediapipe' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/mediapipe/mediapipe/BUILD (did you mean 'android_arm'? Tip: use `query "@mediapipe//mediapipe:*"` to see all the targets in that package) and referenced by '//third_party:libffmpeg'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/opencv/BUILD.bazel:80:6: no such package '@macos_arm64_opencv//': The repository's path is "/opt/homebrew" (absolute: "/opt/homebrew") but this directory does not exist. and referenced by '@opencv//:opencv_binary'
@@ -219,6 +99,8 @@ ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d09353d63e8175b5e344524585de1633/external/opencv/BUILD.bazel:80:6: no such package '@wasm_opencv//': The repository '@wasm_opencv' could not be resolved: Repository '@wasm_opencv' is not defined and referenced by '@opencv//:opencv_binary'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 417 packages loaded
+    currently loading: @mediapipe//mediapipe/util/frame_buffer/halide
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

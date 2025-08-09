@@ -1,62 +1,11 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 WARNING: For repository 'com_google_absl', the root module requires module version abseil-cpp@20250127.0, but got abseil-cpp@20250127.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'bazel_features', the root module requires module version bazel_features@1.25.0, but got bazel_features@1.30.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
- no actions running
 WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/rules_python/python/private/reexports.bzl:37:17: name 'PyInfo' is not defined (did you mean 'CcInfo'?)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/rules_python/python/private/reexports.bzl:40:24: name 'PyRuntimeInfo' is not defined
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 ERROR: Error computing the main repository mapping: at /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/com_google_xls/dependency_support/initialize_external.bzl:21:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/project_python/defs.bzl:4:5: at /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/rules_python/python/config_settings/transition.bzl:20:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/rules_python/python/py_binary.bzl:20:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/rules_python/python/private/common/py_binary_macro_bazel.bzl:16:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/rules_python/python/private/common/common_bazel.bzl:20:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/9796a3331c1a5183b45bc985cb898ad6/external/rules_python/python/private/common/attributes.bzl:20:6: compilation of module 'python/private/reexports.bzl' failed
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

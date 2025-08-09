@@ -1,21 +1,8 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
-DEBUG: Rule 'rules_python' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "3b8b4cdc991bc9def8833d118e4c850f1b7498b3d65d5698eea92c3528b8cf2c"
-DEBUG: Repository rules_python instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/openxla__shardy/WORKSPACE:34:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 16 packages loaded
-    currently loading: shardy/integrations/python/ir ... (22 packages)
-DEBUG: Rule 'com_google_googletest' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "755f9a39bc7205f5a0c428e920ddad092c33c8a1b46997def3f1d4a82aded6e1"
-DEBUG: Repository com_google_googletest instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/openxla__shardy/WORKSPACE:96:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
+Loading: 38 packages loaded
+    currently loading: @bazel_tools//tools/cpp ... (3 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
@@ -23,29 +10,18 @@ ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/llvm-project/mlir/BUILD.bazel:1068:11: no such package '@nanobind//': The repository '@nanobind' could not be resolved: Repository '@nanobind' is not defined and referenced by '@llvm-project//mlir:MLIRBindingsPythonNanobindHeadersAndDeps'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/llvm-project/mlir/BUILD.bazel:1113:11: no such package '@nanobind//': The repository '@nanobind' could not be resolved: Repository '@nanobind' is not defined and referenced by '@llvm-project//mlir:MLIRBindingsPythonCore'
-Loading: 68 packages loaded
-DEBUG: Rule 'pybind11_bazel' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "a58c25c5fe063a70057fa20cb8e15f3bda19b1030305bcb533af1e45f36a4a55"
-DEBUG: Repository pybind11_bazel instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/openxla__shardy/WORKSPACE:76:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-DEBUG: Rule 'pybind11' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "51cd8810785ebac392bceb3a2394356e2b9cb3dc7bf94e6fcbf4b0f387b9efac"
-DEBUG: Repository pybind11 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/openxla__shardy/WORKSPACE:83:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/llvm-project/mlir/BUILD.bazel:1068:11: no such package '@nanobind//': The repository '@nanobind' could not be resolved: Repository '@nanobind' is not defined and referenced by '@llvm-project//mlir:MLIRBindingsPythonNanobindHeadersAndDeps'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/122c5d2983b85ae582ebdadd25223e7e/external/llvm-project/mlir/BUILD.bazel:1113:11: no such package '@nanobind//': The repository '@nanobind' could not be resolved: Repository '@nanobind' is not defined and referenced by '@llvm-project//mlir:MLIRBindingsPythonCore'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
@@ -125,7 +101,6 @@ Read 71000 lines from bazel query output...
 Read 72000 lines from bazel query output...
 Read 73000 lines from bazel query output...
 Read 74000 lines from bazel query output...
-Loading: 70 packages loaded
 Read 75000 lines from bazel query output...
 Read 76000 lines from bazel query output...
 Read 77000 lines from bazel query output...

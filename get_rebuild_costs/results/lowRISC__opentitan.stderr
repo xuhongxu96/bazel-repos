@@ -1,93 +1,7 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 215 packages loaded
-    currently loading: sw/host/tests/chip/jtag ... (200 packages)
-Loading: 423 packages loaded
-    currently loading: sw/host/tests/chip/jtag ... (136 packages)
-Loading: 427 packages loaded
-    currently loading: sw/host/tests/chip/jtag ... (132 packages)
-Loading: 609 packages loaded
-    currently loading: @@rules_pkg+// ... (12 packages)
-Loading: 913 packages loaded
-Loading: 924 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 931 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 973 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1005 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1006 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1008 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-WARNING:root:Closest bitstream to HEAD is 9a6019fc7c6b586945a9a720f3b70d75a873047a.
-Loading: 1008 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1010 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-WARNING:root:jsonschema not found, skipping schema validation
-Loading: 1045 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1077 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1108 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1126 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1133 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1133 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1134 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1135 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1135 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1135 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1135 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1135 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1135 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1135 packages loaded
-    currently loading: @@+serde_annotate+lowrisc_serde_annotate//serde_annotate
-Loading: 1170 packages loaded
-    currently loading: @@rules_rust++crate+crate_index__heck-0.5.0// ... (2 packages)
-Loading: 1375 packages loaded
-Loading: 1381 packages loaded
-DEBUG: Rule 'toolchains_llvm++llvm+llvm_toolchain_llvm' indicated that a canonical reproducible form can be obtained by modifying arguments _action_listener = <unknown object com.google.devtools.build.lib.packages.Attribute$LabelListLateBoundDefault>, _config_dependencies = [], _configure = False, _environ = [], _original_name = "llvm_toolchain_llvm"
-DEBUG: Repository toolchains_llvm++llvm+llvm_toolchain_llvm instantiated at:
-  <builtin>: in <toplevel>
-Repository rule llvm defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d0446fb9b6476c8e62e19435bb079f90/external/toolchains_llvm+/toolchain/rules.bzl:27:23: in <toplevel>
+Loading: 559 packages loaded
 Loading: 1382 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
@@ -607,7 +521,3 @@ Read 514000 lines from bazel query output...
 Read 515000 lines from bazel query output...
 Read 516000 lines from bazel query output...
 Read 517000 lines from bazel query output...
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

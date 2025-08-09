@@ -1,103 +1,9 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 92 packages loaded
-    currently loading: public/data_loading
-Loading: 366 packages loaded
-    currently loading: @com_github_grpc_grpc// ... (9 packages)
-Loading: 486 packages loaded
-    currently loading: @com_github_cncf_udpa//xds/data/orca/v3 ... (2 packages)
-DEBUG: Rule 'com_googlesource_chromium_base_trace_event_common' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "20aabe1eac55e248a73c8bc47a2e63a578ff706dd3d1d070316de30c911975e7"
-DEBUG: Repository com_googlesource_chromium_base_trace_event_common instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/privacysandbox__protected-auction-key-value-service/WORKSPACE:39:24: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/google_privacysandbox_servers_common/third_party/deps2.bzl:147:14: in deps2
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/google_privacysandbox_servers_common/build_defs/cc/v8.bzl:55:17: in import_v8
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-Loading: 625 packages loaded
-DEBUG: Rule 'com_google_googleurl' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "29d12334583a8b7e7e484ec14e0a7af82a68875c00c221e39fd2ef33140fc6d0"
-DEBUG: Repository com_google_googleurl instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/privacysandbox__protected-auction-key-value-service/WORKSPACE:39:24: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/google_privacysandbox_servers_common/third_party/deps2.bzl:151:17: in deps2
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/google_privacysandbox_servers_common/third_party/deps2.bzl:101:10: in _quiche_deps
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-Loading: 655 packages loaded
-Loading: 665 packages loaded
-    currently loading: @com_google_protobuf_for_closure//
-Loading: 673 packages loaded
-    currently loading: @latency_benchmark_pandas//
-Loading: 679 packages loaded
-Loading: 683 packages loaded
-Loading: 684 packages loaded
-Loading: 685 packages loaded
-Loading: 686 packages loaded
-Loading: 691 packages loaded
-Loading: 693 packages loaded
-Loading: 700 packages loaded
-Loading: 700 packages loaded
-DEBUG: Rule 'com_googlesource_chromium_icu' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "93095b23ae3bcc7251d7a927bed6558cab41c180e6bed481a3f63a272331ab81"
-DEBUG: Repository com_googlesource_chromium_icu instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/privacysandbox__protected-auction-key-value-service/WORKSPACE:39:24: in <toplevel>
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/google_privacysandbox_servers_common/third_party/deps2.bzl:147:14: in deps2
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/google_privacysandbox_servers_common/build_defs/cc/v8.bzl:36:17: in import_v8
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/74bd719853ef3a62bb29ab9fd5ddb089/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-Loading: 702 packages loaded
-Loading: 702 packages loaded
-Loading: 702 packages loaded
-Loading: 702 packages loaded
-Loading: 702 packages loaded
-Loading: 702 packages loaded
-Loading: 702 packages loaded
-Loading: 704 packages loaded
-Loading: 704 packages loaded
-Loading: 704 packages loaded
+Loading: 598 packages loaded
+    currently loading: @aws_sdk_cpp// ... (11 packages)
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -115,7 +21,6 @@ Read 13000 lines from bazel query output...
 Read 14000 lines from bazel query output...
 Read 15000 lines from bazel query output...
 Read 16000 lines from bazel query output...
-Loading: 705 packages loaded
 Read 17000 lines from bazel query output...
 Read 18000 lines from bazel query output...
 Read 19000 lines from bazel query output...
@@ -434,7 +339,3 @@ Read 331000 lines from bazel query output...
 Read 332000 lines from bazel query output...
 Read 333000 lines from bazel query output...
 Loading: 705 packages loaded
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

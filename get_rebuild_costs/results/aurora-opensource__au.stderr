@@ -1,42 +1,24 @@
-2025/08/09 04:26:22 Downloading https://releases.bazel.build/6.0.0/release/bazel-6.0.0-linux-x86_64...
-Downloading https://releases.bazel.build/6.0.0/release/bazel-6.0.0-linux-x86_64...
-Downloading https://releases.bazel.build/6.0.0/release/bazel-6.0.0-linux-x86_64.sha256...
-Extracting Bazel installation...
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 42 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
-Loading: 45 packages loaded
-Loading: 47 packages loaded
-Loading: 63 packages loaded
-Loading: 67 packages loaded
-Loading: 67 packages loaded
-Loading: 76 packages loaded
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/01234b8bebe765e85d04a928db086ebb/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

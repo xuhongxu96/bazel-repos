@@ -1,40 +1,13 @@
 Starting local Bazel server (8.1.0) and connecting to it...
  no actions running
- no actions running
-DEBUG: Rule 'hedron_compile_commands+' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-twHI8300PvX9eTiGi14d5+qtNaJ1xF0jW/6SSg1D738="
-DEBUG: Repository hedron_compile_commands+ instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/bazel_tools/tools/build_defs/repo/http.bzl:392:31: in <toplevel>
 WARNING: For repository 'com_google_protobuf', the root module requires module version protobuf@28.2, but got protobuf@29.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'rules_python', the root module requires module version rules_python@0.40.0, but got rules_python@1.1.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
  no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 359 packages loaded
-    currently loading: pw_bluetooth_sapphire/fuchsia/bt_host ... (114 packages)
 WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/targets/lm3s6965evb_qemu/py/BUILD.bazel:25:10: target 'qemu-system-arm' is both a rule and a file; please choose another name for the rule
-Loading: 447 packages loaded
-    currently loading: pw_bluetooth_sapphire/fuchsia/bt_host ... (26 packages)
-Loading: 448 packages loaded
-    currently loading: pw_bluetooth_sapphire/fuchsia/bt_host ... (25 packages)
-Loading: 448 packages loaded
-    currently loading: pw_bluetooth_sapphire/fuchsia/bt_host ... (25 packages)
-Loading: 450 packages loaded
-    currently loading: pw_bluetooth_sapphire/fuchsia/bt_host ... (23 packages)
-Loading: 473 packages loaded
-INFO: Repository +_repo_rules3+macos_sysroot instantiated at:
-  <builtin>: in <toplevel>
-Repository rule xcode_sdk_repository defined at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/xcode.bzl:42:39: in <toplevel>
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/xcode.bzl:34:37: An error occurred during the fetch of repository '+_repo_rules3+macos_sysroot':
-   Traceback (most recent call last):
-	File "/data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/xcode.bzl", line 34, column 37, in _xcode_repository_impl
-		"`select()` statement." % (repository_ctx.os,),
-Error: not all arguments converted during string formatting
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_thread_threadx/BUILD.bazel:164:11: no such target '//pw_thread:thread_cc.pwpb': target 'thread_cc.pwpb' not declared in package 'pw_thread' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_thread/BUILD.bazel (did you mean thread_pwpb?) and referenced by '//pw_thread_threadx:snapshot'
+Loading: 472 packages loaded
+    currently loading: 
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_jvm_external+/private/extensions/maven.bzl:155:14: The maven repository 'maven' is used in two different bazel modules, originally in 'protobuf' and now in 'bazel_worker_java'
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_jvm_external+/private/extensions/maven.bzl:155:14: The maven repository 'maven' is used in two different bazel modules, originally in 'protobuf' and now in 'bazel_worker_java'
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_jvm_external+/private/extensions/maven.bzl:155:14: The maven repository 'maven' is used in two different bazel modules, originally in 'protobuf' and now in 'bazel_worker_java'
@@ -46,56 +19,38 @@ Bazel dependency version requested in MODULE.bazel: 0.52.0
 Go module version requested in go.mod: 0.50.1
 Please resolve this mismatch to prevent discrepancies between native Go and Bazel builds
 
-Loading: 1404 packages loaded
-    currently loading: @@rules_rust++i+rrra__linux-raw-sys-0.3.8// ... (2 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/targets/emcraft_sf2_som/BUILD.bazel:23:11: no such target '//third_party/smartfusion_mss:smartfusion_mss': target 'smartfusion_mss' not declared in package 'third_party/smartfusion_mss' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/third_party/smartfusion_mss/BUILD.bazel and referenced by '//targets/emcraft_sf2_som:pre_init'
-Loading: 1961 packages loaded
-Loading: 2115 packages loaded
-Loading: 2155 packages loaded
-Loading: 2191 packages loaded
-Loading: 2264 packages loaded
-Loading: 2390 packages loaded
-Loading: 2507 packages loaded
-Loading: 2644 packages loaded
-Loading: 2796 packages loaded
-Loading: 2897 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_allocator/BUILD.bazel:1239:13: no such target '//pw_allocator/size_report:unique_ptr': target 'unique_ptr' not declared in package 'pw_allocator/size_report' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_allocator/size_report/BUILD.bazel and referenced by '//pw_allocator:unique_ptr_size_report'
-Loading: 3037 packages loaded
-Loading: 3320 packages loaded
-Loading: 3379 packages loaded
-Loading: 3383 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_probe_rs++probe_rs+probe_rs/BUILD:16:18: no such target '@@rules_probe_rs++probe_rs+probe_rs_tools_x86_64_pc_windows_msvc//:probe-rs': target 'probe-rs' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_probe_rs++probe_rs+probe_rs_tools_x86_64_pc_windows_msvc/BUILD.bazel and referenced by '@@rules_probe_rs++probe_rs+probe_rs//:probe-rs'
-Loading: 3385 packages loaded
-Loading: 3385 packages loaded
+INFO: Repository +_repo_rules3+macos_sysroot instantiated at:
+  <builtin>: in <toplevel>
+Repository rule xcode_sdk_repository defined at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/xcode.bzl:42:39: in <toplevel>
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/xcode.bzl:34:37: An error occurred during the fetch of repository '+_repo_rules3+macos_sysroot':
+   Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/xcode.bzl", line 34, column 37, in _xcode_repository_impl
+		"`select()` statement." % (repository_ctx.os,),
+Error: not all arguments converted during string formatting
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_android+/tools/jdk/BUILD:41:15: no such target '@@rules_android++android_sdk_repository_extension+androidsdk//:core-for-system-modules-jar': target 'core-for-system-modules-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_android++android_sdk_repository_extension+androidsdk/BUILD.bazel and referenced by '@@rules_android+//tools/jdk:bootclasspath_android_only'
-Loading: 3446 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:365:6: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:sysroot_root'
-Loading: 3510 packages loaded
-Loading: 3515 packages loaded
-Loading: 3515 packages loaded
-Loading: 3515 packages loaded
-Loading: 3516 packages loaded
-Loading: 3516 packages loaded
-Loading: 3516 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:374:13: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:_host_toolchain_config'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
-Loading: 3517 packages loaded
-Loading: 3517 packages loaded
-Loading: 3518 packages loaded
-Loading: 3518 packages loaded
+Loading: 1754 packages loaded
+    currently loading: @@protobuf+//java/core ... (58 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_allocator/BUILD.bazel:1239:13: no such target '//pw_allocator/size_report:unique_ptr': target 'unique_ptr' not declared in package 'pw_allocator/size_report' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_allocator/size_report/BUILD.bazel and referenced by '//pw_allocator:unique_ptr_size_report'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_thread_threadx/BUILD.bazel:164:11: no such target '//pw_thread:thread_cc.pwpb': target 'thread_cc.pwpb' not declared in package 'pw_thread' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_thread/BUILD.bazel (did you mean thread_pwpb?) and referenced by '//pw_thread_threadx:snapshot'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/targets/emcraft_sf2_som/BUILD.bazel:23:11: no such target '//third_party/smartfusion_mss:smartfusion_mss': target 'smartfusion_mss' not declared in package 'third_party/smartfusion_mss' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/third_party/smartfusion_mss/BUILD.bazel and referenced by '//targets/emcraft_sf2_som:pre_init'
+Loading: 3515 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:365:6: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:sysroot_root'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:374:13: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:_host_toolchain_config'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_allocator/BUILD.bazel:1239:13: no such target '//pw_allocator/size_report:unique_ptr': target 'unique_ptr' not declared in package 'pw_allocator/size_report' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_allocator/size_report/BUILD.bazel and referenced by '//pw_allocator:unique_ptr_size_report'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/targets/emcraft_sf2_som/BUILD.bazel:23:11: no such target '//third_party/smartfusion_mss:smartfusion_mss': target 'smartfusion_mss' not declared in package 'third_party/smartfusion_mss' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/third_party/smartfusion_mss/BUILD.bazel and referenced by '//targets/emcraft_sf2_som:pre_init'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_probe_rs++probe_rs+probe_rs/BUILD:16:18: no such target '@@rules_probe_rs++probe_rs+probe_rs_tools_x86_64_pc_windows_msvc//:probe-rs': target 'probe-rs' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/68f15afed3af97fe5c93dcad6a71cd01/external/rules_probe_rs++probe_rs+probe_rs_tools_x86_64_pc_windows_msvc/BUILD.bazel and referenced by '@@rules_probe_rs++probe_rs+probe_rs//:probe-rs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_thread_threadx/BUILD.bazel:164:11: no such target '//pw_thread:thread_cc.pwpb': target 'thread_cc.pwpb' not declared in package 'pw_thread' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_thread/BUILD.bazel (did you mean thread_pwpb?) and referenced by '//pw_thread_threadx:snapshot'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/targets/emcraft_sf2_som/BUILD.bazel:23:11: no such target '//third_party/smartfusion_mss:smartfusion_mss': target 'smartfusion_mss' not declared in package 'third_party/smartfusion_mss' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/third_party/smartfusion_mss/BUILD.bazel and referenced by '//targets/emcraft_sf2_som:pre_init'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:365:6: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:sysroot_root'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:374:13: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:_host_toolchain_config'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:365:6: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:sysroot_root'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__pigweed/pw_toolchain/host_clang/BUILD.bazel:341:19: no such package '@@+_repo_rules3+macos_sysroot//': not all arguments converted during string formatting and referenced by '//pw_toolchain/host_clang:builtin_module_map'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 3519 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -860,7 +815,3 @@ Read 760000 lines from bazel query output...
 Read 761000 lines from bazel query output...
 Read 762000 lines from bazel query output...
 Read 763000 lines from bazel query output...
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,29 +1,16 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
-DEBUG: Rule 'libpfm+' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-ZhYTfeJYsxEQVkZKmfU/Pwr15WJ92Gq/257IpsXGcvk="
-DEBUG: Repository libpfm+ instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a2e650b930072d5c36800a694a0cd801/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 12 packages loaded
-    currently loading: fleetbench/compression/generate_corpora ... (3 packages)
-Loading: 165 packages loaded
-DEBUG: Rule '+_repo_rules+chromium_zlib' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-OgctG17EGYoLlt/dArcvahjpwOotMzbdSUrSENk2n64="
-DEBUG: Repository +_repo_rules+chromium_zlib instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a2e650b930072d5c36800a694a0cd801/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
-Loading: 229 packages loaded
-Loading: 229 packages loaded
+Loading: 178 packages loaded
+    currently loading: @@grpc+// ... (3 packages)
+Loading: 261 packages loaded
 INFO: Repository +_repo_rules+libnuma instantiated at:
   <builtin>: in <toplevel>
 Repository rule http_archive defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/a2e650b930072d5c36800a694a0cd801/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+INFO: repository @@+_repo_rules+libnuma' used the following cache hits instead of downloading the corresponding file.
+ * Hash 'c7aebfc925f2c3827e3cb607092065f3a48986a16aea1bb10ca70937edac278b' for https://github.com/numactl/numactl/archive/refs/tags/v2.0.19.zip
+If the definition of 'repository @@+_repo_rules+libnuma' was updated, verify that the hashes were also updated.
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a2e650b930072d5c36800a694a0cd801/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:21: An error occurred during the fetch of repository '+_repo_rules+libnuma':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a2e650b930072d5c36800a694a0cd801/external/bazel_tools/tools/build_defs/repo/http.bzl", line 152, column 10, in _http_archive_impl
@@ -51,46 +38,6 @@ Makefile.am:9:   its definition is in aclocal's search path.
 Makefile.am: installing 'build-aux/depcomp'
 parallel-tests: installing 'build-aux/test-driver'
 autoreconf: error: automake failed with exit status: 1
-Loading: 229 packages loaded
-Loading: 232 packages loaded
-Loading: 234 packages loaded
-Loading: 240 packages loaded
-Loading: 242 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
-Loading: 245 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__fleetbench/fleetbench/BUILD:104:11: no such package '@@+_repo_rules+libnuma//': Error applying patch command ./autogen.sh:
 configure.ac:23: warning: The macro `AC_TRY_COMPILE' is obsolete.
 configure.ac:23: You should run autoupdate.
@@ -113,20 +60,6 @@ Makefile.am: installing 'build-aux/depcomp'
 parallel-tests: installing 'build-aux/test-driver'
 autoreconf: error: automake failed with exit status: 1
  and referenced by '//fleetbench:benchmark_main'
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 247 packages loaded
-Loading: 259 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__fleetbench/fleetbench/BUILD:104:11: no such package '@@+_repo_rules+libnuma//': Error applying patch command ./autogen.sh:
 configure.ac:23: warning: The macro `AC_TRY_COMPILE' is obsolete.
 configure.ac:23: You should run autoupdate.
@@ -224,6 +157,7 @@ Read 69000 lines from bazel query output...
 Read 70000 lines from bazel query output...
 Read 71000 lines from bazel query output...
 Read 72000 lines from bazel query output...
+Loading: 261 packages loaded
 Read 73000 lines from bazel query output...
 Read 74000 lines from bazel query output...
 Read 75000 lines from bazel query output...

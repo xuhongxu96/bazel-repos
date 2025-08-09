@@ -1,7 +1,5 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/GoogleCloudPlatform__anthos-service-mesh-packages/BUILD", line 4, column 20, in <toplevel>
@@ -15,7 +13,5 @@ Error in glob: glob pattern 'node_modules/**' didn't match anything, but allow_e
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 INFO: Empty results
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Failed to parse bazel query xml.
+<?xml version="1.1" encoding="UTF-8" standalone="no"?><query version="2"/>

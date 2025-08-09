@@ -1,57 +1,32 @@
-2025/08/08 17:50:32 Downloading https://releases.bazel.build/7.3.1/release/bazel-7.3.1-linux-x86_64...
-Extracting Bazel installation...
-Starting local Bazel server and connecting to it...
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
-[0m checking cached actions
 [32mLoading:[0m 0 packages loaded
-[32mLoading:[0m 23 packages loaded
-[35mWARNING: [0mDownload from https://zlib.net/zlib-1.2.13.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-[32mLoading:[0m 47 packages loaded
-    currently loading: @@bazel_tools//third_party/def_parser
-[33mDEBUG: [0mRule 'snappy' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "2c94e11145f0b7b184b831577c93e5a41c4c0346" and dropping ["visibility", "branch"]
-[33mDEBUG: [0mRepository snappy instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:63:23: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/repositories.bzl:40:24: in openresty_repositories
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/snappy/snappy_repositories.bzl:8:10: in snappy_repositories
-  /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/utils.bzl:268:18: in maybe
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/git.bzl:189:33: in <toplevel>
-[32mLoading:[0m 65 packages loaded
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/snappy/BUILD.bazel:112:8: no such package 'third_party/benchmark': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/third_party/benchmark and referenced by '//build/openresty/snappy:snappy_benchmark'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/snappy/BUILD.bazel:123:8: no such package 'third_party/googletest': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/third_party/googletest and referenced by '//build/openresty/snappy:snappy_unittest'
-[32mLoading:[0m 72 packages loaded
-    currently loading: @@atc_router_crate_index__cidr-0.3.0//
+[35mWARNING: [0mDownload from https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-x86_64.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+[32mINFO: [0mRepository wasmer-macos-x86_64 instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:63:23: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/repositories.bzl:37:23: in openresty_repositories
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/wasmx/wasmx_repositories.bzl:120:25: in wasmx_repositories
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
+[31m[1mERROR: [0mAn error occurred during the fetch of repository 'wasmer-macos-x86_64':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-x86_64/temp9353359849721867149/wasmer-darwin-x86_64.tar.gz: GET returned 404 Not Found
+[35mWARNING: [0mDownload from https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-x86_64.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+[32mINFO: [0mRepository wasmer-linux-x86_64 instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:63:23: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/repositories.bzl:37:23: in openresty_repositories
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/wasmx/wasmx_repositories.bzl:120:25: in wasmx_repositories
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
+[31m[1mERROR: [0mAn error occurred during the fetch of repository 'wasmer-linux-x86_64':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-x86_64/temp297959379254208209/wasmer-linux-x86_64.tar.gz: GET returned 404 Not Found
 [32mINFO: [0mRepository kong_admin_gui instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:85:19: in <toplevel>
   /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/repositories.bzl:91:29: in build_repositories
@@ -69,82 +44,51 @@ Alternatively, populate the GH_TOKEN environment variable with a GitHub API auth
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/BUILD.bazel:212:13: no such package '@@kong_admin_gui//': Failed to download release (GITHUB_TOKEN is not set, is this a private repo?): To get started with GitHub CLI, please run:  gh auth login
 Alternatively, populate the GH_TOKEN environment variable with a GitHub API authentication token.
 , exit: 4 and referenced by '//build:install-webui-dists'
-[32mLoading:[0m 92 packages loaded
-[32mLoading:[0m 96 packages loaded
-[35mWARNING: [0mDownload from https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-x86_64.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-[32mINFO: [0mRepository wasmer-macos-x86_64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:63:23: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/repositories.bzl:37:23: in openresty_repositories
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/wasmx/wasmx_repositories.bzl:120:25: in wasmx_repositories
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
-[31m[1mERROR: [0mAn error occurred during the fetch of repository 'wasmer-macos-x86_64':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
-		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-x86_64/temp13131170080265099583/wasmer-darwin-x86_64.tar.gz: GET returned 404 Not Found
-[32mLoading:[0m 98 packages loaded
-[32mLoading:[0m 98 packages loaded
-[32mLoading:[0m 98 packages loaded
-[32mLoading:[0m 99 packages loaded
-[35mWARNING: [0mDownload from https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-x86_64.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-[32mINFO: [0mRepository wasmer-linux-x86_64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:63:23: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/repositories.bzl:37:23: in openresty_repositories
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/wasmx/wasmx_repositories.bzl:120:25: in wasmx_repositories
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
-[31m[1mERROR: [0mAn error occurred during the fetch of repository 'wasmer-linux-x86_64':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
-		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-x86_64/temp12946161093382115809/wasmer-linux-x86_64.tar.gz: GET returned 404 Not Found
-[32mLoading:[0m 102 packages loaded
-[32mINFO: [0mRepository wasmer-linux-aarch64 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:63:23: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/repositories.bzl:37:23: in openresty_repositories
-  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/wasmx/wasmx_repositories.bzl:120:25: in wasmx_repositories
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
-[31m[1mERROR: [0mAn error occurred during the fetch of repository 'wasmer-linux-aarch64':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
-		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp7914934337756568002/wasmer-linux-aarch64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp7914934337756568002: Prefix "wasmer-linux-aarch64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin".
-[32mLoading:[0m 106 packages loaded
 [32mINFO: [0mRepository wasmer-macos-aarch64 instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:63:23: in <toplevel>
   /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/repositories.bzl:37:23: in openresty_repositories
   /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/wasmx/wasmx_repositories.bzl:120:25: in wasmx_repositories
 Repository rule http_archive defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
+[32mINFO: [0mrepository @@wasmer-macos-aarch64' used the following cache hits instead of downloading the corresponding file.
+ * Hash '8534b278c1006ccc7f128bd1611636e12a33b9e625344331f9be3b56a5bb3286' for https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-arm64.tar.gz
+If the definition of 'repository @@wasmer-macos-aarch64' was updated, verify that the hashes were also updated.
 [31m[1mERROR: [0mAn error occurred during the fetch of repository 'wasmer-macos-aarch64':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
 		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp2015441299151870462/wasmer-darwin-arm64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp2015441299151870462: Prefix "wasmer-darwin-arm64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin".
-[32mLoading:[0m 106 packages loaded
-    currently loading: @@v8-linux-aarch64//
-[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-linux-x86_64//': java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-x86_64/temp12946161093382115809/wasmer-linux-x86_64.tar.gz: GET returned 404 Not Found and referenced by '@@openresty//:wasm_runtime'
-[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-linux-aarch64//': java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp7914934337756568002/wasmer-linux-aarch64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp7914934337756568002: Prefix "wasmer-linux-aarch64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin". and referenced by '@@openresty//:wasm_runtime'
-[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-macos-x86_64//': java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-x86_64/temp13131170080265099583/wasmer-darwin-x86_64.tar.gz: GET returned 404 Not Found and referenced by '@@openresty//:wasm_runtime'
-[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-macos-aarch64//': java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp2015441299151870462/wasmer-darwin-arm64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp2015441299151870462: Prefix "wasmer-darwin-arm64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin". and referenced by '@@openresty//:wasm_runtime'
-[32mLoading:[0m 107 packages loaded
-[32mLoading:[0m 107 packages loaded
-    currently loading: @@aarch64-rhel8-linux-gnu-gcc-8//
-[32mLoading:[0m 112 packages loaded
+Error in download_and_extract: java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp14442348630927391699/wasmer-darwin-arm64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp14442348630927391699: Prefix "wasmer-darwin-arm64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin".
+[32mINFO: [0mRepository wasmer-linux-aarch64 instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/WORKSPACE:63:23: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/repositories.bzl:37:23: in openresty_repositories
+  /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/wasmx/wasmx_repositories.bzl:120:25: in wasmx_repositories
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
+[32mINFO: [0mrepository @@wasmer-linux-aarch64' used the following cache hits instead of downloading the corresponding file.
+ * Hash 'c212eebdf1cc6bf71e7b56d7421eb3494c3a6ab1faf50a55150b7522183d1d36' for https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-aarch64.tar.gz
+If the definition of 'repository @@wasmer-linux-aarch64' was updated, verify that the hashes were also updated.
+[31m[1mERROR: [0mAn error occurred during the fetch of repository 'wasmer-linux-aarch64':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp10573809682260066567/wasmer-linux-aarch64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp10573809682260066567: Prefix "wasmer-linux-aarch64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin".
+[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-linux-x86_64//': java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-x86_64/temp297959379254208209/wasmer-linux-x86_64.tar.gz: GET returned 404 Not Found and referenced by '@@openresty//:wasm_runtime'
+[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-linux-aarch64//': java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp10573809682260066567/wasmer-linux-aarch64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp10573809682260066567: Prefix "wasmer-linux-aarch64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin". and referenced by '@@openresty//:wasm_runtime'
+[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-macos-x86_64//': java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-x86_64/temp9353359849721867149/wasmer-darwin-x86_64.tar.gz: GET returned 404 Not Found and referenced by '@@openresty//:wasm_runtime'
+[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-macos-aarch64//': java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp14442348630927391699/wasmer-darwin-arm64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp14442348630927391699: Prefix "wasmer-darwin-arm64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin". and referenced by '@@openresty//:wasm_runtime'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/snappy/BUILD.bazel:112:8: no such package 'third_party/benchmark': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/third_party/benchmark and referenced by '//build/openresty/snappy:snappy_benchmark'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/openresty/snappy/BUILD.bazel:123:8: no such package 'third_party/googletest': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/third_party/googletest and referenced by '//build/openresty/snappy:snappy_unittest'
-[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-linux-x86_64//': java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-x86_64/temp12946161093382115809/wasmer-linux-x86_64.tar.gz: GET returned 404 Not Found and referenced by '@@openresty//:wasm_runtime'
-[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-linux-aarch64//': java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp7914934337756568002/wasmer-linux-aarch64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp7914934337756568002: Prefix "wasmer-linux-aarch64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin". and referenced by '@@openresty//:wasm_runtime'
-[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-macos-x86_64//': java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-x86_64/temp13131170080265099583/wasmer-darwin-x86_64.tar.gz: GET returned 404 Not Found and referenced by '@@openresty//:wasm_runtime'
-[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-macos-aarch64//': java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp2015441299151870462/wasmer-darwin-arm64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp2015441299151870462: Prefix "wasmer-darwin-arm64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin". and referenced by '@@openresty//:wasm_runtime'
 [31m[1mERROR: [0m/data/h445xu/repo/bazel-repos/cloned_repos/Kong__kong/build/BUILD.bazel:212:13: no such package '@@kong_admin_gui//': Failed to download release (GITHUB_TOKEN is not set, is this a private repo?): To get started with GitHub CLI, please run:  gh auth login
 Alternatively, populate the GH_TOKEN environment variable with a GitHub API authentication token.
 , exit: 4 and referenced by '//build:install-webui-dists'
+[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-linux-x86_64//': java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-linux-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-x86_64/temp297959379254208209/wasmer-linux-x86_64.tar.gz: GET returned 404 Not Found and referenced by '@@openresty//:wasm_runtime'
+[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-linux-aarch64//': java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp10573809682260066567/wasmer-linux-aarch64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-linux-aarch64/temp10573809682260066567: Prefix "wasmer-linux-aarch64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin". and referenced by '@@openresty//:wasm_runtime'
+[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-macos-x86_64//': java.io.IOException: Error downloading [https://github.com/wasmerio/wasmer/releases/download/v3.1.1/wasmer-darwin-x86_64.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-x86_64/temp9353359849721867149/wasmer-darwin-x86_64.tar.gz: GET returned 404 Not Found and referenced by '@@openresty//:wasm_runtime'
+[31m[1mERROR: [0m/data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/openresty/BUILD.bazel:256:13: no such package '@@wasmer-macos-aarch64//': java.io.IOException: Error extracting /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp14442348630927391699/wasmer-darwin-arm64.tar.gz to /data/h445xu/.cache/bazel/_bazel_hongxu/7737ef5f1b9ff62e6eb2440ca2df8f98/external/wasmer-macos-aarch64/temp14442348630927391699: Prefix "wasmer-darwin-arm64" was given, but not found in the archive. Here are possible prefixes for this archive: "include", "lib", "bin". and referenced by '@@openresty//:wasm_runtime'
 [31m[1mERROR: [0mEvaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+[32mLoading:[0m 0 packages loaded
 [35mWARNING: [0m--keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
@@ -153,7 +97,6 @@ Read 3000 lines from bazel query output...
 Read 4000 lines from bazel query output...
 Read 5000 lines from bazel query output...
 Read 6000 lines from bazel query output...
-[32mLoading:[0m 113 packages loaded
 Read 7000 lines from bazel query output...
 Read 8000 lines from bazel query output...
 Read 9000 lines from bazel query output...
@@ -321,5 +264,5 @@ Read 170000 lines from bazel query output...
 Read 171000 lines from bazel query output...
 Read 172000 lines from bazel query output...
 Read 173000 lines from bazel query output...
-[32mLoading:[0m 113 packages loaded
+[32mLoading:[0m 0 packages loaded
 [0m

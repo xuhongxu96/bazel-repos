@@ -1,133 +1,26 @@
-Starting local Bazel server (8.3.1) and connecting to it...
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-    currently loading: misc/codegen/templates ... (110 packages)
 ERROR: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist.
-Loading: 53 packages loaded
-    currently loading: javascript/externs ... (76 packages)
-Loading: 101 packages loaded
-    currently loading: java/kotlin-extractor ... (28 packages)
-Loading: 126 packages loaded
-    currently loading: java/kotlin-extractor/defaults ... (3 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/csharp/BUILD.bazel:25:10: no such package '@@semmle_code+//extractor-asp': BUILD file not found in directory 'extractor-asp' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//csharp:extractor-asp'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/BUILD.bazel:27:12: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript:javascript-all'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/3rdparty/py_deps/BUILD.bazel:106:6: no such package '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]//': The repository '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]' could not be resolved: No repository visible as '@vendor_py__tsp-0.19.0' from main repository and referenced by '//misc/bazel/3rdparty/py_deps:tsp-0.19.0'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/3rdparty/py_deps/BUILD.bazel:112:6: no such package '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]//': The repository '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]' could not be resolved: No repository visible as '@vendor_py__tsp-0.19.0' from main repository and referenced by '//misc/bazel/3rdparty/py_deps:tsp'
-Loading: 230 packages loaded
-    currently loading: javascript/extractor ... (6 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/csharp/scripts/BUILD.bazel:16:8: no such package '@@semmle_code+//': BUILD file not found in directory '' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//csharp/scripts:git-assembly-info-src'
-Loading: 263 packages loaded
-    currently loading: javascript/extractor ... (3 packages)
-Loading: 290 packages loaded
-    currently loading: javascript/extractor ... (6 packages)
-Loading: 376 packages loaded
-    currently loading: javascript/extractor ... (4 packages)
-Loading: 491 packages loaded
-    currently loading: javascript/extractor ... (2 packages)
-Loading: 508 packages loaded
-    currently loading: javascript/extractor ... (2 packages)
-Loading: 509 packages loaded
-    currently loading: javascript/extractor
-Loading: 514 packages loaded
-    currently loading: javascript/extractor
-Loading: 534 packages loaded
-    currently loading: javascript/extractor
-Loading: 598 packages loaded
-    currently loading: javascript/extractor
-Loading: 644 packages loaded
-    currently loading: javascript/extractor
-Loading: 647 packages loaded
-    currently loading: javascript/extractor
-Loading: 649 packages loaded
-    currently loading: javascript/extractor
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/extractor/test/com/semmle/js/extractor/test/BUILD.bazel:1:10: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript/extractor/test/com/semmle/js/extractor/test:test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/extractor/test/com/semmle/js/extractor/test/BUILD.bazel:1:10: no such package '@@semmle_code+//resources/lib/java/DO_NOT_DISTRIBUTE': BUILD file not found in directory 'resources/lib/java/DO_NOT_DISTRIBUTE' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//javascript/extractor/test/com/semmle/js/extractor/test:test'
-Loading: 683 packages loaded
-    currently loading: javascript/extractor
-Loading: 686 packages loaded
-    currently loading: javascript/extractor
-Loading: 690 packages loaded
-    currently loading: javascript/extractor
-Loading: 690 packages loaded
-    currently loading: javascript/extractor
-Loading: 691 packages loaded
-    currently loading: javascript/extractor
-Loading: 695 packages loaded
-    currently loading: javascript/extractor
-Loading: 697 packages loaded
-    currently loading: javascript/extractor
-Loading: 699 packages loaded
-    currently loading: javascript/extractor
-Loading: 715 packages loaded
-    currently loading: javascript/extractor
-Loading: 772 packages loaded
-    currently loading: javascript/extractor
-Loading: 871 packages loaded
-    currently loading: javascript/extractor
-Loading: 897 packages loaded
-    currently loading: javascript/extractor
-Loading: 909 packages loaded
-    currently loading: javascript/extractor
-Loading: 922 packages loaded
-    currently loading: javascript/extractor
-Loading: 936 packages loaded
-    currently loading: javascript/extractor
-Loading: 960 packages loaded
-    currently loading: javascript/extractor
-Loading: 996 packages loaded
-    currently loading: javascript/extractor
-Loading: 1066 packages loaded
-    currently loading: javascript/extractor ... (2 packages)
-Loading: 1139 packages loaded
-    currently loading: javascript/extractor
-Loading: 1139 packages loaded
-    currently loading: javascript/extractor
-Loading: 1139 packages loaded
-    currently loading: javascript/extractor
-Loading: 1141 packages loaded
-    currently loading: javascript/extractor
-Loading: 1141 packages loaded
-    currently loading: javascript/extractor
-Loading: 1155 packages loaded
-    currently loading: javascript/extractor
-Loading: 1178 packages loaded
-    currently loading: javascript/extractor
-INFO: Repository +kotlin_extractor_deps+kotlin-compiler-embeddable-2.1.20-Beta1 instantiated at:
-  <builtin>: in <toplevel>
-Repository rule _kotlin_dep defined at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/java/kotlin-extractor/deps.bzl:35:30: in <toplevel>
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/lfs.bzl:15:17: An error occurred during the fetch of repository '+kotlin_extractor_deps+kotlin-compiler-embeddable-2.1.20-Beta1':
-   Traceback (most recent call last):
-	File "/data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/java/kotlin-extractor/deps.bzl", line 21, column 15, in _kotlin_dep_impl
-		lfs_smudge(repository_ctx, [_get_dep(repository_ctx, name + ".jar")])
-	File "/data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/lfs.bzl", line 32, column 26, in lfs_smudge
-		infos = probe(remote)
-	File "/data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/lfs.bzl", line 15, column 17, in probe
-		fail("git LFS probing failed while instantiating @%s:\n%s" % (repository_ctx.name, res.stderr))
-Error in fail: git LFS probing failed while instantiating @+kotlin_extractor_deps+kotlin-compiler-embeddable-2.1.20-Beta1:
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/52abf80cc561cd3d85b4e67491009987/external/+kotlin_extractor_deps+codeql_kotlin_embeddable/BUILD.bazel:108:23: no such package '@@+kotlin_extractor_deps+kotlin-compiler-embeddable-2.1.20-Beta1//': git LFS probing failed while instantiating @+kotlin_extractor_deps+kotlin-compiler-embeddable-2.1.20-Beta1:
- and referenced by '@@+kotlin_extractor_deps+codeql_kotlin_embeddable//:codeql-extractor-kotlin-embeddable-2.1.20-Beta1'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/csharp/scripts/BUILD.bazel:16:8: no such package '@@semmle_code+//': BUILD file not found in directory '' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//csharp/scripts:git-assembly-info-src'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/csharp/BUILD.bazel:25:10: no such package '@@semmle_code+//extractor-asp': BUILD file not found in directory 'extractor-asp' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//csharp:extractor-asp'
-Loading: 1178 packages loaded
-    currently loading: javascript/extractor
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/csharp/BUILD.bazel:25:10: no such package '@@semmle_code+//extractor-asp': BUILD file not found in directory 'extractor-asp' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//csharp:extractor-asp'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/52abf80cc561cd3d85b4e67491009987/external/+kotlin_extractor_deps+codeql_kotlin_embeddable/BUILD.bazel:108:23: no such package '@@+kotlin_extractor_deps+kotlin-compiler-embeddable-2.1.20-Beta1//': git LFS probing failed while instantiating @+kotlin_extractor_deps+kotlin-compiler-embeddable-2.1.20-Beta1:
- and referenced by '@@+kotlin_extractor_deps+codeql_kotlin_embeddable//:codeql-extractor-kotlin-embeddable-2.1.20-Beta1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/extractor/test/com/semmle/js/extractor/test/BUILD.bazel:1:10: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript/extractor/test/com/semmle/js/extractor/test:test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/BUILD.bazel:27:12: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript:javascript-all'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/extractor/test/com/semmle/js/extractor/test/BUILD.bazel:1:10: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript/extractor/test/com/semmle/js/extractor/test:test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/extractor/test/com/semmle/js/extractor/test/BUILD.bazel:1:10: no such package '@@semmle_code+//resources/lib/java/DO_NOT_DISTRIBUTE': BUILD file not found in directory 'resources/lib/java/DO_NOT_DISTRIBUTE' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//javascript/extractor/test/com/semmle/js/extractor/test:test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/BUILD.bazel:27:12: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript:javascript-all'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/3rdparty/py_deps/BUILD.bazel:112:6: no such package '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]//': The repository '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]' could not be resolved: No repository visible as '@vendor_py__tsp-0.19.0' from main repository and referenced by '//misc/bazel/3rdparty/py_deps:tsp'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/3rdparty/py_deps/BUILD.bazel:106:6: no such package '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]//': The repository '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]' could not be resolved: No repository visible as '@vendor_py__tsp-0.19.0' from main repository and referenced by '//misc/bazel/3rdparty/py_deps:tsp-0.19.0'
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/csharp/scripts/BUILD.bazel:16:8: no such package '@@semmle_code+//': BUILD file not found in directory '' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//csharp/scripts:git-assembly-info-src'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/csharp/BUILD.bazel:25:10: no such package '@@semmle_code+//extractor-asp': BUILD file not found in directory 'extractor-asp' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//csharp:extractor-asp'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/csharp/BUILD.bazel:25:10: no such package '@@semmle_code+//extractor-asp': BUILD file not found in directory 'extractor-asp' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//csharp:extractor-asp'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/extractor/test/com/semmle/js/extractor/test/BUILD.bazel:1:10: no such package '@@semmle_code+//resources/lib/java/DO_NOT_DISTRIBUTE': BUILD file not found in directory 'resources/lib/java/DO_NOT_DISTRIBUTE' of external repository @@semmle_code+. Add a BUILD file to a directory to mark it as a package. and referenced by '//javascript/extractor/test/com/semmle/js/extractor/test:test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/extractor/test/com/semmle/js/extractor/test/BUILD.bazel:1:10: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript/extractor/test/com/semmle/js/extractor/test:test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/extractor/test/com/semmle/js/extractor/test/BUILD.bazel:1:10: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript/extractor/test/com/semmle/js/extractor/test:test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/3rdparty/py_deps/BUILD.bazel:106:6: no such package '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]//': The repository '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]' could not be resolved: No repository visible as '@vendor_py__tsp-0.19.0' from main repository and referenced by '//misc/bazel/3rdparty/py_deps:tsp-0.19.0'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/misc/bazel/3rdparty/py_deps/BUILD.bazel:112:6: no such package '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]//': The repository '@@[unknown repo 'vendor_py__tsp-0.19.0' requested from @@]' could not be resolved: No repository visible as '@vendor_py__tsp-0.19.0' from main repository and referenced by '//misc/bazel/3rdparty/py_deps:tsp'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/github__codeql/javascript/BUILD.bazel:27:12: error loading package 'javascript/extractor': Every .bzl file must have a corresponding package, but '@@semmle_code+//:common.bzl' does not have one. Please create a BUILD file in the same or any parent directory. Note that this BUILD file does not need to do anything except exist. and referenced by '//javascript:javascript-all'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 1 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

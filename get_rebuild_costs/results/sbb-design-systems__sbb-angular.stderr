@@ -1,26 +1,9 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
 Loading: 110 packages loaded
-Loading: 242 packages loaded
-Loading: 383 packages loaded
-Loading: 492 packages loaded
-Loading: 624 packages loaded
-Loading: 742 packages loaded
-    currently loading: @npm__detect-node__2.1.0//
-Loading: 908 packages loaded
-    currently loading: @local_config_cc//
+Loading: 2783 packages loaded
 INFO: Repository rules_browsers_firefox_mac_arm instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/sbb-design-systems__sbb-angular/WORKSPACE:229:23: in <toplevel>
   /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/setup/step_1.bzl:17:32: in rules_browsers_setup_1
@@ -42,7 +25,6 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/sbb-design-systems__sbb-angula
 		fail("Could not extract DMG archive: %s" % exec_result.stderr)
 Error in fail: Could not extract DMG archive: /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/private/convert_dmg_to_zip.sh: line 24: hdiutil: command not found
 cp: cannot stat '/*.app': No such file or directory
-Loading: 1012 packages loaded
 INFO: Repository rules_browsers_firefox_mac instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/sbb-design-systems__sbb-angular/WORKSPACE:229:23: in <toplevel>
   /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/setup/step_1.bzl:17:32: in rules_browsers_setup_1
@@ -50,6 +32,9 @@ INFO: Repository rules_browsers_firefox_mac instantiated at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/firefox/firefox.bzl:17:15: in define_firefox_repositories
 Repository rule browser_repo defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/private/browser_repo.bzl:81:31: in <toplevel>
+INFO: repository @rules_browsers_firefox_mac' used the following cache hits instead of downloading the corresponding file.
+ * Hash '0a7b63ff8894506d3884b3c067ca0a6ceb38d8b6aa412585c3018d3f46c38213' for https://archive.mozilla.org/pub/firefox/releases/137.0.1/mac/en-US/Firefox%20137.0.1.dmg
+If the definition of 'repository @rules_browsers_firefox_mac' was updated, verify that the hashes were also updated.
 ERROR: An error occurred during the fetch of repository 'rules_browsers_firefox_mac':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/private/browser_repo.bzl", line 20, column 17, in _browser_repo_impl
@@ -61,26 +46,12 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/sbb-design-systems__sbb-angula
 		fail("Could not extract DMG archive: %s" % exec_result.stderr)
 Error in fail: Could not extract DMG archive: /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/private/convert_dmg_to_zip.sh: line 24: hdiutil: command not found
 cp: cannot stat '/*.app': No such file or directory
-Loading: 1147 packages loaded
-Loading: 1264 packages loaded
-    currently loading: @npm__duplexify__4.1.3//
-Loading: 1409 packages loaded
-Loading: 1536 packages loaded
-Loading: 1667 packages loaded
-Loading: 1813 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/firefox/BUILD.bazel:6:14: no such package '@rules_browsers_firefox_mac//': Could not extract DMG archive: /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/private/convert_dmg_to_zip.sh: line 24: hdiutil: command not found
 cp: cannot stat '/*.app': No such file or directory
  and referenced by '@rules_browsers//src/browsers/firefox:firefox'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/firefox/BUILD.bazel:6:14: no such package '@rules_browsers_firefox_mac_arm//': Could not extract DMG archive: /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/private/convert_dmg_to_zip.sh: line 24: hdiutil: command not found
 cp: cannot stat '/*.app': No such file or directory
  and referenced by '@rules_browsers//src/browsers/firefox:firefox'
-Loading: 1938 packages loaded
-Loading: 2061 packages loaded
-Loading: 2195 packages loaded
-Loading: 2340 packages loaded
-Loading: 2484 packages loaded
-    currently loading: @npm__convert-source-map__2.0.0//
-Loading: 2629 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/firefox/BUILD.bazel:6:14: no such package '@rules_browsers_firefox_mac_arm//': Could not extract DMG archive: /data/h445xu/.cache/bazel/_bazel_hongxu/7e976be453fff05afc25eecd8fb24d58/external/rules_browsers/src/browsers/private/convert_dmg_to_zip.sh: line 24: hdiutil: command not found
 cp: cannot stat '/*.app': No such file or directory
  and referenced by '@rules_browsers//src/browsers/firefox:firefox'
@@ -503,7 +474,3 @@ Read 409000 lines from bazel query output...
 Read 410000 lines from bazel query output...
 Read 411000 lines from bazel query output...
 Loading: 2783 packages loaded
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

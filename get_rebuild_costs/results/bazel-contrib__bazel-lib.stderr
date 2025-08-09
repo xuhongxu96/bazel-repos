@@ -1,19 +1,7 @@
-2025/08/09 14:55:28 Downloading https://static.aspect.build/aspect/2024.34.43/bazel-2024.34.43-linux-x86_64...
-2025/08/09 14:55:31 Downloading https://static.aspect.build/aspect/2024.34.43/bazel-2024.34.43-linux-x86_64...
-2025/08/09 14:55:34 Downloading https://releases.bazel.build/8.3.1/release/bazel-8.3.1-linux-x86_64...
 Starting local Bazel server (8.3.1) and connecting to it...
- no actions running
- no actions running
  no actions running
 Loading: 0 packages loaded
 WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__bazel-lib/lib/tests/run_binary/BUILD.bazel:71:8: target 'dir_a_rootpath' is both a rule and a file; please choose another name for the rule
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/cdab8fd149166aa56383879f58d722b7/external/gazelle+/internal/bzlmod/go_deps.bzl:571:40: 
-
-Mismatch between versions requested for module github.com/bazelbuild/rules_go
-Bazel dependency version requested in MODULE.bazel: 0.51.0
-Go module version requested in go.mod: 0.53.0
-Please resolve this mismatch to prevent discrepancies between native Go and Bazel builds
-
 WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__bazel-lib/MODULE.bazel:64:24: The module extension go_deps defined in @gazelle//:extensions.bzl reported incorrect imports of repositories via use_repo():
 
 Not imported, but reported as direct dependencies by the extension (may cause the build to fail):
@@ -22,18 +10,10 @@ Not imported, but reported as direct dependencies by the extension (may cause th
 Fix the use_repo calls by running 'bazel mod tidy'.
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__bazel-lib/BUILD.bazel:68:6: no such package 'tools/format': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - tools/format and referenced by '//:format'
-Loading: 110 packages loaded
-    currently loading: @@gazelle+// ... (7 packages)
-Loading: 163 packages loaded
-Loading: 163 packages loaded
-Loading: 163 packages loaded
-Loading: 163 packages loaded
-Loading: 182 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__bazel-lib/BUILD.bazel:68:6: no such package 'tools/format': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - tools/format and referenced by '//:format'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 184 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -49,7 +29,3 @@ Read 11000 lines from bazel query output...
 Read 12000 lines from bazel query output...
 Read 13000 lines from bazel query output...
 Read 14000 lines from bazel query output...
-
-thread 'main' panicked at depstat/src/main.rs:24:52:
-called `Result::unwrap()` on an `Err` value: "Cannot create an edge from a node to itself"
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

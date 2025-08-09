@@ -1,32 +1,8 @@
 Starting local Bazel server and connecting to it...
 Loading: 0 packages loaded
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/rules_proto/archive/9e4c622ba8c2178b71420ed3d14fb8874beee3a5.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-DEBUG: Rule 'com_google_googleapis' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "6a5b40dedf32dd100dd862fdaacdb9e343e2859cf3cafc5e51d8af8962df2f9c"
-DEBUG: Repository com_google_googleapis instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/WORKSPACE:4:8: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/deps.bzl:61:25: in PI_deps
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/workspace_rule.bzl:121:41: in remote_workspace
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/workspace_rule.bzl:44:17: in _build_http_archive
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/bazel_tools/tools/build_defs/repo/http.bzl:355:31: in <toplevel>
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-DEBUG: Rule 'com_github_nelhage_rules_boost' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "972e1d34d820bf01107968d62a35083a9c619b8477e77a3cccf4345faecbc88b"
-DEBUG: Repository com_github_nelhage_rules_boost instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/WORKSPACE:4:8: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/deps.bzl:68:25: in PI_deps
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/workspace_rule.bzl:121:41: in remote_workspace
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/workspace_rule.bzl:44:17: in _build_http_archive
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/bazel_tools/tools/build_defs/repo/http.bzl:355:31: in <toplevel>
-Loading: 0 packages loaded
+Loading: 76 packages loaded
+    currently loading: @com_github_grpc_grpc//src/core
 INFO: Repository boost instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/WORKSPACE:48:11: in <toplevel>
   /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/com_github_nelhage_rules_boost/boost/boost.bzl:208:10: in boost_deps
@@ -38,28 +14,19 @@ ERROR: An error occurred during the fetch of repository 'boost':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/bazel_tools/tools/build_defs/repo/http.bzl", line 125, column 45, in _http_archive_impl
 		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7
+Error in download_and_extract: java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/WORKSPACE:48:11: fetching http_archive rule //external:boost: Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/bazel_tools/tools/build_defs/repo/http.bzl", line 125, column 45, in _http_archive_impl
 		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7
-DEBUG: Rule 'com_google_googletest' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "4f1d39acb999c279f8c2df6f016c7fb6d220d4b9d738f3e8b46d122e4f4dd21a"
-DEBUG: Repository com_google_googletest instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/WORKSPACE:4:8: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/deps.bzl:54:25: in PI_deps
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/workspace_rule.bzl:121:41: in remote_workspace
-  /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/bazel/workspace_rule.bzl:44:17: in _build_http_archive
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/bazel_tools/tools/build_defs/repo/http.bzl:355:31: in <toplevel>
-Loading: 119 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:5:11: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:testutils'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:5:11: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:testutils'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:35:8: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:pi_proto_server_tests'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:20:8: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:pi_proto_tests'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:5:11: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:testutils'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:35:8: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:pi_proto_server_tests'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:20:8: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:pi_proto_tests'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:5:11: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp11689138761333337136/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:testutils'
+Error in download_and_extract: java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:5:11: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:testutils'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:5:11: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:testutils'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:20:8: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:pi_proto_tests'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:35:8: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:pi_proto_server_tests'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:5:11: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:testutils'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:35:8: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:pi_proto_server_tests'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:20:8: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:pi_proto_tests'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/p4lang__PI/proto/tests/BUILD:5:11: no such package '@boost//': java.io.IOException: Error downloading [https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/d7411c8967ffa128476ca9e317f2ca50/external/boost/temp5993808855457855678/boost_1_78_0.tar.gz: Checksum was 07911da8fe22fb10e3918528a8f0a5676f03c0b3b135ac19c26779f6804baebe but wanted 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7 and referenced by '//proto/tests:testutils'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -80,6 +47,7 @@ Read 14000 lines from bazel query output...
 Read 15000 lines from bazel query output...
 Read 16000 lines from bazel query output...
 Read 17000 lines from bazel query output...
+Loading: 120 packages loaded
 Read 18000 lines from bazel query output...
 Read 19000 lines from bazel query output...
 Read 20000 lines from bazel query output...

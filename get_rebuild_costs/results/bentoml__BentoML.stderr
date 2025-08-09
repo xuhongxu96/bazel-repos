@@ -1,15 +1,4 @@
 INFO: Running bazel wrapper (see //tools/bazel for details), bazel version 5.3.1 will be used instead of system-wide bazel installation.
-Downloading bazel, will try URLs: https://storage.googleapis.com/grpc-bazel-mirror/github.com/bazelbuild/bazel/releases/download/5.3.1/bazel-5.3.1-linux-x86_64 https://github.com/bazelbuild/bazel/releases/download/5.3.1/bazel-5.3.1-linux-x86_64
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   256    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (22) The requested URL returned error: 404
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
- 23 49.4M   23 11.7M    0     0   9.9M      0  0:00:04  0:00:01  0:00:03  9.9M 78 49.4M   78 38.6M    0     0  17.7M      0  0:00:02  0:00:02 --:--:-- 26.8M100 49.4M  100 49.4M    0     0  19.0M      0  0:00:02  0:00:02 --:--:-- 26.6M
 /data/h445xu/repo/bazel-repos/cloned_repos/bentoml__BentoML/tools/bazel: line 62: pushd: ../grpc-client: No such file or directory
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

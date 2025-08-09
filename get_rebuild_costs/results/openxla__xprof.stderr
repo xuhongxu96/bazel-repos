@@ -1,42 +1,10 @@
 Starting local Bazel server and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
- no actions running
  no actions running
 DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/WORKSPACE:10:6: Using Python Version = 3.11
- no actions running
- no actions running
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/355b564f3e7ebd472d719a57167d44fe/external/build_bazel_rules_nodejs/index.bzl:73:14: yarn_install#yarn attribute not set and no repository named 'yarn' exists; installing default yarn
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
  no actions running
 Loading: 0 packages loaded
 ERROR: error loading package 'plugin/xprof/build_utils': Label '//tools/build_defs/testing:bzl_library.bzl' is invalid because 'tools/build_defs/testing' is not a package; perhaps you meant to put the colon here: '//:tools/build_defs/testing/bzl_library.bzl'?
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/355b564f3e7ebd472d719a57167d44fe/external/xla/tools/toolchains/python/python_repo.bzl:33:14: 
-TF_PYTHON_VERSION environment variable was not set correctly; using Python 3.11.
-
-To set Python version, run:
-export TF_PYTHON_VERSION=3.11
-Loading: 25 packages loaded
-    currently loading: frontend ... (82 packages)
-Loading: 25 packages loaded
-    currently loading: frontend ... (82 packages)
-Loading: 25 packages loaded
-    currently loading: frontend ... (82 packages)
-Loading: 25 packages loaded
-    currently loading: frontend ... (82 packages)
-Loading: 107 packages loaded
-    currently loading: plugin/xprof/build_utils ... (25 packages)
-Loading: 685 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/standalone/BUILD:71:8: no such package 'testing/pybase': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/testing/pybase and referenced by '//plugin/xprof/standalone:plugin_asset_util_test'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/355b564f3e7ebd472d719a57167d44fe/external/org_tensorflow_tensorboard/tensorboard/BUILD:520:11: error loading package '@@org_tensorflow_tensorboard//tensorboard/plugins/hparams': at /data/h445xu/.cache/bazel/_bazel_hongxu/355b564f3e7ebd472d719a57167d44fe/external/org_tensorflow_tensorboard/tensorboard/defs/defs.bzl:18:6: Label '@@npm//@angular/build-tooling/bazel/app-bundling:index.bzl' is invalid because '@angular/build-tooling/bazel/app-bundling' is not a package; perhaps you meant to put the colon here: '@@npm//@angular:build-tooling/bazel/app-bundling/index.bzl'? and referenced by '@@org_tensorflow_tensorboard//tensorboard:dataclass_compat'
@@ -46,56 +14,48 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/xprof/convert/B
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/testing/lib/sponge and referenced by '//xprof/convert:repository_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/xprof/convert/BUILD:207:8: no such package 'file/base': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/file/base and referenced by '//xprof/convert:profile_processor_test'
-Loading: 708 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
-Loading: 712 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/convert/BUILD:31:8: no such package 'net/proto2/python/public': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/net/proto2/python/public and referenced by '//plugin/xprof/convert:trace_events_json_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'net/proto2/python/public': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/net/proto2/python/public and referenced by '//plugin/xprof/demo:profile_demo'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/convert/BUILD:31:8: no such package 'third_party/py/google/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/google/protobuf and referenced by '//plugin/xprof/convert:trace_events_json_test'
-Loading: 715 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
-Loading: 719 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
-Loading: 721 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'third_party/py/absl': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/absl and referenced by '//plugin/xprof/demo:profile_demo'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'third_party/py/google/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/google/protobuf and referenced by '//plugin/xprof/demo:profile_demo'
 Loading: 722 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
-Loading: 727 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
-Loading: 741 packages loaded
-    currently loading: plugin/xprof/build_utils ... (2 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'net/proto2/python/public': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/net/proto2/python/public and referenced by '//plugin/xprof/demo:profile_demo'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'third_party/py/absl': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/absl and referenced by '//plugin/xprof/demo:profile_demo'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'third_party/py/google/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/google/protobuf and referenced by '//plugin/xprof/demo:profile_demo'
+    currently loading: plugin/xprof/build_utils ... (13 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'third_party/py/absl': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/absl and referenced by '//plugin/xprof/demo:profile_demo'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/standalone/BUILD:71:8: no such package 'testing/pybase': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/testing/pybase and referenced by '//plugin/xprof/standalone:plugin_asset_util_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/standalone/BUILD:71:8: no such package 'testing/pybase': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/testing/pybase and referenced by '//plugin/xprof/standalone:plugin_asset_util_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'third_party/py/google/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/google/protobuf and referenced by '//plugin/xprof/demo:profile_demo'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'third_party/py/absl': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/absl and referenced by '//plugin/xprof/demo:profile_demo'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/demo/BUILD:12:10: no such package 'net/proto2/python/public': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/net/proto2/python/public and referenced by '//plugin/xprof/demo:profile_demo'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/convert/BUILD:31:8: no such package 'net/proto2/python/public': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/net/proto2/python/public and referenced by '//plugin/xprof/convert:trace_events_json_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/convert/BUILD:31:8: no such package 'third_party/py/google/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/py/google/protobuf and referenced by '//plugin/xprof/convert:trace_events_json_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/convert/BUILD:31:8: no such package 'net/proto2/python/public': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/net/proto2/python/public and referenced by '//plugin/xprof/convert:trace_events_json_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/third_party/javascript/highlightjs and referenced by '//frontend/app/services/source_code_service:syntax_highlighter'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/frontend/app/services/source_code_service/BUILD:5:16: no such package 'third_party/javascript/highlightjs': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -114,15 +74,13 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/xprof/convert/B
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/file/base and referenced by '//xprof/convert:profile_processor_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/xprof/convert/BUILD:207:8: no such package 'file/base': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/file/base and referenced by '//xprof/convert:profile_processor_test'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/355b564f3e7ebd472d719a57167d44fe/external/org_tensorflow_tensorboard/tensorboard/BUILD:520:11: error loading package '@@org_tensorflow_tensorboard//tensorboard/plugins/hparams': at /data/h445xu/.cache/bazel/_bazel_hongxu/355b564f3e7ebd472d719a57167d44fe/external/org_tensorflow_tensorboard/tensorboard/defs/defs.bzl:18:6: Label '@@npm//@angular/build-tooling/bazel/app-bundling:index.bzl' is invalid because '@angular/build-tooling/bazel/app-bundling' is not a package; perhaps you meant to put the colon here: '@@npm//@angular:build-tooling/bazel/app-bundling/index.bzl'? and referenced by '@@org_tensorflow_tensorboard//tensorboard:dataclass_compat'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/xprof/convert/trace_viewer/BUILD:116:8: no such package 'base': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/base and referenced by '//xprof/convert/trace_viewer:trace_events_util_test'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/355b564f3e7ebd472d719a57167d44fe/external/org_tensorflow_tensorboard/tensorboard/BUILD:520:11: error loading package '@@org_tensorflow_tensorboard//tensorboard/plugins/hparams': at /data/h445xu/.cache/bazel/_bazel_hongxu/355b564f3e7ebd472d719a57167d44fe/external/org_tensorflow_tensorboard/tensorboard/defs/defs.bzl:18:6: Label '@@npm//@angular/build-tooling/bazel/app-bundling:index.bzl' is invalid because '@angular/build-tooling/bazel/app-bundling' is not a package; perhaps you meant to put the colon here: '@@npm//@angular:build-tooling/bazel/app-bundling/index.bzl'? and referenced by '@@org_tensorflow_tensorboard//tensorboard:dataclass_compat'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/standalone/BUILD:71:8: no such package 'testing/pybase': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/testing/pybase and referenced by '//plugin/xprof/standalone:plugin_asset_util_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/plugin/xprof/standalone/BUILD:71:8: no such package 'testing/pybase': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/openxla__xprof/testing/pybase and referenced by '//plugin/xprof/standalone:plugin_asset_util_test'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 752 packages loaded
+    currently loading: plugin/xprof/build_utils ... (2 packages)
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

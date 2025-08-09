@@ -1,98 +1,5 @@
-Starting local Bazel server and connecting to it...
- checking cached actions
- checking cached actions
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/ray_deps_setup.bzl:67:14: No implicit mirrors used for com_github_spdlog because urls were explicitly provided
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/ray_deps_setup.bzl:67:14: No implicit mirrors used for com_github_opentelemetry_proto because urls were explicitly provided
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/ray_deps_setup.bzl:67:14: No implicit mirrors used for com_google_absl because urls were explicitly provided
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: vllm-with-lora.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: vllm-with-structural-output.ipynb
-Loading: 35 packages loaded
-    currently loading:  ... (73 packages)
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: huggingface_text_classification.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: pytorch_resnet_finetune.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: torch_detection.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: convert_existing_pytorch_code_to_ray_train.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: ax_example.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: batch_tuning.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: bayesopt_example.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: hyperopt_example.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: lightgbm_example.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: nevergrad_example.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: optuna_example.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: pbt_guide.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune-comet.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune-mlflow.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: lightgbm_example.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: batch_inference_object_detection.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: lightning_cola_advanced.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: lightning_mnist_example.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: huggingface_vit_batch_prediction.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune-pytorch-cifar.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: pytorch_resnet_batch_prediction.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune-pytorch-lightning.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune-vanilla-pytorch-lightning.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune-wandb.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune_analyze_results.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune_mnist_keras.ipynb
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/ray-project__ray/bazel/python.bzl:84:14: tune-xgboost.ipynb
-Loading: 60 packages loaded
-    currently loading:  ... (48 packages)
-Loading: 118 packages loaded
-    currently loading: @bazel_tools//tools/cpp
-Loading: 152 packages loaded
-    currently loading: @rules_pkg// ... (9 packages)
-Loading: 159 packages loaded
-    currently loading: @com_google_protobuf// ... (6 packages)
-Loading: 165 packages loaded
-    currently loading: @com_google_protobuf// ... (5 packages)
-Loading: 168 packages loaded
-    currently loading: @com_google_protobuf// ... (5 packages)
-Loading: 174 packages loaded
-    currently loading: @com_google_protobuf// ... (7 packages)
-Loading: 243 packages loaded
-    currently loading: @com_github_grpc_grpc//src/core ... (8 packages)
-Loading: 316 packages loaded
-    currently loading: @py_deps_buildkite_anyscale// ... (5 packages)
-Loading: 341 packages loaded
-Loading: 344 packages loaded
-Loading: 344 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/47e45b775578a46953fa0fb7fe03ffc0/external/openssl/BUILD.bazel:51:23: no such package '@nasm//': The repository '@nasm' could not be resolved: Repository '@nasm' is not defined and referenced by '@openssl//:openssl_msvc_'
-Loading: 347 packages loaded
-    currently loading: @py_deps_buildkite_jupyter_cache//
-Loading: 361 packages loaded
-Loading: 371 packages loaded
-    currently loading: @py_deps_buildkite_oauth2client//
-Loading: 388 packages loaded
-Loading: 402 packages loaded
-Loading: 413 packages loaded
-Loading: 415 packages loaded
-Loading: 432 packages loaded
-Loading: 444 packages loaded
-Loading: 452 packages loaded
-Loading: 460 packages loaded
-Loading: 466 packages loaded
-Loading: 468 packages loaded
-    currently loading: @py_deps_buildkite_frozenlist//
-Loading: 478 packages loaded
-Loading: 483 packages loaded
-Loading: 483 packages loaded
-Loading: 488 packages loaded
-Loading: 488 packages loaded
-WARNING: Download from https://cfhcable.dl.sourceforge.net/project/lzmautils/xz-5.2.7.tar.gz failed: class java.io.IOException connect timed out
-WARNING: Download from https://superb-sea2.dl.sourceforge.net/project/lzmautils/xz-5.2.7.tar.gz failed: class com.google.devtools.build.lib.bazel.repository.downloader.UnrecoverableHttpException Unknown host: superb-sea2.dl.sourceforge.net
-Loading: 490 packages loaded
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
@@ -453,4 +360,4 @@ Read 355000 lines from bazel query output...
 Read 356000 lines from bazel query output...
 Read 357000 lines from bazel query output...
 Read 358000 lines from bazel query output...
-Loading: 490 packages loaded
+Loading: 0 packages loaded

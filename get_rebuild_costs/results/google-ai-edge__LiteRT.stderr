@@ -1,17 +1,5 @@
 Starting local Bazel server and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/local_xla/third_party/py/python_repo.bzl:156:14: 
 HERMETIC_PYTHON_VERSION variable was not set correctly, using default version.
 Python 3.10 will be used.
@@ -30,145 +18,91 @@ Interpreter: "default" (provided by rules_python)
 Requirements_lock label: "@python_version_repo//:requirements_lock_3_10.txt"
 =====================================
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/models/BUILD:25:12: //third_party/models:workspace_bzl: no such attribute 'parse_tests' in 'bzl_library' rule
 ERROR: package contains errors: third_party/models
-Loading: 12 packages loaded
-    currently loading: litert ... (95 packages)
-Loading: 104 packages loaded
-    currently loading: litert/kotlin ... (170 packages)
-Loading: 273 packages loaded
-    currently loading: tflite/testing
-ERROR: package contains errors: third_party/models: //third_party/models:workspace_bzl: no such attribute 'parse_tests' in 'bzl_library' rule
 Loading: 274 packages loaded
+ERROR: package contains errors: third_party/models: //third_party/models:workspace_bzl: no such attribute 'parse_tests' in 'bzl_library' rule
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/delegates/gpu/BUILD:81:15: no such package '@@org_tensorflow//third_party/bazel_platforms/cpu': BUILD file not found in directory 'third_party/bazel_platforms/cpu' of external repository @@org_tensorflow. Add a BUILD file to a directory to mark it as a package. and referenced by '//tflite/delegates/gpu:tflite_gpu_extra_gles_deps'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/delegates/gpu/BUILD:81:15: no such package '@@org_tensorflow//third_party/bazel_platforms/os': BUILD file not found in directory 'third_party/bazel_platforms/os' of external repository @@org_tensorflow. Add a BUILD file to a directory to mark it as a package. and referenced by '//tflite/delegates/gpu:tflite_gpu_extra_gles_deps'
-Loading: 438 packages loaded
-    currently loading: @@rules_python//python/config_settings ... (52 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/build_common/BUILD:75:12: no such package 'devtools/build_cleaner/skylark': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/devtools/build_cleaner/skylark and referenced by '//litert/build_common:litert_build_defs_bzl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/python/aot/core/BUILD:117:22: no such package 'litert/python/tools/model_utils/litert': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/python/tools/model_utils/litert and referenced by '//litert/python/aot/core:tflxx_util'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/build_common/BUILD:75:12: no such package 'devtools/build_cleaner/skylark': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/devtools/build_cleaner/skylark and referenced by '//litert/build_common:litert_build_defs_bzl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/models/BUILD:25:12: Target '//third_party/models:workspace.bzl' contains an error and its package is in error and referenced by '//third_party/models:workspace_bzl'
-Loading: 670 packages loaded
-    currently loading: @@flatbuffers// ... (72 packages)
-Loading: 890 packages loaded
-    currently loading: @@flatbuffers// ... (60 packages)
-Loading: 974 packages loaded
-    currently loading: @@flatbuffers// ... (47 packages)
-Loading: 980 packages loaded
-    currently loading: @@flatbuffers// ... (45 packages)
-Loading: 984 packages loaded
-    currently loading: @@flatbuffers// ... (46 packages)
-Loading: 988 packages loaded
-    currently loading: @@flatbuffers// ... (46 packages)
-DEBUG: Rule 'tqdm' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-C7jLqf+ioGGNgJKvbAdSAfnMnL+tl9jQcvPOCjTxTfQ="
-DEBUG: Repository tqdm instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/WORKSPACE:170:5: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/tqdm/workspace.bzl:6:17: in repo
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/bazel_tools/tools/build_defs/repo/http.bzl:387:31: in <toplevel>
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/experimental/acceleration/configuration/BUILD:83:24: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/experimental/acceleration/configuration:configuration_fbs_java_srcjar'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/experimental/acceleration/compatibility/BUILD:45:27: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/experimental/acceleration/compatibility:database_fbs_android_srcjar'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/experimental/acceleration/configuration/BUILD:88:27: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/experimental/acceleration/configuration:configuration_fbs_android_srcjar'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/acceleration/configuration/BUILD:145:24: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/acceleration/configuration:configuration_fbs_java_srcjar'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/acceleration/configuration/BUILD:150:27: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/acceleration/configuration:configuration_fbs_android_srcjar'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/experimental/acceleration/configuration/BUILD:83:24: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/experimental/acceleration/configuration:configuration_fbs_java_srcjar'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/experimental/acceleration/configuration/BUILD:88:27: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/experimental/acceleration/configuration:configuration_fbs_android_srcjar'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/experimental/acceleration/compatibility/BUILD:45:27: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/experimental/acceleration/compatibility:database_fbs_android_srcjar'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/experimental/acceleration/compatibility/BUILD:39:24: no such package 'tensorflow/lite/tools': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tensorflow/lite/tools and referenced by '//tflite/experimental/acceleration/compatibility:database_fbs_java_srcjar'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:77:11: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:decoder'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:55:11: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:graph_iterator'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/dispatch/BUILD:23:19: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/dispatch:dispatch_api'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:23:19: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:openvino_compiler_plugin'
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/com_google_protobuf/python/dist/system_python.bzl:225:14: WARNING: no system python available, builds against system python will fail
-Loading: 1201 packages loaded
-    currently loading: @@org_tensorflow//tensorflow/core/kernels ... (5 packages)
-Loading: 1219 packages loaded
-    currently loading: @@org_tensorflow//tensorflow/core/kernels/mlir_generated
-Loading: 1232 packages loaded
-Loading: 1233 packages loaded
-Loading: 1244 packages loaded
-Loading: 1249 packages loaded
-Loading: 1271 packages loaded
-Loading: 1272 packages loaded
-Loading: 1284 packages loaded
-Loading: 1289 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:128:12: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:openvino_compiler_plugin_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:77:11: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:decoder'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/dispatch/BUILD:23:19: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/dispatch:dispatch_api'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:55:11: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:graph_iterator'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:23:19: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:openvino_compiler_plugin'
+Loading: 1220 packages loaded
+    currently loading: @@org_tensorflow//tensorflow/core/kernels ... (7 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:103:12: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:decoder_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/google_tensor/dispatch/BUILD:116:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/vendors/google_tensor/dispatch:_dispatch_api_async_google_tensor_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:220:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_mixed_cascade_google_tensor_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:136:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_google_tensor_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:179:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_cascade_google_tensor_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/BUILD:1307:13: no such package 'litert/runtime/accelerators/gpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/accelerators/gpu and referenced by '//litert/cc:litert_compiled_model_metal_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/BUILD:1307:13: no such package 'third_party/apple_frameworks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/apple_frameworks and referenced by '//litert/cc:litert_compiled_model_metal_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/google_tensor/dispatch/BUILD:116:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/vendors/google_tensor/dispatch:_dispatch_api_async_google_tensor_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:136:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_google_tensor_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/dispatch/BUILD:81:8: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/dispatch:dispatch_api_openvino_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/BUILD:1284:13: no such package 'third_party/apple_frameworks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/apple_frameworks and referenced by '//litert/cc:LitertTensorBufferTestLibrary'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/dispatch/BUILD:81:8: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/dispatch:dispatch_api_openvino_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:220:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_mixed_cascade_google_tensor_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:179:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_cascade_google_tensor_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/internal/BUILD:320:8: no such package 'litert/runtime/accelerators/gpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/accelerators/gpu and referenced by '//litert/cc/internal:litert_compiled_model_webgpu_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:128:12: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:openvino_compiler_plugin_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/c/BUILD:821:13: no such package 'third_party/apple_frameworks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/apple_frameworks and referenced by '//litert/c:litert_tensor_buffer_test_library'
-Loading: 1297 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/ci/tools/python/wheel/BUILD:80:9: no such target '//litert/python:pywrap_litert_binaries': target 'pywrap_litert_binaries' not declared in package 'litert/python' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/python/BUILD and referenced by '//ci/tools/python/wheel:litert_wheel'
-Loading: 1301 packages loaded
-Loading: 1302 packages loaded
-Loading: 1302 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/ci/tools/python/wheel/BUILD:80:9: no such target '//litert/python:pywrap_litert_binaries': target 'pywrap_litert_binaries' not declared in package 'litert/python' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/python/BUILD and referenced by '//ci/tools/python/wheel:litert_wheel'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/python/aot/core/BUILD:117:22: no such package 'litert/python/tools/model_utils/litert': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/python/tools/model_utils/litert and referenced by '//litert/python/aot/core:tflxx_util'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/ci/tools/python/wheel/BUILD:80:9: no such target '//litert/python:pywrap_litert_binaries': target 'pywrap_litert_binaries' not declared in package 'litert/python' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/python/BUILD and referenced by '//ci/tools/python/wheel:litert_wheel'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/build_common/BUILD:75:12: no such package 'devtools/build_cleaner/skylark': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/devtools/build_cleaner/skylark and referenced by '//litert/build_common:litert_build_defs_bzl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/c/BUILD:821:13: no such package 'third_party/apple_frameworks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/apple_frameworks and referenced by '//litert/c:litert_tensor_buffer_test_library'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/BUILD:1307:13: no such package 'litert/runtime/accelerators/gpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/accelerators/gpu and referenced by '//litert/cc:litert_compiled_model_metal_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/BUILD:1284:13: no such package 'third_party/apple_frameworks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/apple_frameworks and referenced by '//litert/cc:LitertTensorBufferTestLibrary'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/internal/BUILD:320:8: no such package 'litert/runtime/accelerators/gpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/accelerators/gpu and referenced by '//litert/cc/internal:litert_compiled_model_webgpu_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/BUILD:1284:13: no such package 'third_party/apple_frameworks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/apple_frameworks and referenced by '//litert/cc:LitertTensorBufferTestLibrary'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/BUILD:1307:13: no such package 'third_party/apple_frameworks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/third_party/apple_frameworks and referenced by '//litert/cc:litert_compiled_model_metal_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/cc/BUILD:1307:13: no such package 'litert/runtime/accelerators/gpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/accelerators/gpu and referenced by '//litert/cc:litert_compiled_model_metal_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:179:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_cascade_google_tensor_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/google_tensor/dispatch/BUILD:116:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/vendors/google_tensor/dispatch:_dispatch_api_async_google_tensor_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:220:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_mixed_cascade_google_tensor_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:136:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_google_tensor_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:55:11: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:graph_iterator'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/dispatch/BUILD:81:8: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/dispatch:dispatch_api_openvino_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/runtime/dispatch/BUILD:220:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/runtime/dispatch:_dispatch_delegate_mixed_cascade_google_tensor_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/google_tensor/dispatch/BUILD:116:19: no such package 'tools/cc_target_os': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tools/cc_target_os and referenced by '//litert/vendors/google_tensor/dispatch:_dispatch_api_async_google_tensor_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:77:11: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:decoder'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/dispatch/BUILD:23:19: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/dispatch:dispatch_api'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:128:12: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:openvino_compiler_plugin_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:23:19: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:openvino_compiler_plugin'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:103:12: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:decoder_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/delegates/gpu/BUILD:81:15: no such package '@@org_tensorflow//third_party/bazel_platforms/cpu': BUILD file not found in directory 'third_party/bazel_platforms/cpu' of external repository @@org_tensorflow. Add a BUILD file to a directory to mark it as a package. and referenced by '//tflite/delegates/gpu:tflite_gpu_extra_gles_deps'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:55:11: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:graph_iterator'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:23:19: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:openvino_compiler_plugin'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/compiler/BUILD:128:12: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/compiler:openvino_compiler_plugin_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/dispatch/BUILD:23:19: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/dispatch:dispatch_api'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/litert/vendors/intel_openvino/dispatch/BUILD:81:8: no such target '@@intel_openvino//:openvino': target 'openvino' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/c8fab7665e7a27e1f3eca07bc0b8aa3d/external/intel_openvino/BUILD and referenced by '//litert/vendors/intel_openvino/dispatch:dispatch_api_openvino_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/delegates/gpu/BUILD:81:15: no such package '@@org_tensorflow//third_party/bazel_platforms/os': BUILD file not found in directory 'third_party/bazel_platforms/os' of external repository @@org_tensorflow. Add a BUILD file to a directory to mark it as a package. and referenced by '//tflite/delegates/gpu:tflite_gpu_extra_gles_deps'
-Loading: 1304 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-ai-edge__LiteRT/tflite/delegates/gpu/BUILD:81:15: no such package '@@org_tensorflow//third_party/bazel_platforms/cpu': BUILD file not found in directory 'third_party/bazel_platforms/cpu' of external repository @@org_tensorflow. Add a BUILD file to a directory to mark it as a package. and referenced by '//tflite/delegates/gpu:tflite_gpu_extra_gles_deps'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

@@ -1,9 +1,5 @@
-2025/08/09 01:16:39 Downloading https://releases.bazel.build/5.4.0/release/bazel-5.4.0-linux-x86_64...
-Extracting Bazel installation...
 Starting local Bazel server and connecting to it...
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 4 packages loaded
 INFO: Repository local_config_tf instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/WORKSPACE:3:13: in <toplevel>
 Repository rule tf_configure defined at:
@@ -17,22 +13,21 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/WORKSPACE
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/build_deps/tf_dependency/tf_configure.bzl", line 196, column 46, in _tf_pip_impl
 		tf_header_dir = repository_ctx.os.environ[_TF_HEADER_DIR]
 Error: key "TF_HEADER_DIR" not found in dictionary
-Loading: 16 packages loaded
-Loading: 16 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:11:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:box_util'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/BUILD.bazel:1:10: no such package 'keras_cv': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv and referenced by '//:build_pip_pkg'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:11:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:box_util'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:11:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:box_util'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:40:10: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:_keras_cv_custom_ops.so'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:40:10: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:_keras_cv_custom_ops.so'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:11:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:box_util'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:40:10: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:_keras_cv_custom_ops.so'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:40:10: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:_keras_cv_custom_ops.so'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:11:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:box_util'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:40:10: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:_keras_cv_custom_ops.so'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv/src/custom_ops/BUILD:40:10: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//keras_cv/src/custom_ops:_keras_cv_custom_ops.so'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/BUILD.bazel:1:10: no such package 'keras_cv': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/keras-team__keras-cv/keras_cv and referenced by '//:build_pip_pkg'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 19 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

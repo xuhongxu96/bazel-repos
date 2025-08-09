@@ -1,101 +1,10 @@
 Starting local Bazel server and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/b59c98eeeb40e382f4b5a9c098c11a8f/external/rules_jvm_external/coursier.bzl:713:18: Found duplicate artifact versions
-    com.google.guava:guava has multiple versions 32.1.3-jre, 32.1.3-android
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
- checking cached actions
- checking cached actions
- checking cached actions
  checking cached actions
  checking cached actions
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/b59c98eeeb40e382f4b5a9c098c11a8f/external/rules_python/python/repositories.bzl:32:10: py_repositories is a no-op and is deprecated. You can remove this from your WORKSPACE file
- checking cached actions
 Loading: 0 packages loaded
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/b59c98eeeb40e382f4b5a9c098c11a8f/external/io_grpc_grpc_java/java_grpc_library.bzl:203:14: Multiple values in 'deps' is deprecated in local_service_java_grpc
-Loading: 49 packages loaded
-    currently loading: @@com_google_protobuf// ... (5 packages)
-Loading: 109 packages loaded
-    currently loading: @@com_github_grpc_grpc//src/compiler ... (5 packages)
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 138 packages loaded
-    currently loading: @@com_github_grpc_grpc//src/compiler ... (4 packages)
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/pantsbuild/jarjar/1.7.2/jarjar-1.7.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from http://bazel-mirror.storage.googleapis.com/repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 228 packages loaded
-    currently loading: @@com_github_grpc_grpc//
-Loading: 317 packages loaded
-    currently loading: @@com_github_grpc_grpc//src/core
-Loading: 382 packages loaded
-Loading: 383 packages loaded
-Loading: 387 packages loaded
-    currently loading: @@protobuf~//java/core
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b59c98eeeb40e382f4b5a9c098c11a8f/external/io_grpc_grpc_java/protobuf-lite/BUILD.bazel:1:13: error loading package '@@com_google_protobuf_javalite//': at /data/h445xu/.cache/bazel/_bazel_hongxu/b59c98eeeb40e382f4b5a9c098c11a8f/external/com_google_protobuf_javalite/protobuf.bzl:5:6: Unable to find package for @@rules_ruby//ruby:defs.bzl: The repository '@@rules_ruby' could not be resolved: Repository '@@rules_ruby' is not defined. and referenced by '@@io_grpc_grpc_java//protobuf-lite:protobuf-lite'
-Loading: 392 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 392 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 392 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 392 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 392 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 393 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 394 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 394 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 394 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 394 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 394 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 394 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 394 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 394 packages loaded
-    currently loading: @@com_google_protobuf_javalite//
-Loading: 437 packages loaded
-    currently loading: @@com_google_protobuf_javalite// ... (2 packages)
-Loading: 441 packages loaded
-    currently loading: @@com_google_protobuf_javalite// ... (3 packages)
 Loading: 453 packages loaded
     currently loading: @@com_google_protobuf_javalite//
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate

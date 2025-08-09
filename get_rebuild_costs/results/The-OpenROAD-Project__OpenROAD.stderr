@@ -1,279 +1,201 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
  no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 69 packages loaded
-    currently loading: test/orfs/gcd ... (2 packages)
-Loading: 69 packages loaded
-    currently loading: test/orfs/gcd ... (2 packages)
-Loading: 69 packages loaded
-    currently loading: test/orfs/gcd ... (2 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/36955088654486ec30c5cba094e26d87/external/bazel-orfs+/docker.bzl:66:14: Container 1871ce9c517600417e7a00c252426c5f7733e8e5153deb7c9ae6a9685976beec has not been removed
-Loading: 69 packages loaded
-    currently loading: test/orfs/gcd ... (2 packages)
-Loading: 69 packages loaded
-    currently loading: test/orfs/gcd ... (2 packages)
-Loading: 69 packages loaded
-    currently loading: test/orfs/gcd ... (2 packages)
-Loading: 71 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/test/orfs/mock-array/BUILD:391:8: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//test/orfs/mock-array:opensta_runfiles'
-Loading: 98 packages loaded
-    currently loading: @@bazel_tools//tools/def_parser ... (22 packages)
-Loading: 144 packages loaded
-    currently loading: @@bazel_tools//tools/allowlists/function_transition_allowlist ... (14 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/36955088654486ec30c5cba094e26d87/external/rules_jvm_external+/private/extensions/maven.bzl:155:14: The maven repository 'maven' is used in two different bazel modules, originally in 'or-tools' and now in 'protobuf'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/cts/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/cts:private_hdrs'
-Loading: 177 packages loaded
-    currently loading: @@qt-bazel+//qt_source ... (15 packages)
-Loading: 201 packages loaded
-    currently loading: @@qt-bazel+//qt_source ... (7 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/BUILD.bazel:245:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//:openroad_tcl'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:73:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/dbSta:tcl'
-Loading: 211 packages loaded
-    currently loading: @@qt-bazel+//qt_source ... (4 packages)
-Loading: 215 packages loaded
-    currently loading: @@qt-bazel+//qt_source ... (2 packages)
-Loading: 255 packages loaded
-    currently loading: @@bazel-orfs+// ... (6 packages)
-Loading: 284 packages loaded
-Loading: 298 packages loaded
-    currently loading: @@tk_tcl//
-Loading: 308 packages loaded
-Loading: 315 packages loaded
-Loading: 337 packages loaded
-    currently loading: @@or-tools+//ortools/sat
-Loading: 338 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/BUILD.bazel:278:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//:rmp_swig'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:84:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/dbSta:swig'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/rsz/BUILD:131:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/rsz:swig'
-Loading: 348 packages loaded
-Loading: 349 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/BUILD.bazel:245:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//:openroad_tcl'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:73:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/dbSta:tcl'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/36955088654486ec30c5cba094e26d87/external/boost.asio+/BUILD.bazel:30:11: no such package '@@[unknown repo 'openssl' requested from @@boost.asio+]//': The repository '@@[unknown repo 'openssl' requested from @@boost.asio+]' could not be resolved: No repository visible as '@openssl' from repository '@@boost.asio+' and referenced by '@@boost.asio+//:boost.asio'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/utl/BUILD:15:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/utl:utl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/utl/BUILD:79:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/utl:ui'
-Loading: 350 packages loaded
-Loading: 351 packages loaded
-Loading: 353 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:40:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/dbSta:ui'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/dbSta:dbSta'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/upf/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/upf:upf'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/rsz/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/rsz:rsz'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/psm/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/psm:psm'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/grt/BUILD:126:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/grt:ui'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/grt/BUILD:75:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/grt:grt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/par/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/par:par'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ppl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/ppl:ppl'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/par/BUILD:67:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/par:ui'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ifp/BUILD:32:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/ifp:ui'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/rsz/BUILD:79:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/rsz:ui'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/par/BUILD:67:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/par:ui'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/par/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/par:par'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/upf/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/upf:upf'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ifp/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/ifp:ifp'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/rsz/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/rsz:rsz'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ppl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/ppl:ppl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/utils/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/dft/src/utils:utils'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:40:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/dbSta:ui'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/cells/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/dft/src/cells:cells'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/replace/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/dft/src/replace:replace'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/grt/BUILD:75:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/grt:grt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/psm/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/psm:psm'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/grt/BUILD:126:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/grt:ui'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gpl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gpl:gpl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/cts/BUILD:30:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/cts:cts'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/mpl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/mpl:mpl'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gpl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gpl:gpl'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ifp/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/ifp:ifp'
-Loading: 356 packages loaded
-Loading: 361 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/cells/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/dft/src/cells:cells'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/replace/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/dft/src/replace:replace'
 Loading: 362 packages loaded
-Loading: 362 packages loaded
-Loading: 365 packages loaded
-Loading: 366 packages loaded
-DEBUG: Rule 'icu++_repo_rules+icu_dat' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-36y0a/5HR0EEcs4+EUS/KKEC/uqk44dbrJtMbPMPTz4="
-DEBUG: Repository icu++_repo_rules+icu_dat instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/36955088654486ec30c5cba094e26d87/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_chartsWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_findDialog'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_gotoDialog'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_drcWidget'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_dbDescriptors'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_colorGenerator'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_timingWidget'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_GUIProgress'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_browserWidget'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_clockWidget'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_cmdInputWidget'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_tclCmdHighlighter'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_search'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_tclCmdInputWidget'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_staGui'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_selectHighlightWindow'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_staGuiInterface'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_staDescriptors'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_search'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_selectHighlightWindow'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_scriptWidget'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_ruler'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_renderThread'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_label'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_painter'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_tclCmdHighlighter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_staGui'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_tclCmdInputWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_staDescriptors'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_ruler'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_scriptWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_renderThread'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_options'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_mainWindow'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_layoutViewer'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_layoutTabs'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_label'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_highlightGroupDialog'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_inspector'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_helpWidget'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_layoutViewer'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_gui_utils'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_mainWindow'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_helpWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapPlacementDensity'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_dbDescriptors'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_gui_utils'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_drcWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapSetup'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapPinDensity'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_GUIProgress'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_bufferTreeDescriptor'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_cmdInputWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_clockWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_displayControls'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_browserWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_timingWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_bufferTreeDescriptor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapPinDensity'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_globalConnectDialog'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_chartsWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_colorGenerator'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_gotoDialog'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:gui_qt'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/BUILD.bazel:126:10: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//:openroad'
-Loading: 368 packages loaded
-Loading: 372 packages loaded
-Loading: 372 packages loaded
-Loading: 374 packages loaded
-Loading: 376 packages loaded
-Loading: 377 packages loaded
-Loading: 377 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/test/orfs/mock-array/BUILD:350:9: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//test/orfs/mock-array:MockArray_power'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/utl/BUILD:15:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/utl:utl'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/cts/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/cts:private_hdrs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/cts/BUILD:30:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/cts:cts'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/rsz/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/rsz:rsz'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/dbSta:dbSta'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/cts/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/cts:private_hdrs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/grt/BUILD:75:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/grt:grt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/rsz/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/rsz:rsz'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/36955088654486ec30c5cba094e26d87/external/boost.asio+/BUILD.bazel:30:11: no such package '@@[unknown repo 'openssl' requested from @@boost.asio+]//': The repository '@@[unknown repo 'openssl' requested from @@boost.asio+]' could not be resolved: No repository visible as '@openssl' from repository '@@boost.asio+' and referenced by '@@boost.asio+//:boost.asio'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:40:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/dbSta:ui'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/cells/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/dft/src/cells:cells'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:84:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/dbSta:swig'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/replace/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/dft/src/replace:replace'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/utils/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/dft/src/utils:utils'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:73:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/dbSta:tcl'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:84:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/dbSta:swig'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dft/src/cells/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/dft/src/cells:cells'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:40:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/dbSta:ui'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_staGui'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:gui_qt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_staGuiInterface'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_dbDescriptors'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_displayControls'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_timingWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:40:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/dbSta:ui'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/dbSta/BUILD:73:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/dbSta:tcl'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/grt/BUILD:126:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/grt:ui'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gpl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gpl:gpl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_tclCmdHighlighter'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_tclCmdInputWidget'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_staGuiInterface'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_options'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_staGui'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_staDescriptors'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_colorGenerator'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_scriptWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_selectHighlightWindow'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_search'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_renderThread'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_scriptWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_ruler'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_mainWindow'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_renderThread'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_painter'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_options'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_mainWindow'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_layoutViewer'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -287,45 +209,45 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_helpWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_gui_utils'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapPinDensity'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapSetup'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapPlacementDensity'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapSetup'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_heatMapPinDensity'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_globalConnectDialog'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_gui_utils'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_gotoDialog'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_globalConnectDialog'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_findDialog'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_drcWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_clockWidget'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_displayControls'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_browserWidget'
+ - src/sta and referenced by '//src/gui:src_moc_h_native_dbDescriptors'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_colorGenerator'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_cmdInputWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_clockWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_chartsWidget'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gui:src_moc_h_native_GUIProgress'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/gui:src_moc_h_native_bufferTreeDescriptor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/grt/BUILD:126:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/grt:ui'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gpl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/gpl:gpl'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_browserWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_GUIProgress'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/BUILD.bazel:126:10: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//:openroad'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/BUILD.bazel:278:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//:rmp_swig'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/BUILD.bazel:245:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//:openroad_tcl'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ppl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/ppl:ppl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/utl/BUILD:79:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/utl:ui'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/rsz/BUILD:79:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -334,6 +256,8 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD
  - src/sta and referenced by '//src/rsz:swig'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/psm/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/psm:psm'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ppl/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/ppl:ppl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/par/BUILD:67:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/par:ui'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/par/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -342,12 +266,17 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD
  - src/sta and referenced by '//src/mpl:mpl'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/upf/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/upf:upf'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ifp/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - src/sta and referenced by '//src/ifp:ifp'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ifp/BUILD:32:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - src/sta and referenced by '//src/ifp:ui'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/ifp/BUILD:12:11: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/ifp:ifp'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:gui_qt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_timingWidget'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/The-OpenROAD-Project__OpenROAD/src/gui/BUILD:36:12: no such package 'src/sta': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - src/sta and referenced by '//src/gui:src_moc_h_native_tclCmdInputWidget'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
-Loading: 378 packages loaded
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...

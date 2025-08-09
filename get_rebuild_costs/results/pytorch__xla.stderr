@@ -1,23 +1,5 @@
 Starting local Bazel server and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
  no actions running
- no actions running
- no actions running
- no actions running
-DEBUG: Rule 'pybind11_bazel' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-ZCZWdIHuNF60hmHn24atwFOIHLTdOfv1J8iYYxa2grk="
-DEBUG: Repository pybind11_bazel instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/WORKSPACE:6:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/cf615c830b93ccd457b476cd119a0c04/external/bazel_tools/tools/build_defs/repo/http.bzl:387:31: in <toplevel>
- no actions running
- no actions running
- no actions running
- no actions running
-DEBUG: Rule 'xla' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-+9IM+DutePZpd/p/9noS5Slkq64LEH3dVIagNVZD7Io="
-DEBUG: Repository xla instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/WORKSPACE:51:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/cf615c830b93ccd457b476cd119a0c04/external/bazel_tools/tools/build_defs/repo/http.bzl:387:31: in <toplevel>
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/cf615c830b93ccd457b476cd119a0c04/external/xla/third_party/py/python_repo.bzl:156:14: 
 HERMETIC_PYTHON_VERSION variable was not set correctly, using default version.
 Python 3.10 will be used.
@@ -27,7 +9,6 @@ your shell:
 OR pass it as an argument to bazel command directly or inside your .bazelrc
 file:
   --repo_env=HERMETIC_PYTHON_VERSION=3.12
- no actions running
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/cf615c830b93ccd457b476cd119a0c04/external/xla/third_party/py/python_repo.bzl:87:10: 
 =============================
 Hermetic Python configuration:
@@ -37,44 +18,10 @@ Interpreter: "default" (provided by rules_python)
 Requirements_lock label: "@python_version_repo//:requirements_lock_3_10.txt"
 =====================================
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-ERROR: error loading package 'torchax/test/llama': Label '//third_party/py/torch/google/bazel_rules/rules_python/python:defs.bzl' is invalid because 'third_party/py/torch/google/bazel_rules/rules_python/python' is not a package; perhaps you meant to put the colon here: '//:third_party/py/torch/google/bazel_rules/rules_python/python/defs.bzl'?
 ERROR: error loading package 'plugins/cpu': cannot load '@@xla//xla:xla.bzl': no such file
-Loading: 4 packages loaded
-    currently loading: torchax/test/llama ... (5 packages)
-Loading: 40 packages loaded
-    currently loading: torchax/test/llama ... (47 packages)
-Loading: 56 packages loaded
-    currently loading: torchax/test/llama ... (53 packages)
-DEBUG: Rule 'pybind11' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-zS/ChkCms9cSz9F8F2pSGFqXyZcH9CrDj6hzhd4XfsE="
-DEBUG: Repository pybind11 instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/WORKSPACE:12:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/cf615c830b93ccd457b476cd119a0c04/external/bazel_tools/tools/build_defs/repo/http.bzl:387:31: in <toplevel>
-Loading: 145 packages loaded
-    currently loading: torchax/test/llama ... (20 packages)
-Loading: 192 packages loaded
-    currently loading: torchax/test/llama ... (11 packages)
-Loading: 211 packages loaded
-    currently loading: torchax/test/llama ... (7 packages)
-Loading: 219 packages loaded
-    currently loading: torchax/test/llama ... (7 packages)
-Loading: 239 packages loaded
-    currently loading: torchax/test/llama ... (13 packages)
-Loading: 250 packages loaded
-    currently loading: torchax/test/llama ... (6 packages)
-Loading: 264 packages loaded
-    currently loading: torchax/test/llama ... (3 packages)
-Loading: 270 packages loaded
-    currently loading: torchax/test/llama ... (2 packages)
+ERROR: error loading package 'torchax/test/llama': Label '//third_party/py/torch/google/bazel_rules/rules_python/python:defs.bzl' is invalid because 'third_party/py/torch/google/bazel_rules/rules_python/python' is not a package; perhaps you meant to put the colon here: '//:third_party/py/torch/google/bazel_rules/rules_python/python/defs.bzl'?
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/codegen/BUILD:4:10: no such package '@@[unknown repo 'pypi_torch' requested from @@ (did you mean 'pypi__tomli'?)]//': The repository '@@[unknown repo 'pypi_torch' requested from @@ (did you mean 'pypi__tomli'?)]' could not be resolved: No repository visible as '@pypi_torch' from main repository and referenced by '//codegen:lazy_tensor_generator'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/cf615c830b93ccd457b476cd119a0c04/external/xla/xla/tsl/cuda/BUILD.bazel:149:6: no such package '@@cuda_cudart//': The repository '@@cuda_cudart' could not be resolved: Repository '@@cuda_cudart' is not defined and referenced by '@@xla//xla/tsl/cuda:cudart'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:xla_util_test'
@@ -86,17 +33,36 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/ru
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//torch_xla/csrc/runtime:xla_util_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//torch_xla/csrc/runtime:xla_util_test'
-Loading: 284 packages loaded
-    currently loading: torchax/test/llama ... (2 packages)
-Loading: 287 packages loaded
-    currently loading: torchax/test/llama ... (2 packages)
-Loading: 287 packages loaded
-    currently loading: torchax/test/llama ... (3 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/codegen/BUILD:4:10: no such package '@@[unknown repo 'pypi_torch' requested from @@ (did you mean 'pypi__tomli'?)]//': The repository '@@[unknown repo 'pypi_torch' requested from @@ (did you mean 'pypi__tomli'?)]' could not be resolved: No repository visible as '@pypi_torch' from main repository and referenced by '//codegen:lazy_tensor_generator'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_runtime'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_6'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_5'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -107,8 +73,40 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:14
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_5'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_5'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_1'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -119,10 +117,36 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:17
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_xla_sharding'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_xla_sharding'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_xla_sharding'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_xla_sharding'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_xla_sharding'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_tensor'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_3'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_ir'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -133,8 +157,26 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_ir'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_ir'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_xla_sharding'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_replication'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -145,332 +187,188 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:18
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_2'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_debug_macros'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_debug_macros'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_2'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_2'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_2'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_2'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_xla_sharding'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_xla_sharding'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_xla_sharding'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_xla_sharding'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/codegen/BUILD:4:10: no such package '@@[unknown repo 'pypi_torch' requested from @@ (did you mean 'pypi__tomli'?)]//': The repository '@@[unknown repo 'pypi_torch' requested from @@ (did you mean 'pypi__tomli'?)]' could not be resolved: No repository visible as '@pypi_torch' from main repository and referenced by '//codegen:lazy_tensor_generator'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_1'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_1'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_1'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_2'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_1'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/cf615c830b93ccd457b476cd119a0c04/external/xla/xla/tsl/cuda/BUILD.bazel:149:6: no such package '@@cuda_cudart//': The repository '@@cuda_cudart' could not be resolved: Repository '@@cuda_cudart' is not defined and referenced by '@@xla//xla/tsl/cuda:cudart'
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_1'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_3'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_3'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_3'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_4'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_2'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_2'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_5'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_5'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_5'
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_6'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_5'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_5'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_5'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_5'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_6'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_debug_macros'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_2'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_2'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_2'
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_5'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_5'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_5'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_4'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_3'
 Loading: 293 packages loaded
     currently loading: torchax/test/llama ... (2 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_ir'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_ir'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_ir'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_5'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/cf615c830b93ccd457b476cd119a0c04/external/xla/xla/tsl/cuda/BUILD.bazel:149:6: no such package '@@cuda_cudart//': The repository '@@cuda_cudart' could not be resolved: Repository '@@cuda_cudart' is not defined and referenced by '@@xla//xla/tsl/cuda:cudart'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_aten_xla_tensor_4'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_3'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_replication'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_lazy'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_ir'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_ir'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_lazy'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_ir'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_ir'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:xla_util_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_ir'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_ir'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_ir'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_ir'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:196:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_debug_macros'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:140:18: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_aten_xla_tensor_6'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//torch_xla/csrc/runtime:xla_util_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//torch_xla/csrc/runtime:xla_util_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:xla_util_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:xla_util_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:xla_util_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//torch_xla/csrc/runtime:xla_util_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:xla_util_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:xla_util_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//torch_xla/csrc/runtime:xla_util_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_runtime'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_replication'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:62:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_lazy'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:50:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_ir'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//torch_xla/csrc/runtime:xla_util_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:478:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:xla_util_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/torch_xla/csrc/runtime/BUILD:497:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//torch_xla/csrc/runtime:pjrt_computation_client_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_xla_sharding'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_xla_sharding'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_xla_sharding'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -481,20 +379,62 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:12
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_xla_sharding'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_xla_sharding'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:120:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_xla_sharding'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_tensor'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_tensor'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:74:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_replication'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:93:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_tensor'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:187:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_status_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:178:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_status_dont_show_cpp_stacktraces'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/utils': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/utils and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/protobuf': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/protobuf and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/platform': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/platform and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/profiler/backends/cpu': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/profiler/backends/cpu and referenced by '//test/cpp:test_runtime'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/test/cpp/BUILD:157:14: no such package 'xla/tsl/framework': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__xla/xla/tsl/framework and referenced by '//test/cpp:test_runtime'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

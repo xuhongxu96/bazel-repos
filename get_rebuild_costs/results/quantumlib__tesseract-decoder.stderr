@@ -1,34 +1,9 @@
 Starting local Bazel server (8.2.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
  no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 3 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/143b065966b72b3d48aad52ff4aca6e7/external/gtest/BUILD.bazel:80:11: no such package '@@com_googlesource_code_re2//': The repository '@@com_googlesource_code_re2' could not be resolved: Repository '@@com_googlesource_code_re2' is not defined and referenced by '@@gtest//:gtest'
-Loading: 82 packages loaded
-Loading: 84 packages loaded
-Loading: 104 packages loaded
-    currently loading: @@rules_python++pip_internal+rules_python_publish_deps//charset_normalizer ... (3 packages)
-Loading: 150 packages loaded
-Loading: 164 packages loaded
-Loading: 205 packages loaded
-Loading: 209 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
-Loading: 216 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/143b065966b72b3d48aad52ff4aca6e7/external/gtest/BUILD.bazel:80:11: no such package '@@com_googlesource_code_re2//': The repository '@@com_googlesource_code_re2' could not be resolved: Repository '@@com_googlesource_code_re2' is not defined and referenced by '@@gtest//:gtest'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
@@ -168,5 +143,6 @@ Read 132000 lines from bazel query output...
 Read 133000 lines from bazel query output...
 Read 134000 lines from bazel query output...
 Read 135000 lines from bazel query output...
+Loading: 217 packages loaded
 Read 136000 lines from bazel query output...
 Read 137000 lines from bazel query output...

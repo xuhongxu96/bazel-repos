@@ -1,11 +1,6 @@
 Starting local Bazel server (8.3.1) and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
- no actions running
- no actions running
  no actions running
 Loading: 0 packages loaded
-Loading: 2 packages loaded
-    currently loading: @@rules_cc+//cc ... (2 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/arximboldi__lager/BUILD:3:11: no such package '@@[unknown repo 'boost' requested from @@]//': The repository '@@[unknown repo 'boost' requested from @@]' could not be resolved: No repository visible as '@boost' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//:lager'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/arximboldi__lager/BUILD:3:11: no such package '@@[unknown repo 'zug' requested from @@]//': The repository '@@[unknown repo 'zug' requested from @@]' could not be resolved: No repository visible as '@zug' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//:lager'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/arximboldi__lager/BUILD:3:11: no such package '@@[unknown repo 'cereal' requested from @@]//': The repository '@@[unknown repo 'cereal' requested from @@]' could not be resolved: No repository visible as '@cereal' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//:lager'

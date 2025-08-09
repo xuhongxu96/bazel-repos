@@ -1,14 +1,10 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
 ERROR: error loading package '': Unable to find package for @@[unknown repo 'build_bazel_rules_apple' requested from @@]//apple:macos.bzl: The repository '@@[unknown repo 'build_bazel_rules_apple' requested from @@]' could not be resolved: No repository visible as '@build_bazel_rules_apple' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
 ERROR: Skipping '//...': no targets found beneath ''
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 INFO: Empty results
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Failed to parse bazel query xml.
+<?xml version="1.1" encoding="UTF-8" standalone="no"?><query version="2"/>

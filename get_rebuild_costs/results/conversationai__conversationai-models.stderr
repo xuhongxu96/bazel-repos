@@ -4,7 +4,5 @@ WARNING: Invoking Bazel in batch mode since it is not invoked from within a work
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
 ERROR: The 'query' command is only supported from within a workspace (below a directory having a MODULE.bazel file).
 See documentation at https://bazel.build/concepts/build-ref#workspace
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

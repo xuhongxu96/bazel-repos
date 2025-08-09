@@ -1,8 +1,5 @@
 Starting local Bazel server and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
  checking cached actions
 ERROR: Error computing the main repository mapping: Label '//book/htmlbook/tools:repositories.bzl' is invalid because 'book/htmlbook/tools' is not a package; perhaps you meant to put the colon here: '//book:htmlbook/tools/repositories.bzl'?
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

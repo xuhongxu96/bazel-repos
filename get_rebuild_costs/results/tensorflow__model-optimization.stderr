@@ -1,19 +1,12 @@
 Starting local Bazel server (8.3.1) and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
- no actions running
- no actions running
  no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 44 packages loaded
-    currently loading: @@rules_python+//python/config_settings ... (5 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__model-optimization/tensorflow_model_optimization/BUILD:27:17: no such package 'third_party/tensorflow_model_optimization': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - third_party/tensorflow_model_optimization and referenced by '//tensorflow_model_optimization:build_docs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__model-optimization/tensorflow_model_optimization/BUILD:27:17: no such package 'third_party/tensorflow_model_optimization': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - third_party/tensorflow_model_optimization and referenced by '//tensorflow_model_optimization:build_docs'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 71 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

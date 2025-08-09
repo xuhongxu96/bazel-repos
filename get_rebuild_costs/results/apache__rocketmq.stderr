@@ -1,19 +1,5 @@
-2025/08/08 20:13:48 Downloading https://releases.bazel.build/5.2.0/release/bazel-5.2.0-linux-x86_64...
-Extracting Bazel installation...
-Starting local Bazel server and connecting to it...
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 16 packages loaded
-    currently loading: 
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/apache__rocketmq/BUILD.bazel:19:9: no such package '@rbe_default//config': The repository '@rbe_default' could not be resolved: Repository '@rbe_default' is not defined and referenced by '//:custom_platform'
-Loading: 36 packages loaded
-Loading: 37 packages loaded
-Loading: 40 packages loaded
-Loading: 41 packages loaded
-Loading: 41 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/apache__rocketmq/BUILD.bazel:19:9: no such package '@rbe_default//config': The repository '@rbe_default' could not be resolved: Repository '@rbe_default' is not defined and referenced by '//:custom_platform'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
@@ -45,5 +31,5 @@ Read 24000 lines from bazel query output...
 Read 25000 lines from bazel query output...
 Read 26000 lines from bazel query output...
 Read 27000 lines from bazel query output...
-Loading: 45 packages loaded
-Loading: 45 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded

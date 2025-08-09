@@ -1,28 +1,4 @@
-2025/08/08 20:35:48 Downloading https://releases.bazel.build/5.3.0/release/bazel-5.3.0-linux-x86_64...
-Extracting Bazel installation...
-Starting local Bazel server and connecting to it...
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 11 packages loaded
-    currently loading: tfjs-tfdf/wasm ... (28 packages)
-Loading: 11 packages loaded
-    currently loading: tfjs-tfdf/wasm ... (28 packages)
-Loading: 11 packages loaded
-    currently loading: tfjs-tfdf/wasm ... (28 packages)
-Loading: 11 packages loaded
-    currently loading: tfjs-tfdf/wasm ... (28 packages)
-Loading: 38 packages loaded
-    currently loading: tfjs-core/src
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tfjs/remote-execution/BUILD.bazel:35:10: no such package '@npm//@angular/dev-infra-private/bazel/remote-execution/cpp': BUILD file not found in directory '@angular/dev-infra-private/bazel/remote-execution/cpp' of external repository @npm. Add a BUILD file to a directory to mark it as a package. and referenced by '//remote-execution:files'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
@@ -30,16 +6,12 @@ ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-Loading: 421 packages loaded
-Loading: 443 packages loaded
-Loading: 443 packages loaded
-Loading: 443 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tfjs/remote-execution/BUILD.bazel:35:10: no such package '@npm//@angular/dev-infra-private/bazel/remote-execution/cpp': BUILD file not found in directory '@angular/dev-infra-private/bazel/remote-execution/cpp' of external repository @npm. Add a BUILD file to a directory to mark it as a package. and referenced by '//remote-execution:files'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/422f63a0d64c940af7872d6f10dd3f87/external/com_google_googletest/BUILD.bazel:57:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
@@ -306,9 +278,5 @@ Read 259000 lines from bazel query output...
 Read 260000 lines from bazel query output...
 Read 261000 lines from bazel query output...
 Read 262000 lines from bazel query output...
-Loading: 467 packages loaded
-Loading: 467 packages loaded
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Loading: 0 packages loaded
+Loading: 0 packages loaded

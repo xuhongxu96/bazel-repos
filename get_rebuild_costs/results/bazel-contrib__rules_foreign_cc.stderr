@@ -1,35 +1,15 @@
 Starting local Bazel server and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 11 packages loaded
-    currently loading:  ... (3 packages)
-Loading: 11 packages loaded
-    currently loading:  ... (3 packages)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/test/boostrap_tools/BUILD.bazel:3:11: no such target '//toolchains:ninja_tool': target 'ninja_tool' not declared in package 'toolchains' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/toolchains/BUILD.bazel and referenced by '//test/boostrap_tools:boostrap_tools_2__deps'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/test/boostrap_tools/BUILD.bazel:3:11: no such target '//toolchains:make_tool': target 'make_tool' not declared in package 'toolchains' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/toolchains/BUILD.bazel and referenced by '//test/boostrap_tools:boostrap_tools_0__deps'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/test/boostrap_tools/BUILD.bazel:3:11: no such target '//toolchains:cmake_tool': target 'cmake_tool' not declared in package 'toolchains' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/toolchains/BUILD.bazel and referenced by '//test/boostrap_tools:boostrap_tools_1__deps'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/test/boostrap_tools/BUILD.bazel:3:11: no such target '//toolchains:ninja_tool': target 'ninja_tool' not declared in package 'toolchains' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/toolchains/BUILD.bazel and referenced by '//test/boostrap_tools:boostrap_tools_2__deps'
-Loading: 96 packages loaded
-    currently loading: @@rules_python~//python/config_settings ... (6 packages)
-WARNING: Download from https://mirror.bazel.build/github.com/ninja-build/ninja/archive/v1.13.0.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 109 packages loaded
-Loading: 116 packages loaded
-Loading: 117 packages loaded
-Loading: 117 packages loaded
-Loading: 118 packages loaded
-Loading: 118 packages loaded
-Loading: 119 packages loaded
-Loading: 119 packages loaded
-Loading: 133 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/test/boostrap_tools/BUILD.bazel:3:11: no such target '//toolchains:make_tool': target 'make_tool' not declared in package 'toolchains' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/toolchains/BUILD.bazel and referenced by '//test/boostrap_tools:boostrap_tools_0__deps'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/test/boostrap_tools/BUILD.bazel:3:11: no such target '//toolchains:cmake_tool': target 'cmake_tool' not declared in package 'toolchains' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/toolchains/BUILD.bazel and referenced by '//test/boostrap_tools:boostrap_tools_1__deps'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/test/boostrap_tools/BUILD.bazel:3:11: no such target '//toolchains:ninja_tool': target 'ninja_tool' not declared in package 'toolchains' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__rules_foreign_cc/toolchains/BUILD.bazel and referenced by '//test/boostrap_tools:boostrap_tools_2__deps'
+Loading: 137 packages loaded
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 137 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

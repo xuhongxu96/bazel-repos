@@ -1,42 +1,17 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
 WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 3 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:409:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:sample_section_bin'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:353:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:bimodal_sample_mfs_bin'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:226:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:bimodal_sample_bin'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:252:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:bimodal_sample_x_bin'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:200:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:bimodal_sample_v2_bin'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:297:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:sample_bin'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:252:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:bimodal_sample_x_bin'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:409:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:sample_section_bin'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:462:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:thunks_bin'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:226:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:bimodal_sample_bin'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:436:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:sample_arm_bin'
-Loading: 84 packages loaded
+Loading: 86 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__llvm-propeller/propeller/testdata/BUILD:135:8: no such package '@@[unknown repo 'platforms' requested from @@]//cpu': The repository '@@[unknown repo 'platforms' requested from @@]' could not be resolved: No repository visible as '@platforms' from main repository and referenced by '//propeller/testdata:propeller_sample_1_perfdata'
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 86 packages loaded
-Loading: 87 packages loaded
-Loading: 87 packages loaded
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...

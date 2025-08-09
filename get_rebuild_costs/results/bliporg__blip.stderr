@@ -1,10 +1,6 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 1 packages loaded
-    currently loading: deps/libpng ... (3 packages)
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD", line 88, column 16, in <toplevel>
 		hdrs = glob(["src/Common/include/Luau/*.h"]),
@@ -22,17 +18,17 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUI
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:79:18: Target '//deps/libluau:Luau.EqSat' contains an error and its package is in error and referenced by '//deps/libluau:luau-default'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:79:18: Target '//deps/libluau:Luau.VM' contains an error and its package is in error and referenced by '//deps/libluau:luau-default'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.Analysis' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.Ast' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.CodeGen' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.Compiler' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.Config' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:72:21: Target '//deps/libluau:Luau.Analysis' contains an error and its package is in error and referenced by '//deps/libluau:luau-ios'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:72:21: Target '//deps/libluau:Luau.Ast' contains an error and its package is in error and referenced by '//deps/libluau:luau-ios'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.Ast' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:72:21: Target '//deps/libluau:Luau.CodeGen' contains an error and its package is in error and referenced by '//deps/libluau:luau-ios'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.CodeGen' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.Compiler' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:72:21: Target '//deps/libluau:Luau.Compiler' contains an error and its package is in error and referenced by '//deps/libluau:luau-ios'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.Config' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.EqSat' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.VM' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:72:21: Target '//deps/libluau:Luau.Config' contains an error and its package is in error and referenced by '//deps/libluau:luau-ios'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:65:21: Target '//deps/libluau:Luau.VM' contains an error and its package is in error and referenced by '//deps/libluau:luau-macos'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:72:21: Target '//deps/libluau:Luau.EqSat' contains an error and its package is in error and referenced by '//deps/libluau:luau-ios'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:72:21: Target '//deps/libluau:Luau.VM' contains an error and its package is in error and referenced by '//deps/libluau:luau-ios'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bliporg__blip/deps/libluau/BUILD:45:6: Target '//deps/libluau:luau-macos' contains an error and its package is in error and referenced by '//deps/libluau:luau'

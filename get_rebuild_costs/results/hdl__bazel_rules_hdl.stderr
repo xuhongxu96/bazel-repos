@@ -1,65 +1,17 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 105 packages loaded
-    currently loading: @com_google_protobuf// ... (2 packages)
-Loading: 106 packages loaded
-    currently loading: @com_google_protobuf// ... (2 packages)
-Loading: 106 packages loaded
-    currently loading: @com_google_protobuf// ... (2 packages)
-Loading: 133 packages loaded
-Loading: 133 packages loaded
-Loading: 134 packages loaded
-Loading: 134 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_ortools/ortools/glpk/BUILD.bazel:17:11: no such package '@glpk//': The repository '@glpk' could not be resolved: Repository '@glpk' is not defined and referenced by '@com_google_ortools//ortools/glpk:glpk_env_deleter'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_protobuf/python/BUILD.bazel:17:14: no such package '@system_python//': The repository '@system_python' could not be resolved: Repository '@system_python' is not defined and referenced by '@com_google_protobuf//python:proto_api'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_protobuf/python/BUILD.bazel:17:14: no such package '@system_python//': The repository '@system_python' could not be resolved: Repository '@system_python' is not defined and referenced by '@com_google_protobuf//python:google/protobuf/internal/_api_implementation.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_protobuf/python/BUILD.bazel:17:14: no such package '@system_python//': The repository '@system_python' could not be resolved: Repository '@system_python' is not defined and referenced by '@com_google_protobuf//python:google/protobuf/pyext/_message.so'
-Loading: 173 packages loaded
-Loading: 176 packages loaded
-Loading: 177 packages loaded
-Loading: 182 packages loaded
-Loading: 191 packages loaded
-Loading: 196 packages loaded
-Loading: 197 packages loaded
-Loading: 198 packages loaded
-Loading: 199 packages loaded
-Loading: 199 packages loaded
-Loading: 200 packages loaded
-Loading: 200 packages loaded
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_ortools/ortools/glpk/BUILD.bazel:17:11: no such package '@glpk//': The repository '@glpk' could not be resolved: Repository '@glpk' is not defined and referenced by '@com_google_ortools//ortools/glpk:glpk_env_deleter'
-Loading: 224 packages loaded
-DEBUG: Rule 'eigen' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "3147391d946bb4b6c68edd901f2add6ac1f31f8c" and dropping ["tag"]
-DEBUG: Repository eigen instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/hdl__bazel_rules_hdl/WORKSPACE:175:19: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/hdl__bazel_rules_hdl/dependency_support/dependency_support.bzl:92:23: in dependency_support
-  /data/h445xu/repo/bazel-repos/cloned_repos/hdl__bazel_rules_hdl/dependency_support/com_google_ortools/com_google_ortools.bzl:47:10: in com_google_ortools
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-Loading: 228 packages loaded
-Loading: 228 packages loaded
-DEBUG: Rule 'scip' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "7205bedd942f87faeb9a0552839710941d1ffc2c" and dropping ["tag"]
-DEBUG: Repository scip instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/hdl__bazel_rules_hdl/WORKSPACE:175:19: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/hdl__bazel_rules_hdl/dependency_support/dependency_support.bzl:92:23: in dependency_support
-  /data/h445xu/repo/bazel-repos/cloned_repos/hdl__bazel_rules_hdl/dependency_support/com_google_ortools/com_google_ortools.bzl:29:10: in com_google_ortools
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_ortools/ortools/linear_solver/BUILD.bazel:169:11: no such package '@glpk//': The repository '@glpk' could not be resolved: Repository '@glpk' is not defined and referenced by '@com_google_ortools//ortools/linear_solver:linear_solver'
-Loading: 230 packages loaded
-Loading: 230 packages loaded
+Loading: 221 packages loaded
+    currently loading: @com_google_skywater_pdk_sky130_fd_sc_hd// ... (2 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_ortools/ortools/glpk/BUILD.bazel:17:11: no such package '@glpk//': The repository '@glpk' could not be resolved: Repository '@glpk' is not defined and referenced by '@com_google_ortools//ortools/glpk:glpk_env_deleter'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_ortools/ortools/linear_solver/BUILD.bazel:169:11: no such package '@glpk//': The repository '@glpk' could not be resolved: Repository '@glpk' is not defined and referenced by '@com_google_ortools//ortools/linear_solver:linear_solver'
-Loading: 237 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a1d249a3d8ac76734bd49a94f317535b/external/com_google_ortools/ortools/glpk/BUILD.bazel:17:11: no such package '@glpk//': The repository '@glpk' could not be resolved: Repository '@glpk' is not defined and referenced by '@com_google_ortools//ortools/glpk:glpk_env_deleter'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

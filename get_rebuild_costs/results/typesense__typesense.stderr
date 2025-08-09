@@ -1,108 +1,32 @@
-2025/08/08 20:12:00 Downloading https://releases.bazel.build/6.2.0/release/bazel-6.2.0-linux-x86_64...
-Extracting Bazel installation...
-Starting local Bazel server and connecting to it...
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-    currently loading: bazel/braft ... (12 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/bazel/config/BUILD.bazel:96:15: no such target '//:__subpkgs__': target '__subpkgs__' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/BUILD (Tip: use `query "//:*"` to see all the targets in that package) and referenced by '//bazel/config:darwin'
-Loading: 13 packages loaded
-    currently loading: @bazel_tools//tools/cpp ... (2 packages)
-Loading: 30 packages loaded
-DEBUG: Rule 'clip_tokenizer' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "0ca1e2e2e7418108725eaa7fb93e029516ae63fa" and dropping ["branch"]
-DEBUG: Repository clip_tokenizer instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:54:19: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-Loading: 42 packages loaded
-DEBUG: Rule 'snowball' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "1cbef80e6b120e3332a53c788c1ac1a579270cb0" and dropping ["branch"]
-DEBUG: Repository snowball instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:341:19: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-DEBUG: Rule 'com_google_googletest' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "58d77fa8070e8cec2dc1ed015d66b454c8d78850" and dropping ["tag"]
-DEBUG: Repository com_google_googletest instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:262:15: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-DEBUG: Rule 'sentencepiece' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "518c57c335534d495d40d95d70199e28b4c8ce2a" and dropping ["tag"]
-DEBUG: Repository sentencepiece instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:83:19: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/bazel/h2o/BUILD:22:6: no such target '//:all_srcs': target 'all_srcs' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/BUILD (Tip: use `query "//:*"` to see all the targets in that package) and referenced by '//bazel/h2o:h2o'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_github_brpc_brpc/BUILD.bazel:299:11: no such package '@boringssl//': The repository '@boringssl' could not be resolved: Repository '@boringssl' is not defined and referenced by '@com_github_brpc_brpc//:butil'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_github_brpc_brpc/BUILD.bazel:492:11: no such package '@org_apache_thrift//': The repository '@org_apache_thrift' could not be resolved: Repository '@org_apache_thrift' is not defined and referenced by '@com_github_brpc_brpc//:brpc'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
-Loading: 48 packages loaded
-    currently loading: @com_github_brpc_braft// ... (3 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/whisper.cpp/BUILD.bazel:15:6: CUDA: select({":with_cuda": True, "//conditions:default": False})
-DEBUG: Rule 'rocksdb' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "bf2c335184de16a3cc1787fa97ef9f22f7114238" and dropping ["tag"]
-DEBUG: Repository rocksdb instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:207:19: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-Loading: 53 packages loaded
-    currently loading: @com_github_brpc_braft//
-Loading: 56 packages loaded
-    currently loading: @com_github_brpc_braft//
-DEBUG: Rule 'com_google_protobuf' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "ab840345966d0fa8e7100d771c92a73bfbadd25c" and dropping ["tag"]
-DEBUG: Repository com_google_protobuf instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:127:15: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-DEBUG: Rule 'com_github_madler_zlib' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "21767c654d31d2dccdde4330529775c6c5fd5389" and dropping ["tag"]
-DEBUG: Repository com_github_madler_zlib instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:69:19: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/bazel/h2o/BUILD:22:6: no such target '//:all_srcs': target 'all_srcs' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/BUILD (Tip: use `query "//:*"` to see all the targets in that package) and referenced by '//bazel/h2o:h2o'
-Loading: 62 packages loaded
-    currently loading: @com_github_brpc_braft// ... (2 packages)
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_github_brpc_brpc/BUILD.bazel:299:11: no such package '@boringssl//': The repository '@boringssl' could not be resolved: Repository '@boringssl' is not defined and referenced by '@com_github_brpc_brpc//:butil'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_github_brpc_brpc/BUILD.bazel:492:11: no such package '@org_apache_thrift//': The repository '@org_apache_thrift' could not be resolved: Repository '@org_apache_thrift' is not defined and referenced by '@com_github_brpc_brpc//:brpc'
-Loading: 68 packages loaded
-Loading: 68 packages loaded
-DEBUG: Rule 'icu' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "8063ea337490a0a216c30d58c2beb7315059eb7c" and dropping ["tag"]
-DEBUG: Repository icu instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:254:19: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-DEBUG: Rule 'onnx_runtime' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "c57cf374b67f72575546d7b4c69a1af4972e2b54" and dropping ["branch"]
-DEBUG: Repository onnx_runtime instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/WORKSPACE:45:19: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
-Loading: 69 packages loaded
-Loading: 70 packages loaded
-Loading: 70 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/bazel/config/BUILD.bazel:96:15: no such target '//:__subpkgs__': target '__subpkgs__' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/BUILD (Tip: use `query "//:*"` to see all the targets in that package) and referenced by '//bazel/config:darwin'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/bazel/h2o/BUILD:22:6: no such target '//:all_srcs': target 'all_srcs' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/typesense__typesense/BUILD (Tip: use `query "//:*"` to see all the targets in that package) and referenced by '//bazel/h2o:h2o'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_github_brpc_brpc/BUILD.bazel:299:11: no such package '@boringssl//': The repository '@boringssl' could not be resolved: Repository '@boringssl' is not defined and referenced by '@com_github_brpc_brpc//:butil'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_github_brpc_brpc/BUILD.bazel:299:11: no such package '@boringssl//': The repository '@boringssl' could not be resolved: Repository '@boringssl' is not defined and referenced by '@com_github_brpc_brpc//:butil'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_github_brpc_brpc/BUILD.bazel:492:11: no such package '@org_apache_thrift//': The repository '@org_apache_thrift' could not be resolved: Repository '@org_apache_thrift' is not defined and referenced by '@com_github_brpc_brpc//:brpc'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/debugging': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/strings': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/flags': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a4a185768b92c33228254daf6ea04663/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_google_absl//absl/types': The repository '@com_google_absl' could not be resolved: Repository '@com_google_absl' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 72 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -349,4 +273,4 @@ Read 242000 lines from bazel query output...
 Read 243000 lines from bazel query output...
 Read 244000 lines from bazel query output...
 Read 245000 lines from bazel query output...
-Loading: 72 packages loaded
+Loading: 0 packages loaded

@@ -5,17 +5,6 @@ INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_r
   Inherited 'common' options: --noenable_bzlmod --noincompatible_enable_cc_toolchain_resolution --announce_rc --repo_env=USE_PYWRAP_RULES=True --copt=-DGRPC_BAZEL_BUILD --host_copt=-DGRPC_BAZEL_BUILD --action_env=GRPC_BAZEL_RUNTIME=1 --repo_env=PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=upb --action_env=PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=upb --repo_env=RULES_PYTHON_ENABLE_PYSTAR=0 --experimental_repo_remote_exec --cxxopt=-std=c++17 --host_cxxopt=-std=c++17 --cxxopt=-w --host_cxxopt=-w --define=grpc_no_ares=true --define=tsl_link_protobuf=true --define open_source_build=true --define framework_shared_object=true --define tsl_protobuf_header_only=true --define=allow_oversize_protos=true
   Ignored as unsupported by 'query': --noincompatible_enable_cc_toolchain_resolution --copt=-DGRPC_BAZEL_BUILD --host_copt=-DGRPC_BAZEL_BUILD --action_env=GRPC_BAZEL_RUNTIME=1 --action_env=PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=upb --cxxopt=-std=c++17 --host_cxxopt=-std=c++17 --cxxopt=-w --host_cxxopt=-w --define=grpc_no_ares=true --define=tsl_link_protobuf=true --define open_source_build=true --define framework_shared_object=true --define tsl_protobuf_header_only=true --define=allow_oversize_protos=true
  no actions running
- no actions running
- no actions running
-DEBUG: Rule 'jax' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-EAcg0CQKMvDzFuPAO9ZACRbJlhiSKMnv82MOyAAxWP0="
-DEBUG: Repository jax instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/WORKSPACE:38:14: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/third_party/jax/workspace.bzl:21:17: in repo
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/bazel_tools/tools/build_defs/repo/http.bzl:387:31: in <toplevel>
- no actions running
- no actions running
- no actions running
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/third_party/py/python_repo.bzl:156:14: 
 HERMETIC_PYTHON_VERSION variable was not set correctly, using default version.
 Python 3.11 will be used.
@@ -35,109 +24,55 @@ Interpreter: "default" (provided by rules_python)
 Requirements_lock label: "@//builddeps:requirements_lock_3_11.txt"
 =====================================
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
-DEBUG: Rule 'hedron_compile_commands' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-ZYEiz7HyW+duohKwD16wR9jirci8+SO5GEYfKx43zfI="
-DEBUG: Repository hedron_compile_commands instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/WORKSPACE:192:34: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/third_party/hedron_compile_commands/workspace.bzl:8:17: in repo
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/bazel_tools/tools/build_defs/repo/http.bzl:387:31: in <toplevel>
 Loading: 0 packages loaded
-Loading: 77 packages loaded
-    currently loading: @@llvm-project//mlir ... (17 packages)
-DEBUG: Rule 'enzyme' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-MyenqqnUMwATqh3FAJlkV81SGjD9j/IypIiNBF0PZfc="
-DEBUG: Repository enzyme instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/WORKSPACE:54:17: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/third_party/enzyme/workspace.bzl:13:21: in repo
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/bazel_tools/tools/build_defs/repo/http.bzl:387:31: in <toplevel>
+Loading: 364 packages loaded
+    currently loading: @@llvm-project//llvm ... (20 packages)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:ARMAsmParser': target 'ARMAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean AsmParser, or X86AsmParser?) and referenced by '//:enzymexlamlir-opt'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/backends/cpu/codegen/BUILD:199:11: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/backends/cpu/codegen:jit_compiler'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/backends/cpu/codegen/BUILD:199:11: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/backends/cpu/codegen:jit_compiler'
-Loading: 259 packages loaded
-    currently loading: @@python_x86_64-apple-darwin//
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:ARMAsmParser': target 'ARMAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean AsmParser, or X86AsmParser?) and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:ARMAsmParser': target 'ARMAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean AsmParser, or X86AsmParser?) and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:ARMCodeGen': target 'ARMCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean CodeGen, or X86CodeGen?) and referenced by '//:enzymexlamlir-opt'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:PowerPCAsmParser': target 'PowerPCAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:SystemZAsmParser': target 'SystemZAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:ARMAsmParser': target 'ARMAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean AsmParser, or X86AsmParser?) and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:ARMCodeGen': target 'ARMCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean CodeGen, or X86CodeGen?) and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:PowerPCAsmParser': target 'PowerPCAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:SystemZAsmParser': target 'SystemZAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
-Loading: 280 packages loaded
-Loading: 292 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/service/cpu/BUILD:183:11: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/service/cpu:cpu_compiler_pure'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/service/cpu/BUILD:183:11: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/service/cpu:cpu_compiler_pure'
-Loading: 313 packages loaded
-Loading: 337 packages loaded
-Loading: 359 packages loaded
-Loading: 373 packages loaded
-Loading: 384 packages loaded
-Loading: 399 packages loaded
-Loading: 405 packages loaded
-Loading: 411 packages loaded
-Loading: 417 packages loaded
-Loading: 418 packages loaded
-Loading: 418 packages loaded
-Loading: 418 packages loaded
-Loading: 419 packages loaded
-Loading: 420 packages loaded
-Loading: 420 packages loaded
-Loading: 421 packages loaded
-Loading: 421 packages loaded
-Loading: 422 packages loaded
-Loading: 424 packages loaded
-Loading: 424 packages loaded
-Loading: 424 packages loaded
-Loading: 424 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:106:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:llama'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:SystemZAsmParser': target 'SystemZAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:118:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:jaxmd'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:106:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:llama'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:95:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:testffi'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:136:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:neuralgcm_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:84:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:bench_vs_xla'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:74:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:151:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:keras_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:ARMCodeGen': target 'ARMCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean CodeGen, or X86CodeGen?) and referenced by '//:enzymexlamlir-opt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:SystemZAsmParser': target 'SystemZAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:PowerPCAsmParser': target 'PowerPCAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:ARMAsmParser': target 'ARMAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean AsmParser, or X86AsmParser?) and referenced by '//:enzymexlamlir-opt'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/backends/cpu/codegen/BUILD:199:11: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/backends/cpu/codegen:jit_compiler'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/service/cpu/BUILD:183:11: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/service/cpu:cpu_compiler_pure'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/backends/cpu/codegen/BUILD:199:11: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/backends/cpu/codegen:jit_compiler'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/service/cpu/BUILD:183:11: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/service/cpu:cpu_compiler_pure'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:118:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:jaxmd'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:95:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:testffi'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:74:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:136:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:neuralgcm_test'
-Loading: 426 packages loaded
-Loading: 427 packages loaded
-Loading: 430 packages loaded
-Loading: 434 packages loaded
-Loading: 439 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:151:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:keras_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:ARMAsmParser': target 'ARMAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean AsmParser, or X86AsmParser?) and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:PowerPCAsmParser': target 'PowerPCAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:SystemZAsmParser': target 'SystemZAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:35:10: no such target '@@llvm-project//llvm:ARMCodeGen': target 'ARMCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean CodeGen, or X86CodeGen?) and referenced by '//:enzymexlamlir-opt'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/service/cpu/BUILD:183:11: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/service/cpu:cpu_compiler_pure'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/backends/cpu/codegen/BUILD:199:11: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/backends/cpu/codegen:jit_compiler'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/backends/cpu/codegen/BUILD:199:11: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/backends/cpu/codegen:jit_compiler'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/xla/xla/service/cpu/BUILD:183:11: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '@@xla//xla/service/cpu:cpu_compiler_pure'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:136:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:neuralgcm_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:106:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:llama'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:151:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:keras_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:118:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:jaxmd'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:84:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:bench_vs_xla'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:ARMCodeGen': target 'ARMCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean CodeGen, or X86CodeGen?) and referenced by '//:RaiseLib'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:151:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:keras_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:106:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:llama'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:SystemZAsmParser': target 'SystemZAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:PowerPCAsmParser': target 'PowerPCAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:ARMAsmParser': target 'ARMAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean AsmParser, or X86AsmParser?) and referenced by '//:RaiseLib'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:SystemZAsmParser': target 'SystemZAsmParser' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:PowerPCCodeGen': target 'PowerPCCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:SystemZCodeGen': target 'SystemZCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel and referenced by '//:RaiseLib'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:95:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:testffi'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/test/BUILD:74:8: no such package '@@pypi_libtpu_nightly//': The repository '@@pypi_libtpu_nightly' could not be resolved: Repository '@@pypi_libtpu_nightly' is not defined and referenced by '//test:test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/EnzymeAD__Enzyme-JAX/BUILD:72:11: no such target '@@llvm-project//llvm:ARMCodeGen': target 'ARMCodeGen' not declared in package 'llvm' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/b5c0faf99c3a596b8b34cf492955ca54/external/llvm-project/llvm/BUILD.bazel (did you mean CodeGen, or X86CodeGen?) and referenced by '//:RaiseLib'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -178,7 +113,6 @@ Read 34000 lines from bazel query output...
 Read 35000 lines from bazel query output...
 Read 36000 lines from bazel query output...
 Read 37000 lines from bazel query output...
-Loading: 440 packages loaded
 Read 38000 lines from bazel query output...
 Read 39000 lines from bazel query output...
 Read 40000 lines from bazel query output...

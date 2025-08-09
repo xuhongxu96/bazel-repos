@@ -1,36 +1,12 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 7 packages loaded
-    currently loading: ros2/test ... (9 packages)
-Loading: 7 packages loaded
-    currently loading: ros2/test ... (9 packages)
-Loading: 264 packages loaded
-Loading: 306 packages loaded
-Loading: 362 packages loaded
+Loading: 396 packages loaded
+    currently loading: @@openssl+// ... (12 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/08c45feac665e142c28691f6253c86fb/external/boost.asio+/BUILD.bazel:30:11: no such package '@@[unknown repo 'openssl' requested from @@boost.asio+]//': The repository '@@[unknown repo 'openssl' requested from @@boost.asio+]' could not be resolved: No repository visible as '@openssl' from repository '@@boost.asio+' and referenced by '@@boost.asio+//:boost.asio'
-Loading: 364 packages loaded
-Loading: 380 packages loaded
-Loading: 399 packages loaded
-Loading: 418 packages loaded
-Loading: 445 packages loaded
-Loading: 453 packages loaded
-Loading: 454 packages loaded
-Loading: 456 packages loaded
-Loading: 456 packages loaded
-Loading: 456 packages loaded
-Loading: 456 packages loaded
-Loading: 456 packages loaded
-Loading: 484 packages loaded
-Loading: 484 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/08c45feac665e142c28691f6253c86fb/external/boost.asio+/BUILD.bazel:30:11: no such package '@@[unknown repo 'openssl' requested from @@boost.asio+]//': The repository '@@[unknown repo 'openssl' requested from @@boost.asio+]' could not be resolved: No repository visible as '@openssl' from repository '@@boost.asio+' and referenced by '@@boost.asio+//:boost.asio'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 485 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -172,7 +148,3 @@ Read 137000 lines from bazel query output...
 Read 138000 lines from bazel query output...
 Read 139000 lines from bazel query output...
 Read 140000 lines from bazel query output...
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

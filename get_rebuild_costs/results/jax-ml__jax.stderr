@@ -1,12 +1,7 @@
-Starting local Bazel server and connecting to it...
 INFO: Options provided by the client:
   Inherited 'common' options: --isatty=0 --terminal_columns=80
 INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_repos/jax-ml__jax/.bazelrc:
   Inherited 'common' options: --noenable_bzlmod --announce_rc --experimental_cc_shared_library --experimental_repo_remote_exec
- no actions running
- no actions running
- no actions running
- no actions running
  no actions running
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/d504a5696cffd4fde4e250d8809dc95c/external/xla/third_party/py/python_repo.bzl:156:14: 
 HERMETIC_PYTHON_VERSION variable was not set correctly, using default version.
@@ -38,5 +33,5 @@ Python versions with available requirement_lock.txt files: 3.11, 3.12, 3.13, 3.1
 Please check python_init_repositories() in your WORKSPACE file.
 
 thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
+Failed to parse bazel query output for target '//...', xml: : UnexpectedEof
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

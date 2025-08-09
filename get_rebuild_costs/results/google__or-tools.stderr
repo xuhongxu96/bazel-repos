@@ -1,61 +1,169 @@
-Starting local Bazel server (8.3.1) and connecting to it...
 INFO: Reading 'startup' options from /data/h445xu/repo/bazel-repos/cloned_repos/google__or-tools/.bazelrc: --windows_enable_symlinks
 INFO: Options provided by the client:
   Inherited 'common' options: --isatty=0 --terminal_columns=80
 INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_repos/google__or-tools/.bazelrc:
   Inherited 'common' options: --announce_rc
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
-WARNING: For repository 'rules_java', the root module requires module version rules_java@8.11.0, but got rules_java@8.12.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 75 packages loaded
-    currently loading: ortools/graph/java ... (29 packages)
-Loading: 81 packages loaded
-    currently loading: ortools/graph/samples ... (23 packages)
-Loading: 81 packages loaded
-    currently loading: ortools/graph/samples ... (23 packages)
-Loading: 81 packages loaded
-    currently loading: ortools/graph/samples ... (23 packages)
-Loading: 81 packages loaded
-    currently loading: ortools/graph/samples ... (23 packages)
-Loading: 81 packages loaded
-    currently loading: ortools/graph/samples ... (23 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_jvm_external+/private/extensions/maven.bzl:351:18: The maven repository 'maven' has contributions from multiple bzlmod modules, and will be resolved together: ["grpc-java", "or-tools"]
-Loading: 193 packages loaded
-    currently loading: @@protobuf+// ... (43 packages)
-Loading: 290 packages loaded
-    currently loading: @@protobuf+//java/core ... (2 packages)
-Loading: 296 packages loaded
-    currently loading: @@protobuf+//python/dist ... (2 packages)
-Loading: 321 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 328 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 328 packages loaded
-    currently loading: @@protobuf+//python/dist ... (2 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_jvm_external+/private/rules/coursier.bzl:754:18: Found duplicate artifact versions
-    com.google.truth:truth has multiple versions 0.32, 1.4.2
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
-Loading: 334 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
-Loading: 337 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 344 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 369 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 382 packages loaded
-    currently loading: @@protobuf+//python/dist
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
+Loading: 0 packages loaded
+INFO: Repository rules_python++pip+ortools_notebook_deps_39_ipython instantiated at:
+  <builtin>: in <toplevel>
+Repository rule whl_library defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_library.bzl:469:30: in <toplevel>
+INFO: Repository rules_python++pip+ortools_notebook_deps_310_ipython instantiated at:
+  <builtin>: in <toplevel>
+Repository rule whl_library defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_library.bzl:469:30: in <toplevel>
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl:79:16: An error occurred during the fetch of repository 'rules_python++pip+ortools_notebook_deps_39_ipython':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_library.bzl", line 245, column 40, in _whl_library_impl
+		pypi_repo_utils.execute_checked(
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/pypi_repo_utils.bzl", line 133, column 38, in _execute_checked
+		return repo_utils.execute_checked(
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 216, column 29, in _execute_checked
+		return _execute_internal(fail_on_error = True, *args, **kwargs)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 147, column 27, in _execute_internal
+		return logger.fail((
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 89, column 39, in lambda
+		fail = lambda message_cb: _log(-1, "FAIL", message_cb, fail),
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 79, column 16, in _log
+		printer("\nrules_python:{} {}:".format(
+Error in fail: 
+rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_39_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_39_ipython, ipython==9.3.0): end: failure:
+  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
+  return code: 1
+  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_ipython>
+  timeout: 600
+  environment:
+PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
+CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/include/python3.9"
+<stdout empty>
+===== stderr start =====
+ERROR: Ignored the following yanked versions: 7.1.0, 7.30.0, 8.13.0, 8.16.0, 8.17.0
+ERROR: Ignored the following versions that require a different python version: 8.19.0 Requires-Python >=3.10; 8.20.0 Requires-Python >=3.10; 8.21.0 Requires-Python >=3.10; 8.22.0 Requires-Python >=3.10; 8.22.1 Requires-Python >=3.10; 8.22.2 Requires-Python >=3.10; 8.23.0 Requires-Python >=3.10; 8.24.0 Requires-Python >=3.10; 8.25.0 Requires-Python >=3.10; 8.26.0 Requires-Python >=3.10; 8.27.0 Requires-Python >=3.10; 8.28.0 Requires-Python >=3.10; 8.29.0 Requires-Python >=3.10; 8.30.0 Requires-Python >=3.10; 8.31.0 Requires-Python >=3.10; 8.32.0 Requires-Python >=3.10; 8.33.0 Requires-Python >=3.10; 8.34.0 Requires-Python >=3.10; 8.35.0 Requires-Python >=3.10; 8.36.0 Requires-Python >=3.10; 8.37.0 Requires-Python >=3.10; 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11; 9.3.0 Requires-Python >=3.11; 9.4.0 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement ipython==9.3.0 (from versions: 0.10, 0.10.1, 0.10.2, 0.11, 0.12, 0.12.1, 0.13, 0.13.1, 0.13.2, 1.0.0, 1.1.0, 1.2.0, 1.2.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.4.1, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 4.0.0b1, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.1.0rc1, 4.1.0rc2, 4.1.0, 4.1.1, 4.1.2, 4.2.0, 4.2.1, 5.0.0b1, 5.0.0b2, 5.0.0b3, 5.0.0b4, 5.0.0rc1, 5.0.0, 5.1.0, 5.2.0, 5.2.1, 5.2.2, 5.3.0, 5.4.0, 5.4.1, 5.5.0, 5.6.0, 5.7.0, 5.8.0, 5.9.0, 5.10.0, 6.0.0rc1, 6.0.0, 6.1.0, 6.2.0, 6.2.1, 6.3.0, 6.3.1, 6.4.0, 6.5.0, 7.0.0b1, 7.0.0rc1, 7.0.0, 7.0.1, 7.1.1, 7.2.0, 7.3.0, 7.4.0, 7.5.0, 7.6.0, 7.6.1, 7.7.0, 7.8.0, 7.9.0, 7.10.0, 7.10.1, 7.10.2, 7.11.0, 7.11.1, 7.12.0, 7.13.0, 7.14.0, 7.15.0, 7.16.0, 7.16.1, 7.16.2, 7.16.3, 7.17.0, 7.18.0, 7.18.1, 7.19.0, 7.20.0, 7.21.0, 7.22.0, 7.23.0, 7.23.1, 7.24.0, 7.24.1, 7.25.0, 7.26.0, 7.27.0, 7.28.0, 7.29.0, 7.30.1, 7.31.0, 7.31.1, 7.32.0, 7.33.0, 7.34.0, 8.0.0a1, 8.0.0b1, 8.0.0rc1, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.2.0, 8.3.0, 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.8.0, 8.9.0, 8.10.0, 8.11.0, 8.12.0, 8.12.1, 8.12.2, 8.12.3, 8.13.1, 8.13.2, 8.14.0, 8.15.0, 8.16.1, 8.17.1, 8.17.2, 8.18.0, 8.18.1)
+ERROR: No matching distribution found for ipython==9.3.0
+Traceback (most recent call last):
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
+    main()
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
+    subprocess.run(pip_args, check=True, env=env)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpqwtjivf7']' returned non-zero exit status 1.
+===== stderr end =====
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl:79:16: An error occurred during the fetch of repository 'rules_python++pip+ortools_notebook_deps_310_ipython':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_library.bzl", line 245, column 40, in _whl_library_impl
+		pypi_repo_utils.execute_checked(
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/pypi_repo_utils.bzl", line 133, column 38, in _execute_checked
+		return repo_utils.execute_checked(
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 216, column 29, in _execute_checked
+		return _execute_internal(fail_on_error = True, *args, **kwargs)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 147, column 27, in _execute_internal
+		return logger.fail((
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 89, column 39, in lambda
+		fail = lambda message_cb: _log(-1, "FAIL", message_cb, fail),
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 79, column 16, in _log
+		printer("\nrules_python:{} {}:".format(
+Error in fail: 
+rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_310_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_310_ipython, ipython==9.3.0): end: failure:
+  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
+  return code: 1
+  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_ipython>
+  timeout: 600
+  environment:
+PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
+CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/include/python3.10"
+<stdout empty>
+===== stderr start =====
+ERROR: Ignored the following yanked versions: 7.1.0, 7.30.0, 8.13.0, 8.16.0, 8.17.0, 8.19.0, 8.22.0
+ERROR: Ignored the following versions that require a different python version: 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11; 9.3.0 Requires-Python >=3.11; 9.4.0 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement ipython==9.3.0 (from versions: 0.10, 0.10.1, 0.10.2, 0.11, 0.12, 0.12.1, 0.13, 0.13.1, 0.13.2, 1.0.0, 1.1.0, 1.2.0, 1.2.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.4.1, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 4.0.0b1, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.1.0rc1, 4.1.0rc2, 4.1.0, 4.1.1, 4.1.2, 4.2.0, 4.2.1, 5.0.0b1, 5.0.0b2, 5.0.0b3, 5.0.0b4, 5.0.0rc1, 5.0.0, 5.1.0, 5.2.0, 5.2.1, 5.2.2, 5.3.0, 5.4.0, 5.4.1, 5.5.0, 5.6.0, 5.7.0, 5.8.0, 5.9.0, 5.10.0, 6.0.0rc1, 6.0.0, 6.1.0, 6.2.0, 6.2.1, 6.3.0, 6.3.1, 6.4.0, 6.5.0, 7.0.0b1, 7.0.0rc1, 7.0.0, 7.0.1, 7.1.1, 7.2.0, 7.3.0, 7.4.0, 7.5.0, 7.6.0, 7.6.1, 7.7.0, 7.8.0, 7.9.0, 7.10.0, 7.10.1, 7.10.2, 7.11.0, 7.11.1, 7.12.0, 7.13.0, 7.14.0, 7.15.0, 7.16.0, 7.16.1, 7.16.2, 7.16.3, 7.17.0, 7.18.0, 7.18.1, 7.19.0, 7.20.0, 7.21.0, 7.22.0, 7.23.0, 7.23.1, 7.24.0, 7.24.1, 7.25.0, 7.26.0, 7.27.0, 7.28.0, 7.29.0, 7.30.1, 7.31.0, 7.31.1, 7.32.0, 7.33.0, 7.34.0, 8.0.0a1, 8.0.0b1, 8.0.0rc1, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.2.0, 8.3.0, 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.8.0, 8.9.0, 8.10.0, 8.11.0, 8.12.0, 8.12.1, 8.12.2, 8.12.3, 8.13.1, 8.13.2, 8.14.0, 8.15.0, 8.16.1, 8.17.1, 8.17.2, 8.18.0, 8.18.1, 8.20.0, 8.21.0, 8.22.1, 8.22.2, 8.23.0, 8.24.0, 8.25.0, 8.26.0, 8.27.0, 8.28.0, 8.29.0, 8.30.0, 8.31.0, 8.32.0, 8.33.0, 8.34.0, 8.35.0, 8.36.0, 8.37.0)
+ERROR: No matching distribution found for ipython==9.3.0
+Traceback (most recent call last):
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
+    main()
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
+    subprocess.run(pip_args, check=True, env=env)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpt716hxvq']' returned non-zero exit status 1.
+===== stderr end =====
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps/ipython/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_notebook_deps_310_ipython//': 
+rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_310_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_310_ipython, ipython==9.3.0): end: failure:
+  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
+  return code: 1
+  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_ipython>
+  timeout: 600
+  environment:
+PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
+CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/include/python3.10"
+<stdout empty>
+===== stderr start =====
+ERROR: Ignored the following yanked versions: 7.1.0, 7.30.0, 8.13.0, 8.16.0, 8.17.0, 8.19.0, 8.22.0
+ERROR: Ignored the following versions that require a different python version: 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11; 9.3.0 Requires-Python >=3.11; 9.4.0 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement ipython==9.3.0 (from versions: 0.10, 0.10.1, 0.10.2, 0.11, 0.12, 0.12.1, 0.13, 0.13.1, 0.13.2, 1.0.0, 1.1.0, 1.2.0, 1.2.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.4.1, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 4.0.0b1, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.1.0rc1, 4.1.0rc2, 4.1.0, 4.1.1, 4.1.2, 4.2.0, 4.2.1, 5.0.0b1, 5.0.0b2, 5.0.0b3, 5.0.0b4, 5.0.0rc1, 5.0.0, 5.1.0, 5.2.0, 5.2.1, 5.2.2, 5.3.0, 5.4.0, 5.4.1, 5.5.0, 5.6.0, 5.7.0, 5.8.0, 5.9.0, 5.10.0, 6.0.0rc1, 6.0.0, 6.1.0, 6.2.0, 6.2.1, 6.3.0, 6.3.1, 6.4.0, 6.5.0, 7.0.0b1, 7.0.0rc1, 7.0.0, 7.0.1, 7.1.1, 7.2.0, 7.3.0, 7.4.0, 7.5.0, 7.6.0, 7.6.1, 7.7.0, 7.8.0, 7.9.0, 7.10.0, 7.10.1, 7.10.2, 7.11.0, 7.11.1, 7.12.0, 7.13.0, 7.14.0, 7.15.0, 7.16.0, 7.16.1, 7.16.2, 7.16.3, 7.17.0, 7.18.0, 7.18.1, 7.19.0, 7.20.0, 7.21.0, 7.22.0, 7.23.0, 7.23.1, 7.24.0, 7.24.1, 7.25.0, 7.26.0, 7.27.0, 7.28.0, 7.29.0, 7.30.1, 7.31.0, 7.31.1, 7.32.0, 7.33.0, 7.34.0, 8.0.0a1, 8.0.0b1, 8.0.0rc1, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.2.0, 8.3.0, 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.8.0, 8.9.0, 8.10.0, 8.11.0, 8.12.0, 8.12.1, 8.12.2, 8.12.3, 8.13.1, 8.13.2, 8.14.0, 8.15.0, 8.16.1, 8.17.1, 8.17.2, 8.18.0, 8.18.1, 8.20.0, 8.21.0, 8.22.1, 8.22.2, 8.23.0, 8.24.0, 8.25.0, 8.26.0, 8.27.0, 8.28.0, 8.29.0, 8.30.0, 8.31.0, 8.32.0, 8.33.0, 8.34.0, 8.35.0, 8.36.0, 8.37.0)
+ERROR: No matching distribution found for ipython==9.3.0
+Traceback (most recent call last):
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
+    main()
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
+    subprocess.run(pip_args, check=True, env=env)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpt716hxvq']' returned non-zero exit status 1.
+===== stderr end ===== and referenced by '@@rules_python++pip+ortools_notebook_deps//ipython:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps/ipython/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_notebook_deps_39_ipython//': 
+rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_39_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_39_ipython, ipython==9.3.0): end: failure:
+  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
+  return code: 1
+  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_ipython>
+  timeout: 600
+  environment:
+PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
+CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/include/python3.9"
+<stdout empty>
+===== stderr start =====
+ERROR: Ignored the following yanked versions: 7.1.0, 7.30.0, 8.13.0, 8.16.0, 8.17.0
+ERROR: Ignored the following versions that require a different python version: 8.19.0 Requires-Python >=3.10; 8.20.0 Requires-Python >=3.10; 8.21.0 Requires-Python >=3.10; 8.22.0 Requires-Python >=3.10; 8.22.1 Requires-Python >=3.10; 8.22.2 Requires-Python >=3.10; 8.23.0 Requires-Python >=3.10; 8.24.0 Requires-Python >=3.10; 8.25.0 Requires-Python >=3.10; 8.26.0 Requires-Python >=3.10; 8.27.0 Requires-Python >=3.10; 8.28.0 Requires-Python >=3.10; 8.29.0 Requires-Python >=3.10; 8.30.0 Requires-Python >=3.10; 8.31.0 Requires-Python >=3.10; 8.32.0 Requires-Python >=3.10; 8.33.0 Requires-Python >=3.10; 8.34.0 Requires-Python >=3.10; 8.35.0 Requires-Python >=3.10; 8.36.0 Requires-Python >=3.10; 8.37.0 Requires-Python >=3.10; 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11; 9.3.0 Requires-Python >=3.11; 9.4.0 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement ipython==9.3.0 (from versions: 0.10, 0.10.1, 0.10.2, 0.11, 0.12, 0.12.1, 0.13, 0.13.1, 0.13.2, 1.0.0, 1.1.0, 1.2.0, 1.2.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.4.1, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 4.0.0b1, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.1.0rc1, 4.1.0rc2, 4.1.0, 4.1.1, 4.1.2, 4.2.0, 4.2.1, 5.0.0b1, 5.0.0b2, 5.0.0b3, 5.0.0b4, 5.0.0rc1, 5.0.0, 5.1.0, 5.2.0, 5.2.1, 5.2.2, 5.3.0, 5.4.0, 5.4.1, 5.5.0, 5.6.0, 5.7.0, 5.8.0, 5.9.0, 5.10.0, 6.0.0rc1, 6.0.0, 6.1.0, 6.2.0, 6.2.1, 6.3.0, 6.3.1, 6.4.0, 6.5.0, 7.0.0b1, 7.0.0rc1, 7.0.0, 7.0.1, 7.1.1, 7.2.0, 7.3.0, 7.4.0, 7.5.0, 7.6.0, 7.6.1, 7.7.0, 7.8.0, 7.9.0, 7.10.0, 7.10.1, 7.10.2, 7.11.0, 7.11.1, 7.12.0, 7.13.0, 7.14.0, 7.15.0, 7.16.0, 7.16.1, 7.16.2, 7.16.3, 7.17.0, 7.18.0, 7.18.1, 7.19.0, 7.20.0, 7.21.0, 7.22.0, 7.23.0, 7.23.1, 7.24.0, 7.24.1, 7.25.0, 7.26.0, 7.27.0, 7.28.0, 7.29.0, 7.30.1, 7.31.0, 7.31.1, 7.32.0, 7.33.0, 7.34.0, 8.0.0a1, 8.0.0b1, 8.0.0rc1, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.2.0, 8.3.0, 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.8.0, 8.9.0, 8.10.0, 8.11.0, 8.12.0, 8.12.1, 8.12.2, 8.12.3, 8.13.1, 8.13.2, 8.14.0, 8.15.0, 8.16.1, 8.17.1, 8.17.2, 8.18.0, 8.18.1)
+ERROR: No matching distribution found for ipython==9.3.0
+Traceback (most recent call last):
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
+    main()
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
+    subprocess.run(pip_args, check=True, env=env)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpqwtjivf7']' returned non-zero exit status 1.
+===== stderr end ===== and referenced by '@@rules_python++pip+ortools_notebook_deps//ipython:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyter_client/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyter_client//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_anyio/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//exceptiongroup': BUILD file not found in directory 'exceptiongroup' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_310_anyio//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_anyio/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//exceptiongroup': BUILD file not found in directory 'exceptiongroup' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_anyio//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//tomli': BUILD file not found in directory 'tomli' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//tomli': BUILD file not found in directory 'tomli' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_310_jupyterlab//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab_server/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab_server//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_nbconvert/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_nbconvert//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyter_lsp/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyter_lsp//:pkg'
 INFO: Repository rules_python++pip+ortools_pip_deps_39_scipy instantiated at:
   <builtin>: in <toplevel>
 Repository rule whl_library defined at:
@@ -100,7 +208,7 @@ Traceback (most recent call last):
     subprocess.run(pip_args, check=True, env=env)
   File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
     raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmp1f4jz1vj']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpi0kunf2w']' returned non-zero exit status 1.
 ===== stderr end =====
 INFO: Repository rules_python++pip+ortools_pip_deps_39_numpy instantiated at:
   <builtin>: in <toplevel>
@@ -145,32 +253,8 @@ Traceback (most recent call last):
     subprocess.run(pip_args, check=True, env=env)
   File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
     raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpw6nx20cc']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmphoegpcva']' returned non-zero exit status 1.
 ===== stderr end =====
-Loading: 419 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 425 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 448 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 464 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 476 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 480 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 482 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 529 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 540 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 547 packages loaded
-    currently loading: @@protobuf+//python/dist ... (2 packages)
-Loading: 557 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 573 packages loaded
-    currently loading: @@protobuf+//python/dist ... (2 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps/numpy/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_pip_deps_39_numpy//': 
 rules_python:whl_library(@@rules_python++pip+ortools_pip_deps_39_numpy) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_pip_deps_39_numpy, numpy==2.2.0): end: failure:
   command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement numpy==2.2.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
@@ -196,269 +280,7 @@ Traceback (most recent call last):
     subprocess.run(pip_args, check=True, env=env)
   File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
     raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpw6nx20cc']' returned non-zero exit status 1.
-===== stderr end ===== and referenced by '@@rules_python++pip+ortools_pip_deps//numpy:pkg'
-Loading: 608 packages loaded
-    currently loading: @@protobuf+//python/dist ... (2 packages)
-Loading: 639 packages loaded
-    currently loading: @@protobuf+//python/dist ... (2 packages)
-Loading: 675 packages loaded
-    currently loading: @@protobuf+//python/dist ... (2 packages)
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps/scipy/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_pip_deps_39_scipy//': 
-rules_python:whl_library(@@rules_python++pip+ortools_pip_deps_39_scipy) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_pip_deps_39_scipy, scipy==1.14.1): end: failure:
-  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement scipy==1.14.1 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
-  return code: 1
-  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps_39_scipy>
-  timeout: 600
-  environment:
-PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
-CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/include/python3.9"
-<stdout empty>
-===== stderr start =====
-ERROR: Ignored the following yanked versions: 1.11.0
-ERROR: Ignored the following versions that require a different python version: 1.14.0 Requires-Python >=3.10; 1.14.0rc1 Requires-Python >=3.10; 1.14.0rc2 Requires-Python >=3.10; 1.14.1 Requires-Python >=3.10; 1.15.0 Requires-Python >=3.10; 1.15.0rc1 Requires-Python >=3.10; 1.15.0rc2 Requires-Python >=3.10; 1.15.1 Requires-Python >=3.10; 1.15.2 Requires-Python >=3.10; 1.15.3 Requires-Python >=3.10; 1.16.0 Requires-Python >=3.11; 1.16.0rc1 Requires-Python >=3.11; 1.16.0rc2 Requires-Python >=3.11; 1.16.1 Requires-Python >=3.11
-ERROR: Could not find a version that satisfies the requirement scipy==1.14.1 (from versions: 0.8.0, 0.9.0, 0.10.0, 0.10.1, 0.11.0, 0.12.0, 0.12.1, 0.13.0, 0.13.1, 0.13.2, 0.13.3, 0.14.0, 0.14.1, 0.15.0, 0.15.1, 0.16.0, 0.16.1, 0.17.0, 0.17.1, 0.18.0, 0.18.1, 0.19.0, 0.19.1, 1.0.0, 1.0.1, 1.1.0, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.4.0, 1.4.1, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0, 1.6.1, 1.6.2, 1.6.3, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.8.0rc1, 1.8.0rc2, 1.8.0rc3, 1.8.0rc4, 1.8.0, 1.8.1, 1.9.0rc1, 1.9.0rc2, 1.9.0rc3, 1.9.0, 1.9.1, 1.9.2, 1.9.3, 1.10.0rc1, 1.10.0rc2, 1.10.0, 1.10.1, 1.11.0rc1, 1.11.0rc2, 1.11.1, 1.11.2, 1.11.3, 1.11.4, 1.12.0rc1, 1.12.0rc2, 1.12.0, 1.13.0rc1, 1.13.0, 1.13.1)
-ERROR: No matching distribution found for scipy==1.14.1
-Traceback (most recent call last):
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 87, in _run_code
-    exec(code, run_globals)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
-    main()
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
-    subprocess.run(pip_args, check=True, env=env)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmp1f4jz1vj']' returned non-zero exit status 1.
-===== stderr end ===== and referenced by '@@rules_python++pip+ortools_pip_deps//scipy:pkg'
-Loading: 689 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 698 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 715 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 753 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 775 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 811 packages loaded
-    currently loading: @@protobuf+//python/dist
-INFO: Repository rules_python++pip+ortools_notebook_deps_39_ipython instantiated at:
-  <builtin>: in <toplevel>
-Repository rule whl_library defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_library.bzl:469:30: in <toplevel>
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl:79:16: An error occurred during the fetch of repository 'rules_python++pip+ortools_notebook_deps_39_ipython':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_library.bzl", line 245, column 40, in _whl_library_impl
-		pypi_repo_utils.execute_checked(
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/pypi_repo_utils.bzl", line 133, column 38, in _execute_checked
-		return repo_utils.execute_checked(
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 216, column 29, in _execute_checked
-		return _execute_internal(fail_on_error = True, *args, **kwargs)
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 147, column 27, in _execute_internal
-		return logger.fail((
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 89, column 39, in lambda
-		fail = lambda message_cb: _log(-1, "FAIL", message_cb, fail),
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 79, column 16, in _log
-		printer("\nrules_python:{} {}:".format(
-Error in fail: 
-rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_39_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_39_ipython, ipython==9.3.0): end: failure:
-  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
-  return code: 1
-  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_ipython>
-  timeout: 600
-  environment:
-PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
-CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/include/python3.9"
-<stdout empty>
-===== stderr start =====
-ERROR: Ignored the following yanked versions: 7.1.0, 7.30.0, 8.13.0, 8.16.0, 8.17.0
-ERROR: Ignored the following versions that require a different python version: 8.19.0 Requires-Python >=3.10; 8.20.0 Requires-Python >=3.10; 8.21.0 Requires-Python >=3.10; 8.22.0 Requires-Python >=3.10; 8.22.1 Requires-Python >=3.10; 8.22.2 Requires-Python >=3.10; 8.23.0 Requires-Python >=3.10; 8.24.0 Requires-Python >=3.10; 8.25.0 Requires-Python >=3.10; 8.26.0 Requires-Python >=3.10; 8.27.0 Requires-Python >=3.10; 8.28.0 Requires-Python >=3.10; 8.29.0 Requires-Python >=3.10; 8.30.0 Requires-Python >=3.10; 8.31.0 Requires-Python >=3.10; 8.32.0 Requires-Python >=3.10; 8.33.0 Requires-Python >=3.10; 8.34.0 Requires-Python >=3.10; 8.35.0 Requires-Python >=3.10; 8.36.0 Requires-Python >=3.10; 8.37.0 Requires-Python >=3.10; 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11; 9.3.0 Requires-Python >=3.11; 9.4.0 Requires-Python >=3.11
-ERROR: Could not find a version that satisfies the requirement ipython==9.3.0 (from versions: 0.10, 0.10.1, 0.10.2, 0.11, 0.12, 0.12.1, 0.13, 0.13.1, 0.13.2, 1.0.0, 1.1.0, 1.2.0, 1.2.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.4.1, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 4.0.0b1, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.1.0rc1, 4.1.0rc2, 4.1.0, 4.1.1, 4.1.2, 4.2.0, 4.2.1, 5.0.0b1, 5.0.0b2, 5.0.0b3, 5.0.0b4, 5.0.0rc1, 5.0.0, 5.1.0, 5.2.0, 5.2.1, 5.2.2, 5.3.0, 5.4.0, 5.4.1, 5.5.0, 5.6.0, 5.7.0, 5.8.0, 5.9.0, 5.10.0, 6.0.0rc1, 6.0.0, 6.1.0, 6.2.0, 6.2.1, 6.3.0, 6.3.1, 6.4.0, 6.5.0, 7.0.0b1, 7.0.0rc1, 7.0.0, 7.0.1, 7.1.1, 7.2.0, 7.3.0, 7.4.0, 7.5.0, 7.6.0, 7.6.1, 7.7.0, 7.8.0, 7.9.0, 7.10.0, 7.10.1, 7.10.2, 7.11.0, 7.11.1, 7.12.0, 7.13.0, 7.14.0, 7.15.0, 7.16.0, 7.16.1, 7.16.2, 7.16.3, 7.17.0, 7.18.0, 7.18.1, 7.19.0, 7.20.0, 7.21.0, 7.22.0, 7.23.0, 7.23.1, 7.24.0, 7.24.1, 7.25.0, 7.26.0, 7.27.0, 7.28.0, 7.29.0, 7.30.1, 7.31.0, 7.31.1, 7.32.0, 7.33.0, 7.34.0, 8.0.0a1, 8.0.0b1, 8.0.0rc1, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.2.0, 8.3.0, 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.8.0, 8.9.0, 8.10.0, 8.11.0, 8.12.0, 8.12.1, 8.12.2, 8.12.3, 8.13.1, 8.13.2, 8.14.0, 8.15.0, 8.16.1, 8.17.1, 8.17.2, 8.18.0, 8.18.1)
-ERROR: No matching distribution found for ipython==9.3.0
-Traceback (most recent call last):
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 87, in _run_code
-    exec(code, run_globals)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
-    main()
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
-    subprocess.run(pip_args, check=True, env=env)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpgwd7rukl']' returned non-zero exit status 1.
-===== stderr end =====
-Loading: 835 packages loaded
-    currently loading: @@protobuf+//python/dist
-INFO: Repository rules_python++pip+ortools_notebook_deps_310_ipython instantiated at:
-  <builtin>: in <toplevel>
-Repository rule whl_library defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_library.bzl:469:30: in <toplevel>
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl:79:16: An error occurred during the fetch of repository 'rules_python++pip+ortools_notebook_deps_310_ipython':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_library.bzl", line 245, column 40, in _whl_library_impl
-		pypi_repo_utils.execute_checked(
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/pypi_repo_utils.bzl", line 133, column 38, in _execute_checked
-		return repo_utils.execute_checked(
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 216, column 29, in _execute_checked
-		return _execute_internal(fail_on_error = True, *args, **kwargs)
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 147, column 27, in _execute_internal
-		return logger.fail((
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 89, column 39, in lambda
-		fail = lambda message_cb: _log(-1, "FAIL", message_cb, fail),
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/repo_utils.bzl", line 79, column 16, in _log
-		printer("\nrules_python:{} {}:".format(
-Error in fail: 
-rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_310_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_310_ipython, ipython==9.3.0): end: failure:
-  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
-  return code: 1
-  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_ipython>
-  timeout: 600
-  environment:
-PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
-CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/include/python3.10"
-<stdout empty>
-===== stderr start =====
-ERROR: Ignored the following yanked versions: 7.1.0, 7.30.0, 8.13.0, 8.16.0, 8.17.0, 8.19.0, 8.22.0
-ERROR: Ignored the following versions that require a different python version: 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11; 9.3.0 Requires-Python >=3.11; 9.4.0 Requires-Python >=3.11
-ERROR: Could not find a version that satisfies the requirement ipython==9.3.0 (from versions: 0.10, 0.10.1, 0.10.2, 0.11, 0.12, 0.12.1, 0.13, 0.13.1, 0.13.2, 1.0.0, 1.1.0, 1.2.0, 1.2.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.4.1, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 4.0.0b1, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.1.0rc1, 4.1.0rc2, 4.1.0, 4.1.1, 4.1.2, 4.2.0, 4.2.1, 5.0.0b1, 5.0.0b2, 5.0.0b3, 5.0.0b4, 5.0.0rc1, 5.0.0, 5.1.0, 5.2.0, 5.2.1, 5.2.2, 5.3.0, 5.4.0, 5.4.1, 5.5.0, 5.6.0, 5.7.0, 5.8.0, 5.9.0, 5.10.0, 6.0.0rc1, 6.0.0, 6.1.0, 6.2.0, 6.2.1, 6.3.0, 6.3.1, 6.4.0, 6.5.0, 7.0.0b1, 7.0.0rc1, 7.0.0, 7.0.1, 7.1.1, 7.2.0, 7.3.0, 7.4.0, 7.5.0, 7.6.0, 7.6.1, 7.7.0, 7.8.0, 7.9.0, 7.10.0, 7.10.1, 7.10.2, 7.11.0, 7.11.1, 7.12.0, 7.13.0, 7.14.0, 7.15.0, 7.16.0, 7.16.1, 7.16.2, 7.16.3, 7.17.0, 7.18.0, 7.18.1, 7.19.0, 7.20.0, 7.21.0, 7.22.0, 7.23.0, 7.23.1, 7.24.0, 7.24.1, 7.25.0, 7.26.0, 7.27.0, 7.28.0, 7.29.0, 7.30.1, 7.31.0, 7.31.1, 7.32.0, 7.33.0, 7.34.0, 8.0.0a1, 8.0.0b1, 8.0.0rc1, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.2.0, 8.3.0, 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.8.0, 8.9.0, 8.10.0, 8.11.0, 8.12.0, 8.12.1, 8.12.2, 8.12.3, 8.13.1, 8.13.2, 8.14.0, 8.15.0, 8.16.1, 8.17.1, 8.17.2, 8.18.0, 8.18.1, 8.20.0, 8.21.0, 8.22.1, 8.22.2, 8.23.0, 8.24.0, 8.25.0, 8.26.0, 8.27.0, 8.28.0, 8.29.0, 8.30.0, 8.31.0, 8.32.0, 8.33.0, 8.34.0, 8.35.0, 8.36.0, 8.37.0)
-ERROR: No matching distribution found for ipython==9.3.0
-Traceback (most recent call last):
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/runpy.py", line 196, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/runpy.py", line 86, in _run_code
-    exec(code, run_globals)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
-    main()
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
-    subprocess.run(pip_args, check=True, env=env)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/subprocess.py", line 526, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmp10ld0rhd']' returned non-zero exit status 1.
-===== stderr end =====
-Loading: 858 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 882 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 900 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 914 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_anyio/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//exceptiongroup': BUILD file not found in directory 'exceptiongroup' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_anyio//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_anyio/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//exceptiongroup': BUILD file not found in directory 'exceptiongroup' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_310_anyio//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyter_client/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyter_client//:pkg'
-Loading: 939 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 966 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 1000 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_nbconvert/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_nbconvert//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab_server/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab_server//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyter_lsp/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyter_lsp//:pkg'
-Loading: 1026 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 1047 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 1054 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps/ipython/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_notebook_deps_310_ipython//': 
-rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_310_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_310_ipython, ipython==9.3.0): end: failure:
-  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
-  return code: 1
-  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_ipython>
-  timeout: 600
-  environment:
-PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
-CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/include/python3.10"
-<stdout empty>
-===== stderr start =====
-ERROR: Ignored the following yanked versions: 7.1.0, 7.30.0, 8.13.0, 8.16.0, 8.17.0, 8.19.0, 8.22.0
-ERROR: Ignored the following versions that require a different python version: 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11; 9.3.0 Requires-Python >=3.11; 9.4.0 Requires-Python >=3.11
-ERROR: Could not find a version that satisfies the requirement ipython==9.3.0 (from versions: 0.10, 0.10.1, 0.10.2, 0.11, 0.12, 0.12.1, 0.13, 0.13.1, 0.13.2, 1.0.0, 1.1.0, 1.2.0, 1.2.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.4.1, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 4.0.0b1, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.1.0rc1, 4.1.0rc2, 4.1.0, 4.1.1, 4.1.2, 4.2.0, 4.2.1, 5.0.0b1, 5.0.0b2, 5.0.0b3, 5.0.0b4, 5.0.0rc1, 5.0.0, 5.1.0, 5.2.0, 5.2.1, 5.2.2, 5.3.0, 5.4.0, 5.4.1, 5.5.0, 5.6.0, 5.7.0, 5.8.0, 5.9.0, 5.10.0, 6.0.0rc1, 6.0.0, 6.1.0, 6.2.0, 6.2.1, 6.3.0, 6.3.1, 6.4.0, 6.5.0, 7.0.0b1, 7.0.0rc1, 7.0.0, 7.0.1, 7.1.1, 7.2.0, 7.3.0, 7.4.0, 7.5.0, 7.6.0, 7.6.1, 7.7.0, 7.8.0, 7.9.0, 7.10.0, 7.10.1, 7.10.2, 7.11.0, 7.11.1, 7.12.0, 7.13.0, 7.14.0, 7.15.0, 7.16.0, 7.16.1, 7.16.2, 7.16.3, 7.17.0, 7.18.0, 7.18.1, 7.19.0, 7.20.0, 7.21.0, 7.22.0, 7.23.0, 7.23.1, 7.24.0, 7.24.1, 7.25.0, 7.26.0, 7.27.0, 7.28.0, 7.29.0, 7.30.1, 7.31.0, 7.31.1, 7.32.0, 7.33.0, 7.34.0, 8.0.0a1, 8.0.0b1, 8.0.0rc1, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.2.0, 8.3.0, 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.8.0, 8.9.0, 8.10.0, 8.11.0, 8.12.0, 8.12.1, 8.12.2, 8.12.3, 8.13.1, 8.13.2, 8.14.0, 8.15.0, 8.16.1, 8.17.1, 8.17.2, 8.18.0, 8.18.1, 8.20.0, 8.21.0, 8.22.1, 8.22.2, 8.23.0, 8.24.0, 8.25.0, 8.26.0, 8.27.0, 8.28.0, 8.29.0, 8.30.0, 8.31.0, 8.32.0, 8.33.0, 8.34.0, 8.35.0, 8.36.0, 8.37.0)
-ERROR: No matching distribution found for ipython==9.3.0
-Traceback (most recent call last):
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/runpy.py", line 196, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/runpy.py", line 86, in _run_code
-    exec(code, run_globals)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
-    main()
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
-    subprocess.run(pip_args, check=True, env=env)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/subprocess.py", line 526, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmp10ld0rhd']' returned non-zero exit status 1.
-===== stderr end ===== and referenced by '@@rules_python++pip+ortools_notebook_deps//ipython:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps/ipython/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_notebook_deps_39_ipython//': 
-rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_39_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_39_ipython, ipython==9.3.0): end: failure:
-  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
-  return code: 1
-  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_ipython>
-  timeout: 600
-  environment:
-PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
-CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/include/python3.9"
-<stdout empty>
-===== stderr start =====
-ERROR: Ignored the following yanked versions: 7.1.0, 7.30.0, 8.13.0, 8.16.0, 8.17.0
-ERROR: Ignored the following versions that require a different python version: 8.19.0 Requires-Python >=3.10; 8.20.0 Requires-Python >=3.10; 8.21.0 Requires-Python >=3.10; 8.22.0 Requires-Python >=3.10; 8.22.1 Requires-Python >=3.10; 8.22.2 Requires-Python >=3.10; 8.23.0 Requires-Python >=3.10; 8.24.0 Requires-Python >=3.10; 8.25.0 Requires-Python >=3.10; 8.26.0 Requires-Python >=3.10; 8.27.0 Requires-Python >=3.10; 8.28.0 Requires-Python >=3.10; 8.29.0 Requires-Python >=3.10; 8.30.0 Requires-Python >=3.10; 8.31.0 Requires-Python >=3.10; 8.32.0 Requires-Python >=3.10; 8.33.0 Requires-Python >=3.10; 8.34.0 Requires-Python >=3.10; 8.35.0 Requires-Python >=3.10; 8.36.0 Requires-Python >=3.10; 8.37.0 Requires-Python >=3.10; 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11; 9.3.0 Requires-Python >=3.11; 9.4.0 Requires-Python >=3.11
-ERROR: Could not find a version that satisfies the requirement ipython==9.3.0 (from versions: 0.10, 0.10.1, 0.10.2, 0.11, 0.12, 0.12.1, 0.13, 0.13.1, 0.13.2, 1.0.0, 1.1.0, 1.2.0, 1.2.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.4.1, 3.0.0, 3.1.0, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 4.0.0b1, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.1.0rc1, 4.1.0rc2, 4.1.0, 4.1.1, 4.1.2, 4.2.0, 4.2.1, 5.0.0b1, 5.0.0b2, 5.0.0b3, 5.0.0b4, 5.0.0rc1, 5.0.0, 5.1.0, 5.2.0, 5.2.1, 5.2.2, 5.3.0, 5.4.0, 5.4.1, 5.5.0, 5.6.0, 5.7.0, 5.8.0, 5.9.0, 5.10.0, 6.0.0rc1, 6.0.0, 6.1.0, 6.2.0, 6.2.1, 6.3.0, 6.3.1, 6.4.0, 6.5.0, 7.0.0b1, 7.0.0rc1, 7.0.0, 7.0.1, 7.1.1, 7.2.0, 7.3.0, 7.4.0, 7.5.0, 7.6.0, 7.6.1, 7.7.0, 7.8.0, 7.9.0, 7.10.0, 7.10.1, 7.10.2, 7.11.0, 7.11.1, 7.12.0, 7.13.0, 7.14.0, 7.15.0, 7.16.0, 7.16.1, 7.16.2, 7.16.3, 7.17.0, 7.18.0, 7.18.1, 7.19.0, 7.20.0, 7.21.0, 7.22.0, 7.23.0, 7.23.1, 7.24.0, 7.24.1, 7.25.0, 7.26.0, 7.27.0, 7.28.0, 7.29.0, 7.30.1, 7.31.0, 7.31.1, 7.32.0, 7.33.0, 7.34.0, 8.0.0a1, 8.0.0b1, 8.0.0rc1, 8.0.0, 8.0.1, 8.1.0, 8.1.1, 8.2.0, 8.3.0, 8.4.0, 8.5.0, 8.6.0, 8.7.0, 8.8.0, 8.9.0, 8.10.0, 8.11.0, 8.12.0, 8.12.1, 8.12.2, 8.12.3, 8.13.1, 8.13.2, 8.14.0, 8.15.0, 8.16.1, 8.17.1, 8.17.2, 8.18.0, 8.18.1)
-ERROR: No matching distribution found for ipython==9.3.0
-Traceback (most recent call last):
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 87, in _run_code
-    exec(code, run_globals)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
-    main()
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
-    subprocess.run(pip_args, check=True, env=env)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpgwd7rukl']' returned non-zero exit status 1.
-===== stderr end ===== and referenced by '@@rules_python++pip+ortools_notebook_deps//ipython:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//tomli': BUILD file not found in directory 'tomli' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_310_jupyterlab//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//tomli': BUILD file not found in directory 'tomli' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab//:pkg'
-Loading: 1057 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 1057 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 1138 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 1138 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps/numpy/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_pip_deps_39_numpy//': 
-rules_python:whl_library(@@rules_python++pip+ortools_pip_deps_39_numpy) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_pip_deps_39_numpy, numpy==2.2.0): end: failure:
-  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement numpy==2.2.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
-  return code: 1
-  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps_39_numpy>
-  timeout: 600
-  environment:
-PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
-CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/include/python3.9"
-<stdout empty>
-===== stderr start =====
-ERROR: Ignored the following versions that require a different python version: 2.1.0 Requires-Python >=3.10; 2.1.1 Requires-Python >=3.10; 2.1.2 Requires-Python >=3.10; 2.1.3 Requires-Python >=3.10; 2.2.0 Requires-Python >=3.10; 2.2.1 Requires-Python >=3.10; 2.2.2 Requires-Python >=3.10; 2.2.3 Requires-Python >=3.10; 2.2.4 Requires-Python >=3.10; 2.2.5 Requires-Python >=3.10; 2.2.6 Requires-Python >=3.10; 2.3.0 Requires-Python >=3.11; 2.3.1 Requires-Python >=3.11; 2.3.2 Requires-Python >=3.11
-ERROR: Could not find a version that satisfies the requirement numpy==2.2.0 (from versions: 1.3.0, 1.4.1, 1.5.0, 1.5.1, 1.6.0, 1.6.1, 1.6.2, 1.7.0, 1.7.1, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.9.0, 1.9.1, 1.9.2, 1.9.3, 1.10.0.post2, 1.10.1, 1.10.2, 1.10.4, 1.11.0, 1.11.1, 1.11.2, 1.11.3, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.3, 1.14.0, 1.14.1, 1.14.2, 1.14.3, 1.14.4, 1.14.5, 1.14.6, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.16.0, 1.16.1, 1.16.2, 1.16.3, 1.16.4, 1.16.5, 1.16.6, 1.17.0, 1.17.1, 1.17.2, 1.17.3, 1.17.4, 1.17.5, 1.18.0, 1.18.1, 1.18.2, 1.18.3, 1.18.4, 1.18.5, 1.19.0, 1.19.1, 1.19.2, 1.19.3, 1.19.4, 1.19.5, 1.20.0, 1.20.1, 1.20.2, 1.20.3, 1.21.0, 1.21.1, 1.21.2, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.22.0, 1.22.1, 1.22.2, 1.22.3, 1.22.4, 1.23.0, 1.23.1, 1.23.2, 1.23.3, 1.23.4, 1.23.5, 1.24.0, 1.24.1, 1.24.2, 1.24.3, 1.24.4, 1.25.0, 1.25.1, 1.25.2, 1.26.0, 1.26.1, 1.26.2, 1.26.3, 1.26.4, 2.0.0, 2.0.1, 2.0.2)
-ERROR: No matching distribution found for numpy==2.2.0
-Traceback (most recent call last):
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 87, in _run_code
-    exec(code, run_globals)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
-    main()
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
-    subprocess.run(pip_args, check=True, env=env)
-  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpw6nx20cc']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmphoegpcva']' returned non-zero exit status 1.
 ===== stderr end ===== and referenced by '@@rules_python++pip+ortools_pip_deps//numpy:pkg'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps/scipy/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_pip_deps_39_scipy//': 
 rules_python:whl_library(@@rules_python++pip+ortools_pip_deps_39_scipy) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_pip_deps_39_scipy, scipy==1.14.1): end: failure:
@@ -486,10 +308,74 @@ Traceback (most recent call last):
     subprocess.run(pip_args, check=True, env=env)
   File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
     raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmp1f4jz1vj']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpi0kunf2w']' returned non-zero exit status 1.
 ===== stderr end ===== and referenced by '@@rules_python++pip+ortools_pip_deps//scipy:pkg'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps/numpy/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_pip_deps_39_numpy//': 
+rules_python:whl_library(@@rules_python++pip+ortools_pip_deps_39_numpy) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_pip_deps_39_numpy, numpy==2.2.0): end: failure:
+  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement numpy==2.2.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
+  return code: 1
+  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps_39_numpy>
+  timeout: 600
+  environment:
+PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
+CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/include/python3.9"
+<stdout empty>
+===== stderr start =====
+ERROR: Ignored the following versions that require a different python version: 2.1.0 Requires-Python >=3.10; 2.1.1 Requires-Python >=3.10; 2.1.2 Requires-Python >=3.10; 2.1.3 Requires-Python >=3.10; 2.2.0 Requires-Python >=3.10; 2.2.1 Requires-Python >=3.10; 2.2.2 Requires-Python >=3.10; 2.2.3 Requires-Python >=3.10; 2.2.4 Requires-Python >=3.10; 2.2.5 Requires-Python >=3.10; 2.2.6 Requires-Python >=3.10; 2.3.0 Requires-Python >=3.11; 2.3.1 Requires-Python >=3.11; 2.3.2 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement numpy==2.2.0 (from versions: 1.3.0, 1.4.1, 1.5.0, 1.5.1, 1.6.0, 1.6.1, 1.6.2, 1.7.0, 1.7.1, 1.7.2, 1.8.0, 1.8.1, 1.8.2, 1.9.0, 1.9.1, 1.9.2, 1.9.3, 1.10.0.post2, 1.10.1, 1.10.2, 1.10.4, 1.11.0, 1.11.1, 1.11.2, 1.11.3, 1.12.0, 1.12.1, 1.13.0, 1.13.1, 1.13.3, 1.14.0, 1.14.1, 1.14.2, 1.14.3, 1.14.4, 1.14.5, 1.14.6, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.16.0, 1.16.1, 1.16.2, 1.16.3, 1.16.4, 1.16.5, 1.16.6, 1.17.0, 1.17.1, 1.17.2, 1.17.3, 1.17.4, 1.17.5, 1.18.0, 1.18.1, 1.18.2, 1.18.3, 1.18.4, 1.18.5, 1.19.0, 1.19.1, 1.19.2, 1.19.3, 1.19.4, 1.19.5, 1.20.0, 1.20.1, 1.20.2, 1.20.3, 1.21.0, 1.21.1, 1.21.2, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.22.0, 1.22.1, 1.22.2, 1.22.3, 1.22.4, 1.23.0, 1.23.1, 1.23.2, 1.23.3, 1.23.4, 1.23.5, 1.24.0, 1.24.1, 1.24.2, 1.24.3, 1.24.4, 1.25.0, 1.25.1, 1.25.2, 1.26.0, 1.26.1, 1.26.2, 1.26.3, 1.26.4, 2.0.0, 2.0.1, 2.0.2)
+ERROR: No matching distribution found for numpy==2.2.0
+Traceback (most recent call last):
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
+    main()
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
+    subprocess.run(pip_args, check=True, env=env)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmphoegpcva']' returned non-zero exit status 1.
+===== stderr end ===== and referenced by '@@rules_python++pip+ortools_pip_deps//numpy:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps/scipy/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_pip_deps_39_scipy//': 
+rules_python:whl_library(@@rules_python++pip+ortools_pip_deps_39_scipy) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_pip_deps_39_scipy, scipy==1.14.1): end: failure:
+  command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement scipy==1.14.1 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
+  return code: 1
+  working dir: <default: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_pip_deps_39_scipy>
+  timeout: 600
+  environment:
+PYTHONPATH="/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__build:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__click:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__colorama:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__importlib_metadata:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__installer:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__more_itertools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__packaging:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pep517:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pip_tools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__pyproject_hooks:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__setuptools:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__tomli:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__wheel:/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++internal_deps+pypi__zipp"
+CPPFLAGS="-isystem /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/include/python3.9"
+<stdout empty>
+===== stderr start =====
+ERROR: Ignored the following yanked versions: 1.11.0
+ERROR: Ignored the following versions that require a different python version: 1.14.0 Requires-Python >=3.10; 1.14.0rc1 Requires-Python >=3.10; 1.14.0rc2 Requires-Python >=3.10; 1.14.1 Requires-Python >=3.10; 1.15.0 Requires-Python >=3.10; 1.15.0rc1 Requires-Python >=3.10; 1.15.0rc2 Requires-Python >=3.10; 1.15.1 Requires-Python >=3.10; 1.15.2 Requires-Python >=3.10; 1.15.3 Requires-Python >=3.10; 1.16.0 Requires-Python >=3.11; 1.16.0rc1 Requires-Python >=3.11; 1.16.0rc2 Requires-Python >=3.11; 1.16.1 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement scipy==1.14.1 (from versions: 0.8.0, 0.9.0, 0.10.0, 0.10.1, 0.11.0, 0.12.0, 0.12.1, 0.13.0, 0.13.1, 0.13.2, 0.13.3, 0.14.0, 0.14.1, 0.15.0, 0.15.1, 0.16.0, 0.16.1, 0.17.0, 0.17.1, 0.18.0, 0.18.1, 0.19.0, 0.19.1, 1.0.0, 1.0.1, 1.1.0, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.4.0, 1.4.1, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0, 1.6.1, 1.6.2, 1.6.3, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.8.0rc1, 1.8.0rc2, 1.8.0rc3, 1.8.0rc4, 1.8.0, 1.8.1, 1.9.0rc1, 1.9.0rc2, 1.9.0rc3, 1.9.0, 1.9.1, 1.9.2, 1.9.3, 1.10.0rc1, 1.10.0rc2, 1.10.0, 1.10.1, 1.11.0rc1, 1.11.0rc2, 1.11.1, 1.11.2, 1.11.3, 1.11.4, 1.12.0rc1, 1.12.0rc2, 1.12.0, 1.13.0rc1, 1.13.0, 1.13.1)
+ERROR: No matching distribution found for scipy==1.14.1
+Traceback (most recent call last):
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 205, in <module>
+    main()
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python+/python/private/pypi/whl_installer/wheel_installer.py", line 190, in main
+    subprocess.run(pip_args, check=True, env=env)
+  File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpi0kunf2w']' returned non-zero exit status 1.
+===== stderr end ===== and referenced by '@@rules_python++pip+ortools_pip_deps//scipy:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab_server/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab_server//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_anyio/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//exceptiongroup': BUILD file not found in directory 'exceptiongroup' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_310_anyio//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_anyio/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//exceptiongroup': BUILD file not found in directory 'exceptiongroup' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_anyio//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyter_client/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyter_client//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_nbconvert/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_nbconvert//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//tomli': BUILD file not found in directory 'tomli' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_310_jupyterlab//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyter_lsp/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyter_lsp//:pkg'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps/ipython/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_notebook_deps_39_ipython//': 
 rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_39_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_39_ipython, ipython==9.3.0): end: failure:
   command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
@@ -516,15 +402,8 @@ Traceback (most recent call last):
     subprocess.run(pip_args, check=True, env=env)
   File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_x86_64-unknown-linux-gnu/lib/python3.9/subprocess.py", line 528, in run
     raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpgwd7rukl']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_9_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpqwtjivf7']' returned non-zero exit status 1.
 ===== stderr end ===== and referenced by '@@rules_python++pip+ortools_notebook_deps//ipython:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyter_lsp/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyter_lsp//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//tomli': BUILD file not found in directory 'tomli' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_310_jupyterlab//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_anyio/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//exceptiongroup': BUILD file not found in directory 'exceptiongroup' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_anyio//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_310_anyio/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//exceptiongroup': BUILD file not found in directory 'exceptiongroup' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_310_anyio//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_nbconvert/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_nbconvert//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyter_client/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyter_client//:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab_server/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab_server//:pkg'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps/ipython/BUILD.bazel:5:12: no such package '@@rules_python++pip+ortools_notebook_deps_310_ipython//': 
 rules_python:whl_library(@@rules_python++pip+ortools_notebook_deps_310_ipython) FAIL: repo.execute: whl_library.ResolveRequirement(rules_python++pip+ortools_notebook_deps_310_ipython, ipython==9.3.0): end: failure:
   command: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python -m python.private.pypi.whl_installer.wheel_installer --requirement ipython==9.3.0 --isolated --extra_pip_args "{\"arg\":[]}" --pip_data_exclude "{\"arg\":[]}" --environment "{\"arg\":{}}"
@@ -551,14 +430,13 @@ Traceback (most recent call last):
     subprocess.run(pip_args, check=True, env=env)
   File "/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_x86_64-unknown-linux-gnu/lib/python3.10/subprocess.py", line 526, in run
     raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmp10ld0rhd']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['/data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++python+python_3_10_host/python', '-m', 'pip', '--isolated', 'wheel', '--no-deps', '-r', '/tmp/tmpt716hxvq']' returned non-zero exit status 1.
 ===== stderr end ===== and referenced by '@@rules_python++pip+ortools_notebook_deps//ipython:pkg'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab//:pkg'
-Loading: 1140 packages loaded
-    currently loading: @@protobuf+//python/dist
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//tomli': BUILD file not found in directory 'tomli' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a7fba94e5b5ab0b1098e61ef19b5ecae/external/rules_python++pip+ortools_notebook_deps_39_jupyterlab/BUILD.bazel:5:20: no such package '@@rules_python++pip+ortools_notebook_deps//importlib_metadata': BUILD file not found in directory 'importlib_metadata' of external repository @@rules_python++pip+ortools_notebook_deps. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+ortools_notebook_deps_39_jupyterlab//:pkg'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 0 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

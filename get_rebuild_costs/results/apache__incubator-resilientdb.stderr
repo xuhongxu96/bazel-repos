@@ -1,45 +1,10 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
-DEBUG: Rule 'hedron_compile_commands' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "658122cfb1f25be76ea212b00f5eb047d8e2adc8bcf923b918461f2b1e37cdf2"
-DEBUG: Repository hedron_compile_commands instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE:23:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
- checking cached actions
- checking cached actions
- checking cached actions
-DEBUG: Rule 'com_github_nelhage_rules_boost' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "5ea00abc70cdf396a23fb53201db19ebce2837d28887a08544429d27783309ed"
-DEBUG: Repository com_github_nelhage_rules_boost instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE:40:20: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/repositories.bzl:42:10: in nexres_repositories
-  /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-DEBUG: Rule 'pybind11_bazel' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "044d334a269e03edf4c7f8a3315d1dbf59177b8ddf1c38178bcc72cc73a93aba"
-DEBUG: Repository pybind11_bazel instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE:211:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
- checking cached actions
 Loading: 0 packages loaded
-Loading: 81 packages loaded
-    currently loading: @com_github_protocolbuffers_protobuf// ... (2 packages)
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_github_protocolbuffers_protobuf/BUILD:1003:11: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_github_protocolbuffers_protobuf//:proto_api'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_github_protocolbuffers_protobuf/BUILD:805:10: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_github_protocolbuffers_protobuf//:python/google/protobuf/internal/_api_implementation.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_github_protocolbuffers_protobuf/BUILD:826:10: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_github_protocolbuffers_protobuf//:python/google/protobuf/pyext/_message.so'
-DEBUG: Rule 'com_google_absl' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "a4567ff02faca671b95e31d315bab18b42b6c6f1a60e91c6ea84e5a2142112c2"
-DEBUG: Repository com_google_absl instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE:40:20: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/repositories.bzl:56:10: in nexres_repositories
-  /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
-Loading: 134 packages loaded
-Loading: 138 packages loaded
-Loading: 138 packages loaded
-Loading: 139 packages loaded
-Loading: 139 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_github_protocolbuffers_protobuf/BUILD:805:10: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_github_protocolbuffers_protobuf//:python/google/protobuf/internal/_api_implementation.so'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_github_protocolbuffers_protobuf/BUILD:1003:11: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_github_protocolbuffers_protobuf//:proto_api'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_github_protocolbuffers_protobuf/BUILD:826:10: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_github_protocolbuffers_protobuf//:python/google/protobuf/pyext/_message.so'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/platform/consensus/ordering/geo_pbft/BUILD:55:8: no such target '//platform/consensus/execution:mock_transaction_executor_impl': target 'mock_transaction_executor_impl' not declared in package 'platform/consensus/execution' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/platform/consensus/execution/BUILD (Tip: use `query "//platform/consensus/execution:*"` to see all the targets in that package) and referenced by '//platform/consensus/ordering/geo_pbft:geo_pbft_commitment_test'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_google_googletest/BUILD.bazel:80:11: no such package '@com_googlesource_code_re2//': The repository '@com_googlesource_code_re2' could not be resolved: Repository '@com_googlesource_code_re2' is not defined and referenced by '@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ca42297b74b059b43e5f9653a4727810/external/com_github_protocolbuffers_protobuf/BUILD:805:10: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__incubator-resilientdb/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_github_protocolbuffers_protobuf//:python/google/protobuf/internal/_api_implementation.so'

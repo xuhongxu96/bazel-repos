@@ -2,8 +2,7 @@ Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
 ERROR: <builtin>: fetching local_repository rule //:highway+: java.io.IOException: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/google__jpegli/third_party/highway
  no actions running
+ no actions running
 ERROR: Error computing the main repository mapping: error during computation of main repo mapping: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/google__jpegli/third_party/highway
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

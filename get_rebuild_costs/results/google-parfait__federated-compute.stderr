@@ -2,7 +2,5 @@ Starting local Bazel server and connecting to it...
 INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__federated-compute/.bazelrc:
   Inherited 'common' options: --java_runtime_version=remotejdk_11 --experimental_repo_remote_exec
 ERROR: --java_runtime_version=remotejdk_11 :: Unrecognized option: --java_runtime_version=remotejdk_11
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

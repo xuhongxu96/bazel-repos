@@ -1,38 +1,8 @@
-2025/08/08 20:48:56 Downloading https://releases.bazel.build/7.2.1/release/bazel-7.2.1-linux-x86_64...
-Extracting Bazel installation...
-Starting local Bazel server and connecting to it...
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-WARNING: For repository 'com_google_absl', the root module requires module version abseil-cpp@20210324.2, but got abseil-cpp@20230802.0.bcr.1 in the resolved dependency graph.
-WARNING: For repository 'bazel_skylib', the root module requires module version bazel_skylib@1.0.3, but got bazel_skylib@1.7.1 in the resolved dependency graph.
-WARNING: For repository 'platforms', the root module requires module version platforms@0.0.4, but got platforms@0.0.11 in the resolved dependency graph.
-WARNING: For repository 'rules_cc', the root module requires module version rules_cc@0.0.1, but got rules_cc@0.1.1 in the resolved dependency graph.
-WARNING: For repository 'rules_proto', the root module requires module version rules_proto@4.0.0, but got rules_proto@5.3.0-21.7 in the resolved dependency graph.
- checking cached actions
 Loading: 0 packages loaded
-Loading: 13 packages loaded
-    currently loading: example ... (4 packages)
-Loading: 14 packages loaded
-    currently loading: example ... (3 packages)
-Loading: 17 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/apache__brpc/bazel/config/BUILD.bazel:95:15: no such target '//:__subpkgs__': target '__subpkgs__' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__brpc/BUILD.bazel and referenced by '//bazel/config:darwin'
-Loading: 43 packages loaded
-    currently loading: @@protobuf~// ... (4 packages)
-Loading: 68 packages loaded
-    currently loading: @@protobuf~//upb_generator
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/apache__brpc/example/build_with_old_bazel/BUILD.bazel:22:10: no such package '@@[unknown repo 'com_github_brpc_brpc' requested from @@]//': The repository '@@[unknown repo 'com_github_brpc_brpc' requested from @@]' could not be resolved: No repository visible as '@com_github_brpc_brpc' from main repository and referenced by '//example/build_with_old_bazel:empty'
-Loading: 99 packages loaded
-    currently loading: @@thrift~// ... (2 packages)
-Loading: 103 packages loaded
-Loading: 115 packages loaded
-Loading: 135 packages loaded
-Loading: 149 packages loaded
-Loading: 149 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/apache__brpc/example/build_with_old_bazel/BUILD.bazel:22:10: no such package '@@[unknown repo 'com_github_brpc_brpc' requested from @@]//': The repository '@@[unknown repo 'com_github_brpc_brpc' requested from @@]' could not be resolved: No repository visible as '@com_github_brpc_brpc' from main repository and referenced by '//example/build_with_old_bazel:empty'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/apache__brpc/bazel/config/BUILD.bazel:95:15: no such target '//:__subpkgs__': target '__subpkgs__' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/apache__brpc/BUILD.bazel and referenced by '//bazel/config:darwin'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/apache__brpc/example/build_with_old_bazel/BUILD.bazel:22:10: no such package '@@[unknown repo 'com_github_brpc_brpc' requested from @@]//': The repository '@@[unknown repo 'com_github_brpc_brpc' requested from @@]' could not be resolved: No repository visible as '@com_github_brpc_brpc' from main repository and referenced by '//example/build_with_old_bazel:empty'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -44,7 +14,6 @@ Read 5000 lines from bazel query output...
 Read 6000 lines from bazel query output...
 Read 7000 lines from bazel query output...
 Read 8000 lines from bazel query output...
-Loading: 150 packages loaded
 Read 9000 lines from bazel query output...
 Read 10000 lines from bazel query output...
 Read 11000 lines from bazel query output...

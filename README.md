@@ -23,15 +23,12 @@ This project includes 4 datasets:
    or path.endswith('.bazel')
    ```
 
-4. **get_rebuild_costs/results:** We successfully cloned 539 out of the 560
-filtered repositories and executed the Bazel query command to extract each
-project's dependency graph. Subsequently, we computed the rebuild costs using
+4. **get_rebuild_costs/results:** We successfully cloned the 560
+filtered repositories and executed the Bazel query command to extract the
+dependency graph of 425 of them. Subsequently, we computed the rebuild costs using
 the `depstat` tool, available at
 [https://github.com/xuhongxu96/depreduce](https://github.com/xuhongxu96/depreduce)
 (currently private).
-
-   > Note: Some repositories could not be cloned, or their Bazel query results
-   > could not be parsed. These cases are excluded from the final dataset.
 
 ## Searching Strategy
 

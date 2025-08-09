@@ -1,51 +1,10 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 4 packages loaded
-    currently loading: examples/python/routeguide ... (8 packages)
-Loading: 10 packages loaded
-    currently loading: examples/python/routeguide ... (2 packages)
-Loading: 11 packages loaded
-    currently loading: examples/python/routeguide
-Loading: 11 packages loaded
-    currently loading: examples/python/routeguide
-Loading: 11 packages loaded
-    currently loading: examples/python/routeguide
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/bed8d5a4893b18138503189f0b14d25b/external/rules_jvm_external+/private/extensions/maven.bzl:200:14: The maven repository 'maven' has contributions from multiple bzlmod modules, and will be resolved together: ["rules_proto_grpc_java", "rules_proto_grpc_scala"].
-See https://github.com/bazel-contrib/rules_jvm_external/blob/master/docs/bzlmod.md#module-dependency-layering for more information. 
- To suppress this warning review the contributions from the other modules and add the following attribute in the root MODULE.bazel file: 
-maven.install(
-  known_contributing_modules = ["rules_proto_grpc_java", "rules_proto_grpc_scala"],
-  ...
-)
-Loading: 538 packages loaded
-    currently loading: @@rules_dotnet+//dotnet ... (2 packages)
-Loading: 602 packages loaded
-    currently loading: @@protobuf+//python/dist ... (2 packages)
-Loading: 641 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/bed8d5a4893b18138503189f0b14d25b/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
+Loading: 220 packages loaded
+    currently loading: @@rules_dotnet+//dotnet ... (12 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/bed8d5a4893b18138503189f0b14d25b/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
-Loading: 643 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 643 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 649 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 649 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 651 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 765 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 778 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 778 packages loaded
-    currently loading: @@protobuf+//python/dist
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/bed8d5a4893b18138503189f0b14d25b/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/bed8d5a4893b18138503189f0b14d25b/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/bed8d5a4893b18138503189f0b14d25b/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/bed8d5a4893b18138503189f0b14d25b/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'

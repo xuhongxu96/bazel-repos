@@ -4,5 +4,5 @@ ERROR: The 'query' command is only supported from within a workspace (below a di
 See documentation at https://bazel.build/concepts/build-ref#workspace
 
 thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
+Failed to parse bazel query output for target '//...', xml: : UnexpectedEof
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

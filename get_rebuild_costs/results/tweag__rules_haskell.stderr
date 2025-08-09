@@ -1,10 +1,6 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
 INFO: Repository graphviz instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/WORKSPACE:58:13: in <toplevel>
@@ -12,30 +8,12 @@ INFO: Repository graphviz instantiated at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl:726:21: in nixpkgs_package
 Repository rule _nixpkgs_package defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl:594:35: in <toplevel>
-ERROR: An error occurred during the fetch of repository 'graphviz':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
-		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
-Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/WORKSPACE:58:13: fetching _nixpkgs_package rule //external:graphviz: Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
-		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
-Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
 INFO: Repository sphinx instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/WORKSPACE:58:13: in <toplevel>
   /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/non_module_dev_deps.bzl:120:20: in repositories
   /data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl:726:21: in nixpkgs_package
 Repository rule _nixpkgs_package defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl:594:35: in <toplevel>
-ERROR: An error occurred during the fetch of repository 'sphinx':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
-		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
-Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/WORKSPACE:58:13: fetching _nixpkgs_package rule //external:sphinx: Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
-		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
-Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
 INFO: Repository zip instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/WORKSPACE:58:13: in <toplevel>
   /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/non_module_dev_deps.bzl:108:20: in repositories
@@ -51,22 +29,30 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/WORKSPACE
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
 		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
 Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+ERROR: An error occurred during the fetch of repository 'graphviz':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
+		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
+Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/WORKSPACE:58:13: fetching _nixpkgs_package rule //external:graphviz: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
+		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
+Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+ERROR: An error occurred during the fetch of repository 'sphinx':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
+		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
+Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/WORKSPACE:58:13: fetching _nixpkgs_package rule //external:sphinx: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/57f41b4d15537a6c33a6fbfe47614b38/external/rules_nixpkgs_core/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
+		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
+Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/docs/BUILD.bazel:230:8: no such package '@graphviz//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//docs:guide_html'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/docs/BUILD.bazel:230:8: no such package '@sphinx//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//docs:guide_html'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/docs/BUILD.bazel:230:8: no such package '@zip//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//docs:guide_html'
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/haskell/cabal.bzl:2390:10: Stack not found.
-DEBUG: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_haskell/haskell/cabal.bzl:2391:10: Downloading Stack 2.15.7 ...
-Loading: 218 packages loaded
 Loading: 314 packages loaded
-Loading: 314 packages loaded
-Loading: 314 packages loaded
-Loading: 314 packages loaded
-Loading: 314 packages loaded
-Loading: 314 packages loaded
-    currently loading: @stackage//
-Loading: 317 packages loaded
-WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Loading: 318 packages loaded
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

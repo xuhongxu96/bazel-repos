@@ -1,25 +1,6 @@
-Extracting Bazel installation...
 Starting local Bazel server (8.2.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 10 packages loaded
-    currently loading: walk ... (38 packages)
-Loading: 105 packages loaded
-    currently loading: @@bazel_skylib+// ... (4 packages)
-Loading: 145 packages loaded
-    currently loading: @@protobuf+//java/core
-Loading: 184 packages loaded
-Loading: 184 packages loaded
-Loading: 184 packages loaded
-Loading: 185 packages loaded
-Loading: 186 packages loaded
-Loading: 186 packages loaded
-Loading: 212 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__bazel-gazelle/BUILD.bazel:46:5: no such package '@@[unknown repo 'org_golang_x_tools' requested from @@ (did you mean 'org_golang_x_mod'?)]//go/analysis/passes/copylock': The repository '@@[unknown repo 'org_golang_x_tools' requested from @@ (did you mean 'org_golang_x_mod'?)]' could not be resolved: No repository visible as '@org_golang_x_tools' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//:nogo_actual'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazel-contrib__bazel-gazelle/BUILD.bazel:46:5: no such package '@@[unknown repo 'org_golang_x_tools' requested from @@ (did you mean 'org_golang_x_mod'?)]//go/analysis/passes/copylock': The repository '@@[unknown repo 'org_golang_x_tools' requested from @@ (did you mean 'org_golang_x_mod'?)]' could not be resolved: No repository visible as '@org_golang_x_tools' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//:nogo_actual'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure

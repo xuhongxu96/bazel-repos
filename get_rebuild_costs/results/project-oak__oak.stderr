@@ -2,59 +2,8 @@ Starting local Bazel server and connecting to it...
  no actions running
  no actions running
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
-DEBUG: Rule 'rust_linux_x86_64__x86_64-unknown-linux-gnu__nightly_tools' indicated that a canonical reproducible form can be obtained by modifying arguments sha256s = {"2025-04-03/cargo-nightly-x86_64-unknown-linux-gnu.tar.xz": "adfe5bd8fb807bfd8fee2ede9d88853837ba9dcf14dd701edeb33a8c9d84a6f2", "2025-04-03/clippy-nightly-x86_64-unknown-linux-gnu.tar.xz": "06839db5cd1810032a3115211b558b257c75f8459645265e310f0c518c9ad2d8", "2025-04-03/llvm-tools-nightly-x86_64-unknown-linux-gnu.tar.xz": "e2adf4c25541e7abf7e0c4e6586c94ac662fb9ae3e78b1f7310789bfc1cb5860", "2025-04-03/rust-std-nightly-x86_64-unknown-linux-gnu.tar.xz": "6b3b7dc16ccb0204bcc2fc381ffe69d1eaddf326583c11d24699797ebd0778c6", "2025-04-03/rust-std-nightly-wasm32-unknown-unknown.tar.xz": "e9e98ec5cb439842c2eaa14abeaacbb22e0da169dadb18f1f6de7ffadb3b4829", "2025-04-03/rustc-nightly-x86_64-unknown-linux-gnu.tar.xz": "2418663236236373c3d278e6e602ef5ad3158b9cebd5c1095f7916dbd9c9b891", "2025-04-03/rustfmt-nightly-x86_64-unknown-linux-gnu.tar.xz": "f8876b429b1ad9dfd5ece1e47947b39b20a0ecc56b1c76a614c4af5797152d86", "2025-04-03/cargo-nightly-aarch64-apple-darwin.tar.xz": "482f5759a9e985fefe139f9a64a18dd28f99719f14207b403b447e6fa19d2d7b", "2025-04-03/clippy-nightly-aarch64-apple-darwin.tar.xz": "d8a46adc0171899706a0cc98d60a57369dbc4b109d3f052e2bc043028d77d682", "2025-04-03/llvm-tools-nightly-aarch64-apple-darwin.tar.xz": "68017935fc80042ed5b47cafe4d92bb006d5a4652b8da02d09adaa531a1694e2", "2025-04-03/rust-std-nightly-aarch64-apple-darwin.tar.xz": "004a7fee96f35e258fa7fcbf66b06c6a53426365715fc02cfcba3ed0a8d1832c", "2025-04-03/rustc-nightly-aarch64-apple-darwin.tar.xz": "6538a7232af263e84a4aac73d6858b6e9b44478bd48f16b1c53c027ab0278ad1", "2025-04-03/rustfmt-nightly-aarch64-apple-darwin.tar.xz": "52e7e729422369382a32a29ab3b208dfe79027d83416e136c100ab31bed74caf", "2025-03-01/rustc-nightly-x86_64-unknown-linux-gnu.tar.xz": "089b01d390bf42e40b2f1eb960033bba83b54c5b70c2d457e0a31ecb99e87f11", "2025-03-01/clippy-nightly-x86_64-unknown-linux-gnu.tar.xz": "f5cb5053fee14e60bac386caf37a3542f6ac34fd73076e9329e4aac2e6caf640", "2025-03-01/cargo-nightly-x86_64-unknown-linux-gnu.tar.xz": "9dfde3b932a240ed7adbef95f9d1437681137c6e0b71ad95b2579cada0623e26", "2025-03-01/rustfmt-nightly-x86_64-unknown-linux-gnu.tar.xz": "4f6b4fdcf919e8358b4001d220e2a62208765308dcc8504051c2d3c03efe7fce", "2025-03-01/llvm-tools-nightly-x86_64-unknown-linux-gnu.tar.xz": "22ed657fa3092f172cda7ff2c68d560f03e312d0b0d643356d89f4254e858c92", "2025-03-01/rust-std-nightly-x86_64-unknown-linux-gnu.tar.xz": "bbfecef0f783ff9fde8485c3739ca71f549e44d9633e58ed5086cf7a09da3fd9"}
-DEBUG: Repository rust_linux_x86_64__x86_64-unknown-linux-gnu__nightly_tools instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/WORKSPACE:37:24: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/bazel/rust/defs.bzl:61:29: in setup_rust_dependencies
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_rust~/rust/repositories.bzl:257:14: in rust_register_toolchains
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/bazel_tools/tools/build_defs/repo/utils.bzl:268:18: in maybe
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_rust~/rust/repositories.bzl:1195:51: in rust_repository_set
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_rust~/rust/repositories.bzl:666:36: in rust_toolchain_repository
-Repository rule rust_toolchain_tools_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_rust~/rust/repositories.bzl:544:50: in <toplevel>
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 82 packages loaded
-    currently loading: trex/sigstore_client ... (58 packages)
-Loading: 190 packages loaded
-    currently loading: micro_rpc_tests/proto ... (43 packages)
-Loading: 190 packages loaded
-    currently loading: micro_rpc_tests/proto ... (43 packages)
-Loading: 229 packages loaded
-    currently loading: oak_containers/examples/hello_world/proto ... (4 packages)
-Loading: 400 packages loaded
-    currently loading: @@grpc~// ... (25 packages)
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/extensions/maven.bzl:351:18: The maven repository 'maven' has contributions from multiple bzlmod modules, and will be resolved together: ["bazel_worker_java", "grpc-java", "oak", "protobuf"]
-INFO: Repository _main~nix_repos~nix_linux_kernel instantiated at:
-  <builtin>: in <toplevel>
-Repository rule _nixpkgs_package defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_nixpkgs_core~/nixpkgs.bzl:594:35: in <toplevel>
 INFO: Repository _main~nix_repos~nix_vanilla_linux_kernel instantiated at:
   <builtin>: in <toplevel>
 Repository rule _nixpkgs_package defined at:
@@ -64,42 +13,25 @@ ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_nixpkgs_core~/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
 		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
 Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+INFO: Repository _main~nix_repos~nix_linux_kernel instantiated at:
+  <builtin>: in <toplevel>
+Repository rule _nixpkgs_package defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_nixpkgs_core~/nixpkgs.bzl:594:35: in <toplevel>
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/oak_containers/kernel/BUILD:39:8: no such package '@@_main~nix_repos~nix_vanilla_linux_kernel//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//oak_containers/kernel:generate_vanilla_kernel_sha256'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_nixpkgs_core~/nixpkgs.bzl:545:13: An error occurred during the fetch of repository '_main~nix_repos~nix_linux_kernel':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_nixpkgs_core~/nixpkgs.bzl", line 545, column 13, in _nixpkgs_package_impl
 		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
 Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/oak_containers/kernel/BUILD:26:10: no such package '@@_main~nix_repos~nix_linux_kernel//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//oak_containers/kernel:kernel'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/oak_containers/kernel/BUILD:32:8: no such package '@@_main~nix_repos~nix_linux_kernel//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//oak_containers/kernel:generate_kernel_sha256'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/oak_containers/kernel/BUILD:39:8: no such package '@@_main~nix_repos~nix_vanilla_linux_kernel//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//oak_containers/kernel:generate_vanilla_kernel_sha256'
-Loading: 766 packages loaded
-    currently loading: @@grpc~// ... (9 packages)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/oak_containers/kernel/BUILD:26:10: no such package '@@_main~nix_repos~nix_linux_kernel//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//oak_containers/kernel:kernel'
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/grpc~/src/compiler/BUILD:87:18: target 'grpc_cpp_plugin' is both a rule and a file; please choose another name for the rule
-Loading: 928 packages loaded
-    currently loading: @@grpc~// ... (4 packages)
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/grpc~/src/compiler/BUILD:93:18: target 'grpc_csharp_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/grpc~/src/compiler/BUILD:99:18: target 'grpc_node_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/grpc~/src/compiler/BUILD:105:18: target 'grpc_objective_c_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/grpc~/src/compiler/BUILD:111:18: target 'grpc_php_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/grpc~/src/compiler/BUILD:117:18: target 'grpc_python_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/grpc~/src/compiler/BUILD:123:18: target 'grpc_ruby_plugin' is both a rule and a file; please choose another name for the rule
-Loading: 948 packages loaded
-    currently loading: @@rules_android~//src/tools/split_core_jar ... (4 packages)
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: no such package '@@[unknown repo 'system_python' requested from @@protobuf~]//': The repository '@@[unknown repo 'system_python' requested from @@protobuf~]' could not be resolved: No repository visible as '@system_python' from repository '@@protobuf~' and referenced by '@@protobuf~//python:proto_api'
-Loading: 999 packages loaded
-    currently loading: @@rules_android~//src/tools/split_core_jar ... (7 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/rules/coursier.bzl:754:18: Found duplicate artifact versions
-    com.google.errorprone:error_prone_annotations has multiple versions 2.38.0, 2.30.0, 2.5.1, 2.23.0
-    com.google.code.gson:gson has multiple versions 2.11.0, 2.8.9, 2.10.1
-    com.google.guava:guava has multiple versions 33.3.1-android, 32.0.1-jre, 33.0.0-jre
-    com.google.truth:truth has multiple versions 1.4.2, 1.4.0
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: error loading package '@@protobuf~//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf~]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf~]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf~'. and referenced by '@@protobuf~//python:google/protobuf/internal/_api_implementation.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: no such package '@@[unknown repo 'system_python' requested from @@protobuf~]//': The repository '@@[unknown repo 'system_python' requested from @@protobuf~]' could not be resolved: No repository visible as '@system_python' from repository '@@protobuf~' and referenced by '@@protobuf~//python:google/protobuf/internal/_api_implementation.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: error loading package '@@protobuf~//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf~]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf~]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf~'. and referenced by '@@protobuf~//python:google/protobuf/pyext/_message.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: no such package '@@[unknown repo 'system_python' requested from @@protobuf~]//': The repository '@@[unknown repo 'system_python' requested from @@protobuf~]' could not be resolved: No repository visible as '@system_python' from repository '@@protobuf~' and referenced by '@@protobuf~//python:google/protobuf/pyext/_message.so'
-Loading: 1097 packages loaded
-    currently loading: @@rules_android~//src/tools/split_core_jar ... (14 packages)
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/gazelle~/internal/bzlmod/go_deps.bzl:571:40: 
 
 Mismatch between versions requested for module github.com/bazelbuild/rules_go
@@ -107,245 +39,19 @@ Bazel dependency version requested in MODULE.bazel: 0.51.0-rc2
 Go module version requested in go.mod: 0.50.1
 Please resolve this mismatch to prevent discrepancies between native Go and Bazel builds
 
-Loading: 1318 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1352 packages loaded
-    currently loading: @@protobuf~//python/dist ... (2 packages)
-Loading: 1425 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1460 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1474 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1483 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1483 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1484 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1485 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1486 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1486 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1486 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1486 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1486 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1486 packages loaded
-    currently loading: @@protobuf~//python/dist
+Loading: 1077 packages loaded
+    currently loading: @@protobuf~//java/core ... (34 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_android~/tools/jdk/BUILD:41:15: no such target '@@rules_android~~android_sdk_repository_extension~androidsdk//:core-for-system-modules-jar': target 'core-for-system-modules-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_android~~android_sdk_repository_extension~androidsdk/BUILD.bazel and referenced by '@@rules_android~//tools/jdk:bootclasspath_android_only'
-Loading: 1487 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1487 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1487 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1487 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1493 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1493 packages loaded
-    currently loading: @@protobuf~//python/dist
-DEBUG: Rule 'rust_toolchain_repo__x86_64-unknown-none__nightly_tools' indicated that a canonical reproducible form can be obtained by modifying arguments sha256s = {"2025-04-03/cargo-nightly-x86_64-unknown-linux-gnu.tar.xz": "adfe5bd8fb807bfd8fee2ede9d88853837ba9dcf14dd701edeb33a8c9d84a6f2", "2025-04-03/clippy-nightly-x86_64-unknown-linux-gnu.tar.xz": "06839db5cd1810032a3115211b558b257c75f8459645265e310f0c518c9ad2d8", "2025-04-03/llvm-tools-nightly-x86_64-unknown-linux-gnu.tar.xz": "e2adf4c25541e7abf7e0c4e6586c94ac662fb9ae3e78b1f7310789bfc1cb5860", "2025-04-03/rust-std-nightly-x86_64-unknown-linux-gnu.tar.xz": "6b3b7dc16ccb0204bcc2fc381ffe69d1eaddf326583c11d24699797ebd0778c6", "2025-04-03/rust-std-nightly-wasm32-unknown-unknown.tar.xz": "e9e98ec5cb439842c2eaa14abeaacbb22e0da169dadb18f1f6de7ffadb3b4829", "2025-04-03/rustc-nightly-x86_64-unknown-linux-gnu.tar.xz": "2418663236236373c3d278e6e602ef5ad3158b9cebd5c1095f7916dbd9c9b891", "2025-04-03/rustfmt-nightly-x86_64-unknown-linux-gnu.tar.xz": "f8876b429b1ad9dfd5ece1e47947b39b20a0ecc56b1c76a614c4af5797152d86", "2025-04-03/cargo-nightly-aarch64-apple-darwin.tar.xz": "482f5759a9e985fefe139f9a64a18dd28f99719f14207b403b447e6fa19d2d7b", "2025-04-03/clippy-nightly-aarch64-apple-darwin.tar.xz": "d8a46adc0171899706a0cc98d60a57369dbc4b109d3f052e2bc043028d77d682", "2025-04-03/llvm-tools-nightly-aarch64-apple-darwin.tar.xz": "68017935fc80042ed5b47cafe4d92bb006d5a4652b8da02d09adaa531a1694e2", "2025-04-03/rust-std-nightly-aarch64-apple-darwin.tar.xz": "004a7fee96f35e258fa7fcbf66b06c6a53426365715fc02cfcba3ed0a8d1832c", "2025-04-03/rustc-nightly-aarch64-apple-darwin.tar.xz": "6538a7232af263e84a4aac73d6858b6e9b44478bd48f16b1c53c027ab0278ad1", "2025-04-03/rustfmt-nightly-aarch64-apple-darwin.tar.xz": "52e7e729422369382a32a29ab3b208dfe79027d83416e136c100ab31bed74caf", "2025-03-01/rustc-nightly-x86_64-unknown-linux-gnu.tar.xz": "089b01d390bf42e40b2f1eb960033bba83b54c5b70c2d457e0a31ecb99e87f11", "2025-03-01/clippy-nightly-x86_64-unknown-linux-gnu.tar.xz": "f5cb5053fee14e60bac386caf37a3542f6ac34fd73076e9329e4aac2e6caf640", "2025-03-01/cargo-nightly-x86_64-unknown-linux-gnu.tar.xz": "9dfde3b932a240ed7adbef95f9d1437681137c6e0b71ad95b2579cada0623e26", "2025-03-01/llvm-tools-nightly-x86_64-unknown-linux-gnu.tar.xz": "22ed657fa3092f172cda7ff2c68d560f03e312d0b0d643356d89f4254e858c92", "2025-03-01/rust-std-nightly-x86_64-unknown-none.tar.xz": "77ee6bffcfd1383903eb5ea095a2a06ae58b8c30312deda75b562402f56dadb0"}
-DEBUG: Repository rust_toolchain_repo__x86_64-unknown-none__nightly_tools instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/WORKSPACE:37:24: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/bazel/rust/defs.bzl:69:24: in setup_rust_dependencies
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_rust~/rust/repositories.bzl:1195:51: in rust_repository_set
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_rust~/rust/repositories.bzl:666:36: in rust_toolchain_repository
-Repository rule rust_toolchain_tools_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_rust~/rust/repositories.bzl:544:50: in <toplevel>
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1494 packages loaded
-    currently loading: @@protobuf~//python/dist
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:3.141.59-fake should be interpreted as androidx.test:core:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:3.141.59-fake should be interpreted as androidx.test:core:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:3.141.59-fake should be interpreted as androidx.test:core:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:3.141.59-fake should be interpreted as androidx.annotation:annotation-experimental:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:3.141.59-fake should be interpreted as androidx.annotation:annotation-experimental:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:3.141.59-fake should be interpreted as androidx.annotation:annotation-experimental:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.141.59-fake should be interpreted as androidx.test.espresso:espresso-idling-resource:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.141.59-fake should be interpreted as androidx.test.espresso:espresso-idling-resource:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.141.59-fake should be interpreted as androidx.test.espresso:espresso-idling-resource:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
-Loading: 1495 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1495 packages loaded
-    currently loading: @@protobuf~//python/dist
-Loading: 1495 packages loaded
-    currently loading: @@protobuf~//python/dist
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: no such package '@@[unknown repo 'system_python' requested from @@protobuf~]//': The repository '@@[unknown repo 'system_python' requested from @@protobuf~]' could not be resolved: No repository visible as '@system_python' from repository '@@protobuf~' and referenced by '@@protobuf~//python:proto_api'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: error loading package '@@protobuf~//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf~]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf~]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf~'. and referenced by '@@protobuf~//python:google/protobuf/internal/_api_implementation.so'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: no such package '@@[unknown repo 'system_python' requested from @@protobuf~]//': The repository '@@[unknown repo 'system_python' requested from @@protobuf~]' could not be resolved: No repository visible as '@system_python' from repository '@@protobuf~' and referenced by '@@protobuf~//python:google/protobuf/internal/_api_implementation.so'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: error loading package '@@protobuf~//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf~]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf~]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf~'. and referenced by '@@protobuf~//python:google/protobuf/pyext/_message.so'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/4258a5a6b9a8a69ec05717cb6bac019c/external/protobuf~/python/BUILD.bazel:14:14: no such package '@@[unknown repo 'system_python' requested from @@protobuf~]//': The repository '@@[unknown repo 'system_python' requested from @@protobuf~]' could not be resolved: No repository visible as '@system_python' from repository '@@protobuf~' and referenced by '@@protobuf~//python:google/protobuf/pyext/_message.so'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/oak_containers/kernel/BUILD:26:10: no such package '@@_main~nix_repos~nix_linux_kernel//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//oak_containers/kernel:kernel'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/oak_containers/kernel/BUILD:32:8: no such package '@@_main~nix_repos~nix_linux_kernel//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//oak_containers/kernel:generate_kernel_sha256'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/project-oak__oak/oak_containers/kernel/BUILD:39:8: no such package '@@_main~nix_repos~nix_vanilla_linux_kernel//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//oak_containers/kernel:generate_vanilla_kernel_sha256'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 1496 packages loaded
-    currently loading: @@protobuf~//python/dist
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -563,6 +269,8 @@ Read 213000 lines from bazel query output...
 Read 214000 lines from bazel query output...
 Read 215000 lines from bazel query output...
 Read 216000 lines from bazel query output...
+Loading: 1496 packages loaded
+    currently loading: @@protobuf~//python/dist
 Read 217000 lines from bazel query output...
 Read 218000 lines from bazel query output...
 Read 219000 lines from bazel query output...

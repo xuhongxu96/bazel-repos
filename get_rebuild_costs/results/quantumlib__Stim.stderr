@@ -1,11 +1,6 @@
-2025/08/09 03:23:49 Downloading https://releases.bazel.build/7.2.0/release/bazel-7.2.0-linux-x86_64...
-Extracting Bazel installation...
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 45 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/7d53a5490fcba6ad76aaa969cfda2afe/external/googletest~/BUILD.bazel:80:11: no such package '@@[unknown repo 'com_googlesource_code_re2' requested from @@googletest~]//': The repository '@@[unknown repo 'com_googlesource_code_re2' requested from @@googletest~]' could not be resolved: No repository visible as '@com_googlesource_code_re2' from repository '@@googletest~' and referenced by '@@googletest~//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/7d53a5490fcba6ad76aaa969cfda2afe/external/googletest~/BUILD.bazel:80:11: no such package '@@[unknown repo 'com_googlesource_code_re2' requested from @@googletest~]//': The repository '@@[unknown repo 'com_googlesource_code_re2' requested from @@googletest~]' could not be resolved: No repository visible as '@com_googlesource_code_re2' from repository '@@googletest~' and referenced by '@@googletest~//:gtest'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure

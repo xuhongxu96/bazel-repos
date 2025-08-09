@@ -1,0 +1,45 @@
+Starting local Bazel server and connecting to it...
+ checking cached actions
+ checking cached actions
+DEBUG: Rule 'rules_foreign_cc' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "d4b19bb010ca5d433850c1d9db0510c2fd395aae758ae37f02930944596220ec"
+DEBUG: Repository rules_foreign_cc instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/swift-nav__libsbp/WORKSPACE.bazel:25:13: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/cb3a3e1ad2b42041a7b242c27c002951/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
+ checking cached actions
+Loading: 0 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/swift-nav__libsbp/WORKSPACE.bazel:48:17: fetching local_repository rule //external:googletest: java.io.IOException: No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/cb3a3e1ad2b42041a7b242c27c002951/external/googletest
+Loading: 27 packages loaded
+    currently loading: @local_config_cc//
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 30 packages loaded
+Loading: 31 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/swift-nav__libsbp/c/BUILD.bazel:94:14: no such package '@googletest//': No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/cb3a3e1ad2b42041a7b242c27c002951/external/googletest and referenced by '//c:sbp-string-test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/swift-nav__libsbp/c/BUILD.bazel:84:14: no such package '@googletest//': No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/cb3a3e1ad2b42041a7b242c27c002951/external/googletest and referenced by '//c:sbp-cpp-test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/swift-nav__libsbp/c/BUILD.bazel:94:14: no such package '@googletest//': No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/cb3a3e1ad2b42041a7b242c27c002951/external/googletest and referenced by '//c:sbp-string-test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/swift-nav__libsbp/c/BUILD.bazel:84:14: no such package '@googletest//': No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/cb3a3e1ad2b42041a7b242c27c002951/external/googletest and referenced by '//c:sbp-cpp-test'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Loading: 32 packages loaded

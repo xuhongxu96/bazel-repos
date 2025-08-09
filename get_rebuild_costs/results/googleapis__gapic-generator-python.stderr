@@ -1,68 +1,16 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-DEBUG: Rule 'com_google_googleapis' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "9e7cfab6ae8f5cbd4712cbe7ed22f6ccdd3e0c5a431a22d698a80d99abed982b"
-DEBUG: Repository com_google_googleapis instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/WORKSPACE:59:23: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/repositories.bzl:64:11: in gapic_generator_python
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/repositories.bzl:83:14: in _maybe
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/96dc9cdfcba7c063e2cf989accc618ad/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
 Loading: 0 packages loaded
-Loading: 10 packages loaded
-    currently loading: tests/integration
-Loading: 10 packages loaded
-    currently loading: tests/integration
-DEBUG: Rule 'rules_gapic' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "802623c01fa54d758ffb98d8613e978c44807c8dc532c0ef088a1f33b3c92bf3"
-DEBUG: Repository rules_gapic instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/WORKSPACE:59:23: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/repositories.bzl:57:11: in gapic_generator_python
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/repositories.bzl:83:14: in _maybe
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/96dc9cdfcba7c063e2cf989accc618ad/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-Loading: 93 packages loaded
-    currently loading: @com_google_protobuf//python/dist ... (2 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/96dc9cdfcba7c063e2cf989accc618ad/external/com_google_protobuf/python/BUILD.bazel:14:14: error loading package '@com_google_protobuf//python/dist': Unable to find package for @protobuf_pip_deps//:requirements.bzl: The repository '@protobuf_pip_deps' could not be resolved: Repository '@protobuf_pip_deps' is not defined. and referenced by '@com_google_protobuf//python:google/protobuf/internal/_api_implementation.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/96dc9cdfcba7c063e2cf989accc618ad/external/com_google_protobuf/python/BUILD.bazel:14:14: error loading package '@com_google_protobuf//python/dist': Unable to find package for @protobuf_pip_deps//:requirements.bzl: The repository '@protobuf_pip_deps' could not be resolved: Repository '@protobuf_pip_deps' is not defined. and referenced by '@com_google_protobuf//python:google/protobuf/pyext/_message.so'
-DEBUG: Rule 'pandoc_macOS' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "5bb325f4f5ba3a0f6bfc600d82ebf9af2a9b7207449a5a25e9a9acd678b17626"
-DEBUG: Repository pandoc_macOS instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/WORKSPACE:59:23: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/repositories.bzl:48:11: in gapic_generator_python
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/repositories.bzl:83:14: in _maybe
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/96dc9cdfcba7c063e2cf989accc618ad/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-Loading: 222 packages loaded
-    currently loading: @com_google_protobuf//python/dist
-DEBUG: Rule 'pandoc_linux' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "3b1b573cdf957b4102c42ce6f5a641787267a55a5e88dcca942fd471c25793cb"
-DEBUG: Repository pandoc_linux instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/WORKSPACE:59:23: in <toplevel>
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/repositories.bzl:40:11: in gapic_generator_python
-  /data/h445xu/repo/bazel-repos/cloned_repos/googleapis__gapic-generator-python/repositories.bzl:83:14: in _maybe
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/96dc9cdfcba7c063e2cf989accc618ad/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>
-Loading: 233 packages loaded
-    currently loading: @com_google_protobuf//python/dist
-Loading: 237 packages loaded
-    currently loading: @com_google_protobuf//python/dist
-Loading: 248 packages loaded
-    currently loading: @com_google_protobuf//python/dist
-Loading: 261 packages loaded
-    currently loading: @com_google_protobuf//python/dist
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
 Read 3000 lines from bazel query output...
 Read 4000 lines from bazel query output...
+Loading: 263 packages loaded
+    currently loading: @com_google_protobuf//python/dist
 Read 5000 lines from bazel query output...
 Read 6000 lines from bazel query output...
 Read 7000 lines from bazel query output...

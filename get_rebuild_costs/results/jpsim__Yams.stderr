@@ -1,13 +1,6 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-    currently loading:  ... (2 packages)
-Loading: 16 packages loaded
-    currently loading: @@bazel_tools//third_party/def_parser
 INFO: Repository rules_swift~~non_module_deps~build_bazel_rules_swift_local_config instantiated at:
   <builtin>: in <toplevel>
 Repository rule swift_autoconfiguration defined at:
@@ -27,6 +20,5 @@ ERROR: <builtin>: fetching swift_autoconfiguration rule //:rules_swift~~non_modu
 Error in fail: No 'swiftc' executable found in $PATH
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/jpsim__Yams/BUILD:18:14: every rule of type swift_library implicitly depends upon the target '@@rules_swift~~non_module_deps~build_bazel_rules_swift_local_config//:toolchain', but this target could not be found because of: no such package '@@rules_swift~~non_module_deps~build_bazel_rules_swift_local_config//': No 'swiftc' executable found in $PATH
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/jpsim__Yams/Tests/BUILD:19:11: every rule of type swift_test implicitly depends upon the target '@@rules_swift~~non_module_deps~build_bazel_rules_swift_local_config//:toolchain', but this target could not be found because of: no such package '@@rules_swift~~non_module_deps~build_bazel_rules_swift_local_config//': No 'swiftc' executable found in $PATH
-Loading: 30 packages loaded
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

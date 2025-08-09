@@ -1,40 +1,13 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-WARNING: For repository 'bazel_skylib', the root module requires module version bazel_skylib@1.5.0, but got bazel_skylib@1.7.1 in the resolved dependency graph.
-WARNING: For repository 'com_github_grpc_grpc', the root module requires module version grpc@1.63.1.bcr.1, but got grpc@1.66.0.bcr.2 in the resolved dependency graph.
-WARNING: For repository 'platforms', the root module requires module version platforms@0.0.8, but got platforms@0.0.10 in the resolved dependency graph.
-WARNING: For repository 'com_google_protobuf', the root module requires module version protobuf@26.0, but got protobuf@29.0 in the resolved dependency graph.
-WARNING: For repository 'rules_proto', the root module requires module version rules_proto@5.3.0-21.7, but got rules_proto@7.0.2 in the resolved dependency graph.
-WARNING: For repository 'com_github_google_benchmark', the root module requires module version google_benchmark@1.8.3, but got google_benchmark@1.8.4 in the resolved dependency graph.
- checking cached actions
 Loading: 0 packages loaded
-Loading: 51 packages loaded
-    currently loading: exporters/elasticsearch ... (9 packages)
-Loading: 59 packages loaded
-    currently loading: examples/grpc
-Loading: 59 packages loaded
-    currently loading: examples/grpc
-Loading: 59 packages loaded
-    currently loading: examples/grpc
-Loading: 77 packages loaded
-    currently loading: @@bazel_tools//third_party/def_parser ... (5 packages)
-Loading: 101 packages loaded
-    currently loading: @@grpc~// ... (10 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/645462874a5438754f77a577ab35e868/external/protobuf~/protobuf.bzl:650:10: The py_proto_library macro is deprecated and will be removed in the 30.x release. switch to the rule defined by rules_python or the one in bazel/py_proto_library.bzl.
-Loading: 174 packages loaded
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/645462874a5438754f77a577ab35e868/external/protobuf~/protobuf.bzl:650:10: The py_proto_library macro is deprecated and will be removed in the 30.x release. switch to the rule defined by rules_python or the one in bazel/py_proto_library.bzl.
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/645462874a5438754f77a577ab35e868/external/protobuf~/protobuf.bzl:650:10: The py_proto_library macro is deprecated and will be removed in the 30.x release. switch to the rule defined by rules_python or the one in bazel/py_proto_library.bzl.
-Loading: 226 packages loaded
-Loading: 230 packages loaded
-Loading: 230 packages loaded
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/645462874a5438754f77a577ab35e868/external/protobuf~/protobuf.bzl:650:10: The py_proto_library macro is deprecated and will be removed in the 30.x release. switch to the rule defined by rules_python or the one in bazel/py_proto_library.bzl.
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
 Read 3000 lines from bazel query output...
-Loading: 232 packages loaded
 Read 4000 lines from bazel query output...
 Read 5000 lines from bazel query output...
 Read 6000 lines from bazel query output...

@@ -1,12 +1,8 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 WARNING: For repository 'com_google_absl', the root module requires module version abseil-cpp@20240722.0.bcr.2, but got abseil-cpp@20250127.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
- no actions running
 Loading: 0 packages loaded
-Loading: 153 packages loaded
-    currently loading: @@rules_python+//python/config_settings
+Loading: 164 packages loaded
 INFO: Repository +_repo_rules+flac instantiated at:
   <builtin>: in <toplevel>
 Repository rule git_repository defined at:
@@ -35,17 +31,31 @@ ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/
 		ctx.file("BUILD.bazel", ctx.read(ctx.attr.build_file))
 Error in read: Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/obu/decoder_config/BUILD:6:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/obu/decoder_config:aac_decoder_config'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:60:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:aac_utils'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/obu/decoder_config/BUILD:6:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/obu/decoder_config:aac_decoder_config'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:8:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:aac_decoder'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:36:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:aac_encoder'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:124:11: no such package '@@+_repo_rules+flac//': Unable to load package for //external:flac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:flac_encoder'
-Loading: 159 packages loaded
+Loading: 164 packages loaded
+INFO: Repository +_repo_rules+libexpat instantiated at:
+  <builtin>: in <toplevel>
+Repository rule git_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/external/bazel_tools/tools/build_defs/repo/git.bzl:208:33: in <toplevel>
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/external/bazel_tools/tools/build_defs/repo/utils.bzl:68:41: An error occurred during the fetch of repository '+_repo_rules+libexpat':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/external/bazel_tools/tools/build_defs/repo/git.bzl", line 198, column 28, in _git_repository_implementation
+		workspace_and_buildfile(ctx)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/external/bazel_tools/tools/build_defs/repo/utils.bzl", line 68, column 41, in workspace_and_buildfile
+		ctx.file("BUILD.bazel", ctx.read(ctx.attr.build_file))
+Error in read: Unable to load package for //external:libexpat.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/adm_to_user_metadata/adm/BUILD:73:11: no such package '@@+_repo_rules+libexpat//': Unable to load package for //external:libexpat.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/cli/adm_to_user_metadata/adm:xml_to_adm'
 INFO: Repository +_repo_rules+libopus instantiated at:
   <builtin>: in <toplevel>
 Repository rule git_repository defined at:
@@ -66,44 +76,30 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/
  - external and referenced by '//iamf/cli/codec:opus_encoder'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/tests/BUILD:80:8: no such package '@@+_repo_rules+flac//': Unable to load package for //external:flac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec/tests:flac_decoder_stream_callbacks_test'
-INFO: Repository +_repo_rules+libexpat instantiated at:
-  <builtin>: in <toplevel>
-Repository rule git_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/external/bazel_tools/tools/build_defs/repo/git.bzl:208:33: in <toplevel>
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/external/bazel_tools/tools/build_defs/repo/utils.bzl:68:41: An error occurred during the fetch of repository '+_repo_rules+libexpat':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/external/bazel_tools/tools/build_defs/repo/git.bzl", line 198, column 28, in _git_repository_implementation
-		workspace_and_buildfile(ctx)
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/f566fbdbc2277091ac0f43c6293a4c29/external/bazel_tools/tools/build_defs/repo/utils.bzl", line 68, column 41, in workspace_and_buildfile
-		ctx.file("BUILD.bazel", ctx.read(ctx.attr.build_file))
-Error in read: Unable to load package for //external:libexpat.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/adm_to_user_metadata/adm/BUILD:73:11: no such package '@@+_repo_rules+libexpat//': Unable to load package for //external:libexpat.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/cli/adm_to_user_metadata/adm:xml_to_adm'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:8:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/cli/codec:aac_decoder'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/obu/decoder_config/BUILD:6:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/obu/decoder_config:aac_decoder_config'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/adm_to_user_metadata/adm/BUILD:73:11: no such package '@@+_repo_rules+libexpat//': Unable to load package for //external:libexpat.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/cli/adm_to_user_metadata/adm:xml_to_adm'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:208:11: no such package '@@+_repo_rules+libopus//': Unable to load package for //external:libopus.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/cli/codec:opus_encoder'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:124:11: no such package '@@+_repo_rules+flac//': Unable to load package for //external:flac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/cli/codec:flac_encoder'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:184:11: no such package '@@+_repo_rules+libopus//': Unable to load package for //external:libopus.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/cli/codec:opus_decoder'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:233:11: no such package '@@+_repo_rules+libopus//': Unable to load package for //external:libopus.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/cli/codec:opus_utils'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:36:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/cli/codec:aac_encoder'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:94:11: no such package '@@+_repo_rules+flac//': Unable to load package for //external:flac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:flac_decoder'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:124:11: no such package '@@+_repo_rules+flac//': Unable to load package for //external:flac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/cli/codec:flac_encoder'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:36:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/cli/codec:aac_encoder'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:111:11: no such package '@@+_repo_rules+flac//': Unable to load package for //external:flac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:flac_decoder_stream_callbacks'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:36:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:aac_encoder'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:208:11: no such package '@@+_repo_rules+libopus//': Unable to load package for //external:libopus.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/cli/codec:opus_encoder'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:233:11: no such package '@@+_repo_rules+libopus//': Unable to load package for //external:libopus.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/cli/codec:opus_utils'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/adm_to_user_metadata/adm/BUILD:73:11: no such package '@@+_repo_rules+libexpat//': Unable to load package for //external:libexpat.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/cli/adm_to_user_metadata/adm:xml_to_adm'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:8:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:aac_decoder'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:8:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - external and referenced by '//iamf/cli/codec:aac_decoder'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:184:11: no such package '@@+_repo_rules+libopus//': Unable to load package for //external:libopus.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external and referenced by '//iamf/cli/codec:opus_decoder'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/BUILD:60:11: no such package '@@+_repo_rules+fdk_aac//': Unable to load package for //external:fdk_aac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - external and referenced by '//iamf/cli/codec:aac_utils'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/AOMediaCodec__iamf-tools/iamf/cli/codec/tests/BUILD:80:8: no such package '@@+_repo_rules+flac//': Unable to load package for //external:flac.BUILD: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.

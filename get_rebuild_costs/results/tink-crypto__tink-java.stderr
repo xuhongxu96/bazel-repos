@@ -1,16 +1,7 @@
 Starting local Bazel server and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/410a404e68f11400c26babba5cfc25de/external/bazel_tools/tools/test/BUILD:36:6: error loading package '@@remote_coverage_tools//': cannot load '@@rules_java//java:java_binary.bzl': no such file and referenced by '@@bazel_tools//tools/test:coverage_report_generator'
-Loading: 137 packages loaded
-    currently loading: @@remote_coverage_tools// ... (18 packages)
-Loading: 164 packages loaded
-    currently loading: @@remote_coverage_tools//
-Loading: 164 packages loaded
-    currently loading: @@remote_coverage_tools//
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tink-crypto__tink-java/BUILD.bazel:12:20: every rule of type javadoc_library implicitly depends upon the target '@@androidsdk//:platforms/android-23/android.jar', but this target could not be found because of: no such target '@@androidsdk//:platforms/android-23/android.jar': target 'platforms/android-23/android.jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/410a404e68f11400c26babba5cfc25de/external/androidsdk/BUILD.bazel
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tink-crypto__tink-java/BUILD.bazel:496:20: every rule of type javadoc_library implicitly depends upon the target '@@androidsdk//:platforms/android-23/android.jar', but this target could not be found because of: no such target '@@androidsdk//:platforms/android-23/android.jar': target 'platforms/android-23/android.jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/410a404e68f11400c26babba5cfc25de/external/androidsdk/BUILD.bazel
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate

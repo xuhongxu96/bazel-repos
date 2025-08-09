@@ -1,0 +1,67 @@
+Starting local Bazel server and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+INFO: Repository dynamic_modules_rust_sdk_crate_index instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/cilium__proxy/WORKSPACE:87:25: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/9c98af17358ad432715cbe1440215db7/external/envoy/bazel/dependency_imports.bzl:72:24: in envoy_dependency_imports
+  /data/h445xu/.cache/bazel/_bazel_hongxu/9c98af17358ad432715cbe1440215db7/external/envoy/bazel/dependency_imports.bzl:227:22: in crates_repositories
+Repository rule crates_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/9c98af17358ad432715cbe1440215db7/external/rules_rust/crate_universe/private/crates_repository.bzl:124:36: in <toplevel>
+INFO: repository @@dynamic_modules_rust_sdk_crate_index' used the following cache hits instead of downloading the corresponding file.
+ * Hash '53418ae5457040e84009f7c69b070e1f12f10a9a3a3ef4f5d0829c66e5438ba1' for https://github.com/bazelbuild/rules_rust/releases/download/0.56.0/cargo-bazel-x86_64-unknown-linux-gnu
+If the definition of 'repository @@dynamic_modules_rust_sdk_crate_index' was updated, verify that the hashes were also updated.
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9c98af17358ad432715cbe1440215db7/external/rules_rust/crate_universe/private/generate_utils.bzl:422:13: An error occurred during the fetch of repository 'dynamic_modules_rust_sdk_crate_index':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/9c98af17358ad432715cbe1440215db7/external/rules_rust/crate_universe/private/crates_repository.bzl", line 45, column 28, in _crates_repository_impl
+		repin = determine_repin(
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/9c98af17358ad432715cbe1440215db7/external/rules_rust/crate_universe/private/generate_utils.bzl", line 422, column 13, in determine_repin
+		fail(msg)
+Error in fail: Error: Digests do not match: Current Digest("c0d467a39180d065453586687649d169eafc9222d6c3352463a214d2b1b6cf84") != Expected Digest("4c6fd9c334b557ab8362c4ec3692911155389d65ac394b59a7fc695630bc330f")
+
+Stack backtrace:
+   0: anyhow::error::<impl anyhow::Error>::msg
+   1: anyhow::__private::format_err
+   2: cargo_bazel::cli::query::query
+   3: cargo_bazel::main
+   4: std::sys::backtrace::__rust_begin_short_backtrace
+   5: std::rt::lang_start::{{closure}}
+   6: std::rt::lang_start_internal
+   7: main
+   8: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+   9: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:392:3
+  10: _start
+
+The current `lockfile` is out of date for 'dynamic_modules_rust_sdk_crate_index'. Please re-run bazel using `CARGO_BAZEL_REPIN=true` if this is expected and the lockfile should be updated.
+ERROR: Error computing the main repository mapping: no such package '@@dynamic_modules_rust_sdk_crate_index//': Error: Digests do not match: Current Digest("c0d467a39180d065453586687649d169eafc9222d6c3352463a214d2b1b6cf84") != Expected Digest("4c6fd9c334b557ab8362c4ec3692911155389d65ac394b59a7fc695630bc330f")
+
+Stack backtrace:
+   0: anyhow::error::<impl anyhow::Error>::msg
+   1: anyhow::__private::format_err
+   2: cargo_bazel::cli::query::query
+   3: cargo_bazel::main
+   4: std::sys::backtrace::__rust_begin_short_backtrace
+   5: std::rt::lang_start::{{closure}}
+   6: std::rt::lang_start_internal
+   7: main
+   8: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+   9: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:392:3
+  10: _start
+
+The current `lockfile` is out of date for 'dynamic_modules_rust_sdk_crate_index'. Please re-run bazel using `CARGO_BAZEL_REPIN=true` if this is expected and the lockfile should be updated.
+Failed to parse bazel query xml.
+

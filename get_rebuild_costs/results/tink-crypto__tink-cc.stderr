@@ -1,20 +1,16 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 124 packages loaded
-    currently loading: @@com_google_absl//absl/strings ... (4 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_benchmark/BUILD.bazel:52:11: no such package '@@libpfm//': The repository '@@libpfm' could not be resolved: Repository '@@libpfm' is not defined and referenced by '@@com_google_benchmark//:benchmark'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_googletest/BUILD.bazel:86:11: no such package '@@re2//': The repository '@@re2' could not be resolved: Repository '@@re2' is not defined and referenced by '@@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_googletest/BUILD.bazel:86:11: no such package '@@fuchsia_sdk//pkg/fdio': The repository '@@fuchsia_sdk' could not be resolved: Repository '@@fuchsia_sdk' is not defined and referenced by '@@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_googletest/BUILD.bazel:86:11: no such package '@@fuchsia_sdk//pkg/syslog': The repository '@@fuchsia_sdk' could not be resolved: Repository '@@fuchsia_sdk' is not defined and referenced by '@@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_googletest/BUILD.bazel:86:11: no such package '@@fuchsia_sdk//pkg/zx': The repository '@@fuchsia_sdk' could not be resolved: Repository '@@fuchsia_sdk' is not defined and referenced by '@@com_google_googletest//:gtest'
-Loading: 154 packages loaded
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_benchmark/BUILD.bazel:52:11: no such package '@@libpfm//': The repository '@@libpfm' could not be resolved: Repository '@@libpfm' is not defined and referenced by '@@com_google_benchmark//:benchmark'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_googletest/BUILD.bazel:86:11: no such package '@@re2//': The repository '@@re2' could not be resolved: Repository '@@re2' is not defined and referenced by '@@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_googletest/BUILD.bazel:86:11: no such package '@@fuchsia_sdk//pkg/fdio': The repository '@@fuchsia_sdk' could not be resolved: Repository '@@fuchsia_sdk' is not defined and referenced by '@@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_googletest/BUILD.bazel:86:11: no such package '@@fuchsia_sdk//pkg/zx': The repository '@@fuchsia_sdk' could not be resolved: Repository '@@fuchsia_sdk' is not defined and referenced by '@@com_google_googletest//:gtest'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_googletest/BUILD.bazel:86:11: no such package '@@fuchsia_sdk//pkg/syslog': The repository '@@fuchsia_sdk' could not be resolved: Repository '@@fuchsia_sdk' is not defined and referenced by '@@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/5ff99156748f6ff2ab514632ed4a06b4/external/com_google_benchmark/BUILD.bazel:52:11: no such package '@@libpfm//': The repository '@@libpfm' could not be resolved: Repository '@@libpfm' is not defined and referenced by '@@com_google_benchmark//:benchmark'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -102,6 +98,5 @@ Read 81000 lines from bazel query output...
 Read 82000 lines from bazel query output...
 Read 83000 lines from bazel query output...
 Read 84000 lines from bazel query output...
-Loading: 156 packages loaded
 Read 85000 lines from bazel query output...
 Read 86000 lines from bazel query output...

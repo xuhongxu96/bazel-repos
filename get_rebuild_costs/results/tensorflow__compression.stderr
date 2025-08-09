@@ -1,15 +1,5 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_tsl/third_party/py/python_repo.bzl:96:14: 
 HERMETIC_PYTHON_VERSION variable was not set correctly, using default version.
 Python 3.10 will be used.
@@ -21,23 +11,25 @@ file:
   --repo_env=HERMETIC_PYTHON_VERSION=3.12
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_tsl/third_party/py/python_repo.bzl:107:10: Using hermetic Python 3.10
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 24 packages loaded
-    currently loading: @org_tensorflow//tensorflow/core ... (4 packages)
 INFO: Repository tensorflow_pip instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__compression/WORKSPACE:4:33: in <toplevel>
   /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__compression/workspace.bzl:50:17: in tensorflow_compression_workspace
 Repository rule tensorflow_pip defined at:
   /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__compression/workspace.bzl:42:33: in <toplevel>
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:120:6: no such package '@cuda_cublas//': The repository '@cuda_cublas' could not be resolved: Repository '@cuda_cublas' is not defined and referenced by '@local_config_cuda//cuda:cublas_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:105:6: no such package '@cuda_nvml//': The repository '@cuda_nvml' could not be resolved: Repository '@cuda_nvml' is not defined and referenced by '@local_config_cuda//cuda:nvml_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:115:6: no such package '@cuda_cccl//': The repository '@cuda_cccl' could not be resolved: Repository '@cuda_cccl' is not defined and referenced by '@local_config_cuda//cuda:cccl_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:110:6: no such package '@cuda_nvcc//': The repository '@cuda_nvcc' could not be resolved: Repository '@cuda_nvcc' is not defined and referenced by '@local_config_cuda//cuda:nvcc_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:170:6: no such package '@cuda_cudnn//': The repository '@cuda_cudnn' could not be resolved: Repository '@cuda_cudnn' is not defined and referenced by '@local_config_cuda//cuda:cudnn_header'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:90:6: no such package '@cuda_cudart//': The repository '@cuda_cudart' could not be resolved: Repository '@cuda_cudart' is not defined and referenced by '@local_config_cuda//cuda:cudart_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:203:6: no such package '@cuda_cupti//': The repository '@cuda_cupti' could not be resolved: Repository '@cuda_cupti' is not defined and referenced by '@local_config_cuda//cuda:cupti_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:140:6: no such package '@cuda_curand//': The repository '@cuda_curand' could not be resolved: Repository '@cuda_curand' is not defined and referenced by '@local_config_cuda//cuda:curand_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:135:6: no such package '@cuda_cusparse//': The repository '@cuda_cusparse' could not be resolved: Repository '@cuda_cusparse' is not defined and referenced by '@local_config_cuda//cuda:cusparse_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:130:6: no such package '@cuda_cufft//': The repository '@cuda_cufft' could not be resolved: Repository '@cuda_cufft' is not defined and referenced by '@local_config_cuda//cuda:cufft_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:125:6: no such package '@cuda_cusolver//': The repository '@cuda_cusolver' could not be resolved: Repository '@cuda_cusolver' is not defined and referenced by '@local_config_cuda//cuda:cusolver_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:100:6: no such package '@cuda_nvtx//': The repository '@cuda_nvtx' could not be resolved: Repository '@cuda_nvtx' is not defined and referenced by '@local_config_cuda//cuda:nvtx_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:145:6: no such package '@cuda_nvjitlink//': The repository '@cuda_nvjitlink' could not be resolved: Repository '@cuda_nvjitlink' is not defined and referenced by '@local_config_cuda//cuda:nvjitlink_headers'
 ERROR: An error occurred during the fetch of repository 'tensorflow_pip':
    Traceback (most recent call last):
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__compression/workspace.bzl", line 18, column 9, in _tensorflow_pip_impl
@@ -51,52 +43,33 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__compression/WORKSP
 Error in fail: Failed to find library path. Did you remember to pip install tensorflow?: Traceback (most recent call last):
   File "<string>", line 1, in <module>
 ModuleNotFoundError: No module named 'tensorflow'
-Loading: 57 packages loaded
-    currently loading: @local_config_rocm//rocm ... (13 packages)
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:90:6: no such package '@cuda_cudart//': The repository '@cuda_cudart' could not be resolved: Repository '@cuda_cudart' is not defined and referenced by '@local_config_cuda//cuda:cudart_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:145:6: no such package '@cuda_nvjitlink//': The repository '@cuda_nvjitlink' could not be resolved: Repository '@cuda_nvjitlink' is not defined and referenced by '@local_config_cuda//cuda:nvjitlink_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:105:6: no such package '@cuda_nvml//': The repository '@cuda_nvml' could not be resolved: Repository '@cuda_nvml' is not defined and referenced by '@local_config_cuda//cuda:nvml_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:100:6: no such package '@cuda_nvtx//': The repository '@cuda_nvtx' could not be resolved: Repository '@cuda_nvtx' is not defined and referenced by '@local_config_cuda//cuda:nvtx_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:170:6: no such package '@cuda_cudnn//': The repository '@cuda_cudnn' could not be resolved: Repository '@cuda_cudnn' is not defined and referenced by '@local_config_cuda//cuda:cudnn_header'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:140:6: no such package '@cuda_curand//': The repository '@cuda_curand' could not be resolved: Repository '@cuda_curand' is not defined and referenced by '@local_config_cuda//cuda:curand_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:203:6: no such package '@cuda_cupti//': The repository '@cuda_cupti' could not be resolved: Repository '@cuda_cupti' is not defined and referenced by '@local_config_cuda//cuda:cupti_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:125:6: no such package '@cuda_cusolver//': The repository '@cuda_cusolver' could not be resolved: Repository '@cuda_cusolver' is not defined and referenced by '@local_config_cuda//cuda:cusolver_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:120:6: no such package '@cuda_cublas//': The repository '@cuda_cublas' could not be resolved: Repository '@cuda_cublas' is not defined and referenced by '@local_config_cuda//cuda:cublas_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:130:6: no such package '@cuda_cufft//': The repository '@cuda_cufft' could not be resolved: Repository '@cuda_cufft' is not defined and referenced by '@local_config_cuda//cuda:cufft_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:110:6: no such package '@cuda_nvcc//': The repository '@cuda_nvcc' could not be resolved: Repository '@cuda_nvcc' is not defined and referenced by '@local_config_cuda//cuda:nvcc_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:135:6: no such package '@cuda_cusparse//': The repository '@cuda_cusparse' could not be resolved: Repository '@cuda_cusparse' is not defined and referenced by '@local_config_cuda//cuda:cusparse_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:115:6: no such package '@cuda_cccl//': The repository '@cuda_cccl' could not be resolved: Repository '@cuda_cccl' is not defined and referenced by '@local_config_cuda//cuda:cccl_headers'
-Loading: 123 packages loaded
-    currently loading: @org_tensorflow//tensorflow ... (15 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__compression/tensorflow_compression/cc/BUILD:5:10: no such package '@tensorflow_pip//': Failed to find library path. Did you remember to pip install tensorflow?: Traceback (most recent call last):
   File "<string>", line 1, in <module>
 ModuleNotFoundError: No module named 'tensorflow'
  and referenced by '//tensorflow_compression/cc:libtensorflow_compression.so'
-Loading: 156 packages loaded
-    currently loading: @org_tensorflow//tensorflow/core/kernels
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_tsl/tsl/platform/default/BUILD:81:11: no such package '@local_config_nccl//': The repository '@local_config_nccl' could not be resolved: Repository '@local_config_nccl' is not defined and referenced by '@local_tsl//tsl/platform/default:dso_loader'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_xla/xla/tsl/cuda/BUILD.bazel:148:6: no such package '@cuda_cudart//': The repository '@cuda_cudart' could not be resolved: Repository '@cuda_cudart' is not defined and referenced by '@local_xla//xla/tsl/cuda:cudart'
-Loading: 158 packages loaded
-    currently loading: @org_tensorflow//tensorflow/core/kernels
+Loading: 155 packages loaded
+    currently loading: @org_tensorflow//tensorflow/compiler/mlir/lite ... (4 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__compression/tensorflow_compression/cc/BUILD:5:10: no such package '@tensorflow_pip//': Failed to find library path. Did you remember to pip install tensorflow?: Traceback (most recent call last):
   File "<string>", line 1, in <module>
 ModuleNotFoundError: No module named 'tensorflow'
  and referenced by '//tensorflow_compression/cc:libtensorflow_compression.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:145:6: no such package '@cuda_nvjitlink//': The repository '@cuda_nvjitlink' could not be resolved: Repository '@cuda_nvjitlink' is not defined and referenced by '@local_config_cuda//cuda:nvjitlink_headers'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:105:6: no such package '@cuda_nvml//': The repository '@cuda_nvml' could not be resolved: Repository '@cuda_nvml' is not defined and referenced by '@local_config_cuda//cuda:nvml_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:140:6: no such package '@cuda_curand//': The repository '@cuda_curand' could not be resolved: Repository '@cuda_curand' is not defined and referenced by '@local_config_cuda//cuda:curand_headers'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:203:6: no such package '@cuda_cupti//': The repository '@cuda_cupti' could not be resolved: Repository '@cuda_cupti' is not defined and referenced by '@local_config_cuda//cuda:cupti_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:135:6: no such package '@cuda_cusparse//': The repository '@cuda_cusparse' could not be resolved: Repository '@cuda_cusparse' is not defined and referenced by '@local_config_cuda//cuda:cusparse_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:125:6: no such package '@cuda_cusolver//': The repository '@cuda_cusolver' could not be resolved: Repository '@cuda_cusolver' is not defined and referenced by '@local_config_cuda//cuda:cusolver_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:130:6: no such package '@cuda_cufft//': The repository '@cuda_cufft' could not be resolved: Repository '@cuda_cufft' is not defined and referenced by '@local_config_cuda//cuda:cufft_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:100:6: no such package '@cuda_nvtx//': The repository '@cuda_nvtx' could not be resolved: Repository '@cuda_nvtx' is not defined and referenced by '@local_config_cuda//cuda:nvtx_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:110:6: no such package '@cuda_nvcc//': The repository '@cuda_nvcc' could not be resolved: Repository '@cuda_nvcc' is not defined and referenced by '@local_config_cuda//cuda:nvcc_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:90:6: no such package '@cuda_cudart//': The repository '@cuda_cudart' could not be resolved: Repository '@cuda_cudart' is not defined and referenced by '@local_config_cuda//cuda:cudart_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:115:6: no such package '@cuda_cccl//': The repository '@cuda_cccl' could not be resolved: Repository '@cuda_cccl' is not defined and referenced by '@local_config_cuda//cuda:cccl_headers'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:120:6: no such package '@cuda_cublas//': The repository '@cuda_cublas' could not be resolved: Repository '@cuda_cublas' is not defined and referenced by '@local_config_cuda//cuda:cublas_headers'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:170:6: no such package '@cuda_cudnn//': The repository '@cuda_cudnn' could not be resolved: Repository '@cuda_cudnn' is not defined and referenced by '@local_config_cuda//cuda:cudnn_header'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_xla/xla/tsl/cuda/BUILD.bazel:148:6: no such package '@cuda_cudart//': The repository '@cuda_cudart' could not be resolved: Repository '@cuda_cudart' is not defined and referenced by '@local_xla//xla/tsl/cuda:cudart'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:135:6: no such package '@cuda_cusparse//': The repository '@cuda_cusparse' could not be resolved: Repository '@cuda_cusparse' is not defined and referenced by '@local_config_cuda//cuda:cusparse_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:130:6: no such package '@cuda_cufft//': The repository '@cuda_cufft' could not be resolved: Repository '@cuda_cufft' is not defined and referenced by '@local_config_cuda//cuda:cufft_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:115:6: no such package '@cuda_cccl//': The repository '@cuda_cccl' could not be resolved: Repository '@cuda_cccl' is not defined and referenced by '@local_config_cuda//cuda:cccl_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:100:6: no such package '@cuda_nvtx//': The repository '@cuda_nvtx' could not be resolved: Repository '@cuda_nvtx' is not defined and referenced by '@local_config_cuda//cuda:nvtx_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:120:6: no such package '@cuda_cublas//': The repository '@cuda_cublas' could not be resolved: Repository '@cuda_cublas' is not defined and referenced by '@local_config_cuda//cuda:cublas_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:110:6: no such package '@cuda_nvcc//': The repository '@cuda_nvcc' could not be resolved: Repository '@cuda_nvcc' is not defined and referenced by '@local_config_cuda//cuda:nvcc_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:140:6: no such package '@cuda_curand//': The repository '@cuda_curand' could not be resolved: Repository '@cuda_curand' is not defined and referenced by '@local_config_cuda//cuda:curand_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:90:6: no such package '@cuda_cudart//': The repository '@cuda_cudart' could not be resolved: Repository '@cuda_cudart' is not defined and referenced by '@local_config_cuda//cuda:cudart_headers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_config_cuda/cuda/BUILD:125:6: no such package '@cuda_cusolver//': The repository '@cuda_cusolver' could not be resolved: Repository '@cuda_cusolver' is not defined and referenced by '@local_config_cuda//cuda:cusolver_headers'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_tsl/tsl/platform/default/BUILD:81:11: no such package '@local_config_nccl//': The repository '@local_config_nccl' could not be resolved: Repository '@local_config_nccl' is not defined and referenced by '@local_tsl//tsl/platform/default:dso_loader'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1e6ed050f715d28a890c177cd0366657/external/local_xla/xla/tsl/cuda/BUILD.bazel:148:6: no such package '@cuda_cudart//': The repository '@cuda_cudart' could not be resolved: Repository '@cuda_cudart' is not defined and referenced by '@local_xla//xla/tsl/cuda:cudart'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

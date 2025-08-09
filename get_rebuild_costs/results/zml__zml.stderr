@@ -1,38 +1,14 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 WARNING: For repository 'rules_python', the root module requires module version rules_python@0.40.0, but got rules_python@1.3.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'with_cfg.bzl', the root module requires module version with_cfg.bzl@0.9.1, but got with_cfg.bzl@0.9.2 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/zml/rules_zig/archive/b14a4f1bba1a766311f75513e922cc8c2179e1e3.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 26 packages loaded
-    currently loading: @@rules_cc+// ... (5 packages)
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/openxla/xla/archive/6319f0d3bdfd3078e04bb984a759c890b7116484.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
 WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/zml__zml/MODULE.bazel:98:21: The module extension rocm_packages defined in @zml//runtimes/rocm:rocm.bzl reported incorrect imports of repositories via use_repo():
 
 Not imported, but reported as direct dependencies by the extension (may cause the build to fail):
     hipblaslt, rocblas
 
 Fix the use_repo calls by running 'bazel mod tidy'.
-WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/zml__zml/MODULE.bazel:104:23: The module extension neuron_packages defined in @zml//runtimes/neuron:neuron.bzl reported incorrect imports of repositories via use_repo():
-
-Not imported, but reported as direct dependencies by the extension (may cause the build to fail):
-    aws-neuronx-collectives, aws-neuronx-runtime-lib, libgomp1, zlib1g
-
-Fix the use_repo calls by running 'bazel mod tidy'.
-Loading: 80 packages loaded
-    currently loading: @@rules_python+//python/private ... (2 packages)
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/mitchellh/libxev/archive/9f785d202ddccf7a625e799250579253977978b6.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 101 packages loaded
-Loading: 102 packages loaded
-Loading: 109 packages loaded
-    currently loading: @@protobuf+//build_defs
-Loading: 119 packages loaded
-Loading: 148 packages loaded
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/c181771be604f9bae76734d8cdab90ea/external/xla+/third_party/py/python_repo.bzl:156:14: 
 HERMETIC_PYTHON_VERSION variable was not set correctly, using default version.
 Python 3.11 will be used.
@@ -50,165 +26,15 @@ Kind: ""
 Interpreter: "default" (provided by rules_python)
 Requirements_lock label: "@@xla+//:requirements_lock_3_11.txt"
 =====================================
-Loading: 155 packages loaded
-    currently loading: @@xla+//xla/pjrt/proto ... (4 packages)
-Loading: 155 packages loaded
-    currently loading: @@xla+//xla/pjrt/proto ... (4 packages)
-Loading: 156 packages loaded
-    currently loading: @@xla+//xla/pjrt/proto ... (4 packages)
-Loading: 157 packages loaded
-    currently loading: @@xla+//xla/pjrt/proto ... (5 packages)
-Loading: 157 packages loaded
-    currently loading: @@xla+//xla/pjrt/proto ... (5 packages)
-Loading: 157 packages loaded
-    currently loading: @@xla+//xla/pjrt/proto ... (5 packages)
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/zml/zig-protobuf/archive/97f1e314d9bbf600fbaadee5bb08c8856e0006de.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 173 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 173 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 182 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 182 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 191 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 200 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 210 packages loaded
-    currently loading: @@xla++xla+stablehlo//
+WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/zml__zml/MODULE.bazel:104:23: The module extension neuron_packages defined in @zml//runtimes/neuron:neuron.bzl reported incorrect imports of repositories via use_repo():
+
+Not imported, but reported as direct dependencies by the extension (may cause the build to fail):
+    aws-neuronx-collectives, aws-neuronx-runtime-lib, libgomp1, zlib1g
+
+Fix the use_repo calls by running 'bazel mod tidy'.
+Loading: 290 packages loaded
+    currently loading: @@xla++xla+stablehlo// ... (9 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/c181771be604f9bae76734d8cdab90ea/external/rules_python++pip+huggingface_hub_311_tqdm/BUILD.bazel:5:20: no such package '@@rules_python++pip+huggingface_hub//colorama': BUILD file not found in directory 'colorama' of external repository @@rules_python++pip+huggingface_hub. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+huggingface_hub_311_tqdm//:pkg'
-Loading: 217 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 217 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 218 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 220 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 220 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 225 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 225 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 228 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 228 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 229 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 229 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 230 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 230 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 234 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 234 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 234 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 234 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 234 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 237 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 237 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 238 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 238 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 238 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 241 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 242 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 380 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 380 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 380 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 380 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 380 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 381 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 382 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 382 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 382 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 383 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 383 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 383 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 383 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 383 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 384 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 385 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 385 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 385 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 385 packages loaded
-    currently loading: @@xla++xla+stablehlo//
-Loading: 386 packages loaded
-    currently loading: @@xla++llvm+llvm-project//mlir ... (2 packages)
-Loading: 388 packages loaded
-Loading: 388 packages loaded
-Loading: 389 packages loaded
-Loading: 389 packages loaded
-Loading: 389 packages loaded
-Loading: 389 packages loaded
-Loading: 389 packages loaded
-Loading: 403 packages loaded
-Loading: 403 packages loaded
-Loading: 403 packages loaded
-Loading: 403 packages loaded
-Loading: 416 packages loaded
-Loading: 416 packages loaded
-Loading: 418 packages loaded
-Loading: 422 packages loaded
-Loading: 423 packages loaded
-Loading: 423 packages loaded
-Loading: 426 packages loaded
-Loading: 427 packages loaded
-Loading: 428 packages loaded
-Loading: 429 packages loaded
-Loading: 430 packages loaded
-Loading: 431 packages loaded
 Loading: 432 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/c181771be604f9bae76734d8cdab90ea/external/rules_python++pip+huggingface_hub_311_tqdm/BUILD.bazel:5:20: no such package '@@rules_python++pip+huggingface_hub//colorama': BUILD file not found in directory 'colorama' of external repository @@rules_python++pip+huggingface_hub. Add a BUILD file to a directory to mark it as a package. and referenced by '@@rules_python++pip+huggingface_hub_311_tqdm//:pkg'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure

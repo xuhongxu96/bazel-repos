@@ -5,48 +5,6 @@ INFO: Options provided by the client:
 INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/.bazelrc:
   Inherited 'common' options: --announce_rc --enable_platform_specific_config --experimental_repo_remote_exec
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/tensorflow/runtime/archive/769f5cc9b8732933140b09e8808d13614182b496.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/llvm/llvm-project/archive/668e33c6401abe7844691fb7d47a3cf2d2012dbc.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/1defa36d4cec1e54e5916c819bdc274d/external/org_tensorflow/third_party/repo.bzl:132:14: 
 Warning: skipping import of repository 'com_google_absl' because it already exists.
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/1defa36d4cec1e54e5916c819bdc274d/external/org_tensorflow/third_party/repo.bzl:132:14: 
@@ -68,44 +26,19 @@ Warning: skipping import of repository 'pybind11_protobuf' because it already ex
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/1defa36d4cec1e54e5916c819bdc274d/external/org_tensorflow/third_party/repo.bzl:132:14: 
 Warning: skipping import of repository 'upb' because it already exists.
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 69 packages loaded
-    currently loading: tensorflow_federated/proto/v0 ... (3 packages)
-WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/rules_cc/archive/081771d4a0e9d7d3aa0eed2ef389fa4700dfb23e.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 85 packages loaded
-    currently loading: @com_google_protobuf// ... (23 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/impl/executors/BUILD:98:11: no such target '//tensorflow_federated/cc/core/impl/executors:executor_test_utils_bindings': target 'executor_test_utils_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'executor_test_utils_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/impl/executors:executor_test_utils_bindings'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/environments/tensorflow_backend/BUILD:195:11: no such target '//tensorflow_federated/cc/core/impl/executors:tensorflow_bindings': target 'tensorflow_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'tensorflow_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/environments/tensorflow_backend:tensorflow_executor_bindings'
-Loading: 108 packages loaded
-    currently loading: @com_google_protobuf// ... (16 packages)
-Loading: 141 packages loaded
-    currently loading: @com_google_protobuf// ... (21 packages)
-Loading: 345 packages loaded
-    currently loading: @org_tensorflow//tensorflow/cc ... (33 packages)
-Loading: 506 packages loaded
-    currently loading: @org_tensorflow//tensorflow/core/kernels ... (8 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/impl/executors/BUILD:71:11: no such target '//tensorflow_federated/cc/core/impl/executors:executor_bindings': target 'executor_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'executor_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/impl/executors:executor_bindings'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/impl/executor_stacks/BUILD:67:11: no such target '//tensorflow_federated/cc/core/impl/executor_stacks:executor_stack_bindings': target 'executor_stack_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executor_stacks' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executor_stacks/BUILD (did you mean 'executor_stack_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executor_stacks:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/impl/executor_stacks:executor_stack_bindings'
-Loading: 522 packages loaded
-    currently loading: @org_tensorflow//tensorflow/core/kernels ... (4 packages)
-Loading: 533 packages loaded
+Loading: 546 packages loaded
     currently loading: @org_tensorflow//tensorflow/core/kernels
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/pytorch/cpuinfo/archive/87d8234510367db49a65535021af5e1838a65ac2.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 557 packages loaded
-WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/openxla/stablehlo/archive/9ae6c373a6e2941ff84a8831bb3724728cb2b49a.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 561 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD:899:17: no such target '@org_tensorflow//tensorflow/c/eager:c_api_experimental_hdrs': target 'c_api_experimental_hdrs' not declared in package 'tensorflow/c/eager' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1defa36d4cec1e54e5916c819bdc274d/external/org_tensorflow/tensorflow/c/eager/BUILD (did you mean 'c_api_experimental.h'? Tip: use `query "@org_tensorflow//tensorflow/c/eager:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/cc/core/impl/executors:tensorflow_bindings.so'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/environments/tensorflow_backend/BUILD:195:11: no such target '//tensorflow_federated/cc/core/impl/executors:tensorflow_bindings': target 'tensorflow_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'tensorflow_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/environments/tensorflow_backend:tensorflow_executor_bindings'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/impl/executors/BUILD:98:11: no such target '//tensorflow_federated/cc/core/impl/executors:executor_test_utils_bindings': target 'executor_test_utils_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'executor_test_utils_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/impl/executors:executor_test_utils_bindings'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/impl/executors/BUILD:71:11: no such target '//tensorflow_federated/cc/core/impl/executors:executor_bindings': target 'executor_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'executor_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/impl/executors:executor_bindings'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD:899:17: no such target '@org_tensorflow//tensorflow/c/eager:c_api_experimental_hdrs': target 'c_api_experimental_hdrs' not declared in package 'tensorflow/c/eager' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1defa36d4cec1e54e5916c819bdc274d/external/org_tensorflow/tensorflow/c/eager/BUILD (did you mean 'c_api_experimental.h'? Tip: use `query "@org_tensorflow//tensorflow/c/eager:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/cc/core/impl/executors:tensorflow_bindings.so'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/impl/executor_stacks/BUILD:67:11: no such target '//tensorflow_federated/cc/core/impl/executor_stacks:executor_stack_bindings': target 'executor_stack_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executor_stacks' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executor_stacks/BUILD (did you mean 'executor_stack_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executor_stacks:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/impl/executor_stacks:executor_stack_bindings'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD:899:17: no such target '@org_tensorflow//tensorflow/c/eager:c_api_experimental_hdrs': target 'c_api_experimental_hdrs' not declared in package 'tensorflow/c/eager' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1defa36d4cec1e54e5916c819bdc274d/external/org_tensorflow/tensorflow/c/eager/BUILD (did you mean 'c_api_experimental.h'? Tip: use `query "@org_tensorflow//tensorflow/c/eager:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/cc/core/impl/executors:tensorflow_bindings.so'
-Loading: 562 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/impl/executors/BUILD:98:11: no such target '//tensorflow_federated/cc/core/impl/executors:executor_test_utils_bindings': target 'executor_test_utils_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'executor_test_utils_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/impl/executors:executor_test_utils_bindings'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/environments/tensorflow_backend/BUILD:195:11: no such target '//tensorflow_federated/cc/core/impl/executors:tensorflow_bindings': target 'tensorflow_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'tensorflow_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/environments/tensorflow_backend:tensorflow_executor_bindings'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/python/core/impl/executors/BUILD:71:11: no such target '//tensorflow_federated/cc/core/impl/executors:executor_bindings': target 'executor_bindings' not declared in package 'tensorflow_federated/cc/core/impl/executors' defined by /data/h445xu/repo/bazel-repos/cloned_repos/google-parfait__tensorflow-federated/tensorflow_federated/cc/core/impl/executors/BUILD (did you mean 'executor_bindings.cc'? Tip: use `query "//tensorflow_federated/cc/core/impl/executors:*"` to see all the targets in that package) and referenced by '//tensorflow_federated/python/core/impl/executors:executor_bindings'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

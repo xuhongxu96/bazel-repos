@@ -2,71 +2,13 @@ Starting local Bazel server and connecting to it...
  no actions running
  no actions running
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
-DEBUG: Rule 'crates_io' indicated that a canonical reproducible form can be obtained by modifying arguments lockfile = Label("//:cargo-bazel-lock.json")
-DEBUG: Repository crates_io instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/MaterializeInc__materialize/WORKSPACE:453:18: in <toplevel>
-Repository rule crates_repository defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/0791b55bce11863554bbe4d750b2d049/external/rules_rust/crate_universe/private/crates_repository.bzl:148:36: in <toplevel>
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 4 packages loaded
-    currently loading: test/metabase/smoketest ... (124 packages)
-Loading: 79 packages loaded
-    currently loading: src/walkabout ... (49 packages)
-Loading: 126 packages loaded
-    currently loading: misc/bazel/c_deps ... (2 packages)
-Loading: 126 packages loaded
-    currently loading: misc/bazel/c_deps ... (2 packages)
-Loading: 152 packages loaded
-    currently loading: @@bazel_tools//third_party/def_parser ... (13 packages)
-Loading: 203 packages loaded
-    currently loading: @@crates_io__cargo_toml-0.22.1// ... (2 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/MaterializeInc__materialize/misc/bazel/rust_deps/BUILD.bazel:18:11: no such target '@@cxxbridge//:cxx': target 'cxx' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/0791b55bce11863554bbe4d750b2d049/external/cxxbridge/BUILD.bazel and referenced by '//misc/bazel/rust_deps:build_test_0__deps'
-Loading: 263 packages loaded
-    currently loading: @@crates_io__regex-1.11.1//
-Loading: 328 packages loaded
-Loading: 380 packages loaded
-    currently loading: @@build_bazel_apple_support//constraints
-Loading: 381 packages loaded
-Loading: 385 packages loaded
-Loading: 449 packages loaded
-Loading: 547 packages loaded
-Loading: 628 packages loaded
-    currently loading: @@com_google_absl//absl/container
-Loading: 818 packages loaded
-    currently loading: @@crates_io__linked-hash-map-0.5.6//
-Loading: 983 packages loaded
-    currently loading: @@crates_io__ciborium-0.2.0//
-Loading: 1183 packages loaded
-Loading: 1186 packages loaded
-Loading: 1186 packages loaded
-Loading: 1188 packages loaded
-Loading: 1188 packages loaded
-    currently loading: @@llvm_toolchain_llvm//
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/MaterializeInc__materialize/src/workspace-hack/BUILD.bazel:78:19: no such target '@@crates_io//:time-macros-0.2.19': target 'time-macros-0.2.19' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/0791b55bce11863554bbe4d750b2d049/external/crates_io/BUILD.bazel and referenced by '//src/workspace-hack:workspace_hack_build_script_'
-Loading: 1189 packages loaded
-Loading: 1189 packages loaded
-Loading: 1189 packages loaded
-Loading: 1192 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/MaterializeInc__materialize/misc/bazel/rust_deps/BUILD.bazel:18:11: no such target '@@cxxbridge//:cxx': target 'cxx' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/0791b55bce11863554bbe4d750b2d049/external/cxxbridge/BUILD.bazel and referenced by '//misc/bazel/rust_deps:build_test_0__deps'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 1192 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

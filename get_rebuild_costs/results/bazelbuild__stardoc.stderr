@@ -1,12 +1,8 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 WARNING: For repository 'rules_java', the root module requires module version rules_java@8.6.1, but got rules_java@8.12.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 Loading: 0 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__stardoc/test/BUILD:393:8: no such package '@@[unknown repo 'local_repository_test' requested from @@]//': The repository '@@[unknown repo 'local_repository_test' requested from @@]' could not be resolved: No repository visible as '@local_repository_test' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//test:local_repository_test'
-Loading: 137 packages loaded
-    currently loading: @@rules_jvm_external++maven+com_google_errorprone_error_prone_annotations_2_11_0//file ... (6 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__stardoc/test/BUILD:393:8: no such package '@@[unknown repo 'local_repository_test' requested from @@]//': The repository '@@[unknown repo 'local_repository_test' requested from @@]' could not be resolved: No repository visible as '@local_repository_test' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//test:local_repository_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__stardoc/test/BUILD:393:8: no such package '@@[unknown repo 'local_repository_test' requested from @@]//': The repository '@@[unknown repo 'local_repository_test' requested from @@]' could not be resolved: No repository visible as '@local_repository_test' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//test:local_repository_test'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure

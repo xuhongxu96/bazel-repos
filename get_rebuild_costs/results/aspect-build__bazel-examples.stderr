@@ -1,64 +1,15 @@
-2025/08/09 15:06:19 Downloading https://static.aspect.build/aspect/2025.19.5/bazel-2025.19.5-linux-x86_64...
-2025/08/09 15:06:23 Downloading https://static.aspect.build/aspect/2025.19.5/bazel-2025.19.5-linux-x86_64...
-2025/08/09 15:06:26 Downloading https://releases.bazel.build/8.2.0/release/bazel-8.2.0-linux-x86_64...
-2025/08/09 15:06:30 Downloading https://github.com/aspect-build/plugin-fix-visibility/releases/download/v0.1.0/fix-visibility-linux_amd64...
-2025/08/09 15:06:30 Downloading https://github.com/aspect-build/plugin-fix-visibility/releases/download/v0.1.0/fix-visibility-linux_amd64.sha256...
- no actions running
- no actions running
- no actions running
  no actions running
 WARNING: For repository 'aspect_bazel_lib', the root module requires module version aspect_bazel_lib@2.10.0, but got aspect_bazel_lib@2.14.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'buildifier_prebuilt', the root module requires module version buildifier_prebuilt@6.4.0, but got buildifier_prebuilt@7.3.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'platforms', the root module requires module version platforms@0.0.10, but got platforms@0.0.11 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'rules_java', the root module requires module version rules_java@8.6.1, but got rules_java@8.11.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'rules_python', the root module requires module version rules_python@0.40.0, but got rules_python@1.1.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 27 packages loaded
-    currently loading: angular ... (13 packages)
 Loading: 31 packages loaded
-    currently loading: angular ... (9 packages)
-Loading: 32 packages loaded
-    currently loading: angular ... (8 packages)
-Loading: 50 packages loaded
-    currently loading: @@bazel_tools//tools/test ... (2 packages)
-Loading: 398 packages loaded
-    currently loading: @@aspect_rules_js++npm+npm__chalk__4.1.2//
-Loading: 631 packages loaded
-Loading: 786 packages loaded
-Loading: 917 packages loaded
+    currently loading: tools/lint ... (9 packages)
+Loading: 857 packages loaded
+    currently loading: @@rules_python+//python/private ... (12 packages)
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/30c0a953290ad0dc875aa99497191fee/external/gazelle+/internal/bzlmod/go_deps.bzl:590:40: For Go module "github.com/google/go-cmp", the root module requires module version v0.5.9, but got v0.6.0 in the resolved dependency graph.
-Loading: 1119 packages loaded
-Loading: 1255 packages loaded
-Loading: 1321 packages loaded
-Loading: 1487 packages loaded
-Loading: 1602 packages loaded
-DEBUG: Rule 'rules_buf++buf+rules_buf_toolchains' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "8d39d81ae5400061bbbb9ce8c2196f039ba04257e9ef5f82de06480a9c5748e0"
-DEBUG: Repository rules_buf++buf+rules_buf_toolchains instantiated at:
-  <builtin>: in <toplevel>
-Repository rule buf_download_releases defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/30c0a953290ad0dc875aa99497191fee/external/rules_buf+/buf/internal/toolchain.bzl:170:40: in <toplevel>
-Loading: 1672 packages loaded
-Loading: 1750 packages loaded
-Loading: 1761 packages loaded
-Loading: 1762 packages loaded
-Loading: 1762 packages loaded
-Loading: 1762 packages loaded
-Loading: 1762 packages loaded
-Loading: 1762 packages loaded
-Loading: 1762 packages loaded
-Loading: 1762 packages loaded
-Loading: 1762 packages loaded
-Loading: 1828 packages loaded
-Loading: 1830 packages loaded
-Loading: 1897 packages loaded
-Loading: 1902 packages loaded
-DEBUG: Rule 'toolchains_llvm++llvm+llvm_toolchain_llvm' indicated that a canonical reproducible form can be obtained by modifying arguments _action_listener = <unknown object com.google.devtools.build.lib.packages.Attribute$LabelListLateBoundDefault>, _config_dependencies = [], _configure = False, _environ = [], _original_name = "llvm_toolchain_llvm"
-DEBUG: Repository toolchains_llvm++llvm+llvm_toolchain_llvm instantiated at:
-  <builtin>: in <toplevel>
-Repository rule llvm defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/30c0a953290ad0dc875aa99497191fee/external/toolchains_llvm+/toolchain/rules.bzl:27:23: in <toplevel>
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -130,7 +81,6 @@ Read 67000 lines from bazel query output...
 Read 68000 lines from bazel query output...
 Read 69000 lines from bazel query output...
 Read 70000 lines from bazel query output...
-Loading: 1903 packages loaded
 Read 71000 lines from bazel query output...
 Read 72000 lines from bazel query output...
 Read 73000 lines from bazel query output...

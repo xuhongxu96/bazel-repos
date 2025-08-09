@@ -1,88 +1,21 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 5 packages loaded
-    currently loading: src/worker ... (289 packages)
-Loading: 32 packages loaded
-    currently loading: src/worker ... (288 packages)
 Loading: 316 packages loaded
     currently loading:  ... (4 packages)
-Loading: 317 packages loaded
-    currently loading:  ... (3 packages)
-Loading: 317 packages loaded
-    currently loading:  ... (3 packages)
-Loading: 317 packages loaded
-    currently loading:  ... (3 packages)
 Loading: 318 packages loaded
-    currently loading: console/frontend ... (2 packages)
-Loading: 318 packages loaded
-    currently loading: console/frontend ... (2 packages)
-Loading: 319 packages loaded
-    currently loading: console/frontend
-Loading: 320 packages loaded
-Loading: 330 packages loaded
-Loading: 353 packages loaded
-Loading: 428 packages loaded
-Loading: 493 packages loaded
-    currently loading: @@aspect_rules_js~~npm~npm_console_backend__at_types_send__0.17.4//
-Loading: 551 packages loaded
-Loading: 642 packages loaded
-Loading: 711 packages loaded
-Loading: 779 packages loaded
-Loading: 838 packages loaded
-Loading: 904 packages loaded
-Loading: 982 packages loaded
-Loading: 1051 packages loaded
-    currently loading: @@aspect_rules_js~~npm~npm_console_backend__yargs-parser__21.1.1//
-Loading: 1139 packages loaded
-Loading: 1192 packages loaded
-Loading: 1215 packages loaded
-Loading: 1316 packages loaded
-Loading: 1357 packages loaded
-Loading: 1392 packages loaded
-Loading: 1450 packages loaded
-Loading: 1520 packages loaded
-Loading: 1588 packages loaded
-Loading: 1690 packages loaded
-Loading: 1769 packages loaded
-Loading: 1844 packages loaded
-Loading: 1953 packages loaded
-Loading: 2042 packages loaded
-Loading: 2114 packages loaded
-Loading: 2189 packages loaded
-Loading: 2250 packages loaded
-Loading: 2319 packages loaded
-    currently loading: @@aspect_rules_js~~npm~npm_console_frontend__reflect.getprototypeof__1.0.6//
-Loading: 2418 packages loaded
-    currently loading: @@aspect_rules_js~~npm~npm_console_frontend__tabbable__6.2.0//
-Loading: 2581 packages loaded
-    currently loading: @@rules_go~~go_sdk~go_sdk// ... (2 packages)
-Loading: 2778 packages loaded
-    currently loading: @@com_google_protobuf//
-Loading: 2873 packages loaded
-    currently loading: @@com_google_protobuf//
-Loading: 2879 packages loaded
-    currently loading: @@com_google_protobuf//
-Loading: 2879 packages loaded
-    currently loading: @@com_google_protobuf//
-Loading: 2891 packages loaded
-    currently loading: @@com_google_protobuf//
-Loading: 2909 packages loaded
-    currently loading: @@com_google_protobuf//
-Loading: 2923 packages loaded
-    currently loading: @@com_google_protobuf// ... (2 packages)
-Loading: 2938 packages loaded
-    currently loading: @@com_google_protobuf//
-Loading: 2966 packages loaded
-Loading: 2979 packages loaded
-Loading: 3080 packages loaded
+    currently loading: console/backend ... (2 packages)
+Loading: 347 packages loaded
+    currently loading: @@aspect_rules_js~~npm~npm_console_backend__at_babel_plugin-syntax-async-generators__7.8.4_at_babel_core_7.25.2// ... (3 packages)
+Loading: 3797 packages loaded
+    currently loading: @@gazelle~~go_deps~org_uber_go_zap//zapgrpc ... (4 packages)
+WARNING: Download from https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 WARNING: Download from https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 WARNING: Download from https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
-INFO: Repository rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64 instantiated at:
+WARNING: Download from https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
+INFO: Repository rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64 instantiated at:
   <builtin>: in <toplevel>
 Repository rule http_archive defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
@@ -90,35 +23,19 @@ INFO: Repository rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p
   <builtin>: in <toplevel>
 Repository rule http_archive defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
-ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
-		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp7014936184539666795/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found
-ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
-		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp13406346355998549545/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/arm64/BUILD.bazel:7:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp7014936184539666795/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/arm64:control'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/amd64/BUILD.bazel:7:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp13406346355998549545/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/amd64:control'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp7014936184539666795/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/arm64:data'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp13406346355998549545/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/amd64:data'
-Loading: 3100 packages loaded
-WARNING: Download from https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
-INFO: Repository rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64 instantiated at:
+INFO: Repository rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64 instantiated at:
   <builtin>: in <toplevel>
 Repository rule http_archive defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
-ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
-		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp17655165138873445967/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/libpq5/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp17655165138873445967/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//libpq5/arm64:data'
-Loading: 3188 packages loaded
-WARNING: Download from https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
 INFO: Repository rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64 instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
+INFO: Repository rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64 instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
+INFO: Repository rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64 instantiated at:
   <builtin>: in <toplevel>
 Repository rule http_archive defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
@@ -126,61 +43,49 @@ ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~a
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
 		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp7229018195929756678/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/libpq5/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp7229018195929756678/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//libpq5/amd64:data'
-Loading: 3279 packages loaded
-    currently loading: @@rules_distroless~~apt~apt_libreadline8_8.2-1.3_arm64//
-WARNING: Download from https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb failed: class java.io.FileNotFoundException GET returned 404 Not Found
-INFO: Repository rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64 instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
+Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp17007898792911371495/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found
+ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp6169791734473952246/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found
 ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
 		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64/temp4504820783597763072/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-common/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64/temp4504820783597763072/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-common/arm64:data'
-Loading: 3464 packages loaded
-INFO: Repository rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64 instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl:382:31: in <toplevel>
+Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64/temp1836478222428121615/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found
 ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
 		download_info = ctx.download_and_extract(
-Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64/temp15849238793025061610/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-common/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64/temp15849238793025061610/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-common/amd64:data'
-Loading: 3669 packages loaded
-Loading: 4037 packages loaded
-    currently loading: @@gazelle~~go_deps~io_k8s_client_go//plugin/pkg/client/auth/gcp ... (3 packages)
-Loading: 4594 packages loaded
-    currently loading: @@rules_distroless~~apt~apt_libdb5.3_5.3.28-p-dfsg2-1_amd64//
-Loading: 4909 packages loaded
-Loading: 5160 packages loaded
-Loading: 5250 packages loaded
-Loading: 5266 packages loaded
-Loading: 5269 packages loaded
-Loading: 5270 packages loaded
-Loading: 5273 packages loaded
-Loading: 5278 packages loaded
-Loading: 5384 packages loaded
-    currently loading: @@rules_python~~pip~jupyter-pip-requirements-dev_39_beautifulsoup4//
-Loading: 5440 packages loaded
-Loading: 5451 packages loaded
-Loading: 5459 packages loaded
-Loading: 5491 packages loaded
-Loading: 5532 packages loaded
+Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64/temp4386840354523572851/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found
+ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp10914665599141904142/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found
+ERROR: An error occurred during the fetch of repository 'rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/bazel_tools/tools/build_defs/repo/http.bzl", line 131, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp11071305875193511343/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/arm64/BUILD.bazel:7:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp6169791734473952246/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/arm64:control'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp6169791734473952246/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/arm64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp10914665599141904142/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/amd64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/amd64/BUILD.bazel:7:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp10914665599141904142/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/amd64:control'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/libpq5/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp17007898792911371495/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//libpq5/amd64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-common/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64/temp4386840354523572851/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-common/amd64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/libpq5/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp11071305875193511343/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//libpq5/arm64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-common/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64/temp1836478222428121615/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-common/arm64:data'
 Loading: 5545 packages loaded
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/libpq5/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp7229018195929756678/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//libpq5/amd64:data'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-common/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64/temp4504820783597763072/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-common/arm64:data'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/libpq5/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp17655165138873445967/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//libpq5/arm64:data'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/arm64/BUILD.bazel:7:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp7014936184539666795/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/arm64:control'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/amd64/BUILD.bazel:7:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp13406346355998549545/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/amd64:control'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-common/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64/temp15849238793025061610/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-common/amd64:data'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp7014936184539666795/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/arm64:data'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp13406346355998549545/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/amd64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp10914665599141904142/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/amd64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/libpq5/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp11071305875193511343/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//libpq5/arm64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/libpq5/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_libpq5_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp17007898792911371495/libpq5_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//libpq5/amd64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-common/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_arm64/temp1836478222428121615/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-common/arm64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/arm64/BUILD.bazel:7:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp6169791734473952246/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/arm64:control'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/arm64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_arm64/temp6169791734473952246/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_arm64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/arm64:data'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-17/amd64/BUILD.bazel:7:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-17/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-17_17.2-1.pgdg120-p-_20250108.0535.g45aef9f_amd64/temp10914665599141904142/postgresql-client-17_17.2-1.pgdg120+~20250108.0535.g45aef9f_amd64.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-17/amd64:control'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt/postgresql-client-common/amd64/BUILD.bazel:1:6: no such package '@@rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64//': java.io.IOException: Error downloading [https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-common/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb] to /data/h445xu/.cache/bazel/_bazel_hongxu/85d7af1b42f345277830af810140ea03/external/rules_distroless~~apt~apt_postgresql-client-common_253.pgdg120-p-_20230725.2250.g53bdb68_amd64/temp4386840354523572851/postgresql-client-common_253.pgdg120+~20230725.2250.g53bdb68_all.deb: GET returned 404 Not Found and referenced by '@@rules_distroless~~apt~apt//postgresql-client-common/amd64:data'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

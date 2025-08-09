@@ -1,38 +1,8 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
 WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
  no actions running
 Loading: 0 packages loaded
-Loading: 98 packages loaded
-    currently loading: publish
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/a2cc23c3625cb7bb60bddfbe0d7647ff/external/rules_jvm_external+/private/extensions/maven.bzl:351:18: The maven repository 'maven' has contributions from multiple bzlmod modules, and will be resolved together: ["bazel_worker_java", "cel_java"]
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/a2cc23c3625cb7bb60bddfbe0d7647ff/external/gazelle+/internal/bzlmod/go_deps.bzl:571:40: 
-
-Mismatch between versions requested for module github.com/bazelbuild/rules_go
-Bazel dependency version requested in MODULE.bazel: 0.53.0
-Go module version requested in go.mod: 0.50.1
-Please resolve this mismatch to prevent discrepancies between native Go and Bazel builds
-
-Loading: 474 packages loaded
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/a2cc23c3625cb7bb60bddfbe0d7647ff/external/rules_jvm_external+/private/rules/coursier.bzl:754:18: Found duplicate artifact versions
-    org.mockito:mockito-core has multiple versions 4.11.0, 5.4.0
-    com.google.truth:truth has multiple versions 1.4.4, 1.4.0
-    com.google.errorprone:error_prone_annotations has multiple versions 2.38.0, 2.23.0
-    com.google.guava:guava has multiple versions 33.4.8-jre, 33.0.0-jre
-    com.google.protobuf:protobuf-java has multiple versions 4.31.0, 4.27.2
-    com.google.protobuf:protobuf-java-util has multiple versions 4.31.0, 4.27.2
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
-Loading: 497 packages loaded
-Loading: 497 packages loaded
-Loading: 497 packages loaded
-Loading: 497 packages loaded
-Loading: 498 packages loaded
-Loading: 498 packages loaded
-Loading: 499 packages loaded
-Loading: 499 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/a2cc23c3625cb7bb60bddfbe0d7647ff/external/rules_android+/tools/jdk/BUILD:67:15: no such target '@@rules_android++android_sdk_repository_extension+androidsdk//:core-for-system-modules-jar': target 'core-for-system-modules-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/a2cc23c3625cb7bb60bddfbe0d7647ff/external/rules_android++android_sdk_repository_extension+androidsdk/BUILD.bazel and referenced by '@@rules_android+//tools/jdk:bootclasspath_android_only'
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

@@ -1,7 +1,4 @@
-2025/08/09 03:05:18 Downloading https://releases.bazel.build/5.1.1/release/bazel-5.1.1-linux-x86_64...
-Extracting Bazel installation...
 Starting local Bazel server and connecting to it...
-Loading: 0 packages loaded
 Loading: 0 packages loaded
 INFO: Repository local_config_tf instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__recommenders-addons/WORKSPACE:74:13: in <toplevel>
@@ -17,8 +14,6 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__recommenders-addon
 		tf_header_dir = repository_ctx.os.environ[_TF_HEADER_DIR]
 Error: key "TF_HEADER_DIR" not found in dictionary
 ERROR: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary
-Loading: 40 packages loaded
-    currently loading: tensorflow_recommenders_addons/dynamic_embedding/python/kernel_tests ... (2 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__recommenders-addons/tensorflow_recommenders_addons/dynamic_embedding/python/ops/BUILD:12:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//tensorflow_recommenders_addons/dynamic_embedding/python/ops:dynamic_embedding'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__recommenders-addons/tensorflow_recommenders_addons/dynamic_embedding/python/ops/BUILD:12:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//tensorflow_recommenders_addons/dynamic_embedding/python/ops:dynamic_embedding'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__recommenders-addons/tensorflow_recommenders_addons/dynamic_embedding/python/ops/BUILD:12:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//tensorflow_recommenders_addons/dynamic_embedding/python/ops:dynamic_embedding'
@@ -35,9 +30,11 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__recommenders-addon
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__recommenders-addons/tensorflow_recommenders_addons/dynamic_embedding/python/ops/BUILD:12:11: no such package '@local_config_tf//': key "TF_HEADER_DIR" not found in dictionary and referenced by '//tensorflow_recommenders_addons/dynamic_embedding/python/ops:dynamic_embedding'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 41 packages loaded
+    currently loading: tensorflow_recommenders_addons/dynamic_embedding/core ... (2 packages)
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Loading: 41 packages loaded
-    currently loading: tensorflow_recommenders_addons/dynamic_embedding/python/kernel_tests ... (2 packages)
+    currently loading: tensorflow_recommenders_addons/dynamic_embedding/core ... (2 packages)
 Loading: 41 packages loaded
-    currently loading: tensorflow_recommenders_addons/dynamic_embedding/python/kernel_tests ... (2 packages)
+    currently loading: tensorflow_recommenders_addons/dynamic_embedding/core ... (2 packages)

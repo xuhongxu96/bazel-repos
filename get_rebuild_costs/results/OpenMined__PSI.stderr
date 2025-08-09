@@ -4,7 +4,5 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/OpenMined__PSI/MODULE.bazel:15
 		crate = use_extension("@rules_rust//crate_universe:extension.bzl", "crate", isolate = True)
 Error in use_extension: in call to use_extension(), parameter 'isolate' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_isolated_extension_usages
 ERROR: Error computing the main repository mapping: error executing MODULE.bazel file for <root>
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

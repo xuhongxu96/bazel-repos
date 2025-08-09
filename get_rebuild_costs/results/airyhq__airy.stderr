@@ -2,24 +2,18 @@ Starting local Bazel server and connecting to it...
 Loading: 0 packages loaded
 Loading: 0 packages loaded
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 40 packages loaded
-    currently loading:  ... (106 packages)
+    currently loading:  ... (146 packages)
 Loading: 126 packages loaded
-    currently loading: integration/ui ... (20 packages)
+    currently loading: integration/chat-plugin ... (20 packages)
 Loading: 126 packages loaded
-    currently loading: integration/ui ... (20 packages)
+    currently loading: integration/chat-plugin ... (20 packages)
 INFO: Repository npm instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/WORKSPACE:156:13: in <toplevel>
   /data/h445xu/.cache/bazel/_bazel_hongxu/31ffaaab88741b64f3cc81fe1d2c721c/external/build_bazel_rules_nodejs/index.bzl:83:18: in yarn_install
 Repository rule yarn_install defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/31ffaaab88741b64f3cc81fe1d2c721c/external/build_bazel_rules_nodejs/internal/npm_install/npm_install.bzl:999:31: in <toplevel>
 Loading: 126 packages loaded
-    currently loading: integration/ui ... (20 packages)
+    currently loading: integration/chat-plugin ... (20 packages)
 ERROR: An error occurred during the fetch of repository 'npm':
    Traceback (most recent call last):
 	File "/data/h445xu/.cache/bazel/_bazel_hongxu/31ffaaab88741b64f3cc81fe1d2c721c/external/build_bazel_rules_nodejs/internal/npm_install/npm_install.bzl", line 990, column 13, in _yarn_install_impl
@@ -55,13 +49,6 @@ info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this 
  (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
 error Found incompatible module.
 ) and referenced by '//:fix_prettier'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:6:14: no such package '@npm//cypress': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@types/node': yarn_install failed: yarn install v1.22.11
 [1/4] Resolving packages...
 [2/4] Fetching packages...
@@ -69,6 +56,13 @@ info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this 
  (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
 error Found incompatible module.
 ) and referenced by '//integration:cypress_run'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:6:14: no such package '@npm//cypress': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//cypress': yarn_install failed: yarn install v1.22.11
 [1/4] Resolving packages...
 [2/4] Fetching packages...
@@ -76,6 +70,55 @@ info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this 
  (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
 error Found incompatible module.
 ) and referenced by '//integration:cypress_run'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:prettier'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/control-center/public:prettier'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//eslint': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//eslint': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/control-center/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//eslint-plugin-react': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//@typescript-eslint/eslint-plugin': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//@typescript-eslint/parser': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:eslint'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/docs/BUILD.bazel:4:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
 [1/4] Resolving packages...
 [2/4] Fetching packages...
@@ -83,41 +126,6 @@ info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this 
  (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
 error Found incompatible module.
 ) and referenced by '//docs:prettier'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//eslint': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//eslint-plugin-react': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//@typescript-eslint/eslint-plugin': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//@typescript-eslint/parser': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//eslint': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/control-center/public:eslint'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//eslint-plugin-react': yarn_install failed: yarn install v1.22.11
 [1/4] Resolving packages...
 [2/4] Fetching packages...
@@ -139,398 +147,10 @@ info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this 
  (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
 error Found incompatible module.
 ) and referenced by '//frontend/control-center/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:prettier'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/control-center/public:prettier'
-WARNING: Download from https://packages.confluent.io/maven/com/segment/analytics/java/analytics/3.1.3/analytics-3.1.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/security/spring-security-oauth2-core/5.6.2/spring-security-oauth2-core-5.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/lucene/lucene-sandbox/8.7.0/lucene-sandbox-8.7.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-actuator/2.6.4/spring-boot-actuator-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-server/9.4.45.v20220203/jetty-server-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-test/2.6.4/spring-boot-test-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-websocket/2.6.4/spring-boot-starter-websocket-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/zookeeper/zookeeper-jute/3.5.9/zookeeper-jute-3.5.9.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/kubernetes/client-java/16.0.0/client-java-16.0.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-cache/2.6.4/spring-boot-starter-cache-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-autoconfigure/2.6.4/spring-boot-autoconfigure-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/auth/google-auth-library-oauth2-http/1.6.0/google-auth-library-oauth2-http-1.6.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-context/5.3.17/spring-context-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-loader/2.6.4/spring-boot-loader-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/lucene/lucene-core/8.7.0/lucene-core-8.7.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/amazonaws/jmespath-java/1.12.182/jmespath-java-1.12.182.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/prometheus/simpleclient_tracer_common/0.12.0/simpleclient_tracer_common-0.12.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-xml/9.4.45.v20220203/jetty-xml-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/security/spring-security-web/5.6.2/spring-security-web-5.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/avro/1.11.0/avro-1.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter/2.6.4/spring-boot-starter-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-aop/5.3.17/spring-aop-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.1/jackson-module-parameter-names-2.13.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-actuator/2.6.4/spring-boot-starter-actuator-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/segment/analytics/java/analytics-core/3.1.3/analytics-core-3.1.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/dinstone/beanstalkc/2.3.0/beanstalkc-2.3.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/ow2/asm/asm/9.2/asm-9.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/security/spring-security-core/5.6.2/spring-security-core-5.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/security/spring-security-oauth2-jose/5.6.2/spring-security-oauth2-jose-5.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-security/2.6.4/spring-boot-starter-security-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/kubernetes/client-java-api/16.0.0/client-java-api-16.0.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.1/jackson-datatype-jsr310-2.13.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/squareup/retrofit2/retrofit/2.9.0/retrofit-2.9.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/curator/curator-test/4.2.0/curator-test-4.2.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/nimbusds/nimbus-jose-jwt/9.14/nimbus-jose-jwt-9.14.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/jsonwebtoken/jjwt-api/0.11.2/jjwt-api-0.11.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-expression/5.3.17/spring-expression-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/github/openfeign/feign-okhttp/11.8/feign-okhttp-11.8.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-context-support/5.3.17/spring-context-support-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/bouncycastle/bcutil-jdk18on/1.71/bcutil-jdk18on-1.71.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-util/9.4.45.v20220203/jetty-util-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 315 packages loaded
-    currently loading: integration/ui ... (20 packages)
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-messaging/5.3.17/spring-messaging-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/opencensus/opencensus-contrib-http-util/0.31.0/opencensus-contrib-http-util-0.31.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/jsonwebtoken/jjwt-jackson/0.11.2/jjwt-jackson-0.11.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/lucene/lucene-analyzers-common/8.7.0/lucene-analyzers-common-8.7.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/github/openfeign/feign-jackson/11.8/feign-jackson-11.8.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/security/spring-security-crypto/5.6.2/spring-security-crypto-5.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/googlecode/javaewah/JavaEWAH/1.1.13/JavaEWAH-1.1.13.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/security/oauth/spring-security-oauth2/2.4.1.RELEASE/spring-security-oauth2-2.4.1.RELEASE.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/squareup/retrofit2/retrofit-mock/2.9.0/retrofit-mock-2.9.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-test/5.3.16/spring-test-5.3.16.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/jsonwebtoken/jjwt-impl/0.11.2/jjwt-impl-0.11.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/module/jackson-module-afterburner/2.10.0/jackson-module-afterburner-2.10.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/security/spring-security-config/5.6.2/spring-security-config-5.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-websocket/5.3.17/spring-websocket-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/retry/spring-retry/1.3.2/spring-retry-1.3.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot/2.6.4/spring-boot-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/slf4j/slf4j-nop/1.7.32/slf4j-nop-1.7.32.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/mina/mina-core/2.1.3/mina-core-2.1.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/junit/platform/junit-platform-console/1.8.2/junit-platform-console-1.8.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/github/openfeign/feign-core/11.8/feign-core-11.8.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/xmlunit/xmlunit-core/2.8.4/xmlunit-core-2.8.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/protobuf/protobuf-java/3.21.2/protobuf-java-3.21.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-web/5.3.17/spring-web-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/amazonaws/aws-java-sdk-s3/1.12.182/aws-java-sdk-s3-1.12.182.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/aspectj/aspectjweaver/1.9.8/aspectjweaver-1.9.8.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-beans/5.3.17/spring-beans-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.21/kotlin-stdlib-common-1.4.21.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-jcl/5.3.17/spring-jcl-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-test-autoconfigure/2.6.4/spring-boot-test-autoconfigure-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/amazonaws/aws-java-sdk-kms/1.12.182/aws-java-sdk-kms-1.12.182.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/gsonfire/gson-fire/1.8.5/gson-fire-1.8.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/auth/google-auth-library-credentials/1.6.0/google-auth-library-credentials-1.6.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/hamcrest/hamcrest-library/2.1/hamcrest-library-2.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/rocksdb/rocksdbjni/5.18.4/rocksdbjni-5.18.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/avro-tools/1.11.0/avro-tools-1.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-jetty/2.6.4/spring-boot-starter-jetty-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-test/2.6.4/spring-boot-starter-test-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.11.1/jackson-dataformat-yaml-2.11.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.5/jackson-dataformat-csv-2.10.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/http-client/google-http-client-gson/1.41.4/google-http-client-gson-1.41.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-json/2.6.4/spring-boot-starter-json-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/commons-cli/commons-cli/1.4/commons-cli-1.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-web/2.6.4/spring-boot-starter-web-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-http/9.4.45.v20220203/jetty-http-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/lucene/lucene-queries/8.7.0/lucene-queries-8.7.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/segment/backo/backo/1.0.0/backo-1.0.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/netty/netty-transport/4.1.50.Final/netty-transport-4.1.50.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/jakarta/websocket/jakarta.websocket-api/1.1.2/jakarta.websocket-api-1.1.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.1/jackson-datatype-jdk8-2.13.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/prometheus/simpleclient_tracer_otel_agent/0.12.0/simpleclient_tracer_otel_agent-0.12.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/101tec/zkclient/0.11/zkclient-0.11.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-util-ajax/9.4.45.v20220203/jetty-util-ajax-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/typesafe/scala-logging/scala-logging_2.13/3.9.2/scala-logging_2.13-3.9.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/http-client/google-http-client/1.41.4/google-http-client-1.41.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.10/kotlin-stdlib-jdk7-1.4.10.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.5/jackson-module-scala_2.13-2.10.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/github/luben/zstd-jni/1.5.0-4/zstd-jni-1.5.0-4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/kafka/connect-api/2.7.0/connect-api-2.7.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.10/kotlin-stdlib-jdk8-1.4.10.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/squareup/okhttp3/logging-interceptor/4.9.2/logging-interceptor-4.9.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.5/jackson-module-paranamer-2.10.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/avro-compiler/1.11.0/avro-compiler-1.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-io/9.4.45.v20220203/jetty-io-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/twilio/sdk/twilio/8.27.1/twilio-8.27.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/tomcat/embed/tomcat-embed-el/9.0.58/tomcat-embed-el-9.0.58.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jgit/org.eclipse.jgit/6.3.0.202209071007-r/org.eclipse.jgit-6.3.0.202209071007-r.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/boot/spring-boot-actuator-autoconfigure/2.6.4/spring-boot-actuator-autoconfigure-2.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/netty/netty-transport-native-unix-common/4.1.50.Final/netty-transport-native-unix-common-4.1.50.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/netty/netty-transport-native-epoll/4.1.50.Final/netty-transport-native-epoll-4.1.50.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/amazonaws/aws-java-sdk-core/1.12.182/aws-java-sdk-core-1.12.182.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.12.6/jackson-dataformat-xml-2.12.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/puppycrawl/tools/checkstyle/10.0/checkstyle-10.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-webmvc/5.3.16/spring-webmvc-5.3.16.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/confluent/confluent-log4j/1.2.17-cp2/confluent-log4j-1.2.17-cp2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/viber/viber-bot/1.0.11/viber-bot-1.0.11.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/squareup/retrofit2/converter-gson/2.9.0/converter-gson-2.9.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/trevni-core/1.11.0/trevni-core-1.11.0-tests.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/lucene/lucene-queryparser/8.7.0/lucene-queryparser-8.7.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/bitbucket/b_c/jose4j/0.7.12/jose4j-0.7.12.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/grpc/grpc-context/1.27.2/grpc-context-1.27.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/spring-core/5.3.17/spring-core-5.3.17.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 461 packages loaded
-    currently loading: integration/ui ... (20 packages)
-WARNING: Download from https://packages.confluent.io/maven/com/squareup/wire/wire-runtime/3.6.0/wire-runtime-3.6.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/websocket/websocket-api/9.4.45.v20220203/websocket-api-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.1.1/kotlinx-coroutines-core-1.1.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/bouncycastle/bcpkix-jdk18on/1.71/bcpkix-jdk18on-1.71.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-continuation/9.4.45.v20220203/jetty-continuation-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/squareup/wire/wire-schema/3.6.0/wire-schema-3.6.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.4.45.v20220203/javax-websocket-server-impl-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/net/bytebuddy/byte-buddy-agent/1.12.9/byte-buddy-agent-1.12.9.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-servlets/9.4.45.v20220203/jetty-servlets-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/squareup/okhttp3/okhttp/4.9.2/okhttp-4.9.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/bouncycastle/bcprov-jdk18on/1.71/bcprov-jdk18on-1.71.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/netty/netty-handler/4.1.50.Final/netty-handler-4.1.50.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-webapp/9.4.45.v20220203/jetty-webapp-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jersey/inject/jersey-hk2/2.31/jersey-hk2-2.31.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/avro-ipc/1.11.0/avro-ipc-1.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/avro-ipc-jetty/1.11.0/avro-ipc-jetty-1.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/netty/netty-buffer/4.1.50.Final/netty-buffer-4.1.50.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/kafka/kafka-streams/2.7.0/kafka-streams-2.7.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jersey/media/jersey-media-jaxb/2.31/jersey-media-jaxb-2.31.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/kafka/connect-json/2.7.0/connect-json-2.7.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/protobuf/protobuf-java-util/3.11.4/protobuf-java-util-3.11.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/netty/netty-codec/4.1.50.Final/netty-codec-4.1.50.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/kubernetes/client-java-proto/16.0.0/client-java-proto-16.0.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/nimbusds/content-type/2.1/content-type-2.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-servlet/9.4.45.v20220203/jetty-servlet-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/micrometer/micrometer-registry-prometheus/1.8.4/micrometer-registry-prometheus-1.8.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/joda-time/joda-time/2.10.2/joda-time-2.10.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/trevni-avro/1.11.0/trevni-avro-1.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/mockito/mockito-junit-jupiter/4.0.0/mockito-junit-jupiter-4.0.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/netty/netty-common/4.1.50.Final/netty-common-4.1.50.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-stdlib/1.4.21/kotlin-stdlib-1.4.21.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/javax/websocket/javax.websocket-client-api/1.0/javax.websocket-client-api-1.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-security/9.4.45.v20220203/jetty-security-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.45.v20220203/javax-websocket-client-impl-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/trevni-avro/1.11.0/trevni-avro-1.11.0-tests.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-annotations/9.4.45.v20220203/jetty-annotations-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/netty/netty-resolver/4.1.50.Final/netty-resolver-4.1.50.Final.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/scala-lang/modules/scala-collection-compat_2.13/2.2.0/scala-collection-compat_2.13-2.2.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-plus/9.4.45.v20220203/jetty-plus-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/swagger/swagger-annotations/1.6.6/swagger-annotations-1.6.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/websocket/websocket-server/9.4.45.v20220203/websocket-server-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/avro-mapred/1.11.0/avro-mapred-1.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/prometheus/simpleclient_common/0.12.0/simpleclient_common-0.12.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.10.5/jackson-jaxrs-base-2.10.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.12.6/jackson-module-jaxb-annotations-2.12.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/micrometer/micrometer-core/1.8.4/micrometer-core-1.8.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/prometheus/simpleclient_tracer_otel/0.12.0/simpleclient_tracer_otel-0.12.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/prometheus/simpleclient/0.12.0/simpleclient-0.12.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.10.5/jackson-jaxrs-json-provider-2.10.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/apache/avro/trevni-core/1.11.0/trevni-core-1.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/javax/activation/activation/1.1.1/activation-1.1.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-jaas/9.4.38.v20210224/jetty-jaas-9.4.38.v20210224.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jersey/containers/jersey-container-servlet/2.31/jersey-container-servlet-2.31.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jersey/containers/jersey-container-servlet-core/2.31/jersey-container-servlet-core-2.31.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.10.5/jackson-datatype-guava-2.10.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-jmx/9.4.38.v20210224/jetty-jmx-9.4.38.v20210224.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/json/json/20201115/json-20201115.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.10.5/jackson-datatype-joda-2.10.5.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jersey/ext/jersey-bean-validation/2.31/jersey-bean-validation-2.31.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/kjetland/mbknor-jackson-jsonschema_2.13/1.0.39/mbknor-jackson-jsonschema_2.13-1.0.39.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/swagger/swagger-models/1.6.2/swagger-models-1.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/swagger/swagger-core/1.6.2/swagger-core-1.6.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/damnhandy/handy-uri-templates/2.1.8/handy-uri-templates-2.1.8.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/google/re2j/re2j/1.3/re2j-1.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/io/github/classgraph/classgraph/4.8.21/classgraph-4.8.21.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-script-runtime/1.3.50/kotlin-script-runtime-1.3.50.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.50/kotlin-scripting-compiler-embeddable-1.3.50.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.50/kotlin-scripting-compiler-impl-embeddable-1.3.50.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-scripting-common/1.3.50/kotlin-scripting-common-1.3.50.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/jakarta/el/jakarta.el-api/3.0.3/jakarta.el-api-3.0.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.50/kotlin-scripting-jvm-1.3.50.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/jetty-client/9.4.45.v20220203/jetty-client-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/websocket/websocket-servlet/9.4.45.v20220203/websocket-servlet-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jersey/core/jersey-server/2.31/jersey-server-2.31.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/websocket/websocket-client/9.4.45.v20220203/websocket-client-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/eclipse/jetty/websocket/websocket-common/9.4.45.v20220203/websocket-common-9.4.45.v20220203.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/jetbrains/kotlin/kotlin-reflect/1.3.50/kotlin-reflect-1.3.50.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/fasterxml/woodstox/woodstox-core/6.2.4/woodstox-core-6.2.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jersey/core/jersey-common/2.31/jersey-common-2.31.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/org/glassfish/jersey/core/jersey-client/2.31/jersey-client-2.31.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://packages.confluent.io/maven/com/github/everit-org/json-schema/org.everit.json.schema/1.14.0/org.everit.json.schema-1.14.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://repo1.maven.org/maven2/com/github/everit-org/json-schema/org.everit.json.schema/1.14.0/org.everit.json.schema-1.14.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
 Loading: 561 packages loaded
-    currently loading: integration/ui ... (20 packages)
-Loading: 561 packages loaded
-    currently loading: integration/ui ... (20 packages)
+    currently loading: integration/chat-plugin ... (20 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/31ffaaab88741b64f3cc81fe1d2c721c/external/bazel_gazelle/repo/BUILD.bazel:3:11: no such package '@org_golang_x_tools//go/vcs': BUILD file not found in directory 'go/vcs' of external repository @org_golang_x_tools. Add a BUILD file to a directory to mark it as a package. and referenced by '@bazel_gazelle//repo:repo'
-Loading: 1211 packages loaded
-    currently loading: integration/ui ... (20 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//@typescript-eslint/parser': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:6:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@types/node': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress_run'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//eslint': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/control-center/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:6:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//@typescript-eslint/parser': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/control-center/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//cypress': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress_run'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//@typescript-eslint/eslint-plugin': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/control-center/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress_run'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:prettier'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//@typescript-eslint/eslint-plugin': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress_run'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress_run'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//eslint': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:eslint'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/control-center/public:prettier'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//eslint-plugin-react': yarn_install failed: yarn install v1.22.11
 [1/4] Resolving packages...
 [2/4] Fetching packages...
 info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
@@ -544,6 +164,90 @@ info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this 
  (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
 error Found incompatible module.
 ) and referenced by '//integration:cypress'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/control-center/public:prettier'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:6:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//eslint': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/control-center/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//@typescript-eslint/eslint-plugin': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//cypress': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress_run'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress_run'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:6:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//@typescript-eslint/parser': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress_run'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//eslint-plugin-react': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@bazel/typescript': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress_run'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//@typescript-eslint/eslint-plugin': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/control-center/public:eslint'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//eslint-plugin-react': yarn_install failed: yarn install v1.22.11
 [1/4] Resolving packages...
 [2/4] Fetching packages...
@@ -551,6 +255,76 @@ info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this 
  (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
 error Found incompatible module.
 ) and referenced by '//frontend/control-center/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:prettier'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//@types/node': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress_run'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//@typescript-eslint/parser': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/control-center/public:eslint'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:prettier_directory_file_path'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress_run_directory_file_path'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:6:14: no such package '@npm//': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//integration:cypress_directory_file_path'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/control-center/public:prettier_directory_file_path'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/docs/BUILD.bazel:4:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//docs:prettier_directory_file_path'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/inbox/public:eslint_directory_file_path'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+ (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
+error Found incompatible module.
+) and referenced by '//frontend/control-center/public:eslint_directory_file_path'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/BUILD:16:13: no such package '@npm//': yarn_install failed: yarn install v1.22.11
 [1/4] Resolving packages...
 [2/4] Fetching packages...
@@ -565,55 +339,6 @@ info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this 
  (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
 error Found incompatible module.
 ) and referenced by '//:fix_prettier'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/control-center/public:eslint_directory_file_path'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:eslint_directory_file_path'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/inbox/public/BUILD:15:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/inbox/public:prettier_directory_file_path'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:6:14: no such package '@npm//': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress_directory_file_path'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/integration/BUILD:23:14: no such package '@npm//': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//integration:cypress_run_directory_file_path'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/docs/BUILD.bazel:4:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//docs:prettier_directory_file_path'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/frontend/control-center/public/BUILD:15:9: no such package '@npm//': yarn_install failed: yarn install v1.22.11
-[1/4] Resolving packages...
-[2/4] Fetching packages...
-info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
- (error @pmmmwh/react-refresh-webpack-plugin@0.6.1: The engine "node" is incompatible with this module. Expected version ">=18.12". Got "16.15.0"
-error Found incompatible module.
-) and referenced by '//frontend/control-center/public:prettier_directory_file_path'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airyhq__airy/docs/BUILD.bazel:4:9: no such package '@npm//prettier': yarn_install failed: yarn install v1.22.11
 [1/4] Resolving packages...
 [2/4] Fetching packages...
@@ -711,6 +436,6 @@ Read 84000 lines from bazel query output...
 Read 85000 lines from bazel query output...
 Read 86000 lines from bazel query output...
 Loading: 1571 packages loaded
-    currently loading: integration/ui ... (20 packages)
+    currently loading: integration/chat-plugin ... (20 packages)
 Loading: 1571 packages loaded
-    currently loading: integration/ui ... (20 packages)
+    currently loading: integration/chat-plugin ... (20 packages)

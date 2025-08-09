@@ -1,36 +1,6 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 39 packages loaded
-    currently loading: @@bazel_tools//tools/def_parser ... (8 packages)
-Loading: 68 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 69 packages loaded
-Loading: 70 packages loaded
-Loading: 73 packages loaded
-    currently loading: @@rules_rust+//rust/platform ... (25 packages)
-Loading: 105 packages loaded
-    currently loading: @@rules_rust++crate+crates__const_format-0.2.34// ... (58 packages)
-Loading: 254 packages loaded
-    currently loading: @@rules_rust++crate+crates__const_format-0.2.34// ... (34 packages)
-Loading: 511 packages loaded
-    currently loading: @@rules_rust++i2+rules_rust_ctve__quote-1.0.38// ... (4 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/TraceMachina__nativelink/nativelink-proto/BUILD.bazel:78:8: no such package '@@toolchains_protoc++protoc+toolchains_protoc_hub.windows_aarch_64//': BUILD file not found on package path for '' and referenced by '//nativelink-proto:gen_rs_protos'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/TraceMachina__nativelink/nativelink-proto/BUILD.bazel:78:8: no such package '@@toolchains_protoc++protoc+toolchains_protoc_hub.windows_x86_64//': BUILD file not found on package path for '' and referenced by '//nativelink-proto:gen_rs_protos'
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
@@ -59,7 +29,6 @@ Read 21000 lines from bazel query output...
 Read 22000 lines from bazel query output...
 Read 23000 lines from bazel query output...
 Read 24000 lines from bazel query output...
-Loading: 571 packages loaded
 Read 25000 lines from bazel query output...
 Read 26000 lines from bazel query output...
 Read 27000 lines from bazel query output...
@@ -78,6 +47,7 @@ Read 39000 lines from bazel query output...
 Read 40000 lines from bazel query output...
 Read 41000 lines from bazel query output...
 Read 42000 lines from bazel query output...
+Loading: 571 packages loaded
 Read 43000 lines from bazel query output...
 Read 44000 lines from bazel query output...
 Read 45000 lines from bazel query output...

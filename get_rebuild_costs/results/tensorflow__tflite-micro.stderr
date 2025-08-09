@@ -1,71 +1,19 @@
-2025/08/08 23:36:55 Downloading https://releases.bazel.build/7.0.0/release/bazel-7.0.0-linux-x86_64...
-Extracting Bazel installation...
 Starting local Bazel server and connecting to it...
-WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
  checking cached actions
 Loading: 0 packages loaded
-Loading: 69 packages loaded
-    currently loading: tensorflow/lite/schema ... (7 packages)
-Loading: 71 packages loaded
-    currently loading: tensorflow/lite/schema ... (5 packages)
-Loading: 86 packages loaded
-    currently loading: @@bazel_tools//src/conditions ... (6 packages)
-Loading: 109 packages loaded
-    currently loading: @@bazel_tools//third_party/def_parser ... (5 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d0dad319742af902556a338ac9db3ac0/external/absl_py/absl/BUILD:41:11: no such package '@@enum34_archive//': The repository '@@enum34_archive' could not be resolved: Repository '@@enum34_archive' is not defined and referenced by '@@absl_py//absl:_enum_module'
-Loading: 129 packages loaded
-Loading: 135 packages loaded
-Loading: 135 packages loaded
-Loading: 140 packages loaded
-Loading: 140 packages loaded
-Loading: 149 packages loaded
-Loading: 156 packages loaded
-Loading: 161 packages loaded
-Loading: 169 packages loaded
-Loading: 170 packages loaded
-Loading: 173 packages loaded
-Loading: 173 packages loaded
-Loading: 174 packages loaded
-Loading: 174 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
-Loading: 175 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/tensorflow/lite/micro/kernels/BUILD:214:23: no such package 'third_party/xtensa/nnlib_hifi5': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/third_party/xtensa/nnlib_hifi5 and referenced by '//tensorflow/lite/micro/kernels:micro_ops'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/tensorflow/lite/micro/kernels/BUILD:214:23: no such package 'third_party/xtensa/xi_tflmlib_vision_p6': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/third_party/xtensa/xi_tflmlib_vision_p6 and referenced by '//tensorflow/lite/micro/kernels:micro_ops'
-Loading: 176 packages loaded
-Loading: 176 packages loaded
-    currently loading: @@tflm_pip_deps_tensorflow//
 Loading: 178 packages loaded
-Loading: 178 packages loaded
-Loading: 179 packages loaded
-Loading: 193 packages loaded
-Loading: 195 packages loaded
-Loading: 200 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d0dad319742af902556a338ac9db3ac0/external/absl_py/absl/BUILD:41:11: no such package '@@enum34_archive//': The repository '@@enum34_archive' could not be resolved: Repository '@@enum34_archive' is not defined and referenced by '@@absl_py//absl:_enum_module'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/tensorflow/lite/micro/kernels/BUILD:214:23: no such package 'third_party/xtensa/xi_tflmlib_vision_p6': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/third_party/xtensa/xi_tflmlib_vision_p6 and referenced by '//tensorflow/lite/micro/kernels:micro_ops'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/tensorflow/lite/micro/kernels/BUILD:214:23: no such package 'third_party/xtensa/nnlib_hifi5': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/third_party/xtensa/nnlib_hifi5 and referenced by '//tensorflow/lite/micro/kernels:micro_ops'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/tensorflow/lite/micro/kernels/BUILD:214:23: no such package 'third_party/xtensa/xi_tflmlib_vision_p6': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__tflite-micro/third_party/xtensa/xi_tflmlib_vision_p6 and referenced by '//tensorflow/lite/micro/kernels:micro_ops'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 202 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

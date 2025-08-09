@@ -1,27 +1,5 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
-DEBUG: Rule 'gz-plugin+' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-G7uKPd1CU7bz5JrfNHmADndUnRa1KUk0Sm0HkJntPXw="
-DEBUG: Repository gz-plugin+ instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e1692c744c812d2f09cb65094ccb040a/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
-DEBUG: Rule 'gz-utils+' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-RC31v6+C762cC6TBKq1ZDIsaF7odfPZVWth2C0boA7A="
-DEBUG: Repository gz-utils+ instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e1692c744c812d2f09cb65094ccb040a/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
- no actions running
-DEBUG: Rule 'gz-math+' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-y/JGkZAKkMHo6CgtOE9VmROCGAaWipK6SqnC90P+UY4="
-DEBUG: Repository gz-math+ instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e1692c744c812d2f09cb65094ccb040a/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
- no actions running
-DEBUG: Rule 'gz-common+' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-05xYSG3xjc9uOVMFz4uHEA1TcoLzVgeltM9tYGAgRuU="
-DEBUG: Repository gz-common+ instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/e1692c744c812d2f09cb65094ccb040a/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
  no actions running
  no actions running
 WARNING: For repository 'rules_gazebo', the root module requires module version rules_gazebo@0.0.3, but got rules_gazebo@0.0.6 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
@@ -29,6 +7,7 @@ Loading: 0 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
+Loading: 83 packages loaded
 Read 3000 lines from bazel query output...
 Read 4000 lines from bazel query output...
 Read 5000 lines from bazel query output...

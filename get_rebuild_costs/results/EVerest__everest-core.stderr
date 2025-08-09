@@ -1,45 +1,15 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
 WARNING: For repository 'bazel_features', the root module requires module version bazel_features@1.21.0, but got bazel_features@1.30.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'boost.asio', the root module requires module version boost.asio@1.87.0, but got boost.asio@1.87.0.bcr.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'com_github_fmtlib_fmt', the root module requires module version fmt@11.1.4, but got fmt@11.2.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'platforms', the root module requires module version platforms@0.0.10, but got platforms@0.0.11 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'rules_cc', the root module requires module version rules_cc@0.0.9, but got rules_cc@0.1.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
 WARNING: For repository 'rules_license', the root module requires module version rules_license@0.0.7, but got rules_license@1.0.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
- no actions running
 Loading: 0 packages loaded
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 32 packages loaded
-    currently loading: modules/RsPaymentTerminal ... (4 packages)
-Loading: 38 packages loaded
-    currently loading: @@everest-utils+//ev-dev-tools ... (4 packages)
-Loading: 446 packages loaded
+Loading: 478 packages loaded
+    currently loading: @@rules_python+//python/private ... (6 packages)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/7e7ece352ed490a8b265fc2c1557f1d0/external/boost.asio+/BUILD.bazel:45:11: no such package '@@[unknown repo 'openssl' requested from @@boost.asio+]//': The repository '@@[unknown repo 'openssl' requested from @@boost.asio+]' could not be resolved: No repository visible as '@openssl' from repository '@@boost.asio+' and referenced by '@@boost.asio+//:boost.asio'
-Loading: 495 packages loaded
-Loading: 501 packages loaded
-Loading: 501 packages loaded
-Loading: 507 packages loaded
-Loading: 508 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/7e7ece352ed490a8b265fc2c1557f1d0/external/boost.asio+/BUILD.bazel:45:11: no such package '@@[unknown repo 'openssl' requested from @@boost.asio+]//': The repository '@@[unknown repo 'openssl' requested from @@boost.asio+]' could not be resolved: No repository visible as '@openssl' from repository '@@boost.asio+' and referenced by '@@boost.asio+//:boost.asio'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate

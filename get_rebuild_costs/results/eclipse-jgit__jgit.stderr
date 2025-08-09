@@ -1,16 +1,12 @@
 Starting local Bazel server and connecting to it...
  no actions running
- no actions running
 Loading: 0 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:193:13: no such package '@@jetty-ee10-security//jar': The repository '@@jetty-ee10-security' could not be resolved: Repository '@@jetty-ee10-security' is not defined and referenced by '//lib:jetty-ee10-security'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:200:13: no such package '@@jetty-ee10-servlet//jar': The repository '@@jetty-ee10-servlet' could not be resolved: Repository '@@jetty-ee10-servlet' is not defined and referenced by '//lib:jetty-ee10-servlet'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:186:13: no such package '@@jetty-ee10-nested//jar': The repository '@@jetty-ee10-nested' could not be resolved: Repository '@@jetty-ee10-nested' is not defined and referenced by '//lib:jetty-ee10-nested'
-Loading: 81 packages loaded
-    currently loading: @@mockito//jar
-Loading: 101 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:186:13: no such package '@@jetty-ee10-nested//jar': The repository '@@jetty-ee10-nested' could not be resolved: Repository '@@jetty-ee10-nested' is not defined and referenced by '//lib:jetty-ee10-nested'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:200:13: no such package '@@jetty-ee10-servlet//jar': The repository '@@jetty-ee10-servlet' could not be resolved: Repository '@@jetty-ee10-servlet' is not defined and referenced by '//lib:jetty-ee10-servlet'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:193:13: no such package '@@jetty-ee10-security//jar': The repository '@@jetty-ee10-security' could not be resolved: Repository '@@jetty-ee10-security' is not defined and referenced by '//lib:jetty-ee10-security'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:193:13: no such package '@@jetty-ee10-security//jar': The repository '@@jetty-ee10-security' could not be resolved: Repository '@@jetty-ee10-security' is not defined and referenced by '//lib:jetty-ee10-security'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:200:13: no such package '@@jetty-ee10-servlet//jar': The repository '@@jetty-ee10-servlet' could not be resolved: Repository '@@jetty-ee10-servlet' is not defined and referenced by '//lib:jetty-ee10-servlet'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eclipse-jgit__jgit/lib/BUILD:186:13: no such package '@@jetty-ee10-nested//jar': The repository '@@jetty-ee10-nested' could not be resolved: Repository '@@jetty-ee10-nested' is not defined and referenced by '//lib:jetty-ee10-nested'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...

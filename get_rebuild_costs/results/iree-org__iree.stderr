@@ -1,9 +1,7 @@
-[INFO 23:02:17.829 src/main/cpp/option_processor.cc:407] Looking for the following rc files: /etc/bazel.bazelrc,/data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/.bazelrc,/home/hongxu/.bazelrc
-[INFO 23:02:17.829 src/main/cpp/rc_file.cc:56] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/.bazelrc
-[INFO 23:02:17.829 src/main/cpp/rc_file.cc:56] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/build_tools/bazel/iree.bazelrc
-[INFO 23:02:17.829 src/main/cpp/rc_file.cc:56] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/configured.bazelrc
-[FATAL 23:02:17.829 src/main/cpp/blaze.cc:1105] Unexpected error reading config file '/data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/configured.bazelrc': (error: 2): No such file or directory
+[INFO 21:38:01.712 src/main/cpp/option_processor.cc:407] Looking for the following rc files: /etc/bazel.bazelrc,/data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/.bazelrc,/home/hongxu/.bazelrc
+[INFO 21:38:01.712 src/main/cpp/rc_file.cc:56] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/.bazelrc
+[INFO 21:38:01.712 src/main/cpp/rc_file.cc:56] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/build_tools/bazel/iree.bazelrc
+[INFO 21:38:01.712 src/main/cpp/rc_file.cc:56] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/configured.bazelrc
+[FATAL 21:38:01.713 src/main/cpp/blaze.cc:1105] Unexpected error reading config file '/data/h445xu/repo/bazel-repos/cloned_repos/iree-org__iree/configured.bazelrc': (error: 2): No such file or directory
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,8 +1,5 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
 ERROR: Error computing the main repository mapping: Label '//book/htmlbook/tools:repositories.bzl' is invalid because 'book/htmlbook/tools' is not a package; perhaps you meant to put the colon here: '//book:htmlbook/tools/repositories.bzl'?
+Failed to parse bazel query xml.
 
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: UnexpectedEof
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,33 +1,11 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
 WARNING: For repository 'rules_java', the root module requires module version rules_java@8.6.1, but got rules_java@8.12.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
-Loading: 0 packages loaded
 Loading: 0 packages loaded
 ERROR: error loading package 'examples/Contacts/resources': Unable to find package for @@[unknown repo 'build_bazel_rules_apple' requested from @@]//apple:resources.bzl: The repository '@@[unknown repo 'build_bazel_rules_apple' requested from @@]' could not be resolved: No repository visible as '@build_bazel_rules_apple' from main repository.
 ERROR: error loading package 'examples/Contacts': Unable to find package for @@[unknown repo 'build_bazel_rules_apple' requested from @@]//apple:ios.bzl: The repository '@@[unknown repo 'build_bazel_rules_apple' requested from @@]' could not be resolved: No repository visible as '@build_bazel_rules_apple' from main repository.
-Loading: 4 packages loaded
-    currently loading: examples/Contacts ... (2 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/86d79aaebea3b0ef199cfe03844d9005/external/rules_jvm_external+/private/extensions/maven.bzl:155:14: The maven repository 'maven' is used in two different bazel modules, originally in 'j2objc' and now in 'protobuf'
-Loading: 25 packages loaded
-    currently loading: examples/Contacts ... (2 packages)
-Loading: 26 packages loaded
-    currently loading: examples/Contacts ... (2 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/86d79aaebea3b0ef199cfe03844d9005/external/rules_jvm_external+/private/rules/coursier.bzl:751:18: Found duplicate artifact versions
-    com.google.code.findbugs:jsr305 has multiple versions 3.0.0, 3.0.2
-    com.google.errorprone:error_prone_annotations has multiple versions 2.11.0, 2.5.1
-    junit:junit has multiple versions 4.13.1, 4.13.2
-    org.mockito:mockito-core has multiple versions 2.23.4, 4.3.1
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
-Loading: 26 packages loaded
-    currently loading: examples/Contacts ... (2 packages)
-Loading: 26 packages loaded
-    currently loading: examples/Contacts ... (2 packages)
-Loading: 26 packages loaded
-    currently loading: examples/Contacts ... (2 packages)
-Loading: 26 packages loaded
-    currently loading: examples/Contacts ... (2 packages)
+Loading: 10 packages loaded
+    currently loading: examples/Contacts/resources ... (6 packages)
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...

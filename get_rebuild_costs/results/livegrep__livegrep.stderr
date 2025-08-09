@@ -1,19 +1,6 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-Loading: 23 packages loaded
-    currently loading: web/3d ... (2 packages)
-Loading: 24 packages loaded
-    currently loading: web
-Loading: 24 packages loaded
-    currently loading: web
-Loading: 25 packages loaded
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/fdbd5e5b8ffc114004c605a20331b795/external/grpc+/src/compiler/BUILD:87:18: target 'grpc_cpp_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/fdbd5e5b8ffc114004c605a20331b795/external/grpc+/src/compiler/BUILD:93:18: target 'grpc_csharp_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/fdbd5e5b8ffc114004c605a20331b795/external/grpc+/src/compiler/BUILD:99:18: target 'grpc_node_plugin' is both a rule and a file; please choose another name for the rule
@@ -21,22 +8,9 @@ WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/fdbd5e5b8ffc114004c605a20331b79
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/fdbd5e5b8ffc114004c605a20331b795/external/grpc+/src/compiler/BUILD:111:18: target 'grpc_php_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/fdbd5e5b8ffc114004c605a20331b795/external/grpc+/src/compiler/BUILD:117:18: target 'grpc_python_plugin' is both a rule and a file; please choose another name for the rule
 WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/fdbd5e5b8ffc114004c605a20331b795/external/grpc+/src/compiler/BUILD:123:18: target 'grpc_ruby_plugin' is both a rule and a file; please choose another name for the rule
-Loading: 84 packages loaded
-    currently loading: @@grpc+// ... (20 packages)
-Loading: 178 packages loaded
-    currently loading: @@grpc+//src/core ... (2 packages)
-Loading: 210 packages loaded
-Loading: 345 packages loaded
-Loading: 400 packages loaded
-Loading: 461 packages loaded
-Loading: 494 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/livegrep__livegrep/src/BUILD:1:11: no such package '@@[unknown repo 'divsufsort' requested from @@]//': The repository '@@[unknown repo 'divsufsort' requested from @@]' could not be resolved: No repository visible as '@divsufsort' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//src:codesearch'
-Loading: 596 packages loaded
-Loading: 743 packages loaded
-Loading: 743 packages loaded
-Loading: 774 packages loaded
-Loading: 915 packages loaded
-Loading: 927 packages loaded
+Loading: 866 packages loaded
+    currently loading: @@grpc+//src/proto/grpc/lb/v1 ... (4 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/livegrep__livegrep/src/BUILD:1:11: no such package '@@[unknown repo 'divsufsort' requested from @@]//': The repository '@@[unknown repo 'divsufsort' requested from @@]' could not be resolved: No repository visible as '@divsufsort' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//src:codesearch'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate

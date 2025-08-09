@@ -1,63 +1,26 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 156 packages loaded
-Loading: 164 packages loaded
-Loading: 175 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/lgraph/BUILD:119:8: no such package '@@[unknown repo 'boost' requested from @@]//': The repository '@@[unknown repo 'boost' requested from @@]' could not be resolved: No repository visible as '@boost' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//lgraph:graph_core_test'
-Loading: 176 packages loaded
-Loading: 176 packages loaded
-DEBUG: Rule '+_repo_rules+mockturtle' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-Nsv3Xs6ouXkIKpqBggPRe8CFIkUDq/CP0UU+SzIU/NY="
-DEBUG: Repository +_repo_rules+mockturtle instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/19c54b64a3f455e3cf00034b64b792a5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
-DEBUG: Rule '+_repo_rules+kitty' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-GM7wMe9H8URbYd1mUs500ohtnMaCPQ6IwyQ8pVISkdA="
-DEBUG: Repository +_repo_rules+kitty instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/19c54b64a3f455e3cf00034b64b792a5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
-DEBUG: Rule '+_repo_rules+parallel_hashmap' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-tlovQLXS8jO8ZMB8XEINzJx6rQuP4RxqOV7gLMrbTWo="
-DEBUG: Repository +_repo_rules+parallel_hashmap instantiated at:
-  <builtin>: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/19c54b64a3f455e3cf00034b64b792a5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
-Loading: 179 packages loaded
-Loading: 179 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-Loading: 180 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/liveparse/BUILD:33:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inou/yosys/tests and referenced by '//inou/liveparse:chunkify_test.sh'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/pass/lnast_fromlg/BUILD:22:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inou/yosys/tests and referenced by '//pass/lnast_fromlg:lgtoln_verif_from_verilog.sh'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/pass/sample/BUILD:22:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inou/yosys/tests and referenced by '//pass/sample:sample_test1.sh'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/pyrope/BUILD:27:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inou/yosys/tests and referenced by '//inou/pyrope:pyrope_test.sh'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/code_gen/BUILD:22:8: no such target '//inou/pyrope:pyrope_tests2': target 'pyrope_tests2' not declared in package 'inou/pyrope' defined by /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/pyrope/BUILD (did you mean pyrope_tests?) and referenced by '//inou/code_gen:prp_v_LEC_test.sh'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/code_gen/BUILD:22:8: no such target '//inou/pyrope:pyrope_tests2': target 'pyrope_tests2' not declared in package 'inou/pyrope' defined by /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/pyrope/BUILD (did you mean pyrope_tests?) and referenced by '//inou/code_gen:prp_v_LEC_test.sh'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/liveparse/BUILD:33:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inou/yosys/tests and referenced by '//inou/liveparse:chunkify_test.sh'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/pyrope/BUILD:27:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - inou/yosys/tests and referenced by '//inou/pyrope:pyrope_test.sh'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/lgraph/BUILD:119:8: no such package '@@[unknown repo 'boost' requested from @@]//': The repository '@@[unknown repo 'boost' requested from @@]' could not be resolved: No repository visible as '@boost' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//lgraph:graph_core_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/pass/lnast_fromlg/BUILD:22:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inou/yosys/tests and referenced by '//pass/lnast_fromlg:lgtoln_verif_from_verilog.sh'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/pyrope/BUILD:27:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inou/yosys/tests and referenced by '//inou/pyrope:pyrope_test.sh'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/code_gen/BUILD:22:8: no such target '//inou/pyrope:pyrope_tests2': target 'pyrope_tests2' not declared in package 'inou/pyrope' defined by /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/pyrope/BUILD (did you mean pyrope_tests?) and referenced by '//inou/code_gen:prp_v_LEC_test.sh'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/pass/sample/BUILD:22:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - inou/yosys/tests and referenced by '//pass/sample:sample_test1.sh'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/liveparse/BUILD:33:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inou/yosys/tests and referenced by '//inou/liveparse:chunkify_test.sh'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/liveparse/BUILD:33:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inou/yosys/tests and referenced by '//inou/liveparse:chunkify_test.sh'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/code_gen/BUILD:22:8: no such target '//inou/pyrope:pyrope_tests2': target 'pyrope_tests2' not declared in package 'inou/pyrope' defined by /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/pyrope/BUILD (did you mean pyrope_tests?) and referenced by '//inou/code_gen:prp_v_LEC_test.sh'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/inou/pyrope/BUILD:27:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inou/yosys/tests and referenced by '//inou/pyrope:pyrope_test.sh'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/lgraph/BUILD:119:8: no such package '@@[unknown repo 'boost' requested from @@]//': The repository '@@[unknown repo 'boost' requested from @@]' could not be resolved: No repository visible as '@boost' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//lgraph:graph_core_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/pass/sample/BUILD:22:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inou/yosys/tests and referenced by '//pass/sample:sample_test1.sh'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/masc-ucsc__livehd/pass/lnast_fromlg/BUILD:22:8: no such package 'inou/yosys/tests': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - inou/yosys/tests and referenced by '//pass/lnast_fromlg:lgtoln_verif_from_verilog.sh'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -135,7 +98,3 @@ Read 71000 lines from bazel query output...
 Read 72000 lines from bazel query output...
 Read 73000 lines from bazel query output...
 Read 74000 lines from bazel query output...
-
-thread 'main' panicked at depstat/src/main.rs:24:52:
-called `Result::unwrap()` on an `Err` value: "Cannot create an edge from a node to itself"
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

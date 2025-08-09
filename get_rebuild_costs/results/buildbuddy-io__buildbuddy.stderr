@@ -1,72 +1,17 @@
 Starting local Bazel server (8.2.1) and connecting to it...
-INFO: Streaming build results to: https://app.buildbuddy.io/invocation/b29a43ab-aab3-4eaa-b6f4-dacefdcb30d4
+INFO: Streaming build results to: https://app.buildbuddy.io/invocation/ec06ce9c-44c3-4ff5-83a1-3e1f5b37c90d
 WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
  no actions running
  no actions running
  no actions running
- no actions running
-WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/bazel-gazelle/releases/download/v0.44.0/bazel-gazelle-v0.44.0.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/rules_go/releases/download/v0.55.1/rules_go-v0.55.1.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 663 packages loaded
-    currently loading: 
-Loading: 663 packages loaded
-    currently loading: 
-Loading: 663 packages loaded
-    currently loading: 
-Loading: 663 packages loaded
-    currently loading: 
-Loading: 663 packages loaded
-    currently loading: 
-Loading: 801 packages loaded
-Loading: 1183 packages loaded
-    currently loading: @@com_github_klauspost_cpuid_v2// ... (115 packages)
-Loading: 1428 packages loaded
-    currently loading: @@com_github_klauspost_cpuid_v2// ... (191 packages)
-Loading: 1636 packages loaded
-    currently loading: @@com_github_klauspost_cpuid_v2// ... (221 packages)
-Loading: 2082 packages loaded
-    currently loading: @@com_github_klauspost_cpuid_v2// ... (245 packages)
-Loading: 2205 packages loaded
-    currently loading: @@com_github_klauspost_cpuid_v2// ... (271 packages)
-Loading: 2209 packages loaded
-    currently loading: @@com_github_klauspost_cpuid_v2// ... (273 packages)
-INFO: Repository default_execution_image instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/WORKSPACE:496:17: in <toplevel>
-Repository rule dockerfile_image defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/external/io_bazel_rules_docker/contrib/dockerfile_build.bzl:107:35: in <toplevel>
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/external/io_bazel_rules_docker/contrib/dockerfile_build.bzl:83:13: An error occurred during the fetch of repository 'default_execution_image':
-   Traceback (most recent call last):
-	File "/data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/external/io_bazel_rules_docker/contrib/dockerfile_build.bzl", line 83, column 13, in _impl
-		fail("docker build command failed: {} ({})".format(
-Error in fail: docker build command failed: #0 building with "default" instance using docker driver
-
-#1 [internal] load build definition from Dockerfile
-#1 transferring dockerfile:
-#1 transferring dockerfile: 1.24kB done
-#1 DONE 0.5s
-
-#2 [internal] load metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e
-#2 ERROR: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu16-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu16-04%3Apull&service=gcr.io: 403 Forbidden
-------
- > [internal] load metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e:
-------
-Dockerfile:1
---------------------
-   1 | >>> FROM gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e
-   2 |     
-   3 |     RUN apt-get update && apt-get install -y rpm build-essential && apt-get clean && rm -rf /var/lib/apt/lists/*
---------------------
-ERROR: failed to solve: gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e: failed to resolve source metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu16-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu16-04%3Apull&service=gcr.io: 403 Forbidden
- (/usr/bin/docker build --no-cache -f /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/dockerfiles/default_execution_image/Dockerfile -t default_execution_image:dockerfile_image /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/dockerfiles/default_execution_image)
+Loading: 2198 packages loaded
 INFO: Repository ci_runner_image instantiated at:
   /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/WORKSPACE:540:17: in <toplevel>
+Repository rule dockerfile_image defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/external/io_bazel_rules_docker/contrib/dockerfile_build.bzl:107:35: in <toplevel>
+INFO: Repository default_execution_image instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/WORKSPACE:496:17: in <toplevel>
 Repository rule dockerfile_image defined at:
   /data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/external/io_bazel_rules_docker/contrib/dockerfile_build.bzl:107:35: in <toplevel>
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/external/io_bazel_rules_docker/contrib/dockerfile_build.bzl:83:13: An error occurred during the fetch of repository 'ci_runner_image':
@@ -76,9 +21,8 @@ ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/
 Error in fail: docker build command failed: #0 building with "default" instance using docker driver
 
 #1 [internal] load build definition from Dockerfile
-#1 transferring dockerfile:
 #1 transferring dockerfile: 2.07kB done
-#1 DONE 0.5s
+#1 DONE 0.1s
 
 #2 [internal] load metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu18-04@sha256:48b67b41118dbcdfc265e7335f454fbefa62681ab8d47200971fc7a52fb32054
 #2 ERROR: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu18-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu18-04%3Apull&service=gcr.io: 403 Forbidden
@@ -93,31 +37,15 @@ Dockerfile:1
 --------------------
 ERROR: failed to solve: gcr.io/cloud-marketplace/google/rbe-ubuntu18-04@sha256:48b67b41118dbcdfc265e7335f454fbefa62681ab8d47200971fc7a52fb32054: failed to resolve source metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu18-04@sha256:48b67b41118dbcdfc265e7335f454fbefa62681ab8d47200971fc7a52fb32054: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu18-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu18-04%3Apull&service=gcr.io: 403 Forbidden
  (/usr/bin/docker build --no-cache -f /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/enterprise/dockerfiles/ci_runner_image/Dockerfile -t ci_runner_image:dockerfile_image /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/enterprise/dockerfiles/ci_runner_image)
-Loading: 2711 packages loaded
-    currently loading: @@org_golang_google_genproto// ... (85 packages)
-Loading: 3137 packages loaded
-Loading: 3184 packages loaded
-Loading: 3192 packages loaded
-Loading: 3199 packages loaded
-Loading: 3201 packages loaded
-Loading: 3218 packages loaded
-Loading: 3243 packages loaded
-Loading: 3258 packages loaded
-Loading: 3262 packages loaded
-Loading: 3268 packages loaded
-Loading: 3270 packages loaded
-Loading: 3271 packages loaded
-Loading: 3275 packages loaded
-Loading: 3276 packages loaded
-Loading: 3277 packages loaded
-Loading: 3279 packages loaded
-Loading: 3280 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/enterprise/server/cmd/executor/BUILD:282:16: no such package '@@default_execution_image//image': docker build command failed: #0 building with "default" instance using docker driver
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/external/io_bazel_rules_docker/contrib/dockerfile_build.bzl:83:13: An error occurred during the fetch of repository 'default_execution_image':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/c572f4eb42158898212af827d13e8082/external/io_bazel_rules_docker/contrib/dockerfile_build.bzl", line 83, column 13, in _impl
+		fail("docker build command failed: {} ({})".format(
+Error in fail: docker build command failed: #0 building with "default" instance using docker driver
 
 #1 [internal] load build definition from Dockerfile
-#1 transferring dockerfile:
 #1 transferring dockerfile: 1.24kB done
-#1 DONE 0.5s
+#1 DONE 0.1s
 
 #2 [internal] load metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e
 #2 ERROR: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu16-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu16-04%3Apull&service=gcr.io: 403 Forbidden
@@ -131,13 +59,13 @@ Dockerfile:1
    3 |     RUN apt-get update && apt-get install -y rpm build-essential && apt-get clean && rm -rf /var/lib/apt/lists/*
 --------------------
 ERROR: failed to solve: gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e: failed to resolve source metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu16-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu16-04%3Apull&service=gcr.io: 403 Forbidden
- (/usr/bin/docker build --no-cache -f /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/dockerfiles/default_execution_image/Dockerfile -t default_execution_image:dockerfile_image /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/dockerfiles/default_execution_image) and referenced by '//enterprise/server/cmd/executor:default_base_image'
+ (/usr/bin/docker build --no-cache -f /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/dockerfiles/default_execution_image/Dockerfile -t default_execution_image:dockerfile_image /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/dockerfiles/default_execution_image)
+Loading: 3281 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/enterprise/server/cmd/ci_runner/BUILD:62:16: no such package '@@ci_runner_image//image': docker build command failed: #0 building with "default" instance using docker driver
 
 #1 [internal] load build definition from Dockerfile
-#1 transferring dockerfile:
 #1 transferring dockerfile: 2.07kB done
-#1 DONE 0.5s
+#1 DONE 0.1s
 
 #2 [internal] load metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu18-04@sha256:48b67b41118dbcdfc265e7335f454fbefa62681ab8d47200971fc7a52fb32054
 #2 ERROR: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu18-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu18-04%3Apull&service=gcr.io: 403 Forbidden
@@ -152,9 +80,27 @@ Dockerfile:1
 --------------------
 ERROR: failed to solve: gcr.io/cloud-marketplace/google/rbe-ubuntu18-04@sha256:48b67b41118dbcdfc265e7335f454fbefa62681ab8d47200971fc7a52fb32054: failed to resolve source metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu18-04@sha256:48b67b41118dbcdfc265e7335f454fbefa62681ab8d47200971fc7a52fb32054: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu18-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu18-04%3Apull&service=gcr.io: 403 Forbidden
  (/usr/bin/docker build --no-cache -f /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/enterprise/dockerfiles/ci_runner_image/Dockerfile -t ci_runner_image:dockerfile_image /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/enterprise/dockerfiles/ci_runner_image) and referenced by '//enterprise/server/cmd/ci_runner:base_image'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/enterprise/server/cmd/executor/BUILD:282:16: no such package '@@default_execution_image//image': docker build command failed: #0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.24kB done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e
+#2 ERROR: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu16-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu16-04%3Apull&service=gcr.io: 403 Forbidden
+------
+ > [internal] load metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e:
+------
+Dockerfile:1
+--------------------
+   1 | >>> FROM gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e
+   2 |     
+   3 |     RUN apt-get update && apt-get install -y rpm build-essential && apt-get clean && rm -rf /var/lib/apt/lists/*
+--------------------
+ERROR: failed to solve: gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e: failed to resolve source metadata for gcr.io/cloud-marketplace/google/rbe-ubuntu16-04@sha256:5464e3e83dc656fc6e4eae6a01f5c2645f1f7e95854b3802b85e86484132d90e: failed to authorize: failed to fetch anonymous token: unexpected status from GET request to https://gcr.io/v2/token?scope=repository%3Acloud-marketplace%2Fgcr.io%2Fgoogle%2Frbe-ubuntu16-04%3Apull&scope=repository%3Acloud-marketplace%2Fgoogle%2Frbe-ubuntu16-04%3Apull&service=gcr.io: 403 Forbidden
+ (/usr/bin/docker build --no-cache -f /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/dockerfiles/default_execution_image/Dockerfile -t default_execution_image:dockerfile_image /data/h445xu/repo/bazel-repos/cloned_repos/buildbuddy-io__buildbuddy/dockerfiles/default_execution_image) and referenced by '//enterprise/server/cmd/executor:default_base_image'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
-Loading: 3281 packages loaded
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
@@ -366,4 +312,4 @@ Read 207000 lines from bazel query output...
 Read 208000 lines from bazel query output...
 Read 209000 lines from bazel query output...
 Loading: 3281 packages loaded
-INFO: Streaming build results to: https://app.buildbuddy.io/invocation/b29a43ab-aab3-4eaa-b6f4-dacefdcb30d4
+INFO: Streaming build results to: https://app.buildbuddy.io/invocation/ec06ce9c-44c3-4ff5-83a1-3e1f5b37c90d

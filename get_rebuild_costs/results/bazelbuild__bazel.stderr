@@ -1,27 +1,15 @@
-Starting local Bazel server (8.3.1) and connecting to it...
- no actions running
- no actions running
- no actions running
 Loading: 0 packages loaded
-Loading: 0 packages loaded
-WARNING: Download from https://mirror.bazel.build/github.com/protocolbuffers/protobuf/releases/download/v31.1/protobuf-31.1.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/rules_java/releases/download/8.15.0/rules_java-8.15.0.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 0 packages loaded
-Loading: 0 packages loaded
-WARNING: Download from https://mirror.bazel.build/github.com/grpc/grpc-java/archive/refs/tags/v1.71.0.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 473 packages loaded
-    currently loading: tools/android ... (45 packages)
-WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/BUILD:187:10: target 'jdk_for_jlink' is both a rule and a file; please choose another name for the rule
-Loading: 514 packages loaded
-    currently loading: third_party/remoteapis ... (4 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc-java+/java_grpc_library.bzl:201:14: Multiple values in 'deps' is deprecated in build_bazel_remote_execution_v2_remote_execution_java_grpc
-Loading: 515 packages loaded
-    currently loading: src/main/protobuf ... (3 packages)
-Loading: 515 packages loaded
-    currently loading: src/main/protobuf ... (3 packages)
-Loading: 558 packages loaded
-    currently loading: @@bazel_tools//tools/def_parser ... (6 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc-java+/java_grpc_library.bzl:201:14: Multiple values in 'deps' is deprecated in build_bazel_remote_execution_v2_remote_execution_java_grpc
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/test/shell/bazel/BUILD:934:8: no such package 'external': //external package is not available since the WORKSPACE file is disabled, please migrate to Bzlmod or temporarily enable WORKSPACE via --enable_workspace. See https://bazel.build/external/migration#bind-targets. and referenced by '//src/test/shell/bazel:maven_starlark_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/test/shell/bazel/BUILD:934:8: no such package '@@[unknown repo 'm2' requested from @@]//': The repository '@@[unknown repo 'm2' requested from @@]' could not be resolved: No repository visible as '@m2' from main repository and referenced by '//src/test/shell/bazel:maven_starlark_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/tools/singlejar/BUILD:287:8: no such target '@@rules_java++toolchains+local_jdk//:bin/jar.exe': target 'bin/jar.exe' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/rules_java++toolchains+local_jdk/BUILD.bazel (did you mean bin/jar?) and referenced by '//src/tools/singlejar:output_jar_simple_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:55:24: no such target '@@+bazel_build_deps+debian_java_deps//:agent-0.8.11': target 'agent-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean agent-0.8.6?) and referenced by '//third_party/java/jacoco:agent-0.8.11'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:138:24: no such target '@@+bazel_build_deps+debian_java_deps//:blaze-agent-0.8.11': target 'blaze-agent-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean blaze-agent-0.8.6?) and referenced by '//third_party/java/jacoco:blaze-agent-0.8.11'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:77:24: no such target '@@+bazel_build_deps+debian_java_deps//:core-0.8.11': target 'core-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean core-0.8.6?) and referenced by '//third_party/java/jacoco:core-0.8.11'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:98:26: no such target '@@+bazel_build_deps+debian_java_deps//:core-jars-0.8.11': target 'core-jars-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean core-jars-0.8.6?) and referenced by '//third_party/java/jacoco:core-jars-0.8.11'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:118:24: no such target '@@+bazel_build_deps+debian_java_deps//:report-0.8.11': target 'report-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean report-0.8.6?) and referenced by '//third_party/java/jacoco:report-0.8.11'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/BUILD:467:22: no such target '@@+bazel_build_deps+debian_java_deps//:guava-failureaccess-jar': target 'guava-failureaccess-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel and referenced by '//third_party:guava-failureaccess-jar'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/BUILD:33:10: no such target '//tools/build_defs/build_info:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_defs/build_info' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/build_info/BUILD and referenced by '//tools/build_defs:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/BUILD:33:10: no such target '//tools/build_defs/pkg:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_defs/pkg' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/pkg/BUILD and referenced by '//tools/build_defs:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/BUILD:33:10: no such target '//tools/build_defs/repo:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_defs/repo' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/repo/BUILD and referenced by '//tools/build_defs:bzl_srcs'
@@ -29,201 +17,26 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:72:10: no such target '//tools/build_rules:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_rules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_rules/BUILD and referenced by '//tools:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:72:10: no such target '//tools/python:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/python' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/python/BUILD and referenced by '//tools:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:72:10: no such target '//tools/sh:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/sh' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/sh/BUILD and referenced by '//tools:bzl_srcs'
-WARNING: Download from https://mirror.bazel.build/github.com/abseil/abseil-cpp/releases/download/20250127.1/abseil-cpp-20250127.1.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/dylibso/chicory/archive/refs/tags/1.1.0.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-arm64 failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-s390x failed: class java.io.FileNotFoundException GET returned 404 Not Found
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:77:24: no such target '@@+bazel_build_deps+debian_java_deps//:core-0.8.11': target 'core-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean core-0.8.6?) and referenced by '//third_party/java/jacoco:core-0.8.11'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:118:24: no such target '@@+bazel_build_deps+debian_java_deps//:report-0.8.11': target 'report-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean report-0.8.6?) and referenced by '//third_party/java/jacoco:report-0.8.11'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:98:26: no such target '@@+bazel_build_deps+debian_java_deps//:core-jars-0.8.11': target 'core-jars-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean core-jars-0.8.6?) and referenced by '//third_party/java/jacoco:core-jars-0.8.11'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/test/shell/bazel/BUILD:934:8: no such package 'external': //external package is not available since the WORKSPACE file is disabled, please migrate to Bzlmod or temporarily enable WORKSPACE via --enable_workspace. See https://bazel.build/external/migration#bind-targets. and referenced by '//src/test/shell/bazel:maven_starlark_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/BUILD:33:10: no such target '//tools/build_defs/pkg:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_defs/pkg' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/pkg/BUILD and referenced by '//tools/build_defs:bzl_srcs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/BUILD:467:22: no such target '@@+bazel_build_deps+debian_java_deps//:guava-failureaccess-jar': target 'guava-failureaccess-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel and referenced by '//third_party:guava-failureaccess-jar'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/BUILD:33:10: no such target '//tools/build_defs/build_info:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_defs/build_info' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/build_info/BUILD and referenced by '//tools/build_defs:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:55:24: no such target '@@+bazel_build_deps+debian_java_deps//:agent-0.8.11': target 'agent-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean agent-0.8.6?) and referenced by '//third_party/java/jacoco:agent-0.8.11'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:138:24: no such target '@@+bazel_build_deps+debian_java_deps//:blaze-agent-0.8.11': target 'blaze-agent-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean blaze-agent-0.8.6?) and referenced by '//third_party/java/jacoco:blaze-agent-0.8.11'
-WARNING: Download from https://mirror.bazel.build/github.com/jqlang/jq/releases/download/jq-1.5/jq-osx-amd64 failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/jqlang/jq/releases/download/jq-1.5/jq-win64.exe failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/jqlang/jq/releases/download/jq-1.7.1/jq-macos-arm64 failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 679 packages loaded
-    currently loading: @@protobuf+//java/core ... (6 packages)
-WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/rules_apple/releases/download/4.0.1/rules_apple.4.0.1.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.11.11+20241206-x86_64-unknown-linux-gnu-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.9.21+20241206-x86_64-unknown-linux-gnu-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/rules_jvm_external+/private/extensions/maven.bzl:155:14: The maven repository 'maven' is used in two different bazel modules, originally in 'bazel' and now in 'grpc-java'
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/rules_jvm_external+/private/extensions/maven.bzl:155:14: The maven repository 'maven' is used in two different bazel modules, originally in 'bazel' and now in 'protobuf'
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.10.16+20241206-x86_64-unknown-linux-gnu-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 702 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/rules_jvm_external+/private/rules/coursier.bzl:766:18: Found duplicate artifact versions
-    com.google.errorprone:error_prone_annotations has multiple versions 2.41.0, 2.30.0, 2.5.1
-    com.google.guava:failureaccess has multiple versions 1.0.3, 1.0.1
-    com.google.guava:guava has multiple versions 33.4.6-jre, 33.3.1-android, 32.0.1-jre
-    io.netty:netty-buffer has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-codec-http2 has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-codec-http has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-codec has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-common has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-handler-proxy has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-handler has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-resolver has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-transport-native-epoll:linux-x86_64 has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-transport-native-unix-common has multiple versions 4.1.119.Final, 4.1.110.Final
-    io.netty:netty-transport has multiple versions 4.1.119.Final, 4.1.110.Final
-    org.checkerframework:checker-qual has multiple versions 3.42.0, 3.12.0
-    com.google.code.gson:gson has multiple versions 2.11.0, 2.8.9
-Please remove duplicate artifacts from the artifact list so you do not get unexpected artifact versions
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/BUILD:467:22: no such target '@@+bazel_build_deps+debian_java_deps//:guava-failureaccess-jar': target 'guava-failureaccess-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel and referenced by '//third_party:guava-failureaccess-jar'
-Loading: 736 packages loaded
-    currently loading: @@grpc+// ... (4 packages)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/tools/singlejar/BUILD:287:8: no such target '@@rules_java++toolchains+local_jdk//:bin/jar.exe': target 'bin/jar.exe' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/rules_java++toolchains+local_jdk/BUILD.bazel (did you mean bin/jar?) and referenced by '//src/tools/singlejar:output_jar_simple_test'
-Loading: 754 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 754 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 754 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 754 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 755 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 755 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 755 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 755 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 755 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 756 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 756 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 756 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 756 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 758 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 758 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 758 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 759 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 761 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 761 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 762 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 764 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 766 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 766 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 766 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 766 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 766 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 766 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 768 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 768 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 768 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.12.8+20241206-x86_64-unknown-linux-musl-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.12.8+20241206-aarch64-apple-darwin-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 768 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.12.8+20241206-aarch64-unknown-linux-gnu-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.12.8+20241206-x86_64-apple-darwin-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.12.8+20241206-ppc64le-unknown-linux-gnu-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.12.8+20241206-s390x-unknown-linux-gnu-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.12.8+20241206-x86_64-unknown-linux-gnu-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/astral-sh/python-build-standalone/releases/download/20241206/cpython-3.12.8+20241206-x86_64-pc-windows-msvc-shared-install_only.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 770 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 773 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 778 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 784 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 788 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 791 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 820 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 845 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 870 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 871 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-Loading: 873 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/bazel_ci_rules+/rbe_repo.bzl:35:14: 
-rbe_preconfig: Unsupported version '8.3.1' (Values: '8.0.1', '7.0.2', '6.3.2', '5.2.0', '5.1.0', '5.0.0', '4.2.2', '4.2.1', '4.2.0', '4.1.0', '4.0.0'), using '8.0.1'.
-Loading: 902 packages loaded
-    currently loading: @@grpc+// ... (3 packages)
-WARNING: Download from https://mirror.bazel.build/github.com/abseil/abseil-cpp/releases/download/20250127.0/abseil-cpp-20250127.0.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/c-ares/c-ares/releases/download/cares-1_19_1/c-ares-1.19.1.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc+/src/compiler/BUILD:87:18: target 'grpc_cpp_plugin' is both a rule and a file; please choose another name for the rule
-WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc+/src/compiler/BUILD:93:18: target 'grpc_csharp_plugin' is both a rule and a file; please choose another name for the rule
-WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc+/src/compiler/BUILD:99:18: target 'grpc_node_plugin' is both a rule and a file; please choose another name for the rule
-WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc+/src/compiler/BUILD:105:18: target 'grpc_objective_c_plugin' is both a rule and a file; please choose another name for the rule
-WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc+/src/compiler/BUILD:111:18: target 'grpc_php_plugin' is both a rule and a file; please choose another name for the rule
-WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc+/src/compiler/BUILD:117:18: target 'grpc_python_plugin' is both a rule and a file; please choose another name for the rule
-WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/grpc+/src/compiler/BUILD:123:18: target 'grpc_ruby_plugin' is both a rule and a file; please choose another name for the rule
-Loading: 945 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/test/shell/bazel/BUILD:934:8: no such package 'external': //external package is not available since the WORKSPACE file is disabled, please migrate to Bzlmod or temporarily enable WORKSPACE via --enable_workspace. See https://bazel.build/external/migration#bind-targets. and referenced by '//src/test/shell/bazel:maven_starlark_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/test/shell/bazel/BUILD:934:8: no such package '@@[unknown repo 'm2' requested from @@]//': The repository '@@[unknown repo 'm2' requested from @@]' could not be resolved: No repository visible as '@m2' from main repository and referenced by '//src/test/shell/bazel:maven_starlark_test'
-Loading: 947 packages loaded
-    currently loading: @@protobuf+//python/dist
-WARNING: Download from https://mirror.bazel.build/github.com/census-instrumentation/opencensus-cpp/archive/50eb5de762e5f87e206c011a4f930adb1a1775b1.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://mirror.bazel.build/github.com/apple/swift-argument-parser/archive/refs/tags/1.3.1.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 948 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 951 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 954 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 957 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
-Loading: 959 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 960 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 960 packages loaded
-    currently loading: @@protobuf+//python/dist
-Loading: 961 packages loaded
-    currently loading: @@protobuf+//python/dist
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/test/shell/bazel/BUILD:934:8: no such package 'external': //external package is not available since the WORKSPACE file is disabled, please migrate to Bzlmod or temporarily enable WORKSPACE via --enable_workspace. See https://bazel.build/external/migration#bind-targets. and referenced by '//src/test/shell/bazel:maven_starlark_test'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/tools/singlejar/BUILD:287:8: no such target '@@rules_java++toolchains+local_jdk//:bin/jar.exe': target 'bin/jar.exe' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/rules_java++toolchains+local_jdk/BUILD.bazel (did you mean bin/jar?) and referenced by '//src/tools/singlejar:output_jar_simple_test'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:118:24: no such target '@@+bazel_build_deps+debian_java_deps//:report-0.8.11': target 'report-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean report-0.8.6?) and referenced by '//third_party/java/jacoco:report-0.8.11'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:77:24: no such target '@@+bazel_build_deps+debian_java_deps//:core-0.8.11': target 'core-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean core-0.8.6?) and referenced by '//third_party/java/jacoco:core-0.8.11'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:98:26: no such target '@@+bazel_build_deps+debian_java_deps//:core-jars-0.8.11': target 'core-jars-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean core-jars-0.8.6?) and referenced by '//third_party/java/jacoco:core-jars-0.8.11'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/src/test/shell/bazel/BUILD:934:8: no such package '@@[unknown repo 'm2' requested from @@]//': The repository '@@[unknown repo 'm2' requested from @@]' could not be resolved: No repository visible as '@m2' from main repository and referenced by '//src/test/shell/bazel:maven_starlark_test'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:72:10: no such target '//tools/python:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/python' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/python/BUILD and referenced by '//tools:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:72:10: no such target '//tools/android:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/android' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/android/BUILD and referenced by '//tools:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:72:10: no such target '//tools/build_rules:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_rules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_rules/BUILD and referenced by '//tools:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:72:10: no such target '//tools/sh:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/sh' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/sh/BUILD and referenced by '//tools:bzl_srcs'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:138:24: no such target '@@+bazel_build_deps+debian_java_deps//:blaze-agent-0.8.11': target 'blaze-agent-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean blaze-agent-0.8.6?) and referenced by '//third_party/java/jacoco:blaze-agent-0.8.11'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/internal/_api_implementation.so'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/protobuf+/python/BUILD.bazel:14:14: error loading package '@@protobuf+//python/dist': Unable to find package for @@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]//:requirements.bzl: The repository '@@[unknown repo 'protobuf_pip_deps' requested from @@protobuf+]' could not be resolved: No repository visible as '@protobuf_pip_deps' from repository '@@protobuf+'. and referenced by '@@protobuf+//python:google/protobuf/pyext/_message.so'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/BUILD:33:10: no such target '//tools/build_defs/pkg:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_defs/pkg' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/pkg/BUILD and referenced by '//tools/build_defs:bzl_srcs'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/BUILD:33:10: no such target '//tools/build_defs/build_info:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_defs/build_info' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/build_info/BUILD and referenced by '//tools/build_defs:bzl_srcs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/BUILD:72:10: no such target '//tools/python:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/python' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/python/BUILD and referenced by '//tools:bzl_srcs'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/BUILD:33:10: no such target '//tools/build_defs/repo:bzl_srcs': target 'bzl_srcs' not declared in package 'tools/build_defs/repo' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/tools/build_defs/repo/BUILD and referenced by '//tools/build_defs:bzl_srcs'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/BUILD:467:22: no such target '@@+bazel_build_deps+debian_java_deps//:guava-failureaccess-jar': target 'guava-failureaccess-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel and referenced by '//third_party:guava-failureaccess-jar'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:55:24: no such target '@@+bazel_build_deps+debian_java_deps//:agent-0.8.11': target 'agent-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean agent-0.8.6?) and referenced by '//third_party/java/jacoco:agent-0.8.11'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:98:26: no such target '@@+bazel_build_deps+debian_java_deps//:core-jars-0.8.11': target 'core-jars-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean core-jars-0.8.6?) and referenced by '//third_party/java/jacoco:core-jars-0.8.11'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:77:24: no such target '@@+bazel_build_deps+debian_java_deps//:core-0.8.11': target 'core-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean core-0.8.6?) and referenced by '//third_party/java/jacoco:core-0.8.11'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__bazel/third_party/java/jacoco/BUILD:118:24: no such target '@@+bazel_build_deps+debian_java_deps//:report-0.8.11': target 'report-0.8.11' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/8641f4be5c48cde930727df73403f7db/external/+bazel_build_deps+debian_java_deps/BUILD.bazel (did you mean report-0.8.6?) and referenced by '//third_party/java/jacoco:report-0.8.11'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -547,7 +360,3 @@ Read 317000 lines from bazel query output...
 Read 318000 lines from bazel query output...
 Read 319000 lines from bazel query output...
 Read 320000 lines from bazel query output...
-
-thread 'main' panicked at depstat/src/main.rs:24:52:
-called `Result::unwrap()` on an `Err` value: "Cannot create an edge from a node to itself"
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

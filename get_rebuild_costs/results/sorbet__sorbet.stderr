@@ -1,45 +1,9 @@
-No cached Bazel found, installing...
-Read 0 lines from bazel query output...
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  0 48.7M    0  126k    0     0   375k      0  0:02:13 --:--:--  0:02:13  375k100 48.7M  100 48.7M    0     0  37.3M      0  0:00:01  0:00:01 --:--:-- 50.3M
-WARNING: Invoking Bazel in batch mode since it is not invoked from within a workspace (below a directory having a WORKSPACE file).
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 76 packages loaded
-    currently loading: test ... (2 packages)
-Loading: 79 packages loaded
-Loading: 140 packages loaded
-    currently loading: @com_google_protobuf// ... (3 packages)
-Loading: 215 packages loaded
-Loading: 254 packages loaded
-Loading: 255 packages loaded
+Loading: 77 packages loaded
+    currently loading: test
+Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...
 Read 3000 lines from bazel query output...
@@ -268,7 +232,3 @@ Read 225000 lines from bazel query output...
 Read 226000 lines from bazel query output...
 Read 227000 lines from bazel query output...
 Loading: 255 packages loaded
-
-thread 'main' panicked at depstat/src/main.rs:23:43:
-called `Result::unwrap()` on an `Err` value: Custom("invalid type: string \"/tmp/tmp.NdckAqDGpmBazel installer---------------Bazel is bundled with software licensed under the GPLv2 with Classpath exception.You can find the sources next to the installer on our release page:   https://github.com/bazelbuild/bazel/releases# ## Build information   - [Commit](https://github.com/bazelbuild/bazel/commit/2aa603b)Uncompressing.......Bazel is now installed!Make sure you have \\\"/home/hongxu/.bazel_binaries/c0161a346b9c0d00e6eb3d3e8f9c4dece32f6292520248c5ab2e3527265601c1/bin_t\\\" in your path.For bash completion, add the following line to your :  source /home/hongxu/.bazel_binaries/c0161a346b9c0d00e6eb3d3e8f9c4dece32f6292520248c5ab2e3527265601c1/bin/bazel-complete.bashFor fish shell completion, link this file into your/home/hongxu/.config/fish/completions/ directory:  ln -s /home/hongxu/.bazel_binaries/c0161a346b9c0d00e6eb3d3e8f9c4dece32f6292520248c5ab2e3527265601c1/bin/bazel.fish /home/hongxu/.config/fish/completions/bazel.fishSee http://bazel.build/docs/getting-started.html to start a new project!\", expected struct Query")
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

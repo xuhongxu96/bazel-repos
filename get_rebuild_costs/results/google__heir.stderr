@@ -1,35 +1,9 @@
 Starting local Bazel server (8.3.1) and connecting to it...
  no actions running
- no actions running
 WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
- no actions running
- no actions running
- no actions running
-DEBUG: Rule 'rules_hdl' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-ynu06uxjbIM/mI1EuiU5ej030JDuQeZgQmvBnkFsxGQ="
-DEBUG: Repository rules_hdl instantiated at:
-  /data/h445xu/repo/bazel-repos/cloned_repos/google__heir/WORKSPACE.bzlmod:47:13: in <toplevel>
-Repository rule http_archive defined at:
-  /data/h445xu/.cache/bazel/_bazel_hongxu/b00004fcbf1992ad5c076d6374dd54cb/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
 Loading: 0 packages loaded
-Loading: 289 packages loaded
-    currently loading: tests/Examples/lattigo/bgv/simple_sum ... (23 packages)
-Loading: 581 packages loaded
-    currently loading: @@tk_tcl//
-Loading: 683 packages loaded
-Loading: 701 packages loaded
-Loading: 701 packages loaded
-Loading: 710 packages loaded
-Loading: 713 packages loaded
-Loading: 718 packages loaded
-Loading: 718 packages loaded
-Loading: 720 packages loaded
-Loading: 721 packages loaded
-Loading: 722 packages loaded
-Loading: 723 packages loaded
-Loading: 723 packages loaded
-Loading: 738 packages loaded
-    currently loading: @@gazelle++go_deps+com_github_stretchr_testify//assert/yaml
-Loading: 755 packages loaded
+Loading: 549 packages loaded
+    currently loading: @@llvm-project//llvm ... (9 packages)
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
 Read 2000 lines from bazel query output...

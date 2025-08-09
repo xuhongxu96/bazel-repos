@@ -1,36 +1,10 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 1 packages loaded
-    currently loading:  ... (25 packages)
-Loading: 405 packages loaded
-    currently loading: @com_envoyproxy_protoc_gen_validate//validate ... (48 packages)
-Loading: 805 packages loaded
-    currently loading: @com_envoyproxy_protoc_gen_validate//validate ... (4 packages)
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/aeraki-mesh__meta-protocol-proxy/WORKSPACE:70:19: no such target '//bazel:python_headers': target 'python_headers' not declared in package 'bazel' defined by /data/h445xu/repo/bazel-repos/cloned_repos/aeraki-mesh__meta-protocol-proxy/bazel/BUILD (Tip: use `query "//bazel:*"` to see all the targets in that package) and referenced by '//external:python_headers'
-Loading: 882 packages loaded
-Loading: 909 packages loaded
-    currently loading: @com_github_google_quiche//
-Loading: 942 packages loaded
-Loading: 971 packages loaded
-Loading: 1023 packages loaded
-    currently loading: @wasmtime__cranelift_frontend__0_96_3//
-Loading: 1039 packages loaded
-Loading: 1040 packages loaded
-Loading: 1041 packages loaded
-Loading: 1041 packages loaded
-Loading: 1043 packages loaded
-Loading: 1043 packages loaded
-Loading: 1101 packages loaded
-Loading: 1103 packages loaded
-Loading: 1120 packages loaded
+Loading: 1005 packages loaded
+    currently loading: @com_github_google_quiche// ... (8 packages)
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...

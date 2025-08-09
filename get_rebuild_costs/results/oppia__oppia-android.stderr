@@ -1,182 +1,35 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:104:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:104:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:104:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
 DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:104:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
-Loading: 246 packages loaded
-    currently loading: @maven// ... (3 packages)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/src/javatests/org/oppia/android/scripts/apkstats/BUILD.bazel:7:12: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts/src/javatests/org/oppia/android/scripts/apkstats:Aapt2ClientTest'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/BUILD.bazel:46:14: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts:compute_aab_differences'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/src/javatests/org/oppia/android/scripts/apkstats/BUILD.bazel:43:12: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts/src/javatests/org/oppia/android/scripts/apkstats:ComputeAabDifferencesTest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/BUILD:421:6: no such target '@androidsdk//:adb': target 'adb' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android:adb'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:15:6: no such target '@androidsdk//:emulator_x86_bios': target 'emulator_x86_bios' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:emulator_x86_bios'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:5:6: no such target '@androidsdk//:emulator_arm': target 'emulator_arm' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:emulator_arm'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:10:6: no such target '@androidsdk//:emulator_x86': target 'emulator_x86' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:emulator_x86'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:33:10: no such target '@androidsdk//:emulator_shared_libs': target 'emulator_shared_libs' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:xvfb_support'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:40:6: no such target '@androidsdk//:sdk_path': target 'sdk_path' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:sdk_path'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:20:6: no such target '@androidsdk//:mksd': target 'mksd' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:mksd'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/android_test_support/tools/android/emulated_devices/generic_phone/BUILD.bazel:43:12: no such target '@androidsdk//:emulator_images_android_23_x86': target 'emulator_images_android_23_x86' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@android_test_support//tools/android/emulated_devices/generic_phone:android_23_x86_qemu2_images'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/android_test_support/tools/android/emulated_devices/generic_phone/BUILD.bazel:43:12: no such target '@androidsdk//:qemu2_x86': target 'qemu2_x86' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@android_test_support//tools/android/emulated_devices/generic_phone:android_23_x86_qemu2_images'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/android_test_support/tools/android/emulated_devices/generic_phone/BUILD.bazel:43:12: no such target '@androidsdk//:emulator_images_android_23_x86_qemu2_extra': target 'emulator_images_android_23_x86_qemu2_extra' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@android_test_support//tools/android/emulated_devices/generic_phone:android_23_x86_qemu2_images'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/BUILD:421:6: no such target '@androidsdk//:adb': target 'adb' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android:adb'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:5:6: no such target '@androidsdk//:emulator_arm': target 'emulator_arm' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:emulator_arm'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:10:6: no such target '@androidsdk//:emulator_x86': target 'emulator_x86' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:emulator_x86'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:15:6: no such target '@androidsdk//:emulator_x86_bios': target 'emulator_x86_bios' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:emulator_x86_bios'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:20:6: no such target '@androidsdk//:mksd': target 'mksd' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:mksd'
-ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/bazel_tools/tools/android/emulator/BUILD:33:10: no such target '@androidsdk//:emulator_shared_libs': target 'emulator_shared_libs' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '@bazel_tools//tools/android/emulator:xvfb_support'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/BUILD.bazel:77:35: every rule of type _convert_apk_to_module_aab implicitly depends upon the target '@androidsdk//:aapt2_binary', but this target could not be found because of: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/BUILD.bazel:77:35: every rule of type _convert_apk_to_module_aab implicitly depends upon the target '@androidsdk//:aapt2_binary', but this target could not be found because of: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/BUILD.bazel:77:35: every rule of type _convert_apk_to_module_aab implicitly depends upon the target '@androidsdk//:aapt2_binary', but this target could not be found because of: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/BUILD.bazel:77:35: every rule of type _convert_apk_to_module_aab implicitly depends upon the target '@androidsdk//:aapt2_binary', but this target could not be found because of: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package)
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/com_google_protobuf/BUILD:1004:11: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_google_protobuf//:proto_api'
-Loading: 317 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 319 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 319 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 319 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 325 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 325 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 329 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 336 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 354 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 379 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 388 packages loaded
-    currently loading: @oppia_proto_api//
-Loading: 402 packages loaded
-Loading: 417 packages loaded
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/com_google_protobuf/BUILD:806:10: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_google_protobuf//:python/google/protobuf/internal/_api_implementation.so'
 ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/com_google_protobuf/BUILD:827:10: no such target '//external:python_headers': target 'python_headers' not declared in package 'external' defined by /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/WORKSPACE (Tip: use `query "//external:*"` to see all the targets in that package) and referenced by '@com_google_protobuf//:python/google/protobuf/pyext/_message.so'
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.21/kotlin-stdlib-common-1.6.21.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/guava/guava/31.0.1-android/guava-31.0.1-android.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/github/bumptech/glide/gifdecoder/4.11.0/gifdecoder-4.11.0.aar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/github/bumptech/glide/mocks/4.11.0/mocks-4.11.0.aar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 461 packages loaded
-WARNING: Download from https://maven.google.com/com/github/bumptech/glide/disklrucache/4.11.0/disklrucache-4.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/checkerframework/checker-qual/3.21.3/checker-qual-3.21.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/truth/truth/1.1.3/truth-1.1.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/github/bumptech/glide/annotations/4.11.0/annotations-4.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/github/bumptech/glide/compiler/4.11.0/compiler-4.11.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/protobuf/protobuf-javalite/3.19.2/protobuf-javalite-3.19.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/truth/extensions/truth-liteproto-extension/1.1.3/truth-liteproto-extension-1.1.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/github/bumptech/glide/glide/4.11.0/glide-4.11.0.aar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/dagger/dagger-compiler/2.41/dagger-compiler-2.41.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.3.0/kotlinx-metadata-jvm-0.3.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/dagger/dagger-producers/2.41/dagger-producers-2.41.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/dagger/dagger/2.41/dagger-2.41.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/android/apps/common/testing/accessibility/framework/accessibility-test-framework/2.0/accessibility-test-framework-2.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 497 packages loaded
-WARNING: Download from https://maven.google.com/net/bytebuddy/byte-buddy-agent/1.10.20/byte-buddy-agent-1.10.20.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.6.21/kotlin-stdlib-1.6.21.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/utils-reflector/4.7/utils-reflector-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 525 packages loaded
-WARNING: Download from https://maven.google.com/org/robolectric/robolectric/4.7/robolectric-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.21/kotlin-stdlib-jdk7-1.6.21.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/shadowapi/4.7/shadowapi-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/junit/4.7/junit-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 559 packages loaded
-WARNING: Download from https://maven.google.com/com/squareup/moshi/moshi/1.13.0/moshi-1.13.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/squareup/retrofit2/retrofit-mock/2.5.0/retrofit-mock-2.5.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/squareup/moshi/moshi-kotlin/1.13.0/moshi-kotlin-1.13.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-reflect/1.6.0/kotlin-reflect-1.6.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/squareup/kotlinpoet/1.10.2/kotlinpoet-1.10.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/nl/dionsegijn/konfetti/1.2.5/konfetti-1.2.5.aar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.6.4/kotlinx-coroutines-android-1.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlinx/kotlinx-coroutines-test-jvm/1.6.4/kotlinx-coroutines-test-jvm-1.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 581 packages loaded
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlinx/kotlinx-coroutines-test/1.6.4/kotlinx-coroutines-test-1.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/annotations/4.7/annotations-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/squareup/moshi/moshi-kotlin-codegen/1.13.0/moshi-kotlin-codegen-1.13.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.21/kotlin-stdlib-jdk8-1.6.21.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-test-junit/1.3.72/kotlin-test-junit-1.3.72.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-test-annotations-common/1.3.72/kotlin-test-annotations-common-1.3.72.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 601 packages loaded
-WARNING: Download from https://maven.google.com/com/beust/jcommander/1.64/jcommander-1.64.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/pluginapi/4.7/pluginapi-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/protobuf/protobuf-java-util/3.17.3/protobuf-java-util-3.17.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/protobuf/protobuf-java/3.17.3/protobuf-java-3.17.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/squareup/okhttp3/okhttp/4.7.2/okhttp-4.7.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/grpc/grpc-context/1.44.1/grpc-context-1.44.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/xlate/yaml-json/0.1.0/yaml-json-0.1.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlinx/kotlinx-coroutines-guava/1.6.4/kotlinx-coroutines-guava-1.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/squareup/okhttp3/mockwebserver/4.7.2/mockwebserver-4.7.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/eclipse/parsson/parsson/1.1.2/parsson-1.1.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-Loading: 624 packages loaded
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0/kotlin-script-runtime-1.5.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/jakarta/json/jakarta.json-api/2.1.2/jakarta.json-api-2.1.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/mockito/kotlin/mockito-kotlin/3.2.0/mockito-kotlin-3.2.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/snakeyaml/snakeyaml-engine/2.6/snakeyaml-engine-2.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/squareup/retrofit2/converter-moshi/2.5.0/converter-moshi-2.5.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/src/javatests/org/oppia/android/scripts/apkstats/BUILD.bazel:7:12: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts/src/javatests/org/oppia/android/scripts/apkstats:Aapt2ClientTest'
-WARNING: Download from https://maven.google.com/org/robolectric/plugins-maven-dependency-resolver/4.7/plugins-maven-dependency-resolver-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-test-common/1.3.72/kotlin-test-common-1.3.72.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-test/1.3.72/kotlin-test-1.3.72.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/net/java/dev/jna/jna/5.6.0/jna-5.6.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0/kotlin-daemon-embeddable-1.5.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/dagger/dagger-spi/2.41/dagger-spi-2.41.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/mockito/mockito-core/3.9.0/mockito-core-3.9.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/grpc/grpc-android/1.44.1/grpc-android-1.44.1.aar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/resources/4.7/resources-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/utils/4.7/utils-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/sandbox/4.7/sandbox-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/grpc/grpc-okhttp/1.44.1/grpc-okhttp-1.44.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/smali/util/2.2.4/util-2.2.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/grpc/grpc-core/1.44.1/grpc-core-1.44.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/net/bytebuddy/byte-buddy/1.10.20/byte-buddy-1.10.20.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/almworks/sqlite4java/sqlite4java/1.0.392/sqlite4java-1.0.392.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/smali/baksmali/2.2.4/baksmali-2.2.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/grpc/grpc-protobuf-lite/1.44.1/grpc-protobuf-lite-1.44.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/shadows-framework/4.7/shadows-framework-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/smali/dexlib2/2.2.4/dexlib2-2.2.4.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/bouncycastle/bcpkix-jdk15on/1.67/bcpkix-jdk15on-1.67.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/grpc/grpc-stub/1.44.1/grpc-stub-1.44.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/io/grpc/grpc-api/1.44.1/grpc-api-1.44.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/BUILD.bazel:77:35: every rule of type _convert_apk_to_module_aab implicitly depends upon the target '@androidsdk//:aapt2_binary', but this target could not be found because of: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/BUILD.bazel:77:35: every rule of type _convert_apk_to_module_aab implicitly depends upon the target '@androidsdk//:aapt2_binary', but this target could not be found because of: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/BUILD.bazel:77:35: every rule of type _convert_apk_to_module_aab implicitly depends upon the target '@androidsdk//:aapt2_binary', but this target could not be found because of: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package)
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/BUILD.bazel:77:35: every rule of type _convert_apk_to_module_aab implicitly depends upon the target '@androidsdk//:aapt2_binary', but this target could not be found because of: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package)
-WARNING: Download from https://maven.google.com/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/BUILD.bazel:46:14: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts:compute_aab_differences'
+Loading: 675 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/src/javatests/org/oppia/android/scripts/apkstats/BUILD.bazel:43:12: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts/src/javatests/org/oppia/android/scripts/apkstats:ComputeAabDifferencesTest'
-Loading: 672 packages loaded
-WARNING: Download from https://maven.google.com/com/ibm/icu/icu4j/53.1/icu4j-53.1.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/robolectric/nativeruntime/4.7/nativeruntime-4.7.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-WARNING: Download from https://maven.google.com/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0/kotlin-compiler-embeddable-1.5.0.jar failed: class java.io.FileNotFoundException GET returned 404 Not Found
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/src/javatests/org/oppia/android/scripts/apkstats/BUILD.bazel:7:12: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts/src/javatests/org/oppia/android/scripts/apkstats:Aapt2ClientTest'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/BUILD.bazel:46:14: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts:compute_aab_differences'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/src/javatests/org/oppia/android/scripts/apkstats/BUILD.bazel:43:12: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts/src/javatests/org/oppia/android/scripts/apkstats:ComputeAabDifferencesTest'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/oppia__oppia-android/scripts/src/javatests/org/oppia/android/scripts/apkstats/BUILD.bazel:7:12: no such target '@androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/2947f08443217b563a8d2a45301f10f0/external/androidsdk/BUILD.bazel (Tip: use `query "@androidsdk//:*"` to see all the targets in that package) and referenced by '//scripts/src/javatests/org/oppia/android/scripts/apkstats:Aapt2ClientTest'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -249,7 +102,6 @@ Read 66000 lines from bazel query output...
 Read 67000 lines from bazel query output...
 Read 68000 lines from bazel query output...
 Read 69000 lines from bazel query output...
-Loading: 675 packages loaded
 Read 70000 lines from bazel query output...
 Read 71000 lines from bazel query output...
 Read 72000 lines from bazel query output...

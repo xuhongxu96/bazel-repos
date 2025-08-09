@@ -1,28 +1,10 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 26 packages loaded
-    currently loading: webapp ... (91 packages)
-Loading: 225 packages loaded
-    currently loading: lib/emojis ... (9 packages)
-Loading: 225 packages loaded
-    currently loading: lib/emojis ... (9 packages)
-Loading: 225 packages loaded
-    currently loading: lib/emojis ... (9 packages)
-Loading: 225 packages loaded
-    currently loading: lib/emojis ... (9 packages)
-Loading: 225 packages loaded
-    currently loading: lib/emojis ... (9 packages)
-Loading: 235 packages loaded
-    currently loading: @@bazel_tools//tools/cpp ... (2 packages)
-Loading: 282 packages loaded
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/WORKSPACE:76:17: fetching local_repository rule //external:java-prettify: java.io.IOException: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/java-prettify
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/WORKSPACE:82:17: fetching local_repository rule //external:jgit: java.io.IOException: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/WORKSPACE:76:17: fetching local_repository rule //external:java-prettify: java.io.IOException: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/java-prettify
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/gitiles/BUILD:53:13: no such package '@@java-prettify//': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/java-prettify and referenced by '//lib/gitiles:prettify'
+Loading: 327 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/codemirror-editor': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/codemirror-editor and referenced by '//plugins:core'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/commit-message-length-validator': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -45,12 +27,9 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugi
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/singleusergroup and referenced by '//plugins:core'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/webhooks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/webhooks and referenced by '//plugins:core'
-Loading: 546 packages loaded
-    currently loading: @@bazel_tools//third_party/ijar ... (6 packages)
-Loading: 761 packages loaded
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:38:13: no such package '@@jgit//org.eclipse.jgit': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:67:13: no such package '@@jgit//org.eclipse.jgit.junit': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-junit'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:76:13: no such package '@@jgit//org.eclipse.jgit.http.server': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-servlet'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:67:13: no such package '@@jgit//org.eclipse.jgit.junit': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-junit'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:59:13: no such package '@@jgit//org.eclipse.jgit.archive': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-archive'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:49:13: no such package '@@jgit//org.eclipse.jgit.ssh.apache': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-ssh-apache'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/javatests/com/google/gerrit/server/submit/BUILD:3:12: no such package '@@jgit//org.eclipse.jgit.junit': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//javatests/com/google/gerrit/server/submit:submit_tests'
@@ -76,55 +55,43 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/singleusergroup and referenced by '//tools/eclipse:main_classpath_collect'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/webhooks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/webhooks and referenced by '//tools/eclipse:main_classpath_collect'
-Loading: 798 packages loaded
-Loading: 798 packages loaded
-Loading: 841 packages loaded
-    currently loading: @@ui_npm//lit
-Loading: 842 packages loaded
-Loading: 916 packages loaded
-Loading: 916 packages loaded
-Loading: 1306 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:49:13: no such package '@@jgit//org.eclipse.jgit.ssh.apache': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-ssh-apache'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:38:13: no such package '@@jgit//org.eclipse.jgit': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:67:13: no such package '@@jgit//org.eclipse.jgit.junit': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-junit'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:76:13: no such package '@@jgit//org.eclipse.jgit.http.server': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-servlet'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:59:13: no such package '@@jgit//org.eclipse.jgit.archive': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-archive'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:76:13: no such package '@@jgit//org.eclipse.jgit.http.server': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-servlet'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:67:13: no such package '@@jgit//org.eclipse.jgit.junit': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-junit'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/javatests/com/google/gerrit/server/submit/BUILD:3:12: no such package '@@jgit//org.eclipse.jgit.junit': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//javatests/com/google/gerrit/server/submit:submit_tests'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/hooks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/hooks and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/replication': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/replication and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/download-commands': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/download-commands and referenced by '//plugins:core'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/singleusergroup': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/singleusergroup and referenced by '//plugins:core'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/webhooks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/webhooks and referenced by '//plugins:core'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/gitiles': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/gitiles and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/delete-project': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/delete-project and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/codemirror-editor': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/codemirror-editor and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/commit-message-length-validator': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/commit-message-length-validator and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/gitiles': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/gitiles and referenced by '//tools/eclipse:main_classpath_collect'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/download-commands': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/download-commands and referenced by '//tools/eclipse:main_classpath_collect'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/delete-project': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/delete-project and referenced by '//tools/eclipse:main_classpath_collect'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/commit-message-length-validator': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/commit-message-length-validator and referenced by '//tools/eclipse:main_classpath_collect'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/codemirror-editor': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/codemirror-editor and referenced by '//tools/eclipse:main_classpath_collect'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/hooks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/hooks and referenced by '//plugins:core'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/reviewnotes': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/reviewnotes and referenced by '//plugins:core'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/replication': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/replication and referenced by '//plugins:core'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/plugin-manager': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/plugin-manager and referenced by '//plugins:core'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/commit-message-length-validator': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/commit-message-length-validator and referenced by '//plugins:core'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/replication': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/replication and referenced by '//plugins:core'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/delete-project': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/delete-project and referenced by '//plugins:core'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/download-commands': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/download-commands and referenced by '//plugins:core'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/codemirror-editor': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/codemirror-editor and referenced by '//plugins:core'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/gitiles/BUILD:53:13: no such package '@@java-prettify//': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/java-prettify and referenced by '//lib/gitiles:prettify'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/webhooks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/webhooks and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/singleusergroup': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/singleusergroup and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/BUILD:20:9: no such package 'plugins/reviewnotes': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/reviewnotes and referenced by '//plugins:core'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/lib/BUILD:49:13: no such package '@@jgit//org.eclipse.jgit.ssh.apache': No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/modules/jgit and referenced by '//lib:jgit-ssh-apache'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/commit-message-length-validator': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/commit-message-length-validator and referenced by '//tools/eclipse:main_classpath_collect'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/codemirror-editor': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/codemirror-editor and referenced by '//tools/eclipse:main_classpath_collect'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/delete-project': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/delete-project and referenced by '//tools/eclipse:main_classpath_collect'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/webhooks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/webhooks and referenced by '//tools/eclipse:main_classpath_collect'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/singleusergroup': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
@@ -133,12 +100,16 @@ ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/reviewnotes and referenced by '//tools/eclipse:main_classpath_collect'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/replication': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/replication and referenced by '//tools/eclipse:main_classpath_collect'
-ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/replication': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
- - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/replication and referenced by '//tools/eclipse:main_classpath_collect'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/plugin-manager': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/plugin-manager and referenced by '//tools/eclipse:main_classpath_collect'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/replication': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/replication and referenced by '//tools/eclipse:main_classpath_collect'
 ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/hooks': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
  - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/hooks and referenced by '//tools/eclipse:main_classpath_collect'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/gitiles': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/gitiles and referenced by '//tools/eclipse:main_classpath_collect'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/tools/eclipse/BUILD:35:20: no such package 'plugins/download-commands': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - /data/h445xu/repo/bazel-repos/cloned_repos/GerritCodeReview__gerrit/plugins/download-commands and referenced by '//tools/eclipse:main_classpath_collect'
 ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
@@ -288,6 +259,7 @@ Read 143000 lines from bazel query output...
 Read 144000 lines from bazel query output...
 Read 145000 lines from bazel query output...
 Read 146000 lines from bazel query output...
+Loading: 1306 packages loaded
 Read 147000 lines from bazel query output...
 Read 148000 lines from bazel query output...
 Read 149000 lines from bazel query output...
@@ -445,3 +417,13 @@ Read 300000 lines from bazel query output...
 Read 301000 lines from bazel query output...
 Read 302000 lines from bazel query output...
 Read 303000 lines from bazel query output...
+Read 304000 lines from bazel query output...
+Read 305000 lines from bazel query output...
+Read 306000 lines from bazel query output...
+Read 307000 lines from bazel query output...
+Read 308000 lines from bazel query output...
+Read 309000 lines from bazel query output...
+Read 310000 lines from bazel query output...
+Read 311000 lines from bazel query output...
+Read 312000 lines from bazel query output...
+Read 313000 lines from bazel query output...

@@ -1,36 +1,21 @@
 Starting local Bazel server and connecting to it...
  checking cached actions
  checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
- checking cached actions
 Loading: 0 packages loaded
-Loading: 26 packages loaded
-    currently loading: tests/endpoints/bookstore_grpc/proto ... (3 packages)
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/GoogleCloudPlatform__esp-v2/tests/endpoints/bookstore_grpc/proto/v2/BUILD", line 1, column 46, in <toplevel>
-		load("@com_google_protobuf//:protobuf.bzl", "cc_proto_library")
-Error: file '@com_google_protobuf//:protobuf.bzl' does not contain symbol 'cc_proto_library' (did you mean 'py_proto_library'?)
-ERROR: Traceback (most recent call last):
-	File "/data/h445xu/repo/bazel-repos/cloned_repos/GoogleCloudPlatform__esp-v2/tests/endpoints/bookstore_grpc/proto/v1/BUILD", line 1, column 46, in <toplevel>
 		load("@com_google_protobuf//:protobuf.bzl", "cc_proto_library")
 Error: file '@com_google_protobuf//:protobuf.bzl' does not contain symbol 'cc_proto_library' (did you mean 'py_proto_library'?)
 ERROR: Traceback (most recent call last):
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/GoogleCloudPlatform__esp-v2/tests/endpoints/bookstore_grpc/proto/BUILD", line 1, column 46, in <toplevel>
 		load("@com_google_protobuf//:protobuf.bzl", "cc_proto_library")
 Error: file '@com_google_protobuf//:protobuf.bzl' does not contain symbol 'cc_proto_library' (did you mean 'py_proto_library'?)
-ERROR: package contains errors: tests/endpoints/bookstore_grpc/proto/v1
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/GoogleCloudPlatform__esp-v2/tests/endpoints/bookstore_grpc/proto/v1/BUILD", line 1, column 46, in <toplevel>
+		load("@com_google_protobuf//:protobuf.bzl", "cc_proto_library")
+Error: file '@com_google_protobuf//:protobuf.bzl' does not contain symbol 'cc_proto_library' (did you mean 'py_proto_library'?)
 ERROR: package contains errors: tests/endpoints/bookstore_grpc/proto/v2
+ERROR: package contains errors: tests/endpoints/bookstore_grpc/proto/v1
 ERROR: package contains errors: tests/endpoints/bookstore_grpc/proto
 ERROR: package contains errors: tests/endpoints/bookstore_grpc/proto/v1: Traceback (most recent call last):
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/GoogleCloudPlatform__esp-v2/tests/endpoints/bookstore_grpc/proto/v1/BUILD", line 1, column 46, in <toplevel>
@@ -44,21 +29,8 @@ ERROR: package contains errors: tests/endpoints/bookstore_grpc/proto: Traceback 
 	File "/data/h445xu/repo/bazel-repos/cloned_repos/GoogleCloudPlatform__esp-v2/tests/endpoints/bookstore_grpc/proto/BUILD", line 1, column 46, in <toplevel>
 		load("@com_google_protobuf//:protobuf.bzl", "cc_proto_library")
 Error: file '@com_google_protobuf//:protobuf.bzl' does not contain symbol 'cc_proto_library' (did you mean 'py_proto_library'?)
-Loading: 262 packages loaded
-    currently loading: @envoy//bazel ... (29 packages)
-Loading: 520 packages loaded
-Loading: 531 packages loaded
-Loading: 536 packages loaded
-Loading: 538 packages loaded
-Loading: 539 packages loaded
-Loading: 541 packages loaded
-Loading: 541 packages loaded
-Loading: 541 packages loaded
-Loading: 542 packages loaded
-Loading: 542 packages loaded
-Loading: 594 packages loaded
-Loading: 596 packages loaded
-Loading: 613 packages loaded
+Loading: 522 packages loaded
+    currently loading: @com_github_google_quiche// ... (2 packages)
 WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
 Read 0 lines from bazel query output...
 Read 1000 lines from bazel query output...
