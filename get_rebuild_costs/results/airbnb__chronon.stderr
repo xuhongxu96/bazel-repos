@@ -1,0 +1,307 @@
+Starting local Bazel server and connecting to it...
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+Loading: 0 packages loaded
+Loading: 32 packages loaded
+    currently loading: @rules_python//python/private ... (9 packages)
+Loading: 100 packages loaded
+    currently loading: @bazel_tools//src/main/protobuf
+Loading: 101 packages loaded
+    currently loading: @bazel_tools//src/main/protobuf ... (2 packages)
+Loading: 156 packages loaded
+    currently loading: @bazel_tools//src/main/protobuf
+Loading: 301 packages loaded
+    currently loading: @bazel_tools//src/main/protobuf
+Loading: 326 packages loaded
+Loading: 333 packages loaded
+Loading: 335 packages loaded
+Loading: 336 packages loaded
+Loading: 339 packages loaded
+Loading: 339 packages loaded
+Loading: 339 packages loaded
+Loading: 340 packages loaded
+Loading: 348 packages loaded
+Loading: 354 packages loaded
+Loading: 354 packages loaded
+Loading: 356 packages loaded
+INFO: Repository spark_3_1 instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/WORKSPACE:134:10: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/jvm/mirrors.bzl:23:22: in load_deps
+  /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/rules_jvm_external/private/rules/maven_install.bzl:118:23: in maven_install
+Repository rule coursier_fetch defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/rules_jvm_external/coursier.bzl:1378:33: in <toplevel>
+INFO: repository @spark_3_1' used the following cache hits instead of downloading the corresponding file.
+ * Hash '2b78bfdd3ef13fd1f42f158de0f029d7cbb1f4f652d51773445cf2b6f7918a87' for https://github.com/coursier/coursier/releases/download/v2.1.8/coursier.jar
+If the definition of 'repository @spark_3_1' was updated, verify that the hashes were also updated.
+ERROR: An error occurred during the fetch of repository 'spark_3_1':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/rules_jvm_external/coursier.bzl", line 985, column 38, in _coursier_fetch_impl
+		dep_tree = make_coursier_dep_tree(
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/rules_jvm_external/coursier.bzl", line 918, column 13, in make_coursier_dep_tree
+		fail("Error while fetching artifact with coursier: " + exec_result.stderr)
+Error in fail: Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/WORKSPACE:134:10: fetching coursier_fetch rule //external:spark_3_1: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/rules_jvm_external/coursier.bzl", line 985, column 38, in _coursier_fetch_impl
+		dep_tree = make_coursier_dep_tree(
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/rules_jvm_external/coursier.bzl", line 918, column 13, in make_coursier_dep_tree
+		fail("Error while fetching artifact with coursier: " + exec_result.stderr)
+Error in fail: Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+Loading: 365 packages loaded
+    currently loading: @pypi_importlib_resources//
+Loading: 367 packages loaded
+Loading: 367 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/pypi_keyring/BUILD.bazel:31:11: no such package '@pypi_jeepney//': The repository '@pypi_jeepney' could not be resolved: Repository '@pypi_jeepney' is not defined and referenced by '@pypi_keyring//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/pypi_keyring/BUILD.bazel:31:11: no such package '@pypi_secretstorage//': The repository '@pypi_secretstorage' could not be resolved: Repository '@pypi_secretstorage' is not defined and referenced by '@pypi_keyring//:pkg'
+Loading: 371 packages loaded
+Loading: 371 packages loaded
+Loading: 371 packages loaded
+Loading: 371 packages loaded
+Loading: 371 packages loaded
+Loading: 372 packages loaded
+Loading: 372 packages loaded
+Loading: 372 packages loaded
+Loading: 372 packages loaded
+Loading: 372 packages loaded
+Loading: 372 packages loaded
+Loading: 373 packages loaded
+Loading: 373 packages loaded
+Loading: 373 packages loaded
+Loading: 374 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_core_2_12': target 'org_apache_spark_spark_core_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_core_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_catalyst_2_12': target 'org_apache_spark_spark_catalyst_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_catalyst_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_sql_2_12': target 'org_apache_spark_spark_sql_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_sql_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_hive_2_12': target 'org_apache_spark_spark_hive_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_hive_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_sketch_2_12': target 'org_apache_spark_spark_sketch_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_sketch_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_streaming_2_12': target 'org_apache_spark_spark_streaming_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_streaming_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_tags_2_12': target 'org_apache_spark_spark_tags_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_tags_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_unsafe_2_12': target 'org_apache_spark_spark_unsafe_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_unsafe_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:com_fasterxml_jackson_module_jackson_module_scala_2_12': target 'com_fasterxml_jackson_module_jackson_module_scala_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'com_fasterxml_jackson_module_jackson_module_scala_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_json4s_json4s_jackson_2_12': target 'org_json4s_json4s_jackson_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_json4s_json4s_jackson_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_json4s_json4s_core_2_12': target 'org_json4s_json4s_core_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_json4s_json4s_core_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_json4s_json4s_ast_2_12': target 'org_json4s_json4s_ast_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_json4s_json4s_ast_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_json4s_json4s_scalap_2_12': target 'org_json4s_json4s_scalap_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_json4s_json4s_scalap_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:io_delta_delta_core_2_12': target 'io_delta_delta_core_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'io_delta_delta_core_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+Loading: 375 packages loaded
+Loading: 375 packages loaded
+Loading: 376 packages loaded
+Loading: 376 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_core_2_12': target 'org_apache_spark_spark_core_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_core_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_hive_2_12': target 'org_apache_spark_spark_hive_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_hive_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_catalyst_2_12': target 'org_apache_spark_spark_catalyst_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_catalyst_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_streaming_2_12': target 'org_apache_spark_spark_streaming_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_streaming_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_json4s_json4s_ast_2_12': target 'org_json4s_json4s_ast_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_json4s_json4s_ast_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_json4s_json4s_scalap_2_12': target 'org_json4s_json4s_scalap_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_json4s_json4s_scalap_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_json4s_json4s_jackson_2_12': target 'org_json4s_json4s_jackson_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_json4s_json4s_jackson_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:com_fasterxml_jackson_module_jackson_module_scala_2_12': target 'com_fasterxml_jackson_module_jackson_module_scala_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'com_fasterxml_jackson_module_jackson_module_scala_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:io_delta_delta_core_2_12': target 'io_delta_delta_core_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'io_delta_delta_core_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_sketch_2_12': target 'org_apache_spark_spark_sketch_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_sketch_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such package '@spark_3_1//': Error while fetching artifact with coursier: Resolution error: Error downloading org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde
+  not found: https://repo1.maven.org/maven2/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://mvnrepository.com/artifact/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+  not found: https://packages.confluent.io/maven/org/pentaho/pentaho-aggdesigner-algorithm/5.1.5-jhyde/pentaho-aggdesigner-algorithm-5.1.5-jhyde.pom
+ and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/pypi_keyring/BUILD.bazel:31:11: no such package '@pypi_jeepney//': The repository '@pypi_jeepney' could not be resolved: Repository '@pypi_jeepney' is not defined and referenced by '@pypi_keyring//:pkg'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/pypi_keyring/BUILD.bazel:31:11: no such package '@pypi_secretstorage//': The repository '@pypi_secretstorage' could not be resolved: Repository '@pypi_secretstorage' is not defined and referenced by '@pypi_keyring//:pkg'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_json4s_json4s_core_2_12': target 'org_json4s_json4s_core_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_json4s_json4s_core_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_unsafe_2_12': target 'org_apache_spark_spark_unsafe_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_unsafe_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_tags_2_12': target 'org_apache_spark_spark_tags_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_tags_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/airbnb__chronon/third_party/java/spark/BUILD.bazel:193:13: no such target '@spark_2_4//:org_apache_spark_spark_sql_2_12': target 'org_apache_spark_spark_sql_2_12' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/9984bb33b8c68947363767970dc378ad/external/spark_2_4/BUILD (did you mean 'org_apache_spark_spark_sql_2_11'? Tip: use `query "@spark_2_4//:*"` to see all the targets in that package) and referenced by '//third_party/java/spark:spark-libs'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Loading: 377 packages loaded
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...
+Read 11000 lines from bazel query output...
+Read 12000 lines from bazel query output...
+Read 13000 lines from bazel query output...
+Read 14000 lines from bazel query output...
+Read 15000 lines from bazel query output...
+Read 16000 lines from bazel query output...
+Read 17000 lines from bazel query output...
+Read 18000 lines from bazel query output...
+Read 19000 lines from bazel query output...
+Read 20000 lines from bazel query output...
+Read 21000 lines from bazel query output...
+Read 22000 lines from bazel query output...
+Read 23000 lines from bazel query output...
+Read 24000 lines from bazel query output...
+Read 25000 lines from bazel query output...
+Read 26000 lines from bazel query output...
+Read 27000 lines from bazel query output...
+Read 28000 lines from bazel query output...
+Read 29000 lines from bazel query output...
+Read 30000 lines from bazel query output...
+Read 31000 lines from bazel query output...
+Read 32000 lines from bazel query output...
+Read 33000 lines from bazel query output...
+Read 34000 lines from bazel query output...
+Read 35000 lines from bazel query output...
+Read 36000 lines from bazel query output...
+Read 37000 lines from bazel query output...
+Read 38000 lines from bazel query output...
+Read 39000 lines from bazel query output...
+Read 40000 lines from bazel query output...
+Read 41000 lines from bazel query output...
+Read 42000 lines from bazel query output...
+Read 43000 lines from bazel query output...
+Read 44000 lines from bazel query output...
+Read 45000 lines from bazel query output...
+Read 46000 lines from bazel query output...
+Read 47000 lines from bazel query output...
+Read 48000 lines from bazel query output...
+Read 49000 lines from bazel query output...
+Read 50000 lines from bazel query output...
+Read 51000 lines from bazel query output...
+Read 52000 lines from bazel query output...
+Loading: 377 packages loaded

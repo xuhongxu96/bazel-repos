@@ -1,0 +1,157 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+INFO: Invocation ID: 24ebe28f-da02-4860-beb4-d73fc26a4084
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+Loading: 10 packages loaded
+    currently loading: testing/file_test ... (25 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+INFO: Repository +clang_toolchain_extension+bazel_cc_toolchain instantiated at:
+  <builtin>: in <toplevel>
+Repository rule configure_clang_toolchain defined at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/bazel/cc_toolchains/clang_configuration.bzl:240:44: in <toplevel>
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/bazel/cc_toolchains/clang_configuration.bzl:186:13: An error occurred during the fetch of repository '+clang_toolchain_extension+bazel_cc_toolchain':
+   Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/bazel/cc_toolchains/clang_configuration.bzl", line 186, column 13, in _configure_clang_toolchain_impl
+		fail("Found clang {0}. ".format(clang_version) +
+Error in fail: Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions
+ERROR: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 14 packages loaded
+    currently loading: testing/file_test ... (21 packages)
+Loading: 39 packages loaded
+    currently loading: testing/file_test ... (22 packages)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/bazel/check_deps/BUILD:13:10: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//bazel/check_deps:non_test_cc_rules'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day10_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day11_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day11_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/bazel/check_deps/BUILD:13:10: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//bazel/check_deps:non_test_cc_rules'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day10_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day10_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day10_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day12_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day12_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day11_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day1_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day12_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day2_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day11_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day2_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day13_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day13_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day1_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day6_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day6_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day1_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day8_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day13_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day9_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/BUILD:7:14: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples:sieve'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day3_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day7_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day9_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/BUILD:7:14: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples:sieve'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day9_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day8_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day8_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day9_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day8_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day3_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day3_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day4_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day4_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day4_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day3_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day4_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day5_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day5_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day1_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day6_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day5_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day5_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day6_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day7_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day7_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day12_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day2_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day7_part2'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day13_part1'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/carbon-language__carbon-lang/examples/advent2024/BUILD:19:18: no such package '@@+clang_toolchain_extension+bazel_cc_toolchain//': Found clang 14. Carbon requires clang >=19. See https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/contribution_tools.md#old-llvm-versions and referenced by '//examples/advent2024:day2_part2'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...

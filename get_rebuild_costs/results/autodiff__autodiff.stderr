@@ -1,0 +1,31 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD", line 10, column 16, in <toplevel>
+		hdrs = glob(["var.hpp", "reverse/**/*.hpp"]),
+Error in glob: glob pattern 'var.hpp' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: package contains errors: autodiff
+ERROR: package contains errors: autodiff: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD", line 10, column 16, in <toplevel>
+		hdrs = glob(["var.hpp", "reverse/**/*.hpp"]),
+Error in glob: glob pattern 'var.hpp' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/BUILD:1:11: no such target '//autodiff:reverse': target 'reverse' not declared in package 'autodiff' defined by /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD; however, a source directory of this name exists.  (Perhaps add 'exports_files(["reverse"])' to autodiff/BUILD, or define a filegroup?) and referenced by '//:autodiff'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/BUILD:1:11: no such target '//autodiff:forward': target 'forward' not declared in package 'autodiff' defined by /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD; however, a source directory of this name exists.  (Perhaps add 'exports_files(["forward"])' to autodiff/BUILD, or define a filegroup?) and referenced by '//:autodiff'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD:1:11: Target '//autodiff:common/binomialcoefficient.hpp' contains an error and its package is in error and referenced by '//autodiff:common'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD:1:11: Target '//autodiff:common/classtraits.hpp' contains an error and its package is in error and referenced by '//autodiff:common'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD:1:11: Target '//autodiff:common/eigen.hpp' contains an error and its package is in error and referenced by '//autodiff:common'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD:1:11: Target '//autodiff:common/meta.hpp' contains an error and its package is in error and referenced by '//autodiff:common'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD:1:11: Target '//autodiff:common/numbertraits.hpp' contains an error and its package is in error and referenced by '//autodiff:common'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD:1:11: Target '//autodiff:common/vectortraits.hpp' contains an error and its package is in error and referenced by '//autodiff:common'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD:1:11: no such package '@@[unknown repo 'com_github_eigen_eigen' requested from @@]//': The repository '@@[unknown repo 'com_github_eigen_eigen' requested from @@]' could not be resolved: No repository visible as '@com_github_eigen_eigen' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//autodiff:common'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD:1:11: no such package '@@[unknown repo 'com_github_eigen_eigen' requested from @@]//': The repository '@@[unknown repo 'com_github_eigen_eigen' requested from @@]' could not be resolved: No repository visible as '@com_github_eigen_eigen' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration and referenced by '//autodiff:common'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/BUILD:1:11: no such target '//autodiff:reverse': target 'reverse' not declared in package 'autodiff' defined by /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD; however, a source directory of this name exists.  (Perhaps add 'exports_files(["reverse"])' to autodiff/BUILD, or define a filegroup?) and referenced by '//:autodiff'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/BUILD:1:11: no such target '//autodiff:forward': target 'forward' not declared in package 'autodiff' defined by /data/h445xu/repo/bazel-repos/cloned_repos/autodiff__autodiff/autodiff/BUILD; however, a source directory of this name exists.  (Perhaps add 'exports_files(["forward"])' to autodiff/BUILD, or define a filegroup?) and referenced by '//:autodiff'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...

@@ -1,0 +1,19 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
+ no actions running
+WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/rules_go/releases/download/v0.54.0/rules_go-v0.54.0.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/d963b47df97de08c16e095e29d5420c0/external/rules_java/java/defs.bzl", line 44, column 28, in <toplevel>
+		java_proto_library = native.java_proto_library
+Error: no native function or rule 'java_proto_library'
+Available attributes: action_listener, alias, available_xcodes, bazel_version, bind, cc_binary, cc_import, cc_libc_top_alias, cc_library, cc_shared_library, cc_static_library, cc_test, cc_toolchain, cc_toolchain_alias, cc_toolchain_suite, config_feature_flag, config_setting, constraint_setting, constraint_value, environment, existing_rule, existing_rules, exports_files, extra_action, fdo_prefetch_hints, fdo_profile, filegroup, genquery, genrule, glob, java_binary, java_import, java_library, java_package_configuration, java_plugin, java_plugins_flag_alias, java_runtime, java_test, java_toolchain, label_flag, label_setting, local_config_platform, local_repository, memprof_profile, module_name, module_version, new_local_repository, objc_import, objc_library, package_group, package_name, package_relative_label, platform, propeller_optimize, register_execution_platforms, register_toolchains, repo_name, repository_name, starlark_doc_extract, subpackages, test_suite, toolchain, toolchain_type, xcode_config, xcode_config_alias, xcode_version
+ERROR: Error computing the main repository mapping: at /data/h445xu/.cache/bazel/_bazel_hongxu/d963b47df97de08c16e095e29d5420c0/external/rules_jvm_external/setup.bzl:2:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/d963b47df97de08c16e095e29d5420c0/external/rules_java/java/repositories.bzl:20:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/d963b47df97de08c16e095e29d5420c0/external/rules_java/toolchains/local_java_repository.bzl:17:6: initialization of module 'java/defs.bzl' failed
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

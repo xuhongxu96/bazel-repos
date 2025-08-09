@@ -1,0 +1,12 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ERROR: <builtin>: fetching local_repository rule //:rules_apple+: java.io.IOException: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/TelegramMessenger__Telegram-iOS/build-system/bazel-rules/rules_apple
+ERROR: <builtin>: fetching local_repository rule //:rules_xcodeproj+: java.io.IOException: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/TelegramMessenger__Telegram-iOS/build-system/bazel-rules/rules_xcodeproj
+ERROR: <builtin>: fetching local_repository rule //:rules_swift+: java.io.IOException: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/TelegramMessenger__Telegram-iOS/build-system/bazel-rules/rules_swift
+ERROR: <builtin>: fetching local_repository rule //:build_configuration+: java.io.IOException: The repository's path is "./build-input/configuration-repository" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/TelegramMessenger__Telegram-iOS/build-input/configuration-repository") but it does not exist or is not a directory.
+ERROR: <builtin>: fetching local_repository rule //:apple_support+: java.io.IOException: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/TelegramMessenger__Telegram-iOS/build-system/bazel-rules/apple_support
+ERROR: Error computing the main repository mapping: error during computation of main repo mapping: No MODULE.bazel, REPO.bazel, or WORKSPACE file found in /data/h445xu/repo/bazel-repos/cloned_repos/TelegramMessenger__Telegram-iOS/build-system/bazel-rules/rules_xcodeproj
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

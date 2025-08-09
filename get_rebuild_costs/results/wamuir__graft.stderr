@@ -1,0 +1,111 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+WARNING: Download from file:/opt/libtensorflow.tar.gz failed: class java.io.FileNotFoundException /opt/libtensorflow.tar.gz (No such file or directory)
+INFO: Repository +download_tf_repositories+libtensorflow_other_build instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl:139:45: An error occurred during the fetch of repository '+download_tf_repositories+libtensorflow_other_build':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl", line 139, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: java.io.IOException: Error downloading [file:/opt/libtensorflow.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_other_build/temp11895423692106114027/libtensorflow.tar.gz: /opt/libtensorflow.tar.gz (No such file or directory)
+Loading: 204 packages loaded
+    currently loading: @@protobuf+//java/core
+INFO: Repository +download_tf_repositories+libtensorflow_proto instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/utils.bzl:207:22: An error occurred during the fetch of repository '+download_tf_repositories+libtensorflow_proto':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl", line 152, column 10, in _http_archive_impl
+		patch(ctx)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/utils.bzl", line 207, column 22, in patch
+		ctx.patch(patchfile, strip)
+Error in patch: Error applying patch /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/libtensorflow_proto/libtensorflow_proto.patch: Cannot find file to patch (near line 3), old file name (tensorflow/core/framework/dataset.proto) doesn't exist, new file name (tensorflow/core/framework/dataset.proto) doesn't exist.
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:19:8: no such package '@@+download_tf_repositories+libtensorflow_proto//': Error applying patch /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/libtensorflow_proto/libtensorflow_proto.patch: Cannot find file to patch (near line 3), old file name (tensorflow/core/framework/dataset.proto) doesn't exist, new file name (tensorflow/core/framework/dataset.proto) doesn't exist. and referenced by '//third_party/org_tensorflow:libtensorflow_proto'
+DEBUG: Rule '+download_tf_repositories+tensorflow_serving_proto' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-D5MFO1x81KGpd7hfwc8yIxIkI3LUFJ35LtH2iwKtXDM="
+DEBUG: Repository +download_tf_repositories+tensorflow_serving_proto instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+Loading: 220 packages loaded
+Loading: 220 packages loaded
+Loading: 220 packages loaded
+Loading: 220 packages loaded
+Loading: 220 packages loaded
+Loading: 220 packages loaded
+DEBUG: Rule '+download_tf_repositories+libtensorflow_linux_x86_64_cpu' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-OeR8jXJRaxIg1L1NdLjVUUkw9CoYI8ga57QfkRi3xZw="
+DEBUG: Repository +download_tf_repositories+libtensorflow_linux_x86_64_cpu instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+Loading: 221 packages loaded
+INFO: Repository +download_tf_repositories+libtensorflow_macos_arm_64_cpu instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_embedded_archive defined at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/tools/build_defs/repo/http.bzl:289:40: in <toplevel>
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/tools/build_defs/repo/http.bzl:121:16: An error occurred during the fetch of repository '+download_tf_repositories+libtensorflow_macos_arm_64_cpu':
+   Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/tools/build_defs/repo/http.bzl", line 121, column 16, in _http_embedded_archive_impl
+		ctx.extract(
+Error in extract: Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_macos_arm_64_cpu/_bzl.tmp/lib_package/libtensorflow-cpu-darwin-arm64.tar.gz' does not exist.
+Loading: 221 packages loaded
+Loading: 221 packages loaded
+Loading: 221 packages loaded
+Loading: 221 packages loaded
+Loading: 221 packages loaded
+DEBUG: Rule '+download_tf_repositories+tensorflow_base_api_def' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-EvZQ4bof19bXSZx57bzyC6NYfuJoHRZe34PuTkMo4xw="
+DEBUG: Repository +download_tf_repositories+tensorflow_base_api_def instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+INFO: Repository +download_tf_repositories+tensorflow_go instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/utils.bzl:207:22: An error occurred during the fetch of repository '+download_tf_repositories+tensorflow_go':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl", line 152, column 10, in _http_archive_impl
+		patch(ctx)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/utils.bzl", line 207, column 22, in patch
+		ctx.patch(patchfile, strip)
+Error in patch: Error applying patch /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/tensorflow_go/tensorflow_go.patch: in patch applied to /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+tensorflow_go/tensor.go: could not apply patch due to CONTENT_DOES_NOT_MATCH_TARGET, error applying change near line 561
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:76:8: no such package '@@+download_tf_repositories+tensorflow_go//': Error applying patch /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/tensorflow_go/tensorflow_go.patch: in patch applied to /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+tensorflow_go/tensor.go: could not apply patch due to CONTENT_DOES_NOT_MATCH_TARGET, error applying change near line 561 and referenced by '//third_party/org_tensorflow:go_bindings'
+Loading: 222 packages loaded
+Loading: 222 packages loaded
+Loading: 278 packages loaded
+DEBUG: Rule '+download_tf_repositories+libtensorflow_linux_x86_64_gpu' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-E14iZvaiEkIDz1J4TmzWrkX7A2wnz/XQ7HIG+0paTeE="
+DEBUG: Repository +download_tf_repositories+libtensorflow_linux_x86_64_gpu instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:39:8: no such package '@@+download_tf_repositories+libtensorflow_macos_arm_64_cpu//': Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_macos_arm_64_cpu/_bzl.tmp/lib_package/libtensorflow-cpu-darwin-arm64.tar.gz' does not exist. and referenced by '//third_party/org_tensorflow:libtensorflow_pkg'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:39:8: no such package '@@+download_tf_repositories+libtensorflow_other_build//': java.io.IOException: Error downloading [file:/opt/libtensorflow.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_other_build/temp11895423692106114027/libtensorflow.tar.gz: /opt/libtensorflow.tar.gz (No such file or directory) and referenced by '//third_party/org_tensorflow:libtensorflow_pkg'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:8:6: no such package '@@+download_tf_repositories+libtensorflow_macos_arm_64_cpu//': Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_macos_arm_64_cpu/_bzl.tmp/lib_package/libtensorflow-cpu-darwin-arm64.tar.gz' does not exist. and referenced by '//third_party/org_tensorflow:libtensorflow'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:8:6: no such package '@@+download_tf_repositories+libtensorflow_other_build//': java.io.IOException: Error downloading [file:/opt/libtensorflow.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_other_build/temp11895423692106114027/libtensorflow.tar.gz: /opt/libtensorflow.tar.gz (No such file or directory) and referenced by '//third_party/org_tensorflow:libtensorflow'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:39:8: no such package '@@+download_tf_repositories+libtensorflow_macos_arm_64_cpu//': Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_macos_arm_64_cpu/_bzl.tmp/lib_package/libtensorflow-cpu-darwin-arm64.tar.gz' does not exist. and referenced by '//third_party/org_tensorflow:libtensorflow_pkg'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:76:8: no such package '@@+download_tf_repositories+tensorflow_go//': Error applying patch /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/tensorflow_go/tensorflow_go.patch: in patch applied to /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+tensorflow_go/tensor.go: could not apply patch due to CONTENT_DOES_NOT_MATCH_TARGET, error applying change near line 561 and referenced by '//third_party/org_tensorflow:go_bindings'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:8:6: no such package '@@+download_tf_repositories+libtensorflow_macos_arm_64_cpu//': Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_macos_arm_64_cpu/_bzl.tmp/lib_package/libtensorflow-cpu-darwin-arm64.tar.gz' does not exist. and referenced by '//third_party/org_tensorflow:libtensorflow'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:39:8: no such package '@@+download_tf_repositories+libtensorflow_other_build//': java.io.IOException: Error downloading [file:/opt/libtensorflow.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_other_build/temp11895423692106114027/libtensorflow.tar.gz: /opt/libtensorflow.tar.gz (No such file or directory) and referenced by '//third_party/org_tensorflow:libtensorflow_pkg'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:19:8: no such package '@@+download_tf_repositories+libtensorflow_proto//': Error applying patch /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/libtensorflow_proto/libtensorflow_proto.patch: Cannot find file to patch (near line 3), old file name (tensorflow/core/framework/dataset.proto) doesn't exist, new file name (tensorflow/core/framework/dataset.proto) doesn't exist. and referenced by '//third_party/org_tensorflow:libtensorflow_proto'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/wamuir__graft/third_party/org_tensorflow/BUILD:8:6: no such package '@@+download_tf_repositories+libtensorflow_other_build//': java.io.IOException: Error downloading [file:/opt/libtensorflow.tar.gz] to /data/h445xu/.cache/bazel/_bazel_hongxu/314913194cf8dd019a5988deb9334be5/external/+download_tf_repositories+libtensorflow_other_build/temp11895423692106114027/libtensorflow.tar.gz: /opt/libtensorflow.tar.gz (No such file or directory) and referenced by '//third_party/org_tensorflow:libtensorflow'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...
+Read 11000 lines from bazel query output...
+Read 12000 lines from bazel query output...
+Read 13000 lines from bazel query output...

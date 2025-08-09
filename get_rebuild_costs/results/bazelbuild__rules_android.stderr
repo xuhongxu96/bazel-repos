@@ -1,0 +1,214 @@
+Starting local Bazel server and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+WARNING: For repository 'platforms', the root module requires module version platforms@0.0.5, but got platforms@0.0.11 in the resolved dependency graph.
+WARNING: For repository 'rules_shell', the root module requires module version rules_shell@0.1.2, but got rules_shell@0.3.0 in the resolved dependency graph.
+WARNING: For repository 'rules_jvm_external', the root module requires module version rules_jvm_external@6.6, but got rules_jvm_external@6.7 in the resolved dependency graph.
+WARNING: For repository 'bazel_skylib', the root module requires module version bazel_skylib@1.0.3, but got bazel_skylib@1.7.1 in the resolved dependency graph.
+WARNING: For repository 'rules_python', the root module requires module version rules_python@0.37.1, but got rules_python@1.0.0 in the resolved dependency graph.
+WARNING: For repository 'rules_proto', the root module requires module version rules_proto@6.0.2, but got rules_proto@7.0.2 in the resolved dependency graph.
+WARNING: For repository 'cgrindel_bazel_starlib', the root module requires module version cgrindel_bazel_starlib@0.17.0, but got cgrindel_bazel_starlib@0.18.0 in the resolved dependency graph.
+Loading: 0 packages loaded
+WARNING: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/MODULE.bazel:184:31: The module extension bazel_binaries defined in @rules_bazel_integration_test//:extensions.bzl reported incorrect imports of repositories via use_repo():
+
+Not imported, but reported as direct dependencies by the extension (may cause the build to fail):
+    bazel_binaries_bazelisk, build_bazel_bazel_last_green
+
+Fix the use_repo calls by running 'bazel mod tidy'.
+Loading: 41 packages loaded
+    currently loading: src/tools/deploy_info/proto ... (84 packages)
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/gazelle~/internal/bzlmod/go_deps.bzl:571:40: 
+
+Mismatch between versions requested for module github.com/bazelbuild/rules_go
+Bazel dependency version requested in MODULE.bazel: 0.51.0-rc2
+Go module version requested in go.mod: 0.50.1
+Please resolve this mismatch to prevent discrepancies between native Go and Bazel builds
+
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/gazelle~/internal/bzlmod/go_deps.bzl:590:40: For Go module "github.com/bazelbuild/rules_go", the root module requires module version v0.50.1, but got v0.51.0-rc2 in the resolved dependency graph.
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/gazelle~/internal/bzlmod/go_deps.bzl:590:40: For Go module "golang.org/x/sync", the root module requires module version v0.0.0-20210220032951-036812b2e83c, but got v0.8.0 in the resolved dependency graph.
+Loading: 256 packages loaded
+    currently loading: @@rules_python~//python/config_settings ... (4 packages)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/mobile_install/BUILD:20:12: no such target '//rules:utils_bzl': target 'utils_bzl' not declared in package 'rules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/rules/BUILD (did you mean utils.bzl?) and referenced by '//mobile_install:bzl'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/BUILD:89:6: no such target '@@_main~android_sdk_repository_extension~androidsdk//:has_android_sdk': target 'has_android_sdk' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel (did you mean has_androidsdk?) and referenced by '//:androidsdk_has_android_sdk'
+Loading: 347 packages loaded
+DEBUG: Rule '_main~com_android_dex_extension~com_android_dex' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-+3eIs5HfKouYBs3HYApRE43YvuxVkFm6F3JszkCXwUQ="
+DEBUG: Repository _main~com_android_dex_extension~com_android_dex instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/bazel_tools/tools/build_defs/repo/http.bzl:387:31: in <toplevel>
+Loading: 357 packages loaded
+Loading: 357 packages loaded
+Loading: 357 packages loaded
+Loading: 358 packages loaded
+Loading: 358 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/tools/jdk/BUILD:73:15: no such target '@@_main~android_sdk_repository_extension~androidsdk//:core-for-system-modules-jar': target 'core-for-system-modules-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel and referenced by '//tools/jdk:bootclasspath_android_only'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/src/tools/ak/rjar/BUILD:33:8: no such package '@@[unknown repo 'local_jdk' requested from @@]//': BUILD file not found on package path for '' and referenced by '//src/tools/ak/rjar:rjar_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/src/tools/ak/rjar/BUILD:33:8: no such package '@@[unknown repo 'remote_java_tools_for_rules_android' requested from @@]//': BUILD file not found on package path for '' and referenced by '//src/tools/ak/rjar:rjar_test'
+Loading: 435 packages loaded
+Loading: 437 packages loaded
+Loading: 437 packages loaded
+Loading: 437 packages loaded
+Loading: 438 packages loaded
+Loading: 438 packages loaded
+Loading: 438 packages loaded
+Loading: 438 packages loaded
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:1.1.0 should be interpreted as androidx.annotation:annotation-experimental:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.6.1 should be interpreted as androidx.test.espresso:espresso-idling-resource:3.6.1@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:3.141.59-fake should be interpreted as androidx.test:core:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:3.141.59-fake should be interpreted as androidx.test:core:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:3.141.59-fake should be interpreted as androidx.test:core:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.ext:junit:aar:1.2.0-alpha01 should be interpreted as androidx.test.ext:junit:1.2.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:1.5.0-alpha01 should be interpreted as androidx.test.services:storage:1.5.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:3.141.59-fake should be interpreted as androidx.annotation:annotation-experimental:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:3.141.59-fake should be interpreted as androidx.annotation:annotation-experimental:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.annotation:annotation-experimental:aar:3.141.59-fake should be interpreted as androidx.annotation:annotation-experimental:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:1.1.0-alpha01 should be interpreted as androidx.test:annotation:1.1.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.services:storage:aar:3.141.59-fake should be interpreted as androidx.test.services:storage:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:annotation:aar:3.141.59-fake should be interpreted as androidx.test:annotation:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:core:aar:1.6.0-alpha01 should be interpreted as androidx.test:core:1.6.0-alpha01@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:3.141.59-fake should be interpreted as androidx.tracing:tracing:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:1.7.2 should be interpreted as androidx.test:monitor:1.7.2@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.tracing:tracing:aar:1.1.0 should be interpreted as androidx.tracing:tracing:1.1.0@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.141.59-fake should be interpreted as androidx.test.espresso:espresso-idling-resource:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.141.59-fake should be interpreted as androidx.test.espresso:espresso-idling-resource:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test.espresso:espresso-idling-resource:aar:3.141.59-fake should be interpreted as androidx.test.espresso:espresso-idling-resource:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/rules_jvm_external~/private/lib/coordinates.bzl:76:18: Assuming androidx.test:monitor:aar:3.141.59-fake should be interpreted as androidx.test:monitor:3.141.59-fake@aar
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/test/rules/android_binary/manifest_merge_order/BUILD:4:8: no such target '@@_main~android_sdk_repository_extension~androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel and referenced by '//test/rules/android_binary/manifest_merge_order:manifest_merge_order_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/toolchains/android/BUILD:22:18: every rule of type android_toolchain implicitly depends upon the target '@@_main~android_sdk_repository_extension~androidsdk//:aapt2', but this target could not be found because of: no such target '@@_main~android_sdk_repository_extension~androidsdk//:aapt2': target 'aapt2' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/toolchains/android/BUILD:22:18: every rule of type android_toolchain implicitly depends upon the target '@@_main~android_sdk_repository_extension~androidsdk//:platform-tools/adb', but this target could not be found because of: no such target '@@_main~android_sdk_repository_extension~androidsdk//:platform-tools/adb': target 'platform-tools/adb' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/toolchains/android/BUILD:22:18: every rule of type android_toolchain implicitly depends upon the target '@@_main~android_sdk_repository_extension~androidsdk//:fail', but this target could not be found because of: no such target '@@_main~android_sdk_repository_extension~androidsdk//:fail': target 'fail' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/test/rules/android_binary/r8_integration/BUILD:5:8: no such target '@@_main~android_sdk_repository_extension~androidsdk//:dexdump': target 'dexdump' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel and referenced by '//test/rules/android_binary/r8_integration:r8_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/mobile_install/BUILD:20:12: no such target '//rules:utils_bzl': target 'utils_bzl' not declared in package 'rules' defined by /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/rules/BUILD (did you mean utils.bzl?) and referenced by '//mobile_install:bzl'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/src/tools/ak/rjar/BUILD:33:8: no such package '@@[unknown repo 'local_jdk' requested from @@]//': The repository '@@[unknown repo 'local_jdk' requested from @@]' could not be resolved: No repository visible as '@local_jdk' from main repository and referenced by '//src/tools/ak/rjar:rjar_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/src/tools/ak/rjar/BUILD:33:8: no such package '@@[unknown repo 'remote_java_tools_for_rules_android' requested from @@]//': The repository '@@[unknown repo 'remote_java_tools_for_rules_android' requested from @@]' could not be resolved: No repository visible as '@remote_java_tools_for_rules_android' from main repository and referenced by '//src/tools/ak/rjar:rjar_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/test/rules/android_binary/manifest_merge_order/BUILD:4:8: no such target '@@_main~android_sdk_repository_extension~androidsdk//:aapt2_binary': target 'aapt2_binary' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel and referenced by '//test/rules/android_binary/manifest_merge_order:manifest_merge_order_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/test/rules/android_binary/r8_integration/BUILD:5:8: no such target '@@_main~android_sdk_repository_extension~androidsdk//:dexdump': target 'dexdump' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel and referenced by '//test/rules/android_binary/r8_integration:r8_integration_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/tools/jdk/BUILD:73:15: no such target '@@_main~android_sdk_repository_extension~androidsdk//:core-for-system-modules-jar': target 'core-for-system-modules-jar' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel and referenced by '//tools/jdk:bootclasspath_android_only'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_android/BUILD:89:6: no such target '@@_main~android_sdk_repository_extension~androidsdk//:has_android_sdk': target 'has_android_sdk' not declared in package '' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/59cbd7038b7e6579e2d14050416c6294/external/_main~android_sdk_repository_extension~androidsdk/BUILD.bazel (did you mean has_androidsdk?) and referenced by '//:androidsdk_has_android_sdk'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...
+Read 11000 lines from bazel query output...
+Read 12000 lines from bazel query output...
+Read 13000 lines from bazel query output...
+Read 14000 lines from bazel query output...
+Read 15000 lines from bazel query output...
+Read 16000 lines from bazel query output...
+Read 17000 lines from bazel query output...
+Read 18000 lines from bazel query output...
+Read 19000 lines from bazel query output...
+Read 20000 lines from bazel query output...
+Read 21000 lines from bazel query output...
+Read 22000 lines from bazel query output...
+Read 23000 lines from bazel query output...
+Read 24000 lines from bazel query output...
+Read 25000 lines from bazel query output...
+Read 26000 lines from bazel query output...
+Read 27000 lines from bazel query output...
+Read 28000 lines from bazel query output...
+Read 29000 lines from bazel query output...
+Read 30000 lines from bazel query output...
+Read 31000 lines from bazel query output...
+Read 32000 lines from bazel query output...
+Read 33000 lines from bazel query output...
+Read 34000 lines from bazel query output...
+Read 35000 lines from bazel query output...
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

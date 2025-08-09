@@ -1,0 +1,7 @@
+[INFO 22:54:37.244 src/main/cpp/option_processor.cc:419] Looking for the following rc files: /etc/bazel.bazelrc,/data/h445xu/repo/bazel-repos/cloned_repos/google__deepvariant/.bazelrc,/home/hongxu/.bazelrc
+[INFO 22:54:37.244 src/main/cpp/rc_file.cc:62] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/google__deepvariant/.bazelrc
+[FATAL 22:54:37.244 src/main/cpp/blaze.cc:1237] Nonexistent path in import declaration in config file '/data/h445xu/repo/bazel-repos/cloned_repos/google__deepvariant/.bazelrc': 'import %workspace%/../tensorflow/.bazelrc' (are you in your source checkout/WORKSPACE?)
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,0 +1,98 @@
+Starting local Bazel server and connecting to it...
+INFO: Options provided by the client:
+  Inherited 'common' options: --isatty=0 --terminal_columns=80
+INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_repos/quantumlib__qsim/.bazelrc:
+  Inherited 'common' options: --announce_rc --experimental_repo_remote_exec --verbose_failures --enable_platform_specific_config
+  Ignored as unsupported by 'query': --verbose_failures
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/tensorflow/runtime/archive/7d879c8b161085a4374ea481b93a52adb19c0529.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/llvm/llvm-project/archive/dc275fd03254d67d29cc70a5a0569acf24d2280d.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/org_tensorflow/third_party/repo.bzl:132:14: 
+Warning: skipping import of repository 'com_google_googletest' because it already exists.
+ checking cached actions
+ checking cached actions
+ checking cached actions
+Loading: 0 packages loaded
+Loading: 22 packages loaded
+    currently loading: @local_config_cc//
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/container': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/debugging': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/flags': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/strings': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/types': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@re2//': The repository '@re2' could not be resolved: Repository '@re2' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@fuchsia_sdk//pkg/fdio': The repository '@fuchsia_sdk' could not be resolved: Repository '@fuchsia_sdk' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@fuchsia_sdk//pkg/syslog': The repository '@fuchsia_sdk' could not be resolved: Repository '@fuchsia_sdk' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@fuchsia_sdk//pkg/zx': The repository '@fuchsia_sdk' could not be resolved: Repository '@fuchsia_sdk' is not defined and referenced by '@com_google_googletest//:gtest'
+Loading: 26 packages loaded
+Loading: 26 packages loaded
+Loading: 26 packages loaded
+WARNING: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/local_config_cuquantum/BUILD:29:8: target 'libcustatevec.so' is both a rule and a file; please choose another name for the rule
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@re2//': The repository '@re2' could not be resolved: Repository '@re2' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/types': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/types': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/types': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/strings': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/flags': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/flags': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/flags': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/flags': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/debugging': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/container': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/debugging': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@abseil-cpp//absl/debugging': The repository '@abseil-cpp' could not be resolved: Repository '@abseil-cpp' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@fuchsia_sdk//pkg/zx': The repository '@fuchsia_sdk' could not be resolved: Repository '@fuchsia_sdk' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@fuchsia_sdk//pkg/syslog': The repository '@fuchsia_sdk' could not be resolved: Repository '@fuchsia_sdk' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/ff248bb2037fe25c33aebf98129ebb1a/external/com_google_googletest/BUILD.bazel:90:11: no such package '@fuchsia_sdk//pkg/fdio': The repository '@fuchsia_sdk' could not be resolved: Repository '@fuchsia_sdk' is not defined and referenced by '@com_google_googletest//:gtest'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 28 packages loaded
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Loading: 28 packages loaded
+
+thread 'main' panicked at depstat/src/main.rs:24:52:
+called `Result::unwrap()` on an `Err` value: "Cannot create an edge from a node to itself"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

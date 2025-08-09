@@ -1,0 +1,58 @@
+Starting local Bazel server and connecting to it...
+INFO: Reading 'startup' options from /data/h445xu/repo/bazel-repos/cloned_repos/google__genc/.bazelrc: --host_jvm_args=-Dbazel.DigestFunction=SHA256
+INFO: Options provided by the client:
+  Inherited 'common' options: --isatty=0 --terminal_columns=80
+INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_repos/google__genc/.bazelrc:
+  Inherited 'common' options: --announce_rc --enable_platform_specific_config --experimental_repo_remote_exec
+ checking cached actions
+DEBUG: Rule 'rules_foreign_cc' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "3a85c822bf8bd44ca427c27407e838fdecd6bc86" and dropping ["tag"]
+DEBUG: Repository rules_foreign_cc instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/google__genc/WORKSPACE:24:15: in <toplevel>
+Repository rule git_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
+ checking cached actions
+ checking cached actions
+DEBUG: Rule 'com_google_protobuf' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "5fda5abda3dee5f7a102c85860594bff8d8610bd" and dropping ["tag"]
+DEBUG: Repository com_google_protobuf instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/google__genc/WORKSPACE:77:15: in <toplevel>
+Repository rule git_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
+ checking cached actions
+ checking cached actions
+DEBUG: Rule 'com_github_grpc_grpc' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "6d7a55890e076a3a8abc8185b6bf0153fcf9d179" and dropping ["tag"]
+DEBUG: Repository com_github_grpc_grpc instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/google__genc/WORKSPACE:87:15: in <toplevel>
+Repository rule git_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
+DEBUG: Rule 'rules_python' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "5f51a4451b478c5fed491614756d16745682fd7c" and dropping ["tag"]
+DEBUG: Repository rules_python instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/google__genc/WORKSPACE:30:15: in <toplevel>
+Repository rule git_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
+ checking cached actions
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/build_bazel_rules_apple/apple/repositories.bzl:37:10: 
+WARNING: `build_bazel_rules_apple` depends on `bazel_skylib` loaded from None (tag None), but we have detected it already loaded into your workspace from https://github.com/bazelbuild/bazel-skylib.git (tag 1.5.0). You may run into compatibility issues. To silence this warning, pass `ignore_version_differences = True` to `apple_rules_dependencies()`.
+
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/build_bazel_rules_apple/apple/repositories.bzl:37:10: 
+WARNING: `build_bazel_rules_apple` depends on `build_bazel_rules_swift` loaded from None (tag None), but we have detected it already loaded into your workspace from https://github.com/bazelbuild/rules_swift.git (tag 1.18.0). You may run into compatibility issues. To silence this warning, pass `ignore_version_differences = True` to `apple_rules_dependencies()`.
+
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/build_bazel_rules_apple/apple/repositories.bzl:37:10: 
+WARNING: `build_bazel_rules_apple` depends on `platforms` loaded from None (tag None), but we have detected it already loaded into your workspace from https://github.com/bazelbuild/platforms.git (tag 0.0.9). You may run into compatibility issues. To silence this warning, pass `ignore_version_differences = True` to `apple_rules_dependencies()`.
+
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/build_bazel_rules_apple/apple/repositories.bzl:37:10: 
+WARNING: `build_bazel_rules_apple` depends on `platforms` loaded from None (tag None), but we have detected it already loaded into your workspace from https://github.com/bazelbuild/platforms.git (tag 0.0.9). You may run into compatibility issues. To silence this warning, pass `ignore_version_differences = True` to `apple_rules_dependencies()`.
+
+ checking cached actions
+ checking cached actions
+ checking cached actions
+DEBUG: Rule 'tink_cc' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "4362ca28c71f91d58ed96e2b76e756ed13872c21" and dropping ["branch"]
+DEBUG: Repository tink_cc instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/google__genc/WORKSPACE:350:15: in <toplevel>
+Repository rule git_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
+ERROR: Error computing the main repository mapping: at /data/h445xu/.cache/bazel/_bazel_hongxu/4bca1fdf82a8ffb6e8ebc8f66167a63d/external/tink_cc/tink_cc_deps_init.bzl:4:6: cannot load '@rules_java//java:rules_java_deps.bzl': no such file
+ checking cached actions
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

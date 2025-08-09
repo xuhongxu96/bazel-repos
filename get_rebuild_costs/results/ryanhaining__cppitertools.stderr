@@ -1,0 +1,5 @@
+2025/08/09 00:36:41 could not download Bazel: could not resolve the version '8.*' to an actual version number: Invalid version '8.*'
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

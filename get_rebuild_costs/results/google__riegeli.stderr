@@ -1,0 +1,305 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+WARNING: For repository 'com_google_absl', the root module requires module version abseil-cpp@20230802.1, but got abseil-cpp@20240722.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+WARNING: For repository 'boringssl', the root module requires module version boringssl@0.0.0-20240530-2db0eb3, but got boringssl@0.20241024.0 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+WARNING: For repository 'platforms', the root module requires module version platforms@0.0.9, but got platforms@0.0.11 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+WARNING: For repository 'com_google_protobuf', the root module requires module version protobuf@28.3, but got protobuf@29.4 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+WARNING: For repository 'rules_python', the root module requires module version rules_python@0.36.0, but got rules_python@1.4.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+WARNING: For repository 'zlib', the root module requires module version zlib@1.3.1.bcr.3, but got zlib@1.3.1.bcr.6 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+ no actions running
+Loading: 0 packages loaded
+Loading: 114 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/records/tools/BUILD:99:11: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/records/tools:tfrecord_recognizer'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/tensorflow/io/BUILD:74:11: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/tensorflow/io:tstring_writer'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/tensorflow/io/BUILD:10:11: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/tensorflow/io:file_reader'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/records/tools/BUILD:64:10: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/records/tools:records_benchmark'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/tensorflow/io/BUILD:43:11: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/tensorflow/io:file_writer'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/python/riegeli/tensorflow/BUILD:17:10: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//python/riegeli/tensorflow:ops/_riegeli_dataset_ops.so'
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel", line 249, column 16, in <toplevel>
+		hdrs = glob(["src/liblzma/*.h"]),
+Error in glob: glob pattern 'src/liblzma/*.h' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_exit.c' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_progname.c' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/mythread.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/sysdefs.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_common.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_config.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_cpucores.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_exit.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_gettext.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_integer.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_mbstr.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_open_stdxxx.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_physmem.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:src/common/tuklib_progname.h' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:227:11: Target '@@xz+//:lzma_src_liblzma_api' contains an error and its package is in error and referenced by '@@xz+//:lzma_src_common'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_cpucores.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_physmem.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/mythread.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/sysdefs.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_common.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_config.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_cpucores.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_exit.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_gettext.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_integer.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_mbstr.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_open_stdxxx.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_physmem.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/common/tuklib_progname.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/base.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/bcj.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/block.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/check.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/container.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/delta.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/filter.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/hardware.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/index.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/index_hash.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/lzma12.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/stream_flags.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/version.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/api/lzma/vli.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/check.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/check.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc32_fast.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc32_table.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc32_table_be.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc32_table_le.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc64_fast.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc64_table.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc64_table_be.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc64_table_le.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/crc_macros.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/check/sha256.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/alone_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/alone_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/alone_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/auto_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_buffer_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_buffer_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_buffer_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_header_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_header_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/block_util.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/common.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/common.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/easy_buffer_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/easy_decoder_memusage.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/easy_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/easy_encoder_memusage.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/easy_preset.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/easy_preset.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/file_info.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_buffer_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_buffer_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_common.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_common.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_flags_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/filter_flags_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/hardware_cputhreads.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/hardware_physmem.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/index.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/index.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/index_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/index_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/index_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/index_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/index_hash.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/lzip_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/lzip_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/memcmplen.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/microlzma_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/microlzma_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/outqueue.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/outqueue.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_buffer_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_buffer_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_decoder_mt.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_encoder_mt.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_flags_common.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_flags_common.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_flags_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/stream_flags_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/string_conversion.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/vli_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/vli_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/common/vli_size.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/delta/delta_common.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/delta/delta_common.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/delta/delta_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/delta/delta_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/delta/delta_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/delta/delta_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/delta/delta_private.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lz/lz_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lz/lz_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lz/lz_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lz/lz_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lz/lz_encoder_hash.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lz/lz_encoder_hash_table.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lz/lz_encoder_mf.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/fastpos.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/fastpos_table.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma2_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma2_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma2_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma2_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_common.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_encoder_optimum_fast.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_encoder_optimum_normal.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_encoder_presets.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/lzma/lzma_encoder_private.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/rangecoder/price.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/rangecoder/price_table.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/rangecoder/range_common.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/rangecoder/range_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/rangecoder/range_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/arm.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/arm64.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/armthumb.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/ia64.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/powerpc.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/simple_coder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/simple_coder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/simple_decoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/simple_decoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/simple_encoder.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/simple_encoder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/simple_private.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/sparc.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/liblzma/simple/x86.c' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/args.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/coder.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/file_io.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/hardware.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/list.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/main.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/message.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/mytime.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/options.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/private.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/signals.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/suffix.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:src/xz/util.h' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_common' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma_api' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma_check' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma_common' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma_delta' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma_lz' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma_lzma' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma_rangecoder' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/2f59163fba8f04ccd24ca7dc48326bb0/external/xz+/BUILD.bazel:98:11: Target '@@xz+//:lzma_src_liblzma_simpler' contains an error and its package is in error and referenced by '@@xz+//:lzma'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/xz/BUILD:62:11: Target '@@xz+//:lzma' contains an error and its package is in error and referenced by '//riegeli/xz:xz_error'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/xz/BUILD:10:11: Target '@@xz+//:lzma' contains an error and its package is in error and referenced by '//riegeli/xz:xz_reader'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/xz/BUILD:35:11: Target '@@xz+//:lzma' contains an error and its package is in error and referenced by '//riegeli/xz:xz_writer'
+Loading: 150 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/python/riegeli/tensorflow/BUILD:17:10: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//python/riegeli/tensorflow:ops/_riegeli_dataset_ops.so'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/tensorflow/io/BUILD:10:11: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/tensorflow/io:file_reader'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/python/riegeli/tensorflow/BUILD:17:10: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//python/riegeli/tensorflow:ops/_riegeli_dataset_ops.so'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/records/tools/BUILD:64:10: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/records/tools:records_benchmark'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/tensorflow/io/BUILD:74:11: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/tensorflow/io:tstring_writer'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/tensorflow/io/BUILD:43:11: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/tensorflow/io:file_writer'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/records/tools/BUILD:64:10: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/records/tools:records_benchmark'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/google__riegeli/riegeli/records/tools/BUILD:99:11: no such package '@@[unknown repo 'local_config_tf' requested from @@]//': The repository '@@[unknown repo 'local_config_tf' requested from @@]' could not be resolved: No repository visible as '@local_config_tf' from main repository and referenced by '//riegeli/records/tools:tfrecord_recognizer'
+Loading: 157 packages loaded
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...
+Read 11000 lines from bazel query output...
+Read 12000 lines from bazel query output...
+Read 13000 lines from bazel query output...
+Read 14000 lines from bazel query output...
+Read 15000 lines from bazel query output...
+Read 16000 lines from bazel query output...
+Read 17000 lines from bazel query output...
+Read 18000 lines from bazel query output...
+Read 19000 lines from bazel query output...
+Read 20000 lines from bazel query output...
+Read 21000 lines from bazel query output...
+Read 22000 lines from bazel query output...
+Read 23000 lines from bazel query output...
+Read 24000 lines from bazel query output...
+Read 25000 lines from bazel query output...
+Read 26000 lines from bazel query output...
+Read 27000 lines from bazel query output...
+Read 28000 lines from bazel query output...
+Read 29000 lines from bazel query output...
+Read 30000 lines from bazel query output...
+Read 31000 lines from bazel query output...
+Read 32000 lines from bazel query output...
+Read 33000 lines from bazel query output...
+Read 34000 lines from bazel query output...
+Read 35000 lines from bazel query output...
+Read 36000 lines from bazel query output...
+Read 37000 lines from bazel query output...
+Read 38000 lines from bazel query output...
+Read 39000 lines from bazel query output...
+Read 40000 lines from bazel query output...
+Read 41000 lines from bazel query output...
+Read 42000 lines from bazel query output...
+Read 43000 lines from bazel query output...
+Read 44000 lines from bazel query output...
+Read 45000 lines from bazel query output...
+Read 46000 lines from bazel query output...
+Read 47000 lines from bazel query output...
+Read 48000 lines from bazel query output...
+Read 49000 lines from bazel query output...
+Read 50000 lines from bazel query output...
+Read 51000 lines from bazel query output...
+Read 52000 lines from bazel query output...
+Read 53000 lines from bazel query output...
+Read 54000 lines from bazel query output...
+Read 55000 lines from bazel query output...
+Read 56000 lines from bazel query output...
+Read 57000 lines from bazel query output...
+Read 58000 lines from bazel query output...
+Read 59000 lines from bazel query output...
+Read 60000 lines from bazel query output...
+Read 61000 lines from bazel query output...
+Read 62000 lines from bazel query output...
+Read 63000 lines from bazel query output...
+Read 64000 lines from bazel query output...
+Read 65000 lines from bazel query output...
+Read 66000 lines from bazel query output...
+Read 67000 lines from bazel query output...
+Read 68000 lines from bazel query output...
+Read 69000 lines from bazel query output...
+Read 70000 lines from bazel query output...

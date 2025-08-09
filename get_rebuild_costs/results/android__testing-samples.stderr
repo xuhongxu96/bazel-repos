@@ -1,0 +1,50 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/EspressoDeviceSample/BUILD.bazel:54:2: name 'android_instrumentation_test' is not defined
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/IntentsBasicSample/BUILD.bazel:65:2: name 'android_instrumentation_test' is not defined
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/IntentsAdvancedSample/BUILD.bazel:59:2: name 'android_instrumentation_test' is not defined
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/IdlingResourceSample/BUILD.bazel:60:2: name 'android_instrumentation_test' is not defined
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/MultiWindowSample/BUILD.bazel:58:2: name 'android_instrumentation_test' is not defined
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/DataAdapterSample/BUILD.bazel:58:2: name 'android_instrumentation_test' is not defined
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/RecyclerViewSample/BUILD.bazel:56:2: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/MultiWindowSample
+ERROR: package contains errors: ui/espresso/IntentsBasicSample
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/AccessibilitySample/BUILD.bazel:65:2: name 'android_instrumentation_test' is not defined
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/uiautomator/BasicSample/BUILD.bazel:48:2: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/AccessibilitySample
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/BasicSample/BUILD.bazel:57:2: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/BasicSample
+ERROR: package contains errors: ui/espresso/RecyclerViewSample
+ERROR: package contains errors: ui/espresso/IdlingResourceSample
+ERROR: package contains errors: ui/espresso/EspressoDeviceSample
+ERROR: package contains errors: ui/espresso/DataAdapterSample
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/android__testing-samples/ui/espresso/CustomMatcherSample/BUILD.bazel:61:2: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/uiautomator/BasicSample
+ERROR: package contains errors: ui/espresso/IntentsAdvancedSample
+ERROR: package contains errors: ui/espresso/CustomMatcherSample
+ERROR: error loading package '': Unable to find package for @@[unknown repo 'rules_jvm_external' requested from @@]//:defs.bzl: The repository '@@[unknown repo 'rules_jvm_external' requested from @@]' could not be resolved: No repository visible as '@rules_jvm_external' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
+ERROR: package contains errors: ui/espresso/AccessibilitySample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/BasicSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/CustomMatcherSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/DataAdapterSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/EspressoDeviceSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/IdlingResourceSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/IntentsAdvancedSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/IntentsBasicSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/MultiWindowSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/espresso/RecyclerViewSample: name 'android_instrumentation_test' is not defined
+ERROR: package contains errors: ui/uiautomator/BasicSample: name 'android_instrumentation_test' is not defined
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 11 packages loaded
+    currently loading: 
+Read 0 lines from bazel query output...
+INFO: Empty results
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,0 +1,16 @@
+2025/08/09 01:11:58 Downloading https://releases.bazel.build/8.2.0/release/bazel-8.2.0-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server (8.2.0) and connecting to it...
+WARNING: WORKSPACE support will be removed in Bazel 9 (late 2025), please migrate to Bzlmod, see https://bazel.build/external/migration.
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/09433a9f35d8781f8911e97cf7291f67/external/rules_python/python/private/reexports.bzl:40:19: name 'PyInfo' is not defined (did you mean 'CcInfo'?)
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/09433a9f35d8781f8911e97cf7291f67/external/rules_python/python/private/reexports.bzl:43:26: name 'PyRuntimeInfo' is not defined
+ERROR: Error computing the main repository mapping: at /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_docker/python3/image.bzl:19:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/09433a9f35d8781f8911e97cf7291f67/external/rules_python/python/defs.bzl:22:6: at /data/h445xu/.cache/bazel/_bazel_hongxu/09433a9f35d8781f8911e97cf7291f67/external/bazel_tools/tools/python/srcs_version.bzl:16:6: cannot load '@@rules_python//python:py_info.bzl': no such file
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

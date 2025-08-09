@@ -1,0 +1,53 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+WARNING: For repository 'platforms', the root module requires module version platforms@0.0.10, but got platforms@0.0.11 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+Loading: 0 packages loaded
+Loading: 114 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/third_party/geckodriver/BUILD.bazel:22:6: no such package '@@[unknown repo 'org_mozilla_geckodriver_windows_x64' requested from @@]//': The repository '@@[unknown repo 'org_mozilla_geckodriver_windows_x64' requested from @@]' could not be resolved: No repository visible as '@org_mozilla_geckodriver_windows_x64' from main repository and referenced by '//third_party/geckodriver:geckodriver'
+Loading: 119 packages loaded
+Loading: 120 packages loaded
+Loading: 122 packages loaded
+Loading: 124 packages loaded
+Loading: 124 packages loaded
+INFO: Repository +browser_repositories_extension+org_mozilla_firefox_macos_x64 instantiated at:
+  <builtin>: in <toplevel>
+Repository rule platform_archive defined at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/web/internal/platform_archive.bzl:81:35: in <toplevel>
+INFO: Repository +browser_repositories_extension+org_mozilla_firefox_macos_arm64 instantiated at:
+  <builtin>: in <toplevel>
+Repository rule platform_archive defined at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/web/internal/platform_archive.bzl:81:35: in <toplevel>
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/web/internal/platform_archive.bzl:29:20: An error occurred during the fetch of repository '+browser_repositories_extension+org_mozilla_firefox_macos_arm64':
+   Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/web/internal/platform_archive.bzl", line 29, column 20, in _platform_archive_impl
+		ctx.extract(result_zip_name)
+Error in extract: Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/42c4d6d6c8b5933b80c2a8382e9d0ea1/external/+browser_repositories_extension+org_mozilla_firefox_macos_arm64/_converted_file_+browser_repositories_extension+org_mozilla_firefox_macos_arm64.zip' does not exist.
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/web/internal/platform_archive.bzl:29:20: An error occurred during the fetch of repository '+browser_repositories_extension+org_mozilla_firefox_macos_x64':
+   Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/web/internal/platform_archive.bzl", line 29, column 20, in _platform_archive_impl
+		ctx.extract(result_zip_name)
+Error in extract: Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/42c4d6d6c8b5933b80c2a8382e9d0ea1/external/+browser_repositories_extension+org_mozilla_firefox_macos_x64/_converted_file_+browser_repositories_extension+org_mozilla_firefox_macos_x64.zip' does not exist.
+Loading: 124 packages loaded
+Loading: 124 packages loaded
+Loading: 148 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/third_party/firefox/BUILD.bazel:22:6: no such package '@@+browser_repositories_extension+org_mozilla_firefox_macos_x64//': Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/42c4d6d6c8b5933b80c2a8382e9d0ea1/external/+browser_repositories_extension+org_mozilla_firefox_macos_x64/_converted_file_+browser_repositories_extension+org_mozilla_firefox_macos_x64.zip' does not exist. and referenced by '//third_party/firefox:firefox'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/third_party/firefox/BUILD.bazel:22:6: no such package '@@+browser_repositories_extension+org_mozilla_firefox_macos_arm64//': Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/42c4d6d6c8b5933b80c2a8382e9d0ea1/external/+browser_repositories_extension+org_mozilla_firefox_macos_arm64/_converted_file_+browser_repositories_extension+org_mozilla_firefox_macos_arm64.zip' does not exist. and referenced by '//third_party/firefox:firefox'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/third_party/firefox/BUILD.bazel:22:6: no such package '@@[unknown repo 'org_mozilla_firefox_windows_x64' requested from @@]//': The repository '@@[unknown repo 'org_mozilla_firefox_windows_x64' requested from @@]' could not be resolved: No repository visible as '@org_mozilla_firefox_windows_x64' from main repository and referenced by '//third_party/firefox:firefox'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/third_party/firefox/BUILD.bazel:22:6: no such package '@@+browser_repositories_extension+org_mozilla_firefox_macos_x64//': Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/42c4d6d6c8b5933b80c2a8382e9d0ea1/external/+browser_repositories_extension+org_mozilla_firefox_macos_x64/_converted_file_+browser_repositories_extension+org_mozilla_firefox_macos_x64.zip' does not exist. and referenced by '//third_party/firefox:firefox'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/third_party/geckodriver/BUILD.bazel:22:6: no such package '@@[unknown repo 'org_mozilla_geckodriver_windows_x64' requested from @@]//': The repository '@@[unknown repo 'org_mozilla_geckodriver_windows_x64' requested from @@]' could not be resolved: No repository visible as '@org_mozilla_geckodriver_windows_x64' from main repository and referenced by '//third_party/geckodriver:geckodriver'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/third_party/firefox/BUILD.bazel:22:6: no such package '@@[unknown repo 'org_mozilla_firefox_windows_x64' requested from @@]//': The repository '@@[unknown repo 'org_mozilla_firefox_windows_x64' requested from @@]' could not be resolved: No repository visible as '@org_mozilla_firefox_windows_x64' from main repository and referenced by '//third_party/firefox:firefox'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/bazelbuild__rules_webtesting/third_party/firefox/BUILD.bazel:22:6: no such package '@@+browser_repositories_extension+org_mozilla_firefox_macos_arm64//': Archive path '/data/h445xu/.cache/bazel/_bazel_hongxu/42c4d6d6c8b5933b80c2a8382e9d0ea1/external/+browser_repositories_extension+org_mozilla_firefox_macos_arm64/_converted_file_+browser_repositories_extension+org_mozilla_firefox_macos_arm64.zip' does not exist. and referenced by '//third_party/firefox:firefox'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 150 packages loaded
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...

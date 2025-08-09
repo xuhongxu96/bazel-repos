@@ -1,0 +1,9 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+ERROR: error loading package 'examples/bazel/src': Unable to find package for @@[unknown repo 'rules_cc' requested from @@]//cc:defs.bzl: The repository '@@[unknown repo 'rules_cc' requested from @@]' could not be resolved: No repository visible as '@rules_cc' from main repository.
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...

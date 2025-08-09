@@ -1,0 +1,152 @@
+Starting local Bazel server and connecting to it...
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+DEBUG: Rule 'crates' indicated that a canonical reproducible form can be obtained by modifying arguments lockfile = Label("@typedb_dependencies//library/crates:cargo-bazel-lock.json")
+DEBUG: Repository crates instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typeql/WORKSPACE:65:13: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/library/crates/crates.bzl:11:22: in fetch_crates
+Repository rule crates_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/rules_rust/crate_universe/private/crates_repository.bzl:107:36: in <toplevel>
+ checking cached actions
+ checking cached actions
+DEBUG: Rule 'rules_pkg' indicated that a canonical reproducible form can be obtained by modifying arguments commit = "6c2e32553b740aec1d6fb540fb224487b5ce26a2" and dropping ["tag"]
+DEBUG: Repository rules_pkg instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typeql/WORKSPACE:96:10: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_bazel_distribution/common/deps.bzl:12:19: in rules_pkg
+Repository rule git_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/bazel_tools/tools/build_defs/repo/git.bzl:181:33: in <toplevel>
+ checking cached actions
+Loading: 0 packages loaded
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/io_bazel_rules_kotlin/kotlin/kotlin.bzl:106:10: kt_jvm_library should be loaded from //kotlin:jvm.bzl
+Loading: 114 packages loaded
+    currently loading: @bazel_tools//third_party/zlib ... (7 packages)
+DEBUG: Rule 'sonarscanner_linux_zip' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "350dbdb517c10fcb3ce70425db95c415b313cad7296c407d416d88f3d50121f8"
+DEBUG: Repository sonarscanner_linux_zip instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typeql/WORKSPACE:85:24: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/tool/sonarcloud/deps.bzl:19:14: in sonarcloud_dependencies
+Repository rule http_file defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
+Loading: 225 packages loaded
+DEBUG: Rule 'buildozer_mac' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "13cfaa7cebe81eac3211d18b18610cc3eef655a921c26d31607246e5e3093bf9"
+DEBUG: Repository buildozer_mac instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typeql/WORKSPACE:81:16: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/tool/unuseddeps/deps.bzl:19:14: in deps
+Repository rule http_file defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
+DEBUG: Rule 'unused_deps_linux' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "36b712031449a4ac272f3d4d2175fe77ca22fe13d1a565afede91f2dbe4f843a"
+DEBUG: Repository unused_deps_linux instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typeql/WORKSPACE:81:16: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/tool/unuseddeps/deps.bzl:14:14: in deps
+Repository rule http_file defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
+DEBUG: Rule 'buildozer_linux' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "c80ebdbd1f9d8c1d4ac240b4da4caccc461a51f3ea13119057ec0b4c838a5f12"
+DEBUG: Repository buildozer_linux instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typeql/WORKSPACE:81:16: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/tool/unuseddeps/deps.bzl:24:14: in deps
+Repository rule http_file defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
+DEBUG: Rule 'unused_deps_mac' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "55b868ca7b4340abd3b99de55d25972641e77519fbbe574ed98b733689ef383a"
+DEBUG: Repository unused_deps_mac instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typeql/WORKSPACE:81:16: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/tool/unuseddeps/deps.bzl:9:14: in deps
+Repository rule http_file defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
+Loading: 230 packages loaded
+DEBUG: Rule 'sonarscanner_mac_zip' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "ba129044005494f039b41afaad2d949881604e69c6ebe814f4e218c7904a9d2d"
+DEBUG: Repository sonarscanner_mac_zip instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/typedb__typeql/WORKSPACE:85:24: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/tool/sonarcloud/deps.bzl:14:14: in sonarcloud_dependencies
+Repository rule http_file defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/bazel_tools/tools/build_defs/repo/http.bzl:466:28: in <toplevel>
+Loading: 230 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/tool/sonarcloud/BUILD:9:10: no such package '@sonarscanner_zip//file': The repository '@sonarscanner_zip' could not be resolved: Repository '@sonarscanner_zip' is not defined and referenced by '@typedb_dependencies//tool/sonarcloud:code-analysis'
+Loading: 231 packages loaded
+Loading: 231 packages loaded
+Loading: 238 packages loaded
+Loading: 238 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/59284adb17aa411a4ea26d546888dbb5/external/typedb_dependencies/tool/sonarcloud/BUILD:9:10: no such package '@sonarscanner_zip//file': The repository '@sonarscanner_zip' could not be resolved: Repository '@sonarscanner_zip' is not defined and referenced by '@typedb_dependencies//tool/sonarcloud:code-analysis'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...
+Read 11000 lines from bazel query output...
+Read 12000 lines from bazel query output...
+Read 13000 lines from bazel query output...
+Read 14000 lines from bazel query output...
+Read 15000 lines from bazel query output...
+Read 16000 lines from bazel query output...
+Read 17000 lines from bazel query output...
+Read 18000 lines from bazel query output...
+Read 19000 lines from bazel query output...
+Read 20000 lines from bazel query output...
+Read 21000 lines from bazel query output...
+Read 22000 lines from bazel query output...
+Read 23000 lines from bazel query output...
+Read 24000 lines from bazel query output...
+Read 25000 lines from bazel query output...
+Read 26000 lines from bazel query output...
+Read 27000 lines from bazel query output...
+Read 28000 lines from bazel query output...
+Read 29000 lines from bazel query output...
+Read 30000 lines from bazel query output...
+Read 31000 lines from bazel query output...
+Read 32000 lines from bazel query output...
+Read 33000 lines from bazel query output...
+Read 34000 lines from bazel query output...
+Read 35000 lines from bazel query output...
+Read 36000 lines from bazel query output...
+Read 37000 lines from bazel query output...
+Read 38000 lines from bazel query output...
+Read 39000 lines from bazel query output...
+Read 40000 lines from bazel query output...
+Read 41000 lines from bazel query output...
+Read 42000 lines from bazel query output...
+Read 43000 lines from bazel query output...
+Loading: 239 packages loaded

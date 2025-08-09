@@ -1,0 +1,2066 @@
+2025/08/08 23:59:19 Downloading https://releases.bazel.build/7.1.0/release/bazel-7.1.0-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server and connecting to it...
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+WARNING: Download from https://mirror.bazel.build/github.com/hedronvision/bazel-compile-commands-extractor/archive/d6734f1d7848800edc92de48fb9d9b82f2677958.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/rules_java/releases/download/6.5.2/rules_java-6.5.2.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from https://mirror.bazel.build/github.com/llvm/llvm-project/archive/cc46d00a86f89b57008ca878e89538d724b7df90.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
+DEBUG: Rule 'hedron_compile_commands' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-Df55O1d5hVz3Oz7p9DDgAiX1HzjHBVWTbU3W8bPGXmY="
+DEBUG: Repository hedron_compile_commands instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:13:24: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:184:10: in kythe_rule_repositories
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:10:17: in github_archive
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+ checking cached actions
+DEBUG: Rule 'llvm-raw' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-eDavYz6rzf56ip8jl5Ag6c62oz0+eQh1Ac6Hb8wy2sw="
+DEBUG: Repository llvm-raw instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:13:24: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:174:10: in kythe_rule_repositories
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:10:17: in github_archive
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+ checking cached actions
+Loading: 0 packages loaded
+Loading: 36 packages loaded
+    currently loading: tools/platforms/configs/rbe_default/cc ... (10 packages)
+Loading: 275 packages loaded
+    currently loading:  ... (18 packages)
+Loading: 293 packages loaded
+WARNING: Download from https://mirror.bazel.build/github.com/abseil/abseil-cpp/archive/71d553b12397ef81e9111b4fa21c68af3c0bf8b9.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from https://mirror.bazel.build/github.com/google/re2/archive/1e44e72d31ddc66b783a545e9d9fcaa876a146b7.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
+Loading: 391 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (6 packages)
+Loading: 410 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+WARNING: Download from https://mirror.bazel.build/github.com/inazarenko/protobuf-matchers/archive/8edcd4f7cad4f35e9bd304ff9d45a035c50c9290.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
+Loading: 411 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (2 packages)
+Loading: 412 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (2 packages)
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Loading: 413 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (2 packages)
+Loading: 414 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (2 packages)
+Loading: 415 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Loading: 415 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Loading: 415 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Loading: 415 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Loading: 416 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+DEBUG: Rule 'com_github_inazarenko_protobuf_matchers' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-8nb3uwZ2gHP5CWW7BRY8leeWwsap6/2zeCahY/AQmuI="
+DEBUG: Repository com_github_inazarenko_protobuf_matchers instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:64:19: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1822:21: in kythe_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:294:10: in _cc_dependencies
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:10:17: in github_archive
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+DEBUG: Rule 'com_googlesource_code_re2' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-ihSWrTM50oDsQKaXFBUoQjQMtQr62pdYQy+JOch+48E="
+DEBUG: Repository com_googlesource_code_re2 instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:64:19: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1822:21: in kythe_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:255:10: in _cc_dependencies
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:10:17: in github_archive
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+DEBUG: Rule 'com_google_absl' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-8yL4sjSJma/YA1aXZLwEyZQohHfMcK4AA4gkUifepes="
+DEBUG: Repository com_google_absl instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:64:19: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1822:21: in kythe_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:191:10: in _cc_dependencies
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:10:17: in github_archive
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+DEBUG: Rule 'com_google_riegeli' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-+iLOXdQnEtrW+dR//g1BZGHsT4uK1970+tEtuwYU5Z8="
+DEBUG: Repository com_google_riegeli instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:64:19: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1822:21: in kythe_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:224:10: in _cc_dependencies
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:10:17: in github_archive
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+Loading: 447 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Fetching gem metadata from https://rubygems.org/.
+WARNING: Download from https://mirror.bazel.build/github.com/bazelbuild/bazel-toolchains/releases/download/v5.1.2/rbe_configs_gen_linux_amd64 failed: class java.io.FileNotFoundException GET returned 404 Not Found
+Loading: 458 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+...
+DEBUG: Rule 'com_github_google_snappy' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-OLSqv4jrSAEx7UW/uJwZyj4qYtrrCBvfABz7F+xM0wM="
+DEBUG: Repository com_github_google_snappy instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:64:19: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1822:21: in kythe_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:274:10: in _cc_dependencies
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/setup.bzl:10:17: in github_archive
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+Loading: 469 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+.....
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Loading: 472 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Loading: 476 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Loading: 480 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+Loading: 480 packages loaded
+    currently loading: @@bazel_tools//third_party/zlib ... (3 packages)
+Loading: 519 packages loaded
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+INFO: Repository website_bundle instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:83:12: in <toplevel>
+Repository rule ruby_bundle_install defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazelruby_rules_ruby/ruby/private/bundle/def.bzl:182:38: in <toplevel>
+ERROR: An error occurred during the fetch of repository 'website_bundle':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazelruby_rules_ruby/ruby/private/bundle/def.bzl", line 177, column 28, in _ruby_bundle_impl
+		result = bundle_install(runtime_ctx, result)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazelruby_rules_ruby/ruby/private/bundle/def.bzl", line 131, column 13, in bundle_install
+		fail("bundle install failed: %s%s" % (result.stdout, result.stderr))
+Error in fail: bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:83:12: fetching ruby_bundle_install rule //external:website_bundle: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazelruby_rules_ruby/ruby/private/bundle/def.bzl", line 177, column 28, in _ruby_bundle_impl
+		result = bundle_install(runtime_ctx, result)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazelruby_rules_ruby/ruby/private/bundle/def.bzl", line 131, column 13, in bundle_install
+		fail("bundle install failed: %s%s" % (result.stdout, result.stderr))
+Error in fail: bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/kythe/web/site/BUILD:5:12: no such package '@@website_bundle//': bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ and referenced by '//kythe/web/site:doc_header'
+Loading: 540 packages loaded
+Loading: 547 packages loaded
+Loading: 548 packages loaded
+Loading: 556 packages loaded
+Loading: 599 packages loaded
+Loading: 679 packages loaded
+Loading: 768 packages loaded
+Loading: 774 packages loaded
+Loading: 774 packages loaded
+    currently loading: @@go_sdk//
+DEBUG: Rule 'remotejdk19_macos' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-KARXWumsY+OcqpEOV2EL9SsPni1nGSipjRji/Mn2KsE="
+DEBUG: Repository remotejdk19_macos instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:64:19: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1827:23: in kythe_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:40:23: in _rule_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1891:10: in remote_jdk19_repos
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1859:27: in _remote_jdk_repository
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/rules_java/toolchains/remote_java_repository.bzl:52:17: in remote_java_repository
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+Loading: 777 packages loaded
+DEBUG: Rule 'remotejdk21_macos' indicated that a canonical reproducible form can be obtained by modifying arguments integrity = "sha256-ljm4fbWG0MifepiSrkf0IeRCxkuXuuvf8xeI++IyZb0="
+DEBUG: Repository remotejdk21_macos instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/WORKSPACE:64:19: in <toplevel>
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1827:23: in kythe_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:42:23: in _rule_dependencies
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1927:10: in remote_jdk21_repos
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/utils.bzl:240:18: in maybe
+  /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/external.bzl:1859:27: in _remote_jdk_repository
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/rules_java/toolchains/remote_java_repository.bzl:52:17: in remote_java_repository
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/bazel_tools/tools/build_defs/repo/http.bzl:369:31: in <toplevel>
+Loading: 780 packages loaded
+Loading: 781 packages loaded
+Loading: 781 packages loaded
+Loading: 845 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/kythe/web/site/BUILD:112:10: no such package '@@website_bundle//': bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ and referenced by '//kythe/web/site:serve'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/kythe/web/site/BUILD:89:8: no such package '@@website_bundle//': bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ and referenced by '//kythe/web/site:check_links_test'
+Loading: 921 packages loaded
+Loading: 955 packages loaded
+Loading: 956 packages loaded
+Loading: 956 packages loaded
+Loading: 1051 packages loaded
+Loading: 1058 packages loaded
+Loading: 1058 packages loaded
+Loading: 1153 packages loaded
+Loading: 1159 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/kythe/web/site/BUILD:5:12: no such package '@@website_bundle//': bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ and referenced by '//kythe/web/site:doc_header'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/kythe/web/site/BUILD:112:10: no such package '@@website_bundle//': bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ and referenced by '//kythe/web/site:serve'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/kythe/web/site/BUILD:89:8: no such package '@@website_bundle//': bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ and referenced by '//kythe/web/site:check_links_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/kythe/web/site/BUILD:112:10: no such package '@@website_bundle//': bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ and referenced by '//kythe/web/site:serve'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/kythe__kythe/kythe/web/site/BUILD:89:8: no such package '@@website_bundle//': bundle install failed: Fetching gem metadata from https://rubygems.org/.........
+Fetching asciidoctor 2.0.12
+Using bundler 2.1.4
+Fetching mercenary 0.4.0
+Fetching rouge 3.26.0
+Fetching eventmachine 1.2.7
+Fetching ffi 1.14.2
+Fetching rexml 3.2.5
+Fetching safe_yaml 1.0.5
+Fetching unicode-display_width 1.7.0
+Fetching http_parser.rb 0.6.0
+Fetching racc 1.7.3
+Fetching liquid 4.0.3
+Fetching pygments.rb 2.1.0
+Fetching colorator 1.1.0
+Fetching concurrent-ruby 1.1.8
+Fetching rb-fsevent 0.10.4
+Fetching public_suffix 4.0.6
+Fetching forwardable-extended 2.6.0
+Fetching mini_portile2 2.8.5
+Installing forwardable-extended 2.6.0
+Installing mercenary 0.4.0
+Installing safe_yaml 1.0.5
+Installing unicode-display_width 1.7.0
+Installing racc 1.7.3 with native extensions
+Installing public_suffix 4.0.6
+Installing mini_portile2 2.8.5
+Installing rexml 3.2.5
+Fetching terminal-table 2.0.0
+Installing liquid 4.0.3
+Installing asciidoctor 2.0.12
+Installing colorator 1.1.0
+Installing eventmachine 1.2.7 with native extensions
+Installing rb-fsevent 0.10.4
+Installing concurrent-ruby 1.1.8
+Installing http_parser.rb 0.6.0 with native extensions
+Installing terminal-table 2.0.0
+Installing rouge 3.26.0
+Fetching pathutil 0.16.2
+Fetching addressable 2.8.0
+Installing pygments.rb 2.1.0
+Installing ffi 1.14.2 with native extensions
+Installing addressable 2.8.0
+Installing pathutil 0.16.2
+Fetching kramdown 2.3.1
+Fetching i18n 1.8.9
+Installing i18n 1.8.9
+Installing kramdown 2.3.1
+[DEPRECATED] The `--deployment` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set deployment 'true'`, and stop using this flag
+[DEPRECATED] The `--frozen` flag is deprecated because it relies on being remembered across bundler invocations, which bundler will no longer do in future versions. Instead please use `bundle config set frozen 'true'`, and stop using this flag
+[DEPRECATED] The --binstubs option will be removed in favor of `bundle binstubs`
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7/ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-domesm.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/eventmachine-1.2.7
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/eventmachine-1.2.7/gem_make.out
+
+An error occurred while installing eventmachine (1.2.7), and Bundler cannot
+continue.
+Make sure that `gem install eventmachine -v '1.2.7' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        eventmachine
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-xrdcyy.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/http_parser.rb-0.6.0
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/http_parser.rb-0.6.0/gem_make.out
+
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot
+continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  jekyll-asciidoc was resolved to 3.0.0, which depends on
+    jekyll was resolved to 4.2.0, which depends on
+      em-websocket was resolved to 0.5.2, which depends on
+        http_parser.rb
+
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250809-462717-ezdw6a.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/gems/racc-1.7.3
+for inspection.
+Results logged to
+/data/h445xu/.cache/bazel/_bazel_hongxu/c2293599e5270c14358f701cd3e23ce4/external/website_bundle/lib/ruby/3.0.0/extensions/x86_64-linux/3.0.0/racc-1.7.3/gem_make.out
+
+An error occurred while installing racc (1.7.3), and Bundler cannot continue.
+Make sure that `gem install racc -v '1.7.3' --source 'https://rubygems.org/'`
+succeeds before bundling.
+
+In Gemfile:
+  nokogiri was resolved to 1.16.2, which depends on
+    racc
+ and referenced by '//kythe/web/site:check_links_test'
+Loading: 1161 packages loaded
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...
+Read 11000 lines from bazel query output...
+Read 12000 lines from bazel query output...
+Read 13000 lines from bazel query output...
+Read 14000 lines from bazel query output...
+Read 15000 lines from bazel query output...
+Read 16000 lines from bazel query output...
+Read 17000 lines from bazel query output...
+Read 18000 lines from bazel query output...
+Read 19000 lines from bazel query output...
+Read 20000 lines from bazel query output...
+Read 21000 lines from bazel query output...
+Read 22000 lines from bazel query output...
+Read 23000 lines from bazel query output...
+Read 24000 lines from bazel query output...
+Read 25000 lines from bazel query output...
+Read 26000 lines from bazel query output...
+Read 27000 lines from bazel query output...
+Read 28000 lines from bazel query output...
+Read 29000 lines from bazel query output...
+Read 30000 lines from bazel query output...
+Read 31000 lines from bazel query output...
+Read 32000 lines from bazel query output...
+Read 33000 lines from bazel query output...
+Read 34000 lines from bazel query output...
+Read 35000 lines from bazel query output...
+Read 36000 lines from bazel query output...
+Read 37000 lines from bazel query output...
+Read 38000 lines from bazel query output...
+Read 39000 lines from bazel query output...
+Read 40000 lines from bazel query output...
+Read 41000 lines from bazel query output...
+Read 42000 lines from bazel query output...
+Read 43000 lines from bazel query output...
+Read 44000 lines from bazel query output...
+Read 45000 lines from bazel query output...
+Read 46000 lines from bazel query output...
+Read 47000 lines from bazel query output...
+Read 48000 lines from bazel query output...
+Read 49000 lines from bazel query output...
+Read 50000 lines from bazel query output...
+Read 51000 lines from bazel query output...
+Read 52000 lines from bazel query output...
+Read 53000 lines from bazel query output...
+Read 54000 lines from bazel query output...
+Read 55000 lines from bazel query output...
+Read 56000 lines from bazel query output...
+Read 57000 lines from bazel query output...
+Read 58000 lines from bazel query output...
+Read 59000 lines from bazel query output...
+Read 60000 lines from bazel query output...
+Read 61000 lines from bazel query output...
+Read 62000 lines from bazel query output...
+Read 63000 lines from bazel query output...
+Read 64000 lines from bazel query output...
+Read 65000 lines from bazel query output...
+Read 66000 lines from bazel query output...
+Read 67000 lines from bazel query output...
+Read 68000 lines from bazel query output...
+Read 69000 lines from bazel query output...
+Read 70000 lines from bazel query output...
+Read 71000 lines from bazel query output...
+Read 72000 lines from bazel query output...
+Read 73000 lines from bazel query output...
+Read 74000 lines from bazel query output...
+Read 75000 lines from bazel query output...
+Read 76000 lines from bazel query output...
+Read 77000 lines from bazel query output...
+Read 78000 lines from bazel query output...
+Read 79000 lines from bazel query output...
+Read 80000 lines from bazel query output...
+Read 81000 lines from bazel query output...
+Read 82000 lines from bazel query output...
+Read 83000 lines from bazel query output...
+Read 84000 lines from bazel query output...
+Read 85000 lines from bazel query output...
+Read 86000 lines from bazel query output...
+Read 87000 lines from bazel query output...
+Read 88000 lines from bazel query output...
+Read 89000 lines from bazel query output...
+Read 90000 lines from bazel query output...
+Read 91000 lines from bazel query output...
+Read 92000 lines from bazel query output...
+Read 93000 lines from bazel query output...
+Read 94000 lines from bazel query output...
+Read 95000 lines from bazel query output...
+Read 96000 lines from bazel query output...
+Read 97000 lines from bazel query output...
+Read 98000 lines from bazel query output...
+Read 99000 lines from bazel query output...
+Read 100000 lines from bazel query output...
+Read 101000 lines from bazel query output...
+Read 102000 lines from bazel query output...
+Read 103000 lines from bazel query output...
+Read 104000 lines from bazel query output...
+Read 105000 lines from bazel query output...
+Read 106000 lines from bazel query output...
+Read 107000 lines from bazel query output...
+Read 108000 lines from bazel query output...
+Read 109000 lines from bazel query output...
+Read 110000 lines from bazel query output...
+Read 111000 lines from bazel query output...
+Read 112000 lines from bazel query output...
+Read 113000 lines from bazel query output...
+Read 114000 lines from bazel query output...
+Read 115000 lines from bazel query output...
+Read 116000 lines from bazel query output...
+Read 117000 lines from bazel query output...
+Read 118000 lines from bazel query output...
+Read 119000 lines from bazel query output...
+Read 120000 lines from bazel query output...
+Read 121000 lines from bazel query output...
+Read 122000 lines from bazel query output...
+Read 123000 lines from bazel query output...
+Read 124000 lines from bazel query output...
+Read 125000 lines from bazel query output...
+Read 126000 lines from bazel query output...
+Read 127000 lines from bazel query output...
+Read 128000 lines from bazel query output...
+Read 129000 lines from bazel query output...
+Read 130000 lines from bazel query output...
+Read 131000 lines from bazel query output...
+Read 132000 lines from bazel query output...
+Read 133000 lines from bazel query output...
+Read 134000 lines from bazel query output...
+Read 135000 lines from bazel query output...
+Read 136000 lines from bazel query output...
+Read 137000 lines from bazel query output...
+Read 138000 lines from bazel query output...
+Read 139000 lines from bazel query output...
+Read 140000 lines from bazel query output...
+Read 141000 lines from bazel query output...
+Read 142000 lines from bazel query output...
+Read 143000 lines from bazel query output...
+Read 144000 lines from bazel query output...
+Read 145000 lines from bazel query output...
+Read 146000 lines from bazel query output...
+Read 147000 lines from bazel query output...
+Read 148000 lines from bazel query output...
+Read 149000 lines from bazel query output...
+Read 150000 lines from bazel query output...
+Read 151000 lines from bazel query output...
+Read 152000 lines from bazel query output...
+Read 153000 lines from bazel query output...
+Read 154000 lines from bazel query output...
+Read 155000 lines from bazel query output...
+Read 156000 lines from bazel query output...
+Read 157000 lines from bazel query output...
+Read 158000 lines from bazel query output...
+Read 159000 lines from bazel query output...
+Read 160000 lines from bazel query output...
+Read 161000 lines from bazel query output...
+Read 162000 lines from bazel query output...
+Read 163000 lines from bazel query output...
+Read 164000 lines from bazel query output...
+Read 165000 lines from bazel query output...
+Read 166000 lines from bazel query output...
+Read 167000 lines from bazel query output...
+Read 168000 lines from bazel query output...
+Read 169000 lines from bazel query output...
+Read 170000 lines from bazel query output...
+Read 171000 lines from bazel query output...
+Read 172000 lines from bazel query output...
+Read 173000 lines from bazel query output...
+Read 174000 lines from bazel query output...
+Read 175000 lines from bazel query output...
+Read 176000 lines from bazel query output...
+Read 177000 lines from bazel query output...
+Read 178000 lines from bazel query output...
+Read 179000 lines from bazel query output...
+Read 180000 lines from bazel query output...
+Read 181000 lines from bazel query output...
+Read 182000 lines from bazel query output...
+Read 183000 lines from bazel query output...
+Read 184000 lines from bazel query output...
+Read 185000 lines from bazel query output...
+Read 186000 lines from bazel query output...
+Read 187000 lines from bazel query output...
+Read 188000 lines from bazel query output...
+Read 189000 lines from bazel query output...
+Read 190000 lines from bazel query output...
+Read 191000 lines from bazel query output...
+Read 192000 lines from bazel query output...
+Read 193000 lines from bazel query output...
+Read 194000 lines from bazel query output...
+Read 195000 lines from bazel query output...
+Read 196000 lines from bazel query output...
+Read 197000 lines from bazel query output...
+Read 198000 lines from bazel query output...
+Read 199000 lines from bazel query output...
+Read 200000 lines from bazel query output...
+Read 201000 lines from bazel query output...
+Read 202000 lines from bazel query output...
+Read 203000 lines from bazel query output...
+Read 204000 lines from bazel query output...
+Read 205000 lines from bazel query output...
+Read 206000 lines from bazel query output...
+Read 207000 lines from bazel query output...
+Read 208000 lines from bazel query output...
+Read 209000 lines from bazel query output...
+Read 210000 lines from bazel query output...
+Read 211000 lines from bazel query output...
+Read 212000 lines from bazel query output...
+Read 213000 lines from bazel query output...
+Read 214000 lines from bazel query output...
+Read 215000 lines from bazel query output...
+Read 216000 lines from bazel query output...
+Read 217000 lines from bazel query output...
+Read 218000 lines from bazel query output...
+Read 219000 lines from bazel query output...
+Read 220000 lines from bazel query output...
+Read 221000 lines from bazel query output...
+Read 222000 lines from bazel query output...
+Read 223000 lines from bazel query output...
+Read 224000 lines from bazel query output...
+Read 225000 lines from bazel query output...
+Read 226000 lines from bazel query output...
+Read 227000 lines from bazel query output...
+Read 228000 lines from bazel query output...
+Read 229000 lines from bazel query output...
+Read 230000 lines from bazel query output...
+Read 231000 lines from bazel query output...
+Read 232000 lines from bazel query output...
+Read 233000 lines from bazel query output...
+Read 234000 lines from bazel query output...
+Read 235000 lines from bazel query output...
+Read 236000 lines from bazel query output...
+Read 237000 lines from bazel query output...
+Read 238000 lines from bazel query output...
+Read 239000 lines from bazel query output...
+Read 240000 lines from bazel query output...
+Read 241000 lines from bazel query output...
+Read 242000 lines from bazel query output...
+Read 243000 lines from bazel query output...
+Read 244000 lines from bazel query output...
+Read 245000 lines from bazel query output...
+Read 246000 lines from bazel query output...
+Read 247000 lines from bazel query output...
+Read 248000 lines from bazel query output...
+Read 249000 lines from bazel query output...
+Read 250000 lines from bazel query output...
+Read 251000 lines from bazel query output...
+Read 252000 lines from bazel query output...
+Read 253000 lines from bazel query output...
+Read 254000 lines from bazel query output...
+Read 255000 lines from bazel query output...
+Read 256000 lines from bazel query output...
+Read 257000 lines from bazel query output...
+Read 258000 lines from bazel query output...
+Read 259000 lines from bazel query output...
+Read 260000 lines from bazel query output...
+Read 261000 lines from bazel query output...
+Read 262000 lines from bazel query output...
+Read 263000 lines from bazel query output...
+Read 264000 lines from bazel query output...
+Read 265000 lines from bazel query output...
+Read 266000 lines from bazel query output...
+Read 267000 lines from bazel query output...
+Read 268000 lines from bazel query output...
+Read 269000 lines from bazel query output...
+Read 270000 lines from bazel query output...
+Read 271000 lines from bazel query output...
+Read 272000 lines from bazel query output...
+Read 273000 lines from bazel query output...
+Read 274000 lines from bazel query output...
+Read 275000 lines from bazel query output...
+Read 276000 lines from bazel query output...
+Read 277000 lines from bazel query output...
+Read 278000 lines from bazel query output...
+Read 279000 lines from bazel query output...
+Read 280000 lines from bazel query output...
+Read 281000 lines from bazel query output...
+Read 282000 lines from bazel query output...
+Read 283000 lines from bazel query output...
+Read 284000 lines from bazel query output...
+Read 285000 lines from bazel query output...
+Read 286000 lines from bazel query output...
+Read 287000 lines from bazel query output...
+Read 288000 lines from bazel query output...
+Read 289000 lines from bazel query output...
+Read 290000 lines from bazel query output...
+Read 291000 lines from bazel query output...
+Read 292000 lines from bazel query output...
+Read 293000 lines from bazel query output...
+Read 294000 lines from bazel query output...
+Read 295000 lines from bazel query output...
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("missing field `@name`")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

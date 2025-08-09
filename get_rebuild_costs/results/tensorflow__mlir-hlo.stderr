@@ -1,0 +1,22 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+ERROR: error loading package 'stablehlo/examples/c++': Unable to find package for @@[unknown repo 'rules_cc' requested from @@]//cc:defs.bzl: The repository '@@[unknown repo 'rules_cc' requested from @@]' could not be resolved: No repository visible as '@rules_cc' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
+ERROR: error loading package 'stablehlo/stablehlo/testdata': Unable to find package for @@[unknown repo 'bazel_skylib' requested from @@]//rules:expand_template.bzl: The repository '@@[unknown repo 'bazel_skylib' requested from @@]' could not be resolved: No repository visible as '@bazel_skylib' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
+ERROR: error loading package 'stablehlo/stablehlo/conversions/tosa/tests': Unable to find package for @@[unknown repo 'bazel_skylib' requested from @@]//rules:expand_template.bzl: The repository '@@[unknown repo 'bazel_skylib' requested from @@]' could not be resolved: No repository visible as '@bazel_skylib' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
+ERROR: error loading package 'stablehlo/stablehlo/tests': Unable to find package for @@[unknown repo 'bazel_skylib' requested from @@]//rules:expand_template.bzl: The repository '@@[unknown repo 'bazel_skylib' requested from @@]' could not be resolved: No repository visible as '@bazel_skylib' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
+ERROR: error loading package 'stablehlo/stablehlo/conversions/linalg/tests': Unable to find package for @@[unknown repo 'bazel_skylib' requested from @@]//rules:expand_template.bzl: The repository '@@[unknown repo 'bazel_skylib' requested from @@]' could not be resolved: No repository visible as '@bazel_skylib' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tensorflow__mlir-hlo/BUILD:7:26: name 'internal_visibility' is not defined
+ERROR: error loading package 'stablehlo': Unable to find package for @@[unknown repo 'llvm-project' requested from @@]//mlir:tblgen.bzl: The repository '@@[unknown repo 'llvm-project' requested from @@]' could not be resolved: No repository visible as '@llvm-project' from main repository. Was the repository introduced in WORKSPACE? The WORKSPACE file is disabled by default in Bazel 8 (late 2024) and will be removed in Bazel 9 (late 2025), please migrate to Bzlmod. See https://bazel.build/external/migration.
+ERROR: package contains errors: 
+ERROR: package contains errors: : name 'internal_visibility' is not defined
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+INFO: Empty results
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

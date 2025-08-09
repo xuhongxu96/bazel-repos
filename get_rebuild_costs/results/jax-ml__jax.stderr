@@ -1,0 +1,42 @@
+Starting local Bazel server and connecting to it...
+INFO: Options provided by the client:
+  Inherited 'common' options: --isatty=0 --terminal_columns=80
+INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_repos/jax-ml__jax/.bazelrc:
+  Inherited 'common' options: --noenable_bzlmod --announce_rc --experimental_cc_shared_library --experimental_repo_remote_exec
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/d504a5696cffd4fde4e250d8809dc95c/external/xla/third_party/py/python_repo.bzl:156:14: 
+HERMETIC_PYTHON_VERSION variable was not set correctly, using default version.
+Python 3.10 will be used.
+To select Python version, either set HERMETIC_PYTHON_VERSION env variable in
+your shell:
+  export HERMETIC_PYTHON_VERSION=3.12
+OR pass it as an argument to bazel command directly or inside your .bazelrc
+file:
+  --repo_env=HERMETIC_PYTHON_VERSION=3.12
+INFO: Repository python_version_repo instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/jax-ml__jax/WORKSPACE:21:25: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/d504a5696cffd4fde4e250d8809dc95c/external/xla/third_party/py/python_init_repositories.bzl:13:22: in python_init_repositories
+Repository rule python_repository defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/d504a5696cffd4fde4e250d8809dc95c/external/xla/third_party/py/python_repo.bzl:211:36: in <toplevel>
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/d504a5696cffd4fde4e250d8809dc95c/external/xla/third_party/py/python_repo.bzl:37:13: An error occurred during the fetch of repository 'python_version_repo':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/d504a5696cffd4fde4e250d8809dc95c/external/xla/third_party/py/python_repo.bzl", line 37, column 13, in _python_repository_impl
+		fail("""
+Error in fail: 
+Could not find requirements_lock.txt file matching specified Python version.
+Specified python version: 3.10
+Python versions with available requirement_lock.txt files: 3.11, 3.12, 3.13, 3.14, 3.13-ft, 3.14-ft
+Please check python_init_repositories() in your WORKSPACE file.
+ERROR: Error computing the main repository mapping: no such package '@@python_version_repo//': 
+Could not find requirements_lock.txt file matching specified Python version.
+Specified python version: 3.10
+Python versions with available requirement_lock.txt files: 3.11, 3.12, 3.13, 3.14, 3.13-ft, 3.14-ft
+Please check python_init_repositories() in your WORKSPACE file.
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

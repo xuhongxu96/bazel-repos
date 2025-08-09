@@ -1,0 +1,43 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: examples/internal/proto/sub ... (28 packages)
+Loading: 0 packages loaded
+    currently loading: examples/internal/proto/sub ... (33 packages)
+DEBUG: /data/h445xu/.cache/bazel/_bazel_hongxu/4030f423640e91477acf82db7802efef/external/gazelle+/internal/bzlmod/go_deps.bzl:653:36: The following Go modules were required by the root module at the given versions, but were implicitly updated to higher versions due to transitive dependencies:
+ 
+  golang.org/x/tools: v0.21.1-0.20240508182429-e35e4ccd0d2d -> v0.30.0 
+
+Update the root module's dependencies to match the resolved versions via:
+
+  bazel run @io_bazel_rules_go//go -- get golang.org/x/tools@v0.30.0 
+
+Loading: 33 packages loaded
+    currently loading: @@rules_go+//go
+Loading: 132 packages loaded
+    currently loading: @@protobuf+//src/google/protobuf ... (9 packages)
+Loading: 156 packages loaded
+    currently loading: @@abseil-cpp+//absl/numeric ... (9 packages)
+Loading: 169 packages loaded
+Loading: 169 packages loaded
+Loading: 171 packages loaded
+Loading: 171 packages loaded
+Loading: 171 packages loaded
+Loading: 171 packages loaded
+Loading: 210 packages loaded
+Loading: 329 packages loaded
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...

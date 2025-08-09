@@ -1,0 +1,81 @@
+Starting local Bazel server and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+Loading: 25 packages loaded
+    currently loading: 
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from fluxcd/flux@1.25.4 without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from chainguard/static@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from lambda/python@3.11.2024.01.25.10 without an integrity hash, result will not be cached.
+WARNING: For reproducible builds, a digest is recommended.
+Either set 'reproducible = False' to silence this warning, or run the following command to change oci_pull to use a digest:
+
+
+buildozer 'set digest "sha256:b6507e340c43553136f5078284c8c68d86ec8262b1724dde73c325e8d3dcdeba"' 'remove tag' 'remove platforms' 'add platforms "linux/amd64" "unknown/unknown" "linux/arm/v5" "unknown/unknown" "linux/arm/v7" "unknown/unknown" "linux/arm64/v8" "unknown/unknown" "linux/386" "unknown/unknown" "linux/mips64le" "linux/ppc64le" "unknown/unknown" "linux/s390x" "unknown/unknown"' WORKSPACE:debian
+    
+Loading: 132 packages loaded
+    currently loading: @@rules_multirun~//internal ... (3 packages)
+WARNING: For reproducible builds, a digest is recommended.
+Either set 'reproducible = False' to silence this warning, or run the following command to change oci_pull to use a digest:
+
+
+buildozer 'set digest "sha256:9499013bebe91a97ad3925269d1097408c092d85a1f6b96f91c7bb3a100e2c18"' 'remove tag' 'remove platforms' 'add platforms "linux/arm64/v8" "linux/amd64"' WORKSPACE:ecr_lambda_python
+    
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from library/debian@latest without an integrity hash, result will not be cached.
+WARNING: Fetching from lambda/python@3.11.2024.01.25.10 without an integrity hash, result will not be cached.
+WARNING: Fetching from lambda/python@3.11.2024.01.25.10 without an integrity hash, result will not be cached.
+Loading: 153 packages loaded
+Loading: 153 packages loaded
+Loading: 154 packages loaded
+Loading: 157 packages loaded
+Loading: 158 packages loaded
+Loading: 159 packages loaded
+Loading: 159 packages loaded
+Loading: 161 packages loaded
+Loading: 161 packages loaded
+Loading: 162 packages loaded
+Loading: 162 packages loaded
+Loading: 162 packages loaded
+Loading: 162 packages loaded
+Loading: 163 packages loaded
+Loading: 163 packages loaded
+Loading: 174 packages loaded
+Loading: 176 packages loaded
+Loading: 177 packages loaded
+Loading: 178 packages loaded
+Loading: 178 packages loaded
+Loading: 178 packages loaded
+Loading: 179 packages loaded
+Loading: 181 packages loaded
+Loading: 183 packages loaded
+Loading: 185 packages loaded
+Loading: 185 packages loaded
+Loading: 186 packages loaded
+Loading: 187 packages loaded
+Loading: 187 packages loaded
+Loading: 188 packages loaded
+Loading: 189 packages loaded
+Loading: 190 packages loaded
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...
+Read 11000 lines from bazel query output...

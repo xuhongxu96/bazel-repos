@@ -1,0 +1,10 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+INFO: Invocation ID: c52e5104-7f26-4b4b-93c1-030a31fea784
+ no actions running
+ no actions running
+ no actions running
+ERROR: Error computing the main repository mapping: Missing checksum for registry file https://bcr.bazel.build/modules/zlib/1.3.1.bcr.5/MODULE.bazel not permitted with --lockfile_mode=error. Please run `bazel mod deps --lockfile_mode=update` to update your lockfile.
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

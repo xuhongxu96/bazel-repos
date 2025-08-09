@@ -1,0 +1,6 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ERROR: Error computing the main repository mapping: error loading package 'external': Both --enable_bzlmod and --enable_workspace are disabled, but one of them must be enabled to fetch external dependencies.
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,0 +1,42 @@
+downloading installer from
+https://github.com/bazelbuild/bazel/releases/download/2.1.0/bazel-2.1.0-installer-linux-x86_64.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  2 40.3M    2 1080k    0     0  2353k      0  0:00:17 --:--:--  0:00:17 2353k 54 40.3M   54 22.0M    0     0  15.1M      0  0:00:02  0:00:01  0:00:01 21.0M100 40.3M  100 40.3M    0     0  19.6M      0  0:00:02  0:00:02 --:--:-- 24.7M
+Read 0 lines from bazel query output...
+:: exec /home/hongxu/.bazel_binaries/2.1.0/bin/bazel-real --bazelrc=/data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/.bazel_cache/bazelrc help --config=v2.1
+Extracting Bazel installation...
+Starting local Bazel server and connecting to it...
+INFO: Options provided by the client:
+  Inherited 'common' options: --isatty=0 --terminal_columns=80
+INFO: Reading rc options for 'help' from /data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/.bazelrc:
+  Inherited 'common' options: --announce_rc --color=auto
+INFO: Found applicable config definition common:v2.1 in file /data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/.bazelrc: --config=noop
+INFO: Found applicable config definition common:noop in file /data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/.bazelrc: --logging=3
+:: exec /home/hongxu/.bazel_binaries/2.1.0/bin/bazel-real --bazelrc=/data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/.bazel_cache/bazelrc query --config=v2.1 deps(//...) --keep_going --notool_deps --noimplicit_deps --output xml
+INFO: Options provided by the client:
+  Inherited 'common' options: --isatty=0 --terminal_columns=80
+INFO: Reading rc options for 'query' from /data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/.bazelrc:
+  Inherited 'common' options: --announce_rc --color=auto
+INFO: Found applicable config definition common:v2.1 in file /data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/.bazelrc: --config=noop
+INFO: Found applicable config definition common:noop in file /data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/.bazelrc: --logging=3
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+INFO: SHA256 (https://github.com/bazelbuild/rules_scala/archive/6442e78e9c16afa12cefd26a95722887e7697d3f.zip) = 14bed1a8b1cdb6c422b744be913805f5ca87fe929031d0eb31d679710eaaa2db
+DEBUG: Rule 'io_bazel_rules_scala' indicated that a canonical reproducible form can be obtained by modifying arguments sha256 = "14bed1a8b1cdb6c422b744be913805f5ca87fe929031d0eb31d679710eaaa2db"
+DEBUG: Call stack for the definition of repository 'io_bazel_rules_scala' which is a http_archive (rule definition at /data/h445xu/.cache/bazel/_bazel_hongxu/42736ca43d50bed274de814cd4c8a6b0/external/bazel_tools/tools/build_defs/repo/http.bzl:292:16):
+ - /data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/WORKSPACE:16:1
+ - /data/h445xu/repo/bazel-repos/cloned_repos/higherkindness__droste/WORKSPACE:16:1
+Loading: 19 packages loaded
+    currently loading: @io_bazel_rules_scala//scala ... (5 packages)
+Loading: 47 packages loaded
+Loading: 47 packages loaded
+Loading: 52 packages loaded
+Loading: 54 packages loaded
+Loading: 56 packages loaded
+Loading: 56 packages loaded
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("invalid type: string \"Bazel installer---------------Bazel is bundled with software licensed under the GPLv2 with Classpath exception.You can find the sources next to the installer on our release page:   https://github.com/bazelbuild/bazel/releases# Release 2.1.0 (2020-02-07)Baseline: 41ec5a28fb30a8d6c5c60194c4bb29528352cf78Cherry picks:   + 733ac0ff7ad1e13ab68ceb2fde694d7ab71b2366:     Adds an alias for d8_jar_import in android.WORKSPACE.   + c94b1474b368dedf9f68f34fad90cc8664f2b0e0:     Automatic code cleanup.   + 2a8cc7075f741721563efd9dc050ca3458cde30b:     Do not fail or print errors when Shellzelisk cannot find a     requested ?   + bdf34d7fd9539411e93348ba25307f34362d9a42:     Fix race when extracting the install base when Bazel runs in a     PID namespace.   + d381c25bb7dd205c283f7ad91cac13190d2dfede:     Fix wrong mode of install base directory.   + eab39cc7b5a612f891fd1e5af5b45bdc1b66e6e1:     Disable broken test_max_open_file_descriptors.Incompatible changes:  - The following attributes of CcToolchainProvider, which formerly    were    accessible both as fields (x.f) and as methods (x.f()), are now    only fields:New features:  - Similar to the    [.bazelignore](https://docs.bazel.build/versions/master/guide.html    #.bazelignore) in the main repository, a `.bazelignore` file in    external repository will cause the specified directories to be    ignored by Bazel. Bazel won't try to identify any packages under    the directories, but the files can still be referenced in other    BUILD files.  - bazelignore files now support line comments, e.g. \\\"# this is a    comment\\\"Important changes:  - Experimental support for d8 merger is now available for use using    --define=android_dexmerger_tool=d8_dexmerger.  - Critical path run time should not have a longer run time than    total execution run time.  - Remove \\\"please do not import\\\" warning for cc rules.  - x.f() is now equivalent to y=x.f; y(). That is, x.f should return    the same    attribute value regardless of whether it is accessed as a field    or called    like a method. Any arguments to the call are evaluated after the    x.f operation.  - Add desugaring support for RoleManager#addRoleHolderAsUser  - Adds ctx.target_platform_has_constraint to allow rules to check    the target platform's constraints.  - Critical path run time should not have a longer run time than    total execution run time.  - Post new ConvenienceSymlinksIdentifiedEvent to the    BuildEventProtocol when    --experimental_convenience_symlinks_bep_event is enabled.  - Keyword-only arguments are now allowed:        def foo(a, *, k): pass        def foo(a, *b, k): pass      where k can be specified only by keyword:        foo(5, k=6)  - Generated Go protobufs now depend on //net/proto2/go:protodeps in    addition to //net/proto2/go:proto  - cquery 'somepath' returns more reliable results when the    dep has a different configuration than the parent. To get a    result for    `somepath(//foo, //bar`) where //bar isn't in the top-level    configuration,    run your query with `--universe_scope=//foo`. See cquery docs for    details.This release contains contributions from many people at Google, as well as Adam Liddell, Alessandro Patti, Andreas Herrmann, Bor Kae Hwang, Brian Silverman, Emran BatmanGhelich, George Gensure, Greg Estren, Jeff Palm, Jonathan Beverly, Mark Nevill, Patrick Niklaus, Peter, Philipp Wollermann, Ryan Beasley, Shin Yamamoto, Yen-Chi Chen.## Build information   - [Commit](https://github.com/bazelbuild/bazel/commit/0f4c498)Uncompressing.......Bazel is now installed!Make sure you have \\\"/home/hongxu/.bazel_binaries/2.1.0/bin_t\\\" in your path. You can also activate bashcompletion by adding the following line to your :  source /home/hongxu/.bazel_binaries/2.1.0/bin/bazel-complete.bashSee http://bazel.build/docs/getting-started.html to start a new project!\", expected struct Query")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

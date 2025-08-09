@@ -1,0 +1,45 @@
+Starting local Bazel server and connecting to it...
+ checking cached actions
+ checking cached actions
+ checking cached actions
+Loading: 0 packages loaded
+INFO: Repository nix_2_24 instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_nixpkgs/WORKSPACE:30:16: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/6bdf7bd387511b0089093150c04a317b/external/rules_nixpkgs_core/nixpkgs.bzl:733:21: in nixpkgs_package
+Repository rule _nixpkgs_package defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/6bdf7bd387511b0089093150c04a317b/external/rules_nixpkgs_core/nixpkgs.bzl:601:35: in <toplevel>
+INFO: Repository coreutils_static instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_nixpkgs/WORKSPACE:38:16: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/6bdf7bd387511b0089093150c04a317b/external/rules_nixpkgs_core/nixpkgs.bzl:733:21: in nixpkgs_package
+Repository rule _nixpkgs_package defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/6bdf7bd387511b0089093150c04a317b/external/rules_nixpkgs_core/nixpkgs.bzl:601:35: in <toplevel>
+ERROR: An error occurred during the fetch of repository 'nix_2_24':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/6bdf7bd387511b0089093150c04a317b/external/rules_nixpkgs_core/nixpkgs.bzl", line 552, column 13, in _nixpkgs_package_impl
+		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
+Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+ERROR: An error occurred during the fetch of repository 'coreutils_static':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/6bdf7bd387511b0089093150c04a317b/external/rules_nixpkgs_core/nixpkgs.bzl", line 552, column 13, in _nixpkgs_package_impl
+		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
+Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_nixpkgs/WORKSPACE:30:16: fetching _nixpkgs_package rule //external:nix_2_24: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/6bdf7bd387511b0089093150c04a317b/external/rules_nixpkgs_core/nixpkgs.bzl", line 552, column 13, in _nixpkgs_package_impl
+		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
+Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_nixpkgs/WORKSPACE:38:16: fetching _nixpkgs_package rule //external:coreutils_static: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/6bdf7bd387511b0089093150c04a317b/external/rules_nixpkgs_core/nixpkgs.bzl", line 552, column 13, in _nixpkgs_package_impl
+		fail("Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.")
+Error in fail: Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix.
+Loading: 55 packages loaded
+    currently loading: @io_bazel_rules_go//proto
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_nixpkgs/tests/BUILD.bazel:3:8: no such package '@coreutils_static//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//tests:run-test-invalid-nixpkgs-package'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_nixpkgs/tests/BUILD.bazel:3:8: no such package '@nix_2_24//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//tests:run-test-invalid-nixpkgs-package'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_nixpkgs/tests/BUILD.bazel:3:8: no such package '@nix_2_24//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//tests:run-test-invalid-nixpkgs-package'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/tweag__rules_nixpkgs/tests/BUILD.bazel:3:8: no such package '@coreutils_static//': Platform is not supported: nix-build not found in PATH. See attribute fail_not_supported if you don't want to use Nix. and referenced by '//tests:run-test-invalid-nixpkgs-package'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Loading: 59 packages loaded
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Loading: 59 packages loaded

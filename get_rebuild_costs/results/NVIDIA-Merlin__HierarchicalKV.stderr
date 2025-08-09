@@ -1,0 +1,99 @@
+2025/08/09 14:54:46 Downloading https://releases.bazel.build/5.0.0/release/bazel-5.0.0-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server and connecting to it...
+Loading: 0 packages loaded
+INFO: Repository local_config_cuda instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/WORKSPACE:14:15: in <toplevel>
+Repository rule cuda_configure defined at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl:1305:33: in <toplevel>
+ERROR: An error occurred during the fetch of repository 'local_config_cuda':
+   Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl", line 845, column 35, in _create_local_cuda_repository
+		cuda_config = _get_cuda_config(repository_ctx, find_cuda_config_script)
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl", line 631, column 30, in _get_cuda_config
+		config = find_cuda_config(
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl", line 600, column 41, in find_cuda_config
+		exec_result = _exec_find_cuda_config(
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl", line 594, column 19, in _exec_find_cuda_config
+		return execute(repository_ctx, [python_bin, "-c", cmd])
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/remote_config/common.bzl", line 191, column 13, in execute
+		fail(
+Error in fail: Repository command failed
+Could not find any cudnn.h, cudnn_version.h matching version '' in any subdirectory:
+        ''
+        'include'
+        'include/cuda'
+        'include/*-linux-gnu'
+        'extras/CUPTI/include'
+        'include/cuda/CUPTI'
+        'local/cuda/extras/CUPTI/include'
+of:
+        '/lib'
+        '/lib/x86_64-linux-gnu'
+        '/lib32'
+        '/libx32'
+        '/usr'
+        '/usr/lib/x86_64-linux-gnu/libfakeroot'
+        '/usr/local/cuda'
+        '/usr/local/cuda/targets/x86_64-linux/lib'
+        '/usr/local/lib'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/WORKSPACE:14:15: fetching cuda_configure rule //external:local_config_cuda: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl", line 845, column 35, in _create_local_cuda_repository
+		cuda_config = _get_cuda_config(repository_ctx, find_cuda_config_script)
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl", line 631, column 30, in _get_cuda_config
+		config = find_cuda_config(
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl", line 600, column 41, in find_cuda_config
+		exec_result = _exec_find_cuda_config(
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/gpus/configure.bzl", line 594, column 19, in _exec_find_cuda_config
+		return execute(repository_ctx, [python_bin, "-c", cmd])
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/NVIDIA-Merlin__HierarchicalKV/build_deps/remote_config/common.bzl", line 191, column 13, in execute
+		fail(
+Error in fail: Repository command failed
+Could not find any cudnn.h, cudnn_version.h matching version '' in any subdirectory:
+        ''
+        'include'
+        'include/cuda'
+        'include/*-linux-gnu'
+        'extras/CUPTI/include'
+        'include/cuda/CUPTI'
+        'local/cuda/extras/CUPTI/include'
+of:
+        '/lib'
+        '/lib/x86_64-linux-gnu'
+        '/lib32'
+        '/libx32'
+        '/usr'
+        '/usr/lib/x86_64-linux-gnu/libfakeroot'
+        '/usr/local/cuda'
+        '/usr/local/cuda/targets/x86_64-linux/lib'
+        '/usr/local/lib'
+ERROR: no such package '@local_config_cuda//cuda': Repository command failed
+Could not find any cudnn.h, cudnn_version.h matching version '' in any subdirectory:
+        ''
+        'include'
+        'include/cuda'
+        'include/*-linux-gnu'
+        'extras/CUPTI/include'
+        'include/cuda/CUPTI'
+        'local/cuda/extras/CUPTI/include'
+of:
+        '/lib'
+        '/lib/x86_64-linux-gnu'
+        '/lib32'
+        '/libx32'
+        '/usr'
+        '/usr/lib/x86_64-linux-gnu/libfakeroot'
+        '/usr/local/cuda'
+        '/usr/local/cuda/targets/x86_64-linux/lib'
+        '/usr/local/lib'
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+INFO: Empty results
+Loading: 4 packages loaded
+    currently loading: include ... (4 packages)
+Loading: 4 packages loaded
+    currently loading: include ... (4 packages)
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

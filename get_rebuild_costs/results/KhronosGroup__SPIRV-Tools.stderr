@@ -1,0 +1,8 @@
+Starting local Bazel server and connecting to it...
+ checking cached actions
+ERROR: <builtin>: fetching local_repository rule //:googletest~override: java.io.IOException: The repository's path is "external/googletest" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/KhronosGroup__SPIRV-Tools/external/googletest") but it does not exist or is not a directory.
+ERROR: Error computing the main repository mapping: error during computation of main repo mapping: The repository's path is "external/googletest" (absolute: "/data/h445xu/repo/bazel-repos/cloned_repos/KhronosGroup__SPIRV-Tools/external/googletest") but it does not exist or is not a directory.
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

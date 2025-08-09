@@ -1,0 +1,41 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+Loading: 12 packages loaded
+    currently loading: lint/rust ... (3 packages)
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/private/BUILD.bazel", line 29, column 20, in <toplevel>
+		assert_contains(
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_bazel_lib+/lib/testing.bzl", line 43, column 11, in assert_contains
+		native.sh_test(
+Error: no native function or rule 'sh_test'
+Available attributes: action_listener, alias, available_xcodes, cc_binary, cc_import, cc_libc_top_alias, cc_library, cc_shared_library, cc_static_library, cc_test, cc_toolchain, cc_toolchain_alias, cc_toolchain_suite, config_feature_flag, config_setting, constraint_setting, constraint_value, environment, existing_rule, existing_rules, exports_files, extra_action, fdo_prefetch_hints, fdo_profile, filegroup, genquery, genrule, glob, java_binary, java_import, java_library, java_package_configuration, java_plugin, java_plugins_flag_alias, java_runtime, java_test, java_toolchain, label_flag, label_setting, legacy_globals, memprof_profile, module_name, module_version, objc_import, objc_library, package, package_group, package_name, package_relative_label, platform, propeller_optimize, repo_name, repository_name, starlark_doc_extract, subpackages, test_suite, toolchain, toolchain_type, xcode_config, xcode_config_alias, xcode_version
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/BUILD.bazel:46:12: no such target '@@aspect_rules_js+//npm/private:npm_linked_package_info': target 'npm_linked_package_info' not declared in package 'npm/private' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/private/BUILD.bazel (did you mean npm_linked_package_info.bzl?) and referenced by '@@aspect_rules_js+//npm:providers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/BUILD.bazel:46:12: no such target '@@aspect_rules_js+//npm/private:npm_package_info': target 'npm_package_info' not declared in package 'npm/private' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/private/BUILD.bazel (did you mean npm_package_info.bzl?) and referenced by '@@aspect_rules_js+//npm:providers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/BUILD.bazel:46:12: no such target '@@aspect_rules_js+//npm/private:npm_package_store_info': target 'npm_package_store_info' not declared in package 'npm/private' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/private/BUILD.bazel (did you mean npm_package_store_info.bzl?) and referenced by '@@aspect_rules_js+//npm:providers'
+Loading: 80 packages loaded
+    currently loading: @@bazel_tools+remote_coverage_tools_extension+remote_coverage_tools// ... (2 packages)
+Loading: 100 packages loaded
+    currently loading: @@rules_diff+//diff/toolchain/diff
+Loading: 103 packages loaded
+Loading: 103 packages loaded
+Loading: 103 packages loaded
+Loading: 134 packages loaded
+Loading: 194 packages loaded
+Loading: 194 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/BUILD.bazel:46:12: no such target '@@aspect_rules_js+//npm/private:npm_package_info': target 'npm_package_info' not declared in package 'npm/private' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/private/BUILD.bazel (did you mean npm_package_info.bzl?) and referenced by '@@aspect_rules_js+//npm:providers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/BUILD.bazel:46:12: no such target '@@aspect_rules_js+//npm/private:npm_package_store_info': target 'npm_package_store_info' not declared in package 'npm/private' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/private/BUILD.bazel (did you mean npm_package_store_info.bzl?) and referenced by '@@aspect_rules_js+//npm:providers'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/BUILD.bazel:46:12: no such target '@@aspect_rules_js+//npm/private:npm_linked_package_info': target 'npm_linked_package_info' not declared in package 'npm/private' defined by /data/h445xu/.cache/bazel/_bazel_hongxu/1ac513f765cc4f4968e35b91ec9e19f4/external/aspect_rules_js+/npm/private/BUILD.bazel (did you mean npm_linked_package_info.bzl?) and referenced by '@@aspect_rules_js+//npm:providers'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...

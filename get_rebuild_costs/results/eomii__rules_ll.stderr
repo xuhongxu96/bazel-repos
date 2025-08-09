@@ -1,0 +1,293 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+WARNING: For repository 'platforms', the root module requires module version platforms@0.0.10, but got platforms@0.0.11 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+WARNING: For repository 'rules_cc', the root module requires module version rules_cc@0.0.17, but got rules_cc@0.1.1 in the resolved dependency graph. Please update the version in your MODULE.bazel or set --check_direct_dependencies=off
+Loading: 0 packages loaded
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/compiler-rt/BUILD.bazel", line 6, column 24, in <toplevel>
+		exposed_hdrs = glob(["include/**/*"]),
+Error in glob: glob pattern 'include/**/*' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/openmp/BUILD.bazel", line 137, column 16, in <toplevel>
+		hdrs = glob([
+Error in glob: glob pattern 'runtime/src/*.h' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxxabi/BUILD.bazel", line 43, column 16, in <toplevel>
+		hdrs = glob(["include/**"]) + [
+Error in glob: glob pattern 'include/**' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libunwind/BUILD.bazel", line 5, column 16, in <toplevel>
+		srcs = glob(["include/**"]),
+Error in glob: glob pattern 'include/**' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxx/BUILD.bazel", line 191, column 16, in <toplevel>
+		srcs = glob([
+Error in glob: glob pattern 'include/**/*' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: package contains errors: llvm-project-overlay/libunwind
+ERROR: package contains errors: llvm-project-overlay/libcxx
+ERROR: package contains errors: llvm-project-overlay/libcxxabi
+ERROR: package contains errors: llvm-project-overlay/openmp
+ERROR: package contains errors: llvm-project-overlay/compiler-rt
+ERROR: package contains errors: llvm-project-overlay/compiler-rt: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/compiler-rt/BUILD.bazel", line 6, column 24, in <toplevel>
+		exposed_hdrs = glob(["include/**/*"]),
+Error in glob: glob pattern 'include/**/*' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: package contains errors: llvm-project-overlay/libcxx: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxx/BUILD.bazel", line 191, column 16, in <toplevel>
+		srcs = glob([
+Error in glob: glob pattern 'include/**/*' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: package contains errors: llvm-project-overlay/libcxxabi: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxxabi/BUILD.bazel", line 43, column 16, in <toplevel>
+		hdrs = glob(["include/**"]) + [
+Error in glob: glob pattern 'include/**' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: package contains errors: llvm-project-overlay/libunwind: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libunwind/BUILD.bazel", line 5, column 16, in <toplevel>
+		srcs = glob(["include/**"]),
+Error in glob: glob pattern 'include/**' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: package contains errors: llvm-project-overlay/openmp: Traceback (most recent call last):
+	File "/data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/openmp/BUILD.bazel", line 137, column 16, in <toplevel>
+		hdrs = glob([
+Error in glob: glob pattern 'runtime/src/*.h' didn't match anything, but allow_empty is set to False (the default value of allow_empty can be set with --incompatible_disallow_empty_glob).
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:90:11: no such package 'cuda_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - cuda_example and referenced by '//examples:nvptx_nvcc'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxxabi/BUILD.bazel:3:10: Target '//llvm-project-overlay/libcxxabi:include/__cxxabi_config.h' contains an error and its package is in error and referenced by '//llvm-project-overlay/libcxxabi:headers'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:79:11: no such package 'cuda_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - cuda_example and referenced by '//examples:nvptx'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:79:11: no such package 'hip_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_example and referenced by '//examples:nvptx'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/openmp/BUILD.bazel:53:16: Target '//llvm-project-overlay/openmp:runtime/src/include/omp.h.var' contains an error and its package is in error and referenced by '//llvm-project-overlay/openmp:omp_header'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxx/BUILD.bazel:137:16: Target '//llvm-project-overlay/libcxx:modules/std.cppm.in' contains an error and its package is in error and referenced by '//llvm-project-overlay/libcxx:std.cppm'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/openmp/BUILD.bazel:80:16: Target '//llvm-project-overlay/openmp:runtime/src/kmp_config.h.cmake' contains an error and its package is in error and referenced by '//llvm-project-overlay/openmp:kmp_config_h'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxx/BUILD.bazel:148:16: Target '//llvm-project-overlay/libcxx:include/__config_site.in' contains an error and its package is in error and referenced by '//llvm-project-overlay/libcxx:__config_site_gen'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/openmp/BUILD.bazel:72:16: Target '//llvm-project-overlay/openmp:runtime/src/include/omp-tools.h.var' contains an error and its package is in error and referenced by '//llvm-project-overlay/openmp:omp_tools_h'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'cuda_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - cuda_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'format_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - format_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:99:11: no such package 'hip_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_example and referenced by '//examples:amdgpu'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:99:11: no such package 'hip_modules_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_modules_example and referenced by '//examples:amdgpu'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:99:11: no such package 'hip_rdc_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_rdc_example and referenced by '//examples:amdgpu'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/shared_library_example/BUILD.bazel:10:10: no such package 'shared_library_example/subdir': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - shared_library_example/subdir and referenced by '//examples/shared_library_example:shared_library_example'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:79:11: no such package 'hip_modules_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_modules_example and referenced by '//examples:nvptx'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:79:11: no such package 'hip_rdc_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_rdc_example and referenced by '//examples:nvptx'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxxabi/BUILD.bazel:3:10: Target '//llvm-project-overlay/libcxxabi:include/cxxabi.h' contains an error and its package is in error and referenced by '//llvm-project-overlay/libcxxabi:headers'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/clang_tidy_example/BUILD.bazel:51:24: no such target '//:clang_tidy_config': target 'clang_tidy_config' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/BUILD.bazel and referenced by '//examples/clang_tidy_example:clang_tidy_example'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/clang_tidy_example/BUILD.bazel:44:24: no such target '//:clang_tidy_config': target 'clang_tidy_config' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/BUILD.bazel and referenced by '//examples/clang_tidy_example:compilation_database_with_excludes'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/clang_tidy_example/BUILD.bazel:38:24: no such target '//:clang_tidy_config': target 'clang_tidy_config' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/BUILD.bazel and referenced by '//examples/clang_tidy_example:lib_1_compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'frontend_action_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - frontend_action_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'external_dependency_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external_dependency_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'hip_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'hip_rdc_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_rdc_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'modules_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - modules_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'openmp_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - openmp_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'shared_library_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - shared_library_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/openmp/BUILD.bazel:66:10: Target '//llvm-project-overlay/openmp:runtime/src/include/ompx.h.var' contains an error and its package is in error and referenced by '//llvm-project-overlay/openmp:ompx_header'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/llvm-project-overlay/libcxx/BUILD.bazel:131:10: Target '//llvm-project-overlay/libcxx:vendor/llvm/default_assertion_handler.in' contains an error and its package is in error and referenced by '//llvm-project-overlay/libcxx:__assertion_handler_gen'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'frontend_action_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - frontend_action_example and referenced by '//examples:frontend_action_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'modules_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - modules_example and referenced by '//examples:modules_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'format_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - format_example and referenced by '//examples:format_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'openmp_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - openmp_example and referenced by '//examples:openmp_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'module_partition_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - module_partition_example and referenced by '//examples:module_partition_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'modules_draft_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - modules_draft_example and referenced by '//examples:modules_draft_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'external_dependency_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external_dependency_example and referenced by '//examples:external_dependency_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'std_module_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - std_module_example and referenced by '//examples:std_module_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'shared_library_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - shared_library_example and referenced by '//examples:shared_library_example_test'
+Loading: 65 packages loaded
+    currently loading: @@protobuf+//java/core ... (12 packages)
+WARNING: Download from https://bcr.bazel.build/mirror/github.com/llvm/llvm-project/archive/762c709911d3f4a9086239f226a6439a6bc8911c.zip failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from https://github.com/ROCm/HIP/archive/refs/tags/rocm-5.7.1.zip failed: class com.google.devtools.build.lib.bazel.repository.downloader.UnrecoverableHttpException Checksum was sha256-SvPEvXArg1N63eoBjjlo9Tm3fvaeYXE1FycFwazh9aw= but wanted sha256-MnMFzzUdJyRakujoAUiGHI4U7HC2hl/LNF+za1q3tEw=
+INFO: Repository +rules_ll_dependencies+hip instantiated at:
+  <builtin>: in <toplevel>
+Repository rule http_archive defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/bazel_tools/tools/build_defs/repo/http.bzl:394:31: in <toplevel>
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/bazel_tools/tools/build_defs/repo/http.bzl:139:45: An error occurred during the fetch of repository '+rules_ll_dependencies+hip':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/bazel_tools/tools/build_defs/repo/http.bzl", line 139, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: java.io.IOException: Error downloading [https://github.com/ROCm/HIP/archive/refs/tags/rocm-5.7.1.zip] to /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/+rules_ll_dependencies+hip/temp15917169896204256762/rocm-5.7.1.zip: Checksum was sha256-SvPEvXArg1N63eoBjjlo9Tm3fvaeYXE1FycFwazh9aw= but wanted sha256-MnMFzzUdJyRakujoAUiGHI4U7HC2hl/LNF+za1q3tEw=
+Loading: 125 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 127 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+Loading: 128 packages loaded
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/+rules_ll_dependencies+clr/BUILD.bazel:158:11: no such package '@@+rules_ll_dependencies+hip//': java.io.IOException: Error downloading [https://github.com/ROCm/HIP/archive/refs/tags/rocm-5.7.1.zip] to /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/+rules_ll_dependencies+hip/temp15917169896204256762/rocm-5.7.1.zip: Checksum was sha256-SvPEvXArg1N63eoBjjlo9Tm3fvaeYXE1FycFwazh9aw= but wanted sha256-MnMFzzUdJyRakujoAUiGHI4U7HC2hl/LNF+za1q3tEw= and referenced by '@@+rules_ll_dependencies+clr//:libamdhip64'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/ll/BUILD.bazel:113:13: no such package '@@+rules_ll_dependencies+hip//': java.io.IOException: Error downloading [https://github.com/ROCm/HIP/archive/refs/tags/rocm-5.7.1.zip] to /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/+rules_ll_dependencies+hip/temp15917169896204256762/rocm-5.7.1.zip: Checksum was sha256-SvPEvXArg1N63eoBjjlo9Tm3fvaeYXE1FycFwazh9aw= but wanted sha256-MnMFzzUdJyRakujoAUiGHI4U7HC2hl/LNF+za1q3tEw= and referenced by '//ll:ll_toolchain_x86_64-unknown-linux-gnu'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/clang_tidy_example/BUILD.bazel:51:24: no such target '//:clang_tidy_config': target 'clang_tidy_config' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/BUILD.bazel and referenced by '//examples/clang_tidy_example:clang_tidy_example'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/clang_tidy_example/BUILD.bazel:38:24: no such target '//:clang_tidy_config': target 'clang_tidy_config' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/BUILD.bazel and referenced by '//examples/clang_tidy_example:lib_1_compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/clang_tidy_example/BUILD.bazel:44:24: no such target '//:clang_tidy_config': target 'clang_tidy_config' not declared in package '' defined by /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/BUILD.bazel and referenced by '//examples/clang_tidy_example:compilation_database_with_excludes'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/shared_library_example/BUILD.bazel:10:10: no such package 'shared_library_example/subdir': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - shared_library_example/subdir and referenced by '//examples/shared_library_example:shared_library_example'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:99:11: no such package 'hip_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_example and referenced by '//examples:amdgpu'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'openmp_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - openmp_example and referenced by '//examples:openmp_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'external_dependency_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external_dependency_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'modules_draft_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - modules_draft_example and referenced by '//examples:modules_draft_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'module_partition_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - module_partition_example and referenced by '//examples:module_partition_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'format_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - format_example and referenced by '//examples:format_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'frontend_action_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - frontend_action_example and referenced by '//examples:frontend_action_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'external_dependency_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - external_dependency_example and referenced by '//examples:external_dependency_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:99:11: no such package 'hip_rdc_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_rdc_example and referenced by '//examples:amdgpu'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:99:11: no such package 'hip_modules_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_modules_example and referenced by '//examples:amdgpu'
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/+rules_ll_dependencies+clr/BUILD.bazel:158:11: no such package '@@+rules_ll_dependencies+hip//': java.io.IOException: Error downloading [https://github.com/ROCm/HIP/archive/refs/tags/rocm-5.7.1.zip] to /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/+rules_ll_dependencies+hip/temp15917169896204256762/rocm-5.7.1.zip: Checksum was sha256-SvPEvXArg1N63eoBjjlo9Tm3fvaeYXE1FycFwazh9aw= but wanted sha256-MnMFzzUdJyRakujoAUiGHI4U7HC2hl/LNF+za1q3tEw= and referenced by '@@+rules_ll_dependencies+clr//:libamdhip64'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/ll/BUILD.bazel:113:13: no such package '@@+rules_ll_dependencies+hip//': java.io.IOException: Error downloading [https://github.com/ROCm/HIP/archive/refs/tags/rocm-5.7.1.zip] to /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/+rules_ll_dependencies+hip/temp15917169896204256762/rocm-5.7.1.zip: Checksum was sha256-SvPEvXArg1N63eoBjjlo9Tm3fvaeYXE1FycFwazh9aw= but wanted sha256-MnMFzzUdJyRakujoAUiGHI4U7HC2hl/LNF+za1q3tEw= and referenced by '//ll:ll_toolchain_x86_64-unknown-linux-gnu'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/ll/BUILD.bazel:113:13: no such package '@@+rules_ll_dependencies+hip//': java.io.IOException: Error downloading [https://github.com/ROCm/HIP/archive/refs/tags/rocm-5.7.1.zip] to /data/h445xu/.cache/bazel/_bazel_hongxu/e71d906d3d79988cd0ffb3db17cbf89d/external/+rules_ll_dependencies+hip/temp15917169896204256762/rocm-5.7.1.zip: Checksum was sha256-SvPEvXArg1N63eoBjjlo9Tm3fvaeYXE1FycFwazh9aw= but wanted sha256-MnMFzzUdJyRakujoAUiGHI4U7HC2hl/LNF+za1q3tEw= and referenced by '//ll:ll_toolchain_x86_64-unknown-linux-gnu'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'modules_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - modules_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'openmp_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - openmp_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'shared_library_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - shared_library_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'hip_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'hip_rdc_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_rdc_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'cuda_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - cuda_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'format_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - format_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:10:24: no such package 'frontend_action_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - frontend_action_example and referenced by '//examples:compile_commands'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:79:11: no such package 'hip_rdc_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_rdc_example and referenced by '//examples:nvptx'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:90:11: no such package 'cuda_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - cuda_example and referenced by '//examples:nvptx_nvcc'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:79:11: no such package 'hip_modules_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_modules_example and referenced by '//examples:nvptx'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:79:11: no such package 'cuda_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - cuda_example and referenced by '//examples:nvptx'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'std_module_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - std_module_example and referenced by '//examples:std_module_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:79:11: no such package 'hip_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - hip_example and referenced by '//examples:nvptx'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'shared_library_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - shared_library_example and referenced by '//examples:shared_library_example_test'
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/eomii__rules_ll/examples/BUILD.bazel:68:16: no such package 'modules_example': BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.
+ - modules_example and referenced by '//examples:modules_example_test'
+ERROR: Evaluation of query "deps(//...)" failed: errors were encountered while computing transitive closure
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Read 1000 lines from bazel query output...
+Read 2000 lines from bazel query output...
+Read 3000 lines from bazel query output...
+Read 4000 lines from bazel query output...
+Read 5000 lines from bazel query output...
+Read 6000 lines from bazel query output...
+Read 7000 lines from bazel query output...
+Read 8000 lines from bazel query output...
+Read 9000 lines from bazel query output...
+Read 10000 lines from bazel query output...
+Read 11000 lines from bazel query output...
+Read 12000 lines from bazel query output...
+Read 13000 lines from bazel query output...
+Read 14000 lines from bazel query output...
+Read 15000 lines from bazel query output...
+Read 16000 lines from bazel query output...
+Read 17000 lines from bazel query output...
+Read 18000 lines from bazel query output...
+Read 19000 lines from bazel query output...
+Read 20000 lines from bazel query output...
+Read 21000 lines from bazel query output...
+Read 22000 lines from bazel query output...

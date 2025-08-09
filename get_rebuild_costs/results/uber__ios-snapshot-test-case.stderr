@@ -1,0 +1,38 @@
+2025/08/09 00:22:03 Downloading https://releases.bazel.build/4.2.1/release/bazel-4.2.1-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server and connecting to it...
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 2 packages loaded
+    currently loading: @build_bazel_apple_support//tools
+INFO: Repository build_bazel_rules_swift_local_config instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/uber__ios-snapshot-test-case/WORKSPACE:21:25: in <toplevel>
+  /data/h445xu/.cache/bazel/_bazel_hongxu/15f036ff1c458a3a14a328ed1aa53896/external/build_bazel_rules_swift/swift/repositories.bzl:111:11: in swift_rules_dependencies
+  /data/h445xu/.cache/bazel/_bazel_hongxu/15f036ff1c458a3a14a328ed1aa53896/external/build_bazel_rules_swift/swift/repositories.bzl:32:18: in _maybe
+Repository rule swift_autoconfiguration defined at:
+  /data/h445xu/.cache/bazel/_bazel_hongxu/15f036ff1c458a3a14a328ed1aa53896/external/build_bazel_rules_swift/swift/internal/swift_autoconfiguration.bzl:301:42: in <toplevel>
+ERROR: An error occurred during the fetch of repository 'build_bazel_rules_swift_local_config':
+   Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/15f036ff1c458a3a14a328ed1aa53896/external/build_bazel_rules_swift/swift/internal/swift_autoconfiguration.bzl", line 299, column 32, in _swift_autoconfiguration_impl
+		_create_linux_toolchain(repository_ctx)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/15f036ff1c458a3a14a328ed1aa53896/external/build_bazel_rules_swift/swift/internal/swift_autoconfiguration.bzl", line 211, column 13, in _create_linux_toolchain
+		fail("ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift " +
+Error in fail: ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift requires that the driver used is clang. Please set `CC=clang` in your environment before invoking Bazel.
+ERROR: Error fetching repository: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/15f036ff1c458a3a14a328ed1aa53896/external/build_bazel_rules_swift/swift/internal/swift_autoconfiguration.bzl", line 299, column 32, in _swift_autoconfiguration_impl
+		_create_linux_toolchain(repository_ctx)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/15f036ff1c458a3a14a328ed1aa53896/external/build_bazel_rules_swift/swift/internal/swift_autoconfiguration.bzl", line 211, column 13, in _create_linux_toolchain
+		fail("ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift " +
+Error in fail: ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift requires that the driver used is clang. Please set `CC=clang` in your environment before invoking Bazel.
+Loading: 44 packages loaded
+    currently loading: @xctestrunner//
+Loading: 45 packages loaded
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/uber__ios-snapshot-test-case/BUILD.bazel:21:14: every rule of type swift_library implicitly depends upon the target '@build_bazel_rules_swift_local_config//:toolchain', but this target could not be found because of: no such package '@build_bazel_rules_swift_local_config//': ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift requires that the driver used is clang. Please set `CC=clang` in your environment before invoking Bazel.
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/uber__ios-snapshot-test-case/BUILD.bazel:21:14: every rule of type swift_library implicitly depends upon the target '@build_bazel_rules_swift_local_config//:toolchain', but this target could not be found because of: no such package '@build_bazel_rules_swift_local_config//': ERROR: rules_swift uses Bazel's CROSSTOOL to link, but Swift requires that the driver used is clang. Please set `CC=clang` in your environment before invoking Bazel.
+Loading: 48 packages loaded
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+Loading: 54 packages loaded
+Loading: 54 packages loaded

@@ -1,0 +1,5 @@
+Read 0 lines from bazel query output...
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("invalid type: string \"Could not find hermetic Android SDK installation.Please run: 'tools/install-build-deps --android'\", expected struct Query")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

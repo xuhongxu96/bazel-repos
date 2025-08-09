@@ -1,0 +1,6 @@
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/pytorch__pytorch/WORKSPACE:103:17: fetching local_repository rule //external:com_google_protobuf: java.io.IOException: No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/1041a420a9e5b78a60604314a947d4d3/external/com_google_protobuf
+ERROR: Error computing the main repository mapping: no such package '@com_google_protobuf//': No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/1041a420a9e5b78a60604314a947d4d3/external/com_google_protobuf
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

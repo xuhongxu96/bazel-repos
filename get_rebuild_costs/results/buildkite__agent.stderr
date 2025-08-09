@@ -1,0 +1,25 @@
+Starting local Bazel server (8.3.1) and connecting to it...
+ no actions running
+ no actions running
+ no actions running
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: internal/experiments ... (44 packages)
+ERROR: /data/h445xu/.cache/bazel/_bazel_hongxu/e35eecb85fb9725c26076eeecaf1de22/external/gazelle+/internal/bzlmod/go_mod.bzl:214:21: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e35eecb85fb9725c26076eeecaf1de22/external/gazelle+/internal/bzlmod/go_deps.bzl", line 423, column 101, in _go_deps_impl
+		module_path, module_tags_from_go_mod, go_mod_replace_map, module_name = deps_from_go_mod(module_ctx, from_file_tag.go_mod)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e35eecb85fb9725c26076eeecaf1de22/external/gazelle+/internal/bzlmod/go_mod.bzl", line 171, column 26, in deps_from_go_mod
+		go_mod = parse_go_mod(go_mod_content, go_mod_path)
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/e35eecb85fb9725c26076eeecaf1de22/external/gazelle+/internal/bzlmod/go_mod.bzl", line 214, column 21, in parse_go_mod
+		fail("{}:{}: unexpected token '{}' at start of line".format(path, line_no, tokens[0]))
+Error in fail: /data/h445xu/repo/bazel-repos/cloned_repos/buildkite__agent/go.mod:179: unexpected token 'tool' at start of line
+ERROR: Skipping '//...': Target parsing failed due to unexpected exception: error evaluating module extension @@gazelle+//:extensions.bzl%go_deps
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+INFO: Empty results
+Loading: 43 packages loaded
+    currently loading: 
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

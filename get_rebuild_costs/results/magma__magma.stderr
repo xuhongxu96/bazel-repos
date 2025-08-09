@@ -1,0 +1,42 @@
+Starting local Bazel server and connecting to it...
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+INFO: Repository io_bazel_rules_go instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/magma__magma/WORKSPACE.bazel:31:13: in <toplevel>
+Repository rule http_archive defined at:
+  /var/tmp/bazel/external/bazel_tools/tools/build_defs/repo/http.bzl:353:31: in <toplevel>
+INFO: Repository bazel_gazelle instantiated at:
+  /data/h445xu/repo/bazel-repos/cloned_repos/magma__magma/WORKSPACE.bazel:40:13: in <toplevel>
+Repository rule http_archive defined at:
+  /var/tmp/bazel/external/bazel_tools/tools/build_defs/repo/http.bzl:353:31: in <toplevel>
+ERROR: An error occurred during the fetch of repository 'bazel_gazelle':
+   Traceback (most recent call last):
+	File "/var/tmp/bazel/external/bazel_tools/tools/build_defs/repo/http.bzl", line 100, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: com.google.devtools.build.lib.vfs.FileAccessException: /var/cache/bazel-cache-repo/content_addressable/sha256 (Permission denied)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/magma__magma/WORKSPACE.bazel:40:13: fetching http_archive rule //external:bazel_gazelle: Traceback (most recent call last):
+	File "/var/tmp/bazel/external/bazel_tools/tools/build_defs/repo/http.bzl", line 100, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: com.google.devtools.build.lib.vfs.FileAccessException: /var/cache/bazel-cache-repo/content_addressable/sha256 (Permission denied)
+ERROR: An error occurred during the fetch of repository 'io_bazel_rules_go':
+   Traceback (most recent call last):
+	File "/var/tmp/bazel/external/bazel_tools/tools/build_defs/repo/http.bzl", line 100, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: com.google.devtools.build.lib.vfs.FileAccessException: /var/cache/bazel-cache-repo/content_addressable/sha256 (Permission denied)
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/magma__magma/WORKSPACE.bazel:31:13: fetching http_archive rule //external:io_bazel_rules_go: Traceback (most recent call last):
+	File "/var/tmp/bazel/external/bazel_tools/tools/build_defs/repo/http.bzl", line 100, column 45, in _http_archive_impl
+		download_info = ctx.download_and_extract(
+Error in download_and_extract: com.google.devtools.build.lib.vfs.FileAccessException: /var/cache/bazel-cache-repo/content_addressable/sha256 (Permission denied)
+ERROR: no such package '@bazel_gazelle//': com.google.devtools.build.lib.vfs.FileAccessException: /var/cache/bazel-cache-repo/content_addressable/sha256 (Permission denied)
+Loading: 0 packages loaded
+ERROR: Skipping '//...': no targets found beneath ''
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+INFO: Empty results
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

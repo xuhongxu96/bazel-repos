@@ -1,0 +1,12 @@
+2025/08/08 22:47:37 Downloading https://github.com/bazelbuild/bazel/releases/download/8.3.1/bazel-8.3.1-linux-x86_64...
+[INFO 22:47:38.706 src/main/cpp/option_processor.cc:419] Looking for the following rc files: /etc/bazel.bazelrc,/data/h445xu/repo/bazel-repos/cloned_repos/RobotLocomotion__drake/.bazelrc,/home/hongxu/.bazelrc
+[INFO 22:47:38.706 src/main/cpp/rc_file.cc:62] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/RobotLocomotion__drake/.bazelrc
+[INFO 22:47:38.706 src/main/cpp/rc_file.cc:62] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/RobotLocomotion__drake/tools/bazel.rc
+[INFO 22:47:38.706 src/main/cpp/rc_file.cc:62] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/RobotLocomotion__drake/tools/cc_toolchain/bazel.rc
+[INFO 22:47:38.706 src/main/cpp/rc_file.cc:62] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/RobotLocomotion__drake/tools/dynamic_analysis/bazel.rc
+[INFO 22:47:38.707 src/main/cpp/rc_file.cc:62] Parsing the RcFile /data/h445xu/repo/bazel-repos/cloned_repos/RobotLocomotion__drake/tools/lint/bazel.rc
+[FATAL 22:47:38.707 src/main/cpp/blaze.cc:1237] Nonexistent path in import declaration in config file '/data/h445xu/repo/bazel-repos/cloned_repos/RobotLocomotion__drake/.bazelrc': 'import %workspace%/gen/environment.bazelrc' (are you in your source checkout/WORKSPACE?)
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

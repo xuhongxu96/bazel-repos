@@ -1,0 +1,9 @@
+Starting local Bazel server and connecting to it...
+ checking cached actions
+ERROR: /data/h445xu/repo/bazel-repos/cloned_repos/opentibia__yatc/WORKSPACE:8:17: fetching local_repository rule //external:rules_tibia: java.io.IOException: No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/709f892ab0a7db67d59b42f356d869ff/external/rules_tibia
+ERROR: Error computing the main repository mapping: no such package '@rules_tibia//': No WORKSPACE file found in /data/h445xu/.cache/bazel/_bazel_hongxu/709f892ab0a7db67d59b42f356d869ff/external/rules_tibia
+ checking cached actions
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

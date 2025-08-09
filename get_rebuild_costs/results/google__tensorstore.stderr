@@ -1,0 +1,10 @@
+Starting local Bazel server and connecting to it...
+WARNING: --enable_bzlmod is set, but no MODULE.bazel file was found at the workspace root. Bazel will create an empty MODULE.bazel file. Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel. For more details, please refer to https://github.com/bazelbuild/bazel/issues/18958.
+ no actions running
+ no actions running
+ERROR: Error computing the main repository mapping: module rules_cc@0.0.9 not found in registries:
+* https://bcr.bazel.build/modules/rules_cc/0.0.9/MODULE.bazel: not found
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: UnexpectedEof
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

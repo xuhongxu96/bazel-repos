@@ -1,0 +1,30 @@
+2025/08/09 02:07:08 Downloading https://releases.bazel.build/5.3.2/release/bazel-5.3.2-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server and connecting to it...
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b63abd17eab34369ef16f40613b60f0b/external/org_tensorflow/third_party/py/python_configure.bzl", line 288, column 42, in <toplevel>
+		remote_python_configure = repository_rule(
+Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
+ERROR: Traceback (most recent call last):
+	File "/data/h445xu/.cache/bazel/_bazel_hongxu/b63abd17eab34369ef16f40613b60f0b/external/org_tensorflow/third_party/gpus/cuda_configure.bzl", line 1444, column 40, in <toplevel>
+		remote_cuda_configure = repository_rule(
+Error in repository_rule: in call to repository_rule(), parameter 'remotable' is experimental and thus unavailable with the current flags. It may be enabled by setting --experimental_repo_remote_exec
+Loading: 0 packages loaded
+WARNING: Download from https://storage.googleapis.com/mirror.tensorflow.org/github.com/tensorflow/runtime/archive/4ce3e4da2e21ae4dfcee9366415e55f408c884ec.tar.gz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+ERROR: error loading package '': at /data/h445xu/.cache/bazel/_bazel_hongxu/b63abd17eab34369ef16f40613b60f0b/external/org_tensorflow/tensorflow/workspace2.bzl:5:6: initialization of module 'third_party/gpus/cuda_configure.bzl' failed
+ERROR: Skipping '//...': no targets found beneath ''
+WARNING: --keep_going specified, ignoring errors. Results may be inaccurate
+Read 0 lines from bazel query output...
+INFO: Empty results
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+
+thread 'main' panicked at depstat/src/main.rs:23:43:
+called `Result::unwrap()` on an `Err` value: Custom("missing field `$value`")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
