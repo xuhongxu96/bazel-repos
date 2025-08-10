@@ -4,7 +4,7 @@ Datasets for (**NOT ONLY**) Bazel-Based Projects (Repositories) in GitHub.
 
 ## Overview
 
-This project includes 4 datasets:
+This project includes 5 datasets:
 
 1. **search_repos/repos:** We have collected 126082 repositories using GitHub Search API. Filter criteria is as follows (searching details will be explained later):
    ```
@@ -29,6 +29,9 @@ dependency graph of 425 of them. Subsequently, we computed the rebuild costs usi
 the `depstat` tool, available at
 [https://github.com/xuhongxu96/depreduce](https://github.com/xuhongxu96/depreduce)
 (currently private).
+
+5. **get_rebuild_costs/sorted.txt:** This file contains the list of
+repositories sorted by their rebuild costs.
 
 ## Searching Strategy
 
