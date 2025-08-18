@@ -4,7 +4,7 @@ Datasets for (**NOT ONLY**) Bazel-Based Projects (Repositories) in GitHub.
 
 ## Overview
 
-This project includes 5 datasets:
+This project includes 6 datasets:
 
 1. [**search_repos/repos**](search_repos/repos): We have collected 126082 repositories using GitHub Search API. Filter criteria is as follows (searching details will be explained later):
    ```
@@ -25,13 +25,16 @@ This project includes 5 datasets:
 
 4. [**get_rebuild_costs/results**](get_rebuild_costs/results): We successfully cloned the 560
 filtered repositories and executed the Bazel query command to extract the
-dependency graph of 425 of them. Subsequently, we computed the rebuild costs using
+dependency graph of 425 of them (output XMLs are saved). 
+Subsequently, we computed the rebuild costs using
 the `depstat` tool, available at
 [https://github.com/xuhongxu96/depreduce](https://github.com/xuhongxu96/depreduce)
 (currently private).
 
 5. [**get_rebuild_costs/sorted.txt**](get_rebuild_costs/sorted.txt): This file contains the list of
 repositories sorted by their rebuild costs.
+
+6. [**collect_rule_stats/results**](collect_rule_stats/results): We have collected Bazel rule statistics for the cloned repositories. It can be helpful for understanding the programming languages used in these repositories.
 
 ## Searching Strategy
 
