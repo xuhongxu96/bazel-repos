@@ -32,7 +32,7 @@ for repo in repos:
         if os.path.exists(result_path):
             print(f"Results for {name} already exist, skipping.")
         else:
-            p = sp.run([DEPSTAT, "-w", ".", "--deps-only"], cwd=repo_path, stdout=sp.PIPE, stderr=sp.PIPE)
+            p = sp.run([DEPSTAT, "-w", "."], cwd=repo_path, stdout=sp.PIPE, stderr=sp.PIPE)
             stdout = p.stdout.decode("utf-8")
             with open(f"results/{name.replace('/', '__')}.stdout", "w") as f:
                 f.write(stdout)
